@@ -54,3 +54,43 @@ model VerificationToken {
 
   @@unique([identifier, token])
 }
+
+model WordBook {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?
+  level       String?
+  sourceType  String   @default("builtin")
+  order       Int      @default(0)
+  words       Word[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Word {
+  id           String    @id @default(cuid())
+  wordBookId   String
+  headword     String
+  phonetic     String?
+  partOfSpeech String?
+  definitionZh String
+  examTags     String[]
+  order        Int       @default(0)
+  wordBook     WordBook  @relation(fields: [wordBookId], references: [id], onDelete: Cascade)
+  examples     Example[]
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@unique([wordBookId, headword])
+}
+
+model Example {
+  id            String   @id @default(cuid())
+  wordId        String
+  sentence      String
+  translationZh String
+  source        String?
+  order         Int      @default(0)
+  word          Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
