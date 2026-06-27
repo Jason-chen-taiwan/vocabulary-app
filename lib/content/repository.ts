@@ -59,4 +59,13 @@ export class ContentRepository {
     })
     return (rows as Parameters<typeof toWordWithExamples>[0][]).map(toWordWithExamples)
   }
+
+  async listWordsWithExamplesByIds(ids: string[]): Promise<WordWithExamples[]> {
+    if (ids.length === 0) return []
+    const rows = await this.db.word.findMany({
+      where: { id: { in: ids } },
+      include: { examples: { orderBy: { order: 'asc' } } },
+    })
+    return (rows as Parameters<typeof toWordWithExamples>[0][]).map(toWordWithExamples)
+  }
 }
