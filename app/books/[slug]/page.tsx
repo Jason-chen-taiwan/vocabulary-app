@@ -13,7 +13,10 @@ export default async function BookDetailPage({ params }: { params: Promise<{ slu
   return (
     <main className="mx-auto max-w-2xl px-4 py-8">
       <Link href="/books" className="text-sm text-gray-400 hover:underline">← 所有單字書</Link>
-      <h1 className="mt-2 mb-6 text-2xl font-bold">{book.name}</h1>
+      <h1 className="mt-2 mb-4 text-2xl font-bold">{book.name}</h1>
+      <Link href={`/learn/${slug}`} className="mb-4 inline-block rounded-lg bg-white px-4 py-2 font-medium text-black hover:bg-gray-200">
+        開始複習
+      </Link>
       <ul className="divide-y divide-gray-800">
         {words.map((w) => (
           <li key={w.id}>
