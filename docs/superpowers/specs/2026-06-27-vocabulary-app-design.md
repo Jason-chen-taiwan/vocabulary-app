@@ -50,12 +50,27 @@
 | 前端/全端框架 | Next.js（App Router）+ React + TypeScript |
 | 樣式 | Tailwind CSS |
 | 後端 | Next.js Server Actions / Route Handlers |
-| 認證 | Auth.js（Email + Google） |
-| 資料庫 | Postgres（Neon 或自架） |
-| ORM | Prisma |
+| 認證 | Auth.js（**純 Google OAuth**，無 Email/密碼，零維護零成本） |
+| 資料庫 | **Neon Postgres**（免費起步，serverless driver 適配 Cloudflare Workers） |
+| ORM | Prisma（搭配 Neon serverless adapter） |
 | 排程演算法 | `ts-fsrs`（開源 FSRS 套件） |
+| TTS 發音 | 瀏覽器 Web Speech API（`SpeechSynthesis`，零成本） |
+| 部署 | **Cloudflare**（Pages/Workers + OpenNext 適配 Next.js） |
 | PWA | Web App Manifest + Service Worker + IndexedDB |
 | 測試 | Vitest（單元/整合），採 TDD |
+
+### 成本原則（重要）
+
+全棧以「免費或固定低月費、**無超量自動爆帳單**」為鐵則。避開用量計費型服務（如 Vercel 超量計費）。所有外部依賴的超量行為必須是「限流/暫停」而非「自動扣款」。
+
+- 部署用 Cloudflare（價格可預測，避開 Vercel 超量風險）
+- DB 用 Neon 固定方案制（免費額度用完是限流，不偷扣款）
+- TTS 用瀏覽器內建，零邊際成本
+- TOEIC 詞表與例句用 Claude **一次性離線生成 + 人工校對**，存靜態資料 → 零 API 邊際成本（不在 runtime 呼叫 AI）
+
+### Cloudflare Workers / edge 注意事項
+
+部署環境為 edge，資料庫連線須用 **Neon serverless driver（HTTP）** 搭配對應的 Prisma adapter，不可用傳統 TCP 連線池。此限制影響 `repository` 層實作方式，須在資料存取模組統一處理。
 
 ---
 

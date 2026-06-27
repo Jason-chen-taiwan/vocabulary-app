@@ -36,11 +36,19 @@
 
 - Next.js（App Router）+ React + TypeScript
 - Tailwind CSS
-- Auth.js（Email + Google）
-- Postgres + Prisma（repository 模式）
+- Auth.js（**純 Google OAuth**，不做 Email/密碼）
+- **Neon Postgres** + Prisma（repository 模式，**Neon serverless driver/HTTP**，非 TCP 連線池）
 - `ts-fsrs`（藏在 `scheduler` 模組後）
+- TTS：瀏覽器 Web Speech API（不呼叫付費 TTS）
+- 部署：**Cloudflare**（Workers/Pages + OpenNext）
 - PWA：Manifest + Service Worker + IndexedDB（離線複習 + 同步佇列）
 - 測試：Vitest
+
+## 成本鐵則
+
+- 只用「免費或固定低月費、**無超量自動爆帳單**」的服務；外部依賴超量必須是限流/暫停，不可自動扣款。
+- **不在 runtime 呼叫 AI**：TOEIC 詞表與例句一次性離線生成後存靜態資料，零 API 邊際成本。
+- edge 環境：DB 走 Neon serverless driver（HTTP），repository 層統一處理，不可用傳統 TCP 連線池。
 
 ---
 
