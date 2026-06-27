@@ -4,7 +4,12 @@ import { getCurrentUser } from '@/lib/auth/session'
 import { ContentRepository } from '@/lib/content/repository'
 import { LearningRepository } from '@/lib/learning/repository'
 import { buildSession } from '@/lib/learning/session'
-import { ReviewSession, type ReviewCard } from '@/components/review-session'
+import { buildQuestion, sample } from '@/lib/learning/question'
+import { ReviewSession, type ReviewItem } from '@/components/review-session'
+
+const NEW_LIMIT = 20
+const DUE_LIMIT = 100
+const SPOT_CHECK_LIMIT = 3
 
 export default async function LearnPage({ params }: { params: Promise<{ slug: string }> }) {
   const user = await getCurrentUser()
@@ -15,19 +20,26 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
   if (!book) notFound()
 
   const items = await buildSession(
-    { userId: user.id, wordBookId: book.id, now: new Date(), newLimit: 20, dueLimit: 100 },
+    { userId: user.id, wordBookId: book.id, now: new Date(), newLimit: NEW_LIMIT, dueLimit: DUE_LIMIT, spotCheckLimit: SPOT_CHECK_LIMIT },
     { learning: new LearningRepository() },
   )
 
   const words = await content.listWordsWithExamplesByIds(items.map((i) => i.wordId))
   const byId = new Map(words.map((w) => [w.id, w]))
-  const cards: ReviewCard[] = []
+  const allWords = await content.listWordsByBook(book.id)
+  const allDefs = allWords.map((w) => w.definitionZh)
+
+  const reviewItems: ReviewItem[] = []
   for (const item of items) {
     const word = byId.get(item.wordId)
-    if (word) cards.push({ mode: item.mode, isNew: item.isNew, word })
+    if (!word) continue
+    const distractors = item.questionType === 'mc'
+      ? sample(allDefs.filter((d) => d !== word.definitionZh), 3)
+      : []
+    reviewItems.push({ question: buildQuestion(word, item.questionType, distractors), isSpotCheck: item.isSpotCheck })
   }
 
-  if (cards.length === 0) {
+  if (reviewItems.length === 0) {
     return (
       <main className="mx-auto max-w-xl px-4 py-16 text-center">
         <h1 className="text-2xl font-bold">{book.name}</h1>
@@ -36,5 +48,5 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
       </main>
     )
   }
-  return <ReviewSession bookName={book.name} bookSlug={slug} cards={cards} />
+  return <ReviewSession bookName={book.name} bookSlug={slug} items={reviewItems} />
 }
