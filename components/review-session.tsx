@@ -54,7 +54,9 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
   }
 
   async function next() {
+    if (busy) return
     if (index + 1 >= items.length) {
+      setBusy(true)
       try { await finishSessionAction(items.length) } catch { /* ignore */ }
       setDone(true)
       return

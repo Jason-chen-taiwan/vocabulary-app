@@ -26,15 +26,15 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
 
   const words = await content.listWordsWithExamplesByIds(items.map((i) => i.wordId))
   const byId = new Map(words.map((w) => [w.id, w]))
-  const allWords = await content.listWordsByBook(book.id)
-  const allDefs = allWords.map((w) => w.definitionZh)
+  const needsMc = items.some((i) => i.questionType === 'mc')
+  const allDefs = needsMc ? (await content.listWordsByBook(book.id)).map((w) => w.definitionZh) : []
 
   const reviewItems: ReviewItem[] = []
   for (const item of items) {
     const word = byId.get(item.wordId)
     if (!word) continue
     const distractors = item.questionType === 'mc'
-      ? sample(allDefs.filter((d) => d !== word.definitionZh), 3)
+      ? sample([...new Set(allDefs)].filter((d) => d !== word.definitionZh), 3)
       : []
     reviewItems.push({ question: buildQuestion(word, item.questionType, distractors), isSpotCheck: item.isSpotCheck })
   }
