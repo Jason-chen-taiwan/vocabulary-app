@@ -3,7 +3,7 @@ import { shouldCache } from './sw-strategy.js'
 const CACHE = 'vocab-v1'
 
 self.addEventListener('install', (e) => {
-  self.skipWaiting()
+  e.waitUntil(self.skipWaiting())
 })
 
 self.addEventListener('activate', (e) => {
@@ -18,7 +18,7 @@ self.addEventListener('fetch', (event) => {
       const cached = await cache.match(event.request)
       if (cached) return cached
       const res = await fetch(event.request)
-      cache.put(event.request, res.clone())
+      await cache.put(event.request, res.clone())
       return res
     })
   )
