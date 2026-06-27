@@ -1,4 +1,4 @@
-interface Delegate<T> {
+export interface Delegate<T> {
   findUnique(args: { where: { id: string } }): Promise<T | null>
   create(args: { data: Partial<T> }): Promise<T>
 }

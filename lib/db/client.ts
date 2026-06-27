@@ -14,7 +14,7 @@ let prisma: PrismaClient | undefined
 
 export function getPrisma(): PrismaClient {
   if (!prisma) {
-    const adapter = new PrismaNeonHttp(getEnv().DATABASE_URL)
+    const adapter = new PrismaNeonHttp(getEnv().DATABASE_URL, {})
     prisma = new PrismaClient({ adapter })
   }
   return prisma
