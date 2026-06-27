@@ -13,7 +13,7 @@ export class EventBus {
 
   subscribe<T extends EventType>(type: T, handler: Handler<T>): void {
     const list = this.handlers.get(type) ?? []
-    list.push(handler as Handler<EventType>)
+    list.push(handler as unknown as Handler<EventType>)
     this.handlers.set(type, list)
   }
 
