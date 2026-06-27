@@ -111,6 +111,7 @@ model UserCard {
   reps          Int         @default(0)
   lapses        Int         @default(0)
   state         Int         @default(0)
+  learningSteps Int         @default(0)
   lastReview    DateTime?
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt

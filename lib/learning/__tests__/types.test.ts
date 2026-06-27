@@ -14,18 +14,18 @@ describe('toCardState', () => {
     const row = {
       id: 'c1', userId: 'u1', wordId: 'w1',
       due, stability: 3.5, difficulty: 5.2, elapsedDays: 1, scheduledDays: 4,
-      reps: 2, lapses: 0, state: 2, lastReview: last,
+      reps: 2, lapses: 0, state: 2, learningSteps: 1, lastReview: last,
       createdAt: new Date(), updatedAt: new Date(),
     }
     expect(toCardState(row as any)).toEqual({
       due, stability: 3.5, difficulty: 5.2, elapsedDays: 1, scheduledDays: 4,
-      reps: 2, lapses: 0, state: 2, lastReview: last,
+      reps: 2, lapses: 0, state: 2, learningSteps: 1, lastReview: last,
     })
   })
 
   it('keeps lastReview null when absent', () => {
     const due = new Date('2026-07-01T00:00:00Z')
-    const row = { due, stability: 0, difficulty: 0, elapsedDays: 0, scheduledDays: 0, reps: 0, lapses: 0, state: 0, lastReview: null }
+    const row = { due, stability: 0, difficulty: 0, elapsedDays: 0, scheduledDays: 0, reps: 0, lapses: 0, state: 0, learningSteps: 0, lastReview: null }
     expect(toCardState(row as any).lastReview).toBeNull()
   })
 })

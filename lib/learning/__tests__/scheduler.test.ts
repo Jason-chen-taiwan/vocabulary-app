@@ -11,6 +11,7 @@ describe('FsrsScheduler', () => {
     expect(c.reps).toBe(0)
     expect(c.due.getTime()).toBe(now.getTime())
     expect(c.lastReview).toBeNull()
+    expect(c.learningSteps).toBe(0)
   })
 
   it('review with "good" advances reps and schedules due in the future', () => {

@@ -8,9 +8,6 @@ const RATING_MAP: Record<Rating, Grade> = {
   easy: FsrsRating.Easy,
 }
 
-// ts-fsrs v5 Card has learning_steps (number) not present in CardState.
-// We drop it on toCardState (state-loss for multi-step sequences is acceptable
-// for this version; tracked in task-2-report). We default to 0 on toFsrsCard.
 function toCardState(card: Card): CardState {
   return {
     due: card.due,
@@ -21,6 +18,7 @@ function toCardState(card: Card): CardState {
     reps: card.reps,
     lapses: card.lapses,
     state: card.state,
+    learningSteps: card.learning_steps,
     lastReview: card.last_review ?? null,
   }
 }
@@ -32,7 +30,7 @@ function toFsrsCard(state: CardState): Card {
     difficulty: state.difficulty,
     elapsed_days: state.elapsedDays,
     scheduled_days: state.scheduledDays,
-    learning_steps: 0, // not tracked in CardState; new cards start at step 0
+    learning_steps: state.learningSteps,
     reps: state.reps,
     lapses: state.lapses,
     state: state.state,
