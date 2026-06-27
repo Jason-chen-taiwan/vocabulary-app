@@ -7,6 +7,8 @@ import { parseSeedBook } from '../lib/content/seed-schema.ts'
 const file = process.argv[2] ?? 'content/toeic-core.json'
 const book = parseSeedBook(JSON.parse(readFileSync(file, 'utf8')))
 
+if (!process.env.DATABASE_URL) throw new Error('DATABASE_URL is not set')
+
 // Use PrismaNeon (WebSocket pool) — PrismaNeonHttp does not support transactions,
 // but Prisma 7 wraps writes in implicit transactions. PrismaNeon takes a pg-compatible
 // config object and creates the pool internally.

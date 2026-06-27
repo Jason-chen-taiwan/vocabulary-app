@@ -93,4 +93,6 @@ model Example {
   source        String?
   order         Int      @default(0)
   word          Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@index([wordId])
 }

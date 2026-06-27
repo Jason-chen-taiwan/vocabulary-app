@@ -20,8 +20,6 @@ export class BuiltinWordBookSource implements CardSource {
   async listCards(): Promise<WordWithExamples[]> {
     const book = await this.repo.getWordBookBySlug(this.slug)
     if (!book) return []
-    const words = await this.repo.listWordsByBook(book.id)
-    const cards = await Promise.all(words.map((w) => this.repo.getWordWithExamples(w.id)))
-    return cards.filter((c): c is WordWithExamples => c !== null)
+    return this.repo.listWordsByBookWithExamples(book.id)
   }
 }
