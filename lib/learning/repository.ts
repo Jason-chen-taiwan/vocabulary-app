@@ -15,8 +15,7 @@ interface LearningDb {
 function stateData(state: CardState) {
   return {
     due: state.due, stability: state.stability, difficulty: state.difficulty,
-    learningSteps: state.learningSteps,
-    elapsedDays: state.elapsedDays, scheduledDays: state.scheduledDays,
+    learningSteps: state.learningSteps, elapsedDays: state.elapsedDays, scheduledDays: state.scheduledDays,
     reps: state.reps, lapses: state.lapses, state: state.state, lastReview: state.lastReview,
   }
 }
@@ -27,23 +26,32 @@ export interface ReviewLogInput {
   lastElapsedDays: number; scheduledDays: number
 }
 
+export interface CardProgress {
+  consecutiveCorrect: number
+  mastered: boolean
+  exists: boolean
+}
+
 export class LearningRepository {
   private readonly db: LearningDb
   constructor(db?: LearningDb) {
     this.db = db ?? (getPrisma() as unknown as LearningDb)
   }
 
-  async getCard(userId: string, wordId: string): Promise<CardState | null> {
-    const row = await this.db.userCard.findUnique({ where: { userId_wordId: { userId, wordId } } })
-    return row ? toCardState(row as Parameters<typeof toCardState>[0]) : null
+  async getCard(userId: string, wordId: string): Promise<{ state: CardState; consecutiveCorrect: number; mastered: boolean } | null> {
+    const row = (await this.db.userCard.findUnique({ where: { userId_wordId: { userId, wordId } } })) as
+      (Parameters<typeof toCardState>[0] & { consecutiveCorrect: number; mastered: boolean }) | null
+    if (!row) return null
+    return { state: toCardState(row), consecutiveCorrect: row.consecutiveCorrect, mastered: row.mastered }
   }
 
-  async saveCard(userId: string, wordId: string, state: CardState, exists: boolean): Promise<string> {
-    if (exists) {
-      const row = (await this.db.userCard.update({ where: { userId_wordId: { userId, wordId } }, data: stateData(state) })) as { id: string }
+  async saveCard(userId: string, wordId: string, state: CardState, progress: CardProgress): Promise<string> {
+    const data = { ...stateData(state), consecutiveCorrect: progress.consecutiveCorrect, mastered: progress.mastered }
+    if (progress.exists) {
+      const row = (await this.db.userCard.update({ where: { userId_wordId: { userId, wordId } }, data })) as { id: string }
       return row.id
     }
-    const row = (await this.db.userCard.create({ data: { userId, wordId, ...stateData(state) } })) as { id: string }
+    const row = (await this.db.userCard.create({ data: { userId, wordId, ...data } })) as { id: string }
     return row.id
   }
 
@@ -51,9 +59,17 @@ export class LearningRepository {
     await this.db.reviewLog.create({ data: input })
   }
 
-  async listDueCards(userId: string, now: Date, limit: number): Promise<{ wordId: string; state: CardState }[]> {
-    const rows = await this.db.userCard.findMany({ where: { userId, due: { lte: now } }, orderBy: { due: 'asc' }, take: limit })
-    return (rows as ({ wordId: string } & Parameters<typeof toCardState>[0])[]).map((r) => ({ wordId: r.wordId, state: toCardState(r) }))
+  async listDueCards(userId: string, now: Date, limit: number): Promise<{ wordId: string; consecutiveCorrect: number }[]> {
+    const rows = await this.db.userCard.findMany({
+      where: { userId, mastered: false, due: { lte: now } },
+      orderBy: { due: 'asc' }, take: limit, select: { wordId: true, consecutiveCorrect: true },
+    })
+    return rows as { wordId: string; consecutiveCorrect: number }[]
+  }
+
+  async listMasteredWordIds(userId: string): Promise<string[]> {
+    const rows = await this.db.userCard.findMany({ where: { userId, mastered: true }, select: { wordId: true } })
+    return (rows as { wordId: string }[]).map((r) => r.wordId)
   }
 
   async listNewWordIds(userId: string, wordBookId: string, limit: number): Promise<string[]> {
