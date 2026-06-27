@@ -19,9 +19,11 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
     { learning: new LearningRepository() },
   )
 
+  const words = await content.listWordsWithExamplesByIds(items.map((i) => i.wordId))
+  const byId = new Map(words.map((w) => [w.id, w]))
   const cards: ReviewCard[] = []
   for (const item of items) {
-    const word = await content.getWordWithExamples(item.wordId)
+    const word = byId.get(item.wordId)
     if (word) cards.push({ mode: item.mode, isNew: item.isNew, word })
   }
 

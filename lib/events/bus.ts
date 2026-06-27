@@ -20,7 +20,11 @@ export class EventBus {
   async publish(event: DomainEvent): Promise<void> {
     const list = this.handlers.get(event.type) ?? []
     for (const handler of list) {
-      await handler(event)
+      try {
+        await handler(event)
+      } catch (err) {
+        console.error(`event handler for ${event.type} failed:`, err)
+      }
     }
   }
 }

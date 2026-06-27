@@ -20,24 +20,27 @@ describe('LearningRepository', () => {
     expect(db.userCard.findUnique).toHaveBeenCalledWith({ where: { userId_wordId: { userId: 'u1', wordId: 'w1' } } })
   })
 
-  it('saveCard updates when the card exists', async () => {
-    const db = makeDb(); db.userCard.findUnique.mockResolvedValue({ id: 'c1' })
+  it('saveCard updates when exists=true and returns the card id', async () => {
+    const db = makeDb(); db.userCard.update.mockResolvedValue({ id: 'c1' })
     const repo = new LearningRepository(db as any)
-    await repo.saveCard('u1', 'w1', state)
+    const id = await repo.saveCard('u1', 'w1', state, true)
     expect(db.userCard.update).toHaveBeenCalledWith({
       where: { userId_wordId: { userId: 'u1', wordId: 'w1' } },
       data: { due: now, stability: 1, difficulty: 5, learningSteps: 0, elapsedDays: 0, scheduledDays: 1, reps: 1, lapses: 0, state: 1, lastReview: now },
     })
     expect(db.userCard.create).not.toHaveBeenCalled()
+    expect(id).toBe('c1')
   })
 
-  it('saveCard creates when the card does not exist', async () => {
-    const db = makeDb(); db.userCard.findUnique.mockResolvedValue(null)
+  it('saveCard creates when exists=false and returns the card id', async () => {
+    const db = makeDb(); db.userCard.create.mockResolvedValue({ id: 'c1' })
     const repo = new LearningRepository(db as any)
-    await repo.saveCard('u1', 'w1', state)
+    const id = await repo.saveCard('u1', 'w1', state, false)
     expect(db.userCard.create).toHaveBeenCalledWith({
       data: { userId: 'u1', wordId: 'w1', due: now, stability: 1, difficulty: 5, learningSteps: 0, elapsedDays: 0, scheduledDays: 1, reps: 1, lapses: 0, state: 1, lastReview: now },
     })
+    expect(db.userCard.update).not.toHaveBeenCalled()
+    expect(id).toBe('c1')
   })
 
   it('listDueCards maps rows to {wordId, state} ordered by due, limited', async () => {

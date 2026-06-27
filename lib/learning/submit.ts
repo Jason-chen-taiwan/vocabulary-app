@@ -11,26 +11,8 @@ export async function submitReview(
   const existing = await deps.learning.getCard(userId, wordId)
   const before = existing ?? deps.scheduler.newCard(now)
   const next = deps.scheduler.review(before, rating, now)
-
-  // UserCard is the source of truth — write it first (single write, HTTP-safe).
-  await deps.learning.saveCard(userId, wordId, next)
-
-  // ReviewLog is append-only audit — best-effort after the card is saved.
-  const cardId = await deps.learning.getCardId(userId, wordId)
-  if (cardId) {
-    await deps.learning.createReviewLog({
-      userCardId: cardId,
-      rating: RATING_TO_INT[rating],
-      state: next.state,
-      due: next.due,
-      stability: next.stability,
-      difficulty: next.difficulty,
-      elapsedDays: next.elapsedDays,
-      lastElapsedDays: before.elapsedDays,
-      scheduledDays: next.scheduledDays,
-    })
-  }
-
+  const cardId = await deps.learning.saveCard(userId, wordId, next, existing !== null)
+  await deps.learning.createReviewLog({ userCardId: cardId, rating: RATING_TO_INT[rating], state: next.state, due: next.due, stability: next.stability, difficulty: next.difficulty, elapsedDays: next.elapsedDays, lastElapsedDays: before.elapsedDays, scheduledDays: next.scheduledDays })
   await deps.bus.publish({ type: 'ReviewCompleted', userId, wordId, rating, at: now })
   return next
 }

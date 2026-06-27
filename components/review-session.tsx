@@ -32,18 +32,23 @@ export function ReviewSession({ bookName, bookSlug, cards }: { bookName: string;
   async function grade(rating: Rating) {
     if (busy) return
     setBusy(true)
-    const result = await submitReviewAction(card.word.id, rating)
-    if (!result.ok) {
-      console.error('複習送出失敗，請重新整理頁面')
-      setBusy(false)
-      return
-    }
-    if (index + 1 >= cards.length) {
-      await finishSessionAction(cards.length)
-      setDone(true)
-    } else {
-      setIndex(index + 1)
-      setRevealed(false)
+    try {
+      const result = await submitReviewAction(card.word.id, rating)
+      if (!result.ok) {
+        console.error('複習送出失敗，請重新整理頁面')
+        setBusy(false)
+        return
+      }
+      if (index + 1 >= cards.length) {
+        await finishSessionAction(cards.length)
+        setDone(true)
+      } else {
+        setIndex(index + 1)
+        setRevealed(false)
+        setBusy(false)
+      }
+    } catch (err) {
+      console.error('複習送出發生錯誤，請重試', err)
       setBusy(false)
     }
   }

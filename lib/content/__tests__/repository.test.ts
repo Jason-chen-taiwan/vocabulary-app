@@ -82,4 +82,31 @@ describe('ContentRepository', () => {
     })
     expect(result?.examples).toEqual([{ id: 'e1', sentence: 'X.', translationZh: 'X。', source: null }])
   })
+
+  it('listWordsWithExamplesByIds fetches by ids in one query and maps to WordWithExamples', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([
+      {
+        id: 'w1', headword: 'invoice', phonetic: null, partOfSpeech: 'n.', definitionZh: '發票', examTags: ['TOEIC'],
+        examples: [{ id: 'e1', sentence: 'X.', translationZh: 'X。', source: null }],
+      },
+    ])
+    const repo = new ContentRepository(db as any)
+    const result = await repo.listWordsWithExamplesByIds(['w1'])
+    expect(db.word.findMany).toHaveBeenCalledWith({
+      where: { id: { in: ['w1'] } },
+      include: { examples: { orderBy: { order: 'asc' } } },
+    })
+    expect(result).toHaveLength(1)
+    expect(result[0].id).toBe('w1')
+    expect(result[0].examples).toEqual([{ id: 'e1', sentence: 'X.', translationZh: 'X。', source: null }])
+  })
+
+  it('listWordsWithExamplesByIds returns [] immediately without calling findMany when ids is empty', async () => {
+    const db = makeDb()
+    const repo = new ContentRepository(db as any)
+    const result = await repo.listWordsWithExamplesByIds([])
+    expect(result).toEqual([])
+    expect(db.word.findMany).not.toHaveBeenCalled()
+  })
 })

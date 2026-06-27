@@ -8,8 +8,7 @@ const reviewed = { due: new Date('2026-06-28T00:00:00Z'), stability: 2, difficul
 function deps(existing: any) {
   const learning = {
     getCard: vi.fn().mockResolvedValue(existing),
-    saveCard: vi.fn().mockResolvedValue(undefined),
-    getCardId: vi.fn().mockResolvedValue('c1'),
+    saveCard: vi.fn().mockResolvedValue('c1'),
     createReviewLog: vi.fn().mockResolvedValue(undefined),
   }
   const scheduler = { newCard: vi.fn().mockReturnValue(newState), review: vi.fn().mockReturnValue(reviewed) }
@@ -24,17 +23,19 @@ describe('submitReview', () => {
     expect(d.scheduler.newCard).toHaveBeenCalledWith(now)
     expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'good', now)
     // saveCard BEFORE createReviewLog (UserCard is the source of truth)
-    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed)
+    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, false)
     expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ userCardId: 'c1', rating: 3, state: reviewed.state, due: reviewed.due }))
     expect(d.bus.publish).toHaveBeenCalledWith({ type: 'ReviewCompleted', userId: 'u1', wordId: 'w1', rating: 'good', at: now })
     expect(result).toEqual(reviewed)
   })
 
-  it('uses the existing card state when present', async () => {
+  it('uses the existing card state when present and passes exists=true to saveCard', async () => {
     const d = deps(newState)
     await submitReview({ userId: 'u1', wordId: 'w1', rating: 'again', now }, d as any)
     expect(d.scheduler.newCard).not.toHaveBeenCalled()
     expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'again', now)
+    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, true)
+    expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ userCardId: 'c1' }))
   })
 })
 

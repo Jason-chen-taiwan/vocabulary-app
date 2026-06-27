@@ -29,4 +29,15 @@ describe('EventBus', () => {
     const bus = new EventBus()
     await expect(bus.publish({ type: 'SessionFinished', userId: 'u1', reviewed: 0, at })).resolves.toBeUndefined()
   })
+
+  it('a throwing handler does not prevent subsequent handlers from running and publish resolves', async () => {
+    const bus = new EventBus()
+    const second = vi.fn()
+    bus.subscribe('ReviewCompleted', async () => { throw new Error('handler boom') })
+    bus.subscribe('ReviewCompleted', second)
+    await expect(
+      bus.publish({ type: 'ReviewCompleted', userId: 'u1', wordId: 'w1', rating: 'good', at })
+    ).resolves.toBeUndefined()
+    expect(second).toHaveBeenCalledOnce()
+  })
 })

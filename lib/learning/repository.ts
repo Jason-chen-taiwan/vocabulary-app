@@ -38,18 +38,13 @@ export class LearningRepository {
     return row ? toCardState(row as Parameters<typeof toCardState>[0]) : null
   }
 
-  async getCardId(userId: string, wordId: string): Promise<string | null> {
-    const row = (await this.db.userCard.findUnique({ where: { userId_wordId: { userId, wordId } } })) as { id: string } | null
-    return row?.id ?? null
-  }
-
-  async saveCard(userId: string, wordId: string, state: CardState): Promise<void> {
-    const existing = await this.db.userCard.findUnique({ where: { userId_wordId: { userId, wordId } } })
-    if (existing) {
-      await this.db.userCard.update({ where: { userId_wordId: { userId, wordId } }, data: stateData(state) })
-    } else {
-      await this.db.userCard.create({ data: { userId, wordId, ...stateData(state) } })
+  async saveCard(userId: string, wordId: string, state: CardState, exists: boolean): Promise<string> {
+    if (exists) {
+      const row = (await this.db.userCard.update({ where: { userId_wordId: { userId, wordId } }, data: stateData(state) })) as { id: string }
+      return row.id
     }
+    const row = (await this.db.userCard.create({ data: { userId, wordId, ...stateData(state) } })) as { id: string }
+    return row.id
   }
 
   async createReviewLog(input: ReviewLogInput): Promise<void> {
