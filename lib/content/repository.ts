@@ -1,0 +1,62 @@
+import { getPrisma } from '@/lib/db/client'
+import {
+  toWordBookData, toWordData, toWordWithExamples,
+  type WordBookData, type WordData, type WordWithExamples,
+} from './types'
+
+// Minimal structural type of the Prisma delegates we use — lets tests inject a mock.
+interface ContentDb {
+  wordBook: {
+    findMany(args: unknown): Promise<unknown[]>
+    findUnique(args: unknown): Promise<unknown | null>
+  }
+  word: {
+    findMany(args: unknown): Promise<unknown[]>
+    findUnique(args: unknown): Promise<unknown | null>
+  }
+}
+
+export class ContentRepository {
+  private readonly db: ContentDb
+  constructor(db?: ContentDb) {
+    this.db = db ?? (getPrisma() as unknown as ContentDb)
+  }
+
+  async listWordBooks(): Promise<WordBookData[]> {
+    const rows = await this.db.wordBook.findMany({
+      orderBy: { order: 'asc' },
+      include: { _count: { select: { words: true } } },
+    })
+    return (rows as Parameters<typeof toWordBookData>[0][]).map(toWordBookData)
+  }
+
+  async getWordBookBySlug(slug: string): Promise<WordBookData | null> {
+    const row = await this.db.wordBook.findUnique({
+      where: { slug },
+      include: { _count: { select: { words: true } } },
+    })
+    return row ? toWordBookData(row as Parameters<typeof toWordBookData>[0]) : null
+  }
+
+  async listWordsByBook(wordBookId: string): Promise<WordData[]> {
+    const rows = await this.db.word.findMany({ where: { wordBookId }, orderBy: { order: 'asc' } })
+    return (rows as Parameters<typeof toWordData>[0][]).map(toWordData)
+  }
+
+  async getWordWithExamples(wordId: string): Promise<WordWithExamples | null> {
+    const row = await this.db.word.findUnique({
+      where: { id: wordId },
+      include: { examples: { orderBy: { order: 'asc' } } },
+    })
+    return row ? toWordWithExamples(row as Parameters<typeof toWordWithExamples>[0]) : null
+  }
+
+  async listWordsByBookWithExamples(wordBookId: string): Promise<WordWithExamples[]> {
+    const rows = await this.db.word.findMany({
+      where: { wordBookId },
+      orderBy: { order: 'asc' },
+      include: { examples: { orderBy: { order: 'asc' } } },
+    })
+    return (rows as Parameters<typeof toWordWithExamples>[0][]).map(toWordWithExamples)
+  }
+}

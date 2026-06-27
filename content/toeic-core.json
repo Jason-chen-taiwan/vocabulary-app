@@ -1,0 +1,20 @@
+{
+  "slug": "toeic-core",
+  "name": "多益核心字彙",
+  "description": "職場與商務情境最常見的多益高頻單字",
+  "level": "TOEIC",
+  "words": [
+    { "headword": "negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "partOfSpeech": "v.", "definitionZh": "談判，協商", "examTags": ["TOEIC"], "examples": [{ "sentence": "We need to negotiate the terms of the contract.", "translationZh": "我們需要協商合約的條款。" }] },
+    { "headword": "invoice", "phonetic": "/ˈɪnvɔɪs/", "partOfSpeech": "n.", "definitionZh": "發票，請款單", "examTags": ["TOEIC"], "examples": [{ "sentence": "Please send the invoice to the accounting department.", "translationZh": "請將發票寄給會計部門。" }] },
+    { "headword": "deadline", "phonetic": "/ˈdedlaɪn/", "partOfSpeech": "n.", "definitionZh": "截止期限", "examTags": ["TOEIC"], "examples": [{ "sentence": "The deadline for the report is this Friday.", "translationZh": "報告的截止期限是這週五。" }] },
+    { "headword": "colleague", "phonetic": "/ˈkɑːliːɡ/", "partOfSpeech": "n.", "definitionZh": "同事", "examTags": ["TOEIC"], "examples": [{ "sentence": "She introduced me to her new colleague.", "translationZh": "她把我介紹給她的新同事。" }] },
+    { "headword": "schedule", "phonetic": "/ˈskedʒuːl/", "partOfSpeech": "n./v.", "definitionZh": "時間表；安排", "examTags": ["TOEIC"], "examples": [{ "sentence": "Let's schedule a meeting for next week.", "translationZh": "我們安排下週開個會吧。" }] },
+    { "headword": "budget", "phonetic": "/ˈbʌdʒɪt/", "partOfSpeech": "n.", "definitionZh": "預算", "examTags": ["TOEIC"], "examples": [{ "sentence": "The marketing project went over budget.", "translationZh": "這個行銷專案超出了預算。" }] },
+    { "headword": "client", "phonetic": "/ˈklaɪənt/", "partOfSpeech": "n.", "definitionZh": "客戶", "examTags": ["TOEIC"], "examples": [{ "sentence": "Our client requested a full refund.", "translationZh": "我們的客戶要求全額退款。" }] },
+    { "headword": "shipment", "phonetic": "/ˈʃɪpmənt/", "partOfSpeech": "n.", "definitionZh": "裝運，運送的貨物", "examTags": ["TOEIC"], "examples": [{ "sentence": "The shipment will arrive on Monday morning.", "translationZh": "這批貨將在週一早上抵達。" }] },
+    { "headword": "warranty", "phonetic": "/ˈwɔːrənti/", "partOfSpeech": "n.", "definitionZh": "保固，保證書", "examTags": ["TOEIC"], "examples": [{ "sentence": "This laptop comes with a two-year warranty.", "translationZh": "這台筆電附有兩年保固。" }] },
+    { "headword": "reimburse", "phonetic": "/ˌriːɪmˈbɜːrs/", "partOfSpeech": "v.", "definitionZh": "償還，報銷", "examTags": ["TOEIC"], "examples": [{ "sentence": "The company will reimburse your travel expenses.", "translationZh": "公司會報銷你的差旅費。" }] },
+    { "headword": "agenda", "phonetic": "/əˈdʒendə/", "partOfSpeech": "n.", "definitionZh": "議程", "examTags": ["TOEIC"], "examples": [{ "sentence": "The first item on the agenda is the annual budget.", "translationZh": "議程的第一項是年度預算。" }] },
+    { "headword": "vendor", "phonetic": "/ˈvendər/", "partOfSpeech": "n.", "definitionZh": "供應商，賣方", "examTags": ["TOEIC"], "examples": [{ "sentence": "We signed a contract with a new vendor.", "translationZh": "我們和一家新供應商簽了合約。" }] }
+  ]
+}

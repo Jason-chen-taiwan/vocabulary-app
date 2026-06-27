@@ -14,7 +14,8 @@
     "cf:deploy": "node scripts/cf-build.mjs && wrangler deploy",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
-    "db:push": "prisma db push"
+    "db:push": "prisma db push",
+    "seed": "node --experimental-strip-types scripts/seed-content.mjs"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.2",
