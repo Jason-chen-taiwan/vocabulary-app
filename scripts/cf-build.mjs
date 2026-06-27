@@ -23,6 +23,7 @@ if (process.platform === "win32") {
 }
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+// Path must match the "bin" entry (dist/cli/index.js) of @opennextjs/cloudflare; re-verify on upgrade.
 const cliPath = join(
   __dirname,
   "..",
@@ -39,4 +40,7 @@ const result = spawnSync(process.execPath, [cliPath, "build"], {
   env: process.env,
 });
 
+if (result.error) {
+  console.error("cf-build: failed to spawn the OpenNext CLI:", result.error.message);
+}
 process.exit(result.status ?? 1);
