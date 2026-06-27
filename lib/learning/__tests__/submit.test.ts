@@ -1,9 +1,9 @@
 import { describe, it, expect, vi } from 'vitest'
-import { submitReview, finishSession } from '@/lib/learning/submit'
+import { submitAnswer, finishSession } from '@/lib/learning/submit'
 
-const now = new Date('2026-06-27T00:00:00Z')
-const newState = { due: now, stability: 0, difficulty: 0, elapsedDays: 0, scheduledDays: 0, reps: 0, lapses: 0, state: 0, lastReview: null }
-const reviewed = { due: new Date('2026-06-28T00:00:00Z'), stability: 2, difficulty: 5, elapsedDays: 0, scheduledDays: 1, reps: 1, lapses: 0, state: 2, lastReview: now }
+const now = new Date('2026-06-28T00:00:00Z')
+const newState = { due: now, stability: 0, difficulty: 0, learningSteps: 0, elapsedDays: 0, scheduledDays: 0, reps: 0, lapses: 0, state: 0, lastReview: null }
+const reviewed = { due: new Date('2026-06-29T00:00:00Z'), stability: 2, difficulty: 5, learningSteps: 0, elapsedDays: 0, scheduledDays: 1, reps: 1, lapses: 0, state: 2, lastReview: now }
 
 function deps(existing: any) {
   const learning = {
@@ -16,26 +16,32 @@ function deps(existing: any) {
   return { learning, scheduler, bus }
 }
 
-describe('submitReview', () => {
-  it('creates a new card state when none exists, schedules, saves, logs, and publishes', async () => {
+describe('submitAnswer', () => {
+  it('correct on a new card: hard rating, streak 1, saves progression, logs, publishes', async () => {
     const d = deps(null)
-    const result = await submitReview({ userId: 'u1', wordId: 'w1', rating: 'good', now }, d as any)
+    const result = await submitAnswer({ userId: 'u1', wordId: 'w1', correct: true, now }, d as any)
     expect(d.scheduler.newCard).toHaveBeenCalledWith(now)
-    expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'good', now)
-    // saveCard BEFORE createReviewLog (UserCard is the source of truth)
-    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, false)
-    expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ userCardId: 'c1', rating: 3, state: reviewed.state, due: reviewed.due }))
-    expect(d.bus.publish).toHaveBeenCalledWith({ type: 'ReviewCompleted', userId: 'u1', wordId: 'w1', rating: 'good', at: now })
-    expect(result).toEqual(reviewed)
+    expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'hard', now)
+    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, { consecutiveCorrect: 1, mastered: false, exists: false })
+    expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ userCardId: 'c1', rating: 2 }))
+    expect(d.bus.publish).toHaveBeenCalledWith({ type: 'ReviewCompleted', userId: 'u1', wordId: 'w1', rating: 'hard', at: now })
+    expect(result).toEqual({ mastered: false })
   })
 
-  it('uses the existing card state when present and passes exists=true to saveCard', async () => {
-    const d = deps(newState)
-    await submitReview({ userId: 'u1', wordId: 'w1', rating: 'again', now }, d as any)
-    expect(d.scheduler.newCard).not.toHaveBeenCalled()
+  it('fifth correct graduates: easy rating, mastered true', async () => {
+    const d = deps({ state: newState, consecutiveCorrect: 4, mastered: false })
+    const result = await submitAnswer({ userId: 'u1', wordId: 'w1', correct: true, now }, d as any)
+    expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'easy', now)
+    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, { consecutiveCorrect: 5, mastered: true, exists: true })
+    expect(result).toEqual({ mastered: true })
+  })
+
+  it('wrong answer: again rating, streak reset, mastered false', async () => {
+    const d = deps({ state: newState, consecutiveCorrect: 6, mastered: true })
+    const result = await submitAnswer({ userId: 'u1', wordId: 'w1', correct: false, now }, d as any)
     expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'again', now)
-    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, true)
-    expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ userCardId: 'c1' }))
+    expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, { consecutiveCorrect: 0, mastered: false, exists: true })
+    expect(result).toEqual({ mastered: false })
   })
 })
 

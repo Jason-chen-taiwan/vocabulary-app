@@ -1,20 +1,37 @@
-import { RATING_TO_INT, type CardState, type Rating } from './types'
+import { RATING_TO_INT } from './types'
+import { grade } from './grading'
 import type { SchedulerService } from './scheduler'
 import type { LearningRepository } from './repository'
 import type { EventBus } from '@/lib/events/bus'
 
-export async function submitReview(
-  input: { userId: string; wordId: string; rating: Rating; now: Date },
+export async function submitAnswer(
+  input: { userId: string; wordId: string; correct: boolean; now: Date },
   deps: { learning: LearningRepository; scheduler: SchedulerService; bus: EventBus },
-): Promise<CardState> {
-  const { userId, wordId, rating, now } = input
+): Promise<{ mastered: boolean }> {
+  const { userId, wordId, correct, now } = input
   const existing = await deps.learning.getCard(userId, wordId)
-  const before = existing ?? deps.scheduler.newCard(now)
+  const before = existing?.state ?? deps.scheduler.newCard(now)
+  const prevStreak = existing?.consecutiveCorrect ?? 0
+
+  const { rating, nextStreak, mastered } = grade(correct, prevStreak)
   const next = deps.scheduler.review(before, rating, now)
-  const cardId = await deps.learning.saveCard(userId, wordId, next, existing !== null)
-  await deps.learning.createReviewLog({ userCardId: cardId, rating: RATING_TO_INT[rating], state: next.state, due: next.due, stability: next.stability, difficulty: next.difficulty, elapsedDays: next.elapsedDays, lastElapsedDays: before.elapsedDays, scheduledDays: next.scheduledDays })
+
+  const cardId = await deps.learning.saveCard(userId, wordId, next, {
+    consecutiveCorrect: nextStreak, mastered, exists: existing !== null,
+  })
+  await deps.learning.createReviewLog({
+    userCardId: cardId,
+    rating: RATING_TO_INT[rating],
+    state: next.state,
+    due: next.due,
+    stability: next.stability,
+    difficulty: next.difficulty,
+    elapsedDays: next.elapsedDays,
+    lastElapsedDays: before.elapsedDays,
+    scheduledDays: next.scheduledDays,
+  })
   await deps.bus.publish({ type: 'ReviewCompleted', userId, wordId, rating, at: now })
-  return next
+  return { mastered }
 }
 
 export async function finishSession(
