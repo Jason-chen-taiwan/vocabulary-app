@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary-50: #FFF1E8;
+  --color-primary-100: #FFE3D3;
+  --color-primary-300: #FFB68F;
+  --color-primary-500: #FF6A3D;
+  --color-primary-600: #E8551F;
+  --color-primary-700: #C2410C;
+
+  --color-ink: #1A1A1A;
+  --color-neutral-900: #2B2B2B;
+  --color-neutral-600: #6B6B6B;
+  --color-neutral-200: #E6E6E6;
+  --color-neutral-100: #F0F0F0;
+  --color-surface: #FFFFFF;
+  --color-bg-warm: #FFF7F2;
+
+  --color-success: #22A06B;
+  --color-error: #E5484D;
+  --color-mastery: #7C5CFC;
+  --color-coin: #F5B301;
+  --color-streak: #FF6A3D;
+
+  --radius-control: 14px;
+  --radius-celebrate: 16px;
+  --radius-card: 20px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 12px 30px rgba(255, 106, 61, 0.18);
+  --shadow-press: 0 6px 14px rgba(255, 106, 61, 0.35);
+  --shadow-hard: 4px 4px 0 #1A1A1A;
+
+  --font-display: var(--font-nunito), var(--font-noto-tc), system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background: var(--color-bg-warm);
+    color: var(--color-neutral-900);
+    font-family: var(--font-display);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes pop-in {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-pop-in { animation: pop-in 250ms ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito, Noto_Sans_TC } from "next/font/google";
 import "./globals.css";
 import { PwaRegister } from "@/components/pwa-register";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const nunito = Nunito({
   subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
+  variable: "--font-nunito",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const notoTC = Noto_Sans_TC({
+  weight: ["400", "500", "700"],
+  variable: "--font-noto-tc",
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -21,13 +25,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang="zh-Hant"
+      className={`${nunito.variable} ${notoTC.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}<PwaRegister /></body>
     </html>

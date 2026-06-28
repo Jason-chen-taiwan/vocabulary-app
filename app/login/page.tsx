@@ -5,9 +5,10 @@ import { redirect } from 'next/navigation'
 export default async function LoginPage() {
   if (await getCurrentUser()) redirect('/')
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-6">
-      <h1 className="text-2xl font-bold">VocabApp</h1>
-      <p className="text-gray-500">登入開始背單字</p>
+    <main className="flex min-h-screen flex-col items-center justify-center gap-6 px-6 text-center">
+      <div className="text-5xl">🔥</div>
+      <h1 className="text-3xl font-extrabold text-neutral-900">VocabApp</h1>
+      <p className="text-neutral-600">考試導向的英文字彙學習，邊背邊解鎖成就。</p>
       <SignInButton />
     </main>
   )
