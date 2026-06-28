@@ -25,6 +25,7 @@
   --radius-control: 14px;
   --radius-celebrate: 16px;
   --radius-card: 20px;
+  --radius-pill: 999px;
 
   --shadow-soft: 0 12px 30px rgba(255, 106, 61, 0.18);
   --shadow-press: 0 6px 14px rgba(255, 106, 61, 0.35);

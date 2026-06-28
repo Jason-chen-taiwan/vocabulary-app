@@ -165,7 +165,7 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
               <input autoFocus value={input} onChange={(e) => setInput(e.target.value)} disabled={!!result}
                 className="w-full rounded-control border-2 border-primary-200 bg-surface px-4 py-3 text-center text-lg text-neutral-900 focus:border-primary-500 focus:outline-none"
                 placeholder="輸入英文單字" />
-              {!result && <Button fullWidth>作答</Button>}
+              {!result && <Button type="submit" fullWidth>作答</Button>}
             </form>
           )}
         </div>

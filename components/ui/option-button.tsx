@@ -16,7 +16,7 @@ export function OptionButton({
   return (
     <button
       type="button" disabled={disabled} onClick={onClick}
-      className={`w-full rounded-control border-2 px-4 py-3 text-left font-semibold transition ${OPTION_STATE[state]}`}
+      className={`w-full rounded-control border-2 px-4 py-3 text-left font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 ${OPTION_STATE[state]}`}
     >
       {children}
     </button>

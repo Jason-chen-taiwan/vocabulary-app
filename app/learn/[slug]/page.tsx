@@ -6,6 +6,7 @@ import { LearningRepository } from '@/lib/learning/repository'
 import { buildSession } from '@/lib/learning/session'
 import { buildQuestion, sample } from '@/lib/learning/question'
 import { ReviewSession, type ReviewItem } from '@/components/review-session'
+import { GamificationBar } from '@/components/gamification-bar'
 
 const NEW_LIMIT = 20
 const DUE_LIMIT = 100
@@ -41,11 +42,14 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
 
   if (reviewItems.length === 0) {
     return (
-      <main className="mx-auto max-w-xl px-4 py-16 text-center">
-        <h1 className="text-2xl font-bold">{book.name}</h1>
-        <p className="mt-4 text-gray-400">今天沒有待複習的單字了 🎉</p>
-        <Link href={`/books/${slug}`} className="mt-6 inline-block text-sm text-gray-400 hover:underline">← 回單字書</Link>
-      </main>
+      <>
+        <GamificationBar />
+        <main className="mx-auto max-w-xl px-4 py-16 text-center">
+          <h1 className="text-2xl font-extrabold text-neutral-900">{book.name}</h1>
+          <p className="mt-4 text-neutral-600">今天沒有待複習的單字了 🎉</p>
+          <Link href={`/books/${slug}`} className="mt-6 inline-block text-sm font-semibold text-primary-600 hover:underline">← 回單字書</Link>
+        </main>
+      </>
     )
   }
   return <ReviewSession bookName={book.name} bookSlug={slug} items={reviewItems} />
