@@ -3,6 +3,10 @@ import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { TtsButton } from '@/components/tts-button'
+import { OptionButton } from '@/components/ui/option-button'
+import { ProgressBar } from '@/components/ui/progress-bar'
+import { CelebrateCard } from '@/components/ui/celebrate-card'
+import { Button } from '@/components/ui/button'
 import { checkAnswer, sample, type Question } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
 
@@ -89,52 +93,54 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
 
   if (done) {
     return (
-      <main className="mx-auto max-w-xl px-4 py-16 text-center">
-        <h1 className="text-2xl font-bold">完成！</h1>
-        <p className="mt-4 text-gray-400">本次複習了 {items.length} 個單字。</p>
-        <div className="mt-6 space-y-1 text-sm text-gray-300">
-          <p>獲得經驗值 <span className="font-semibold text-blue-400">+{rewards.xp} XP</span></p>
-          {rewards.coins > 0 && <p>獲得金幣 <span className="font-semibold text-yellow-400">+{rewards.coins} 🪙</span></p>}
-          {rewards.level !== null && <p className="text-green-400">升級到 Lv.{rewards.level}！</p>}
-          {sessionPerfect && <p className="text-purple-400">完美一回，全部答對！</p>}
-          {rewards.badges.length > 0 && <p>解鎖徽章：{rewards.badges.join('、')}</p>}
+      <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
+        <div className="text-5xl">🎉</div>
+        <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
+        <p className="text-sm text-neutral-600">本次複習了 {items.length} 個單字</p>
+        <div className="mt-2 grid w-full max-w-xs gap-2">
+          <CelebrateCard tone="reward">+{rewards.xp} XP</CelebrateCard>
+          {rewards.coins > 0 && <CelebrateCard tone="coin">+{rewards.coins} 🪙</CelebrateCard>}
+          {rewards.level !== null && <CelebrateCard tone="level">升級到 Lv.{rewards.level}！</CelebrateCard>}
+          {sessionPerfect && <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>}
+          {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
         </div>
         <div className="mt-6 flex justify-center gap-4">
-          <Link href={`/books/${bookSlug}`} className="text-sm text-gray-400 hover:underline">← 回單字書</Link>
-          <button onClick={() => router.refresh()} className="text-sm text-blue-400 hover:underline">再來一輪</button>
+          <Link href={`/books/${bookSlug}`} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
+          <button onClick={() => router.refresh()} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>
         </div>
       </main>
     )
   }
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-xl flex-col px-4 py-8">
-      <div className="mb-6 flex items-center justify-between text-sm text-gray-500">
+    <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col px-4 py-8">
+      <div className="mb-2 flex items-center justify-between text-sm text-neutral-600">
         <Link href={`/books/${bookSlug}`} className="hover:underline">← {bookName}</Link>
         <span>{index + 1} / {items.length}</span>
       </div>
+      <ProgressBar value={index + 1} max={items.length} />
 
-      <div className="flex flex-1 flex-col items-center gap-4 text-center">
-        {item.isSpotCheck && <span className="rounded-full bg-purple-700 px-2 py-0.5 text-xs">記憶抽考</span>}
+      <div className="flex flex-1 flex-col items-center gap-4 text-center mt-6">
+        {item.isSpotCheck && <span className="bg-mastery text-white rounded-pill px-2 py-0.5 text-xs">記憶抽考</span>}
 
         {/* prompt */}
         {q.type === 'mc' && (
           <div className="flex items-center gap-2">
-            <span className="text-4xl font-bold">{q.prompt}</span>
+            <span className="text-4xl font-bold text-neutral-900">{q.prompt}</span>
             {q.audioText && <TtsButton text={q.audioText} />}
           </div>
         )}
         {q.type === 'cloze' && (
           <div className="space-y-2">
-            <p className="text-2xl">{q.prompt}</p>
-            {q.hint && <p className="text-sm text-gray-400">{q.hint}</p>}
-            <p className="text-xs text-gray-500">填入空格的英文字</p>
+            <p className="text-2xl text-neutral-900">{q.prompt}</p>
+            {q.hint && <p className="text-sm text-neutral-600">{q.hint}</p>}
+            <p className="text-xs text-neutral-600">填入空格的英文字</p>
           </div>
         )}
         {q.type === 'typing' && (
           <div className="space-y-1">
-            <p className="text-2xl">{q.prompt}</p>
-            <p className="text-xs text-gray-500">拼出對應的英文字</p>
+            <p className="text-2xl text-neutral-900">{q.prompt}</p>
+            <p className="text-xs text-neutral-600">拼出對應的英文字</p>
           </div>
         )}
 
@@ -143,13 +149,13 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
           {q.type === 'mc' && options && (
             <div className="grid gap-2">
               {options.map((opt) => {
-                const state = result
-                  ? opt === q.answer ? 'border-green-500 bg-green-900/40'
-                    : opt === picked ? 'border-red-500 bg-red-900/40' : 'border-gray-700 opacity-60'
-                  : 'border-gray-700 hover:bg-gray-900'
+                const st = result
+                  ? opt === q.answer ? 'correct' : opt === picked ? 'wrong' : 'dimmed'
+                  : 'idle'
                 return (
-                  <button key={opt} disabled={!!result} onClick={() => onPick(opt)}
-                    className={`rounded-lg border px-4 py-3 text-left ${state}`}>{opt}</button>
+                  <OptionButton key={opt} state={st as 'idle'|'correct'|'wrong'|'dimmed'} disabled={!!result} onClick={() => onPick(opt)}>
+                    {opt}
+                  </OptionButton>
                 )
               })}
             </div>
@@ -157,9 +163,9 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
           {q.type !== 'mc' && (
             <form onSubmit={onSubmitText} className="flex flex-col items-center gap-2">
               <input autoFocus value={input} onChange={(e) => setInput(e.target.value)} disabled={!!result}
-                className="w-full rounded-lg border border-gray-700 bg-transparent px-4 py-3 text-center text-lg"
+                className="w-full rounded-control border-2 border-primary-200 bg-surface px-4 py-3 text-center text-lg text-neutral-900 focus:border-primary-500 focus:outline-none"
                 placeholder="輸入英文單字" />
-              {!result && <button type="submit" className="w-full rounded-lg bg-white py-3 font-medium text-black">作答</button>}
+              {!result && <Button fullWidth>作答</Button>}
             </form>
           )}
         </div>
@@ -167,10 +173,10 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
         {/* feedback */}
         {result && (
           <div className="mt-4">
-            <p className={result.correct ? 'text-green-400' : 'text-red-400'}>
+            <p className={result.correct ? 'text-success' : 'text-error'}>
               {result.correct ? '答對了！' : '答錯了'}
             </p>
-            <p className="mt-1 flex items-center justify-center gap-2 text-lg font-semibold">
+            <p className="mt-1 flex items-center justify-center gap-2 text-lg font-semibold text-neutral-900">
               {q.answer}{q.type !== 'mc' && <TtsButton text={q.answer} />}
             </p>
           </div>
@@ -178,9 +184,9 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
       </div>
 
       {result && (
-        <button onClick={next} disabled={busy} className="mt-6 w-full rounded-lg bg-white py-3 font-medium text-black disabled:opacity-50">
+        <Button variant="primary" fullWidth disabled={busy} onClick={next} className="mt-6">
           {index + 1 >= items.length ? '完成' : '下一個'}
-        </button>
+        </Button>
       )}
     </main>
   )
