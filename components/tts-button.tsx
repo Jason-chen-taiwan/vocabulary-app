@@ -23,7 +23,7 @@ export function TtsButton({ text }: { text: string }) {
       onClick={speak}
       disabled={!supported}
       aria-label={`播放「${text}」的發音`}
-      className="rounded-md border border-gray-600 px-2 py-1 text-sm hover:bg-gray-800 disabled:opacity-40"
+      className="inline-flex min-h-9 items-center gap-1 rounded-pill border-2 border-primary-200 bg-surface px-3 py-1 text-sm font-bold text-primary-600 transition hover:bg-primary-50 disabled:opacity-40"
     >
       🔊 發音
     </button>
