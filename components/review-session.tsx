@@ -79,6 +79,7 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
           }
         }
       } catch { /* ignore */ }
+      router.refresh()
       setDone(true)
       return
     }
