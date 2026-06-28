@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { pickQuestionType, checkAnswer, sample, buildQuestion } from '@/lib/learning/question'
+import { pickQuestionType, checkAnswer, sample, seededRng, buildQuestion } from '@/lib/learning/question'
 
 const word = {
   id: 'w1', headword: 'negotiate', phonetic: '/n/', partOfSpeech: 'v.', definitionZh: '談判，協商', examTags: ['TOEIC'],
@@ -28,6 +28,27 @@ describe('sample', () => {
   })
   it('caps at array length', () => {
     expect(sample(['a'], 3, () => 0)).toEqual(['a'])
+  })
+})
+
+describe('seededRng', () => {
+  it('is deterministic: same seed → same sequence', () => {
+    const a = seededRng('word-1')
+    const b = seededRng('word-1')
+    const seqA = [a(), a(), a()]
+    const seqB = [b(), b(), b()]
+    expect(seqA).toEqual(seqB)
+    expect(seqA.every((n) => n >= 0 && n < 1)).toBe(true)
+  })
+  it('different seeds → different sequences', () => {
+    const a = seededRng('word-1')
+    const b = seededRng('word-2')
+    expect([a(), a(), a()]).not.toEqual([b(), b(), b()])
+  })
+  it('makes sample order stable per seed (SSR/CSR consistency)', () => {
+    const order1 = sample(['正解', '幹擾1', '幹擾2', '幹擾3'], 4, seededRng('w42'))
+    const order2 = sample(['正解', '幹擾1', '幹擾2', '幹擾3'], 4, seededRng('w42'))
+    expect(order1).toEqual(order2)
   })
 })
 

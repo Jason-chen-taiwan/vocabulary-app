@@ -9,7 +9,7 @@ import { CelebrateCard } from '@/components/ui/celebrate-card'
 import { Button } from '@/components/ui/button'
 import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
-import { checkAnswer, sample, type Question } from '@/lib/learning/question'
+import { checkAnswer, sample, seededRng, type Question } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
 
 export interface ReviewItem {
@@ -28,11 +28,66 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
   const [rewards, setRewards] = useState({ xp: 0, coins: 0, level: null as number | null, badges: [] as string[] })
   const [correctCount, setCorrectCount] = useState(0)
   const [sessionPerfect, setSessionPerfect] = useState(false)
+  // 完成當下這輪的題數快照——因為 finishSession 後 router.refresh() 會把 items 換成「重抓後」的佇列
+  const [finishedTotal, setFinishedTotal] = useState(0)
 
   const item = items[index]
+  // 以 wordId 為種子做確定性洗牌：SSR 與 client 產生相同順序，避免 hydration 不匹配。
+  // （safe when item is undefined, e.g. after a refresh shrinks the queue）
+  const options = useMemo(() => {
+    const opts = item?.question.options
+    return opts ? sample(opts, opts.length, seededRng(item.question.wordId)) : null
+  }, [item])
+
+  // 「再來一輪」：重置作答狀態並重抓伺服器資料（可能是新一批到期卡，或已無待複習）
+  function restart() {
+    setIndex(0)
+    setInput('')
+    setPicked(null)
+    setResult(null)
+    setDone(false)
+    setRewards({ xp: 0, coins: 0, level: null, badges: [] })
+    setCorrectCount(0)
+    setSessionPerfect(false)
+    router.refresh()
+  }
+
+  // 結束慶祝畫面
+  if (done) {
+    return (
+      <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
+        <Confetti className="mx-auto" />
+        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: finishedTotal })} size={132} className="mx-auto" />
+        <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
+        <p className="text-sm text-neutral-600">本次複習了 {finishedTotal} 個單字</p>
+        <div className="mt-2 grid w-full max-w-xs gap-2">
+          <CelebrateCard tone="reward">+{rewards.xp} XP</CelebrateCard>
+          {rewards.coins > 0 && <CelebrateCard tone="coin">+{rewards.coins} 🪙</CelebrateCard>}
+          {rewards.level !== null && <CelebrateCard tone="level">升級到 Lv.{rewards.level}！</CelebrateCard>}
+          {sessionPerfect && <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>}
+          {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
+        </div>
+        <div className="mt-6 flex justify-center gap-4">
+          <Link href={`/books/${bookSlug}`} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
+          <button onClick={restart} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>
+        </div>
+      </main>
+    )
+  }
+
+  // 佇列已空（例如重抓後今天已無待複習，或索引越界）——溫和收尾，避免存取 undefined
+  if (!item) {
+    return (
+      <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
+        <Mascot mood="cheer" size={120} className="mx-auto" />
+        <h1 className="text-2xl font-extrabold text-neutral-900">{bookName}</h1>
+        <p className="mt-2 text-neutral-600">今天沒有待複習的單字了 🎉</p>
+        <Link href={`/books/${bookSlug}`} className="mt-4 text-sm font-semibold text-primary-600 hover:underline">← 回單字書</Link>
+      </main>
+    )
+  }
+
   const q = item.question
-  // shuffle MC options once per card
-  const options = useMemo(() => (q.options ? sample(q.options, q.options.length) : null), [q])
 
   function evaluate(answer: string): boolean {
     return q.type === 'mc' ? answer === q.answer : checkAnswer(answer, q.answer)
@@ -76,6 +131,7 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
     if (busy) return
     if (index + 1 >= items.length) {
       setBusy(true)
+      setFinishedTotal(items.length)
       try {
         const res = await finishSessionAction(items.length, correctCount)
         if (res.reward) {
@@ -85,34 +141,12 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
           }
         }
       } catch { /* ignore */ }
-      router.refresh()
       setDone(true)
+      router.refresh()
       return
     }
     setIndex(index + 1)
     setInput(''); setPicked(null); setResult(null)
-  }
-
-  if (done) {
-    return (
-      <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
-        <Confetti className="mx-auto" />
-        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: items.length })} size={132} className="mx-auto" />
-        <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
-        <p className="text-sm text-neutral-600">本次複習了 {items.length} 個單字</p>
-        <div className="mt-2 grid w-full max-w-xs gap-2">
-          <CelebrateCard tone="reward">+{rewards.xp} XP</CelebrateCard>
-          {rewards.coins > 0 && <CelebrateCard tone="coin">+{rewards.coins} 🪙</CelebrateCard>}
-          {rewards.level !== null && <CelebrateCard tone="level">升級到 Lv.{rewards.level}！</CelebrateCard>}
-          {sessionPerfect && <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>}
-          {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
-        </div>
-        <div className="mt-6 flex justify-center gap-4">
-          <Link href={`/books/${bookSlug}`} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
-          <button onClick={() => router.refresh()} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>
-        </div>
-      </main>
-    )
   }
 
   return (
