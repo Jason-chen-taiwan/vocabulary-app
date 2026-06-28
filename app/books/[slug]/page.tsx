@@ -15,7 +15,7 @@ export default async function BookDetailPage({ params }: { params: Promise<{ slu
   const book = await repo.getWordBookBySlug(slug)
   if (!book) notFound()
   const words = await repo.listWordsByBook(book.id)
-  const masteredSet = new Set(await new LearningRepository().listMasteredWordIds(user.id))
+  const masteredSet = new Set(await new LearningRepository().listMasteredWordIds(user.id, book.id))
   const masteredHere = words.filter((w) => masteredSet.has(w.id)).length
 
   return (

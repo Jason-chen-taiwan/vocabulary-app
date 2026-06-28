@@ -59,16 +59,16 @@ export class LearningRepository {
     await this.db.reviewLog.create({ data: input })
   }
 
-  async listDueCards(userId: string, now: Date, limit: number): Promise<{ wordId: string; consecutiveCorrect: number }[]> {
+  async listDueCards(userId: string, now: Date, limit: number, wordBookId: string): Promise<{ wordId: string; consecutiveCorrect: number }[]> {
     const rows = await this.db.userCard.findMany({
-      where: { userId, mastered: false, due: { lte: now } },
+      where: { userId, mastered: false, due: { lte: now }, word: { wordBookId } },
       orderBy: { due: 'asc' }, take: limit, select: { wordId: true, consecutiveCorrect: true },
     })
     return rows as { wordId: string; consecutiveCorrect: number }[]
   }
 
-  async listMasteredWordIds(userId: string): Promise<string[]> {
-    const rows = await this.db.userCard.findMany({ where: { userId, mastered: true }, select: { wordId: true } })
+  async listMasteredWordIds(userId: string, wordBookId: string): Promise<string[]> {
+    const rows = await this.db.userCard.findMany({ where: { userId, mastered: true, word: { wordBookId } }, select: { wordId: true } })
     return (rows as { wordId: string }[]).map((r) => r.wordId)
   }
 
