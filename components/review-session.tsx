@@ -7,6 +7,8 @@ import { OptionButton } from '@/components/ui/option-button'
 import { ProgressBar } from '@/components/ui/progress-bar'
 import { CelebrateCard } from '@/components/ui/celebrate-card'
 import { Button } from '@/components/ui/button'
+import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
+import { Confetti } from '@/components/ui/confetti'
 import { checkAnswer, sample, type Question } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
 
@@ -94,7 +96,8 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
   if (done) {
     return (
       <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
-        <div className="text-5xl">🎉</div>
+        <Confetti className="mx-auto" />
+        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: items.length })} size={132} className="mx-auto" />
         <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
         <p className="text-sm text-neutral-600">本次複習了 {items.length} 個單字</p>
         <div className="mt-2 grid w-full max-w-xs gap-2">
