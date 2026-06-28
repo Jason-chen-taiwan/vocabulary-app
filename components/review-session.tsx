@@ -19,6 +19,9 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
   const [result, setResult] = useState<null | { correct: boolean }>(null)
   const [busy, setBusy] = useState(false)
   const [done, setDone] = useState(false)
+  const [rewards, setRewards] = useState({ xp: 0, coins: 0, level: null as number | null, badges: [] as string[] })
+  const [correctCount, setCorrectCount] = useState(0)
+  const [sessionPerfect, setSessionPerfect] = useState(false)
 
   const item = items[index]
   const q = item.question
@@ -33,10 +36,20 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
     if (busy) return
     setBusy(true)
     setResult({ correct })
+    if (correct) setCorrectCount((n) => n + 1)
     try {
-      await submitAnswerAction(q.wordId, correct)
+      const res = await submitAnswerAction(q.wordId, correct)
+      const r = res.reward
+      if (r) {
+        setRewards((prev) => ({
+          xp: prev.xp + r.xpGained,
+          coins: prev.coins + r.coinsGained,
+          level: r.leveledUpTo ?? prev.level,
+          badges: [...prev.badges, ...r.newBadges],
+        }))
+      }
     } catch {
-      // even on error we let the user continue; progress for this card may not have saved
+      // 即使出錯也讓使用者繼續；本卡進度可能未存
     }
     setBusy(false)
   }
@@ -57,7 +70,15 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
     if (busy) return
     if (index + 1 >= items.length) {
       setBusy(true)
-      try { await finishSessionAction(items.length) } catch { /* ignore */ }
+      try {
+        const res = await finishSessionAction(items.length, correctCount)
+        if (res.reward) {
+          setSessionPerfect(res.reward.perfect)
+          if (res.reward.newBadges.length) {
+            setRewards((prev) => ({ ...prev, badges: [...prev.badges, ...res.reward!.newBadges] }))
+          }
+        }
+      } catch { /* ignore */ }
       setDone(true)
       return
     }
@@ -70,6 +91,13 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
       <main className="mx-auto max-w-xl px-4 py-16 text-center">
         <h1 className="text-2xl font-bold">完成！</h1>
         <p className="mt-4 text-gray-400">本次複習了 {items.length} 個單字。</p>
+        <div className="mt-6 space-y-1 text-sm text-gray-300">
+          <p>獲得經驗值 <span className="font-semibold text-blue-400">+{rewards.xp} XP</span></p>
+          {rewards.coins > 0 && <p>獲得金幣 <span className="font-semibold text-yellow-400">+{rewards.coins} 🪙</span></p>}
+          {rewards.level !== null && <p className="text-green-400">升級到 Lv.{rewards.level}！</p>}
+          {sessionPerfect && <p className="text-purple-400">完美一回，全部答對！</p>}
+          {rewards.badges.length > 0 && <p>解鎖徽章：{rewards.badges.join('、')}</p>}
+        </div>
         <div className="mt-6 flex justify-center gap-4">
           <Link href={`/books/${bookSlug}`} className="text-sm text-gray-400 hover:underline">← 回單字書</Link>
           <button onClick={() => router.refresh()} className="text-sm text-blue-400 hover:underline">再來一輪</button>

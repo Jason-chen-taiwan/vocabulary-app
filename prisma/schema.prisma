@@ -18,6 +18,7 @@ model User {
   accounts      Account[]
   sessions      Session[]
   cards         UserCard[]
+  gamification  GamificationState?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 }
@@ -140,4 +141,32 @@ model ReviewLog {
   userCard        UserCard @relation(fields: [userCardId], references: [id], onDelete: Cascade)
 
   @@index([userCardId])
+}
+
+model GamificationState {
+  id             String      @id @default(cuid())
+  userId         String      @unique
+  xp             Int         @default(0)
+  level          Int         @default(1)
+  coinBalance    Int         @default(0)
+  streak         Int         @default(0)
+  longestStreak  Int         @default(0)
+  lastGoalDate   String?
+  reviewsToday   Int         @default(0)
+  lastReviewDate String?
+  streakFreezes  Int         @default(0)
+  user           User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badges         UserBadge[]
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+}
+
+model UserBadge {
+  id         String            @id @default(cuid())
+  userId     String
+  badgeKey   String
+  unlockedAt DateTime          @default(now())
+  state      GamificationState @relation(fields: [userId], references: [userId], onDelete: Cascade)
+
+  @@unique([userId, badgeKey])
 }

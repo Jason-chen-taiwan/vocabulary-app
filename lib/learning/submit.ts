@@ -30,13 +30,13 @@ export async function submitAnswer(
     lastElapsedDays: before.elapsedDays,
     scheduledDays: next.scheduledDays,
   })
-  await deps.bus.publish({ type: 'ReviewCompleted', userId, wordId, rating, at: now })
+  await deps.bus.publish({ type: 'ReviewCompleted', userId, wordId, rating, correct, mastered, at: now })
   return { mastered }
 }
 
 export async function finishSession(
-  input: { userId: string; reviewed: number; now: Date },
+  input: { userId: string; reviewed: number; correct: number; now: Date },
   deps: { bus: EventBus },
 ): Promise<void> {
-  await deps.bus.publish({ type: 'SessionFinished', userId: input.userId, reviewed: input.reviewed, at: input.now })
+  await deps.bus.publish({ type: 'SessionFinished', userId: input.userId, reviewed: input.reviewed, correct: input.correct, at: input.now })
 }

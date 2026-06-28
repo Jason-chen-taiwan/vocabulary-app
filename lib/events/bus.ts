@@ -1,8 +1,8 @@
 import type { Rating } from '@/lib/learning/types'
 
 export type DomainEvent =
-  | { type: 'ReviewCompleted'; userId: string; wordId: string; rating: Rating; at: Date }
-  | { type: 'SessionFinished'; userId: string; reviewed: number; at: Date }
+  | { type: 'ReviewCompleted'; userId: string; wordId: string; rating: Rating; correct: boolean; mastered: boolean; at: Date }
+  | { type: 'SessionFinished'; userId: string; reviewed: number; correct: number; at: Date }
 
 type EventType = DomainEvent['type']
 type EventOf<T extends EventType> = Extract<DomainEvent, { type: T }>
