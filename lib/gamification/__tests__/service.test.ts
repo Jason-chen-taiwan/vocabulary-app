@@ -91,6 +91,19 @@ describe('applyReview', () => {
     await svc.applyReview({ userId: 'u1', correct: true, mastered: false, now })
     expect(repo.countMastered).not.toHaveBeenCalled()
   })
+
+  it('lapsed streak beyond freeze coverage resets streak to 1 and zeroes freezes', async () => {
+    // last goal 2026-06-24 (4 days before today 06-28 → gap 3 > 1 freeze); 19 reviews already today
+    const repo = repoWith(
+      { ...base, streak: 10, longestStreak: 10, lastGoalDate: '2026-06-24', reviewsToday: 19, lastReviewDate: '2026-06-28', streakFreezes: 1 },
+      { dailyGoal: 20 },
+    )
+    const svc = new GamificationService(repo as any)
+    const r = await svc.applyReview({ userId: 'u1', correct: true, mastered: false, now })
+    expect(r.dailyGoalMet).toBe(true)
+    expect(r.streak).toBe(1)
+    expect(repo.saveState).toHaveBeenCalledWith('u1', expect.objectContaining({ streak: 1, streakFreezes: 0, longestStreak: 10 }), true)
+  })
 })
 
 describe('applySessionFinish', () => {

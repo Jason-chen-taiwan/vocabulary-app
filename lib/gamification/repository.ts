@@ -48,7 +48,11 @@ export class GamificationRepository {
 
   async unlockBadges(userId: string, keys: string[]): Promise<void> {
     for (const badgeKey of keys) {
-      await this.db.userBadge.create({ data: { userId, badgeKey } })
+      try {
+        await this.db.userBadge.create({ data: { userId, badgeKey } })
+      } catch {
+        // ignore unique-constraint violation from a concurrent unlock; @@unique makes this idempotent
+      }
     }
   }
 }

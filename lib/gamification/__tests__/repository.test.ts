@@ -74,4 +74,11 @@ describe('GamificationRepository', () => {
     expect(db.userBadge.create).toHaveBeenNthCalledWith(1, { data: { userId: 'u1', badgeKey: 'streak-7' } })
     expect(db.userBadge.create).toHaveBeenNthCalledWith(2, { data: { userId: 'u1', badgeKey: 'level-5' } })
   })
+
+  it('getContext throws when the user is not found', async () => {
+    const db = makeDb()
+    db.user.findUnique.mockResolvedValue(null)
+    const repo = new GamificationRepository(db as any)
+    await expect(repo.getContext('missing')).rejects.toThrow('user not found')
+  })
 })

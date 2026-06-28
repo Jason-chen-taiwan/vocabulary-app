@@ -18,6 +18,10 @@ export class GamificationService {
   }
 
   async applyReview(input: { userId: string; correct: boolean; mastered: boolean; now: Date }): Promise<ReviewReward> {
+    // Single-user read-modify-write without a transaction (Neon HTTP has none). The UI's
+    // busy-guard serializes one client's answers, so lost updates only arise from concurrent
+    // multi-client writes — acceptable per spec §10 (progress affects only oneself). Revisit
+    // if P4c leaderboards raise the integrity bar.
     const { userId, correct, mastered, now } = input
     const ctx = await this.repo.getContext(userId)
     const exists = ctx.state !== null
@@ -53,7 +57,8 @@ export class GamificationService {
       const days = prev.lastGoalDate ? daysBetween(prev.lastGoalDate, today) : null
       const su = updateStreak(days, streak, streakFreezes)
       streak = su.streak
-      streakFreezes -= su.freezesConsumed
+      if (su.reset) streakFreezes = 0
+      else streakFreezes -= su.freezesConsumed
       if (streak % FREEZE_PER_MILESTONE_DAYS === 0 && streakFreezes < FREEZE_CAP) streakFreezes += 1
       longestStreak = Math.max(longestStreak, streak)
       lastGoalDate = today
@@ -79,9 +84,7 @@ export class GamificationService {
     const perfect = reviewed > 0 && correct === reviewed
     if (!perfect) return { perfect: false, newBadges: [] }
 
-    const ctx = await this.repo.getContext(userId)
-    const prev = ctx.state ?? DEFAULT_STATE
-    const earned = evaluateBadges({ streak: prev.streak, level: prev.level, perfectSession: true })
+    const earned = evaluateBadges({ streak: 0, level: 0, perfectSession: true })
     const already = await this.repo.listBadgeKeys(userId)
     const newBadges = earned.filter((k) => !already.includes(k))
     if (newBadges.length) await this.repo.unlockBadges(userId, newBadges)
