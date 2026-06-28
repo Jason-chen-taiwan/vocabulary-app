@@ -92,3 +92,39 @@ describe('applyReview', () => {
     expect(repo.countMastered).not.toHaveBeenCalled()
   })
 })
+
+describe('applySessionFinish', () => {
+  it('perfect session unlocks perfect-session badge', async () => {
+    const repo = repoWith({ ...base, streak: 1, level: 1 })
+    const svc = new GamificationService(repo as any)
+    const r = await svc.applySessionFinish({ userId: 'u1', reviewed: 5, correct: 5, now })
+    expect(r.perfect).toBe(true)
+    expect(r.newBadges).toContain('perfect-session')
+    expect(repo.unlockBadges).toHaveBeenCalledWith('u1', ['perfect-session'])
+  })
+
+  it('non-perfect session unlocks nothing', async () => {
+    const repo = repoWith({ ...base, streak: 1, level: 1 })
+    const svc = new GamificationService(repo as any)
+    const r = await svc.applySessionFinish({ userId: 'u1', reviewed: 5, correct: 4, now })
+    expect(r.perfect).toBe(false)
+    expect(r.newBadges).toEqual([])
+    expect(repo.unlockBadges).not.toHaveBeenCalled()
+  })
+
+  it('empty session is not perfect', async () => {
+    const repo = repoWith({ ...base, streak: 1, level: 1 })
+    const svc = new GamificationService(repo as any)
+    const r = await svc.applySessionFinish({ userId: 'u1', reviewed: 0, correct: 0, now })
+    expect(r.perfect).toBe(false)
+  })
+
+  it('already-unlocked perfect badge is not re-added', async () => {
+    const repo = repoWith({ ...base, streak: 1, level: 1 }, { badges: ['perfect-session'] })
+    const svc = new GamificationService(repo as any)
+    const r = await svc.applySessionFinish({ userId: 'u1', reviewed: 3, correct: 3, now })
+    expect(r.perfect).toBe(true)
+    expect(r.newBadges).toEqual([])
+    expect(repo.unlockBadges).not.toHaveBeenCalled()
+  })
+})

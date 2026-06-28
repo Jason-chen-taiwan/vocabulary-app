@@ -4,7 +4,7 @@ import {
   xpForReview, levelForXp, updateStreak, evaluateBadges,
   COIN_DAILY_GOAL, COIN_MASTERY, FREEZE_PER_MILESTONE_DAYS, FREEZE_CAP,
 } from './rules'
-import type { GamificationStateData, ReviewReward } from './types'
+import type { GamificationStateData, ReviewReward, SessionReward } from './types'
 
 const DEFAULT_STATE: GamificationStateData = {
   xp: 0, level: 1, coinBalance: 0, streak: 0, longestStreak: 0,
@@ -72,6 +72,20 @@ export class GamificationService {
     if (newBadges.length) await this.repo.unlockBadges(userId, newBadges)
 
     return { xpGained, coinsGained, leveledUpTo, dailyGoalMet, streak, newBadges }
+  }
+
+  async applySessionFinish(input: { userId: string; reviewed: number; correct: number; now: Date }): Promise<SessionReward> {
+    const { userId, reviewed, correct } = input
+    const perfect = reviewed > 0 && correct === reviewed
+    if (!perfect) return { perfect: false, newBadges: [] }
+
+    const ctx = await this.repo.getContext(userId)
+    const prev = ctx.state ?? DEFAULT_STATE
+    const earned = evaluateBadges({ streak: prev.streak, level: prev.level, perfectSession: true })
+    const already = await this.repo.listBadgeKeys(userId)
+    const newBadges = earned.filter((k) => !already.includes(k))
+    if (newBadges.length) await this.repo.unlockBadges(userId, newBadges)
+    return { perfect, newBadges }
   }
 }
 
