@@ -7,6 +7,7 @@ import { todayYmd } from '@/lib/gamification/date'
 import { GoalRing } from '@/components/ui/goal-ring'
 import { Card } from '@/components/ui/card'
 import { SignOutButton } from '@/components/sign-out-button'
+import { Mascot, moodForHome } from '@/components/ui/mascot'
 
 export default async function Home() {
   const user = await getCurrentUser()
@@ -28,6 +29,7 @@ export default async function Home() {
     <>
       <GamificationBar />
       <main className="mx-auto flex w-full max-w-2xl flex-col items-center gap-6 px-4 py-8">
+        <Mascot mood={moodForHome({ goalMet: done >= goal, streak, longestStreak: longest })} size={120} />
         <h1 className="text-xl font-extrabold text-neutral-900">歡迎，{user.name ?? user.email}</h1>
 
         <Card className="flex w-full flex-col items-center gap-3 p-6">
