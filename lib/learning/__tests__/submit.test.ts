@@ -24,7 +24,7 @@ describe('submitAnswer', () => {
     expect(d.scheduler.review).toHaveBeenCalledWith(newState, 'hard', now)
     expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, { consecutiveCorrect: 1, mastered: false, exists: false })
     expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ userCardId: 'c1', rating: 2 }))
-    expect(d.bus.publish).toHaveBeenCalledWith({ type: 'ReviewCompleted', userId: 'u1', wordId: 'w1', rating: 'hard', at: now })
+    expect(d.bus.publish).toHaveBeenCalledWith({ type: 'ReviewCompleted', userId: 'u1', wordId: 'w1', rating: 'hard', correct: true, mastered: false, at: now })
     expect(result).toEqual({ mastered: false })
   })
 
@@ -48,7 +48,7 @@ describe('submitAnswer', () => {
 describe('finishSession', () => {
   it('publishes SessionFinished', async () => {
     const bus = { publish: vi.fn().mockResolvedValue(undefined) }
-    await finishSession({ userId: 'u1', reviewed: 7, now }, { bus } as any)
-    expect(bus.publish).toHaveBeenCalledWith({ type: 'SessionFinished', userId: 'u1', reviewed: 7, at: now })
+    await finishSession({ userId: 'u1', reviewed: 7, correct: 6, now }, { bus } as any)
+    expect(bus.publish).toHaveBeenCalledWith({ type: 'SessionFinished', userId: 'u1', reviewed: 7, correct: 6, at: now })
   })
 })
