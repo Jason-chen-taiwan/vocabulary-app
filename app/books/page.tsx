@@ -2,12 +2,15 @@ import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth/session'
 import { ContentRepository } from '@/lib/content/repository'
+import { GamificationBar } from '@/components/gamification-bar'
 
 export default async function BooksPage() {
   if (!(await getCurrentUser())) redirect('/login')
   const books = await new ContentRepository().listWordBooks()
   return (
-    <main className="mx-auto max-w-2xl px-4 py-8">
+    <>
+      <GamificationBar />
+      <main className="mx-auto max-w-2xl px-4 py-8">
       <h1 className="mb-6 text-2xl font-bold">單字書</h1>
       {books.length === 0 ? (
         <p className="text-gray-500">目前還沒有單字書。</p>
@@ -25,5 +28,6 @@ export default async function BooksPage() {
         </ul>
       )}
     </main>
+    </>
   )
 }
