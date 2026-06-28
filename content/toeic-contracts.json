@@ -1,0 +1,1478 @@
+{
+  "slug": "toeic-contracts",
+  "name": "合約與法律",
+  "description": "涵蓋商務合約核心詞彙，包括條款結構、義務履行、違約救濟與知識產權授權等必備概念。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "agreement",
+      "partOfSpeech": "n.",
+      "definitionZh": "由雙方簽署、具法律效力的正式合約",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Both parties signed the agreement before the project began.",
+          "translationZh": "雙方在專案開始前簽署了協議。"
+        }
+      ]
+    },
+    {
+      "headword": "clause",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中規範特定事項的單一條款",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The termination clause allows either party to exit with 30 days' notice.",
+          "translationZh": "終止條款允許任一方提前30天通知後退出。"
+        }
+      ]
+    },
+    {
+      "headword": "term",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約的約定期限或基本條件",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract has a two-year term with an option to renew.",
+          "translationZh": "合約期限為兩年，並有續約選項。"
+        }
+      ]
+    },
+    {
+      "headword": "condition",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約義務得以觸發或生效的前提要件",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Payment is a condition for delivery of the goods.",
+          "translationZh": "付款是貨物交付的前提條件。"
+        }
+      ]
+    },
+    {
+      "headword": "obligation",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中各方依法須履行的責任",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The supplier has an obligation to deliver on the agreed date.",
+          "translationZh": "供應商有義務在約定日期交貨。"
+        }
+      ]
+    },
+    {
+      "headword": "party",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中的簽約當事方",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Neither party may assign its rights without written consent.",
+          "translationZh": "未經書面同意，任何一方均不得轉讓其權利。"
+        }
+      ]
+    },
+    {
+      "headword": "counterpart",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約的副本，各方各執一份且具同等效力",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract was signed in two counterparts, one for each party.",
+          "translationZh": "合約簽署了兩份副本，各方各持一份。"
+        }
+      ]
+    },
+    {
+      "headword": "signatory",
+      "partOfSpeech": "n.",
+      "definitionZh": "正式在合約上簽名的人或機構",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Each signatory must initial every page of the agreement.",
+          "translationZh": "每位簽署人須在協議的每一頁縮寫簽名。"
+        }
+      ]
+    },
+    {
+      "headword": "execute",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式完成簽署手續使合約生效",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The CEO will execute the contract at tomorrow's signing ceremony.",
+          "translationZh": "執行長將在明天的簽約典禮上正式簽署合約。"
+        }
+      ]
+    },
+    {
+      "headword": "enforce",
+      "partOfSpeech": "v.",
+      "definitionZh": "透過法律手段強制要求對方遵守合約",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The company took legal action to enforce the payment terms.",
+          "translationZh": "公司採取法律行動以強制執行付款條款。"
+        }
+      ]
+    },
+    {
+      "headword": "breach",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "違反合約規定義務的行為",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Failure to deliver on time constitutes a breach of contract.",
+          "translationZh": "未能準時交貨構成違約。"
+        }
+      ]
+    },
+    {
+      "headword": "remedy",
+      "partOfSpeech": "n.",
+      "definitionZh": "違約時受害方可依法採取的救濟手段",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Damages are the most common remedy for breach of contract.",
+          "translationZh": "損害賠償是違約最常見的救濟方式。"
+        }
+      ]
+    },
+    {
+      "headword": "representation",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中當事方對事實所做的陳述與保證",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The seller's representation that the goods are defect-free was false.",
+          "translationZh": "賣方關於貨物無瑕疵的保證陳述是虛假的。"
+        }
+      ]
+    },
+    {
+      "headword": "covenant",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中正式承諾須積極作為或不得作為的特別條款",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The non-compete covenant prevents the employee from joining rivals.",
+          "translationZh": "競業禁止承諾條款阻止員工加入競爭對手。"
+        }
+      ]
+    },
+    {
+      "headword": "amendment",
+      "partOfSpeech": "n.",
+      "definitionZh": "對已簽署合約條款所做的正式書面修改",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "An amendment was signed to extend the contract by six months.",
+          "translationZh": "雙方簽署了修改協議將合約延長六個月。"
+        }
+      ]
+    },
+    {
+      "headword": "addendum",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約生效後額外簽署的補充條款文件",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The price schedule was attached as an addendum to the main contract.",
+          "translationZh": "價格表作為補充文件附於主合約之後。"
+        }
+      ]
+    },
+    {
+      "headword": "annex",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約的大型附件，通常含詳細規格或表格",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Technical specifications are listed in Annex A of the agreement.",
+          "translationZh": "技術規格列於協議附件A中。"
+        }
+      ]
+    },
+    {
+      "headword": "exhibit",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中引用的佐證文件，如樣本或圖表",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Exhibit 1 contains the approved list of deliverables.",
+          "translationZh": "附件一包含已批准的交付成果清單。"
+        }
+      ]
+    },
+    {
+      "headword": "appendix",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約末尾附上的補充說明資料，不屬主要條款",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Refer to the appendix for the full list of covered services.",
+          "translationZh": "請參閱附錄以獲取涵蓋服務的完整清單。"
+        }
+      ]
+    },
+    {
+      "headword": "preamble",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約開篇介紹各方身份與訂約宗旨的引言",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The preamble states the intent and background of the agreement.",
+          "translationZh": "前言說明了協議的意圖與背景。"
+        }
+      ]
+    },
+    {
+      "headword": "recital",
+      "partOfSpeech": "n.",
+      "definitionZh": "鑑於條款中具體說明締約事由的陳述段落",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The recitals describe why the two companies entered the agreement.",
+          "translationZh": "陳述段落說明了兩家公司簽訂協議的原因。"
+        }
+      ]
+    },
+    {
+      "headword": "whereas",
+      "partOfSpeech": "conj.",
+      "definitionZh": "合約前言中引導背景陳述的法律用語，意為「鑑於」",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Whereas the parties wish to cooperate, they agree as follows.",
+          "translationZh": "鑑於雙方希望合作，特約定如下。"
+        }
+      ]
+    },
+    {
+      "headword": "therefore",
+      "partOfSpeech": "adv.",
+      "definitionZh": "表示「因此」，用於連接前述事實與後續法律結論",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The goods were defective; therefore, the buyer claimed a refund.",
+          "translationZh": "貨物有瑕疵，因此買方要求退款。"
+        }
+      ]
+    },
+    {
+      "headword": "effective",
+      "partOfSpeech": "adj.",
+      "definitionZh": "合約或條款開始正式生效的（用於日期）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The agreement is effective as of the date of the last signature.",
+          "translationZh": "協議自最後一方簽署之日起生效。"
+        }
+      ]
+    },
+    {
+      "headword": "commencement",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約義務正式開始履行的起始日期",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Work shall begin on the commencement date stated in the contract.",
+          "translationZh": "工作應於合約規定的開始日期啟動。"
+        }
+      ]
+    },
+    {
+      "headword": "expiry",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約期滿自動終止的日期",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "A renewal notice must be sent 60 days before the contract's expiry.",
+          "translationZh": "必須在合約到期前60天發出續約通知。"
+        }
+      ]
+    },
+    {
+      "headword": "renewal",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約期滿後雙方同意繼續有效的續簽行為",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Renewal of the service contract requires written approval from both sides.",
+          "translationZh": "服務合約續簽需要雙方書面批准。"
+        }
+      ]
+    },
+    {
+      "headword": "notice",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約規定須以書面向對方發出的正式通知",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The vendor gave 30 days' notice before terminating the agreement.",
+          "translationZh": "供應商在終止協議前提前30天發出通知。"
+        }
+      ]
+    },
+    {
+      "headword": "cure",
+      "partOfSpeech": "v.",
+      "definitionZh": "在合約規定的期限內補救違約情形",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor has 14 days to cure any defects after notification.",
+          "translationZh": "承包商在收到通知後有14天的時間修補瑕疵。"
+        }
+      ]
+    },
+    {
+      "headword": "waiver",
+      "partOfSpeech": "n.",
+      "definitionZh": "主動放棄合約中某項權利的書面聲明",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "A written waiver is required to forgo the late payment penalty.",
+          "translationZh": "放棄逾期付款罰款需要書面放棄聲明。"
+        }
+      ]
+    },
+    {
+      "headword": "consent",
+      "partOfSpeech": "n.",
+      "definitionZh": "對合約變更或特定行為表示同意的聲明",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Written consent from both parties is needed before any subcontracting.",
+          "translationZh": "任何分包行為均需雙方書面同意。"
+        }
+      ]
+    },
+    {
+      "headword": "authorize",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式賦予某人或機構執行特定行為的權力",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Only the CEO is authorized to sign contracts above $100,000.",
+          "translationZh": "只有執行長有權簽署超過十萬美元的合約。"
+        }
+      ]
+    },
+    {
+      "headword": "jurisdiction",
+      "partOfSpeech": "n.",
+      "definitionZh": "法院或仲裁庭依法有權審理案件的地理或法律範圍",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract specifies Singapore as the jurisdiction for disputes.",
+          "translationZh": "合約指定新加坡為爭議管轄地。"
+        }
+      ]
+    },
+    {
+      "headword": "governing",
+      "partOfSpeech": "adj.",
+      "definitionZh": "合約準據法條款中指定適用之法律體系的形容詞",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The governing law of this agreement is the law of Hong Kong.",
+          "translationZh": "本協議的準據法為香港法律。"
+        }
+      ]
+    },
+    {
+      "headword": "law",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約明定適用的特定國家或地區法律制度",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract is governed by the laws of the State of New York.",
+          "translationZh": "合約受紐約州法律管轄。"
+        }
+      ]
+    },
+    {
+      "headword": "dispute",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約雙方就履行或解釋所產生的正式糾紛",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Any dispute arising from this contract shall be resolved by arbitration.",
+          "translationZh": "由本合約引發的任何糾紛應透過仲裁解決。"
+        }
+      ]
+    },
+    {
+      "headword": "arbitration",
+      "partOfSpeech": "n.",
+      "definitionZh": "由中立仲裁人以裁決取代訴訟的正式爭議解決程序",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The parties agreed to submit disputes to arbitration in London.",
+          "translationZh": "雙方同意將爭議提交倫敦仲裁。"
+        }
+      ]
+    },
+    {
+      "headword": "mediation",
+      "partOfSpeech": "n.",
+      "definitionZh": "在調解人引導下雙方自願協商和解的非訴訟程序",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "They opted for mediation to settle the billing dispute amicably.",
+          "translationZh": "他們選擇調解以友好方式解決帳款糾紛。"
+        }
+      ]
+    },
+    {
+      "headword": "litigation",
+      "partOfSpeech": "n.",
+      "definitionZh": "透過法院起訴程序解決合約爭議",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The company preferred arbitration over costly litigation.",
+          "translationZh": "公司傾向仲裁而非耗費龐大的訴訟程序。"
+        }
+      ]
+    },
+    {
+      "headword": "court",
+      "partOfSpeech": "n.",
+      "definitionZh": "具有法律管轄權、正式審理民商事案件的法院",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The case was brought before a court in the agreed jurisdiction.",
+          "translationZh": "案件在約定管轄地的法院提起。"
+        }
+      ]
+    },
+    {
+      "headword": "tribunal",
+      "partOfSpeech": "n.",
+      "definitionZh": "處理特定類型爭議的專門仲裁庭或裁判機構",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The arbitral tribunal issued its decision within three months.",
+          "translationZh": "仲裁庭在三個月內作出裁決。"
+        }
+      ]
+    },
+    {
+      "headword": "judgment",
+      "partOfSpeech": "n.",
+      "definitionZh": "法院對訴訟案件所作的最終判決",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The court entered judgment in favor of the plaintiff.",
+          "translationZh": "法院作出有利於原告的判決。"
+        }
+      ]
+    },
+    {
+      "headword": "award",
+      "partOfSpeech": "n.",
+      "definitionZh": "仲裁程序終結後仲裁庭的最終裁決結果",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The arbitration award ordered the defendant to pay $50,000.",
+          "translationZh": "仲裁裁決命令被告支付五萬美元。"
+        }
+      ]
+    },
+    {
+      "headword": "injunction",
+      "partOfSpeech": "n.",
+      "definitionZh": "法院命令某方立即停止或避免特定行為的禁令",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The client sought an injunction to stop the release of its data.",
+          "translationZh": "客戶申請禁令以阻止其資料的釋出。"
+        }
+      ]
+    },
+    {
+      "headword": "confidentiality",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中約定保護敏感資訊不得向外洩露的義務",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Both sides are bound by strict confidentiality throughout the project.",
+          "translationZh": "雙方在整個專案過程中受到嚴格保密義務的約束。"
+        }
+      ]
+    },
+    {
+      "headword": "disclose",
+      "partOfSpeech": "v.",
+      "definitionZh": "向合約他方揭露資訊或事實",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The vendor must not disclose client data to any third party.",
+          "translationZh": "供應商不得向任何第三方揭露客戶資料。"
+        }
+      ]
+    },
+    {
+      "headword": "proprietary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "屬於特定公司所有且受法律保護的（資訊或技術）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Proprietary information shared under this contract must remain secret.",
+          "translationZh": "依本合約共享的專有資訊必須保持保密。"
+        }
+      ]
+    },
+    {
+      "headword": "intellectual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "與智慧財產（版權、專利、商標等）相關的",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "All intellectual property created under this contract belongs to the client.",
+          "translationZh": "依本合約創作的所有智慧財產均屬客戶所有。"
+        }
+      ]
+    },
+    {
+      "headword": "copyright",
+      "partOfSpeech": "n.",
+      "definitionZh": "對原創作品享有的著作財產權",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The copyright for all reports produced belongs to the hiring company.",
+          "translationZh": "所有製作報告的著作權屬於委託公司。"
+        }
+      ]
+    },
+    {
+      "headword": "trademark",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於識別品牌、已向主管機關登記的商標權",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Use of the company's trademark requires prior written approval.",
+          "translationZh": "使用公司商標須事先獲得書面批准。"
+        }
+      ]
+    },
+    {
+      "headword": "patent",
+      "partOfSpeech": "n.",
+      "definitionZh": "政府授予發明人獨占使用其發明一定期間的專利權",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The supplier holds a patent on the core technology in this product.",
+          "translationZh": "供應商持有本產品核心技術的專利。"
+        }
+      ]
+    },
+    {
+      "headword": "license",
+      "partOfSpeech": "n.",
+      "definitionZh": "允許他方在特定條件下使用智慧財產的授權許可",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The software license grants use rights for a period of one year.",
+          "translationZh": "軟體授權賦予一年期的使用權。"
+        }
+      ]
+    },
+    {
+      "headword": "royalty",
+      "partOfSpeech": "n.",
+      "definitionZh": "被授權方依協議向智慧財產權人支付的權利金",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "A royalty of 5% of net sales is payable each quarter.",
+          "translationZh": "每季須支付淨銷售額5%的權利金。"
+        }
+      ]
+    },
+    {
+      "headword": "exclusive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "僅授予單一方、不允許他人共享的（獨家授權）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The distributor holds an exclusive right to sell in the Asia market.",
+          "translationZh": "該經銷商持有亞洲市場的獨家銷售權。"
+        }
+      ]
+    },
+    {
+      "headword": "nonexclusive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "可同時授予多方使用、非獨占性的（授權）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "A nonexclusive license allows several vendors to use the technology.",
+          "translationZh": "非獨家授權允許多家廠商使用該技術。"
+        }
+      ]
+    },
+    {
+      "headword": "sublicense",
+      "partOfSpeech": "v.",
+      "definitionZh": "將已獲得的授權再轉授予第三方",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The licensee may not sublicense the software without written consent.",
+          "translationZh": "被授權人未經書面同意不得再授權軟體。"
+        }
+      ]
+    },
+    {
+      "headword": "assignment",
+      "partOfSpeech": "n.",
+      "definitionZh": "將合約中的權利或義務轉讓給第三方的行為",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Assignment of contract rights requires prior approval from the other party.",
+          "translationZh": "轉讓合約權利需要對方事先批准。"
+        }
+      ]
+    },
+    {
+      "headword": "rescind",
+      "partOfSpeech": "v.",
+      "definitionZh": "因重大違約或欺詐而撤銷合約，使其自始無效",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The buyer rescinded the contract after discovering the fraud.",
+          "translationZh": "買方在發現欺詐後撤銷了合約。"
+        }
+      ]
+    },
+    {
+      "headword": "void",
+      "partOfSpeech": "adj.",
+      "definitionZh": "在法律上從一開始即不具效力的（合約）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Any contract signed under duress may be declared void.",
+          "translationZh": "任何在脅迫下簽署的合約均可宣告無效。"
+        }
+      ]
+    },
+    {
+      "headword": "indemnification",
+      "partOfSpeech": "n.",
+      "definitionZh": "約定補償對方因特定事由所遭受損失的合約義務",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract includes an indemnification clause for third-party claims.",
+          "translationZh": "合約包含針對第三方索賠的損害補償條款。"
+        }
+      ]
+    },
+    {
+      "headword": "limitation",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中設定賠償責任金額上限的條款",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The limitation of liability clause caps damages at the contract value.",
+          "translationZh": "責任限制條款將賠償金額上限設為合約金額。"
+        }
+      ]
+    },
+    {
+      "headword": "damages",
+      "partOfSpeech": "n.",
+      "definitionZh": "因違約而須向受害方支付的金錢賠償總額",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The court awarded damages of $200,000 for lost profits.",
+          "translationZh": "法院裁定損失利潤賠償金額為二十萬美元。"
+        }
+      ]
+    },
+    {
+      "headword": "consequential",
+      "partOfSpeech": "adj.",
+      "definitionZh": "非直接但由違約間接引發的（損害）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract excludes liability for consequential loss of revenue.",
+          "translationZh": "合約排除間接收入損失的賠償責任。"
+        }
+      ]
+    },
+    {
+      "headword": "incidental",
+      "partOfSpeech": "adj.",
+      "definitionZh": "伴隨違約附帶發生的（費用或損失）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Incidental costs such as inspection fees may be claimed.",
+          "translationZh": "附帶費用如檢驗費可主張賠償。"
+        }
+      ]
+    },
+    {
+      "headword": "punitive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "旨在懲罰故意不當行為的（賠償）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Punitive damages were sought for the supplier's willful misconduct.",
+          "translationZh": "因供應商故意不當行為而尋求懲罰性賠償。"
+        }
+      ]
+    },
+    {
+      "headword": "liquidated",
+      "partOfSpeech": "adj.",
+      "definitionZh": "合約預先約定違約時須支付固定金額的（損害賠償）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Liquidated damages of $1,000 per day apply for late delivery.",
+          "translationZh": "逾期交貨每日須支付一千美元的違約金。"
+        }
+      ]
+    },
+    {
+      "headword": "consideration",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約成立所需雙方各自提供的對價（金錢或服務）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Without valid consideration, a contract may not be legally binding.",
+          "translationZh": "沒有有效對價，合約可能不具法律約束力。"
+        }
+      ]
+    },
+    {
+      "headword": "offer",
+      "partOfSpeech": "n.",
+      "definitionZh": "締結合約時一方提出的具體要約",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The buyer made a formal offer to purchase the property.",
+          "translationZh": "買方正式提出購買該不動產的要約。"
+        }
+      ]
+    },
+    {
+      "headword": "acceptance",
+      "partOfSpeech": "n.",
+      "definitionZh": "無條件同意對方要約以成立合約的行為",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Acceptance must match the terms of the offer to form a contract.",
+          "translationZh": "承諾必須符合要約條款才能成立合約。"
+        }
+      ]
+    },
+    {
+      "headword": "counteroffer",
+      "partOfSpeech": "n.",
+      "definitionZh": "對原要約提出修改條件的反要約",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The seller rejected the bid and sent a counteroffer at a higher price.",
+          "translationZh": "賣方拒絕出價並以較高價格發出反要約。"
+        }
+      ]
+    },
+    {
+      "headword": "binding",
+      "partOfSpeech": "adj.",
+      "definitionZh": "一旦成立即對各方產生法律拘束效力的",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Once signed, the agreement is legally binding on all parties.",
+          "translationZh": "一旦簽署，協議對所有各方均具法律約束力。"
+        }
+      ]
+    },
+    {
+      "headword": "enforceable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "法院可強制命令履行的（條款或合約）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "A verbal agreement may not be enforceable in a court of law.",
+          "translationZh": "口頭協議在法庭上可能不具強制執行力。"
+        }
+      ]
+    },
+    {
+      "headword": "valid",
+      "partOfSpeech": "adj.",
+      "definitionZh": "因符合法律要件（要約、承諾、對價）而合法成立的",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "A valid contract requires offer, acceptance, and consideration.",
+          "translationZh": "有效合約需要要約、承諾和對價。"
+        }
+      ]
+    },
+    {
+      "headword": "legal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "符合現行法律規定、不違法的",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The legal team reviewed the agreement before it was signed.",
+          "translationZh": "法律團隊在合約簽署前進行了審查。"
+        }
+      ]
+    },
+    {
+      "headword": "comply",
+      "partOfSpeech": "v.",
+      "definitionZh": "遵守合約條款或相關法規的要求",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "All vendors must comply with the data protection requirements.",
+          "translationZh": "所有供應商必須遵守資料保護要求。"
+        }
+      ]
+    },
+    {
+      "headword": "fulfill",
+      "partOfSpeech": "v.",
+      "definitionZh": "完整達成合約所規定的全部義務",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor fulfilled all obligations ahead of schedule.",
+          "translationZh": "承包商提前完成了所有合約義務。"
+        }
+      ]
+    },
+    {
+      "headword": "perform",
+      "partOfSpeech": "v.",
+      "definitionZh": "按合約承諾執行具體的工作或服務",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The agency agreed to perform the audit within 30 days.",
+          "translationZh": "機構同意在30天內執行審計工作。"
+        }
+      ]
+    },
+    {
+      "headword": "tender",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式提交款項或文件以履行合約義務",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor will tender payment within five business days.",
+          "translationZh": "承包商將在五個工作日內正式提交款項。"
+        }
+      ]
+    },
+    {
+      "headword": "overdue",
+      "partOfSpeech": "adj.",
+      "definitionZh": "已超過合約約定期限尚未完成的（付款或義務）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The invoice is 30 days overdue and interest charges now apply.",
+          "translationZh": "發票已逾期30天，現將收取利息費用。"
+        }
+      ]
+    },
+    {
+      "headword": "reinstate",
+      "partOfSpeech": "v.",
+      "definitionZh": "恢復因違約或暫停而失效的合約效力",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contract will be reinstated once the outstanding payment is made.",
+          "translationZh": "一旦補清欠款，合約將恢復效力。"
+        }
+      ]
+    },
+    {
+      "headword": "suspend",
+      "partOfSpeech": "v.",
+      "definitionZh": "暫時中止合約義務的履行",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Services will be suspended if payment is not received by Friday.",
+          "translationZh": "若週五前未收到付款，服務將暫停。"
+        }
+      ]
+    },
+    {
+      "headword": "arbitrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "將糾紛提交仲裁人作出具約束力裁決",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The parties agreed to arbitrate rather than litigate the claim.",
+          "translationZh": "雙方同意以仲裁而非訴訟方式解決索賠。"
+        }
+      ]
+    },
+    {
+      "headword": "mediate",
+      "partOfSpeech": "v.",
+      "definitionZh": "擔任中立調解人主持雙方達成妥協",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "An independent expert was called in to mediate the contract dispute.",
+          "translationZh": "邀請了一位獨立專家來調解合約糾紛。"
+        }
+      ]
+    },
+    {
+      "headword": "resolve",
+      "partOfSpeech": "v.",
+      "definitionZh": "達成最終協議使合約爭議得以解決",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The two sides resolved the pricing dispute through negotiation.",
+          "translationZh": "雙方透過談判解決了定價糾紛。"
+        }
+      ]
+    },
+    {
+      "headword": "venue",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約明定提起訴訟或仲裁程序的特定城市或場所",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The agreed venue for arbitration is the ICC in Paris.",
+          "translationZh": "約定的仲裁地點是巴黎國際商會。"
+        }
+      ]
+    },
+    {
+      "headword": "applicable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "適用於本合約情況的（法規或條款）",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "All applicable tax laws must be observed when invoicing.",
+          "translationZh": "開立發票時須遵守所有適用的稅法。"
+        }
+      ]
+    },
+    {
+      "headword": "precedent",
+      "partOfSpeech": "n.",
+      "definitionZh": "影響後續相似案件判決方向的先例",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The ruling set a precedent for how similar contracts are enforced.",
+          "translationZh": "該裁決為類似合約的執行方式樹立了先例。"
+        }
+      ]
+    },
+    {
+      "headword": "statute",
+      "partOfSpeech": "n.",
+      "definitionZh": "由立法機關正式制定的成文法律",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The clause must conform to the statute of limitations in this state.",
+          "translationZh": "該條款必須符合本州的時效法規。"
+        }
+      ]
+    },
+    {
+      "headword": "regulatory",
+      "partOfSpeech": "adj.",
+      "definitionZh": "與政府監管機關規定相關的",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The vendor must meet all regulatory requirements before delivery.",
+          "translationZh": "供應商在交貨前必須符合所有監管要求。"
+        }
+      ]
+    },
+    {
+      "headword": "authority",
+      "partOfSpeech": "n.",
+      "definitionZh": "擁有法律或行政管轄權的政府主管機關",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The agreement must be filed with the relevant regulatory authority.",
+          "translationZh": "協議必須向相關監管機關備案。"
+        }
+      ]
+    },
+    {
+      "headword": "permit",
+      "partOfSpeech": "n.",
+      "definitionZh": "政府核准特定活動或工程的書面許可證",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor must obtain a building permit before work begins.",
+          "translationZh": "承包商在施工前必須取得建築許可證。"
+        }
+      ]
+    },
+    {
+      "headword": "certification",
+      "partOfSpeech": "n.",
+      "definitionZh": "證明個人或產品符合特定標準的官方認證",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The supplier's ISO certification is required under this contract.",
+          "translationZh": "本合約要求供應商提供ISO認證。"
+        }
+      ]
+    },
+    {
+      "headword": "registration",
+      "partOfSpeech": "n.",
+      "definitionZh": "在主管機關登記以取得法律保護的正式程序",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Trademark registration must be completed before product launch.",
+          "translationZh": "商標登記必須在產品上市前完成。"
+        }
+      ]
+    },
+    {
+      "headword": "terminate",
+      "partOfSpeech": "v.",
+      "definitionZh": "依合約規定程序正式結束合約關係",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "Either party may terminate the agreement with 60 days' written notice.",
+          "translationZh": "任一方可提前60天書面通知終止協議。"
+        }
+      ]
+    },
+    {
+      "headword": "liable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "依法須對損害或違約後果承擔賠償責任的",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor is liable for any damage caused during installation.",
+          "translationZh": "承包商須對安裝過程中造成的任何損害負責。"
+        }
+      ]
+    },
+    {
+      "headword": "subcontract",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "將主合約中部分工作委託給另一方承包",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The main contractor may subcontract electrical work to specialists.",
+          "translationZh": "總承包商可將電氣工程分包給專業廠商。"
+        }
+      ]
+    },
+    {
+      "headword": "contractor",
+      "partOfSpeech": "n.",
+      "definitionZh": "與發包方簽訂合約、負責執行工程或服務的廠商",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor must complete all work by the deadline in the contract.",
+          "translationZh": "承包商必須在合約規定的期限內完成所有工作。"
+        }
+      ]
+    },
+    {
+      "headword": "subcontractor",
+      "partOfSpeech": "n.",
+      "definitionZh": "接受承包商委託執行部分工程或服務的次承包商",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "The subcontractor is bound by the same quality standards as the main contractor.",
+          "translationZh": "次承包商受與主承包商相同的品質標準約束。"
+        }
+      ]
+    }
+  ]
+}

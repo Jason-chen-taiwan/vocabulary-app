@@ -1,0 +1,1538 @@
+{
+  "slug": "toeic-logistics",
+  "name": "物流與供應鏈",
+  "description": "涵蓋倉儲、運輸、採購與供應鏈管理的核心商務英語詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "warehouse",
+      "partOfSpeech": "n.",
+      "definitionZh": "倉庫；大型貨物儲存設施",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The new warehouse can store up to 10,000 pallets.",
+          "translationZh": "新倉庫最多可儲存一萬個棧板。"
+        }
+      ]
+    },
+    {
+      "headword": "storage",
+      "partOfSpeech": "n.",
+      "definitionZh": "存放空間；儲存行為（非倉庫建築本身）",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We need additional storage for the seasonal inventory.",
+          "translationZh": "我們需要額外空間存放季節性庫存。"
+        }
+      ]
+    },
+    {
+      "headword": "rack",
+      "partOfSpeech": "n.",
+      "definitionZh": "貨架；倉庫用金屬層架",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Install heavy-duty racks along the warehouse walls.",
+          "translationZh": "沿倉庫牆面安裝重型貨架。"
+        }
+      ]
+    },
+    {
+      "headword": "pallet",
+      "partOfSpeech": "n.",
+      "definitionZh": "棧板；用於堆放貨物的木製平台",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Each pallet holds up to 500 kg of packaged goods.",
+          "translationZh": "每個棧板最多承載500公斤包裝貨物。"
+        }
+      ]
+    },
+    {
+      "headword": "forklift",
+      "partOfSpeech": "n.",
+      "definitionZh": "堆高機；用於搬運棧板的機具",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The forklift operator moved the pallet to the loading dock.",
+          "translationZh": "堆高機操作員將棧板移至裝卸月台。"
+        }
+      ]
+    },
+    {
+      "headword": "loading",
+      "partOfSpeech": "n.",
+      "definitionZh": "裝貨；將貨物裝入運輸工具的作業",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Loading of the container will begin at 8 a.m. tomorrow.",
+          "translationZh": "貨櫃裝貨作業將於明天早上八點開始。"
+        }
+      ]
+    },
+    {
+      "headword": "unloading",
+      "partOfSpeech": "n.",
+      "definitionZh": "卸貨；從運輸工具取出貨物的作業",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Unloading was delayed due to port congestion.",
+          "translationZh": "因港口擁塞，卸貨作業延誤。"
+        }
+      ]
+    },
+    {
+      "headword": "dock",
+      "partOfSpeech": "n.",
+      "definitionZh": "裝卸月台；貨車靠站的裝卸區",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Three trucks were waiting at the dock to be unloaded.",
+          "translationZh": "三輛卡車在月台等候卸貨。"
+        }
+      ]
+    },
+    {
+      "headword": "bay",
+      "partOfSpeech": "n.",
+      "definitionZh": "倉庫儲區；貨架或停靠隔間的編號單位",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Bay 12 is reserved for temperature-sensitive products.",
+          "translationZh": "第12號儲區專供溫控產品使用。"
+        }
+      ]
+    },
+    {
+      "headword": "freight",
+      "partOfSpeech": "n.",
+      "definitionZh": "貨物運輸費用；整批商業貨物的陸海空運服務",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Air freight costs more but delivers in two days.",
+          "translationZh": "空運費用較高，但兩天內可送達。"
+        }
+      ]
+    },
+    {
+      "headword": "cargo",
+      "partOfSpeech": "n.",
+      "definitionZh": "船艙或機艙內承載的貨物整體",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The vessel's cargo was damaged by seawater during transit.",
+          "translationZh": "船舶貨物在運輸途中遭海水損壞。"
+        }
+      ]
+    },
+    {
+      "headword": "container",
+      "partOfSpeech": "n.",
+      "definitionZh": "標準貨櫃；用於海運或陸運的金屬箱體",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We booked a 40-foot container for the export shipment.",
+          "translationZh": "我們預訂了一個40呎貨櫃裝載出口貨物。"
+        }
+      ]
+    },
+    {
+      "headword": "vessel",
+      "partOfSpeech": "n.",
+      "definitionZh": "船舶；從事貨物運輸的輪船",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The vessel departs from Shanghai every Monday morning.",
+          "translationZh": "船舶每週一早晨從上海出發。"
+        }
+      ]
+    },
+    {
+      "headword": "port",
+      "partOfSpeech": "n.",
+      "definitionZh": "港口；船舶停靠進行裝卸的水上設施",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The goods arrived at the port of Los Angeles last week.",
+          "translationZh": "貨物上週抵達洛杉磯港。"
+        }
+      ]
+    },
+    {
+      "headword": "customs",
+      "partOfSpeech": "n.",
+      "definitionZh": "海關；負責進出口查驗與徵稅的政府機關",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "All goods must clear customs before entering the country.",
+          "translationZh": "所有貨物進入該國前須通過海關清關。"
+        }
+      ]
+    },
+    {
+      "headword": "duty",
+      "partOfSpeech": "n.",
+      "definitionZh": "依法須繳的進口稅額；實際應繳稅款",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The import duty on electronics was reduced to 5%.",
+          "translationZh": "電子產品的進口關稅降至5%。"
+        }
+      ]
+    },
+    {
+      "headword": "tariff",
+      "partOfSpeech": "n.",
+      "definitionZh": "政府公告的進出口商品稅率表",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "New tariffs on steel imports took effect this month.",
+          "translationZh": "新的鋼鐵進口關稅稅率本月起生效。"
+        }
+      ]
+    },
+    {
+      "headword": "import",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "進口；從國外購入商品或原料",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We import raw materials from three different countries.",
+          "translationZh": "我們從三個不同國家進口原物料。"
+        }
+      ]
+    },
+    {
+      "headword": "export",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "出口；將商品銷往國外市場",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The factory exports 60% of its production to Europe.",
+          "translationZh": "該工廠60%的產量出口至歐洲。"
+        }
+      ]
+    },
+    {
+      "headword": "border",
+      "partOfSpeech": "n.",
+      "definitionZh": "國境；兩國之間的邊界線",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Trucks crossing the border must carry proper documentation.",
+          "translationZh": "過境卡車必須持有完整文件。"
+        }
+      ]
+    },
+    {
+      "headword": "inspection",
+      "partOfSpeech": "n.",
+      "definitionZh": "到貨查驗；對貨物進行的官方或品質檢查（名詞）",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The shipment passed customs inspection without issues.",
+          "translationZh": "該批貨物順利通過海關查驗。"
+        }
+      ]
+    },
+    {
+      "headword": "quarantine",
+      "partOfSpeech": "n.",
+      "definitionZh": "檢疫；為防疫而暫時隔離貨物或人員",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Fresh produce may be held in quarantine at the border.",
+          "translationZh": "新鮮農產品可能在邊境被暫時檢疫扣留。"
+        }
+      ]
+    },
+    {
+      "headword": "certificate",
+      "partOfSpeech": "n.",
+      "definitionZh": "官方證明文件；如品質或原產地證書",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "A phytosanitary certificate is required for plant exports.",
+          "translationZh": "植物出口需附上植物檢疫證書。"
+        }
+      ]
+    },
+    {
+      "headword": "origin",
+      "partOfSpeech": "n.",
+      "definitionZh": "產地；商品的製造或生產國",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Please provide a certificate of origin for this shipment.",
+          "translationZh": "請為本批貨物提供原產地證明書。"
+        }
+      ]
+    },
+    {
+      "headword": "manifest",
+      "partOfSpeech": "n.",
+      "definitionZh": "艙單；列出所有貨物的船舶或飛機載貨清單",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The captain signed the cargo manifest before departure.",
+          "translationZh": "船長在出發前簽署了貨物艙單。"
+        }
+      ]
+    },
+    {
+      "headword": "bill",
+      "partOfSpeech": "n.",
+      "definitionZh": "帳單；票據（泛指商業應收應付文件）",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Please send the bill to our accounts payable department.",
+          "translationZh": "請將帳單寄至我們的應付帳款部門。"
+        }
+      ]
+    },
+    {
+      "headword": "lading",
+      "partOfSpeech": "n.",
+      "definitionZh": "（提單中）貨物裝載的記載；提單的法律要素",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The bill of lading confirms receipt of goods for shipment.",
+          "translationZh": "提單確認貨物已收妥並交付運輸。"
+        }
+      ]
+    },
+    {
+      "headword": "waybill",
+      "partOfSpeech": "n.",
+      "definitionZh": "運貨單；隨貨附帶的運輸明細文件",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Attach the waybill to the outside of each package.",
+          "translationZh": "將運貨單貼附在每個包裝箱外側。"
+        }
+      ]
+    },
+    {
+      "headword": "tracking",
+      "partOfSpeech": "n.",
+      "definitionZh": "即時貨物追蹤；監看貨物目前位置的功能",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Use the tracking number to monitor your parcel online.",
+          "translationZh": "使用追蹤號碼在線上查看包裹位置。"
+        }
+      ]
+    },
+    {
+      "headword": "trace",
+      "partOfSpeech": "v.",
+      "definitionZh": "追查歷史軌跡；回溯貨物的完整運送記錄",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We can trace the package's route from origin to delivery.",
+          "translationZh": "我們可以追查包裹從起點到送達的完整路徑。"
+        }
+      ]
+    },
+    {
+      "headword": "route",
+      "partOfSpeech": "n.",
+      "definitionZh": "運輸路線；從起點到目的地的路徑規劃",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We chose a sea route to reduce shipping costs.",
+          "translationZh": "我們選擇海運路線以降低運費。"
+        }
+      ]
+    },
+    {
+      "headword": "carrier",
+      "partOfSpeech": "n.",
+      "definitionZh": "承運人；實際負責貨物運輸的公司或個人",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Our preferred carrier offers door-to-door service.",
+          "translationZh": "我們優先合作的承運人提供到府服務。"
+        }
+      ]
+    },
+    {
+      "headword": "truck",
+      "partOfSpeech": "n.",
+      "definitionZh": "卡車；陸路貨物運輸車輛",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Three trucks delivered the order to the distribution center.",
+          "translationZh": "三輛卡車將訂單送至配送中心。"
+        }
+      ]
+    },
+    {
+      "headword": "rail",
+      "partOfSpeech": "n.",
+      "definitionZh": "鐵路運輸；以火車運送貨物的方式",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Rail is cost-effective for bulk cargo over long distances.",
+          "translationZh": "鐵路對長途大宗貨物而言具成本效益。"
+        }
+      ]
+    },
+    {
+      "headword": "air",
+      "partOfSpeech": "n.",
+      "definitionZh": "空運；以飛機運送貨物的模式",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We sent the urgent samples by air to meet the deadline.",
+          "translationZh": "我們以空運方式寄出緊急樣品以趕上截止日。"
+        }
+      ]
+    },
+    {
+      "headword": "sea",
+      "partOfSpeech": "n.",
+      "definitionZh": "海運；以船舶跨洋運送貨物的方式",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Sea freight is cheaper but takes four weeks to arrive.",
+          "translationZh": "海運費用較低，但需四週才能到達。"
+        }
+      ]
+    },
+    {
+      "headword": "multimodal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "多式聯運的；結合兩種以上運輸方式的",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The multimodal solution combines truck and rail transport.",
+          "translationZh": "多式聯運方案結合了卡車與鐵路運輸。"
+        }
+      ]
+    },
+    {
+      "headword": "hub",
+      "partOfSpeech": "n.",
+      "definitionZh": "物流樞紐；大型集散與轉運中心",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Singapore serves as a major shipping hub in Southeast Asia.",
+          "translationZh": "新加坡是東南亞主要的航運樞紐。"
+        }
+      ]
+    },
+    {
+      "headword": "spoke",
+      "partOfSpeech": "n.",
+      "definitionZh": "支線路徑；從樞紐延伸至末端的輻射線路",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Each spoke connects the regional hub to local delivery points.",
+          "translationZh": "每條支線將區域樞紐連接至各本地送貨點。"
+        }
+      ]
+    },
+    {
+      "headword": "distribution",
+      "partOfSpeech": "n.",
+      "definitionZh": "配送；將貨物從倉庫分發至各目的地",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Our distribution network covers all major cities nationwide.",
+          "translationZh": "我們的配送網絡涵蓋全國所有主要城市。"
+        }
+      ]
+    },
+    {
+      "headword": "fulfillment",
+      "partOfSpeech": "n.",
+      "definitionZh": "訂單履行；從接單到完成配送的全程作業",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Same-day fulfillment is available for orders placed before noon.",
+          "translationZh": "中午前下單可享當日履單服務。"
+        }
+      ]
+    },
+    {
+      "headword": "dispatch",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "從倉庫發出貨物；出貨派送",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The order was dispatched from our warehouse this morning.",
+          "translationZh": "訂單今早已從我們的倉庫發出。"
+        }
+      ]
+    },
+    {
+      "headword": "pick",
+      "partOfSpeech": "v.",
+      "definitionZh": "揀貨；從貨架上取出訂購商品",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Staff pick items from shelves using handheld barcode scanners.",
+          "translationZh": "員工使用手持條碼掃描機從貨架揀取商品。"
+        }
+      ]
+    },
+    {
+      "headword": "pack",
+      "partOfSpeech": "v.",
+      "definitionZh": "打包；將商品包裝好以便安全運輸",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Pack fragile items with extra bubble wrap before shipping.",
+          "translationZh": "易碎品出貨前請用氣泡紙加強包裝。"
+        }
+      ]
+    },
+    {
+      "headword": "barcode",
+      "partOfSpeech": "n.",
+      "definitionZh": "條碼；印在商品或包裝上的機器可讀識別碼",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Each box has a barcode that links to the order details.",
+          "translationZh": "每個箱子都有條碼連結至訂單資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "scan",
+      "partOfSpeech": "v.",
+      "definitionZh": "掃描條碼；用讀取器擷取商品識別資訊",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Scan every package before loading it onto the truck.",
+          "translationZh": "每個包裹裝車前務必先掃描條碼。"
+        }
+      ]
+    },
+    {
+      "headword": "consolidate",
+      "partOfSpeech": "v.",
+      "definitionZh": "合併裝運；將多票小批貨物合為一個運輸單位",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We can consolidate your cargo with others to save on freight.",
+          "translationZh": "我們可合併您的貨物與其他客戶的以節省運費。"
+        }
+      ]
+    },
+    {
+      "headword": "deconsolidate",
+      "partOfSpeech": "v.",
+      "definitionZh": "拆運；到達目的地後將合併貨物分開配送",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The shipment will deconsolidate at the Rotterdam hub.",
+          "translationZh": "貨物將在鹿特丹樞紐拆運後分別配送。"
+        }
+      ]
+    },
+    {
+      "headword": "dropship",
+      "partOfSpeech": "v.",
+      "definitionZh": "代發貨；由供應商直接將商品寄給終端客戶",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We dropship orders directly from our supplier to customers.",
+          "translationZh": "我們讓供應商直接將訂單發貨給客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "reverse",
+      "partOfSpeech": "adj.",
+      "definitionZh": "逆向（物流）的；處理退貨或回收的",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Our reverse logistics process handles all customer returns.",
+          "translationZh": "我們的逆向物流流程處理所有客戶退貨。"
+        }
+      ]
+    },
+    {
+      "headword": "recall",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "產品召回；因品質問題通知客戶退回商品",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The manufacturer issued a recall for the defective batch.",
+          "translationZh": "製造商就問題批次發布召回通知。"
+        }
+      ]
+    },
+    {
+      "headword": "damage",
+      "partOfSpeech": "n.",
+      "definitionZh": "貨物在運輸中所受的損壞",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Report any damage to the goods immediately upon receipt.",
+          "translationZh": "收貨時發現任何損壞應立即回報。"
+        }
+      ]
+    },
+    {
+      "headword": "shortage",
+      "partOfSpeech": "n.",
+      "definitionZh": "庫存短缺；實際到貨數量少於訂購數量",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "A shortage of chips has disrupted our production schedule.",
+          "translationZh": "晶片短缺已打亂我們的生產排程。"
+        }
+      ]
+    },
+    {
+      "headword": "surplus",
+      "partOfSpeech": "n.",
+      "definitionZh": "過剩庫存；超出需求的多餘貨品",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We sold the surplus stock at a discount to clear the warehouse.",
+          "translationZh": "我們以折扣價出售過剩庫存以清倉。"
+        }
+      ]
+    },
+    {
+      "headword": "replenish",
+      "partOfSpeech": "v.",
+      "definitionZh": "補貨；當庫存降至低點時重新補充",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The system automatically alerts staff to replenish low stock.",
+          "translationZh": "系統自動提醒員工對低庫存品項進行補貨。"
+        }
+      ]
+    },
+    {
+      "headword": "reorder",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "再訂購；向供應商重新下單補充庫存",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Set a reorder point to avoid running out of stock.",
+          "translationZh": "設定再訂購點以避免斷貨。"
+        }
+      ]
+    },
+    {
+      "headword": "supplier",
+      "partOfSpeech": "n.",
+      "definitionZh": "供應商；提供原料或成品的上游廠商",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We evaluate each supplier on quality, price, and lead time.",
+          "translationZh": "我們從品質、價格和交期評估每家供應商。"
+        }
+      ]
+    },
+    {
+      "headword": "procurement",
+      "partOfSpeech": "n.",
+      "definitionZh": "統籌採購流程；取得所需物資的整體活動",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The procurement team negotiated better terms with vendors.",
+          "translationZh": "採購團隊與供應商協商出更優惠的條件。"
+        }
+      ]
+    },
+    {
+      "headword": "purchasing",
+      "partOfSpeech": "n.",
+      "definitionZh": "實際下訂購買的行為；採購部門的日常操作",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "All purchasing orders must be approved by the department head.",
+          "translationZh": "所有採購單必須由部門主管批准。"
+        }
+      ]
+    },
+    {
+      "headword": "sourcing",
+      "partOfSpeech": "n.",
+      "definitionZh": "尋源；尋找並評估合適供應商的過程",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Global sourcing helps reduce costs but adds supply chain risk.",
+          "translationZh": "全球尋源有助降低成本，但增加供應鏈風險。"
+        }
+      ]
+    },
+    {
+      "headword": "quotation",
+      "partOfSpeech": "n.",
+      "definitionZh": "報價單；供應商提供的價格與條件說明",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We received quotations from five freight forwarders.",
+          "translationZh": "我們收到了五家貨運承攬業者的報價。"
+        }
+      ]
+    },
+    {
+      "headword": "receive",
+      "partOfSpeech": "v.",
+      "definitionZh": "收貨；實際接收供應商交付的貨物",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We received the shipment on Thursday and began inspection.",
+          "translationZh": "我們週四收到貨物後立即開始檢查。"
+        }
+      ]
+    },
+    {
+      "headword": "inspect",
+      "partOfSpeech": "v.",
+      "definitionZh": "逐一查驗貨物是否符合規格",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "A technician will inspect every unit before it leaves the factory.",
+          "translationZh": "技術員將在每個單品出廠前進行查驗。"
+        }
+      ]
+    },
+    {
+      "headword": "accept",
+      "partOfSpeech": "v.",
+      "definitionZh": "驗收；確認貨物符合規格後正式收下",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We can only accept goods that meet our quality standards.",
+          "translationZh": "我們只能驗收符合品質標準的貨物。"
+        }
+      ]
+    },
+    {
+      "headword": "quality",
+      "partOfSpeech": "n.",
+      "definitionZh": "品質；貨品良品率或達標程度",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Maintaining product quality is key to customer satisfaction.",
+          "translationZh": "維持產品品質是顧客滿意的關鍵。"
+        }
+      ]
+    },
+    {
+      "headword": "control",
+      "partOfSpeech": "n.",
+      "definitionZh": "管控；防止生產或物流偏差的管理措施",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Quality control checks are done at every stage of production.",
+          "translationZh": "品質管控檢查在每個生產階段均有執行。"
+        }
+      ]
+    },
+    {
+      "headword": "defect",
+      "partOfSpeech": "n.",
+      "definitionZh": "製造或包裝上的瑕疵；不良品特徵",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Any product with a defect is removed from the production line.",
+          "translationZh": "任何有瑕疵的產品都會從生產線上移除。"
+        }
+      ]
+    },
+    {
+      "headword": "rework",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "返工；對不良品進行修整使其達到標準",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The defective units were sent for rework before shipping.",
+          "translationZh": "不良品在出貨前送去返工。"
+        }
+      ]
+    },
+    {
+      "headword": "scrap",
+      "partOfSpeech": "n.",
+      "definitionZh": "廢料；無法修復而被淘汰的不良品",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Scrap rates increased after the machine was miscalibrated.",
+          "translationZh": "機器校準錯誤後廢料率上升。"
+        }
+      ]
+    },
+    {
+      "headword": "discard",
+      "partOfSpeech": "v.",
+      "definitionZh": "丟棄；永久棄置無使用價值的貨品",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Damaged packaging must be discarded before restocking.",
+          "translationZh": "損壞的包裝材料在補貨前必須丟棄。"
+        }
+      ]
+    },
+    {
+      "headword": "delivery",
+      "partOfSpeech": "n.",
+      "definitionZh": "配送；將貨物送達客戶指定地點的服務",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Free delivery is available on orders over $100.",
+          "translationZh": "訂單金額超過100美元享免費配送服務。"
+        }
+      ]
+    },
+    {
+      "headword": "collection",
+      "partOfSpeech": "n.",
+      "definitionZh": "集貨；由承運人前往發貨地主動取件",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Schedule a collection for the returned goods on Monday.",
+          "translationZh": "請安排週一到退貨地點集貨。"
+        }
+      ]
+    },
+    {
+      "headword": "pickup",
+      "partOfSpeech": "n.",
+      "definitionZh": "取貨；客戶或快遞員親至指定點領取包裹",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Pickup is available at our warehouse between 9 a.m. and 5 p.m.",
+          "translationZh": "上午九點至下午五點可至倉庫取貨。"
+        }
+      ]
+    },
+    {
+      "headword": "transit",
+      "partOfSpeech": "n.",
+      "definitionZh": "在途；貨物從出發地到目的地的運輸過程",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The goods were damaged while in transit to the customer.",
+          "translationZh": "貨物在運往客戶途中受損。"
+        }
+      ]
+    },
+    {
+      "headword": "arrival",
+      "partOfSpeech": "n.",
+      "definitionZh": "抵達；貨物或運輸工具到達目的地",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The arrival of the container was delayed by two days.",
+          "translationZh": "貨櫃抵港時間延誤了兩天。"
+        }
+      ]
+    },
+    {
+      "headword": "departure",
+      "partOfSpeech": "n.",
+      "definitionZh": "出發；貨物或運輸工具啟程離開的時間",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Confirm the departure date with the shipping line in advance.",
+          "translationZh": "請提前向船公司確認出發日期。"
+        }
+      ]
+    },
+    {
+      "headword": "delay",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "延誤；超出預定時間的運輸或處理拖延",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Bad weather caused a two-day delay at the port.",
+          "translationZh": "惡劣天氣導致港口作業延誤兩天。"
+        }
+      ]
+    },
+    {
+      "headword": "expedite",
+      "partOfSpeech": "v.",
+      "definitionZh": "加急催運；加快訂單或貨物的處理速度",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Can you expedite this order? The client needs it by Friday.",
+          "translationZh": "可以加急這份訂單嗎？客戶需要在週五前收到。"
+        }
+      ]
+    },
+    {
+      "headword": "express",
+      "partOfSpeech": "adj.",
+      "definitionZh": "快遞的；比標準配送更快的運輸服務",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We offer express delivery within 24 hours for an extra fee.",
+          "translationZh": "額外收費後我們提供24小時快遞服務。"
+        }
+      ]
+    },
+    {
+      "headword": "overnight",
+      "partOfSpeech": "adj.",
+      "definitionZh": "翌日送達的；隔夜完成配送的快速服務",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Book overnight shipping to ensure delivery by tomorrow morning.",
+          "translationZh": "請選擇隔夜快遞以確保明天早上送達。"
+        }
+      ]
+    },
+    {
+      "headword": "outsource",
+      "partOfSpeech": "v.",
+      "definitionZh": "外包；將業務委託給外部公司執行",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We decided to outsource warehousing to a third-party provider.",
+          "translationZh": "我們決定將倉儲業務外包給第三方業者。"
+        }
+      ]
+    },
+    {
+      "headword": "partner",
+      "partOfSpeech": "n.",
+      "definitionZh": "長期業務合作的合夥廠商",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Our logistics partner handles all cross-border deliveries.",
+          "translationZh": "我們的物流合作夥伴負責所有跨境配送。"
+        }
+      ]
+    },
+    {
+      "headword": "provider",
+      "partOfSpeech": "n.",
+      "definitionZh": "外部服務提供商；承接物流委外業務的業者",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Select a reliable 3PL provider to manage your distribution.",
+          "translationZh": "選擇可靠的第三方物流業者管理您的配送作業。"
+        }
+      ]
+    },
+    {
+      "headword": "capacity",
+      "partOfSpeech": "n.",
+      "definitionZh": "容量；倉庫、車輛或設施的最大承載能力",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The warehouse is operating at 90% capacity this month.",
+          "translationZh": "倉庫本月的使用率達到了九成。"
+        }
+      ]
+    },
+    {
+      "headword": "throughput",
+      "partOfSpeech": "n.",
+      "definitionZh": "吞吐量；單位時間內處理的貨物或訂單數量",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Upgrading the conveyor belt increased daily throughput by 20%.",
+          "translationZh": "升級輸送帶使每日吞吐量提升了20%。"
+        }
+      ]
+    },
+    {
+      "headword": "efficiency",
+      "partOfSpeech": "n.",
+      "definitionZh": "作業效率；以最少資源達到最多產出的程度",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Route optimization improved our delivery efficiency significantly.",
+          "translationZh": "路線優化顯著提升了我們的配送效率。"
+        }
+      ]
+    },
+    {
+      "headword": "accuracy",
+      "partOfSpeech": "n.",
+      "definitionZh": "準確率；訂單或庫存記錄的正確性比例",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Cycle counts help maintain inventory accuracy above 99%.",
+          "translationZh": "循環盤點有助於將庫存準確率維持在99%以上。"
+        }
+      ]
+    },
+    {
+      "headword": "demand",
+      "partOfSpeech": "n.",
+      "definitionZh": "市場需求量；顧客對商品的購買意願",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Demand for cold-chain services has risen sharply this year.",
+          "translationZh": "今年冷鏈服務的市場需求大幅上升。"
+        }
+      ]
+    },
+    {
+      "headword": "planning",
+      "partOfSpeech": "n.",
+      "definitionZh": "供應鏈規劃；預先安排物料、產能與配送的活動",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Good demand planning prevents stockouts during peak season.",
+          "translationZh": "良好的需求規劃可防止旺季時發生斷貨。"
+        }
+      ]
+    },
+    {
+      "headword": "optimization",
+      "partOfSpeech": "n.",
+      "definitionZh": "最佳化；透過分析找出最有效率的操作方式",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Network optimization reduced our total freight cost by 15%.",
+          "translationZh": "網路最佳化使我們的總運費降低了15%。"
+        }
+      ]
+    },
+    {
+      "headword": "reduction",
+      "partOfSpeech": "n.",
+      "definitionZh": "削減；降低成本、廢料或前置時間的努力",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Lead time reduction is a key goal for this quarter.",
+          "translationZh": "縮短前置時間是本季的重要目標。"
+        }
+      ]
+    },
+    {
+      "headword": "lean",
+      "partOfSpeech": "adj.",
+      "definitionZh": "精實的；去除浪費、追求精益求精的管理方式",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Lean principles help cut waste from the warehouse operation.",
+          "translationZh": "精實原則有助於消除倉庫作業中的浪費。"
+        }
+      ]
+    },
+    {
+      "headword": "batch",
+      "partOfSpeech": "n.",
+      "definitionZh": "批次；同時處理的一組相同作業或商品單位",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Process orders in batches to improve picking efficiency.",
+          "translationZh": "批次處理訂單以提升揀貨效率。"
+        }
+      ]
+    },
+    {
+      "headword": "lot",
+      "partOfSpeech": "n.",
+      "definitionZh": "批號；同一生產批次的一組貨品識別碼",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Record the lot number for every item in the receiving log.",
+          "translationZh": "在收貨記錄中登錄每項商品的批號。"
+        }
+      ]
+    },
+    {
+      "headword": "serial",
+      "partOfSpeech": "n.",
+      "definitionZh": "序號；為每件產品賦予的唯一識別號碼",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Enter the serial number when registering your product warranty.",
+          "translationZh": "辦理產品保固時請輸入序號。"
+        }
+      ]
+    },
+    {
+      "headword": "palletize",
+      "partOfSpeech": "v.",
+      "definitionZh": "棧板化；將貨物整齊堆疊於棧板上以利裝運",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Palletize all boxes before the truck arrives for pickup.",
+          "translationZh": "卡車來取貨前，請先將所有紙箱棧板化。"
+        }
+      ]
+    },
+    {
+      "headword": "shrinkwrap",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "熱縮膜包裝；以塑膠薄膜包覆固定棧板貨物",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Shrinkwrap the pallet tightly to prevent shifting in transport.",
+          "translationZh": "用熱縮膜緊密包覆棧板，防止運輸途中移位。"
+        }
+      ]
+    },
+    {
+      "headword": "crating",
+      "partOfSpeech": "n.",
+      "definitionZh": "木箱包裝；用木製箱架保護大型或精密貨物",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Heavy machinery requires custom crating for safe overseas shipping.",
+          "translationZh": "重型機械需要客製木箱包裝以確保海運安全。"
+        }
+      ]
+    },
+    {
+      "headword": "containerize",
+      "partOfSpeech": "v.",
+      "definitionZh": "貨櫃化；將貨物裝入標準貨櫃以進行運輸",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "It is faster to containerize bulk goods before loading.",
+          "translationZh": "裝船前先將大宗貨物貨櫃化可加快作業速度。"
+        }
+      ]
+    },
+    {
+      "headword": "incoterm",
+      "partOfSpeech": "n.",
+      "definitionZh": "國際貿易條規；規範買賣雙方責任與費用分擔的術語",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Agree on the Incoterm before signing the sales contract.",
+          "translationZh": "簽署銷售合約前請先確認國際貿易條規。"
+        }
+      ]
+    },
+    {
+      "headword": "fob",
+      "partOfSpeech": "abbr.",
+      "definitionZh": "離岸價；賣方負責裝船，之後風險由買方承擔",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The price is quoted FOB Shanghai, excluding insurance and freight.",
+          "translationZh": "價格以上海離岸價報出，不含保險費及運費。"
+        }
+      ]
+    },
+    {
+      "headword": "cif",
+      "partOfSpeech": "abbr.",
+      "definitionZh": "到岸價；賣方負責支付運費與保險費至目的港",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "Under CIF terms, the seller covers freight and insurance costs.",
+          "translationZh": "依照到岸價條款，賣方負擔運費與保險費。"
+        }
+      ]
+    }
+  ]
+}

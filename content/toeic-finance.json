@@ -1,0 +1,971 @@
+{
+  "slug": "toeic-finance",
+  "name": "財務與會計",
+  "description": "涵蓋會計記帳、財務報表、投資理財及銀行業務的核心英文詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "accounting",
+      "partOfSpeech": "n.",
+      "definitionZh": "會計（系統記錄與報告財務交易的專業學科）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "She works in the accounting department at headquarters.", "translationZh": "她在總部的會計部門工作。" }
+      ]
+    },
+    {
+      "headword": "bookkeeping",
+      "partOfSpeech": "n.",
+      "definitionZh": "記帳（逐日記錄公司財務往來的基礎作業）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Accurate bookkeeping helps avoid errors at year-end.", "translationZh": "準確的記帳有助於避免年底的錯誤。" }
+      ]
+    },
+    {
+      "headword": "ledger",
+      "partOfSpeech": "n.",
+      "definitionZh": "分類帳（彙整所有會計科目餘額的主帳冊）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The accountant posted all entries to the general ledger.", "translationZh": "會計師將所有分錄過帳到總分類帳。" }
+      ]
+    },
+    {
+      "headword": "journal",
+      "partOfSpeech": "n.",
+      "definitionZh": "日記帳（按時序初步記錄每筆交易的原始帳冊）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Record each sale in the journal before posting.", "translationZh": "過帳前先將每筆銷售記入日記帳。" }
+      ]
+    },
+    {
+      "headword": "entry",
+      "partOfSpeech": "n.",
+      "definitionZh": "會計分錄（帳冊中的單筆借貸記錄）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Please check the journal entry for last month's invoice.", "translationZh": "請核對上個月發票的日記帳分錄。" }
+      ]
+    },
+    {
+      "headword": "debit",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "借記（在帳戶借方記入金額或從帳戶扣款）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The bank will debit your account for the monthly fee.", "translationZh": "銀行將從您的帳戶借記月費。" }
+      ]
+    },
+    {
+      "headword": "credit",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "貸記；信用（在帳戶貸方記入金額或授予信用額度）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "We will credit your account once the return is processed.", "translationZh": "退貨處理完成後，我們將貸記您的帳戶。" }
+      ]
+    },
+    {
+      "headword": "balance",
+      "partOfSpeech": "n.",
+      "definitionZh": "餘額（帳戶中收支相抵後的剩餘金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Your account balance is insufficient to cover this payment.", "translationZh": "您的帳戶餘額不足以支付此筆款項。" }
+      ]
+    },
+    {
+      "headword": "asset",
+      "partOfSpeech": "n.",
+      "definitionZh": "資產（公司持有且具有經濟價值的財產或資源）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The factory is the company's most valuable fixed asset.", "translationZh": "工廠是公司最有價值的固定資產。" }
+      ]
+    },
+    {
+      "headword": "liability",
+      "partOfSpeech": "n.",
+      "definitionZh": "負債（公司對外部債權人所欠的債務義務）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Long-term liabilities include bonds due after one year.", "translationZh": "長期負債包括一年後到期的債券。" }
+      ]
+    },
+    {
+      "headword": "equity",
+      "partOfSpeech": "n.",
+      "definitionZh": "股東權益（資產扣除所有負債後歸屬股東的淨值）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Retained earnings are included in shareholders' equity.", "translationZh": "保留盈餘包含在股東權益中。" }
+      ]
+    },
+    {
+      "headword": "capital",
+      "partOfSpeech": "n.",
+      "definitionZh": "資本（企業用於生產或投資的核心財務資源）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The startup raised capital from venture investors last year.", "translationZh": "該新創公司去年向創投籌集了資本。" }
+      ]
+    },
+    {
+      "headword": "revenue",
+      "partOfSpeech": "n.",
+      "definitionZh": "營收（企業從正常業務活動取得的總收入）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Annual revenue grew by 12% compared to last year.", "translationZh": "年度營收相較去年成長了12%。" }
+      ]
+    },
+    {
+      "headword": "income",
+      "partOfSpeech": "n.",
+      "definitionZh": "收益；所得（扣除部分費用後的可用盈餘或個人所得）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Net income for Q3 exceeded analyst expectations.", "translationZh": "第三季淨收益超過了分析師的預期。" }
+      ]
+    },
+    {
+      "headword": "cost",
+      "partOfSpeech": "n.",
+      "definitionZh": "成本（生產商品或提供服務所需投入的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "We must reduce the cost of raw materials to stay competitive.", "translationZh": "我們必須降低原材料成本以保持競爭力。" }
+      ]
+    },
+    {
+      "headword": "profit",
+      "partOfSpeech": "n.",
+      "definitionZh": "利潤（收入扣除所有費用和稅後的正數盈餘）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The company reported a record profit in the fourth quarter.", "translationZh": "公司在第四季報告了創紀錄的利潤。" }
+      ]
+    },
+    {
+      "headword": "loss",
+      "partOfSpeech": "n.",
+      "definitionZh": "虧損（支出超過收入所形成的負數差額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The division posted a loss due to declining demand.", "translationZh": "該部門因需求下滑而出現虧損。" }
+      ]
+    },
+    {
+      "headword": "gross",
+      "partOfSpeech": "adj.",
+      "definitionZh": "總的；毛的（未扣除任何費用或稅款前的全額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Gross sales reached $2 million before deducting returns.", "translationZh": "扣除退貨前，毛銷售額達到200萬美元。" }
+      ]
+    },
+    {
+      "headword": "net",
+      "partOfSpeech": "adj.",
+      "definitionZh": "淨的（扣除所有相關費用或稅款後的最終金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Net profit is calculated after all expenses are deducted.", "translationZh": "淨利潤是在扣除所有費用後計算得出的。" }
+      ]
+    },
+    {
+      "headword": "margin",
+      "partOfSpeech": "n.",
+      "definitionZh": "利潤率（收入與成本之間差距的百分比表示）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Our profit margin improved after cutting overhead costs.", "translationZh": "削減間接費用後，我們的利潤率有所提升。" }
+      ]
+    },
+    {
+      "headword": "markup",
+      "partOfSpeech": "n.",
+      "definitionZh": "加價（在成本之上增加的金額或比例以形成售價）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The retailer applies a 30% markup on all imported goods.", "translationZh": "零售商對所有進口商品加收30%的加價。" }
+      ]
+    },
+    {
+      "headword": "discount",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "折扣（從原訂價格中減去的優惠金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "We offer a 10% discount for orders over 500 units.", "translationZh": "我們對500件以上的訂單提供九折優惠。" }
+      ]
+    },
+    {
+      "headword": "rebate",
+      "partOfSpeech": "n.",
+      "definitionZh": "退款折讓（購買後退還給客戶的部分款項）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Customers receive a cash rebate after buying in bulk.", "translationZh": "客戶大量購買後可獲得現金退款。" }
+      ]
+    },
+    {
+      "headword": "tax",
+      "partOfSpeech": "n.",
+      "definitionZh": "稅金（政府依法向個人或企業強制徵收的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Corporate tax filings are due at the end of March.", "translationZh": "企業所得稅申報截止日為三月底。" }
+      ]
+    },
+    {
+      "headword": "audit",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "審計（由獨立第三方核查財務報表是否正確）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The external auditors completed the annual audit last week.", "translationZh": "外部審計師上週完成了年度審計。" }
+      ]
+    },
+    {
+      "headword": "compliance",
+      "partOfSpeech": "n.",
+      "definitionZh": "法規遵循（確保業務符合相關法令與規範的要求）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The compliance team reviews all contracts before signing.", "translationZh": "合規團隊在簽署前審查所有合約。" }
+      ]
+    },
+    {
+      "headword": "fiscal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "財政的（與政府收支或公司會計年度相關的）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Our fiscal year ends on March 31 each year.", "translationZh": "我們的財政年度每年3月31日結束。" }
+      ]
+    },
+    {
+      "headword": "quarter",
+      "partOfSpeech": "n.",
+      "definitionZh": "季度（每三個月為一個財務報告周期）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Sales increased 8% in the third quarter of this year.", "translationZh": "今年第三季銷售額增加了8%。" }
+      ]
+    },
+    {
+      "headword": "forecast",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "財務預測（對未來一段期間收入與支出的估算計畫）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Management revised the revenue forecast downward for Q4.", "translationZh": "管理層下調了第四季的營收預測。" }
+      ]
+    },
+    {
+      "headword": "projection",
+      "partOfSpeech": "n.",
+      "definitionZh": "預估值（基於假設對未來財務數據的推算結果）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The five-year projection shows steady growth in earnings.", "translationZh": "五年預估顯示盈餘穩定增長。" }
+      ]
+    },
+    {
+      "headword": "estimate",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "估計（對金額或數量作出的近似計算）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Please provide a cost estimate before starting the project.", "translationZh": "請在開始項目前提供成本估計。" }
+      ]
+    },
+    {
+      "headword": "actual",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "實際值（真實發生的財務數字，與預算相對）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Actual spending exceeded the budget by 15% this quarter.", "translationZh": "本季實際支出超出預算15%。" }
+      ]
+    },
+    {
+      "headword": "variance",
+      "partOfSpeech": "n.",
+      "definitionZh": "差異（預算或預測與實際數字之間的偏差量）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The team analyzed the variance between plan and actuals.", "translationZh": "團隊分析了計畫與實際之間的差異。" }
+      ]
+    },
+    {
+      "headword": "cash",
+      "partOfSpeech": "n.",
+      "definitionZh": "現金（可即時使用的流通貨幣或存款）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The firm holds enough cash to cover three months of expenses.", "translationZh": "公司持有足夠的現金以支付三個月的費用。" }
+      ]
+    },
+    {
+      "headword": "flow",
+      "partOfSpeech": "n.",
+      "definitionZh": "現金流量（一段期間內資金流入與流出的動態狀況）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Positive cash flow is essential for day-to-day operations.", "translationZh": "正現金流量對日常營運至關重要。" }
+      ]
+    },
+    {
+      "headword": "liquidity",
+      "partOfSpeech": "n.",
+      "definitionZh": "流動性（資產迅速變現以應付短期義務的能力）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Banks must maintain high liquidity to meet daily withdrawals.", "translationZh": "銀行必須保持高流動性以應對日常提款。" }
+      ]
+    },
+    {
+      "headword": "solvency",
+      "partOfSpeech": "n.",
+      "definitionZh": "償債能力（長期足以清償所有到期債務的財務狀態）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Investors question the solvency of heavily indebted firms.", "translationZh": "投資人質疑高負債企業的償債能力。" }
+      ]
+    },
+    {
+      "headword": "debt",
+      "partOfSpeech": "n.",
+      "definitionZh": "債務（向他方借入且必須償還的資金義務）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The company plans to reduce its long-term debt this year.", "translationZh": "公司計畫今年削減長期債務。" }
+      ]
+    },
+    {
+      "headword": "loan",
+      "partOfSpeech": "n.",
+      "definitionZh": "貸款（從銀行或機構借入並約定利息的資金）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The bank approved a business loan of $500,000.", "translationZh": "銀行批准了50萬美元的商業貸款。" }
+      ]
+    },
+    {
+      "headword": "interest",
+      "partOfSpeech": "n.",
+      "definitionZh": "利息（借款方因使用他人資金而支付的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Interest on the loan is charged at 5% per annum.", "translationZh": "貸款利息按年利率5%計算。" }
+      ]
+    },
+    {
+      "headword": "principal",
+      "partOfSpeech": "n.",
+      "definitionZh": "本金（貸款或投資的原始金額，不含利息）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Monthly payments cover both principal and interest.", "translationZh": "每月還款涵蓋本金和利息兩部分。" }
+      ]
+    },
+    {
+      "headword": "rate",
+      "partOfSpeech": "n.",
+      "definitionZh": "利率；比率（每單位時間或基礎金額的百分比數值）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The central bank raised the benchmark rate by 25 basis points.", "translationZh": "央行將基準利率上調了25個基點。" }
+      ]
+    },
+    {
+      "headword": "return",
+      "partOfSpeech": "n.",
+      "definitionZh": "報酬；回報（投資所獲得的收益或收益率）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The fund delivered a 12% return over the past year.", "translationZh": "該基金在過去一年中實現了12%的回報。" }
+      ]
+    },
+    {
+      "headword": "yield",
+      "partOfSpeech": "n.",
+      "definitionZh": "收益率（投資相對其價格的年化收益百分比）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The bond's yield rose as its market price declined.", "translationZh": "隨著市場價格下跌，債券收益率上升。" }
+      ]
+    },
+    {
+      "headword": "dividend",
+      "partOfSpeech": "n.",
+      "definitionZh": "股息（公司從盈餘中分配給股東的現金或股份）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The board declared a quarterly dividend of $0.50 per share.", "translationZh": "董事會宣布每股0.5美元的季度股息。" }
+      ]
+    },
+    {
+      "headword": "stock",
+      "partOfSpeech": "n.",
+      "definitionZh": "股票（代表公司所有權份額的有價證券）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Employees received company stock as part of their bonus.", "translationZh": "員工獲得了公司股票作為獎金的一部分。" }
+      ]
+    },
+    {
+      "headword": "bond",
+      "partOfSpeech": "n.",
+      "definitionZh": "債券（發行人承諾定期支付利息並到期還本的憑證）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Government bonds are considered low-risk investments.", "translationZh": "政府債券被視為低風險投資。" }
+      ]
+    },
+    {
+      "headword": "portfolio",
+      "partOfSpeech": "n.",
+      "definitionZh": "投資組合（個人或機構持有的所有投資資產集合）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "She diversified her portfolio to reduce overall risk.", "translationZh": "她將投資組合多元化以降低整體風險。" }
+      ]
+    },
+    {
+      "headword": "investment",
+      "partOfSpeech": "n.",
+      "definitionZh": "投資（為獲取未來收益而投入資金或資源的行為）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The new plant represents a $10M capital investment.", "translationZh": "新廠代表1,000萬美元的資本投資。" }
+      ]
+    },
+    {
+      "headword": "fund",
+      "partOfSpeech": "n.",
+      "definitionZh": "基金（集合多位投資人資金共同管理投資的工具）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The pension fund invests mainly in blue-chip stocks.", "translationZh": "養老基金主要投資藍籌股。" }
+      ]
+    },
+    {
+      "headword": "deposit",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "存款（存入銀行或金融機構保管的金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Please deposit the check within three business days.", "translationZh": "請在三個工作日內存入支票。" }
+      ]
+    },
+    {
+      "headword": "withdrawal",
+      "partOfSpeech": "n.",
+      "definitionZh": "提款（從銀行帳戶取出資金的行為）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "A maximum daily withdrawal limit of $2,000 applies.", "translationZh": "每日最高提款限額為2,000美元。" }
+      ]
+    },
+    {
+      "headword": "transaction",
+      "partOfSpeech": "n.",
+      "definitionZh": "交易（金融買賣、轉帳或付款的單次行為）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "All transactions above $10,000 must be reported to regulators.", "translationZh": "所有超過一萬美元的交易都必須向監管機構申報。" }
+      ]
+    },
+    {
+      "headword": "payment",
+      "partOfSpeech": "n.",
+      "definitionZh": "付款（移轉金錢以清償款項或義務的行為）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Payment is due within 30 days of the invoice date.", "translationZh": "款項應在發票日期後30天內支付。" }
+      ]
+    },
+    {
+      "headword": "wire",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "電匯（透過銀行電子系統將資金轉至指定帳戶）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Please wire the deposit to our account by Friday noon.", "translationZh": "請在週五中午前將訂金電匯至我方帳戶。" }
+      ]
+    },
+    {
+      "headword": "check",
+      "partOfSpeech": "n.",
+      "definitionZh": "支票（授權銀行向指定收款人支付的書面指令憑證）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The vendor accepted a certified check for the final payment.", "translationZh": "供應商接受了保付支票作為尾款。" }
+      ]
+    },
+    {
+      "headword": "remittance",
+      "partOfSpeech": "n.",
+      "definitionZh": "匯款（跨地區或跨境將資金轉給他方的行為）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Include the invoice number with your remittance advice.", "translationZh": "請在匯款通知書上附上發票號碼。" }
+      ]
+    },
+    {
+      "headword": "currency",
+      "partOfSpeech": "n.",
+      "definitionZh": "貨幣（某個國家或地區流通使用的法定金融媒介）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Contracts are denominated in US currency to reduce risk.", "translationZh": "合約以美元計價以降低風險。" }
+      ]
+    },
+    {
+      "headword": "exchange",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "外匯兌換（按匯率在不同貨幣之間進行轉換）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Fluctuating exchange rates affected our import costs.", "translationZh": "匯率波動影響了我們的進口成本。" }
+      ]
+    },
+    {
+      "headword": "account",
+      "partOfSpeech": "n.",
+      "definitionZh": "帳戶（記錄金融往來的個人或企業戶頭）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Open a corporate account to separate business finances.", "translationZh": "開設企業帳戶以區隔公司財務。" }
+      ]
+    },
+    {
+      "headword": "statement",
+      "partOfSpeech": "n.",
+      "definitionZh": "對帳單；財務報表（帳戶往來或財務狀況的定期摘要）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Review your monthly bank statement to detect any errors.", "translationZh": "查閱每月銀行對帳單以發現任何錯誤。" }
+      ]
+    },
+    {
+      "headword": "reconcile",
+      "partOfSpeech": "v.",
+      "definitionZh": "對帳（比對兩份記錄並消除差異使其一致）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The accountant reconciles the ledger with bank records monthly.", "translationZh": "會計師每月將帳冊與銀行記錄進行對帳。" }
+      ]
+    },
+    {
+      "headword": "close",
+      "partOfSpeech": "v.",
+      "definitionZh": "結帳（結束某一會計期間並將帳目轉入下期）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "We close the books at the end of each fiscal quarter.", "translationZh": "我們在每個財政季度末結帳。" }
+      ]
+    },
+    {
+      "headword": "period",
+      "partOfSpeech": "n.",
+      "definitionZh": "會計期間（財務報告所涵蓋的特定時間範圍）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Revenue is recognized in the period it is earned.", "translationZh": "收入在賺取的期間予以認列。" }
+      ]
+    },
+    {
+      "headword": "cycle",
+      "partOfSpeech": "n.",
+      "definitionZh": "會計週期（從交易發生到財務報表完成的完整流程）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Understanding the accounting cycle helps ensure accurate records.", "translationZh": "了解會計週期有助於確保記錄準確。" }
+      ]
+    },
+    {
+      "headword": "depreciation",
+      "partOfSpeech": "n.",
+      "definitionZh": "折舊（固定資產價值在使用年限內逐期攤銷的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Equipment depreciation reduces taxable income each year.", "translationZh": "設備折舊每年降低應稅所得。" }
+      ]
+    },
+    {
+      "headword": "amortization",
+      "partOfSpeech": "n.",
+      "definitionZh": "攤銷（無形資產或貸款費用分期逐年沖銷的過程）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Patent amortization is spread over its useful life.", "translationZh": "專利攤銷在其使用年限內分期列計。" }
+      ]
+    },
+    {
+      "headword": "provision",
+      "partOfSpeech": "n.",
+      "definitionZh": "準備金（預先提列以應對可能損失或負債的款項）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The bank set aside a provision for bad loans this quarter.", "translationZh": "銀行本季為呆帳提列了準備金。" }
+      ]
+    },
+    {
+      "headword": "receivable",
+      "partOfSpeech": "n.",
+      "definitionZh": "應收款（客戶已購貨但尚未付清的欠款金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Accounts receivable turnover improved after stricter credit terms.", "translationZh": "在信用條件更嚴格後，應收帳款周轉率有所提升。" }
+      ]
+    },
+    {
+      "headword": "payable",
+      "partOfSpeech": "n.",
+      "definitionZh": "應付款（公司已收貨但尚未支付給供應商的款項）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Accounts payable must be settled within the agreed terms.", "translationZh": "應付帳款必須在約定條款內結清。" }
+      ]
+    },
+    {
+      "headword": "accrual",
+      "partOfSpeech": "n.",
+      "definitionZh": "應計（依發生時點認列收益或費用，不論現金是否移轉）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Under accrual accounting, expenses are matched to revenues.", "translationZh": "應計基礎會計下，費用與收益相互配合認列。" }
+      ]
+    },
+    {
+      "headword": "prepaid",
+      "partOfSpeech": "adj.",
+      "definitionZh": "預付的（服務尚未消耗但已預先支付的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Prepaid insurance is recorded as a current asset on the balance sheet.", "translationZh": "預付保險費在資產負債表上列為流動資產。" }
+      ]
+    },
+    {
+      "headword": "inventory",
+      "partOfSpeech": "n.",
+      "definitionZh": "存貨（持有待售或用於生產的商品或原料庫存）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "High inventory levels tie up working capital unnecessarily.", "translationZh": "過高的存貨水平會不必要地佔用營運資金。" }
+      ]
+    },
+    {
+      "headword": "valuation",
+      "partOfSpeech": "n.",
+      "definitionZh": "估值（確定資產、公司或投資的市場或公平價值）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The startup received a $50M valuation after the funding round.", "translationZh": "這家新創公司在融資輪後獲得了5,000萬美元的估值。" }
+      ]
+    },
+    {
+      "headword": "overhead",
+      "partOfSpeech": "n.",
+      "definitionZh": "間接費用（與直接生產無關的固定日常營運成本）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Rent and utilities make up most of our monthly overhead.", "translationZh": "租金和水電費構成我們每月間接費用的大部分。" }
+      ]
+    },
+    {
+      "headword": "allocation",
+      "partOfSpeech": "n.",
+      "definitionZh": "費用分攤（將共同成本按比例分配到各部門或產品）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Cost allocation ensures each department bears its fair share.", "translationZh": "成本分攤確保每個部門承擔其公平份額。" }
+      ]
+    },
+    {
+      "headword": "absorption",
+      "partOfSpeech": "n.",
+      "definitionZh": "吸收法（將固定間接成本納入單位產品成本的計算方法）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Absorption costing includes overhead in each unit's cost.", "translationZh": "吸收成本法將間接費用納入每單位的成本中。" }
+      ]
+    },
+    {
+      "headword": "analysis",
+      "partOfSpeech": "n.",
+      "definitionZh": "財務分析（對數據進行系統性檢視以評估績效或價值）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "A thorough analysis of cash flow reveals the firm's health.", "translationZh": "對現金流量的徹底分析揭示了公司的財務狀況。" }
+      ]
+    },
+    {
+      "headword": "ratio",
+      "partOfSpeech": "n.",
+      "definitionZh": "財務比率（兩個財務數字相除所得的衡量指標）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The current ratio measures a company's short-term liquidity.", "translationZh": "流動比率衡量公司的短期流動性。" }
+      ]
+    },
+    {
+      "headword": "indicator",
+      "partOfSpeech": "n.",
+      "definitionZh": "指標（用於衡量財務健康或經濟表現的參考數值）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Return on equity is a key indicator of management efficiency.", "translationZh": "股東權益報酬率是管理效率的關鍵指標。" }
+      ]
+    },
+    {
+      "headword": "inflation",
+      "partOfSpeech": "n.",
+      "definitionZh": "通貨膨脹（物價水準普遍且持續上升的現象）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Rising inflation erodes the purchasing power of consumers.", "translationZh": "通貨膨脹上升侵蝕了消費者的購買力。" }
+      ]
+    },
+    {
+      "headword": "deflation",
+      "partOfSpeech": "n.",
+      "definitionZh": "通貨緊縮（物價水準普遍且持續下降的現象）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Deflation can discourage spending and slow economic growth.", "translationZh": "通貨緊縮可能會抑制消費並減緩經濟增長。" }
+      ]
+    },
+    {
+      "headword": "recession",
+      "partOfSpeech": "n.",
+      "definitionZh": "經濟衰退（GDP連續兩季以上負增長的經濟萎縮時期）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The company cut costs to survive the economic recession.", "translationZh": "公司削減成本以度過經濟衰退。" }
+      ]
+    },
+    {
+      "headword": "growth",
+      "partOfSpeech": "n.",
+      "definitionZh": "增長（收入、利潤或經濟規模的正向擴大）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Strong revenue growth attracted new investors to the company.", "translationZh": "強勁的營收增長吸引了新投資人加入。" }
+      ]
+    },
+    {
+      "headword": "sector",
+      "partOfSpeech": "n.",
+      "definitionZh": "產業部門（經濟中具有類似特徵的特定行業類別）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The financial sector rebounded after the interest rate cut.", "translationZh": "金融部門在利率下調後出現反彈。" }
+      ]
+    },
+    {
+      "headword": "market",
+      "partOfSpeech": "n.",
+      "definitionZh": "市場（買賣雙方進行金融商品或服務交換的場域）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Stock market volatility increased after the policy announcement.", "translationZh": "政策宣布後股市波動性增加。" }
+      ]
+    },
+    {
+      "headword": "index",
+      "partOfSpeech": "n.",
+      "definitionZh": "指數（追蹤股票市場或物價整體變動趨勢的數字）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The S&P 500 index fell 2% on concerns about rising rates.", "translationZh": "受利率上升擔憂影響，標普500指數下跌2%。" }
+      ]
+    },
+    {
+      "headword": "risk",
+      "partOfSpeech": "n.",
+      "definitionZh": "風險（可能導致財務損失的不確定因素）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Diversification helps reduce investment risk in a portfolio.", "translationZh": "多元化有助於降低投資組合中的投資風險。" }
+      ]
+    },
+    {
+      "headword": "hedge",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "避險（透過對沖工具抵消潛在損失的風險管理策略）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The company used forward contracts to hedge currency exposure.", "translationZh": "公司使用遠期合約對沖外匯風險敞口。" }
+      ]
+    },
+    {
+      "headword": "collateral",
+      "partOfSpeech": "n.",
+      "definitionZh": "擔保品（借款時提供給貸方以保障還款的抵押資產）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The property was used as collateral to secure the loan.", "translationZh": "該物業被用作貸款的擔保品。" }
+      ]
+    },
+    {
+      "headword": "guarantee",
+      "partOfSpeech": "n.",
+      "definitionZh": "保證（由第三方承諾在借款人違約時代為清償）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "A personal guarantee was required for the small business loan.", "translationZh": "小企業貸款需要提供個人保證。" }
+      ]
+    },
+    {
+      "headword": "limit",
+      "partOfSpeech": "n.",
+      "definitionZh": "信用上限（核准可使用的最高借款或授權金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Her credit card limit was raised to $10,000 this month.", "translationZh": "她的信用卡額度本月提高到一萬美元。" }
+      ]
+    },
+    {
+      "headword": "line",
+      "partOfSpeech": "n.",
+      "definitionZh": "循環信貸（可按需動用並償還的預核借款額度）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The firm drew on its credit line to cover seasonal expenses.", "translationZh": "公司動用信貸額度來支付季節性費用。" }
+      ]
+    },
+    {
+      "headword": "facility",
+      "partOfSpeech": "n.",
+      "definitionZh": "融資設施（銀行與借款人協議的整套信貸安排）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "A revolving credit facility gives the company financial flexibility.", "translationZh": "循環信貸設施給予公司財務靈活性。" }
+      ]
+    },
+    {
+      "headword": "mortgage",
+      "partOfSpeech": "n.",
+      "definitionZh": "房屋貸款（以不動產作為擔保的長期借款）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "They took out a 30-year mortgage to purchase the office building.", "translationZh": "他們申辦了30年期房貸以購買辦公大樓。" }
+      ]
+    },
+    {
+      "headword": "lease",
+      "partOfSpeech": "n.",
+      "definitionZh": "租約（在約定期間內定期支付租金以使用資產的合約）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The office lease runs for five years starting next January.", "translationZh": "辦公室租約從明年一月起為期五年。" }
+      ]
+    },
+    {
+      "headword": "installment",
+      "partOfSpeech": "n.",
+      "definitionZh": "分期付款（將應付總額分成多次定期支付的方式）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The equipment is paid in 24 monthly installments.", "translationZh": "設備分24期每月付款。" }
+      ]
+    },
+    {
+      "headword": "surcharge",
+      "partOfSpeech": "n.",
+      "definitionZh": "附加費（在基本費用之外額外加收的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "A fuel surcharge is added to all freight invoices.", "translationZh": "所有貨運發票都附加燃油附加費。" }
+      ]
+    },
+    {
+      "headword": "penalty",
+      "partOfSpeech": "n.",
+      "definitionZh": "罰款（因違約、逾期或違規而被要求支付的懲罰性金額）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "A late payment penalty of 1.5% applies after the due date.", "translationZh": "逾期後將收取1.5%的逾期罰款。" }
+      ]
+    },
+    {
+      "headword": "fee",
+      "partOfSpeech": "n.",
+      "definitionZh": "手續費；服務費（為特定服務或作業收取的費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Annual membership fees are waived for premium account holders.", "translationZh": "尊榮帳戶持有人免收年費。" }
+      ]
+    },
+    {
+      "headword": "commission",
+      "partOfSpeech": "n.",
+      "definitionZh": "佣金（按交易金額比例支付給中間人的報酬）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Sales staff earn a 5% commission on every deal closed.", "translationZh": "業務人員每成交一筆可獲得5%的佣金。" }
+      ]
+    },
+    {
+      "headword": "brokerage",
+      "partOfSpeech": "n.",
+      "definitionZh": "經紀費（透過仲介促成交易所支付的服務費用）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Online brokers have reduced brokerage fees significantly.", "translationZh": "線上券商大幅降低了經紀費用。" }
+      ]
+    },
+    {
+      "headword": "underwrite",
+      "partOfSpeech": "v.",
+      "definitionZh": "承銷；承保（保證包銷證券或承擔保險風險）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The bank agreed to underwrite the entire bond issuance.", "translationZh": "銀行同意承銷全部債券發行。" }
+      ]
+    },
+    {
+      "headword": "insure",
+      "partOfSpeech": "v.",
+      "definitionZh": "投保（支付保費以將財務風險轉移給保險公司）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "All shipments are insured against loss or damage.", "translationZh": "所有貨物均投保損失或損壞險。" }
+      ]
+    },
+    {
+      "headword": "premium",
+      "partOfSpeech": "n.",
+      "definitionZh": "保費；溢價（定期繳交的保險費或高於標準價格的部分）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The annual insurance premium increased by 8% this year.", "translationZh": "今年的年度保費上漲了8%。" }
+      ]
+    },
+    {
+      "headword": "settlement",
+      "partOfSpeech": "n.",
+      "definitionZh": "結算；清償（完成款項支付或達成糾紛和解的行為）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "Stock trades typically require a two-day settlement period.", "translationZh": "股票交易通常需要兩個工作日的結算期。" }
+      ]
+    },
+    {
+      "headword": "default",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "違約（未能按時履行還款或合約財務義務）",
+      "examTags": ["TOEIC", "finance"],
+      "examples": [
+        { "sentence": "The borrower defaulted after missing three consecutive payments.", "translationZh": "借款人連續三期未還款後構成違約。" }
+      ]
+    }
+  ]
+}

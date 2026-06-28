@@ -1,0 +1,1478 @@
+{
+  "slug": "toeic-travel",
+  "name": "商務差旅",
+  "description": "涵蓋商務出差全程所需詞彙，從訂票、機場報到、飯店住宿到會議接待，協助在 TOEIC 差旅情境中精準表達。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "itinerary",
+      "partOfSpeech": "n.",
+      "definitionZh": "行程表；差旅日程安排書",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The travel agent sent a detailed itinerary for the five-day trip.",
+          "translationZh": "旅行社發來了五天行程的詳細行程表。"
+        }
+      ]
+    },
+    {
+      "headword": "booking",
+      "partOfSpeech": "n.",
+      "definitionZh": "預訂操作；訂位紀錄",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The hotel booking was confirmed three weeks before departure.",
+          "translationZh": "飯店預訂在出發前三週已獲確認。"
+        }
+      ]
+    },
+    {
+      "headword": "reservation",
+      "partOfSpeech": "n.",
+      "definitionZh": "預約；保留座位或房間的申請",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "I have a dinner reservation for eight at seven o'clock tonight.",
+          "translationZh": "我今晚七點預約了八人晚餐。"
+        }
+      ]
+    },
+    {
+      "headword": "confirmation",
+      "partOfSpeech": "n.",
+      "definitionZh": "確認通知；預訂確認信件",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Keep your booking confirmation email for check-in at the hotel.",
+          "translationZh": "請保留預訂確認郵件以備飯店入住使用。"
+        }
+      ]
+    },
+    {
+      "headword": "cancellation",
+      "partOfSpeech": "n.",
+      "definitionZh": "取消；退訂申請",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Submit the cancellation request at least 48 hours before arrival.",
+          "translationZh": "請至少在抵達前 48 小時提交取消申請。"
+        }
+      ]
+    },
+    {
+      "headword": "ticket",
+      "partOfSpeech": "n.",
+      "definitionZh": "票；機票或車票憑證",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "She printed her e-ticket and stored it in the travel folder.",
+          "translationZh": "她列印了電子機票並存入差旅資料夾。"
+        }
+      ]
+    },
+    {
+      "headword": "boarding",
+      "partOfSpeech": "n.",
+      "definitionZh": "登機；上機程序的進行",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Boarding commences 30 minutes before the scheduled departure.",
+          "translationZh": "登機在預定起飛前 30 分鐘開始。"
+        }
+      ]
+    },
+    {
+      "headword": "pass",
+      "partOfSpeech": "n.",
+      "definitionZh": "登機證；進入特定區域的通行憑證",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Please have your boarding pass ready when you reach the gate.",
+          "translationZh": "抵達登機門時請備妥您的登機證。"
+        }
+      ]
+    },
+    {
+      "headword": "gate",
+      "partOfSpeech": "n.",
+      "definitionZh": "登機門；航廈閘口",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Flight BA198 to London departs from gate C14 at 09:45.",
+          "translationZh": "前往倫敦的 BA198 航班於 09:45 從 C14 登機門起飛。"
+        }
+      ]
+    },
+    {
+      "headword": "terminal",
+      "partOfSpeech": "n.",
+      "definitionZh": "航站樓；機場候機大廳",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "International departures operate from Terminal 2 of this airport.",
+          "translationZh": "國際航班出發均在本機場第二航站樓辦理。"
+        }
+      ]
+    },
+    {
+      "headword": "flight",
+      "partOfSpeech": "n.",
+      "definitionZh": "航班；特定班機的飛行",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Our direct flight to Singapore departs at 06:30 on Monday.",
+          "translationZh": "我們前往新加坡的直飛航班於週一 06:30 起飛。"
+        }
+      ]
+    },
+    {
+      "headword": "airline",
+      "partOfSpeech": "n.",
+      "definitionZh": "航空公司；提供航班服務的運輸業者",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The company negotiated a corporate rate with a preferred airline.",
+          "translationZh": "公司與一家首選航空公司談妥了企業票價。"
+        }
+      ]
+    },
+    {
+      "headword": "aircraft",
+      "partOfSpeech": "n.",
+      "definitionZh": "飛機；航空器種類與機型",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The aircraft on this route seats 280 passengers in three classes.",
+          "translationZh": "本航線的飛機設有三個艙等，共可搭載 280 名旅客。"
+        }
+      ]
+    },
+    {
+      "headword": "seat",
+      "partOfSpeech": "n.",
+      "definitionZh": "座位；機艙或車廂中的椅位",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "He reserved an aisle seat to make the overnight flight more comfortable.",
+          "translationZh": "他預訂了靠走道座位，讓夜間航班更加舒適。"
+        }
+      ]
+    },
+    {
+      "headword": "class",
+      "partOfSpeech": "n.",
+      "definitionZh": "艙等；航班或列車的服務等級",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Travel policy permits business class only on flights over eight hours.",
+          "translationZh": "差旅政策規定僅八小時以上航班可搭乘商務艙。"
+        }
+      ]
+    },
+    {
+      "headword": "upgrade",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "升艙；提升至更高服務等級",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The agent offered a complimentary upgrade to a superior room.",
+          "translationZh": "服務員提供免費升等至高級客房。"
+        }
+      ]
+    },
+    {
+      "headword": "economy",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "經濟艙；廉價艙位選項",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Short-haul business trips are typically booked in economy class.",
+          "translationZh": "短途商務出行通常訂購經濟艙機票。"
+        }
+      ]
+    },
+    {
+      "headword": "business",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "商務艙（飛機艙等）；高於經濟艙的艙位",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "She used accumulated miles to book a business class seat to Paris.",
+          "translationZh": "她用累積里程兌換了一張飛往巴黎的商務艙機票。"
+        }
+      ]
+    },
+    {
+      "headword": "layover",
+      "partOfSpeech": "n.",
+      "definitionZh": "轉機等候時間；在中間機場的候機停留",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "There is a four-hour layover in Dubai before the connecting flight.",
+          "translationZh": "在杜拜有四小時的轉機等候，再接續下一段航班。"
+        }
+      ]
+    },
+    {
+      "headword": "connection",
+      "partOfSpeech": "n.",
+      "definitionZh": "轉機銜接航班；聯程下一段班機",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A 45-minute connection at Heathrow is very tight during peak hours.",
+          "translationZh": "希斯洛機場 45 分鐘的轉機時間在尖峰時段非常緊迫。"
+        }
+      ]
+    },
+    {
+      "headword": "checkin",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "報到；辦理入住或登機的手續",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Online check-in opens 24 hours before the scheduled departure time.",
+          "translationZh": "網上辦理登機手續在預定起飛前 24 小時開放。"
+        }
+      ]
+    },
+    {
+      "headword": "checkout",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "退房；結清飯店帳單並離開",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Checkout time is noon; request a late checkout if your flight is evening.",
+          "translationZh": "退房時間為正午；若航班在傍晚，可申請延遲退房。"
+        }
+      ]
+    },
+    {
+      "headword": "baggage",
+      "partOfSpeech": "n.",
+      "definitionZh": "行李（托運計量用）；行李件數或重量總稱",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The airline allows one piece of checked baggage per passenger.",
+          "translationZh": "該航空公司每位旅客可托運一件行李。"
+        }
+      ]
+    },
+    {
+      "headword": "luggage",
+      "partOfSpeech": "n.",
+      "definitionZh": "行李箱包；旅行中攜帶的實體物件",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "She left her luggage at the hotel's storage room after checkout.",
+          "translationZh": "她退房後將行李寄放在飯店的行李房。"
+        }
+      ]
+    },
+    {
+      "headword": "compartment",
+      "partOfSpeech": "n.",
+      "definitionZh": "頭頂行李艙；機艙座位上方的置物空間",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Store your carry-on in the overhead compartment above your seat.",
+          "translationZh": "請將隨身行李放入座位上方的頭頂行李艙。"
+        }
+      ]
+    },
+    {
+      "headword": "excess",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "超額；超出限重的行李費用",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "You will be charged an excess baggage fee of fifty dollars.",
+          "translationZh": "您將被收取 50 美元的超重行李費。"
+        }
+      ]
+    },
+    {
+      "headword": "passport",
+      "partOfSpeech": "n.",
+      "definitionZh": "護照；國際旅行身分證件",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Ensure your passport is valid for at least six months beyond travel.",
+          "translationZh": "請確認護照在旅行結束後至少還有六個月有效期。"
+        }
+      ]
+    },
+    {
+      "headword": "visa",
+      "partOfSpeech": "n.",
+      "definitionZh": "簽證；入境許可文件",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A business visa is required to attend the trade fair in China.",
+          "translationZh": "參加中國貿易展需要商務簽證。"
+        }
+      ]
+    },
+    {
+      "headword": "immigration",
+      "partOfSpeech": "n.",
+      "definitionZh": "入境審查；海關移民管制程序",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Allow extra time for immigration queues during peak travel seasons.",
+          "translationZh": "旺季出行請預留額外時間應對入境審查排隊。"
+        }
+      ]
+    },
+    {
+      "headword": "declaration",
+      "partOfSpeech": "n.",
+      "definitionZh": "申報；海關申報表及物品申報行為",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Complete the customs declaration form before landing at the destination.",
+          "translationZh": "抵達目的地前請填妥海關申報表。"
+        }
+      ]
+    },
+    {
+      "headword": "convert",
+      "partOfSpeech": "v.",
+      "definitionZh": "兌換（外幣）；將一種貨幣換算成另一種",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "You can convert currency at the airport exchange counter on arrival.",
+          "translationZh": "抵達時可在機場兌換櫃台兌換貨幣。"
+        }
+      ]
+    },
+    {
+      "headword": "withdraw",
+      "partOfSpeech": "v.",
+      "definitionZh": "提款；從銀行帳戶提取現金",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "He withdrew local currency from the ATM near the hotel entrance.",
+          "translationZh": "他在飯店入口附近的自動提款機提取了當地現金。"
+        }
+      ]
+    },
+    {
+      "headword": "atm",
+      "partOfSpeech": "n.",
+      "definitionZh": "自動提款機；現金提領設備",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "There is a 24-hour ATM in the hotel lobby for guest convenience.",
+          "translationZh": "飯店大廳設有 24 小時自動提款機，方便住客使用。"
+        }
+      ]
+    },
+    {
+      "headword": "hotel",
+      "partOfSpeech": "n.",
+      "definitionZh": "飯店；提供住宿餐飲的商業旅館",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The company booked a five-star hotel near the convention center.",
+          "translationZh": "公司在會展中心附近預訂了一間五星級飯店。"
+        }
+      ]
+    },
+    {
+      "headword": "accommodation",
+      "partOfSpeech": "n.",
+      "definitionZh": "住宿設施；出差或會議期間的住宿安排",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "All conference delegates receive complimentary accommodation for three nights.",
+          "translationZh": "所有與會代表可獲三晚免費住宿安排。"
+        }
+      ]
+    },
+    {
+      "headword": "suite",
+      "partOfSpeech": "n.",
+      "definitionZh": "套房；含客廳的豪華飯店房型",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The executive suite includes a private meeting room and kitchenette.",
+          "translationZh": "行政套房內設有私人會議室及小廚房。"
+        }
+      ]
+    },
+    {
+      "headword": "room",
+      "partOfSpeech": "n.",
+      "definitionZh": "客房；飯店標準住宿房間",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Call reception if your room requires additional amenities or towels.",
+          "translationZh": "若房間需要額外設施或毛巾，請致電前台。"
+        }
+      ]
+    },
+    {
+      "headword": "amenity",
+      "partOfSpeech": "n.",
+      "definitionZh": "飯店客用設施；住宿附加便利配備",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Hotel amenities include a fitness center, pool, and free breakfast.",
+          "translationZh": "飯店設施包括健身中心、游泳池及免費早餐。"
+        }
+      ]
+    },
+    {
+      "headword": "concierge",
+      "partOfSpeech": "n.",
+      "definitionZh": "禮賓服務員；飯店服務台接待人員",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Ask the concierge to arrange a restaurant reservation for tonight.",
+          "translationZh": "請禮賓部協助安排今晚的餐廳訂位。"
+        }
+      ]
+    },
+    {
+      "headword": "housekeeping",
+      "partOfSpeech": "n.",
+      "definitionZh": "客房整理服務；房務部門的日常工作",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Hang the sign on the door to request housekeeping service.",
+          "translationZh": "在門上掛牌可請求房務人員提供整理服務。"
+        }
+      ]
+    },
+    {
+      "headword": "minibar",
+      "partOfSpeech": "n.",
+      "definitionZh": "客房迷你吧；客房內附設的小型冰箱飲料區",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Minibar items are automatically charged to your room account.",
+          "translationZh": "迷你吧的消費將自動計入您的客房帳單。"
+        }
+      ]
+    },
+    {
+      "headword": "folio",
+      "partOfSpeech": "n.",
+      "definitionZh": "住宿帳單；客房消費明細紀錄",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Review your folio carefully at the front desk before settling the bill.",
+          "translationZh": "結帳前請在前台仔細核對您的住宿帳單。"
+        }
+      ]
+    },
+    {
+      "headword": "restaurant",
+      "partOfSpeech": "n.",
+      "definitionZh": "餐廳；飯店或會場附設的正式用餐場所",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The hotel restaurant offers a business breakfast buffet from 6 a.m.",
+          "translationZh": "飯店餐廳從早上 6 點起提供商務早餐自助餐。"
+        }
+      ]
+    },
+    {
+      "headword": "dine",
+      "partOfSpeech": "v.",
+      "definitionZh": "用餐；在餐廳正式進行一頓飯",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Clients are invited to dine at the rooftop restaurant this evening.",
+          "translationZh": "客戶今晚受邀在頂樓餐廳用餐。"
+        }
+      ]
+    },
+    {
+      "headword": "menu",
+      "partOfSpeech": "n.",
+      "definitionZh": "菜單；餐點選項的列表",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The set menu for the business dinner is priced at eighty dollars.",
+          "translationZh": "商務晚宴的套餐定價為 80 美元。"
+        }
+      ]
+    },
+    {
+      "headword": "cuisine",
+      "partOfSpeech": "n.",
+      "definitionZh": "料理類型；特定地區或文化的飲食風格",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Tonight's conference dinner will feature authentic local cuisine.",
+          "translationZh": "今晚的會議晚宴將提供道地的當地料理。"
+        }
+      ]
+    },
+    {
+      "headword": "tip",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "小費；給予服務人員的額外酬謝金",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "It is customary to leave a tip of fifteen percent for table service.",
+          "translationZh": "在餐桌服務後給 15% 的小費是慣例。"
+        }
+      ]
+    },
+    {
+      "headword": "taxi",
+      "partOfSpeech": "n.",
+      "definitionZh": "計程車；召喚付費的出租車",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "I took a taxi from the airport directly to the conference venue.",
+          "translationZh": "我從機場搭乘計程車直達會議場地。"
+        }
+      ]
+    },
+    {
+      "headword": "rental",
+      "partOfSpeech": "n.",
+      "definitionZh": "租車；短期租用車輛的服務或費用",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A car rental was arranged for the team's visit to the client site.",
+          "translationZh": "租車服務已為團隊前往客戶現場的參訪安排妥當。"
+        }
+      ]
+    },
+    {
+      "headword": "car",
+      "partOfSpeech": "n.",
+      "definitionZh": "差旅專用轎車；公司接送或租用的乘用車",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A company car will pick you up at the hotel lobby at 7 a.m.",
+          "translationZh": "公司專車將於早上 7 點在飯店大廳接您。"
+        }
+      ]
+    },
+    {
+      "headword": "shuttle",
+      "partOfSpeech": "n.",
+      "definitionZh": "接駁巴士；定期往返兩地的短程交通工具",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The complimentary hotel shuttle runs between the venue and airport hourly.",
+          "translationZh": "飯店免費接駁巴士每小時往返會場與機場之間。"
+        }
+      ]
+    },
+    {
+      "headword": "transportation",
+      "partOfSpeech": "n.",
+      "definitionZh": "交通；差旅移動方式或地面接送安排",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Ground transportation is included in the full conference package.",
+          "translationZh": "地面交通接送已包含在完整的會議套裝行程中。"
+        }
+      ]
+    },
+    {
+      "headword": "map",
+      "partOfSpeech": "n.",
+      "definitionZh": "地圖；城市或區域的平面圖示",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Pick up a free city map at the hotel reception upon arrival.",
+          "translationZh": "抵達時可在飯店前台索取免費城市地圖。"
+        }
+      ]
+    },
+    {
+      "headword": "direction",
+      "partOfSpeech": "n.",
+      "definitionZh": "路線指引；到達目的地的方向說明",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Ask the concierge for directions to the nearest subway station.",
+          "translationZh": "請向禮賓部詢問前往最近地鐵站的路線。"
+        }
+      ]
+    },
+    {
+      "headword": "navigate",
+      "partOfSpeech": "v.",
+      "definitionZh": "導航；規劃路線找到目的地",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Use your smartphone to navigate from the airport to the client office.",
+          "translationZh": "用智慧型手機從機場導航到客戶辦公室。"
+        }
+      ]
+    },
+    {
+      "headword": "landmark",
+      "partOfSpeech": "n.",
+      "definitionZh": "地標；城市中知名的辨識建築或地點",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The conference center is located next to the city's main landmark.",
+          "translationZh": "會議中心位於城市主要地標旁。"
+        }
+      ]
+    },
+    {
+      "headword": "attraction",
+      "partOfSpeech": "n.",
+      "definitionZh": "景點；值得參觀的觀光或文化場所",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Schedule half a day to visit popular local attractions after the summit.",
+          "translationZh": "峰會結束後，安排半天時間參觀當地熱門景點。"
+        }
+      ]
+    },
+    {
+      "headword": "tour",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "參觀行程；安排嚮導的觀光或廠區巡覽",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A city tour was arranged for delegates on the final conference day.",
+          "translationZh": "會議最後一天為代表們安排了城市觀光行程。"
+        }
+      ]
+    },
+    {
+      "headword": "conference",
+      "partOfSpeech": "n.",
+      "definitionZh": "大型正式會議；國際研討或產業論壇",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The annual industry conference is held in Singapore this October.",
+          "translationZh": "一年一度的產業大會將於今年十月在新加坡舉行。"
+        }
+      ]
+    },
+    {
+      "headword": "catering",
+      "partOfSpeech": "n.",
+      "definitionZh": "餐飲外燴；活動或會議的餐食供應服務",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Confirm all dietary restrictions with the catering team in advance.",
+          "translationZh": "請提前向外燴團隊確認所有飲食限制需求。"
+        }
+      ]
+    },
+    {
+      "headword": "audiovisual",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "視聽設備；音影器材及相關技術支援",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Test all audiovisual equipment at least one hour before the session.",
+          "translationZh": "請在課程開始前至少一小時測試所有視聽設備。"
+        }
+      ]
+    },
+    {
+      "headword": "badge",
+      "partOfSpeech": "n.",
+      "definitionZh": "識別證；會議名牌或出入憑證",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Collect your conference badge at the registration desk upon arrival.",
+          "translationZh": "抵達後請至報到處領取您的會議識別證。"
+        }
+      ]
+    },
+    {
+      "headword": "lanyard",
+      "partOfSpeech": "n.",
+      "definitionZh": "識別證掛繩；用於佩戴名牌的頸繩",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Each attendee receives a lanyard and a welcome kit at registration.",
+          "translationZh": "每位參加者在報到時將獲得掛繩及歡迎禮包。"
+        }
+      ]
+    },
+    {
+      "headword": "networking",
+      "partOfSpeech": "n.",
+      "definitionZh": "人際交流；在活動中拓展業界聯絡",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Attend the networking reception to meet peers from the industry.",
+          "translationZh": "參加交流酒會以認識來自業界的同仁。"
+        }
+      ]
+    },
+    {
+      "headword": "banquet",
+      "partOfSpeech": "n.",
+      "definitionZh": "宴會；正式大型晚宴",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The conference banquet is held in the grand ballroom on Friday evening.",
+          "translationZh": "會議宴會將於週五晚間在大宴會廳舉行。"
+        }
+      ]
+    },
+    {
+      "headword": "cocktail",
+      "partOfSpeech": "n.",
+      "definitionZh": "雞尾酒會；正式晚宴前的歡迎飲品社交時段",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A cocktail reception will precede the formal gala dinner tonight.",
+          "translationZh": "今晚的正式晚宴前將先舉行雞尾酒歡迎會。"
+        }
+      ]
+    },
+    {
+      "headword": "entertain",
+      "partOfSpeech": "v.",
+      "definitionZh": "款待；接待客戶或貴賓並安排活動",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The team entertained overseas clients at a Michelin-starred restaurant.",
+          "translationZh": "團隊在米其林星級餐廳款待了海外客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "host",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "主辦；擔任東道主並接待賓客",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Our company will host the regional sales summit next quarter.",
+          "translationZh": "本公司將於下一季主辦區域業務峰會。"
+        }
+      ]
+    },
+    {
+      "headword": "mileage",
+      "partOfSpeech": "n.",
+      "definitionZh": "飛行里程；積累可兌換獎勵的里程點數",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Business travel earns mileage that can be redeemed for free tickets.",
+          "translationZh": "商務出差累積的里程可兌換免費機票。"
+        }
+      ]
+    },
+    {
+      "headword": "lounge",
+      "partOfSpeech": "n.",
+      "definitionZh": "貴賓候機室；機場提供休憩餐飲的尊榮空間",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Access the airline lounge with your premium frequent flyer membership.",
+          "translationZh": "以尊榮常旅客會員資格進入航空公司貴賓室。"
+        }
+      ]
+    },
+    {
+      "headword": "access",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "使用權限；進入特定設施的資格",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Priority access to the lounge is available with a gold membership card.",
+          "translationZh": "持金卡會員資格可享有貴賓室優先進入權限。"
+        }
+      ]
+    },
+    {
+      "headword": "security",
+      "partOfSpeech": "n.",
+      "definitionZh": "安全檢查；機場通關前的安全篩查程序",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Remove laptops from your bag before going through airport security.",
+          "translationZh": "通過機場安全檢查前，請將筆記型電腦從包中取出。"
+        }
+      ]
+    },
+    {
+      "headword": "emergency",
+      "partOfSpeech": "n.",
+      "definitionZh": "緊急情況；突發事故或危急狀況",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Know the hotel's emergency exit routes as soon as you check in.",
+          "translationZh": "入住後請立即了解飯店的緊急出口路線。"
+        }
+      ]
+    },
+    {
+      "headword": "assist",
+      "partOfSpeech": "v.",
+      "definitionZh": "協助；幫忙處理或支援特定需求",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Ground staff will assist passengers with reduced mobility at the gate.",
+          "translationZh": "地勤人員將在登機門協助行動不便的旅客。"
+        }
+      ]
+    },
+    {
+      "headword": "medical",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "醫療的；旅行途中緊急就醫的相關事務",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Purchase travel insurance that covers unexpected medical expenses abroad.",
+          "translationZh": "購買涵蓋海外緊急醫療費用的旅遊保險。"
+        }
+      ]
+    },
+    {
+      "headword": "evacuate",
+      "partOfSpeech": "v.",
+      "definitionZh": "疏散；在緊急情況下撤離建築或飛機",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Follow crew instructions immediately if you need to evacuate the aircraft.",
+          "translationZh": "若需疏散飛機，請立即遵從機組人員指示。"
+        }
+      ]
+    },
+    {
+      "headword": "embassy",
+      "partOfSpeech": "n.",
+      "definitionZh": "大使館；駐外國的最高外交代表機構",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Contact your country's embassy immediately if your passport is stolen.",
+          "translationZh": "護照遭竊時請立即聯繫本國大使館。"
+        }
+      ]
+    },
+    {
+      "headword": "consulate",
+      "partOfSpeech": "n.",
+      "definitionZh": "領事館；駐外地區的外交辦事處",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The consulate can issue an emergency travel document within one day.",
+          "translationZh": "領事館可在一天內簽發緊急旅行文件。"
+        }
+      ]
+    },
+    {
+      "headword": "representative",
+      "partOfSpeech": "n.",
+      "definitionZh": "代表；代表公司或機構的外派聯絡人員",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Our local representative will meet you at the arrivals hall.",
+          "translationZh": "我們的當地代表將在入境大廳迎接您。"
+        }
+      ]
+    },
+    {
+      "headword": "contact",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "聯絡人；出差地點的緊急或業務聯繫對象",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Save the local contact number before departing for the overseas office.",
+          "translationZh": "前往海外辦公室前，請先儲存當地聯絡電話。"
+        }
+      ]
+    },
+    {
+      "headword": "timezone",
+      "partOfSpeech": "n.",
+      "definitionZh": "時區；地球上不同地區的標準時間帶",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Schedule the video call carefully to suit participants across time zones.",
+          "translationZh": "請謹慎安排視訊會議時間，以配合跨時區的與會者。"
+        }
+      ]
+    },
+    {
+      "headword": "adapt",
+      "partOfSpeech": "v.",
+      "definitionZh": "適應；調整自身以適應新環境或時差",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Frequent travelers learn to adapt quickly to new time zones.",
+          "translationZh": "常出差的人會學會快速適應不同時區。"
+        }
+      ]
+    },
+    {
+      "headword": "concourse",
+      "partOfSpeech": "n.",
+      "definitionZh": "航廈通廊；機場中央大廳或候機走廊",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Shops and cafes line the main concourse between gates B and D.",
+          "translationZh": "B 到 D 登機門之間的主通廊兩側設有商店和咖啡廳。"
+        }
+      ]
+    },
+    {
+      "headword": "timetable",
+      "partOfSpeech": "n.",
+      "definitionZh": "時刻表；列車或航班的班次時間表",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Check the train timetable to plan your journey from the airport.",
+          "translationZh": "查看列車時刻表以規劃從機場出發的行程。"
+        }
+      ]
+    },
+    {
+      "headword": "stopover",
+      "partOfSpeech": "n.",
+      "definitionZh": "中途停留；在銜接城市過夜或停留超過24小時",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The itinerary includes a two-night stopover in Amsterdam for rest.",
+          "translationZh": "行程包含在阿姆斯特丹停留兩晚以供休息。"
+        }
+      ]
+    },
+    {
+      "headword": "roundtrip",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "來回票；包含去程與回程的往返行程",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Book a roundtrip ticket at least two weeks early for the best fare.",
+          "translationZh": "至少提前兩週購買來回機票以獲得最優惠票價。"
+        }
+      ]
+    },
+    {
+      "headword": "oneway",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "單程票；僅含去程、無回程的票種",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "He purchased a one-way ticket for his permanent transfer to Tokyo.",
+          "translationZh": "他購買了單程機票，用於永久調任東京。"
+        }
+      ]
+    },
+    {
+      "headword": "chauffeur",
+      "partOfSpeech": "n.",
+      "definitionZh": "專職司機；受雇的豪華轎車或禮車駕駛員",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "A chauffeur will meet you at arrivals and drive you to the hotel.",
+          "translationZh": "一位專職司機將在入境大廳迎接並送您至飯店。"
+        }
+      ]
+    },
+    {
+      "headword": "limousine",
+      "partOfSpeech": "n.",
+      "definitionZh": "豪華轎車；機場接送用的高級禮車",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The hotel offers a limousine transfer service from the airport.",
+          "translationZh": "飯店提供從機場出發的豪華轎車接送服務。"
+        }
+      ]
+    },
+    {
+      "headword": "steward",
+      "partOfSpeech": "n.",
+      "definitionZh": "空服員（男）；負責客艙服務的機組成員",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The steward distributed headphones and pillows shortly after takeoff.",
+          "translationZh": "起飛後不久，空服員分發了耳機和枕頭。"
+        }
+      ]
+    },
+    {
+      "headword": "crew",
+      "partOfSpeech": "n.",
+      "definitionZh": "機組人員；客艙或駕駛艙的全體服務人員",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Always follow the crew's safety instructions during the flight.",
+          "translationZh": "飛行全程請務必遵從機組人員的安全指示。"
+        }
+      ]
+    },
+    {
+      "headword": "guesthouse",
+      "partOfSpeech": "n.",
+      "definitionZh": "民宿；非連鎖的小型私人住宿設施",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "She chose a local guesthouse to reduce accommodation expenses.",
+          "translationZh": "她選擇了當地民宿以降低住宿費用。"
+        }
+      ]
+    },
+    {
+      "headword": "hostel",
+      "partOfSpeech": "n.",
+      "definitionZh": "青年旅舍；廉價多人住宿設施",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Interns on a limited budget may prefer a hostel near the office.",
+          "translationZh": "預算有限的實習生可能偏好住辦公室附近的青年旅舍。"
+        }
+      ]
+    },
+    {
+      "headword": "motel",
+      "partOfSpeech": "n.",
+      "definitionZh": "汽車旅館；公路沿線方便停車的住宿設施",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "They checked into a roadside motel after the long factory drive.",
+          "translationZh": "長途驅車參觀工廠後，他們入住了一家公路旁的汽車旅館。"
+        }
+      ]
+    },
+    {
+      "headword": "inn",
+      "partOfSpeech": "n.",
+      "definitionZh": "小旅館；提供住宿餐飲的家庭式客棧",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The team stayed at a countryside inn for the leadership retreat weekend.",
+          "translationZh": "團隊在一家鄉村小旅館住宿，進行領導力培訓週末活動。"
+        }
+      ]
+    },
+    {
+      "headword": "resort",
+      "partOfSpeech": "n.",
+      "definitionZh": "度假村；附設休閒設施的高級旅館",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The team-building event was hosted at a beach resort this year.",
+          "translationZh": "今年的團隊建設活動在一家海濱度假村舉辦。"
+        }
+      ]
+    },
+    {
+      "headword": "villa",
+      "partOfSpeech": "n.",
+      "definitionZh": "別墅；附私人設施的獨立度假住所",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "The company rented a seaside villa for the executive strategy retreat.",
+          "translationZh": "公司租用了一棟海濱別墅舉辦高層策略會議。"
+        }
+      ]
+    },
+    {
+      "headword": "prepayment",
+      "partOfSpeech": "n.",
+      "definitionZh": "預付款；在服務前提前付清的費用",
+      "examTags": [
+        "TOEIC",
+        "travel"
+      ],
+      "examples": [
+        {
+          "sentence": "Full prepayment is required to confirm the non-refundable conference rate.",
+          "translationZh": "確認不可退款的會議房價需全額預付款項。"
+        }
+      ]
+    }
+  ]
+}
