@@ -1638,6 +1638,1222 @@
           "translationZh": "議程的第一項是年度預算。"
         }
       ]
+    },
+    {
+      "headword": "rapporteur",
+      "partOfSpeech": "n.",
+      "definitionZh": "正式會議的指定記錄員，負責整理並發布官方報告",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The rapporteur compiled a summary of all resolutions passed.",
+          "translationZh": "指定記錄員整理了所有已通過決議的摘要。"
+        }
+      ]
+    },
+    {
+      "headword": "abstain",
+      "partOfSpeech": "v.",
+      "definitionZh": "在正式表決中棄權，不投贊成或反對票",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Three board members chose to abstain from the vote.",
+          "translationZh": "三名董事會成員選擇在投票中棄權。"
+        }
+      ]
+    },
+    {
+      "headword": "veto",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "行使否決權，阻止某項決議或提案通過",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The CEO vetoed the proposal to outsource IT operations.",
+          "translationZh": "執行長否決了外包IT營運的提案。"
+        }
+      ]
+    },
+    {
+      "headword": "plenary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "所有成員全體出席的（全體大會或全會）",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The final plenary session was chaired by the president.",
+          "translationZh": "最終全體大會由主席主持。"
+        }
+      ]
+    },
+    {
+      "headword": "caucus",
+      "partOfSpeech": "n.",
+      "definitionZh": "利益相同的群體在大會前私下召開的協調小會",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The delegates held a caucus to align their negotiating position.",
+          "translationZh": "代表們舉行了協調小會以統一談判立場。"
+        }
+      ]
+    },
+    {
+      "headword": "symposium",
+      "partOfSpeech": "n.",
+      "definitionZh": "多位專家發表論文並交流意見的正式學術或專業會議",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She presented her research at an international business symposium.",
+          "translationZh": "她在國際商業研討大會上發表了研究成果。"
+        }
+      ]
+    },
+    {
+      "headword": "convocation",
+      "partOfSpeech": "n.",
+      "definitionZh": "由正式機構或權威召集的正式集會",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A convocation of department heads was called on short notice.",
+          "translationZh": "各部門主管的正式集會在短時間內被召集。"
+        }
+      ]
+    },
+    {
+      "headword": "forum",
+      "partOfSpeech": "n.",
+      "definitionZh": "供各方就議題公開交流意見的大型討論平台",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The economic forum drew leaders from over 50 countries.",
+          "translationZh": "經濟論壇吸引了來自50多個國家的領袖。"
+        }
+      ]
+    },
+    {
+      "headword": "deliberate",
+      "partOfSpeech": "v.",
+      "definitionZh": "在做出決定前進行深思熟慮的詳細討論",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The board deliberated for two hours before reaching a decision.",
+          "translationZh": "董事會深思熟慮了兩小時後才做出決定。"
+        }
+      ]
+    },
+    {
+      "headword": "dissent",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "在正式場合表達與多數意見相左的異議",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "One director filed a formal dissent to the merger proposal.",
+          "translationZh": "一名董事就合併提案提出了正式異議。"
+        }
+      ]
+    },
+    {
+      "headword": "concur",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式表示贊同；與他人持相同立場或意見",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Most analysts concur that the market will recover next year.",
+          "translationZh": "多數分析師同意市場將在明年復甦。"
+        }
+      ]
+    },
+    {
+      "headword": "rebut",
+      "partOfSpeech": "v.",
+      "definitionZh": "提出具體反論以推翻對方觀點",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "He effectively rebutted the criticism with supporting data.",
+          "translationZh": "他用支持數據有效地反駁了批評。"
+        }
+      ]
+    },
+    {
+      "headword": "substantiate",
+      "partOfSpeech": "v.",
+      "definitionZh": "以具體事實或數據支持並證實某主張",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please substantiate your claims with the latest survey data.",
+          "translationZh": "請用最新調查數據來支持您的主張。"
+        }
+      ]
+    },
+    {
+      "headword": "contend",
+      "partOfSpeech": "v.",
+      "definitionZh": "在爭辯中堅持提出某論點或立場",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The director contends that the project is ahead of schedule.",
+          "translationZh": "總監主張專案進度超前。"
+        }
+      ]
+    },
+    {
+      "headword": "elicit",
+      "partOfSpeech": "v.",
+      "definitionZh": "透過提問引導出回應、資訊或意見",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The facilitator asked open questions to elicit diverse views.",
+          "translationZh": "促進者提出開放性問題以引導出多元觀點。"
+        }
+      ]
+    },
+    {
+      "headword": "solicit",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式徵求他人的意見、回應或支持",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The manager solicited feedback from all team members.",
+          "translationZh": "經理正式徵求了所有團隊成員的意見。"
+        }
+      ]
+    },
+    {
+      "headword": "paraphrase",
+      "partOfSpeech": "v.",
+      "definitionZh": "用不同的措辭重述他人說法，確認理解正確",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Let me paraphrase what you said to confirm understanding.",
+          "translationZh": "讓我重述您說的話以確認我的理解正確。"
+        }
+      ]
+    },
+    {
+      "headword": "recapitulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "在演說或會議末尾扼要重述所有主要要點",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Allow me to recapitulate the key decisions made today.",
+          "translationZh": "請允許我扼要重述今天做出的關鍵決定。"
+        }
+      ]
+    },
+    {
+      "headword": "synopsis",
+      "partOfSpeech": "n.",
+      "definitionZh": "提案或報告內容的簡潔摘要或大綱",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please send a synopsis of the proposal before the full meeting.",
+          "translationZh": "請在全體會議前發送提案的摘要。"
+        }
+      ]
+    },
+    {
+      "headword": "caveat",
+      "partOfSpeech": "n.",
+      "definitionZh": "附帶的警告、例外或限制條件",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "I support the plan, with the caveat that costs are reviewed.",
+          "translationZh": "我支持該計畫，但附帶條件是需審查成本。"
+        }
+      ]
+    },
+    {
+      "headword": "provisional",
+      "partOfSpeech": "adj.",
+      "definitionZh": "暫定的；在獲得最終確認前暫時適用的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A provisional agenda was shared pending final confirmation.",
+          "translationZh": "在最終確認前，一份暫定議程已被發送。"
+        }
+      ]
+    },
+    {
+      "headword": "bylaw",
+      "partOfSpeech": "n.",
+      "definitionZh": "組織自訂、規範內部事務的規則或章程",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bylaw requires a two-thirds majority for major changes.",
+          "translationZh": "章程規定重大變更需三分之二多數通過。"
+        }
+      ]
+    },
+    {
+      "headword": "plurality",
+      "partOfSpeech": "n.",
+      "definitionZh": "獲得最多票但未達絕對多數的相對多數",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The proposal passed by a plurality rather than unanimously.",
+          "translationZh": "提案以相對多數通過，而非一致同意。"
+        }
+      ]
+    },
+    {
+      "headword": "unanimous",
+      "partOfSpeech": "adj.",
+      "definitionZh": "全場一致同意，毫無異議的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The board reached a unanimous decision to expand overseas.",
+          "translationZh": "董事會一致決定向海外擴展。"
+        }
+      ]
+    },
+    {
+      "headword": "corroborate",
+      "partOfSpeech": "v.",
+      "definitionZh": "以獨立的額外證據確認或加強某陳述",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A second study was cited to corroborate the initial findings.",
+          "translationZh": "引用了第二份研究以佐證初步發現。"
+        }
+      ]
+    },
+    {
+      "headword": "refute",
+      "partOfSpeech": "v.",
+      "definitionZh": "以有力論據推翻或否定他人的主張",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The data refutes the assumption that costs would decline.",
+          "translationZh": "數據推翻了成本將下降的假設。"
+        }
+      ]
+    },
+    {
+      "headword": "enumerate",
+      "partOfSpeech": "v.",
+      "definitionZh": "依序逐一列舉要點、選項或問題",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The presenter enumerated five key risks for the project.",
+          "translationZh": "簡報者逐一列舉了專案的五項主要風險。"
+        }
+      ]
+    },
+    {
+      "headword": "verbatim",
+      "partOfSpeech": "adv./adj.",
+      "definitionZh": "逐字引用；完全照原文重現",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The minutes recorded the CEO's statement verbatim.",
+          "translationZh": "會議記錄逐字記錄了執行長的發言。"
+        }
+      ]
+    },
+    {
+      "headword": "salient",
+      "partOfSpeech": "adj.",
+      "definitionZh": "最突出最值得注意的（論點或特徵）",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She outlined the most salient risks in the opening slide.",
+          "translationZh": "她在開場投影片中概述了最突出的風險。"
+        }
+      ]
+    },
+    {
+      "headword": "succinct",
+      "partOfSpeech": "adj.",
+      "definitionZh": "簡潔有力；以最少文字傳達完整意思",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Keep your summary succinct so all points fit one slide.",
+          "translationZh": "請保持摘要簡潔，讓所有要點能在一頁投影片中呈現。"
+        }
+      ]
+    },
+    {
+      "headword": "cogent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "論點清晰、有說服力且邏輯嚴密的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Her cogent argument convinced the board to approve the bid.",
+          "translationZh": "她有力的論點說服了董事會批准競標。"
+        }
+      ]
+    },
+    {
+      "headword": "reiterate",
+      "partOfSpeech": "v.",
+      "definitionZh": "再次重複強調以確保所有人理解",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "I want to reiterate that the deadline is non-negotiable.",
+          "translationZh": "我想再次強調，截止日期不可協商。"
+        }
+      ]
+    },
+    {
+      "headword": "takeaway",
+      "partOfSpeech": "n.",
+      "definitionZh": "會議或簡報結束後應記住並付諸行動的關鍵結論",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The main takeaway is that we must reduce response time.",
+          "translationZh": "主要結論是我們必須縮短回應時間。"
+        }
+      ]
+    },
+    {
+      "headword": "override",
+      "partOfSpeech": "v.",
+      "definitionZh": "推翻或凌駕於既有決定或規則之上",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The director overrode the committee's earlier recommendation.",
+          "translationZh": "總監推翻了委員會早先的建議。"
+        }
+      ]
+    },
+    {
+      "headword": "rationale",
+      "partOfSpeech": "n.",
+      "definitionZh": "決策或提案背後的核心邏輯與正當理由",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please explain the rationale for choosing this vendor.",
+          "translationZh": "請說明選擇這家供應商的理由。"
+        }
+      ]
+    },
+    {
+      "headword": "iteration",
+      "partOfSpeech": "n.",
+      "definitionZh": "根據回饋修改後的新版本或重複執行週期",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The proposal is on its third iteration following client input.",
+          "translationZh": "提案在根據客戶意見後已進入第三次修訂版本。"
+        }
+      ]
+    },
+    {
+      "headword": "momentum",
+      "partOfSpeech": "n.",
+      "definitionZh": "在推進過程中持續累積的動力或氣勢",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We must maintain momentum after the strong Q2 performance.",
+          "translationZh": "我們必須在第二季強勁表現後維持動力。"
+        }
+      ]
+    },
+    {
+      "headword": "impasse",
+      "partOfSpeech": "n.",
+      "definitionZh": "談判或討論進入無法推進的僵局",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Negotiations reached an impasse over the payment terms.",
+          "translationZh": "談判在付款條件問題上陷入僵局。"
+        }
+      ]
+    },
+    {
+      "headword": "substantive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "具有實質重要意義和內容的（討論或成果）",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We need a substantive discussion, not just a status update.",
+          "translationZh": "我們需要實質性的討論，而不僅是狀態更新。"
+        }
+      ]
+    },
+    {
+      "headword": "preliminary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "在正式或主要程序之前進行的初步準備性的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A preliminary review was conducted before the board meeting.",
+          "translationZh": "在董事會會議前進行了初步審查。"
+        }
+      ]
+    },
+    {
+      "headword": "interim",
+      "partOfSpeech": "adj.",
+      "definitionZh": "在正式決定或安排確定前臨時適用的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An interim report will be submitted pending final audit.",
+          "translationZh": "在最終審計完成前，將提交一份臨時報告。"
+        }
+      ]
+    },
+    {
+      "headword": "concurrent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "與其他工作或會議同時進行的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Concurrent sessions allow attendees to choose their track.",
+          "translationZh": "同步進行的場次讓與會者可選擇自己的路徑。"
+        }
+      ]
+    },
+    {
+      "headword": "holistic",
+      "partOfSpeech": "adj.",
+      "definitionZh": "整體考量所有相關面向而非只看局部的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We need a holistic view of costs before making a decision.",
+          "translationZh": "我們需要在做決定前對成本有整體的了解。"
+        }
+      ]
+    },
+    {
+      "headword": "granular",
+      "partOfSpeech": "adj.",
+      "definitionZh": "細化到最小細節的；極為詳細具體的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The finance team provided a granular breakdown by region.",
+          "translationZh": "財務團隊提供了按地區細化的詳細分析。"
+        }
+      ]
+    },
+    {
+      "headword": "overarching",
+      "partOfSpeech": "adj.",
+      "definitionZh": "涵蓋所有面向的整體架構性（目標或主題）",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The overarching goal is to double revenue within five years.",
+          "translationZh": "整體目標是在五年內將營收翻倍。"
+        }
+      ]
+    },
+    {
+      "headword": "extrapolate",
+      "partOfSpeech": "v.",
+      "definitionZh": "根據已有數據或趨勢推估未來的值或走向",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We can extrapolate next year's demand from current growth.",
+          "translationZh": "我們可根據目前成長推估明年的需求量。"
+        }
+      ]
+    },
+    {
+      "headword": "synthesize",
+      "partOfSpeech": "v.",
+      "definitionZh": "將多方來源的資訊或觀點整合成連貫整體",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The analyst synthesized data from five departments.",
+          "translationZh": "分析師整合了來自五個部門的數據。"
+        }
+      ]
+    },
+    {
+      "headword": "contextualize",
+      "partOfSpeech": "v.",
+      "definitionZh": "將資訊放入更大的背景框架中加以解釋",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "It helps to contextualize these figures within global trends.",
+          "translationZh": "將這些數字放在全球趨勢中解讀會更有幫助。"
+        }
+      ]
+    },
+    {
+      "headword": "rapport",
+      "partOfSpeech": "n.",
+      "definitionZh": "簡報者與聽眾之間建立的和諧互信關係",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Building rapport with the audience improves engagement.",
+          "translationZh": "與聽眾建立和諧關係能提升參與度。"
+        }
+      ]
+    },
+    {
+      "headword": "incremental",
+      "partOfSpeech": "adj.",
+      "definitionZh": "以小幅度逐步累積推進的漸進式方式",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We plan incremental improvements rather than a full overhaul.",
+          "translationZh": "我們計畫以漸進方式改善，而非全面翻新。"
+        }
+      ]
+    },
+    {
+      "headword": "constructive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "具建設性的；有助於改善結果而非批評的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please offer constructive feedback on the draft proposal.",
+          "translationZh": "請對草案提案提供具建設性的意見。"
+        }
+      ]
+    },
+    {
+      "headword": "accountable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "須對被分配任務的結果負責且接受問責的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each team member is accountable for their assigned deliverable.",
+          "translationZh": "每位團隊成員須對其分配的交付成果負責。"
+        }
+      ]
+    },
+    {
+      "headword": "actionable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "清晰具體、可立即付諸執行的（建議或決定）",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The consultant provided five actionable steps for improvement.",
+          "translationZh": "顧問提供了五個可立即執行的改善步驟。"
+        }
+      ]
+    },
+    {
+      "headword": "viable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "在現有條件下切實可行且可持續的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Is the three-month timeline viable given our resources?",
+          "translationZh": "以我們的資源來看，三個月的時程是否可行？"
+        }
+      ]
+    },
+    {
+      "headword": "assertion",
+      "partOfSpeech": "n.",
+      "definitionZh": "在會議中自信提出的明確立場或正式主張",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "His assertion that costs have stabilized was challenged.",
+          "translationZh": "他聲稱成本已穩定的主張受到了質疑。"
+        }
+      ]
+    },
+    {
+      "headword": "delineate",
+      "partOfSpeech": "v.",
+      "definitionZh": "精確界定並說明職責範圍或任務邊界",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The meeting helped delineate each department's responsibilities.",
+          "translationZh": "會議有助於明確界定各部門的職責。"
+        }
+      ]
+    },
+    {
+      "headword": "convey",
+      "partOfSpeech": "v.",
+      "definitionZh": "有效地向聽眾傳達觀點、資訊或情感",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Use clear language to convey the key message to stakeholders.",
+          "translationZh": "使用清晰的語言向利害關係人傳達關鍵訊息。"
+        }
+      ]
+    },
+    {
+      "headword": "canvass",
+      "partOfSpeech": "v.",
+      "definitionZh": "廣泛徵詢成員意見以評估共識或偏好",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We canvassed all department heads before finalizing the plan.",
+          "translationZh": "我們在確定計畫前徵詢了所有部門主管的意見。"
+        }
+      ]
+    },
+    {
+      "headword": "tally",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "統計並記錄投票或計數的最終結果",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The secretary tallied the votes and announced the result.",
+          "translationZh": "秘書統計了票數並宣布結果。"
+        }
+      ]
+    },
+    {
+      "headword": "verbalize",
+      "partOfSpeech": "v.",
+      "definitionZh": "將內心想法或書面資料轉化為清晰口頭表達",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She verbalized her concerns clearly during the Q&A session.",
+          "translationZh": "她在問答環節清晰地口頭表達了她的疑慮。"
+        }
+      ]
+    },
+    {
+      "headword": "visualize",
+      "partOfSpeech": "v.",
+      "definitionZh": "將數據或抽象概念以視覺化圖表方式呈現",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Use infographics to visualize complex data for the board.",
+          "translationZh": "使用資訊圖表為董事會呈現複雜數據。"
+        }
+      ]
+    },
+    {
+      "headword": "pivotal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "對整體進程或結果具有決定性關鍵作用的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "This meeting is pivotal to the project's final approval.",
+          "translationZh": "這次會議對專案最終獲批至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "upshot",
+      "partOfSpeech": "n.",
+      "definitionZh": "經一連串討論後最終得出的結論或結果",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The upshot of the negotiation was a revised payment schedule.",
+          "translationZh": "談判的最終結果是修訂後的付款時間表。"
+        }
+      ]
+    },
+    {
+      "headword": "turnaround",
+      "partOfSpeech": "n.",
+      "definitionZh": "對請求或任務從接收到完成所需的時間",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The client expects a 24-hour turnaround on all proposal drafts.",
+          "translationZh": "客戶期望所有提案草稿在24小時內完成。"
+        }
+      ]
+    },
+    {
+      "headword": "retroactive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "追溯既往、適用於過去已發生事件的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The pay increase will be applied retroactive to January first.",
+          "translationZh": "薪資調漲將追溯至一月一日起生效。"
+        }
+      ]
+    },
+    {
+      "headword": "ancillary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "支援主要目標或議程的次要輔助性的",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ancillary materials were distributed after the main session.",
+          "translationZh": "輔助材料在主要場次後分發給與會者。"
+        }
+      ]
+    },
+    {
+      "headword": "concession",
+      "partOfSpeech": "n.",
+      "definitionZh": "在談判或辯論中主動讓步接受對方部分要求",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Both sides made concessions to finalize the trade agreement.",
+          "translationZh": "雙方各做出讓步以完成貿易協議。"
+        }
+      ]
+    },
+    {
+      "headword": "prerogative",
+      "partOfSpeech": "n.",
+      "definitionZh": "特定職位或角色所獨有的特殊權力或特權",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Final approval is the chairperson's prerogative.",
+          "translationZh": "最終審批是主席的專有權力。"
+        }
+      ]
+    },
+    {
+      "headword": "remit",
+      "partOfSpeech": "n.",
+      "definitionZh": "特定職責或工作被正式授權處理的職能範圍",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Pricing decisions fall outside the committee's remit.",
+          "translationZh": "定價決策超出了委員會的職能範圍。"
+        }
+      ]
+    },
+    {
+      "headword": "reconvene",
+      "partOfSpeech": "v.",
+      "definitionZh": "在休會或中斷後重新召集並繼續進行會議",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We will reconvene after lunch to finish the remaining items.",
+          "translationZh": "我們將在午餐後重新集合以完成剩餘議程。"
+        }
+      ]
+    },
+    {
+      "headword": "confer",
+      "partOfSpeech": "v.",
+      "definitionZh": "就特定議題正式磋商或交換意見",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The lawyers conferred before presenting the final terms.",
+          "translationZh": "律師們在提出最終條款前進行了磋商。"
+        }
+      ]
+    },
+    {
+      "headword": "postmortem",
+      "partOfSpeech": "n.",
+      "definitionZh": "在專案失敗或出現問題後進行的深度事後分析",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A postmortem revealed gaps in the product launch process.",
+          "translationZh": "事後分析揭示了產品發布流程中的漏洞。"
+        }
+      ]
+    },
+    {
+      "headword": "onboarding",
+      "partOfSpeech": "n.",
+      "definitionZh": "引導新成員熟悉組織文化、流程與工具的程序",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The onboarding session introduced new staff to team processes.",
+          "translationZh": "入職說明會向新員工介紹了團隊流程。"
+        }
+      ]
+    },
+    {
+      "headword": "walkthrough",
+      "partOfSpeech": "n.",
+      "definitionZh": "對流程、系統或文件的逐步引導說明",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The IT team led a walkthrough of the new software features.",
+          "translationZh": "IT團隊帶領大家逐步了解新軟體功能。"
+        }
+      ]
+    },
+    {
+      "headword": "readout",
+      "partOfSpeech": "n.",
+      "definitionZh": "向上級彙報會議重點或任務結果的摘要報告",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The project lead gave a readout to the executive sponsor.",
+          "translationZh": "專案負責人向執行贊助者提供了摘要報告。"
+        }
+      ]
+    },
+    {
+      "headword": "sidebar",
+      "partOfSpeech": "n.",
+      "definitionZh": "會議進行中簡短離題的補充說明或私下溝通",
+      "examTags": [
+        "TOEIC",
+        "meetings",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Can we take a quick sidebar before the next agenda item?",
+          "translationZh": "在進入下一個議程前，我們能快速私下討論一下嗎？"
+        }
+      ]
     }
   ]
 }

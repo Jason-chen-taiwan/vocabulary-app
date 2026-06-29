@@ -1503,6 +1503,1606 @@
           "translationZh": "這台筆電附有兩年保固。"
         }
       ]
+    },
+    {
+      "headword": "stipulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "在合約中明確指定特定條件或要求",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The agreement stipulates that payment is due within 30 days.",
+          "translationZh": "協議規定付款須在30天內完成。"
+        }
+      ]
+    },
+    {
+      "headword": "stipulation",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中所明定的特定條件或前提要求",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Meeting the quality stipulation is required before final payment.",
+          "translationZh": "在最終付款前須符合品質規定。"
+        }
+      ]
+    },
+    {
+      "headword": "severability",
+      "partOfSpeech": "n.",
+      "definitionZh": "部分條款無效時其餘條款仍具效力的可分性原則",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The severability clause protects the contract if one term is void.",
+          "translationZh": "可分性條款確保某條款無效時合約仍然有效。"
+        }
+      ]
+    },
+    {
+      "headword": "indemnify",
+      "partOfSpeech": "v.",
+      "definitionZh": "依合約義務補償對方因特定事由所受的損失",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The supplier agreed to indemnify the buyer for any defective goods.",
+          "translationZh": "供應商同意就任何瑕疵商品賠償買方。"
+        }
+      ]
+    },
+    {
+      "headword": "indemnity",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約約定補償損失或損害的保障責任（區別於indemnification的條款名稱）",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The firm purchased indemnity insurance to cover potential claims.",
+          "translationZh": "公司購買了賠償責任保險以涵蓋潛在索賠。"
+        }
+      ]
+    },
+    {
+      "headword": "restitution",
+      "partOfSpeech": "n.",
+      "definitionZh": "要求返還所得利益以恢復受害方原狀的法律救濟",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The court ordered restitution of all funds received under the contract.",
+          "translationZh": "法院命令退還依合約收取的所有款項。"
+        }
+      ]
+    },
+    {
+      "headword": "novation",
+      "partOfSpeech": "n.",
+      "definitionZh": "以新義務或新當事方取代原合約義務的更替協議",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A novation was required when the original supplier sold its business.",
+          "translationZh": "原供應商出售業務時需要簽署更替協議。"
+        }
+      ]
+    },
+    {
+      "headword": "rescission",
+      "partOfSpeech": "n.",
+      "definitionZh": "撤銷合約使雙方回復簽約前狀態的法律救濟",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Rescission of the contract was granted due to mutual mistake.",
+          "translationZh": "因雙方共同錯誤，法院准許撤銷合約。"
+        }
+      ]
+    },
+    {
+      "headword": "repudiate",
+      "partOfSpeech": "v.",
+      "definitionZh": "明確拒絕承認或拒絕履行合約義務",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor repudiated the agreement citing financial hardship.",
+          "translationZh": "承包商以財務困難為由拒絕履行協議。"
+        }
+      ]
+    },
+    {
+      "headword": "repudiation",
+      "partOfSpeech": "n.",
+      "definitionZh": "一方在合約到期前明確表示拒絕履行義務的行為",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Anticipatory repudiation allows the other party to sue immediately.",
+          "translationZh": "預期違約使他方得立即提起訴訟。"
+        }
+      ]
+    },
+    {
+      "headword": "mitigation",
+      "partOfSpeech": "n.",
+      "definitionZh": "違約後受害方採取合理步驟減少損失的法律義務",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The buyer has a duty of mitigation to minimize losses after a breach.",
+          "translationZh": "買方有義務在違約後採取措施減少損失。"
+        }
+      ]
+    },
+    {
+      "headword": "mitigate",
+      "partOfSpeech": "v.",
+      "definitionZh": "採取合理行動以降低違約所造成的損失",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company acted to mitigate losses after the supplier defaulted.",
+          "translationZh": "供應商違約後，公司採取行動減少損失。"
+        }
+      ]
+    },
+    {
+      "headword": "privity",
+      "partOfSpeech": "n.",
+      "definitionZh": "僅存在於合約當事方之間的法律關係",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Privity of contract prevents a third party from enforcing its terms.",
+          "translationZh": "合約的相對性使第三方無法主張其條款。"
+        }
+      ]
+    },
+    {
+      "headword": "estoppel",
+      "partOfSpeech": "n.",
+      "definitionZh": "禁止當事方否認其先前陳述或行為的法律原則",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "By estoppel, the seller cannot deny the quality assurance it gave.",
+          "translationZh": "依禁反言原則，賣方不得否認其所給予的品質保證。"
+        }
+      ]
+    },
+    {
+      "headword": "fiduciary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "基於信任與誠信、須以對方最大利益行事的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The trustee owes a fiduciary duty to act in the beneficiary's interest.",
+          "translationZh": "受託人負有以受益人利益為優先的受託義務。"
+        }
+      ]
+    },
+    {
+      "headword": "beneficiary",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約或信託而獲得利益的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The beneficiary receives payment once all conditions are satisfied.",
+          "translationZh": "在所有條件滿足後，受益人將收到款項。"
+        }
+      ]
+    },
+    {
+      "headword": "guarantor",
+      "partOfSpeech": "n.",
+      "definitionZh": "承諾在主債務人違約時代為履行義務的保證人",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank required a guarantor before approving the corporate loan.",
+          "translationZh": "銀行在批准企業貸款前要求提供保證人。"
+        }
+      ]
+    },
+    {
+      "headword": "surety",
+      "partOfSpeech": "n.",
+      "definitionZh": "對他方債務承擔連帶清償責任的保證人或擔保物",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A surety bond was required to guarantee project completion.",
+          "translationZh": "需要提供履約保證金以確保專案完成。"
+        }
+      ]
+    },
+    {
+      "headword": "escrow",
+      "partOfSpeech": "n.",
+      "definitionZh": "由中立第三方代為保管、待條件成就後撥付的款項",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The buyer placed the deposit in escrow pending contract completion.",
+          "translationZh": "買方將訂金存入託管帳戶，待合約完成後撥付。"
+        }
+      ]
+    },
+    {
+      "headword": "lien",
+      "partOfSpeech": "n.",
+      "definitionZh": "對債務人財產所設定的法律留置權",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor filed a lien on the property for unpaid services.",
+          "translationZh": "承包商就未付款的服務對房產申請留置權。"
+        }
+      ]
+    },
+    {
+      "headword": "encumbrance",
+      "partOfSpeech": "n.",
+      "definitionZh": "附著於財產上的抵押、留置或其他法律負擔",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The property must be sold free of any encumbrance.",
+          "translationZh": "該房產必須在無任何負擔的情況下出售。"
+        }
+      ]
+    },
+    {
+      "headword": "forfeiture",
+      "partOfSpeech": "n.",
+      "definitionZh": "因違反合約而喪失特定權利或財產的懲罰性後果",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Failure to renew on time results in forfeiture of the option.",
+          "translationZh": "未能及時續約將導致選擇權的喪失。"
+        }
+      ]
+    },
+    {
+      "headword": "assignee",
+      "partOfSpeech": "n.",
+      "definitionZh": "接受合約權利或義務轉讓的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The assignee assumes all rights previously held by the assignor.",
+          "translationZh": "受讓人承接讓與人原先持有的所有權利。"
+        }
+      ]
+    },
+    {
+      "headword": "assignor",
+      "partOfSpeech": "n.",
+      "definitionZh": "將合約權利或義務轉讓給他人的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The assignor must notify the counterparty of any rights transfer.",
+          "translationZh": "讓與人必須通知對方有關任何權利轉讓。"
+        }
+      ]
+    },
+    {
+      "headword": "transferee",
+      "partOfSpeech": "n.",
+      "definitionZh": "接受財產或權利轉讓的受讓方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The transferee takes on all liabilities attached to the asset.",
+          "translationZh": "受讓方承擔附屬於該資產的所有負債。"
+        }
+      ]
+    },
+    {
+      "headword": "transferor",
+      "partOfSpeech": "n.",
+      "definitionZh": "將財產或權利轉讓給他人的讓與方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The transferor warrants clear title to the intellectual property.",
+          "translationZh": "讓與方保證對知識產權擁有清晰的所有權。"
+        }
+      ]
+    },
+    {
+      "headword": "lessee",
+      "partOfSpeech": "n.",
+      "definitionZh": "依租賃合約取得資產使用權的承租方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The lessee must maintain the leased premises in good condition.",
+          "translationZh": "承租人必須妥善維護租賃場所的狀況。"
+        }
+      ]
+    },
+    {
+      "headword": "lessor",
+      "partOfSpeech": "n.",
+      "definitionZh": "依租賃合約授予他方資產使用權的出租方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The lessor is responsible for major structural repairs.",
+          "translationZh": "出租方負責主要結構性修繕工作。"
+        }
+      ]
+    },
+    {
+      "headword": "mortgagee",
+      "partOfSpeech": "n.",
+      "definitionZh": "抵押貸款中接受財產抵押擔保的貸款方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The mortgagee may foreclose if the borrower defaults on payments.",
+          "translationZh": "若借款人違約未還款，抵押權人可取消贖回權。"
+        }
+      ]
+    },
+    {
+      "headword": "mortgagor",
+      "partOfSpeech": "n.",
+      "definitionZh": "以財產設定抵押向抵押權人借款的債務方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The mortgagor pledged the office building as loan security.",
+          "translationZh": "抵押人以辦公大樓作為貸款擔保。"
+        }
+      ]
+    },
+    {
+      "headword": "trustee",
+      "partOfSpeech": "n.",
+      "definitionZh": "依信託協議為受益人持有並管理資產的受託人",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The trustee holds the escrow funds until all conditions are met.",
+          "translationZh": "受託人持有託管資金直至所有條件滿足。"
+        }
+      ]
+    },
+    {
+      "headword": "nominee",
+      "partOfSpeech": "n.",
+      "definitionZh": "被指定以自身名義代他人持有資產或職位的名義人",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The nominee holds the shares on behalf of the beneficial owner.",
+          "translationZh": "名義持有人代受益所有人持有股份。"
+        }
+      ]
+    },
+    {
+      "headword": "perpetual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "無到期日、永久持續有效的（授權或條款）",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The licensor granted a perpetual right to use the software.",
+          "translationZh": "授權方給予了永久的軟體使用權。"
+        }
+      ]
+    },
+    {
+      "headword": "derivative",
+      "partOfSpeech": "adj.",
+      "definitionZh": "源自他人原始創作而衍生出的（作品或授權）",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Derivative works may require a separate license from the rights holder.",
+          "translationZh": "衍生作品可能需要向權利人申請單獨授權。"
+        }
+      ]
+    },
+    {
+      "headword": "infringement",
+      "partOfSpeech": "n.",
+      "definitionZh": "未經授權使用他人智慧財產的侵權行為",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The court found clear infringement of the patented design.",
+          "translationZh": "法院認定對受專利保護的設計存在明確侵權。"
+        }
+      ]
+    },
+    {
+      "headword": "misappropriation",
+      "partOfSpeech": "n.",
+      "definitionZh": "未經授權挪用他人商業秘密或財產的行為",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company sued for misappropriation of its trade secrets.",
+          "translationZh": "公司就商業秘密被盜用提起訴訟。"
+        }
+      ]
+    },
+    {
+      "headword": "ratify",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式批准或確認先前所做的行為或協議",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The board must ratify any contract valued above $500,000.",
+          "translationZh": "董事會必須批准任何金額超過五十萬美元的合約。"
+        }
+      ]
+    },
+    {
+      "headword": "ratification",
+      "partOfSpeech": "n.",
+      "definitionZh": "對合約或決議的正式批准與確認程序",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ratification by the board is needed before the contract takes effect.",
+          "translationZh": "合約生效前須經董事會正式批准。"
+        }
+      ]
+    },
+    {
+      "headword": "contingency",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中規定可能發生而影響義務生效的未來條件事件",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The deal is subject to a financing contingency.",
+          "translationZh": "該交易以取得融資為前提條件。"
+        }
+      ]
+    },
+    {
+      "headword": "hardship",
+      "partOfSpeech": "n.",
+      "definitionZh": "使合約履行變得異常困難的重大情況變化",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The supplier invoked the hardship clause due to soaring material costs.",
+          "translationZh": "供應商因材料成本急升援引了艱困條款。"
+        }
+      ]
+    },
+    {
+      "headword": "supersede",
+      "partOfSpeech": "v.",
+      "definitionZh": "取代先前的合約、條款或文件使其失效",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "This agreement supersedes all prior contracts between the parties.",
+          "translationZh": "本協議取代雙方之間所有先前的合約。"
+        }
+      ]
+    },
+    {
+      "headword": "prevail",
+      "partOfSpeech": "v.",
+      "definitionZh": "在法律衝突中佔優先地位，或在訴訟中勝訴",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The English version shall prevail in case of any translation conflict.",
+          "translationZh": "如有翻譯衝突，以英文版本為準。"
+        }
+      ]
+    },
+    {
+      "headword": "invoke",
+      "partOfSpeech": "v.",
+      "definitionZh": "援引合約條款或法律規定以主張特定權利",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The client invoked the penalty clause after the deadline was missed.",
+          "translationZh": "客戶在截止日期未達後援引了罰款條款。"
+        }
+      ]
+    },
+    {
+      "headword": "entitlement",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約或法律所享有的特定權利或利益",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Employees have a statutory entitlement to a written employment contract.",
+          "translationZh": "員工依法有權獲得書面僱傭合約。"
+        }
+      ]
+    },
+    {
+      "headword": "immunity",
+      "partOfSpeech": "n.",
+      "definitionZh": "豁免特定法律責任的保護",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The clause grants immunity from liability for indirect losses.",
+          "translationZh": "該條款賦予對間接損失免責的保護。"
+        }
+      ]
+    },
+    {
+      "headword": "scope",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約所界定的工作或服務的涵蓋範圍",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Any work outside the agreed scope requires a change order.",
+          "translationZh": "約定範圍以外的任何工作須取得變更指示。"
+        }
+      ]
+    },
+    {
+      "headword": "deliverable",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約要求在特定時限內交付的具體成果或文件",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each deliverable must be reviewed and approved by the client.",
+          "translationZh": "每項交付成果須由客戶審查並批准。"
+        }
+      ]
+    },
+    {
+      "headword": "requisite",
+      "partOfSpeech": "adj.",
+      "definitionZh": "合約或法規所要求的必備條件",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor must hold all requisite permits before starting work.",
+          "translationZh": "承包商在開工前必須持有所有必要許可證。"
+        }
+      ]
+    },
+    {
+      "headword": "prerequisite",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約義務觸發或生效前須先滿足的先決條件",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Board approval is a prerequisite for signing any major contract.",
+          "translationZh": "簽署任何重大合約前，董事會批准是先決條件。"
+        }
+      ]
+    },
+    {
+      "headword": "subsequent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "於特定事件或合約簽署之後發生的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Subsequent amendments must be signed by both parties to be valid.",
+          "translationZh": "後續修正必須由雙方簽署才具效力。"
+        }
+      ]
+    },
+    {
+      "headword": "contemporaneous",
+      "partOfSpeech": "adj.",
+      "definitionZh": "與合約文件同時期存在或製作的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Contemporaneous records were used to clarify the contract's intent.",
+          "translationZh": "同期紀錄被用來釐清合約的締約意圖。"
+        }
+      ]
+    },
+    {
+      "headword": "herein",
+      "partOfSpeech": "adv.",
+      "definitionZh": "在本合約文件內（指文件本身所含內容）",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The obligations herein are binding from the date of execution.",
+          "translationZh": "本文件所載義務自執行日起具有約束力。"
+        }
+      ]
+    },
+    {
+      "headword": "hereinafter",
+      "partOfSpeech": "adv.",
+      "definitionZh": "在本合約以下稱為（用於定義縮寫或簡稱）",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "ABC Corporation, hereinafter referred to as the Supplier.",
+          "translationZh": "ABC公司，以下稱為「供應商」。"
+        }
+      ]
+    },
+    {
+      "headword": "aforesaid",
+      "partOfSpeech": "adj.",
+      "definitionZh": "前文已提及或定義的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "All aforesaid conditions must be met before disbursement.",
+          "translationZh": "撥款前必須滿足前述所有條件。"
+        }
+      ]
+    },
+    {
+      "headword": "incur",
+      "partOfSpeech": "v.",
+      "definitionZh": "因合約執行或違約而產生費用或義務",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The client will incur additional charges for scope changes.",
+          "translationZh": "客戶將因範疇變更而產生額外費用。"
+        }
+      ]
+    },
+    {
+      "headword": "aggregate",
+      "partOfSpeech": "adj.",
+      "definitionZh": "在合約中指累計的總金額或責任上限",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Aggregate liability under this contract shall not exceed $1 million.",
+          "translationZh": "本合約下的累計責任上限不得超過一百萬美元。"
+        }
+      ]
+    },
+    {
+      "headword": "accrue",
+      "partOfSpeech": "v.",
+      "definitionZh": "隨時間累積產生（利息、費用或義務）",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Interest will accrue on overdue payments at 5% per annum.",
+          "translationZh": "逾期款項將以每年5%的利率累計產生利息。"
+        }
+      ]
+    },
+    {
+      "headword": "abatement",
+      "partOfSpeech": "n.",
+      "definitionZh": "對合約規定罰款或費用的減免或削減",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The landlord agreed to a rent abatement during the renovation period.",
+          "translationZh": "房東同意在裝修期間給予租金減免。"
+        }
+      ]
+    },
+    {
+      "headword": "setoff",
+      "partOfSpeech": "n.",
+      "definitionZh": "以自身債權抵銷對方所欠款項的法律權利",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The buyer exercised its right of setoff against the outstanding invoice.",
+          "translationZh": "買方對未付款發票行使了抵銷權利。"
+        }
+      ]
+    },
+    {
+      "headword": "reimbursement",
+      "partOfSpeech": "n.",
+      "definitionZh": "對他方代墊費用的退款補償",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Travel expenses are subject to reimbursement upon receipt submission.",
+          "translationZh": "差旅費在提交收據後可申請報銷。"
+        }
+      ]
+    },
+    {
+      "headword": "disbursement",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約從帳戶向指定方撥付款項的行為",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Disbursement of loan funds is contingent on document approval.",
+          "translationZh": "貸款資金的撥付取決於文件審批。"
+        }
+      ]
+    },
+    {
+      "headword": "offset",
+      "partOfSpeech": "v.",
+      "definitionZh": "以一方債務金額抵銷另一方所欠的款項",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The client may offset penalty fees against the final payment.",
+          "translationZh": "客戶可從最終款項中扣抵罰款費用。"
+        }
+      ]
+    },
+    {
+      "headword": "lapse",
+      "partOfSpeech": "v.",
+      "definitionZh": "因未在期限內行使或續簽而自動失效",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The option will lapse if not exercised within 30 days.",
+          "translationZh": "若未在30天內行使，選擇權將自動失效。"
+        }
+      ]
+    },
+    {
+      "headword": "deem",
+      "partOfSpeech": "v.",
+      "definitionZh": "合約中視為或推定某項事實成立",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Silence shall be deemed acceptance if no reply is given in 10 days.",
+          "translationZh": "若10天內未回覆，沉默將被視為接受。"
+        }
+      ]
+    },
+    {
+      "headword": "construe",
+      "partOfSpeech": "v.",
+      "definitionZh": "依法律原則解讀並詮釋合約條款的含義",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ambiguous clauses will be construed against the drafting party.",
+          "translationZh": "模糊條款將依不利起草方原則解釋。"
+        }
+      ]
+    },
+    {
+      "headword": "interpretation",
+      "partOfSpeech": "n.",
+      "definitionZh": "對合約條款文義與意圖的法律解釋方式",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Disputes over interpretation shall be resolved by expert determination.",
+          "translationZh": "關於解釋的爭議應由專家裁決解決。"
+        }
+      ]
+    },
+    {
+      "headword": "ambiguity",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約條款因措詞不清而可能有多種解釋的情況",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Any ambiguity in pricing terms must be clarified before signing.",
+          "translationZh": "價格條款中的任何歧義在簽署前必須釐清。"
+        }
+      ]
+    },
+    {
+      "headword": "boilerplate",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中反覆出現的標準化通用條款",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The attorney reviewed the boilerplate clauses for unusual provisions.",
+          "translationZh": "律師審查了標準條款中是否有任何異常規定。"
+        }
+      ]
+    },
+    {
+      "headword": "entirety",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約的全部整體；常見於「整份合約」的法律指稱",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "This document constitutes the agreement in its entirety.",
+          "translationZh": "本文件構成完整的合約協議。"
+        }
+      ]
+    },
+    {
+      "headword": "merger",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中規定書面文件取代所有先前協議的整合條款",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The merger clause confirms this is the final and complete agreement.",
+          "translationZh": "合併條款確認本文件為最終完整的協議。"
+        }
+      ]
+    },
+    {
+      "headword": "reformation",
+      "partOfSpeech": "n.",
+      "definitionZh": "法院修正合約以反映雙方真實意圖的司法救濟",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Reformation was sought to correct the error in the payment amount.",
+          "translationZh": "申請合約更正以修正付款金額中的錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "subrogation",
+      "partOfSpeech": "n.",
+      "definitionZh": "一方清償他方債務後取得其對第三方求償權的代位",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The insurer's right of subrogation was preserved in the contract.",
+          "translationZh": "保險人的代位求償權在合約中予以保留。"
+        }
+      ]
+    },
+    {
+      "headword": "endorsement",
+      "partOfSpeech": "n.",
+      "definitionZh": "對合約或保單正式書面批准或追加的附加條款",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An endorsement extended the insurance coverage to include the new site.",
+          "translationZh": "一份批單將保險保障範圍延伸至新廠址。"
+        }
+      ]
+    },
+    {
+      "headword": "undertaking",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中正式承諾執行或不執行特定行為的義務",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The contractor gave an undertaking to complete the work by March.",
+          "translationZh": "承包商作出承諾將在三月前完工。"
+        }
+      ]
+    },
+    {
+      "headword": "counterparty",
+      "partOfSpeech": "n.",
+      "definitionZh": "金融或商務合約中的交易對手方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Credit risk arises if the counterparty fails to meet its obligations.",
+          "translationZh": "若交易對手方未能履行義務，則產生信用風險。"
+        }
+      ]
+    },
+    {
+      "headword": "obligor",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中負有履行義務的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The obligor must deliver the goods within the timeframe specified.",
+          "translationZh": "義務人必須在規定時限內交付貨物。"
+        }
+      ]
+    },
+    {
+      "headword": "obligee",
+      "partOfSpeech": "n.",
+      "definitionZh": "合約中有權要求他方履行義務的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The obligee may claim damages if the obligor breaches the contract.",
+          "translationZh": "若義務人違約，權利人可主張損害賠償。"
+        }
+      ]
+    },
+    {
+      "headword": "acceleration",
+      "partOfSpeech": "n.",
+      "definitionZh": "違約時要求立即清償全部未到期債務的條款",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Acceleration of the loan was triggered after three missed payments.",
+          "translationZh": "三次欠繳後觸發了貸款提前到期條款。"
+        }
+      ]
+    },
+    {
+      "headword": "arbitrator",
+      "partOfSpeech": "n.",
+      "definitionZh": "接受爭議各方委任主持仲裁並作出裁決的中立人",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The arbitrator's decision is final and binding on both parties.",
+          "translationZh": "仲裁人的裁決對雙方均具終局約束力。"
+        }
+      ]
+    },
+    {
+      "headword": "claimant",
+      "partOfSpeech": "n.",
+      "definitionZh": "在仲裁或訴訟中提出索賠的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The claimant must file its statement of claim within 30 days.",
+          "translationZh": "索賠方必須在30天內提交索賠陳述書。"
+        }
+      ]
+    },
+    {
+      "headword": "respondent",
+      "partOfSpeech": "n.",
+      "definitionZh": "在仲裁或其他正式程序中回應索賠的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The respondent denied liability and filed a counterclaim.",
+          "translationZh": "答辯方否認責任並提出反索賠。"
+        }
+      ]
+    },
+    {
+      "headword": "plaintiff",
+      "partOfSpeech": "n.",
+      "definitionZh": "在法院訴訟中提起訴訟的原告方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The plaintiff sought damages for breach of the service agreement.",
+          "translationZh": "原告就服務協議的違約尋求損害賠償。"
+        }
+      ]
+    },
+    {
+      "headword": "defendant",
+      "partOfSpeech": "n.",
+      "definitionZh": "在法院訴訟中被起訴的被告方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The defendant argued the contract was void due to misrepresentation.",
+          "translationZh": "被告主張因虛偽陳述合約應屬無效。"
+        }
+      ]
+    },
+    {
+      "headword": "affidavit",
+      "partOfSpeech": "n.",
+      "definitionZh": "在法律程序中提交的書面宣誓陳述書",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The director signed an affidavit confirming the terms were agreed.",
+          "translationZh": "董事簽署了宣誓書確認條款已獲同意。"
+        }
+      ]
+    },
+    {
+      "headword": "acknowledgment",
+      "partOfSpeech": "n.",
+      "definitionZh": "正式確認收到文件或同意特定事實的書面聲明",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An acknowledgment of receipt must be signed upon document delivery.",
+          "translationZh": "文件交付時須簽署收據確認書。"
+        }
+      ]
+    },
+    {
+      "headword": "notarize",
+      "partOfSpeech": "v.",
+      "definitionZh": "由公證人正式見證並認證文件以確認其真實性",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The power of attorney must be notarized before use overseas.",
+          "translationZh": "授權書在境外使用前必須經公證認證。"
+        }
+      ]
+    },
+    {
+      "headword": "compel",
+      "partOfSpeech": "v.",
+      "definitionZh": "透過法律手段強制要求某方採取或停止特定行為",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The court may compel arbitration if a valid clause exists.",
+          "translationZh": "若有有效的仲裁條款，法院可強制進行仲裁。"
+        }
+      ]
+    },
+    {
+      "headword": "enjoin",
+      "partOfSpeech": "v.",
+      "definitionZh": "法院透過命令要求某方執行或禁止特定行為",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The court enjoined the company from using the patented technology.",
+          "translationZh": "法院禁止該公司使用受專利保護的技術。"
+        }
+      ]
+    },
+    {
+      "headword": "indemnitor",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約承擔補償義務的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The indemnitor is required to cover all legal costs incurred.",
+          "translationZh": "補償人須承擔所有產生的法律費用。"
+        }
+      ]
+    },
+    {
+      "headword": "indemnitee",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約受到補償保護的一方",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The indemnitee must notify the indemnitor promptly upon any claim.",
+          "translationZh": "受補償方須在收到任何索賠後立即通知補償人。"
+        }
+      ]
+    },
+    {
+      "headword": "deposition",
+      "partOfSpeech": "n.",
+      "definitionZh": "在法庭外以書面記錄的宣誓證詞",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The witness gave a deposition before the arbitration hearing began.",
+          "translationZh": "證人在仲裁聽證會開始前提供了庭外宣誓陳述。"
+        }
+      ]
+    },
+    {
+      "headword": "recourse",
+      "partOfSpeech": "n.",
+      "definitionZh": "在對方違約時向其追索補償或救濟的法律途徑",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The buyer has full recourse against the seller for any defective goods.",
+          "translationZh": "買方就任何瑕疵商品享有向賣方追索的完整權利。"
+        }
+      ]
+    },
+    {
+      "headword": "encumber",
+      "partOfSpeech": "v.",
+      "definitionZh": "在財產上設定抵押或留置等法律負擔",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The owner may not encumber the asset without the lender's written consent.",
+          "translationZh": "業主未經貸款方書面同意不得對資產設定負擔。"
+        }
+      ]
+    },
+    {
+      "headword": "perfection",
+      "partOfSpeech": "n.",
+      "definitionZh": "使擔保利益取得對抗第三方法律效力的完善程序",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Perfection of the security interest requires filing with the registry.",
+          "translationZh": "完善擔保利益需向登記機構辦理登記。"
+        }
+      ]
+    },
+    {
+      "headword": "clawback",
+      "partOfSpeech": "n.",
+      "definitionZh": "依合約規定收回已支付款項或利益的機制",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bonus is subject to a three-year clawback if targets are not met.",
+          "translationZh": "若未達成目標，獎金須在三年內退還。"
+        }
+      ]
+    },
+    {
+      "headword": "unilateral",
+      "partOfSpeech": "adj.",
+      "definitionZh": "僅由合約一方單方面決定或採取的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Unilateral changes to the contract terms are not permitted.",
+          "translationZh": "不允許單方面更改合約條款。"
+        }
+      ]
+    },
+    {
+      "headword": "bilateral",
+      "partOfSpeech": "adj.",
+      "definitionZh": "由合約雙方相互同意且對雙方均具拘束力的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "This is a bilateral agreement creating obligations for both parties.",
+          "translationZh": "這是一份對雙方均產生義務的雙邊協議。"
+        }
+      ]
+    },
+    {
+      "headword": "executory",
+      "partOfSpeech": "adj.",
+      "definitionZh": "合約義務尚未完全履行、仍在執行中的",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An executory contract remains in force until all duties are performed.",
+          "translationZh": "待履行合約在所有義務完成前持續有效。"
+        }
+      ]
+    },
+    {
+      "headword": "remediation",
+      "partOfSpeech": "n.",
+      "definitionZh": "採取具體措施修補合約違規或交付缺陷",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The vendor must complete remediation of defects within 14 days.",
+          "translationZh": "供應商必須在14天內完成缺陷修補工作。"
+        }
+      ]
+    },
+    {
+      "headword": "solicitation",
+      "partOfSpeech": "n.",
+      "definitionZh": "向潛在供應商發出的正式投標或報價邀請",
+      "examTags": [
+        "TOEIC",
+        "contracts",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The solicitation required vendors to submit proposals by Friday.",
+          "translationZh": "招標文件要求供應商於週五前提交建議書。"
+        }
+      ]
     }
   ]
 }

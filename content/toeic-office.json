@@ -1788,6 +1788,406 @@
           "translationZh": "我們安排下週開個會吧。"
         }
       ]
+    },
+    {
+      "headword": "annotation",
+      "partOfSpeech": "n.",
+      "definitionZh": "加在文件或文字旁邊的補充說明或批注",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Add your annotations to the draft before the review meeting.",
+          "translationZh": "在審閱會議前在草稿上加入您的批注。"
+        }
+      ]
+    },
+    {
+      "headword": "confidential",
+      "partOfSpeech": "adj.",
+      "definitionZh": "屬機密性質、不得對外公開的",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Mark all client data as confidential before sharing internally.",
+          "translationZh": "在內部共享前，請將所有客戶資料標記為機密。"
+        }
+      ]
+    },
+    {
+      "headword": "diligent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "工作勤奮認真、持之以恆且不懈怠的",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A diligent employee always meets deadlines without reminders.",
+          "translationZh": "勤奮的員工總能在無人提醒的情況下按時完成任務。"
+        }
+      ]
+    },
+    {
+      "headword": "ergonomic",
+      "partOfSpeech": "adj.",
+      "definitionZh": "符合人體工學設計、可減輕身體負擔的",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ergonomic chairs were installed to reduce back pain complaints.",
+          "translationZh": "辦公室安裝了人體工學椅以減少背痛問題。"
+        }
+      ]
+    },
+    {
+      "headword": "meticulous",
+      "partOfSpeech": "adj.",
+      "definitionZh": "極度注重細節、一絲不苟且精確的",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Her meticulous review caught errors others had missed entirely.",
+          "translationZh": "她一絲不苟的審閱發現了其他人遺漏的錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "partition",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "用以分隔辦公空間的隔板；將空間加以分隔",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Install a partition to create a private meeting area by the window.",
+          "translationZh": "在窗邊安裝隔板以打造私密的會議區域。"
+        }
+      ]
+    },
+    {
+      "headword": "petition",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "向有決策權者提出的正式書面請願",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Staff submitted a petition requesting more flexible working hours.",
+          "translationZh": "員工提交了請願書，要求更彈性的上班時間。"
+        }
+      ]
+    },
+    {
+      "headword": "procure",
+      "partOfSpeech": "v.",
+      "definitionZh": "依照正式採購程序取得所需物品或服務",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company will procure new office furniture through a tender.",
+          "translationZh": "公司將透過招標方式採購新辦公傢俱。"
+        }
+      ]
+    },
+    {
+      "headword": "proficient",
+      "partOfSpeech": "adj.",
+      "definitionZh": "在特定技能或工作上具備高度能力且熟練的",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Candidates must be proficient in at least two office software suites.",
+          "translationZh": "應徵者必須精通至少兩種辦公室軟體套件。"
+        }
+      ]
+    },
+    {
+      "headword": "redact",
+      "partOfSpeech": "v.",
+      "definitionZh": "在公開文件前將機密或敏感資訊遮蔽刪除",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Legal must redact personal data before the report is published.",
+          "translationZh": "法務部門必須在報告發布前刪除個人資料。"
+        }
+      ]
+    },
+    {
+      "headword": "requisition",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "正式申請採購物品或服務的內部請購單",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Submit a requisition form for any equipment costing over $200.",
+          "translationZh": "凡超過200美元的設備，請填寫採購申請單。"
+        }
+      ]
+    },
+    {
+      "headword": "dossier",
+      "partOfSpeech": "n.",
+      "definitionZh": "收集關於特定人物或議題的完整背景資料檔案",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Prepare a dossier on the potential client before the meeting.",
+          "translationZh": "在會面前準備一份有關潛在客戶的完整資料檔案。"
+        }
+      ]
+    },
+    {
+      "headword": "enclosure",
+      "partOfSpeech": "n.",
+      "definitionZh": "隨信件或正式郵件一併附上的其他文件",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please find the signed contract as an enclosure with this letter.",
+          "translationZh": "請查收隨函附上的已簽署合約。"
+        }
+      ]
+    },
+    {
+      "headword": "declassify",
+      "partOfSpeech": "v.",
+      "definitionZh": "解除文件的機密級別使其可對外公開存取",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The legal team will declassify the report after the merger closes.",
+          "translationZh": "合併完成後，法務團隊將解除報告的機密級別。"
+        }
+      ]
+    },
+    {
+      "headword": "workstation",
+      "partOfSpeech": "n.",
+      "definitionZh": "員工專用的電腦桌及周邊設備組成的辦公工作區",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each workstation is equipped with dual monitors and a headset.",
+          "translationZh": "每個工作站都配備了雙顯示器和耳機。"
+        }
+      ]
+    },
+    {
+      "headword": "nondisclosure",
+      "partOfSpeech": "n.",
+      "definitionZh": "禁止透露機密資訊的保密義務或合約約束",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "All vendors must sign a nondisclosure agreement before onboarding.",
+          "translationZh": "所有廠商在入職前必須簽署保密協議。"
+        }
+      ]
+    },
+    {
+      "headword": "feasibility",
+      "partOfSpeech": "n.",
+      "definitionZh": "評估某計畫或提案在現實條件下能否執行的可行性",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Conduct a feasibility study before committing to the new branch.",
+          "translationZh": "在決定開設新分支機構前先進行可行性研究。"
+        }
+      ]
+    },
+    {
+      "headword": "expenditure",
+      "partOfSpeech": "n.",
+      "definitionZh": "為特定目的花費的金額；支出總額",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Monthly expenditure must not exceed the approved department budget.",
+          "translationZh": "每月支出不得超過核准的部門預算。"
+        }
+      ]
+    },
+    {
+      "headword": "rectify",
+      "partOfSpeech": "v.",
+      "definitionZh": "糾正文件、帳目或程序中出現的錯誤",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please rectify the billing error before the next invoice cycle.",
+          "translationZh": "請在下一個發票周期前更正帳單錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "authenticate",
+      "partOfSpeech": "v.",
+      "definitionZh": "確認文件或身份的真實性與合法有效性",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Use your company badge to authenticate your system login.",
+          "translationZh": "請使用公司識別證驗證您的系統登入。"
+        }
+      ]
+    },
+    {
+      "headword": "clarification",
+      "partOfSpeech": "n.",
+      "definitionZh": "消除模糊或誤解所提供的進一步解釋說明",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We sent a clarification memo to address the staff's concerns.",
+          "translationZh": "我們發出了一份說明備忘錄以回應員工的疑慮。"
+        }
+      ]
+    },
+    {
+      "headword": "revocation",
+      "partOfSpeech": "n.",
+      "definitionZh": "正式撤銷先前已授予的許可、授權或資格",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The revocation of access rights took effect upon resignation.",
+          "translationZh": "存取權限的撤銷在離職後立即生效。"
+        }
+      ]
+    },
+    {
+      "headword": "memorialize",
+      "partOfSpeech": "v.",
+      "definitionZh": "以正式書面記錄留存某一決議、協議或事件",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please memorialize the meeting outcome in a written agreement.",
+          "translationZh": "請以書面協議正式記錄會議結果。"
+        }
+      ]
+    },
+    {
+      "headword": "correspondence",
+      "partOfSpeech": "n.",
+      "definitionZh": "透過書信或電子郵件進行的正式書面往來",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "All correspondence with regulators must go through legal review.",
+          "translationZh": "所有與監管機構的往來文件必須經過法律審查。"
+        }
+      ]
+    },
+    {
+      "headword": "transmittal",
+      "partOfSpeech": "n.",
+      "definitionZh": "隨文件或資料一同附上的正式說明性寄送通知函",
+      "examTags": [
+        "TOEIC",
+        "office",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Include a transmittal letter when sending the final drawings.",
+          "translationZh": "寄送最終圖面時請附上移交通知函。"
+        }
+      ]
     }
   ]
 }
