@@ -1,6 +1,7 @@
 import { describe, it, expect, vi } from 'vitest'
 import { rankFromCountAbove, displayNameOf } from '@/lib/leaderboard/rank'
 import { LeaderboardService } from '@/lib/leaderboard/service'
+import { LeaderboardRepository } from '@/lib/leaderboard/repository'
 
 describe('rank helpers', () => {
   it('rank = countAbove + 1', () => { expect(rankFromCountAbove(0)).toBe(1); expect(rankFromCountAbove(7)).toBe(8) })
@@ -52,5 +53,30 @@ describe('getBoard weekly', () => {
     const b = await svc.getBoard('me', 'weekly', now, 'Asia/Taipei')
     expect(r.countAboveWeekly).toHaveBeenCalledWith(0, '2026-06-29') // stale week → 0
     expect(b.myRank).toBe(4)
+  })
+})
+
+describe('getStanding', () => {
+  it('returns optedIn:true when user opted in but has no GamificationState row', async () => {
+    const mockDb = {
+      gamificationState: { findUnique: vi.fn().mockResolvedValue(null) },
+      user: { findUnique: vi.fn().mockResolvedValue({ leaderboardOptIn: true }) },
+    }
+    const repository = new LeaderboardRepository(mockDb as any)
+    const result = await repository.getStanding('me')
+    expect(result).toEqual({ xp: 0, weeklyXp: 0, weekStartDate: null, optedIn: true })
+    expect(mockDb.user.findUnique).toHaveBeenCalledWith({ where: { id: 'me' }, select: { leaderboardOptIn: true } })
+  })
+
+  it('returns values from GamificationState row when it exists, without calling user.findUnique', async () => {
+    const stateRow = { xp: 100, weeklyXp: 50, weekStartDate: '2026-06-29', user: { leaderboardOptIn: true } }
+    const mockDb = {
+      gamificationState: { findUnique: vi.fn().mockResolvedValue(stateRow) },
+      user: { findUnique: vi.fn() },
+    }
+    const repository = new LeaderboardRepository(mockDb as any)
+    const result = await repository.getStanding('me')
+    expect(result).toEqual({ xp: 100, weeklyXp: 50, weekStartDate: '2026-06-29', optedIn: true })
+    expect(mockDb.user.findUnique).not.toHaveBeenCalled()
   })
 })

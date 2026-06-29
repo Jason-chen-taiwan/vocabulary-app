@@ -6,6 +6,9 @@ interface LbDb {
     count(args: unknown): Promise<number>
     findUnique(args: unknown): Promise<unknown | null>
   }
+  user: {
+    findUnique(args: unknown): Promise<unknown | null>
+  }
 }
 
 type Row = { userId: string; user: { displayName: string | null; name: string | null } }
@@ -40,7 +43,13 @@ export class LeaderboardRepository {
       where: { userId },
       select: { xp: true, weeklyXp: true, weekStartDate: true, user: { select: { leaderboardOptIn: true } } },
     })) as { xp: number; weeklyXp: number; weekStartDate: string | null; user: { leaderboardOptIn: boolean } } | null
-    if (!row) return { xp: 0, weeklyXp: 0, weekStartDate: null, optedIn: false }
+    if (!row) {
+      const u = (await this.db.user.findUnique({
+        where: { id: userId },
+        select: { leaderboardOptIn: true },
+      })) as { leaderboardOptIn: boolean } | null
+      return { xp: 0, weeklyXp: 0, weekStartDate: null, optedIn: u?.leaderboardOptIn ?? false }
+    }
     return { xp: row.xp, weeklyXp: row.weeklyXp, weekStartDate: row.weekStartDate, optedIn: row.user.leaderboardOptIn }
   }
 }
