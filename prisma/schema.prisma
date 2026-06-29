@@ -14,6 +14,8 @@ model User {
   tier          String    @default("free")
   timezone      String    @default("Asia/Taipei")
   dailyGoal     Int       @default(20)
+  displayName      String?
+  leaderboardOptIn Boolean  @default(false)
   emailVerified DateTime?
   accounts      Account[]
   sessions      Session[]
@@ -155,6 +157,8 @@ model GamificationState {
   reviewsToday   Int         @default(0)
   lastReviewDate String?
   streakFreezes  Int         @default(0)
+  weeklyXp       Int      @default(0)
+  weekStartDate  String?
   user           User        @relation(fields: [userId], references: [id], onDelete: Cascade)
   badges         UserBadge[]
   createdAt      DateTime    @default(now())
