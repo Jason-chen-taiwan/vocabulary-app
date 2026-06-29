@@ -1533,6 +1533,36 @@
           "translationZh": "依照到岸價條款，賣方負擔運費與保險費。"
         }
       ]
+    },
+    {
+      "headword": "shipment",
+      "partOfSpeech": "n.",
+      "definitionZh": "裝運，運送的貨物",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "The shipment will arrive on Monday morning.",
+          "translationZh": "這批貨將在週一早上抵達。"
+        }
+      ]
+    },
+    {
+      "headword": "vendor",
+      "partOfSpeech": "n.",
+      "definitionZh": "供應商，賣方",
+      "examTags": [
+        "TOEIC",
+        "logistics"
+      ],
+      "examples": [
+        {
+          "sentence": "We signed a contract with a new vendor.",
+          "translationZh": "我們和一家新供應商簽了合約。"
+        }
+      ]
     }
   ]
 }

@@ -1518,6 +1518,21 @@
           "translationZh": "我們的高端品牌市場定位幫助我們維持了較高的售價。"
         }
       ]
+    },
+    {
+      "headword": "client",
+      "partOfSpeech": "n.",
+      "definitionZh": "客戶",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our client requested a full refund.",
+          "translationZh": "我們的客戶要求全額退款。"
+        }
+      ]
     }
   ]
 }

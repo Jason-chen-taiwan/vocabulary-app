@@ -8,945 +8,1590 @@
       "headword": "recruit",
       "partOfSpeech": "v.",
       "definitionZh": "招募，尋找並吸引人才加入組織",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "We plan to recruit twenty new engineers this quarter.", "translationZh": "我們計劃本季招募二十名新工程師。"}
+        {
+          "sentence": "We plan to recruit twenty new engineers this quarter.",
+          "translationZh": "我們計劃本季招募二十名新工程師。"
+        }
       ]
     },
     {
       "headword": "hire",
       "partOfSpeech": "v.",
       "definitionZh": "正式聘用某人，完成雇用程序",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The company decided to hire an experienced project manager.", "translationZh": "公司決定聘用一位有經驗的專案經理。"}
+        {
+          "sentence": "The company decided to hire an experienced project manager.",
+          "translationZh": "公司決定聘用一位有經驗的專案經理。"
+        }
       ]
     },
     {
       "headword": "applicant",
       "partOfSpeech": "n.",
       "definitionZh": "應徵者，已正式遞交求職申請的人",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Over 200 applicants submitted resumes for the position.", "translationZh": "超過兩百名應徵者遞交了履歷。"}
+        {
+          "sentence": "Over 200 applicants submitted resumes for the position.",
+          "translationZh": "超過兩百名應徵者遞交了履歷。"
+        }
       ]
     },
     {
       "headword": "candidate",
       "partOfSpeech": "n.",
       "definitionZh": "候選人，經篩選進入評估階段的應徵者",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Three candidates were invited for a final interview.", "translationZh": "三位候選人受邀參加最終面試。"}
+        {
+          "sentence": "Three candidates were invited for a final interview.",
+          "translationZh": "三位候選人受邀參加最終面試。"
+        }
       ]
     },
     {
       "headword": "resume",
       "partOfSpeech": "n.",
       "definitionZh": "履歷表，列出個人學歷與工作經歷的文件",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Please send your resume to the HR department by Friday.", "translationZh": "請在週五前將履歷寄送至人資部。"}
+        {
+          "sentence": "Please send your resume to the HR department by Friday.",
+          "translationZh": "請在週五前將履歷寄送至人資部。"
+        }
       ]
     },
     {
       "headword": "cover",
       "partOfSpeech": "n.",
       "definitionZh": "求職信（cover letter），說明應徵動機的附函",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "A strong cover letter helps you stand out from applicants.", "translationZh": "一封有力的求職信能讓你從眾多應徵者中脫穎而出。"}
+        {
+          "sentence": "A strong cover letter helps you stand out from applicants.",
+          "translationZh": "一封有力的求職信能讓你從眾多應徵者中脫穎而出。"
+        }
       ]
     },
     {
       "headword": "interview",
       "partOfSpeech": "n.",
       "definitionZh": "面試，雇主與求職者進行的正式評估談話",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Her interview is scheduled for Monday morning at 9 a.m.", "translationZh": "她的面試安排在週一早上九點。"}
+        {
+          "sentence": "Her interview is scheduled for Monday morning at 9 a.m.",
+          "translationZh": "她的面試安排在週一早上九點。"
+        }
       ]
     },
     {
       "headword": "screening",
       "partOfSpeech": "n.",
       "definitionZh": "初步審查，過濾不符合資格應徵者的程序",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Phone screening helps narrow down candidates efficiently.", "translationZh": "電話初審有助於有效縮小候選人範圍。"}
+        {
+          "sentence": "Phone screening helps narrow down candidates efficiently.",
+          "translationZh": "電話初審有助於有效縮小候選人範圍。"
+        }
       ]
     },
     {
       "headword": "shortlist",
       "partOfSpeech": "v.",
       "definitionZh": "列入最終候選名單，從眾多應徵者中選出少數人",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "We shortlisted five candidates for the second round.", "translationZh": "我們將五位候選人列入第二輪名單。"}
+        {
+          "sentence": "We shortlisted five candidates for the second round.",
+          "translationZh": "我們將五位候選人列入第二輪名單。"
+        }
       ]
     },
     {
       "headword": "reference",
       "partOfSpeech": "n.",
       "definitionZh": "推薦人，能為求職者工作能力作證的前雇主或同事",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Please provide two professional references with your application.", "translationZh": "請在申請時提供兩位專業推薦人。"}
+        {
+          "sentence": "Please provide two professional references with your application.",
+          "translationZh": "請在申請時提供兩位專業推薦人。"
+        }
       ]
     },
     {
       "headword": "background",
       "partOfSpeech": "n.",
       "definitionZh": "背景調查，核實求職者個人資料與過往紀錄",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "A background check is required for all new hires.", "translationZh": "所有新進員工均須接受背景調查。"}
+        {
+          "sentence": "A background check is required for all new hires.",
+          "translationZh": "所有新進員工均須接受背景調查。"
+        }
       ]
     },
     {
       "headword": "onboard",
       "partOfSpeech": "v.",
       "definitionZh": "辦理入職，協助新員工融入公司環境的流程",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "HR will onboard new staff during the first week.", "translationZh": "人資部將在第一週為新員工辦理入職手續。"}
+        {
+          "sentence": "HR will onboard new staff during the first week.",
+          "translationZh": "人資部將在第一週為新員工辦理入職手續。"
+        }
       ]
     },
     {
       "headword": "probation",
       "partOfSpeech": "n.",
       "definitionZh": "試用期，新員工受觀察評估的初期雇用階段",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Employees on probation are reviewed after three months.", "translationZh": "試用期員工在三個月後接受評估。"}
+        {
+          "sentence": "Employees on probation are reviewed after three months.",
+          "translationZh": "試用期員工在三個月後接受評估。"
+        }
       ]
     },
     {
       "headword": "permanent",
       "partOfSpeech": "adj.",
       "definitionZh": "正式的，無固定終止期限的長期雇用",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She was offered a permanent position after her probation.", "translationZh": "她在試用期結束後獲得了正式職位。"}
+        {
+          "sentence": "She was offered a permanent position after her probation.",
+          "translationZh": "她在試用期結束後獲得了正式職位。"
+        }
       ]
     },
     {
       "headword": "temporary",
       "partOfSpeech": "adj.",
       "definitionZh": "臨時的，具有固定期限的短期雇用",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "We hired temporary staff to handle the holiday rush.", "translationZh": "我們聘用臨時人員因應假日業務高峰。"}
+        {
+          "sentence": "We hired temporary staff to handle the holiday rush.",
+          "translationZh": "我們聘用臨時人員因應假日業務高峰。"
+        }
       ]
     },
     {
       "headword": "freelance",
       "partOfSpeech": "adj.",
       "definitionZh": "自由接案的，不受固定雇主約束的工作型態",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The company hired a freelance designer for the campaign.", "translationZh": "公司為此次活動聘用了自由設計師。"}
+        {
+          "sentence": "The company hired a freelance designer for the campaign.",
+          "translationZh": "公司為此次活動聘用了自由設計師。"
+        }
       ]
     },
     {
       "headword": "consultant",
       "partOfSpeech": "n.",
       "definitionZh": "顧問，受委任提供特定領域專業建議的外部人士",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "An HR consultant was brought in to revise the pay structure.", "translationZh": "公司聘請了人資顧問來修訂薪資結構。"}
+        {
+          "sentence": "An HR consultant was brought in to revise the pay structure.",
+          "translationZh": "公司聘請了人資顧問來修訂薪資結構。"
+        }
       ]
     },
     {
       "headword": "position",
       "partOfSpeech": "n.",
       "definitionZh": "職位，在組織中的工作職銜與職責範圍",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She applied for the position of marketing coordinator.", "translationZh": "她應徵了行銷協調員一職。"}
+        {
+          "sentence": "She applied for the position of marketing coordinator.",
+          "translationZh": "她應徵了行銷協調員一職。"
+        }
       ]
     },
     {
       "headword": "vacancy",
       "partOfSpeech": "n.",
       "definitionZh": "職缺，尚未填補的空缺工作崗位",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "There are two vacancies in the finance department.", "translationZh": "財務部目前有兩個職缺。"}
+        {
+          "sentence": "There are two vacancies in the finance department.",
+          "translationZh": "財務部目前有兩個職缺。"
+        }
       ]
     },
     {
       "headword": "opening",
       "partOfSpeech": "n.",
       "definitionZh": "職位空缺，組織新開放供人應徵的工作機會",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "We have an opening for a senior sales manager.", "translationZh": "我們有一個資深業務經理的職位正在招募。"}
+        {
+          "sentence": "We have an opening for a senior sales manager.",
+          "translationZh": "我們有一個資深業務經理的職位正在招募。"
+        }
       ]
     },
     {
       "headword": "posting",
       "partOfSpeech": "n.",
       "definitionZh": "職缺公告，在求職平台或布告欄發布的招募訊息",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The job posting attracted over three hundred applications.", "translationZh": "這則職缺公告吸引了超過三百份應徵。"}
+        {
+          "sentence": "The job posting attracted over three hundred applications.",
+          "translationZh": "這則職缺公告吸引了超過三百份應徵。"
+        }
       ]
     },
     {
       "headword": "description",
       "partOfSpeech": "n.",
       "definitionZh": "職務說明書，詳列工作內容與責任範圍的文件",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Read the job description carefully before you apply.", "translationZh": "應徵前請仔細閱讀職務說明書。"}
+        {
+          "sentence": "Read the job description carefully before you apply.",
+          "translationZh": "應徵前請仔細閱讀職務說明書。"
+        }
       ]
     },
     {
       "headword": "qualification",
       "partOfSpeech": "n.",
       "definitionZh": "資格條件，擔任職位應具備的學歷或證照",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "A degree in accounting is a key qualification for this role.", "translationZh": "會計學位是此職位的重要資格條件。"}
+        {
+          "sentence": "A degree in accounting is a key qualification for this role.",
+          "translationZh": "會計學位是此職位的重要資格條件。"
+        }
       ]
     },
     {
       "headword": "requirement",
       "partOfSpeech": "n.",
       "definitionZh": "必備條件，應徵者必須符合的基本門檻",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Fluent English is a strict requirement for this position.", "translationZh": "流利英語是此職位的嚴格要求。"}
+        {
+          "sentence": "Fluent English is a strict requirement for this position.",
+          "translationZh": "流利英語是此職位的嚴格要求。"
+        }
       ]
     },
     {
       "headword": "experience",
       "partOfSpeech": "n.",
       "definitionZh": "工作經驗，曾從事相關職務所累積的實務資歷",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Candidates need at least five years of relevant experience.", "translationZh": "應徵者需具備至少五年相關工作經驗。"}
+        {
+          "sentence": "Candidates need at least five years of relevant experience.",
+          "translationZh": "應徵者需具備至少五年相關工作經驗。"
+        }
       ]
     },
     {
       "headword": "skill",
       "partOfSpeech": "n.",
       "definitionZh": "技能，透過學習或練習習得的特定操作能力",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Strong analytical skill is essential for this data role.", "translationZh": "強大的分析技能對此資料職位至關重要。"}
+        {
+          "sentence": "Strong analytical skill is essential for this data role.",
+          "translationZh": "強大的分析技能對此資料職位至關重要。"
+        }
       ]
     },
     {
       "headword": "competency",
       "partOfSpeech": "n.",
       "definitionZh": "職能，用於績效評估框架的可衡量行為能力指標",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Leadership is a core competency for all managerial roles.", "translationZh": "領導力是所有管理職位的核心職能。"}
+        {
+          "sentence": "Leadership is a core competency for all managerial roles.",
+          "translationZh": "領導力是所有管理職位的核心職能。"
+        }
       ]
     },
     {
       "headword": "performance",
       "partOfSpeech": "n.",
       "definitionZh": "績效，員工達成工作目標的整體成果表現",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Her performance this quarter exceeded all expectations.", "translationZh": "她本季的績效超越了所有期望。"}
+        {
+          "sentence": "Her performance this quarter exceeded all expectations.",
+          "translationZh": "她本季的績效超越了所有期望。"
+        }
       ]
     },
     {
       "headword": "appraisal",
       "partOfSpeech": "n.",
       "definitionZh": "績效考核，由主管主持的正式年度員工評估",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Annual appraisals are conducted every December.", "translationZh": "年度績效考核每年十二月舉行。"}
+        {
+          "sentence": "Annual appraisals are conducted every December.",
+          "translationZh": "年度績效考核每年十二月舉行。"
+        }
       ]
     },
     {
       "headword": "evaluation",
       "partOfSpeech": "n.",
       "definitionZh": "評估，對員工能力或計畫成效的綜合判斷",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The mid-year evaluation helped identify training needs.", "translationZh": "年中評估有助於找出培訓需求。"}
+        {
+          "sentence": "The mid-year evaluation helped identify training needs.",
+          "translationZh": "年中評估有助於找出培訓需求。"
+        }
       ]
     },
     {
       "headword": "rating",
       "partOfSpeech": "n.",
       "definitionZh": "評分，考核後給予員工的數字或等第成績",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "He received the highest rating in the department.", "translationZh": "他在部門中獲得了最高評分。"}
+        {
+          "sentence": "He received the highest rating in the department.",
+          "translationZh": "他在部門中獲得了最高評分。"
+        }
       ]
     },
     {
       "headword": "feedback",
       "partOfSpeech": "n.",
       "definitionZh": "回饋，對工作表現提出的具體意見或建議",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Regular feedback helps employees improve their work.", "translationZh": "定期回饋有助於員工改善工作表現。"}
+        {
+          "sentence": "Regular feedback helps employees improve their work.",
+          "translationZh": "定期回饋有助於員工改善工作表現。"
+        }
       ]
     },
     {
       "headword": "promotion",
       "partOfSpeech": "n.",
       "definitionZh": "晉升，員工職位或薪資等級向上提升",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She earned a promotion after two years of strong results.", "translationZh": "她憑藉兩年的優秀成果獲得晉升。"}
+        {
+          "sentence": "She earned a promotion after two years of strong results.",
+          "translationZh": "她憑藉兩年的優秀成果獲得晉升。"
+        }
       ]
     },
     {
       "headword": "demotion",
       "partOfSpeech": "n.",
       "definitionZh": "降職，因績效不佳或違規而被調至較低職位",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The manager faced demotion due to repeated policy violations.", "translationZh": "該主管因多次違反政策而遭到降職。"}
+        {
+          "sentence": "The manager faced demotion due to repeated policy violations.",
+          "translationZh": "該主管因多次違反政策而遭到降職。"
+        }
       ]
     },
     {
       "headword": "transfer",
       "partOfSpeech": "n.",
       "definitionZh": "調職，將員工移至同公司的不同部門或崗位",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "He requested a transfer to the overseas branch.", "translationZh": "他申請調職至海外分公司。"}
+        {
+          "sentence": "He requested a transfer to the overseas branch.",
+          "translationZh": "他申請調職至海外分公司。"
+        }
       ]
     },
     {
       "headword": "relocation",
       "partOfSpeech": "n.",
       "definitionZh": "遷調，因工作需要搬遷至另一城市或國家",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The company offered a relocation package to the new hire.", "translationZh": "公司提供了搬遷補貼給新進員工。"}
+        {
+          "sentence": "The company offered a relocation package to the new hire.",
+          "translationZh": "公司提供了搬遷補貼給新進員工。"
+        }
       ]
     },
     {
       "headword": "resignation",
       "partOfSpeech": "n.",
       "definitionZh": "辭職，員工主動提出終止雇用關係的行為",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Please submit your resignation letter two weeks in advance.", "translationZh": "請提前兩週遞交辭職信。"}
+        {
+          "sentence": "Please submit your resignation letter two weeks in advance.",
+          "translationZh": "請提前兩週遞交辭職信。"
+        }
       ]
     },
     {
       "headword": "termination",
       "partOfSpeech": "n.",
       "definitionZh": "終止雇用，雇用關係依程序正式結束",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Termination of employment requires written notice.", "translationZh": "終止雇用關係須以書面通知為準。"}
+        {
+          "sentence": "Termination of employment requires written notice.",
+          "translationZh": "終止雇用關係須以書面通知為準。"
+        }
       ]
     },
     {
       "headword": "dismissal",
       "partOfSpeech": "n.",
       "definitionZh": "解雇，因嚴重違規或失職而強制終止雇用",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "His dismissal was upheld after a formal disciplinary hearing.", "translationZh": "他的解雇在正式紀律聽證後獲得維持。"}
+        {
+          "sentence": "His dismissal was upheld after a formal disciplinary hearing.",
+          "translationZh": "他的解雇在正式紀律聽證後獲得維持。"
+        }
       ]
     },
     {
       "headword": "layoff",
       "partOfSpeech": "n.",
       "definitionZh": "裁員，因業務縮減或重組而資遣員工",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The layoffs affected nearly a hundred workers.", "translationZh": "此次裁員影響了近百名員工。"}
+        {
+          "sentence": "The layoffs affected nearly a hundred workers.",
+          "translationZh": "此次裁員影響了近百名員工。"
+        }
       ]
     },
     {
       "headword": "redundancy",
       "partOfSpeech": "n.",
       "definitionZh": "冗員，因職位被取消而使員工被迫離職的狀況",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Staff facing redundancy will receive a compensation package.", "translationZh": "面臨冗員裁撤的員工將獲得離職補償方案。"}
+        {
+          "sentence": "Staff facing redundancy will receive a compensation package.",
+          "translationZh": "面臨冗員裁撤的員工將獲得離職補償方案。"
+        }
       ]
     },
     {
       "headword": "severance",
       "partOfSpeech": "n.",
       "definitionZh": "資遣費，員工離職時依規定獲得的補償金",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The severance package included three months of salary.", "translationZh": "資遣方案包含三個月的薪資補償。"}
+        {
+          "sentence": "The severance package included three months of salary.",
+          "translationZh": "資遣方案包含三個月的薪資補償。"
+        }
       ]
     },
     {
       "headword": "salary",
       "partOfSpeech": "n.",
       "definitionZh": "薪資，以月或年為單位的固定工作報酬",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Her salary was increased by 10% after the annual review.", "translationZh": "年度考核後她的薪資調漲了百分之十。"}
+        {
+          "sentence": "Her salary was increased by 10% after the annual review.",
+          "translationZh": "年度考核後她的薪資調漲了百分之十。"
+        }
       ]
     },
     {
       "headword": "wage",
       "partOfSpeech": "n.",
       "definitionZh": "工資，以工作時數計算的勞動報酬",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The minimum wage was raised effective next month.", "translationZh": "最低工資自下個月起調漲。"}
+        {
+          "sentence": "The minimum wage was raised effective next month.",
+          "translationZh": "最低工資自下個月起調漲。"
+        }
       ]
     },
     {
       "headword": "compensation",
       "partOfSpeech": "n.",
       "definitionZh": "薪酬總額，包含薪資與各項福利的整體待遇方案",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Total compensation includes salary, bonus, and benefits.", "translationZh": "整體薪酬包含薪資、獎金與福利。"}
+        {
+          "sentence": "Total compensation includes salary, bonus, and benefits.",
+          "translationZh": "整體薪酬包含薪資、獎金與福利。"
+        }
       ]
     },
     {
       "headword": "benefit",
       "partOfSpeech": "n.",
       "definitionZh": "員工福利，如保險、退休金等薪資以外的非現金報酬",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Health insurance is one of the most valued employee benefits.", "translationZh": "健康保險是最受重視的員工福利之一。"}
+        {
+          "sentence": "Health insurance is one of the most valued employee benefits.",
+          "translationZh": "健康保險是最受重視的員工福利之一。"
+        }
       ]
     },
     {
       "headword": "bonus",
       "partOfSpeech": "n.",
       "definitionZh": "獎金，薪資之外額外給付的一次性報酬",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Employees who hit targets receive a quarterly bonus.", "translationZh": "達成目標的員工將獲得季度獎金。"}
+        {
+          "sentence": "Employees who hit targets receive a quarterly bonus.",
+          "translationZh": "達成目標的員工將獲得季度獎金。"
+        }
       ]
     },
     {
       "headword": "incentive",
       "partOfSpeech": "n.",
       "definitionZh": "激勵方案，為促使員工達成特定目標而設計的獎勵",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Sales incentives motivate the team to exceed targets.", "translationZh": "業績激勵方案鼓勵團隊超越目標。"}
+        {
+          "sentence": "Sales incentives motivate the team to exceed targets.",
+          "translationZh": "業績激勵方案鼓勵團隊超越目標。"
+        }
       ]
     },
     {
       "headword": "allowance",
       "partOfSpeech": "n.",
       "definitionZh": "津貼，補貼員工特定支出的額外費用",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Employees receive a daily meal allowance during business trips.", "translationZh": "員工在出差期間享有每日餐費津貼。"}
+        {
+          "sentence": "Employees receive a daily meal allowance during business trips.",
+          "translationZh": "員工在出差期間享有每日餐費津貼。"
+        }
       ]
     },
     {
       "headword": "pension",
       "partOfSpeech": "n.",
       "definitionZh": "退休金，員工退休後定期領取的生活保障給付",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The company contributes to employees' pension funds monthly.", "translationZh": "公司每月為員工的退休金基金提撥款項。"}
+        {
+          "sentence": "The company contributes to employees' pension funds monthly.",
+          "translationZh": "公司每月為員工的退休金基金提撥款項。"
+        }
       ]
     },
     {
       "headword": "retirement",
       "partOfSpeech": "n.",
       "definitionZh": "退休，員工正式結束職業生涯的人生階段",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She planned her retirement after thirty years of service.", "translationZh": "她在服務三十年後規劃退休。"}
+        {
+          "sentence": "She planned her retirement after thirty years of service.",
+          "translationZh": "她在服務三十年後規劃退休。"
+        }
       ]
     },
     {
       "headword": "insurance",
       "partOfSpeech": "n.",
       "definitionZh": "保險，雇主為員工提供的醫療或意外保障",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "All full-time staff are covered by group insurance.", "translationZh": "所有全職員工均納入團體保險。"}
+        {
+          "sentence": "All full-time staff are covered by group insurance.",
+          "translationZh": "所有全職員工均納入團體保險。"
+        }
       ]
     },
     {
       "headword": "leave",
       "partOfSpeech": "n.",
       "definitionZh": "假期，經正式核准的請假（各類假別的統稱）",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She applied for two weeks of leave before the project ended.", "translationZh": "她在專案結束前申請了兩週假期。"}
+        {
+          "sentence": "She applied for two weeks of leave before the project ended.",
+          "translationZh": "她在專案結束前申請了兩週假期。"
+        }
       ]
     },
     {
       "headword": "vacation",
       "partOfSpeech": "n.",
       "definitionZh": "年假，員工每年依規定可使用的帶薪休假",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Full-time employees earn fifteen vacation days per year.", "translationZh": "全職員工每年可享十五天年假。"}
+        {
+          "sentence": "Full-time employees earn fifteen vacation days per year.",
+          "translationZh": "全職員工每年可享十五天年假。"
+        }
       ]
     },
     {
       "headword": "sick",
       "partOfSpeech": "adj.",
       "definitionZh": "病假的，因疾病或傷病所適用的假別屬性",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Employees may take up to ten sick days annually.", "translationZh": "員工每年最多可請十天病假。"}
+        {
+          "sentence": "Employees may take up to ten sick days annually.",
+          "translationZh": "員工每年最多可請十天病假。"
+        }
       ]
     },
     {
       "headword": "maternity",
       "partOfSpeech": "adj.",
       "definitionZh": "產假的，為新生兒母親設立的生育相關假別",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She took three months of maternity leave after delivery.", "translationZh": "她在生產後請了三個月產假。"}
+        {
+          "sentence": "She took three months of maternity leave after delivery.",
+          "translationZh": "她在生產後請了三個月產假。"
+        }
       ]
     },
     {
       "headword": "paternity",
       "partOfSpeech": "adj.",
       "definitionZh": "陪產假的，為新生兒父親設立的短期育兒假別",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The new policy extends paternity leave to ten days.", "translationZh": "新政策將陪產假延長至十天。"}
+        {
+          "sentence": "The new policy extends paternity leave to ten days.",
+          "translationZh": "新政策將陪產假延長至十天。"
+        }
       ]
     },
     {
       "headword": "unpaid",
       "partOfSpeech": "adj.",
       "definitionZh": "無薪的，請假期間不支付薪資的假別性質",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "He took unpaid leave to care for his aging parents.", "translationZh": "他請了無薪假以照顧年邁的父母。"}
+        {
+          "sentence": "He took unpaid leave to care for his aging parents.",
+          "translationZh": "他請了無薪假以照顧年邁的父母。"
+        }
       ]
     },
     {
       "headword": "overtime",
       "partOfSpeech": "n.",
       "definitionZh": "加班，超出正常工時所進行的額外工作",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Overtime is paid at one and a half times the regular rate.", "translationZh": "加班費按正常時薪的一點五倍計算。"}
+        {
+          "sentence": "Overtime is paid at one and a half times the regular rate.",
+          "translationZh": "加班費按正常時薪的一點五倍計算。"
+        }
       ]
     },
     {
       "headword": "shift",
       "partOfSpeech": "n.",
       "definitionZh": "班次，輪班制度中的特定工作時段",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Nurses rotate between day shifts and night shifts weekly.", "translationZh": "護士每週在日班與夜班之間輪流值班。"}
+        {
+          "sentence": "Nurses rotate between day shifts and night shifts weekly.",
+          "translationZh": "護士每週在日班與夜班之間輪流值班。"
+        }
       ]
     },
     {
       "headword": "roster",
       "partOfSpeech": "n.",
       "definitionZh": "排班表，列出員工值班時間安排的正式名冊",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The manager posts the weekly roster every Friday afternoon.", "translationZh": "主管每週五下午公布每週排班表。"}
+        {
+          "sentence": "The manager posts the weekly roster every Friday afternoon.",
+          "translationZh": "主管每週五下午公布每週排班表。"
+        }
       ]
     },
     {
       "headword": "attendance",
       "partOfSpeech": "n.",
       "definitionZh": "出勤，員工按時到崗的紀錄與到班追蹤",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The system automatically tracks employee attendance.", "translationZh": "系統自動追蹤員工出勤紀錄。"}
+        {
+          "sentence": "The system automatically tracks employee attendance.",
+          "translationZh": "系統自動追蹤員工出勤紀錄。"
+        }
       ]
     },
     {
       "headword": "absence",
       "partOfSpeech": "n.",
       "definitionZh": "缺勤，員工未出現於應出勤工作日的狀態",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Any unplanned absence must be reported to a supervisor.", "translationZh": "任何未預先安排的缺勤均須向主管報告。"}
+        {
+          "sentence": "Any unplanned absence must be reported to a supervisor.",
+          "translationZh": "任何未預先安排的缺勤均須向主管報告。"
+        }
       ]
     },
     {
       "headword": "punctuality",
       "partOfSpeech": "n.",
       "definitionZh": "準時，員工按規定時間到班的行為習慣",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Punctuality is a basic expectation for all employees.", "translationZh": "準時是對所有員工的基本要求。"}
+        {
+          "sentence": "Punctuality is a basic expectation for all employees.",
+          "translationZh": "準時是對所有員工的基本要求。"
+        }
       ]
     },
     {
       "headword": "conduct",
       "partOfSpeech": "n.",
       "definitionZh": "職業行為，員工在執行職務中應符合的專業表現",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Professional conduct is reviewed during performance appraisals.", "translationZh": "專業行為表現在績效考核中受到評估。"}
+        {
+          "sentence": "Professional conduct is reviewed during performance appraisals.",
+          "translationZh": "專業行為表現在績效考核中受到評估。"
+        }
       ]
     },
     {
       "headword": "behavior",
       "partOfSpeech": "n.",
       "definitionZh": "舉止，員工日常與同事互動時展現的態度",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Respectful behavior is essential in a diverse workplace.", "translationZh": "尊重他人的舉止在多元職場中至關重要。"}
+        {
+          "sentence": "Respectful behavior is essential in a diverse workplace.",
+          "translationZh": "尊重他人的舉止在多元職場中至關重要。"
+        }
       ]
     },
     {
       "headword": "discipline",
       "partOfSpeech": "n.",
       "definitionZh": "紀律處分，對違規員工採取的正式懲處程序",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "HR initiated the discipline process after the incident.", "translationZh": "事件發生後，人資部啟動了紀律處分程序。"}
+        {
+          "sentence": "HR initiated the discipline process after the incident.",
+          "translationZh": "事件發生後，人資部啟動了紀律處分程序。"
+        }
       ]
     },
     {
       "headword": "grievance",
       "partOfSpeech": "n.",
       "definitionZh": "申訴，員工對不公平待遇提出的正式投訴",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "She filed a grievance with the HR department last week.", "translationZh": "她上週向人資部門提出了正式申訴。"}
+        {
+          "sentence": "She filed a grievance with the HR department last week.",
+          "translationZh": "她上週向人資部門提出了正式申訴。"
+        }
       ]
     },
     {
       "headword": "harassment",
       "partOfSpeech": "n.",
       "definitionZh": "騷擾，職場中令人不適的不當言行或施壓",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The company has a zero-tolerance policy on harassment.", "translationZh": "公司對騷擾行為採取零容忍政策。"}
+        {
+          "sentence": "The company has a zero-tolerance policy on harassment.",
+          "translationZh": "公司對騷擾行為採取零容忍政策。"
+        }
       ]
     },
     {
       "headword": "diversity",
       "partOfSpeech": "n.",
       "definitionZh": "多元性，職場人員背景與特質的多樣組成",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The firm actively promotes diversity in its hiring process.", "translationZh": "公司在招募流程中積極推動人員多元性。"}
+        {
+          "sentence": "The firm actively promotes diversity in its hiring process.",
+          "translationZh": "公司在招募流程中積極推動人員多元性。"
+        }
       ]
     },
     {
       "headword": "inclusion",
       "partOfSpeech": "n.",
       "definitionZh": "共融，讓所有員工在職場中感到被接納與重視",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Inclusion initiatives ensure every voice is heard at work.", "translationZh": "共融措施確保職場中每個聲音都受到重視。"}
+        {
+          "sentence": "Inclusion initiatives ensure every voice is heard at work.",
+          "translationZh": "共融措施確保職場中每個聲音都受到重視。"
+        }
       ]
     },
     {
       "headword": "equality",
       "partOfSpeech": "n.",
       "definitionZh": "平等，不因個人特質而給予差別待遇的原則",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Pay equality remains a key challenge in many industries.", "translationZh": "薪資平等在許多產業中仍是重要課題。"}
+        {
+          "sentence": "Pay equality remains a key challenge in many industries.",
+          "translationZh": "薪資平等在許多產業中仍是重要課題。"
+        }
       ]
     },
     {
       "headword": "welfare",
       "partOfSpeech": "n.",
       "definitionZh": "員工福祉，涵蓋身心健康的整體照護與支持",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Employee welfare programs include counseling and wellness support.", "translationZh": "員工福祉計畫包含諮商與健康支持服務。"}
+        {
+          "sentence": "Employee welfare programs include counseling and wellness support.",
+          "translationZh": "員工福祉計畫包含諮商與健康支持服務。"
+        }
       ]
     },
     {
       "headword": "safety",
       "partOfSpeech": "n.",
       "definitionZh": "安全，預防職場意外與傷害的措施與規範",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "All workers receive safety training before starting on site.", "translationZh": "所有工人在進場前均接受安全培訓。"}
+        {
+          "sentence": "All workers receive safety training before starting on site.",
+          "translationZh": "所有工人在進場前均接受安全培訓。"
+        }
       ]
     },
     {
       "headword": "health",
       "partOfSpeech": "n.",
       "definitionZh": "健康，維護員工身體與心理狀況的管理計畫",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The health program offers free annual checkups to staff.", "translationZh": "健康計畫為員工提供免費年度健康檢查。"}
+        {
+          "sentence": "The health program offers free annual checkups to staff.",
+          "translationZh": "健康計畫為員工提供免費年度健康檢查。"
+        }
       ]
     },
     {
       "headword": "development",
       "partOfSpeech": "n.",
       "definitionZh": "人才發展，有計劃地培育員工能力與職涯成長",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Personal development plans are set during annual reviews.", "translationZh": "個人發展計畫在年度考核期間制定。"}
+        {
+          "sentence": "Personal development plans are set during annual reviews.",
+          "translationZh": "個人發展計畫在年度考核期間制定。"
+        }
       ]
     },
     {
       "headword": "coaching",
       "partOfSpeech": "n.",
       "definitionZh": "一對一輔導，由主管或教練針對個人提供的即時指引",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Regular coaching sessions improved her presentation skills.", "translationZh": "定期輔導課程改善了她的簡報技巧。"}
+        {
+          "sentence": "Regular coaching sessions improved her presentation skills.",
+          "translationZh": "定期輔導課程改善了她的簡報技巧。"
+        }
       ]
     },
     {
       "headword": "mentoring",
       "partOfSpeech": "n.",
       "definitionZh": "師徒制，由資深員工長期引導新進人員職涯成長",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Mentoring pairs junior staff with experienced colleagues.", "translationZh": "師徒制將資淺員工與資深同事配對。"}
+        {
+          "sentence": "Mentoring pairs junior staff with experienced colleagues.",
+          "translationZh": "師徒制將資淺員工與資深同事配對。"
+        }
       ]
     },
     {
       "headword": "leadership",
       "partOfSpeech": "n.",
       "definitionZh": "領導力，有效引導並激勵團隊達成目標的能力",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Strong leadership is critical during times of change.", "translationZh": "在變革時期，強勁的領導力至關重要。"}
+        {
+          "sentence": "Strong leadership is critical during times of change.",
+          "translationZh": "在變革時期，強勁的領導力至關重要。"
+        }
       ]
     },
     {
       "headword": "teamwork",
       "partOfSpeech": "n.",
       "definitionZh": "團隊合作，成員共同協力完成共同目標",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Good teamwork helped the project finish ahead of schedule.", "translationZh": "良好的團隊合作使專案提前完成。"}
+        {
+          "sentence": "Good teamwork helped the project finish ahead of schedule.",
+          "translationZh": "良好的團隊合作使專案提前完成。"
+        }
       ]
     },
     {
       "headword": "collaboration",
       "partOfSpeech": "n.",
       "definitionZh": "協作，跨部門或跨組織共同解決問題的合作模式",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Cross-department collaboration improved the product launch.", "translationZh": "跨部門協作改善了產品上市的成效。"}
+        {
+          "sentence": "Cross-department collaboration improved the product launch.",
+          "translationZh": "跨部門協作改善了產品上市的成效。"
+        }
       ]
     },
     {
       "headword": "communication",
       "partOfSpeech": "n.",
       "definitionZh": "溝通，有效傳遞訊息與想法的表達能力",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Clear communication reduces misunderstandings at work.", "translationZh": "清晰的溝通能減少職場中的誤解。"}
+        {
+          "sentence": "Clear communication reduces misunderstandings at work.",
+          "translationZh": "清晰的溝通能減少職場中的誤解。"
+        }
       ]
     },
     {
       "headword": "motivation",
       "partOfSpeech": "n.",
       "definitionZh": "激勵，驅動員工積極投入工作的內在或外在動力",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Recognition from managers boosts employee motivation.", "translationZh": "來自主管的認可能提升員工的工作動力。"}
+        {
+          "sentence": "Recognition from managers boosts employee motivation.",
+          "translationZh": "來自主管的認可能提升員工的工作動力。"
+        }
       ]
     },
     {
       "headword": "engagement",
       "partOfSpeech": "n.",
       "definitionZh": "投入度，員工對工作與組織的熱忱與承諾感",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "High engagement levels lead to lower staff turnover.", "translationZh": "高度工作投入能降低員工離職率。"}
+        {
+          "sentence": "High engagement levels lead to lower staff turnover.",
+          "translationZh": "高度工作投入能降低員工離職率。"
+        }
       ]
     },
     {
       "headword": "retention",
       "partOfSpeech": "n.",
       "definitionZh": "留才，透過策略使優秀員工持續留任的作為",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Flexible hours are an effective talent retention strategy.", "translationZh": "彈性工時是有效的人才留任策略。"}
+        {
+          "sentence": "Flexible hours are an effective talent retention strategy.",
+          "translationZh": "彈性工時是有效的人才留任策略。"
+        }
       ]
     },
     {
       "headword": "turnover",
       "partOfSpeech": "n.",
       "definitionZh": "離職率，一段時間內員工流動的比例",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "High turnover increases recruitment and training costs.", "translationZh": "高離職率會增加招募與培訓成本。"}
+        {
+          "sentence": "High turnover increases recruitment and training costs.",
+          "translationZh": "高離職率會增加招募與培訓成本。"
+        }
       ]
     },
     {
       "headword": "workforce",
       "partOfSpeech": "n.",
       "definitionZh": "勞動力，企業或組織的全體受雇員工總稱",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The company plans to expand its workforce by 20% next year.", "translationZh": "公司計劃明年將員工規模擴大百分之二十。"}
+        {
+          "sentence": "The company plans to expand its workforce by 20% next year.",
+          "translationZh": "公司計劃明年將員工規模擴大百分之二十。"
+        }
       ]
     },
     {
       "headword": "headcount",
       "partOfSpeech": "n.",
       "definitionZh": "員工人數，組織目前在職員工的數量統計",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The headcount in this division increased by fifteen this month.", "translationZh": "本事業部本月員工人數增加了十五人。"}
+        {
+          "sentence": "The headcount in this division increased by fifteen this month.",
+          "translationZh": "本事業部本月員工人數增加了十五人。"
+        }
       ]
     },
     {
       "headword": "staffing",
       "partOfSpeech": "n.",
       "definitionZh": "人力配置，將合適人員安排至適當職位的規劃作業",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Seasonal staffing peaks during the year-end holiday period.", "translationZh": "季節性人力配置在年末假期達到高峰。"}
+        {
+          "sentence": "Seasonal staffing peaks during the year-end holiday period.",
+          "translationZh": "季節性人力配置在年末假期達到高峰。"
+        }
       ]
     },
     {
       "headword": "department",
       "partOfSpeech": "n.",
       "definitionZh": "部門，組織內負責特定功能的行政單位",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The marketing department launched a new campaign today.", "translationZh": "行銷部門今日推出了一項新的行銷活動。"}
+        {
+          "sentence": "The marketing department launched a new campaign today.",
+          "translationZh": "行銷部門今日推出了一項新的行銷活動。"
+        }
       ]
     },
     {
       "headword": "division",
       "partOfSpeech": "n.",
       "definitionZh": "事業部，由多個部門組成的較大業務組織單位",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The Asia division posted the strongest sales this quarter.", "translationZh": "亞洲事業部本季業績表現最為強勁。"}
+        {
+          "sentence": "The Asia division posted the strongest sales this quarter.",
+          "translationZh": "亞洲事業部本季業績表現最為強勁。"
+        }
       ]
     },
     {
       "headword": "supervisor",
       "partOfSpeech": "n.",
       "definitionZh": "主管，直接監督並管理下屬的一線管理者",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Please report any issues directly to your supervisor.", "translationZh": "請將任何問題直接向你的直屬主管反映。"}
+        {
+          "sentence": "Please report any issues directly to your supervisor.",
+          "translationZh": "請將任何問題直接向你的直屬主管反映。"
+        }
       ]
     },
     {
       "headword": "subordinate",
       "partOfSpeech": "n.",
       "definitionZh": "下屬，直接向上級主管匯報的員工",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "A good manager listens to feedback from subordinates.", "translationZh": "優秀的經理會傾聽下屬的意見回饋。"}
+        {
+          "sentence": "A good manager listens to feedback from subordinates.",
+          "translationZh": "優秀的經理會傾聽下屬的意見回饋。"
+        }
       ]
     },
     {
       "headword": "peer",
       "partOfSpeech": "n.",
       "definitionZh": "同儕，組織中與自己同層級的同事",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Peer reviews provide a useful perspective on performance.", "translationZh": "同儕評估提供了對工作表現的有益觀點。"}
+        {
+          "sentence": "Peer reviews provide a useful perspective on performance.",
+          "translationZh": "同儕評估提供了對工作表現的有益觀點。"
+        }
       ]
     },
     {
       "headword": "manager",
       "partOfSpeech": "n.",
       "definitionZh": "經理，負責規劃與管理部門或專案的中階主管",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The project manager set clear goals for the entire team.", "translationZh": "專案經理為整個團隊設定了明確目標。"}
+        {
+          "sentence": "The project manager set clear goals for the entire team.",
+          "translationZh": "專案經理為整個團隊設定了明確目標。"
+        }
       ]
     },
     {
       "headword": "executive",
       "partOfSpeech": "n.",
       "definitionZh": "高階主管，負責重大決策的董事或副總等級人員",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Senior executives approved the new HR strategy yesterday.", "translationZh": "高階主管昨日核准了新的人資策略。"}
+        {
+          "sentence": "Senior executives approved the new HR strategy yesterday.",
+          "translationZh": "高階主管昨日核准了新的人資策略。"
+        }
       ]
     },
     {
       "headword": "payroll",
       "partOfSpeech": "n.",
       "definitionZh": "薪資發放，計算並支付員工薪酬的行政作業",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The payroll system processes salaries on the last Friday.", "translationZh": "薪資系統在每月最後一個週五處理薪酬發放。"}
+        {
+          "sentence": "The payroll system processes salaries on the last Friday.",
+          "translationZh": "薪資系統在每月最後一個週五處理薪酬發放。"
+        }
       ]
     },
     {
       "headword": "deduction",
       "partOfSpeech": "n.",
       "definitionZh": "扣款，從員工薪資中扣除的稅款或保費等項目",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Your payslip shows all deductions taken from gross pay.", "translationZh": "薪資單列出了從總薪資中扣除的所有項目。"}
+        {
+          "sentence": "Your payslip shows all deductions taken from gross pay.",
+          "translationZh": "薪資單列出了從總薪資中扣除的所有項目。"
+        }
       ]
     },
     {
       "headword": "contribution",
       "partOfSpeech": "n.",
       "definitionZh": "提撥，雇主或員工繳入退休或保險基金的款項",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "The employer matches each employee's pension contribution.", "translationZh": "雇主按比例配合員工的退休金提撥金額。"}
+        {
+          "sentence": "The employer matches each employee's pension contribution.",
+          "translationZh": "雇主按比例配合員工的退休金提撥金額。"
+        }
       ]
     },
     {
       "headword": "claim",
       "partOfSpeech": "n.",
       "definitionZh": "申請，員工就費用或保險提出的正式請款",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Submit your expense claim within thirty days of the trip.", "translationZh": "請在出差後三十天內提交費用申請。"}
+        {
+          "sentence": "Submit your expense claim within thirty days of the trip.",
+          "translationZh": "請在出差後三十天內提交費用申請。"
+        }
       ]
     },
     {
       "headword": "expense",
       "partOfSpeech": "n.",
       "definitionZh": "公務費用，員工因執行職務而對外支付的支出",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Travel expenses must be approved before booking.", "translationZh": "差旅費用在訂票前須獲得核准。"}
+        {
+          "sentence": "Travel expenses must be approved before booking.",
+          "translationZh": "差旅費用在訂票前須獲得核准。"
+        }
       ]
     },
     {
       "headword": "approval",
       "partOfSpeech": "n.",
       "definitionZh": "核准，上級對申請或提案的正式同意授權",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Leave requests require manager approval two weeks ahead.", "translationZh": "請假申請需在兩週前取得主管核准。"}
+        {
+          "sentence": "Leave requests require manager approval two weeks ahead.",
+          "translationZh": "請假申請需在兩週前取得主管核准。"
+        }
       ]
     },
     {
       "headword": "handbook",
       "partOfSpeech": "n.",
       "definitionZh": "員工手冊，說明公司政策與員工規範的參考書冊",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "New hires receive an employee handbook on their first day.", "translationZh": "新進員工在入職第一天即獲得員工手冊。"}
+        {
+          "sentence": "New hires receive an employee handbook on their first day.",
+          "translationZh": "新進員工在入職第一天即獲得員工手冊。"
+        }
       ]
     },
     {
       "headword": "code",
       "partOfSpeech": "n.",
       "definitionZh": "守則，明文規定員工道德與行為標準的正式文件",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Violations of the code may result in disciplinary action.", "translationZh": "違反守則可能導致紀律處分。"}
+        {
+          "sentence": "Violations of the code may result in disciplinary action.",
+          "translationZh": "違反守則可能導致紀律處分。"
+        }
       ]
     },
     {
       "headword": "contract",
       "partOfSpeech": "n.",
       "definitionZh": "勞動合約，規定雇用條款與雙方義務的書面協議",
-      "examTags": ["TOEIC", "hr"],
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
       "examples": [
-        {"sentence": "Please sign the employment contract before your start date.", "translationZh": "請在到職日前簽署勞動合約。"}
+        {
+          "sentence": "Please sign the employment contract before your start date.",
+          "translationZh": "請在到職日前簽署勞動合約。"
+        }
+      ]
+    },
+    {
+      "headword": "colleague",
+      "partOfSpeech": "n.",
+      "definitionZh": "同事",
+      "examTags": [
+        "TOEIC",
+        "hr"
+      ],
+      "examples": [
+        {
+          "sentence": "She introduced me to her new colleague.",
+          "translationZh": "她把我介紹給她的新同事。"
+        }
       ]
     }
   ]

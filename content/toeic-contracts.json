@@ -1473,6 +1473,36 @@
           "translationZh": "次承包商受與主承包商相同的品質標準約束。"
         }
       ]
+    },
+    {
+      "headword": "negotiate",
+      "partOfSpeech": "v.",
+      "definitionZh": "談判，協商",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "We need to negotiate the terms of the contract.",
+          "translationZh": "我們需要協商合約的條款。"
+        }
+      ]
+    },
+    {
+      "headword": "warranty",
+      "partOfSpeech": "n.",
+      "definitionZh": "保固，保證書",
+      "examTags": [
+        "TOEIC",
+        "contracts"
+      ],
+      "examples": [
+        {
+          "sentence": "This laptop comes with a two-year warranty.",
+          "translationZh": "這台筆電附有兩年保固。"
+        }
+      ]
     }
   ]
 }

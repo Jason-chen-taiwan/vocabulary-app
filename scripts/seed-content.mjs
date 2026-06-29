@@ -4,7 +4,8 @@ import { PrismaClient } from '@prisma/client'
 import { PrismaNeon } from '@prisma/adapter-neon'
 import { parseSeedBook } from '../lib/content/seed-schema.ts'
 
-const file = process.argv[2] ?? 'content/toeic-core.json'
+const file = process.argv[2]
+if (!file) throw new Error('Usage: npm run seed content/<book>.json')
 const book = parseSeedBook(JSON.parse(readFileSync(file, 'utf8')))
 
 if (!process.env.DATABASE_URL) throw new Error('DATABASE_URL is not set')
