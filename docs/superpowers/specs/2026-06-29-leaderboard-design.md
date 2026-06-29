@@ -20,7 +20,16 @@
 - 回傳新增 `correct`（authoritative），前端可對齊顯示。前端**仍可本地算一次**只為即時 UX 回饋，但記錄/XP/排名一律以 server 為準。
 - 需要輕量取字方法：`ContentRepository.getWordCore(id): { headword: string; definitionZh: string } | null`（單查詢、不含例句）。
 
-> **CLAUDE.md 新增資安準則**（本輪一併加入）：凡影響共享狀態或排名的數值，一律由後端權威判定；不得信任前端輸入作為安全/計分依據；不得引入資安違規操作。
+> **CLAUDE.md 已新增「資安鐵則」**：前端只呈現；資料/登入/計分/答案判定主責後端；影響共享狀態或排名的值一律後端權威、不信任前端。
+
+### 既有程式碼盤點（同類問題）
+
+盤點所有 server action 與前端送出的值：
+- `submitAnswerAction(wordId, correct)` — **前端決定答對與否**，影響 XP/排程/精熟＋（本輪）排行榜。**屬排名關鍵 → 本輪改後端判定（見上）。**
+- `finishSessionAction(reviewed, correct)` — 前端送本回合題數/答對數，用於：(a) `SessionFinished` 事件、(b) 結束畫面顯示、(c)「完美一回」徽章。**非排名**（徽章為個人虛榮、不上榜）。完全後端化需 server 端 session 實體（基礎建設）。**本輪決策：保留前端數值僅供顯示/事件；「完美一回」徽章標記為非權威虛榮項並記錄；排名相關（XP）已後端權威 → 不被影響。** 日後加 session 實體再硬化。
+- 登入/身分：`getCurrentUser` 走 server `auth()`，**已後端權威**，無前端信任問題。
+- 其他前端決定值（題型、佇列組成、streak/每日目標、MC 選項洗牌）皆已在 server 端決定，無問題。
+- **誠實限制**：題庫內容對前端可見，後端判定答案可擋「直接送 correct:true」的粗暴偽造，但無法防腳本化送出已知正解刷 XP。徹底防需 server 發題 + 不外洩答案 + 限流（見 §10，後續）。
 
 ## 3. 資料模型
 
