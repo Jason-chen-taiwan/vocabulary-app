@@ -1518,6 +1518,1014 @@
           "translationZh": "自動化使人工資料輸入減少了 80%。"
         }
       ]
+    },
+    {
+      "headword": "intrusion",
+      "partOfSpeech": "n.",
+      "definitionZh": "未授權進入網路或系統的入侵行為",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The security team detected a network intrusion attempt at midnight.",
+          "translationZh": "安全團隊在午夜偵測到一次網路入侵嘗試。"
+        }
+      ]
+    },
+    {
+      "headword": "segmentation",
+      "partOfSpeech": "n.",
+      "definitionZh": "將網路切割為獨立區域以降低攻擊蔓延的技術",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Network segmentation prevented the malware from spreading further.",
+          "translationZh": "網路分段技術阻止了惡意程式進一步擴散。"
+        }
+      ]
+    },
+    {
+      "headword": "forensics",
+      "partOfSpeech": "n.",
+      "definitionZh": "以數位技術調查設備並重建安全事件的鑑識方法",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "IT forensics helped identify the source of the unauthorized access.",
+          "translationZh": "數位鑑識協助確認了未授權存取的來源。"
+        }
+      ]
+    },
+    {
+      "headword": "privilege",
+      "partOfSpeech": "n.",
+      "definitionZh": "授予使用者執行特定操作的特殊系統許可權",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Grant admin privilege only to staff who require full system access.",
+          "translationZh": "只對需要完整存取權的員工授予管理員權限。"
+        }
+      ]
+    },
+    {
+      "headword": "governance",
+      "partOfSpeech": "n.",
+      "definitionZh": "規範 IT 資源使用與安全管理的政策框架",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Strong IT governance ensures all systems meet regulatory requirements.",
+          "translationZh": "完善的 IT 治理確保所有系統符合法規要求。"
+        }
+      ]
+    },
+    {
+      "headword": "exploit",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "利用系統漏洞進行攻擊或取得未授權存取的行動",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Hackers tried to exploit a known flaw in the outdated software.",
+          "translationZh": "駭客試圖利用老舊軟體中的已知漏洞發動攻擊。"
+        }
+      ]
+    },
+    {
+      "headword": "scalability",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統在需求增加時仍能平滑擴展的能力",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Cloud services offer scalability to handle sudden traffic spikes.",
+          "translationZh": "雲端服務提供擴展能力以應對突然的流量高峰。"
+        }
+      ]
+    },
+    {
+      "headword": "gateway",
+      "partOfSpeech": "n.",
+      "definitionZh": "連接不同網路並轉送資料流量的橋接裝置",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Configure the gateway address to route traffic to the main network.",
+          "translationZh": "設定閘道位址以將流量導向主網路。"
+        }
+      ]
+    },
+    {
+      "headword": "topology",
+      "partOfSpeech": "n.",
+      "definitionZh": "描述網路中節點與連線配置方式的架構布局",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The IT team documented the network topology before the upgrade.",
+          "translationZh": "IT 團隊在升級前記錄了網路拓撲架構。"
+        }
+      ]
+    },
+    {
+      "headword": "subnet",
+      "partOfSpeech": "n.",
+      "definitionZh": "從較大 IP 網路切割出的獨立子網段",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Assign each department to a separate subnet for better security.",
+          "translationZh": "將每個部門分配至獨立子網以提升安全性。"
+        }
+      ]
+    },
+    {
+      "headword": "failover",
+      "partOfSpeech": "n.",
+      "definitionZh": "主系統故障時自動切換至備援系統的機制",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Automatic failover switched traffic to the backup server in seconds.",
+          "translationZh": "自動故障轉移在數秒內將流量切換至備援伺服器。"
+        }
+      ]
+    },
+    {
+      "headword": "clustering",
+      "partOfSpeech": "n.",
+      "definitionZh": "多台伺服器協同運作以提升效能與可用性的技術",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Server clustering ensures no single point of failure for critical apps.",
+          "translationZh": "伺服器叢集確保關鍵應用程式不存在單點故障。"
+        }
+      ]
+    },
+    {
+      "headword": "middleware",
+      "partOfSpeech": "n.",
+      "definitionZh": "位於作業系統與應用程式之間協調通訊的軟體層",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The middleware layer translates requests between the app and the database.",
+          "translationZh": "中介軟體層負責在應用程式與資料庫之間轉譯請求。"
+        }
+      ]
+    },
+    {
+      "headword": "infrastructure",
+      "partOfSpeech": "n.",
+      "definitionZh": "支撐 IT 服務正常運作的基礎硬體、網路與軟體",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Upgrading the IT infrastructure will improve performance across all offices.",
+          "translationZh": "升級 IT 基礎設施將提升所有辦公室的效能。"
+        }
+      ]
+    },
+    {
+      "headword": "workload",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統或人員在特定期間內需要完成的工作總量",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The new server handles a heavier workload without slowing down.",
+          "translationZh": "新伺服器可承擔更繁重的工作負載而不會降速。"
+        }
+      ]
+    },
+    {
+      "headword": "screenshot",
+      "partOfSpeech": "n.",
+      "definitionZh": "擷取電腦當前畫面並儲存為影像的螢幕截圖",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Take a screenshot of the error message and send it to IT support.",
+          "translationZh": "請截取錯誤訊息的畫面並傳送給 IT 支援人員。"
+        }
+      ]
+    },
+    {
+      "headword": "defragment",
+      "partOfSpeech": "v.",
+      "definitionZh": "重整磁碟上零散資料以提升讀寫效能的磁碟重組",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Defragment the hard drive to improve read and write speeds.",
+          "translationZh": "對硬碟進行磁碟重組以提升讀寫速度。"
+        }
+      ]
+    },
+    {
+      "headword": "resource",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統可分配給應用程式或使用者使用的計算資源",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Allocate more resource to the database server during peak hours.",
+          "translationZh": "在尖峰時段為資料庫伺服器分配更多資源。"
+        }
+      ]
+    },
+    {
+      "headword": "firmware",
+      "partOfSpeech": "n.",
+      "definitionZh": "燒錄於硬體裝置中負責控制基本功能的內建程式",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Update the router firmware to patch the recently discovered vulnerability.",
+          "translationZh": "更新路由器韌體以修補最近發現的安全漏洞。"
+        }
+      ]
+    },
+    {
+      "headword": "provisioning",
+      "partOfSpeech": "n.",
+      "definitionZh": "為新使用者或裝置建立帳號並分配系統資源的程序",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Account provisioning for new staff takes about one business day.",
+          "translationZh": "為新員工建立帳號的程序約需一個工作天。"
+        }
+      ]
+    },
+    {
+      "headword": "decommission",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式停用並退除老舊設備或服務的作業",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Old servers will be decommissioned and securely wiped next quarter.",
+          "translationZh": "老舊伺服器將於下季正式除役並安全抹除資料。"
+        }
+      ]
+    },
+    {
+      "headword": "packet",
+      "partOfSpeech": "n.",
+      "definitionZh": "網路傳輸中資料被切分成的最小傳輸單位",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A corrupted packet caused the connection to drop during the call.",
+          "translationZh": "一個損毀的封包導致通話中連線中斷。"
+        }
+      ]
+    },
+    {
+      "headword": "node",
+      "partOfSpeech": "n.",
+      "definitionZh": "網路中可傳送或接收資料的任何連接裝置或端點",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each node in the cluster handles a portion of the total traffic.",
+          "translationZh": "叢集中的每個節點各自處理一部分總流量。"
+        }
+      ]
+    },
+    {
+      "headword": "throttle",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "限制資料傳輸速率以防系統過載的節流機制",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The system will throttle uploads above 10 MB to conserve bandwidth.",
+          "translationZh": "系統將對超過 10 MB 的上傳進行節流以節省頻寬。"
+        }
+      ]
+    },
+    {
+      "headword": "metadata",
+      "partOfSpeech": "n.",
+      "definitionZh": "描述資料本身屬性與結構的附加說明資訊",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The metadata shows when and by whom each document was last edited.",
+          "translationZh": "詮釋資料顯示每份文件最後由誰於何時編輯。"
+        }
+      ]
+    },
+    {
+      "headword": "compression",
+      "partOfSpeech": "n.",
+      "definitionZh": "縮減資料體積以節省儲存空間或加快傳輸的技術",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Data compression reduced the backup size from 200 GB to 60 GB.",
+          "translationZh": "資料壓縮將備份大小從 200 GB 縮減至 60 GB。"
+        }
+      ]
+    },
+    {
+      "headword": "deduplication",
+      "partOfSpeech": "n.",
+      "definitionZh": "識別並移除儲存中重複資料以提升儲存效率的技術",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Storage deduplication saved 30 percent of disk space on the server.",
+          "translationZh": "儲存去重複化為伺服器節省了 30% 的磁碟空間。"
+        }
+      ]
+    },
+    {
+      "headword": "repository",
+      "partOfSpeech": "n.",
+      "definitionZh": "集中儲存並版本管理程式碼或文件的版本庫",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "All source code must be committed to the central repository daily.",
+          "translationZh": "所有原始碼每天必須提交至中央版本庫。"
+        }
+      ]
+    },
+    {
+      "headword": "dataset",
+      "partOfSpeech": "n.",
+      "definitionZh": "為特定分析或應用所整理的結構化資料集合",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The analytics team prepared a clean dataset for the quarterly report.",
+          "translationZh": "分析團隊為季報準備了一份整理好的資料集。"
+        }
+      ]
+    },
+    {
+      "headword": "schema",
+      "partOfSpeech": "n.",
+      "definitionZh": "定義資料庫表格欄位結構與資料關聯的設計圖",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Review the database schema before adding new fields to the table.",
+          "translationZh": "在新增欄位前請先查閱資料庫結構設計圖。"
+        }
+      ]
+    },
+    {
+      "headword": "framework",
+      "partOfSpeech": "n.",
+      "definitionZh": "為應用程式開發提供基礎結構的軟體架構平台",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The team adopted a new framework to standardize application development.",
+          "translationZh": "團隊採用了新框架以標準化應用程式開發流程。"
+        }
+      ]
+    },
+    {
+      "headword": "algorithm",
+      "partOfSpeech": "n.",
+      "definitionZh": "解決特定問題或執行計算的有序步驟規則集",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The scheduling algorithm prioritizes urgent tickets automatically.",
+          "translationZh": "排程演算法會自動優先處理緊急工單。"
+        }
+      ]
+    },
+    {
+      "headword": "deprecate",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式宣告某功能或版本將被淘汰停止維護",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Version 2.0 features will be deprecated when version 3.0 launches.",
+          "translationZh": "版本 3.0 推出後，版本 2.0 的功能將正式廢棄。"
+        }
+      ]
+    },
+    {
+      "headword": "refactor",
+      "partOfSpeech": "v.",
+      "definitionZh": "在不改變功能的前提下重新整理改善程式碼結構",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We need to refactor the billing module before adding new features.",
+          "translationZh": "新增功能前我們需要先重構計費模組。"
+        }
+      ]
+    },
+    {
+      "headword": "interoperability",
+      "partOfSpeech": "n.",
+      "definitionZh": "不同系統間能相互運作並順暢交換資料的能力",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The two systems lack interoperability, requiring manual data transfer.",
+          "translationZh": "這兩套系統缺乏互通性，需要人工轉換資料。"
+        }
+      ]
+    },
+    {
+      "headword": "workaround",
+      "partOfSpeech": "n.",
+      "definitionZh": "在正式修復前暫時繞過問題的替代解決方法",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Use this workaround until the patch is released next Tuesday.",
+          "translationZh": "請使用此替代方案，直到下週二補丁發布為止。"
+        }
+      ]
+    },
+    {
+      "headword": "sprint",
+      "partOfSpeech": "n.",
+      "definitionZh": "敏捷開發中固定短週期的工作迭代衝刺",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The team completed the feature ahead of schedule during this sprint.",
+          "translationZh": "團隊在本次衝刺中提前完成了該功能的開發。"
+        }
+      ]
+    },
+    {
+      "headword": "backlog",
+      "partOfSpeech": "n.",
+      "definitionZh": "依優先序排列、尚待完成的工作任務清單",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Clear the backlog of unresolved tickets before the audit next week.",
+          "translationZh": "請在下週稽核前清理所有未解決的工單積壓。"
+        }
+      ]
+    },
+    {
+      "headword": "handover",
+      "partOfSpeech": "n.",
+      "definitionZh": "將工作、職責或系統正式移交給另一方的交接",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Prepare a complete handover document before your last day.",
+          "translationZh": "請在最後上班日前準備完整的工作交接文件。"
+        }
+      ]
+    },
+    {
+      "headword": "triage",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "快速評估並分類問題以決定處理優先順序的程序",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The helpdesk uses triage to prioritize urgent tickets over routine ones.",
+          "translationZh": "服務台透過優先分類來先處理緊急工單。"
+        }
+      ]
+    },
+    {
+      "headword": "agile",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "以短週期迭代與彈性回應變化為核心的軟體開發方法論",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The project team switched to an agile approach to deliver faster results.",
+          "translationZh": "專案團隊改用敏捷方法以更快交付成果。"
+        }
+      ]
+    },
+    {
+      "headword": "tenant",
+      "partOfSpeech": "n.",
+      "definitionZh": "在共享雲端平台中擁有獨立隔離資源的單一組織",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each tenant on the cloud platform has its own isolated data environment.",
+          "translationZh": "雲端平台上的每個租戶都有其獨立隔離的資料環境。"
+        }
+      ]
+    },
+    {
+      "headword": "monitoring",
+      "partOfSpeech": "n.",
+      "definitionZh": "持續追蹤系統效能與健康狀態的運維監控作業",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Continuous monitoring alerts the team to any performance degradation.",
+          "translationZh": "持續監控能在效能下降時即時通知團隊。"
+        }
+      ]
+    },
+    {
+      "headword": "logging",
+      "partOfSpeech": "n.",
+      "definitionZh": "自動記錄系統事件與操作歷程以供稽核追蹤的機制",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Enable logging on all servers to track access and error events.",
+          "translationZh": "在所有伺服器上啟用日誌記錄以追蹤存取與錯誤事件。"
+        }
+      ]
+    },
+    {
+      "headword": "diagnostics",
+      "partOfSpeech": "n.",
+      "definitionZh": "偵測並分析系統故障原因的診斷工具與程序",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Run the built-in diagnostics tool if the device fails to start.",
+          "translationZh": "若設備無法啟動，請執行內建診斷工具。"
+        }
+      ]
+    },
+    {
+      "headword": "telemetry",
+      "partOfSpeech": "n.",
+      "definitionZh": "自動收集並回傳設備或應用程式運作資料的遠測技術",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Telemetry data shows that most users encounter the error at login.",
+          "translationZh": "遙測資料顯示大多數使用者在登入時遭遇該錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "reboot",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "重新啟動電腦或裝置以套用更新或修復問題",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Reboot the server after applying the security update to take effect.",
+          "translationZh": "套用安全性更新後請重新啟動伺服器使其生效。"
+        }
+      ]
+    },
+    {
+      "headword": "upload",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "從本機裝置將檔案傳輸至網路伺服器或雲端的動作",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Upload the signed form to the HR portal within three business days.",
+          "translationZh": "請在三個工作天內將簽署的表單上傳至人資入口。"
+        }
+      ]
+    },
+    {
+      "headword": "documentation",
+      "partOfSpeech": "n.",
+      "definitionZh": "記錄系統設計、功能與操作程序的技術說明文件",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Refer to the online documentation for step-by-step setup instructions.",
+          "translationZh": "請參閱線上說明文件以獲取逐步設定指引。"
+        }
+      ]
+    },
+    {
+      "headword": "revision",
+      "partOfSpeech": "n.",
+      "definitionZh": "對文件或程式碼進行審閱後所做的版本修改",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Submit the final revision of the report by end of business Friday.",
+          "translationZh": "請於週五下班前提交報告的最終修訂版本。"
+        }
+      ]
+    },
+    {
+      "headword": "validation",
+      "partOfSpeech": "n.",
+      "definitionZh": "確認系統或資料符合預期規格與標準的驗證程序",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Validation checks ensure the imported data meets required format rules.",
+          "translationZh": "驗證檢查確保匯入資料符合所需的格式規則。"
+        }
+      ]
+    },
+    {
+      "headword": "geolocation",
+      "partOfSpeech": "n.",
+      "definitionZh": "透過裝置或網路偵測使用者地理位置的技術",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The app uses geolocation to auto-fill the user's regional settings.",
+          "translationZh": "應用程式使用地理定位自動填入使用者的地區設定。"
+        }
+      ]
+    },
+    {
+      "headword": "registry",
+      "partOfSpeech": "n.",
+      "definitionZh": "儲存作業系統設定與軟體安裝資訊的集中登錄庫",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Editing the registry without authorization can damage the operating system.",
+          "translationZh": "未經授權編輯登錄檔可能損壞作業系統。"
+        }
+      ]
+    },
+    {
+      "headword": "harden",
+      "partOfSpeech": "v.",
+      "definitionZh": "強化系統安全設定以縮小可被攻擊面的安全加固",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Harden the web server by disabling all unnecessary services and ports.",
+          "translationZh": "停用所有不必要的服務與連接埠以強化網頁伺服器。"
+        }
+      ]
+    },
+    {
+      "headword": "deactivate",
+      "partOfSpeech": "v.",
+      "definitionZh": "暫時停用帳號、功能或服務使其無法被使用",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "IT will deactivate the account immediately upon the employee's resignation.",
+          "translationZh": "IT 部門將於員工離職後立即停用其帳號。"
+        }
+      ]
+    },
+    {
+      "headword": "module",
+      "partOfSpeech": "n.",
+      "definitionZh": "可獨立開發、測試並替換的軟體功能單元",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The billing module can be updated independently without affecting other parts.",
+          "translationZh": "計費模組可獨立更新，不影響系統其他部分。"
+        }
+      ]
+    },
+    {
+      "headword": "component",
+      "partOfSpeech": "n.",
+      "definitionZh": "組成更大系統並可被重用的軟體或硬體單元",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each component of the system was tested before the full integration.",
+          "translationZh": "系統的每個元件在完整整合前均已完成測試。"
+        }
+      ]
+    },
+    {
+      "headword": "dependency",
+      "partOfSpeech": "n.",
+      "definitionZh": "軟體正常運作所需的外部套件或服務依賴關係",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Check for outdated dependency packages before releasing the update.",
+          "translationZh": "發布更新前請檢查是否有過時的依賴套件。"
+        }
+      ]
+    },
+    {
+      "headword": "payload",
+      "partOfSpeech": "n.",
+      "definitionZh": "網路傳輸或 API 請求中攜帶的實際資料內容",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The API returns a JSON payload containing the requested user data.",
+          "translationZh": "API 回傳包含所請求使用者資料的 JSON 內容。"
+        }
+      ]
+    },
+    {
+      "headword": "blocklist",
+      "partOfSpeech": "n.",
+      "definitionZh": "明確封鎖特定程式、IP 位址或使用者存取的拒絕清單",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Add the suspicious IP address to the blocklist immediately.",
+          "translationZh": "請立即將可疑的 IP 位址加入封鎖清單。"
+        }
+      ]
+    },
+    {
+      "headword": "allowlist",
+      "partOfSpeech": "n.",
+      "definitionZh": "明確許可特定程式、IP 位址或使用者存取的允許清單",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Add the application to the allowlist so it can bypass the firewall.",
+          "translationZh": "將應用程式加入允許清單使其可繞過防火牆。"
+        }
+      ]
+    },
+    {
+      "headword": "responsive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "網頁或介面能自動適應不同螢幕尺寸的回應式設計",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The new website uses a responsive layout that adapts to any screen size.",
+          "translationZh": "新網站採用能適應任何螢幕尺寸的回應式版面。"
+        }
+      ]
+    },
+    {
+      "headword": "parameter",
+      "partOfSpeech": "n.",
+      "definitionZh": "傳入函式或系統設定中可調整功能行為的可變參數",
+      "examTags": [
+        "TOEIC",
+        "tech",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Adjust the timeout parameter to reduce session drops during calls.",
+          "translationZh": "調整逾時參數以減少通話期間的工作階段中斷。"
+        }
+      ]
     }
   ]
 }

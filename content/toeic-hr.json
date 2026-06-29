@@ -1593,6 +1593,1238 @@
           "translationZh": "她把我介紹給她的新同事。"
         }
       ]
+    },
+    {
+      "headword": "succession",
+      "partOfSpeech": "n.",
+      "definitionZh": "接班規劃，系統性準備繼任者接替關鍵職位的計畫",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The board approved a succession plan for the CEO role.",
+          "translationZh": "董事會批准了執行長職位的接班計畫。"
+        }
+      ]
+    },
+    {
+      "headword": "attrition",
+      "partOfSpeech": "n.",
+      "definitionZh": "自然耗損，員工離職後未補缺導致人力逐漸減少",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Headcount fell through attrition rather than active layoffs.",
+          "translationZh": "人員減少是透過自然耗損而非主動裁員。"
+        }
+      ]
+    },
+    {
+      "headword": "headhunt",
+      "partOfSpeech": "v.",
+      "definitionZh": "獵才，主動接觸並邀請特定優秀人才跳槽的做法",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The firm was headhunted by a rival to fill its top role.",
+          "translationZh": "該公司的頂尖職位遭競爭對手獵才挖角。"
+        }
+      ]
+    },
+    {
+      "headword": "outplacement",
+      "partOfSpeech": "n.",
+      "definitionZh": "離職輔導，協助被裁員工重返就業市場的外部服務",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company provided outplacement services to laid-off staff.",
+          "translationZh": "公司為遭裁員員工提供了離職就業輔導服務。"
+        }
+      ]
+    },
+    {
+      "headword": "secondment",
+      "partOfSpeech": "n.",
+      "definitionZh": "外調，暫時將員工派至另一部門或組織的安排",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She is on secondment to the London office for six months.",
+          "translationZh": "她被外調至倫敦辦公室六個月。"
+        }
+      ]
+    },
+    {
+      "headword": "reskilling",
+      "partOfSpeech": "n.",
+      "definitionZh": "轉技培訓，協助員工習得全新技能以因應崗位轉型",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Reskilling programs help workers adapt to automation.",
+          "translationZh": "轉技培訓計畫協助員工適應自動化趨勢。"
+        }
+      ]
+    },
+    {
+      "headword": "upskilling",
+      "partOfSpeech": "n.",
+      "definitionZh": "技能精進，強化現有技能以符合進階工作需求",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The budget for upskilling doubled this fiscal year.",
+          "translationZh": "本財年的技能精進預算增加了一倍。"
+        }
+      ]
+    },
+    {
+      "headword": "accreditation",
+      "partOfSpeech": "n.",
+      "definitionZh": "官方認可，授權機構確認個人或組織符合既定標準",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The training center received accreditation from the industry body.",
+          "translationZh": "該培訓中心獲得了行業機構的官方認可。"
+        }
+      ]
+    },
+    {
+      "headword": "proficiency",
+      "partOfSpeech": "n.",
+      "definitionZh": "熟練度，對某技能達到高水準操作的能力",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Language proficiency tests are part of the screening process.",
+          "translationZh": "語言熟練度測試是初審程序的一部分。"
+        }
+      ]
+    },
+    {
+      "headword": "scorecard",
+      "partOfSpeech": "n.",
+      "definitionZh": "績效計分卡，系統呈現多項指標的管理評量工具",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The balanced scorecard tracks financial and HR metrics.",
+          "translationZh": "平衡計分卡追蹤財務與人資等多項指標。"
+        }
+      ]
+    },
+    {
+      "headword": "calibration",
+      "partOfSpeech": "n.",
+      "definitionZh": "評分校準，確保主管在績效考核中標準一致的校準會議",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Calibration sessions align ratings across all departments.",
+          "translationZh": "校準會議確保各部門評分標準一致。"
+        }
+      ]
+    },
+    {
+      "headword": "conciliation",
+      "partOfSpeech": "n.",
+      "definitionZh": "和解斡旋，正式仲裁前透過斡旋尋求共識的嘗試",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The conciliation process failed to satisfy both parties.",
+          "translationZh": "和解斡旋程序未能讓雙方達成共識。"
+        }
+      ]
+    },
+    {
+      "headword": "whistleblower",
+      "partOfSpeech": "n.",
+      "definitionZh": "吹哨人，向主管機關舉報內部不法行為的員工",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Whistleblowers are protected under company policy.",
+          "translationZh": "吹哨人依公司政策受到保護。"
+        }
+      ]
+    },
+    {
+      "headword": "legislation",
+      "partOfSpeech": "n.",
+      "definitionZh": "勞動法規，政府制定的規範雇用關係的成文法律",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "New legislation raised the mandatory minimum rest period.",
+          "translationZh": "新法規提高了強制最短休息時間的標準。"
+        }
+      ]
+    },
+    {
+      "headword": "hierarchy",
+      "partOfSpeech": "n.",
+      "definitionZh": "組織層級，由高階到基層的職權結構排列",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A flat hierarchy encourages faster decision-making.",
+          "translationZh": "扁平的組織層級有助於加快決策速度。"
+        }
+      ]
+    },
+    {
+      "headword": "restructuring",
+      "partOfSpeech": "n.",
+      "definitionZh": "組織重組，為提升效能而調整部門架構的行動",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The restructuring merged three divisions into one unit.",
+          "translationZh": "此次組織重組將三個事業部合併為一個單位。"
+        }
+      ]
+    },
+    {
+      "headword": "downsizing",
+      "partOfSpeech": "n.",
+      "definitionZh": "精簡裁員，透過削減人力以降低營運成本的策略",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Downsizing cut the regional office from 80 to 50 staff.",
+          "translationZh": "此次精簡裁員將地區辦公室從八十人縮減至五十人。"
+        }
+      ]
+    },
+    {
+      "headword": "decentralization",
+      "partOfSpeech": "n.",
+      "definitionZh": "分權，將決策職權下放至各部門或分支機構",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Decentralization gave regional managers more hiring authority.",
+          "translationZh": "分權讓地區主管擁有更多招募自主權。"
+        }
+      ]
+    },
+    {
+      "headword": "autonomy",
+      "partOfSpeech": "n.",
+      "definitionZh": "自主權，員工在職責範圍內獨立決策的空間",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Greater autonomy improved creativity among the design team.",
+          "translationZh": "更大的自主權提升了設計團隊的創意表現。"
+        }
+      ]
+    },
+    {
+      "headword": "empowerment",
+      "partOfSpeech": "n.",
+      "definitionZh": "賦權，授予員工更大決策空間與責任感的管理做法",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Employee empowerment led to faster resolution of client issues.",
+          "translationZh": "員工賦權使客戶問題得到更快速的解決。"
+        }
+      ]
+    },
+    {
+      "headword": "accountability",
+      "partOfSpeech": "n.",
+      "definitionZh": "究責，員工須對自身行為與工作成果負責的文化",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A culture of accountability drives higher team performance.",
+          "translationZh": "究責文化有助於提升團隊整體績效。"
+        }
+      ]
+    },
+    {
+      "headword": "integrity",
+      "partOfSpeech": "n.",
+      "definitionZh": "誠信，在職場中持守道德準則的行為品格",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Integrity is listed as a core value in the company charter.",
+          "translationZh": "誠信被列為公司章程中的核心價值之一。"
+        }
+      ]
+    },
+    {
+      "headword": "flexibility",
+      "partOfSpeech": "n.",
+      "definitionZh": "彈性，工作時間或地點可依需求調整的制度安排",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Schedule flexibility ranked high in the employee survey.",
+          "translationZh": "時間彈性在員工調查中獲得很高的評價。"
+        }
+      ]
+    },
+    {
+      "headword": "telecommute",
+      "partOfSpeech": "v.",
+      "definitionZh": "遠端工作，從非公司場所透過網路執行職務",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Staff may telecommute up to three days per week.",
+          "translationZh": "員工每週最多可遠端工作三天。"
+        }
+      ]
+    },
+    {
+      "headword": "hybrid",
+      "partOfSpeech": "adj.",
+      "definitionZh": "混合式的，結合辦公室與遠距工作的彈性工作模式",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The hybrid work policy requires two office days per week.",
+          "translationZh": "混合式工作政策要求每週到辦公室兩天。"
+        }
+      ]
+    },
+    {
+      "headword": "flextime",
+      "partOfSpeech": "n.",
+      "definitionZh": "彈性工時，員工可自主調配上下班時間的制度",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Flextime lets employees start between 7 and 10 a.m.",
+          "translationZh": "彈性工時制度允許員工在早上七點至十點間開始上班。"
+        }
+      ]
+    },
+    {
+      "headword": "delegation",
+      "partOfSpeech": "n.",
+      "definitionZh": "授權委派，將任務或決策責任下授給部屬執行",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Effective delegation frees managers for strategic work.",
+          "translationZh": "有效的授權委派讓主管得以專注於策略工作。"
+        }
+      ]
+    },
+    {
+      "headword": "facilitation",
+      "partOfSpeech": "n.",
+      "definitionZh": "引導主持，協助會議或工作坊順利進行的技能",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Good facilitation keeps workshops on track and productive.",
+          "translationZh": "良好的引導能讓工作坊保持聚焦且富有成效。"
+        }
+      ]
+    },
+    {
+      "headword": "offboarding",
+      "partOfSpeech": "n.",
+      "definitionZh": "離職交接，員工離職時的工作移交與結清程序",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Proper offboarding protects company data when staff leave.",
+          "translationZh": "完善的離職交接程序在員工離職時保護公司資料。"
+        }
+      ]
+    },
+    {
+      "headword": "reintegration",
+      "partOfSpeech": "n.",
+      "definitionZh": "復職整合，長期缺勤員工重返職場的適應過程",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A reintegration plan helped her return after medical leave.",
+          "translationZh": "復職整合計畫協助她在醫療假後順利回歸崗位。"
+        }
+      ]
+    },
+    {
+      "headword": "perquisite",
+      "partOfSpeech": "n.",
+      "definitionZh": "職位附帶特殊福利，如公司車或高端診所資格等附加待遇",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A company car is a common perquisite for senior managers.",
+          "translationZh": "公司用車是資深主管常見的職位附帶福利。"
+        }
+      ]
+    },
+    {
+      "headword": "stipend",
+      "partOfSpeech": "n.",
+      "definitionZh": "補助金，給付實習生或培訓人員的固定生活費",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Interns receive a monthly stipend of five hundred dollars.",
+          "translationZh": "實習生每月獲得五百美元的補助金。"
+        }
+      ]
+    },
+    {
+      "headword": "absenteeism",
+      "partOfSpeech": "n.",
+      "definitionZh": "慢性缺勤，員工習慣性或反覆不出勤的問題現象",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "High absenteeism signals low morale or health issues.",
+          "translationZh": "高度慢性缺勤往往顯示士氣低落或健康問題。"
+        }
+      ]
+    },
+    {
+      "headword": "outsourcing",
+      "partOfSpeech": "n.",
+      "definitionZh": "外包，將特定業務交由外部廠商執行的策略",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Payroll outsourcing reduced HR administrative workload.",
+          "translationZh": "薪資作業外包降低了人資部門的行政負擔。"
+        }
+      ]
+    },
+    {
+      "headword": "talent",
+      "partOfSpeech": "n.",
+      "definitionZh": "人才，具備高潛力或特殊能力的優秀員工",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Attracting top talent is critical in a competitive market.",
+          "translationZh": "在競爭激烈的市場中吸引頂尖人才至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "incumbent",
+      "partOfSpeech": "n.",
+      "definitionZh": "現任者，目前擔任特定職位的員工",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The incumbent will train her successor before departing.",
+          "translationZh": "現任者將在離職前培訓其繼任者。"
+        }
+      ]
+    },
+    {
+      "headword": "mentee",
+      "partOfSpeech": "n.",
+      "definitionZh": "受輔導員工，在師徒制中接受資深人員指引的學員",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each mentor meets their mentee once a month.",
+          "translationZh": "每位導師每月與其受輔導員工會面一次。"
+        }
+      ]
+    },
+    {
+      "headword": "advocate",
+      "partOfSpeech": "n.",
+      "definitionZh": "倡議者，在組織內積極推動特定文化或政策改革的人",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She became an advocate for flexible work arrangements.",
+          "translationZh": "她成為了彈性工作安排政策的積極倡議者。"
+        }
+      ]
+    },
+    {
+      "headword": "liaison",
+      "partOfSpeech": "n.",
+      "definitionZh": "聯絡窗口，負責協調不同部門或組織間溝通的人員",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The HR liaison handles queries between staff and management.",
+          "translationZh": "人資聯絡窗口處理員工與管理層之間的問題。"
+        }
+      ]
+    },
+    {
+      "headword": "bargaining",
+      "partOfSpeech": "n.",
+      "definitionZh": "勞資談判，勞資雙方就薪酬或工作條件進行的集體協商",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Collective bargaining resulted in a 5% wage increase.",
+          "translationZh": "集體勞資談判達成了百分之五的薪資調漲。"
+        }
+      ]
+    },
+    {
+      "headword": "ergonomics",
+      "partOfSpeech": "n.",
+      "definitionZh": "人因工程，研究人與工作環境互動以降低傷害的學科",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Office ergonomics training reduced repetitive strain injuries.",
+          "translationZh": "辦公室人因工程培訓減少了重複性勞損傷害。"
+        }
+      ]
+    },
+    {
+      "headword": "disability",
+      "partOfSpeech": "n.",
+      "definitionZh": "身心障礙，影響員工特定能力的生理或心理狀況",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Employees with a disability may request adjusted duties.",
+          "translationZh": "身心障礙員工可申請調整工作職責。"
+        }
+      ]
+    },
+    {
+      "headword": "rehabilitation",
+      "partOfSpeech": "n.",
+      "definitionZh": "職業復健，協助受傷或病後員工重返工作的療復過程",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A rehabilitation program supported her return after surgery.",
+          "translationZh": "職業復健計畫支持她術後重返工作崗位。"
+        }
+      ]
+    },
+    {
+      "headword": "occupational",
+      "partOfSpeech": "adj.",
+      "definitionZh": "職業性的，與特定工作環境相關的健康或安全事項",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Occupational health checks are mandatory for field workers.",
+          "translationZh": "現場工作人員須強制接受職業健康檢查。"
+        }
+      ]
+    },
+    {
+      "headword": "expatriate",
+      "partOfSpeech": "n.",
+      "definitionZh": "外派人員，被派駐海外執行職務的員工",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Expatriate packages include housing and education allowances.",
+          "translationZh": "外派人員方案包含住房及子女教育津貼。"
+        }
+      ]
+    },
+    {
+      "headword": "induction",
+      "partOfSpeech": "n.",
+      "definitionZh": "入職說明，引導新進員工了解公司政策與文化的培訓",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The induction programme lasts two days for all new hires.",
+          "translationZh": "入職說明計畫對所有新進員工為期兩天。"
+        }
+      ]
+    },
+    {
+      "headword": "deployment",
+      "partOfSpeech": "n.",
+      "definitionZh": "人員部署，將員工配置至特定任務或地點的決策",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Staff deployment was adjusted after the merger.",
+          "translationZh": "合併後，人員部署安排做了相應調整。"
+        }
+      ]
+    },
+    {
+      "headword": "utilization",
+      "partOfSpeech": "n.",
+      "definitionZh": "人力利用率，已分配任務工時佔總可用工時的比例",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Consultant utilization rates must stay above 80%.",
+          "translationZh": "顧問人力利用率須維持在百分之八十以上。"
+        }
+      ]
+    },
+    {
+      "headword": "criterion",
+      "partOfSpeech": "n.",
+      "definitionZh": "評估標準，用於判斷員工表現或資格的特定條件",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Communication skill is a core criterion in every review.",
+          "translationZh": "溝通能力是每次考核的核心評估標準之一。"
+        }
+      ]
+    },
+    {
+      "headword": "rotational",
+      "partOfSpeech": "adj.",
+      "definitionZh": "輪調式的，員工在不同部門間輪換以拓展職涯視野",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The rotational graduate program spans four business units.",
+          "translationZh": "輪調式應屆生計畫涵蓋四個事業單位。"
+        }
+      ]
+    },
+    {
+      "headword": "internship",
+      "partOfSpeech": "n.",
+      "definitionZh": "實習，學生或應屆畢業生在職場累積實務經驗的計畫",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Summer internships often lead to full-time job offers.",
+          "translationZh": "暑期實習往往成為取得全職工作機會的途徑。"
+        }
+      ]
+    },
+    {
+      "headword": "apprenticeship",
+      "partOfSpeech": "n.",
+      "definitionZh": "學徒制，透過師傅帶領與實作訓練取得技術的培訓制度",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The apprenticeship combines on-the-job training with coursework.",
+          "translationZh": "學徒制結合在職訓練與課程學習。"
+        }
+      ]
+    },
+    {
+      "headword": "sabbatical",
+      "partOfSpeech": "n.",
+      "definitionZh": "帶薪進修假，員工獲准暫離崗位從事學習或研究的假期",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "He took a six-month sabbatical to complete his doctorate.",
+          "translationZh": "他請了六個月帶薪進修假以完成博士學位。"
+        }
+      ]
+    },
+    {
+      "headword": "furlough",
+      "partOfSpeech": "n.",
+      "definitionZh": "強制無薪假，因業務緊縮暫時停止員工上班的措施",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Hundreds of workers were placed on furlough during the slowdown.",
+          "translationZh": "業務低迷期間，數百名工人被迫放強制無薪假。"
+        }
+      ]
+    },
+    {
+      "headword": "suspension",
+      "partOfSpeech": "n.",
+      "definitionZh": "停職，因調查或違規而暫時解除員工職務的措施",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "He was placed on suspension pending a misconduct investigation.",
+          "translationZh": "他在不當行為調查期間遭到停職處分。"
+        }
+      ]
+    },
+    {
+      "headword": "reinstatement",
+      "partOfSpeech": "n.",
+      "definitionZh": "復職，員工在停職或糾紛解決後重返原職位",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The tribunal ordered the employee's reinstatement with back pay.",
+          "translationZh": "勞動法庭裁定員工復職並補發欠薪。"
+        }
+      ]
+    },
+    {
+      "headword": "reprimand",
+      "partOfSpeech": "n.",
+      "definitionZh": "書面警告，對輕微違規員工發出的正式書面告誡",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A written reprimand was issued for repeated tardiness.",
+          "translationZh": "因反覆遲到，員工收到了一份書面警告。"
+        }
+      ]
+    },
+    {
+      "headword": "tenure",
+      "partOfSpeech": "n.",
+      "definitionZh": "服務年資，員工在同一組織任職的持續時間",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Long tenure often qualifies staff for enhanced pension benefits.",
+          "translationZh": "長期服務年資通常可讓員工享有更優厚的退休金福利。"
+        }
+      ]
+    },
+    {
+      "headword": "seniority",
+      "partOfSpeech": "n.",
+      "definitionZh": "年資，依任職年限決定優先權或薪酬等第的制度",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Promotion decisions factor in both performance and seniority.",
+          "translationZh": "晉升決定同時考量績效表現與服務年資。"
+        }
+      ]
+    },
+    {
+      "headword": "burnout",
+      "partOfSpeech": "n.",
+      "definitionZh": "職業耗竭，長期過度工作壓力導致精力枯竭的狀態",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Burnout led to a 30% spike in sick leave applications.",
+          "translationZh": "職業耗竭導致病假申請量暴增了百分之三十。"
+        }
+      ]
+    },
+    {
+      "headword": "wellbeing",
+      "partOfSpeech": "n.",
+      "definitionZh": "職場福祉，員工身心健康與工作滿意度的整體狀態",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The wellbeing program includes free counseling sessions.",
+          "translationZh": "職場福祉計畫包含免費的諮商輔導服務。"
+        }
+      ]
+    },
+    {
+      "headword": "resilience",
+      "partOfSpeech": "n.",
+      "definitionZh": "抗壓韌性，面對工作挫折後迅速恢復的心理能力",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Resilience workshops help teams cope with rapid change.",
+          "translationZh": "抗壓韌性工作坊協助團隊應對快速變化。"
+        }
+      ]
+    },
+    {
+      "headword": "assertiveness",
+      "partOfSpeech": "n.",
+      "definitionZh": "自信表達，清楚表明立場與需求而不侵犯他人的溝通技巧",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Assertiveness training improved negotiation outcomes for the team.",
+          "translationZh": "自信表達培訓改善了團隊在談判中的成果。"
+        }
+      ]
+    },
+    {
+      "headword": "empathy",
+      "partOfSpeech": "n.",
+      "definitionZh": "同理心，理解並分享他人感受的情緒能力",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Managers with empathy retain staff more effectively.",
+          "translationZh": "具備同理心的主管能更有效地留住員工。"
+        }
+      ]
+    },
+    {
+      "headword": "mindfulness",
+      "partOfSpeech": "n.",
+      "definitionZh": "正念，以覺察當下狀態減緩工作壓力的心理練習",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Mindfulness sessions reduced reported stress levels by 20%.",
+          "translationZh": "正念課程使員工回報的壓力程度降低了百分之二十。"
+        }
+      ]
+    },
+    {
+      "headword": "bias",
+      "partOfSpeech": "n.",
+      "definitionZh": "偏見，在決策中對特定群體不公正的傾向",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Blind resume reviews help reduce unconscious bias in hiring.",
+          "translationZh": "匿名履歷審查有助於減少招募中的無意識偏見。"
+        }
+      ]
+    },
+    {
+      "headword": "stereotype",
+      "partOfSpeech": "n.",
+      "definitionZh": "刻板印象，對特定群體持有的固化且過度簡化的看法",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Diversity training challenges workplace stereotypes effectively.",
+          "translationZh": "多元培訓能有效挑戰職場中的刻板印象。"
+        }
+      ]
+    },
+    {
+      "headword": "discrimination",
+      "partOfSpeech": "n.",
+      "definitionZh": "職場歧視，因個人特質而受到不公平差別對待",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company has a strict policy against age discrimination.",
+          "translationZh": "公司對年齡歧視採取嚴格的禁止政策。"
+        }
+      ]
+    },
+    {
+      "headword": "belonging",
+      "partOfSpeech": "n.",
+      "definitionZh": "歸屬感，員工感受到被接納、受重視的職場體驗",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A sense of belonging drives higher engagement and loyalty.",
+          "translationZh": "歸屬感能提升員工投入度與對組織的忠誠。"
+        }
+      ]
+    },
+    {
+      "headword": "solidarity",
+      "partOfSpeech": "n.",
+      "definitionZh": "勞工凝聚力，員工在共同訴求上相互支持的集體意識",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Worker solidarity strengthened their position in negotiations.",
+          "translationZh": "勞工凝聚力強化了員工在談判中的立場。"
+        }
+      ]
+    },
+    {
+      "headword": "lockout",
+      "partOfSpeech": "n.",
+      "definitionZh": "停工封鎖，雇主拒絕員工進場以迫使接受條件的措施",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The lockout lasted two weeks before a deal was reached.",
+          "translationZh": "停工封鎖持續了兩週後才達成協議。"
+        }
+      ]
+    },
+    {
+      "headword": "strike",
+      "partOfSpeech": "n.",
+      "definitionZh": "罷工，員工集體停工以抗議或爭取待遇改善的行動",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The strike halted production for three consecutive days.",
+          "translationZh": "此次罷工導致生產線連續三天停擺。"
+        }
+      ]
+    },
+    {
+      "headword": "mandate",
+      "partOfSpeech": "n.",
+      "definitionZh": "授權指令，上級賦予執行特定任務的正式委任",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "HR received a mandate to improve diversity within one year.",
+          "translationZh": "人資部收到了在一年內改善多元性的授權指令。"
+        }
+      ]
+    },
+    {
+      "headword": "directive",
+      "partOfSpeech": "n.",
+      "definitionZh": "官方指令，由管理層發布的具拘束力的正式命令",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A company directive banned personal devices during meetings.",
+          "translationZh": "公司官方指令禁止在會議期間使用個人裝置。"
+        }
+      ]
+    },
+    {
+      "headword": "retrenchment",
+      "partOfSpeech": "n.",
+      "definitionZh": "人力縮減，因財務壓力削減員工人數或支出的措施",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Retrenchment affected the entire middle management layer.",
+          "translationZh": "此次人力縮減影響了整個中階管理層。"
+        }
+      ]
+    },
+    {
+      "headword": "amalgamation",
+      "partOfSpeech": "n.",
+      "definitionZh": "組織合併，兩個或以上組織整合為單一實體的行動",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The amalgamation created one of the region's largest employers.",
+          "translationZh": "此次組織合併創造了該地區規模最大的雇主之一。"
+        }
+      ]
+    },
+    {
+      "headword": "sanction",
+      "partOfSpeech": "n.",
+      "definitionZh": "懲處措施，對違規行為施加的正式處罰或限制",
+      "examTags": [
+        "TOEIC",
+        "hr",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company imposed sanctions for repeated policy breaches.",
+          "translationZh": "公司對反覆違反政策的行為實施了懲處措施。"
+        }
+      ]
     }
   ]
 }

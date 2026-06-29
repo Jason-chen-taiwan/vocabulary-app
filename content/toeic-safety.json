@@ -1,0 +1,2063 @@
+{
+  "slug": "toeic-safety",
+  "name": "職場健康與安全",
+  "description": "涵蓋職場安全、緊急應變、健康衛生與設備維護的核心 TOEIC 詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "evacuation",
+      "partOfSpeech": "noun",
+      "definitionZh": "疏散；緊急情況下有序離開危險區域",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The evacuation plan must be posted on every floor.",
+          "translationZh": "疏散計畫必須張貼在每一層樓。"
+        }
+      ]
+    },
+    {
+      "headword": "drill",
+      "partOfSpeech": "noun",
+      "definitionZh": "演練；模擬緊急狀況的定期訓練",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A fire drill will be held on Friday at 10 a.m.",
+          "translationZh": "週五上午十點將舉行消防演習。"
+        }
+      ]
+    },
+    {
+      "headword": "alarm",
+      "partOfSpeech": "noun",
+      "definitionZh": "警報器；偵測危險並發出聲音或信號的裝置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The fire alarm activated automatically when smoke was detected.",
+          "translationZh": "偵測到煙霧時，火災警報器自動啟動。"
+        }
+      ]
+    },
+    {
+      "headword": "siren",
+      "partOfSpeech": "noun",
+      "definitionZh": "警報聲；緊急情況警示用的高音警鳴聲",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The siren sounded to alert all workers of the gas leak.",
+          "translationZh": "警報聲響起，提醒所有工人注意氣體洩漏。"
+        }
+      ]
+    },
+    {
+      "headword": "extinguisher",
+      "partOfSpeech": "noun",
+      "definitionZh": "滅火器；撲滅初期火源的手持式器材",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "There is a fire extinguisher mounted next to each exit.",
+          "translationZh": "每個出口旁都安裝了一個滅火器。"
+        }
+      ]
+    },
+    {
+      "headword": "refuge",
+      "partOfSpeech": "noun",
+      "definitionZh": "避難所；緊急情況下供人員暫時避難的安全處所",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workers gathered at the designated refuge during the drill.",
+          "translationZh": "演練期間，工人們聚集在指定的避難所。"
+        }
+      ]
+    },
+    {
+      "headword": "rescue",
+      "partOfSpeech": "noun",
+      "definitionZh": "救援；在緊急情況下協助傷患脫離危險",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The rescue team arrived within minutes of the alert.",
+          "translationZh": "救援隊在警報發出後數分鐘內抵達。"
+        }
+      ]
+    },
+    {
+      "headword": "helmet",
+      "partOfSpeech": "noun",
+      "definitionZh": "安全帽；保護頭部免受撞擊的硬式頭盔",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workers must wear a helmet in all construction zones.",
+          "translationZh": "工人在所有施工區域都必須佩戴安全帽。"
+        }
+      ]
+    },
+    {
+      "headword": "goggles",
+      "partOfSpeech": "noun",
+      "definitionZh": "護目鏡；保護眼睛不受化學品或碎屑傷害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Wear goggles when handling any corrosive chemicals.",
+          "translationZh": "處理任何腐蝕性化學品時須配戴護目鏡。"
+        }
+      ]
+    },
+    {
+      "headword": "gloves",
+      "partOfSpeech": "noun",
+      "definitionZh": "手套；保護雙手不受切割、化學品或高溫傷害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Protective gloves are required when handling sharp materials.",
+          "translationZh": "處理尖銳材料時必須佩戴防護手套。"
+        }
+      ]
+    },
+    {
+      "headword": "vest",
+      "partOfSpeech": "noun",
+      "definitionZh": "反光背心；提高在施工或交通環境中能見度的安全服",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "All workers must wear a high-visibility vest on site.",
+          "translationZh": "所有工人在工地必須穿著高能見度反光背心。"
+        }
+      ]
+    },
+    {
+      "headword": "respirator",
+      "partOfSpeech": "noun",
+      "definitionZh": "呼吸防護具；過濾有毒或有害氣體的口罩設備",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A respirator is required when painting in enclosed areas.",
+          "translationZh": "在密閉空間噴漆時必須佩戴呼吸防護具。"
+        }
+      ]
+    },
+    {
+      "headword": "harness",
+      "partOfSpeech": "noun",
+      "definitionZh": "安全帶；防止高空作業人員墜落的束帶系統",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workers above two meters must always wear a safety harness.",
+          "translationZh": "兩公尺以上作業的工人必須始終佩戴安全帶。"
+        }
+      ]
+    },
+    {
+      "headword": "shield",
+      "partOfSpeech": "noun",
+      "definitionZh": "防護面罩；隔絕飛濺物或強光傷害面部的保護板",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A welding shield protects the face from sparks and UV light.",
+          "translationZh": "焊接面罩保護臉部免受火花和紫外線傷害。"
+        }
+      ]
+    },
+    {
+      "headword": "mask",
+      "partOfSpeech": "noun",
+      "definitionZh": "防護口罩；過濾粉塵、病菌或微粒的覆口鼻器具",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Wear a dust mask when cutting or sanding materials.",
+          "translationZh": "切割或打磨材料時須配戴防塵口罩。"
+        }
+      ]
+    },
+    {
+      "headword": "sanitation",
+      "partOfSpeech": "noun",
+      "definitionZh": "環境衛生；維持工作場所清潔以防止疾病傳播",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Good sanitation in the kitchen prevents food-related illness.",
+          "translationZh": "廚房良好的衛生環境可預防食源性疾病。"
+        }
+      ]
+    },
+    {
+      "headword": "hygiene",
+      "partOfSpeech": "noun",
+      "definitionZh": "個人衛生；保持身體清潔以降低感染風險的習慣",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Hand hygiene is essential before handling food or equipment.",
+          "translationZh": "處理食物或設備前，手部衛生至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "disinfection",
+      "partOfSpeech": "noun",
+      "definitionZh": "消毒；使用化學藥劑殺滅物體表面的病原體",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Daily disinfection of shared surfaces reduces contamination.",
+          "translationZh": "每日對共用表面消毒可降低污染風險。"
+        }
+      ]
+    },
+    {
+      "headword": "cleanliness",
+      "partOfSpeech": "noun",
+      "definitionZh": "整潔；保持工作環境無髒污以防事故及疾病",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Cleanliness in the workshop reduces the risk of slipping.",
+          "translationZh": "工作坊的整潔可降低滑倒的風險。"
+        }
+      ]
+    },
+    {
+      "headword": "ventilation",
+      "partOfSpeech": "noun",
+      "definitionZh": "通風；確保空間內空氣流通以降低有害氣體濃度",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Adequate ventilation prevents the buildup of toxic fumes.",
+          "translationZh": "充足的通風可防止有毒氣體積聚。"
+        }
+      ]
+    },
+    {
+      "headword": "sterilization",
+      "partOfSpeech": "noun",
+      "definitionZh": "滅菌；徹底消除物品上所有微生物的處理過程",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Sterilization of surgical tools is required before each use.",
+          "translationZh": "手術器械在每次使用前均須進行滅菌處理。"
+        }
+      ]
+    },
+    {
+      "headword": "injury",
+      "partOfSpeech": "noun",
+      "definitionZh": "傷害；身體受到損傷的狀態",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Report any workplace injury to your supervisor immediately.",
+          "translationZh": "任何職場傷害都必須立即向主管通報。"
+        }
+      ]
+    },
+    {
+      "headword": "bruise",
+      "partOfSpeech": "noun",
+      "definitionZh": "瘀傷；皮下出血造成的暗色腫痛部位",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "He suffered a bruise on his arm after the fall.",
+          "translationZh": "他跌倒後手臂上出現了瘀傷。"
+        }
+      ]
+    },
+    {
+      "headword": "fracture",
+      "partOfSpeech": "noun",
+      "definitionZh": "骨折；骨骼因衝擊或壓力而破裂",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "She suffered a wrist fracture after slipping on wet tiles.",
+          "translationZh": "她在濕滑的磁磚上滑倒後腕部骨折。"
+        }
+      ]
+    },
+    {
+      "headword": "sprain",
+      "partOfSpeech": "noun",
+      "definitionZh": "扭傷；韌帶過度拉伸或撕裂的傷害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "He had a sprain in his ankle after stepping on uneven ground.",
+          "translationZh": "他踩在不平整的地面後腳踝扭傷。"
+        }
+      ]
+    },
+    {
+      "headword": "wound",
+      "partOfSpeech": "noun",
+      "definitionZh": "傷口；皮膚或組織受到切割或撕裂的開放性損傷",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The wound must be cleaned and bandaged to prevent infection.",
+          "translationZh": "傷口必須清潔並包紮以防止感染。"
+        }
+      ]
+    },
+    {
+      "headword": "trauma",
+      "partOfSpeech": "noun",
+      "definitionZh": "創傷；因嚴重意外或衝擊導致的身心傷害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workplace accidents can cause both physical and mental trauma.",
+          "translationZh": "職場意外可造成身體與心理的雙重創傷。"
+        }
+      ]
+    },
+    {
+      "headword": "fatigue",
+      "partOfSpeech": "noun",
+      "definitionZh": "疲勞；過度工作或睡眠不足導致的身體或精神衰竭",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Driver fatigue is a leading cause of road accidents.",
+          "translationZh": "駕駛疲勞是道路事故的主要原因之一。"
+        }
+      ]
+    },
+    {
+      "headword": "violation",
+      "partOfSpeech": "noun",
+      "definitionZh": "違規；違反安全規定或法律的行為",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A safety violation may result in fines or work stoppage.",
+          "translationZh": "違反安全規定可能導致罰款或停工。"
+        }
+      ]
+    },
+    {
+      "headword": "enforcement",
+      "partOfSpeech": "noun",
+      "definitionZh": "執行；確保安全規範被遵守的監督與管理行動",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Stricter enforcement of safety rules reduced injury rates.",
+          "translationZh": "更嚴格地執行安全規則有效降低了受傷率。"
+        }
+      ]
+    },
+    {
+      "headword": "precaution",
+      "partOfSpeech": "noun",
+      "definitionZh": "預防措施；為避免危險而事先採取的防範行動",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Take precautions when entering a confined or dark space.",
+          "translationZh": "進入密閉或黑暗空間時須採取預防措施。"
+        }
+      ]
+    },
+    {
+      "headword": "restriction",
+      "partOfSpeech": "noun",
+      "definitionZh": "限制；禁止或管控特定行為以保障安全的規定",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "There is a speed restriction of 5 km/h inside the warehouse.",
+          "translationZh": "倉庫內限速每小時五公里。"
+        }
+      ]
+    },
+    {
+      "headword": "malfunction",
+      "partOfSpeech": "noun",
+      "definitionZh": "故障；設備未能正常運作的狀態",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A machine malfunction caused the production line to halt.",
+          "translationZh": "機器故障導致生產線停擺。"
+        }
+      ]
+    },
+    {
+      "headword": "fixture",
+      "partOfSpeech": "noun",
+      "definitionZh": "固定裝置；安裝於建築結構上的電氣或管路設備",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "All electrical fixtures must be inspected monthly for safety.",
+          "translationZh": "所有電氣固定裝置須每月進行安全檢查。"
+        }
+      ]
+    },
+    {
+      "headword": "installation",
+      "partOfSpeech": "noun",
+      "definitionZh": "安裝；將設備或系統固定於指定位置的作業過程",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Proper installation of fire suppression systems is critical.",
+          "translationZh": "正確安裝消防抑制系統至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "repair",
+      "partOfSpeech": "noun",
+      "definitionZh": "修繕；針對損壞設備或設施進行修復的作業",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Submit a work order for the repair of the broken railing.",
+          "translationZh": "請提交工作單，以修繕損壞的扶手欄杆。"
+        }
+      ]
+    },
+    {
+      "headword": "renovation",
+      "partOfSpeech": "noun",
+      "definitionZh": "翻新；對設施或建築進行整修或改善的工程",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "During renovation, the area must be cordoned off for safety.",
+          "translationZh": "翻新期間，該區域必須圍起警戒線以確保安全。"
+        }
+      ]
+    },
+    {
+      "headword": "stairway",
+      "partOfSpeech": "noun",
+      "definitionZh": "樓梯通道；連接不同樓層的階梯走道",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The stairway must remain clear of boxes and equipment.",
+          "translationZh": "樓梯通道必須保持暢通，不得堆放箱子和設備。"
+        }
+      ]
+    },
+    {
+      "headword": "railing",
+      "partOfSpeech": "noun",
+      "definitionZh": "扶手欄杆；設置於樓梯或走道旁防止人員跌落的護欄",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A damaged railing must be repaired before anyone uses the stairs.",
+          "translationZh": "損壞的扶手欄杆必須在有人使用樓梯前修好。"
+        }
+      ]
+    },
+    {
+      "headword": "posture",
+      "partOfSpeech": "noun",
+      "definitionZh": "姿勢；身體在工作時的位置或排列方式",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Poor posture while sitting can lead to back and neck pain.",
+          "translationZh": "坐姿不良可能導致背部和頸部疼痛。"
+        }
+      ]
+    },
+    {
+      "headword": "strain",
+      "partOfSpeech": "noun",
+      "definitionZh": "拉傷；肌肉或肌腱因過度使用而造成的損傷",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Lifting heavy boxes without support can cause back strain.",
+          "translationZh": "未做支撐就搬運重箱可能造成背部拉傷。"
+        }
+      ]
+    },
+    {
+      "headword": "adjustment",
+      "partOfSpeech": "noun",
+      "definitionZh": "調整；修改設備或工作方式以符合人體工學的行為",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Make an adjustment to your chair height to reduce back strain.",
+          "translationZh": "調整椅子高度以減少背部拉傷。"
+        }
+      ]
+    },
+    {
+      "headword": "workspace",
+      "partOfSpeech": "noun",
+      "definitionZh": "工作區域；員工執行職務的操作空間與環境",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Keep your workspace tidy to prevent slipping and tripping.",
+          "translationZh": "保持工作區域整潔以防止滑倒和絆倒。"
+        }
+      ]
+    },
+    {
+      "headword": "signage",
+      "partOfSpeech": "noun",
+      "definitionZh": "標示牌；指示方向、警告危險或提供安全資訊的標誌",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Clear safety signage must be posted near all hazardous zones.",
+          "translationZh": "所有危險區域附近必須張貼清晰的安全標示。"
+        }
+      ]
+    },
+    {
+      "headword": "warning",
+      "partOfSpeech": "noun",
+      "definitionZh": "警告；提示某物或某地點存在危險的通知",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A warning was issued about the slippery floor near the entrance.",
+          "translationZh": "當局發出了關於入口附近地板濕滑的警告。"
+        }
+      ]
+    },
+    {
+      "headword": "caution",
+      "partOfSpeech": "noun",
+      "definitionZh": "謹慎提示；要求注意潛在危險的提醒",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Exercise caution when operating heavy machinery.",
+          "translationZh": "操作重型機械時須謹慎小心。"
+        }
+      ]
+    },
+    {
+      "headword": "symbol",
+      "partOfSpeech": "noun",
+      "definitionZh": "安全符號；以圖形傳達特定危險或指示的視覺標記",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The hazard symbol must be printed on all chemical containers.",
+          "translationZh": "危險符號必須印在所有化學品容器上。"
+        }
+      ]
+    },
+    {
+      "headword": "protect",
+      "partOfSpeech": "verb",
+      "definitionZh": "保護；採取措施使人員或設備免受危害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Wear proper gear to protect yourself from chemical splashes.",
+          "translationZh": "穿戴適當防護裝備以保護自己免受化學品濺射。"
+        }
+      ]
+    },
+    {
+      "headword": "prevent",
+      "partOfSpeech": "verb",
+      "definitionZh": "預防；採取行動阻止危險事故的發生",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Regular drills help prevent panic during real emergencies.",
+          "translationZh": "定期演練有助於在真實緊急情況下防止恐慌。"
+        }
+      ]
+    },
+    {
+      "headword": "accident",
+      "partOfSpeech": "noun",
+      "definitionZh": "意外事故；未預期發生的造成傷害或損失的事件",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "All accidents must be reported to the safety team within 24 hours.",
+          "translationZh": "所有意外事故必須在二十四小時內向安全團隊通報。"
+        }
+      ]
+    },
+    {
+      "headword": "toxic",
+      "partOfSpeech": "adjective",
+      "definitionZh": "有毒的；含有對人體有害物質的",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "This chemical is toxic and must be stored in a locked cabinet.",
+          "translationZh": "此化學品具有毒性，必須存放於上鎖的櫃子中。"
+        }
+      ]
+    },
+    {
+      "headword": "spillage",
+      "partOfSpeech": "noun",
+      "definitionZh": "外漏；液體或有害物質從容器中不慎溢出",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Clean up any spillage immediately to avoid slipping hazards.",
+          "translationZh": "立即清理任何溢出物，以避免滑倒的危險。"
+        }
+      ]
+    },
+    {
+      "headword": "leakage",
+      "partOfSpeech": "noun",
+      "definitionZh": "滲漏；氣體或液體通過容器或管道的縫隙逸出",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Gas leakage in the storage room triggered the alarm.",
+          "translationZh": "儲藏室的氣體洩漏觸發了警報。"
+        }
+      ]
+    },
+    {
+      "headword": "disposal",
+      "partOfSpeech": "noun",
+      "definitionZh": "廢棄物處理；以安全合規的方式處置有害廢物",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Follow the correct disposal procedure for all hazardous waste.",
+          "translationZh": "對所有有害廢棄物均應遵循正確的處置程序。"
+        }
+      ]
+    },
+    {
+      "headword": "waste",
+      "partOfSpeech": "noun",
+      "definitionZh": "廢棄物；在生產或使用過程中產生的無用或有害物料",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Chemical waste must be stored separately in sealed containers.",
+          "translationZh": "化學廢棄物必須單獨存放在密封容器中。"
+        }
+      ]
+    },
+    {
+      "headword": "chemical",
+      "partOfSpeech": "noun",
+      "definitionZh": "化學品；工業或實驗室中使用的化合物",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "All chemicals must be labeled with their name and hazard level.",
+          "translationZh": "所有化學品必須標明名稱和危害等級。"
+        }
+      ]
+    },
+    {
+      "headword": "substance",
+      "partOfSpeech": "noun",
+      "definitionZh": "物質；可能對健康造成影響的任何材料或化合物",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Never mix two unknown substances without reading the label.",
+          "translationZh": "未閱讀標籤前，切勿混合兩種不明物質。"
+        }
+      ]
+    },
+    {
+      "headword": "inspector",
+      "partOfSpeech": "noun",
+      "definitionZh": "稽查員；負責核查安全規範是否被遵守的官員",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A government inspector visited the factory to check compliance.",
+          "translationZh": "政府稽查員前往工廠核查規範遵守情況。"
+        }
+      ]
+    },
+    {
+      "headword": "officer",
+      "partOfSpeech": "noun",
+      "definitionZh": "安全主任；負責監督工作場所安全的人員",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The safety officer issued a warning about blocked fire exits.",
+          "translationZh": "安全主任就堵塞的消防出口發出警告。"
+        }
+      ]
+    },
+    {
+      "headword": "secure",
+      "partOfSpeech": "verb",
+      "definitionZh": "固定；確保物品或區域穩固安全不會移位或失控",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Secure all shelving units to the wall to prevent tipping.",
+          "translationZh": "將所有置物架固定於牆面以防止傾倒。"
+        }
+      ]
+    },
+    {
+      "headword": "detection",
+      "partOfSpeech": "noun",
+      "definitionZh": "偵測；發現煙霧、氣體或危險物質的監測行為",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Early detection of fire can save lives and limit damage.",
+          "translationZh": "早期偵測火災可以拯救生命並降低損失。"
+        }
+      ]
+    },
+    {
+      "headword": "protective",
+      "partOfSpeech": "adjective",
+      "definitionZh": "防護性的；用於防止危害或傷害的",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "All workers must wear protective gear before entering the zone.",
+          "translationZh": "所有工人進入該區域前必須穿戴防護裝備。"
+        }
+      ]
+    },
+    {
+      "headword": "safeguard",
+      "partOfSpeech": "noun",
+      "definitionZh": "防護措施；預防危險的保護機制或規定",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The safety committee reviewed new safeguards for the lab.",
+          "translationZh": "安全委員會審查了實驗室的新防護措施。"
+        }
+      ]
+    },
+    {
+      "headword": "fire",
+      "partOfSpeech": "noun",
+      "definitionZh": "火災；建築或工廠中發生的無法控制的燃燒事故",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A fire broke out in the storage room due to faulty wiring.",
+          "translationZh": "儲藏室因電線故障引發了火災。"
+        }
+      ]
+    },
+    {
+      "headword": "exit",
+      "partOfSpeech": "noun",
+      "definitionZh": "緊急出口；供人員在緊急情況下迅速離開的通道",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Emergency exits must be unlocked and unobstructed at all times.",
+          "translationZh": "緊急出口在任何時候都必須保持解鎖且暢通無阻。"
+        }
+      ]
+    },
+    {
+      "headword": "warden",
+      "partOfSpeech": "noun",
+      "definitionZh": "安全督導員；負責引導人員疏散或管理安全的指定人",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Each floor has a designated warden to guide staff during drills.",
+          "translationZh": "每層樓都有一名指定督導員在演練期間引導員工。"
+        }
+      ]
+    },
+    {
+      "headword": "pathway",
+      "partOfSpeech": "noun",
+      "definitionZh": "通行走道；供人員安全移動的標示通道",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Keep the pathway to the emergency exit clear at all times.",
+          "translationZh": "通往緊急出口的走道在任何時候都必須保持暢通。"
+        }
+      ]
+    },
+    {
+      "headword": "blockage",
+      "partOfSpeech": "noun",
+      "definitionZh": "堵塞；阻擋通道或出口使其無法正常使用的狀況",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A blockage in the exit corridor was reported to the manager.",
+          "translationZh": "出口走廊的堵塞情況已向經理回報。"
+        }
+      ]
+    },
+    {
+      "headword": "obstruction",
+      "partOfSpeech": "noun",
+      "definitionZh": "障礙物；擋在通道、出口或設備前的物品",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Any obstruction to the fire escape route must be removed.",
+          "translationZh": "任何阻礙消防逃生路線的障礙物都必須清除。"
+        }
+      ]
+    },
+    {
+      "headword": "corrosive",
+      "partOfSpeech": "adjective",
+      "definitionZh": "腐蝕性的；能破壞皮膚、材料或結構的化學物質",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Corrosive liquids must be stored away from flammable materials.",
+          "translationZh": "腐蝕性液體必須與易燃材料分開存放。"
+        }
+      ]
+    },
+    {
+      "headword": "inhalation",
+      "partOfSpeech": "noun",
+      "definitionZh": "吸入；透過呼吸將有毒或有害物質引入肺部",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Inhalation of chemical fumes may cause serious lung damage.",
+          "translationZh": "吸入化學煙霧可能造成嚴重的肺部損傷。"
+        }
+      ]
+    },
+    {
+      "headword": "radiation",
+      "partOfSpeech": "noun",
+      "definitionZh": "輻射；能量以波或粒子形式發射，可能對人體有害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workers near radiation sources must wear monitoring badges.",
+          "translationZh": "在輻射源附近工作的人員必須佩戴監測徽章。"
+        }
+      ]
+    },
+    {
+      "headword": "contaminant",
+      "partOfSpeech": "noun",
+      "definitionZh": "污染物；使環境或物質不安全的外來雜質",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The water supply tested positive for a harmful contaminant.",
+          "translationZh": "供水系統的檢測發現了有害污染物。"
+        }
+      ]
+    },
+    {
+      "headword": "disinfectant",
+      "partOfSpeech": "noun",
+      "definitionZh": "消毒劑；用於殺滅表面病菌的化學清潔劑",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Apply disinfectant to all contact surfaces between shifts.",
+          "translationZh": "每次換班之間須對所有接觸面施用消毒劑。"
+        }
+      ]
+    },
+    {
+      "headword": "antiseptic",
+      "partOfSpeech": "noun",
+      "definitionZh": "抗菌藥；用於傷口清潔以防止感染的殺菌製劑",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Clean the wound with an antiseptic before applying the bandage.",
+          "translationZh": "包紮前應先用抗菌藥清潔傷口。"
+        }
+      ]
+    },
+    {
+      "headword": "barrier",
+      "partOfSpeech": "noun",
+      "definitionZh": "隔離屏障；用於分隔危險區域與人員的物理裝置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A barrier was placed around the wet floor to warn passersby.",
+          "translationZh": "在濕滑地板周圍放置了隔離屏障以警示行人。"
+        }
+      ]
+    },
+    {
+      "headword": "barricade",
+      "partOfSpeech": "noun",
+      "definitionZh": "臨時路障；封閉危險區域防止人員進入的障礙物",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Set up a barricade around the spill until it is cleaned up.",
+          "translationZh": "在洩漏物清理完畢前設置臨時路障隔離區域。"
+        }
+      ]
+    },
+    {
+      "headword": "lockdown",
+      "partOfSpeech": "noun",
+      "definitionZh": "封鎖；為應對緊急威脅而封閉建築或區域的措施",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The building went into lockdown after a gas leak was detected.",
+          "translationZh": "偵測到氣體洩漏後，整棟建築進入封鎖狀態。"
+        }
+      ]
+    },
+    {
+      "headword": "muster",
+      "partOfSpeech": "noun",
+      "definitionZh": "集合點；緊急疏散後人員集合報到的指定地點",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Staff gathered at the muster station after the fire alarm.",
+          "translationZh": "火警響起後，員工在集合站集合。"
+        }
+      ]
+    },
+    {
+      "headword": "assembly",
+      "partOfSpeech": "noun",
+      "definitionZh": "集合區；緊急疏散時人員聚集的指定安全地點",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Proceed to the assembly area when the evacuation alarm sounds.",
+          "translationZh": "疏散警報響起時，請前往集合區。"
+        }
+      ]
+    },
+    {
+      "headword": "combustible",
+      "partOfSpeech": "adjective",
+      "definitionZh": "易燃的；在接觸火源時容易點燃燃燒的",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Do not store combustible materials near heat sources.",
+          "translationZh": "請勿將易燃材料存放在熱源附近。"
+        }
+      ]
+    },
+    {
+      "headword": "explosion",
+      "partOfSpeech": "noun",
+      "definitionZh": "爆炸；物質在瞬間快速膨脹並釋放大量能量的事故",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The explosion was caused by a buildup of flammable gas.",
+          "translationZh": "爆炸是由易燃氣體積聚所引起的。"
+        }
+      ]
+    },
+    {
+      "headword": "ignition",
+      "partOfSpeech": "noun",
+      "definitionZh": "點火；引起燃燒開始的熱源或火花",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Keep ignition sources away from any flammable material.",
+          "translationZh": "請將點火源遠離一切易燃材料。"
+        }
+      ]
+    },
+    {
+      "headword": "flame",
+      "partOfSpeech": "noun",
+      "definitionZh": "火焰；物質燃燒時產生的可見光與熱的發光氣體",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Open flames are prohibited near the chemical storage area.",
+          "translationZh": "化學品儲存區附近禁止明火。"
+        }
+      ]
+    },
+    {
+      "headword": "firefighter",
+      "partOfSpeech": "noun",
+      "definitionZh": "消防員；受過訓練的滅火救災專業人員",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Firefighters were called to the scene of the warehouse fire.",
+          "translationZh": "消防員被呼叫前往倉庫火災現場。"
+        }
+      ]
+    },
+    {
+      "headword": "sprinkler",
+      "partOfSpeech": "noun",
+      "definitionZh": "灑水滅火系統；偵測高溫後自動噴水的天花板消防裝置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The sprinkler system activated and contained the fire.",
+          "translationZh": "灑水系統啟動並控制了火勢。"
+        }
+      ]
+    },
+    {
+      "headword": "detector",
+      "partOfSpeech": "noun",
+      "definitionZh": "偵測器；感應煙霧、熱或氣體並發出警告信號的裝置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Install a smoke detector in every room of the building.",
+          "translationZh": "在建築物的每個房間安裝煙霧偵測器。"
+        }
+      ]
+    },
+    {
+      "headword": "sensor",
+      "partOfSpeech": "noun",
+      "definitionZh": "感應器；自動感測環境變化並傳送數據的電子元件",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The gas sensor triggered an alert when levels exceeded safe limits.",
+          "translationZh": "當氣體濃度超過安全限值時，氣體感應器觸發了警報。"
+        }
+      ]
+    },
+    {
+      "headword": "isolate",
+      "partOfSpeech": "verb",
+      "definitionZh": "隔離；將危險物質或受傷人員與其他人員分開",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Isolate the contaminated equipment before calling for help.",
+          "translationZh": "呼叫援助前，先將受污染的設備隔離。"
+        }
+      ]
+    },
+    {
+      "headword": "segregate",
+      "partOfSpeech": "verb",
+      "definitionZh": "分類隔離；將不同種類的危險物品分開存放",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Segregate chemical waste from general rubbish in separate bins.",
+          "translationZh": "將化學廢棄物與一般垃圾分別放入不同的垃圾桶。"
+        }
+      ]
+    },
+    {
+      "headword": "decontaminate",
+      "partOfSpeech": "verb",
+      "definitionZh": "去污染；清除附著在人員或設備上有害物質的程序",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Decontaminate all surfaces before re-entering the workspace.",
+          "translationZh": "重新進入工作區域前須對所有表面進行去污處理。"
+        }
+      ]
+    },
+    {
+      "headword": "sanitize",
+      "partOfSpeech": "verb",
+      "definitionZh": "消毒；清潔並殺滅物品或環境中病原微生物",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Sanitize your hands before and after handling food products.",
+          "translationZh": "處理食品前後均須消毒雙手。"
+        }
+      ]
+    },
+    {
+      "headword": "fume",
+      "partOfSpeech": "noun",
+      "definitionZh": "有害煙氣；加熱或化學反應產生的有毒氣態物質",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Avoid inhaling fumes from solvents or paint in enclosed areas.",
+          "translationZh": "在密閉空間中請避免吸入溶劑或油漆產生的煙氣。"
+        }
+      ]
+    },
+    {
+      "headword": "particulate",
+      "partOfSpeech": "noun",
+      "definitionZh": "微粒；懸浮在空氣中可吸入肺部的微細固體顆粒",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workers must wear masks in areas with high particulate levels.",
+          "translationZh": "在微粒濃度高的區域，工人必須佩戴口罩。"
+        }
+      ]
+    },
+    {
+      "headword": "grounding",
+      "partOfSpeech": "noun",
+      "definitionZh": "接地；將電氣設備連接大地以防止觸電的安全措施",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Proper grounding of electrical equipment prevents shock.",
+          "translationZh": "電氣設備的適當接地可防止觸電。"
+        }
+      ]
+    },
+    {
+      "headword": "insulation",
+      "partOfSpeech": "noun",
+      "definitionZh": "絕緣；防止電流意外流過或熱量傳導的保護材料",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Check the insulation on all electrical wires for cracks.",
+          "translationZh": "檢查所有電線的絕緣材料是否出現裂縫。"
+        }
+      ]
+    },
+    {
+      "headword": "conductor",
+      "partOfSpeech": "noun",
+      "definitionZh": "導電體；能讓電流通過的材料",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Water is a conductor, so keep liquids away from wiring.",
+          "translationZh": "水是導電體，因此請將液體遠離電線。"
+        }
+      ]
+    },
+    {
+      "headword": "overload",
+      "partOfSpeech": "noun",
+      "definitionZh": "過載；超過設備或電路設計承受能力的危險狀態",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "An electrical overload can start a fire if not addressed.",
+          "translationZh": "電力過載若未及時處理可能引發火災。"
+        }
+      ]
+    },
+    {
+      "headword": "circuit",
+      "partOfSpeech": "noun",
+      "definitionZh": "電路；電流流動的封閉路徑或網路",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Shut off the circuit before replacing any electrical fixtures.",
+          "translationZh": "更換任何電氣固定裝置前須先關閉電路。"
+        }
+      ]
+    },
+    {
+      "headword": "electrocution",
+      "partOfSpeech": "noun",
+      "definitionZh": "觸電；因電流通過人體造成的嚴重傷害或死亡",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Electrocution risk rises when electrical cables are damaged.",
+          "translationZh": "電纜損壞時，觸電的風險大幅上升。"
+        }
+      ]
+    },
+    {
+      "headword": "abrasion",
+      "partOfSpeech": "noun",
+      "definitionZh": "擦傷；皮膚表面因摩擦而受到的輕微損傷",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Minor abrasions should be cleaned and covered immediately.",
+          "translationZh": "輕微擦傷應立即清潔並包覆。"
+        }
+      ]
+    },
+    {
+      "headword": "laceration",
+      "partOfSpeech": "noun",
+      "definitionZh": "撕裂傷；皮膚或組織因銳利物品切割造成的開放性傷口",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "She suffered a laceration from the broken glass on the floor.",
+          "translationZh": "她被地板上的碎玻璃割傷，造成撕裂傷。"
+        }
+      ]
+    },
+    {
+      "headword": "asphyxia",
+      "partOfSpeech": "noun",
+      "definitionZh": "窒息；因缺氧導致身體功能喪失的緊急狀況",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Asphyxia can result from exposure to high concentrations of gas.",
+          "translationZh": "暴露於高濃度氣體中可能導致窒息。"
+        }
+      ]
+    },
+    {
+      "headword": "hypothermia",
+      "partOfSpeech": "noun",
+      "definitionZh": "低體溫症；體溫過低危及生命的醫療緊急狀況",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Workers in cold environments are at risk of hypothermia.",
+          "translationZh": "在寒冷環境中工作的人員有罹患低體溫症的風險。"
+        }
+      ]
+    },
+    {
+      "headword": "heatstroke",
+      "partOfSpeech": "noun",
+      "definitionZh": "中暑；因高溫造成體溫調節失敗的緊急狀況",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Heatstroke can occur quickly in unventilated workspaces.",
+          "translationZh": "在通風不良的工作場所，中暑可能迅速發生。"
+        }
+      ]
+    },
+    {
+      "headword": "dehydration",
+      "partOfSpeech": "noun",
+      "definitionZh": "脫水；體內水分不足而影響工作能力或健康的狀態",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Dehydration reduces concentration and increases accident risk.",
+          "translationZh": "脫水會降低注意力並增加事故風險。"
+        }
+      ]
+    },
+    {
+      "headword": "distress",
+      "partOfSpeech": "noun",
+      "definitionZh": "緊迫困境；個人處於危險或需要立即援助的狀態",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "If you see a colleague in distress, alert the safety officer.",
+          "translationZh": "若發現同事陷入困境，請立即通知安全主任。"
+        }
+      ]
+    },
+    {
+      "headword": "congestion",
+      "partOfSpeech": "noun",
+      "definitionZh": "擁塞；通道因過多人員或物品造成阻礙流通的情況",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Aisle congestion near loading zones increases collision risk.",
+          "translationZh": "裝卸區附近走道擁塞會增加碰撞風險。"
+        }
+      ]
+    },
+    {
+      "headword": "corrosion",
+      "partOfSpeech": "noun",
+      "definitionZh": "腐蝕；金屬或材料因化學反應逐漸劣化的過程",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Check pipelines regularly for signs of corrosion or leakage.",
+          "translationZh": "定期檢查管線是否出現腐蝕或滲漏的跡象。"
+        }
+      ]
+    },
+    {
+      "headword": "oversight",
+      "partOfSpeech": "noun",
+      "definitionZh": "監督；對安全規範執行情況進行持續管理的職責",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Management oversight of safety practices is essential.",
+          "translationZh": "管理層對安全規範的監督至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "spill",
+      "partOfSpeech": "noun",
+      "definitionZh": "灑出；有害液體意外流出容器或設備的事件",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Report any chemical spill to the safety officer at once.",
+          "translationZh": "任何化學品洩漏都必須立即向安全主任通報。"
+        }
+      ]
+    },
+    {
+      "headword": "scaffold",
+      "partOfSpeech": "noun",
+      "definitionZh": "鷹架；建築工地供工人在高處作業的臨時工作台",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "All scaffold structures must be inspected before each use.",
+          "translationZh": "所有鷹架結構在每次使用前均須接受檢查。"
+        }
+      ]
+    },
+    {
+      "headword": "ladder",
+      "partOfSpeech": "noun",
+      "definitionZh": "梯子；供工人攀爬至高處的可攜式爬梯",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Ensure the ladder is stable before climbing to any height.",
+          "translationZh": "攀爬至任何高度前，請確保梯子穩固。"
+        }
+      ]
+    },
+    {
+      "headword": "confined",
+      "partOfSpeech": "adjective",
+      "definitionZh": "密閉的；空間狹小且通風不良、存在缺氧危險的",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Entry into confined spaces requires a valid work permit.",
+          "translationZh": "進入密閉空間須持有有效的工作許可證。"
+        }
+      ]
+    },
+    {
+      "headword": "asbestos",
+      "partOfSpeech": "noun",
+      "definitionZh": "石棉；已知致癌且在舊建築中常見的危險纖維物質",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Old buildings may contain asbestos, which must be removed safely.",
+          "translationZh": "舊建築可能含有石棉，必須安全地進行清除。"
+        }
+      ]
+    },
+    {
+      "headword": "eyewash",
+      "partOfSpeech": "noun",
+      "definitionZh": "洗眼站；沖洗眼部化學品的緊急清洗設備",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Use the eyewash station immediately if chemicals enter your eyes.",
+          "translationZh": "若化學品進入眼睛，請立即使用洗眼站沖洗。"
+        }
+      ]
+    },
+    {
+      "headword": "noise",
+      "partOfSpeech": "noun",
+      "definitionZh": "噪音；可能損害聽力的過高工作環境音量",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Prolonged noise above 85 dB can cause permanent hearing loss.",
+          "translationZh": "長時間暴露於八十五分貝以上的噪音可能造成永久性聽力損失。"
+        }
+      ]
+    },
+    {
+      "headword": "vibration",
+      "partOfSpeech": "noun",
+      "definitionZh": "振動；持續震動對肌肉骨骼及神經系統的傷害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Hand-arm vibration from tools may cause long-term nerve damage.",
+          "translationZh": "工具產生的手臂振動可能造成長期神經損傷。"
+        }
+      ]
+    },
+    {
+      "headword": "illumination",
+      "partOfSpeech": "noun",
+      "definitionZh": "照明；確保工作場所有足夠光線以利安全作業",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Poor illumination in stairwells increases the risk of falls.",
+          "translationZh": "樓梯間照明不足會增加跌倒的風險。"
+        }
+      ]
+    },
+    {
+      "headword": "combustion",
+      "partOfSpeech": "noun",
+      "definitionZh": "燃燒；物質與氧氣快速反應產生熱與光的化學反應",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Spontaneous combustion can occur when oily rags are left in piles.",
+          "translationZh": "油性布料堆積時可能發生自燃。"
+        }
+      ]
+    },
+    {
+      "headword": "nozzle",
+      "partOfSpeech": "noun",
+      "definitionZh": "噴嘴；控制水柱或化學品流量方向的管口裝置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Aim the nozzle at the base of the fire to extinguish it.",
+          "translationZh": "將噴嘴對準火源底部以撲滅火焰。"
+        }
+      ]
+    },
+    {
+      "headword": "flammability",
+      "partOfSpeech": "noun",
+      "definitionZh": "易燃性；物質容易被點燃燃燒的特性",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "The flammability of solvents means they must be stored properly.",
+          "translationZh": "溶劑的易燃性意味著必須妥善存放。"
+        }
+      ]
+    },
+    {
+      "headword": "slippery",
+      "partOfSpeech": "adjective",
+      "definitionZh": "濕滑的；因潮濕或液體使得地面容易造成滑倒",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Wet tiles are slippery, so place warning signs immediately.",
+          "translationZh": "濕磁磚非常滑，請立即放置警示標誌。"
+        }
+      ]
+    },
+    {
+      "headword": "elevated",
+      "partOfSpeech": "adjective",
+      "definitionZh": "高架的；位於地面以上的高度，需特別注意墜落危險",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Employees working on elevated platforms must use a harness.",
+          "translationZh": "在高架平台上工作的員工必須使用安全帶。"
+        }
+      ]
+    },
+    {
+      "headword": "flush",
+      "partOfSpeech": "verb",
+      "definitionZh": "沖洗；用大量清水沖除皮膚或眼睛上的有害物質",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Flush the affected area with water for at least 15 minutes.",
+          "translationZh": "用清水沖洗受影響的部位至少十五分鐘。"
+        }
+      ]
+    },
+    {
+      "headword": "contaminate",
+      "partOfSpeech": "verb",
+      "definitionZh": "污染；使食物、水或環境受到有害物質的影響",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A broken seal can contaminate the entire batch of product.",
+          "translationZh": "破損的密封件可能導致整批產品受到污染。"
+        }
+      ]
+    },
+    {
+      "headword": "glare",
+      "partOfSpeech": "noun",
+      "definitionZh": "眩光；強烈光線直接照射眼睛造成視覺干擾",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Screen glare can cause eye strain during prolonged computer use.",
+          "translationZh": "螢幕眩光可能在長時間使用電腦時造成眼睛疲勞。"
+        }
+      ]
+    },
+    {
+      "headword": "fatality",
+      "partOfSpeech": "noun",
+      "definitionZh": "死亡事故；因事故或疾病導致的人員死亡",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Zero fatalities remain the ultimate goal of any safety program.",
+          "translationZh": "零死亡事故是任何安全計畫的終極目標。"
+        }
+      ]
+    },
+    {
+      "headword": "precautionary",
+      "partOfSpeech": "adjective",
+      "definitionZh": "預防性的；作為預防危險所採取的",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A precautionary shutdown was ordered until the leak was sealed.",
+          "translationZh": "在洩漏封堵之前，下令進行預防性停機。"
+        }
+      ]
+    },
+    {
+      "headword": "response",
+      "partOfSpeech": "noun",
+      "definitionZh": "應變；面對緊急狀況所採取的及時行動或處置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A fast emergency response can prevent minor incidents from escalating.",
+          "translationZh": "迅速的緊急應變可防止小事故升級為重大事故。"
+        }
+      ]
+    },
+    {
+      "headword": "negligence",
+      "partOfSpeech": "noun",
+      "definitionZh": "疏失；因不謹慎或未盡職責而導致意外或傷害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Negligence in following safety rules can result in serious injury.",
+          "translationZh": "不遵守安全規則的疏失可能導致嚴重傷害。"
+        }
+      ]
+    },
+    {
+      "headword": "biohazard",
+      "partOfSpeech": "noun",
+      "definitionZh": "生物危害；對人體健康構成威脅的生物性有害物質",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Label all specimens as biohazard if they may contain pathogens.",
+          "translationZh": "若樣本可能含有病原體，應將其標示為生物危害。"
+        }
+      ]
+    },
+    {
+      "headword": "debris",
+      "partOfSpeech": "noun",
+      "definitionZh": "碎屑；散落的廢料或破碎物品對工作環境的危害",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Clear construction debris from walkways after each shift.",
+          "translationZh": "每班結束後須清除走道上的施工碎屑。"
+        }
+      ]
+    },
+    {
+      "headword": "rupture",
+      "partOfSpeech": "noun",
+      "definitionZh": "破裂；管道、容器或設備因壓力過大而裂開",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "A pipe rupture in the boiler room caused steam to fill the hall.",
+          "translationZh": "鍋爐室的管道破裂導致蒸氣充滿走廊。"
+        }
+      ]
+    },
+    {
+      "headword": "suffocation",
+      "partOfSpeech": "noun",
+      "definitionZh": "窒息；因外部阻塞或缺氧無法呼吸的狀態",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Poorly ventilated tanks pose a suffocation risk to workers inside.",
+          "translationZh": "通風不良的儲槽對在其中工作的人員造成窒息風險。"
+        }
+      ]
+    },
+    {
+      "headword": "overflow",
+      "partOfSpeech": "noun",
+      "definitionZh": "溢出；液體超過容量限制而從容器或管道流出",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Tank overflow creates puddles that can be a slipping hazard.",
+          "translationZh": "儲槽溢出產生的積水可能造成滑倒危險。"
+        }
+      ]
+    },
+    {
+      "headword": "ventilator",
+      "partOfSpeech": "noun",
+      "definitionZh": "通風設備；強制空氣流通以排除有害氣體的機械裝置",
+      "examTags": [
+        "TOEIC",
+        "safety"
+      ],
+      "examples": [
+        {
+          "sentence": "Run the ventilator to remove fumes before workers enter the area.",
+          "translationZh": "工人進入該區域前，請先啟動通風設備排除煙氣。"
+        }
+      ]
+    }
+  ]
+}

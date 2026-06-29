@@ -1533,6 +1533,1302 @@
           "translationZh": "我們的客戶要求全額退款。"
         }
       ]
+    },
+    {
+      "headword": "attribution",
+      "partOfSpeech": "n.",
+      "definitionZh": "歸因分析（確定哪個渠道或接觸點促成了轉換）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Multi-touch attribution revealed that email drove 40% of our sales.",
+          "translationZh": "多觸點歸因分析揭示電子郵件帶動了四成的銷售額。"
+        }
+      ]
+    },
+    {
+      "headword": "cannibalize",
+      "partOfSpeech": "v.",
+      "definitionZh": "自我蠶食（新產品搶走既有產品的市場份額）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The new model may cannibalize sales of our existing product.",
+          "translationZh": "新型號可能會蠶食現有產品的銷售額。"
+        }
+      ]
+    },
+    {
+      "headword": "cohort",
+      "partOfSpeech": "n.",
+      "definitionZh": "同期群（在同一時段加入的一批顧客或用戶）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The January cohort showed the highest retention rate.",
+          "translationZh": "一月份的同期群顯示出最高的留存率。"
+        }
+      ]
+    },
+    {
+      "headword": "commoditize",
+      "partOfSpeech": "v.",
+      "definitionZh": "商品化（因競爭同質使產品失去差異化優勢）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Price competition can commoditize even premium software products.",
+          "translationZh": "價格競爭可能使即便是高端軟體產品也走向商品化。"
+        }
+      ]
+    },
+    {
+      "headword": "cultivate",
+      "partOfSpeech": "v.",
+      "definitionZh": "培育關係（長期投入以建立穩固的客戶關係）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We cultivate long-term relationships with our top-tier clients.",
+          "translationZh": "我們用心培育與頂級客戶的長期合作關係。"
+        }
+      ]
+    },
+    {
+      "headword": "curate",
+      "partOfSpeech": "v.",
+      "definitionZh": "策展（為受眾精選並組織相關高品質內容）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Our editors curate industry news to keep subscribers informed.",
+          "translationZh": "我們的編輯團隊為訂戶精選業界新聞以保持資訊更新。"
+        }
+      ]
+    },
+    {
+      "headword": "differentiation",
+      "partOfSpeech": "n.",
+      "definitionZh": "差異化（使產品明顯有別於競品的整體特質集合）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Quality service is our main point of differentiation.",
+          "translationZh": "優質服務是我們的主要差異化優勢。"
+        }
+      ]
+    },
+    {
+      "headword": "disruptive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "顛覆性的（打破既有市場秩序的創新產品或模式）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The startup introduced a disruptive pricing model to the market.",
+          "translationZh": "這家新創公司向市場推出了一種顛覆性的定價模式。"
+        }
+      ]
+    },
+    {
+      "headword": "diversify",
+      "partOfSpeech": "v.",
+      "definitionZh": "多角化（拓展至新產品線或新市場以分散風險）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We plan to diversify into the healthcare market next year.",
+          "translationZh": "我們計畫明年進入醫療市場進行多角化拓展。"
+        }
+      ]
+    },
+    {
+      "headword": "dominance",
+      "partOfSpeech": "n.",
+      "definitionZh": "市場主導（在特定市場掌握最大話語權的地位）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The brand has maintained market dominance for over a decade.",
+          "translationZh": "這個品牌已維持市場主導地位超過十年。"
+        }
+      ]
+    },
+    {
+      "headword": "elevate",
+      "partOfSpeech": "v.",
+      "definitionZh": "提升（通過品質或體驗改善提升品牌層次）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Premium packaging helped elevate the product's perceived value.",
+          "translationZh": "高端包裝有助於提升產品的感知價值。"
+        }
+      ]
+    },
+    {
+      "headword": "evangelize",
+      "partOfSpeech": "v.",
+      "definitionZh": "傳道推廣（以高度熱情向他人宣揚品牌或產品理念）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Early adopters evangelize the product to their professional networks.",
+          "translationZh": "早期採用者向其專業人脈傳道推廣這款產品。"
+        }
+      ]
+    },
+    {
+      "headword": "exclusivity",
+      "partOfSpeech": "n.",
+      "definitionZh": "獨家性（限定特定群體才能獲得的特殊商品或待遇）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The exclusivity of the VIP club drives demand among aspirational buyers.",
+          "translationZh": "VIP俱樂部的獨家性激發了有向往心理的買家的需求。"
+        }
+      ]
+    },
+    {
+      "headword": "exposure",
+      "partOfSpeech": "n.",
+      "definitionZh": "曝光（品牌或廣告出現在受眾視野中的機會）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Sponsoring the event gave our brand maximum exposure.",
+          "translationZh": "贊助該活動讓我們的品牌獲得了最大程度的曝光。"
+        }
+      ]
+    },
+    {
+      "headword": "franchise",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "特許加盟（授權合作方複製品牌體系的商業模式）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We offer franchise opportunities to qualified business owners.",
+          "translationZh": "我們向合格的商業人士提供特許加盟機會。"
+        }
+      ]
+    },
+    {
+      "headword": "galvanize",
+      "partOfSpeech": "v.",
+      "definitionZh": "激勵行動（激發受眾或團隊立即採取具體行動）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The launch event galvanized the sales team to exceed their targets.",
+          "translationZh": "發布活動激勵業務團隊超越了他們的銷售目標。"
+        }
+      ]
+    },
+    {
+      "headword": "incubate",
+      "partOfSpeech": "v.",
+      "definitionZh": "孵化（在早期階段培育尚未成熟的產品或事業）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company chose to incubate the new brand within its R&D unit.",
+          "translationZh": "公司選擇在研發部門內孵化這個新品牌。"
+        }
+      ]
+    },
+    {
+      "headword": "lifecycle",
+      "partOfSpeech": "n.",
+      "definitionZh": "生命週期（產品或顧客關係從起點到終點的完整歷程）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Understanding the customer lifecycle helps improve retention efforts.",
+          "translationZh": "了解顧客生命週期有助於改善留存策略。"
+        }
+      ]
+    },
+    {
+      "headword": "mindshare",
+      "partOfSpeech": "n.",
+      "definitionZh": "心佔率（品牌在目標受眾心智空間中的佔據程度）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Consistent advertising builds mindshare before purchase decisions.",
+          "translationZh": "持續的廣告投放在購買決策前建立了心佔率。"
+        }
+      ]
+    },
+    {
+      "headword": "mobilize",
+      "partOfSpeech": "v.",
+      "definitionZh": "動員（集結資源或受眾共同參與行銷行動）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We mobilize our community of users to share product reviews online.",
+          "translationZh": "我們動員用戶社群在線上分享產品評價。"
+        }
+      ]
+    },
+    {
+      "headword": "narrative",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌敘事（傳遞品牌核心價值的故事框架與語境）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The brand's narrative centers on sustainability and innovation.",
+          "translationZh": "品牌敘事以永續發展與創新為核心主軸。"
+        }
+      ]
+    },
+    {
+      "headword": "objection",
+      "partOfSpeech": "n.",
+      "definitionZh": "異議（潛在客戶表達的拒絕購買理由或顧慮）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Handling the price objection is the most common sales challenge.",
+          "translationZh": "處理價格異議是最常見的業務挑戰。"
+        }
+      ]
+    },
+    {
+      "headword": "outreach",
+      "partOfSpeech": "n.",
+      "definitionZh": "外展接觸（主動聯繫潛在客戶、媒體或合作夥伴）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Cold outreach via LinkedIn generated thirty new leads this month.",
+          "translationZh": "本月透過LinkedIn的主動外展接觸帶來了三十個新潛在客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "persona",
+      "partOfSpeech": "n.",
+      "definitionZh": "人物誌（代表目標受眾特徵的虛構人物描述）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We created three buyer personas to guide our content strategy.",
+          "translationZh": "我們建立了三個買家人物誌以引導內容策略。"
+        }
+      ]
+    },
+    {
+      "headword": "persuade",
+      "partOfSpeech": "v.",
+      "definitionZh": "說服（以論據或情感影響潛在顧客做出購買決定）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Case studies helped persuade the client to sign the contract.",
+          "translationZh": "案例研究幫助說服了客戶簽署合約。"
+        }
+      ]
+    },
+    {
+      "headword": "prestige",
+      "partOfSpeech": "n.",
+      "definitionZh": "聲望（品牌因高品質或稀缺性在市場建立的崇高形象）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The award added considerable prestige to our brand image.",
+          "translationZh": "這個獎項大幅提升了我們品牌形象的聲望。"
+        }
+      ]
+    },
+    {
+      "headword": "proactive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "主動的（在問題浮現前先行採取因應措施的態度）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A proactive approach to customer complaints boosts retention.",
+          "translationZh": "主動積極地處理顧客投訴有助於提升留存率。"
+        }
+      ]
+    },
+    {
+      "headword": "proliferate",
+      "partOfSpeech": "v.",
+      "definitionZh": "激增（類似產品或競爭者在市場中大量快速出現）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Copycat products proliferate whenever a new category becomes popular.",
+          "translationZh": "每當一個新類別走紅，仿冒品就會大量激增。"
+        }
+      ]
+    },
+    {
+      "headword": "quota",
+      "partOfSpeech": "n.",
+      "definitionZh": "業績配額（業務人員在特定期間須達成的銷售目標）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Every sales rep must meet their monthly quota to earn commission.",
+          "translationZh": "每位業務代表必須達成每月配額才能獲得佣金。"
+        }
+      ]
+    },
+    {
+      "headword": "rebrand",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "品牌重塑（調整品牌識別或定位以契合新的市場策略）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We decided to rebrand after research showed poor brand recognition.",
+          "translationZh": "調查顯示品牌認知度不佳後，我們決定進行品牌重塑。"
+        }
+      ]
+    },
+    {
+      "headword": "reputation",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌聲譽（長期在公眾心中累積的整體評價）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "One negative review can damage a brand's reputation significantly.",
+          "translationZh": "一則負面評論可能對品牌聲譽造成重大損害。"
+        }
+      ]
+    },
+    {
+      "headword": "saturate",
+      "partOfSpeech": "v.",
+      "definitionZh": "飽和（廣告或產品大量進入市場達到覆蓋極限）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We saturate key media channels during the holiday buying season.",
+          "translationZh": "我們在假日購物旺季飽和式投放各主要媒體渠道。"
+        }
+      ]
+    },
+    {
+      "headword": "scalable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "可擴展的（能隨業務規模成長輕鬆放大的策略）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We need a scalable marketing model before entering new markets.",
+          "translationZh": "在進入新市場之前，我們需要一個可擴展的行銷模式。"
+        }
+      ]
+    },
+    {
+      "headword": "scarcity",
+      "partOfSpeech": "n.",
+      "definitionZh": "稀缺性（限量供應所創造的購買緊迫感）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Scarcity messaging increased conversions by creating urgency.",
+          "translationZh": "稀缺性訊息通過製造緊迫感提升了轉換率。"
+        }
+      ]
+    },
+    {
+      "headword": "stakeholder",
+      "partOfSpeech": "n.",
+      "definitionZh": "利害關係人（對行銷成果有直接利益關係的個人或組織）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "All stakeholders approved the rebranding budget before launch.",
+          "translationZh": "所有利害關係人在推出前批准了品牌重塑預算。"
+        }
+      ]
+    },
+    {
+      "headword": "stimulus",
+      "partOfSpeech": "n.",
+      "definitionZh": "刺激因素（促使消費者採取購買行動的誘因）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A limited-time offer acts as the perfect purchasing stimulus.",
+          "translationZh": "限時優惠是促使消費者購買的完美刺激因素。"
+        }
+      ]
+    },
+    {
+      "headword": "stewardship",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌守護（對品牌資產與顧客關係承擔長期管理責任）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Good brand stewardship ensures consistency across every market.",
+          "translationZh": "良好的品牌守護確保了在各個市場的一致性。"
+        }
+      ]
+    },
+    {
+      "headword": "surpass",
+      "partOfSpeech": "v.",
+      "definitionZh": "超越（在銷售額或市占率上超過競爭對手）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Our Q2 sales surpassed the previous record by a wide margin.",
+          "translationZh": "我們第二季的銷售額以大幅差距超越了之前的紀錄。"
+        }
+      ]
+    },
+    {
+      "headword": "sustain",
+      "partOfSpeech": "v.",
+      "definitionZh": "維持（保持行銷動能或顧客關係的持續發展）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Consistent content output helps sustain audience engagement.",
+          "translationZh": "持續穩定的內容產出有助於維持受眾的互動熱情。"
+        }
+      ]
+    },
+    {
+      "headword": "tailor",
+      "partOfSpeech": "v.",
+      "definitionZh": "量身訂製（依顧客個別需求客製化行銷訊息或方案）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We tailor each proposal to match the client's specific goals.",
+          "translationZh": "我們量身訂製每份提案以符合客戶的具體目標。"
+        }
+      ]
+    },
+    {
+      "headword": "traction",
+      "partOfSpeech": "n.",
+      "definitionZh": "市場吸引力（產品在早期市場驗證中獲得的實質認可）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The app gained traction among freelancers in the first month.",
+          "translationZh": "這款應用程式在第一個月便在自由接案者群體中獲得了市場牽引力。"
+        }
+      ]
+    },
+    {
+      "headword": "wholesale",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "批發（以大批量低單價方式售給中間商的模式）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We sell wholesale to retailers who distribute across the region.",
+          "translationZh": "我們以批發方式銷售給在該地區進行配銷的零售商。"
+        }
+      ]
+    },
+    {
+      "headword": "trajectory",
+      "partOfSpeech": "n.",
+      "definitionZh": "成長軌跡（品牌或業績隨時間推移的發展走向）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The sales trajectory over three years shows consistent growth.",
+          "translationZh": "三年來的銷售軌跡顯示出持續的成長趨勢。"
+        }
+      ]
+    },
+    {
+      "headword": "amplify",
+      "partOfSpeech": "v.",
+      "definitionZh": "放大（通過多渠道擴大行銷訊息的傳播效果）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Paid distribution helped amplify organic content performance.",
+          "translationZh": "付費配送幫助放大了自然內容的傳播效果。"
+        }
+      ]
+    },
+    {
+      "headword": "articulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "清晰表達（精確闡述產品優點或品牌主張）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The sales rep articulated the product benefits clearly and concisely.",
+          "translationZh": "業務代表清晰簡潔地闡述了產品的各項優點。"
+        }
+      ]
+    },
+    {
+      "headword": "captivate",
+      "partOfSpeech": "v.",
+      "definitionZh": "吸引（以引人入勝的內容抓住受眾注意力）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The new ad captivated viewers within the first three seconds.",
+          "translationZh": "新廣告在前三秒內就成功吸引了觀眾的注意力。"
+        }
+      ]
+    },
+    {
+      "headword": "credibility",
+      "partOfSpeech": "n.",
+      "definitionZh": "公信力（品牌或代言人在受眾眼中的可信賴程度）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Third-party reviews significantly boost a brand's credibility.",
+          "translationZh": "第三方評論能顯著提升品牌的公信力。"
+        }
+      ]
+    },
+    {
+      "headword": "discern",
+      "partOfSpeech": "v.",
+      "definitionZh": "辨別（識別顧客真實需求或市場機會的洞察力）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Good marketers discern subtle shifts in consumer behavior.",
+          "translationZh": "優秀的行銷人員能辨別消費者行為的細微轉變。"
+        }
+      ]
+    },
+    {
+      "headword": "disseminate",
+      "partOfSpeech": "v.",
+      "definitionZh": "傳播（向廣大受眾散布行銷訊息或品牌資訊）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We disseminate product updates through multiple communication channels.",
+          "translationZh": "我們透過多個溝通渠道傳播產品更新資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "distinctive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "獨特的（與競品明顯不同且令人印象深刻的品牌特質）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The distinctive packaging makes our products stand out on shelves.",
+          "translationZh": "獨特的包裝設計讓我們的產品在貨架上脫穎而出。"
+        }
+      ]
+    },
+    {
+      "headword": "empower",
+      "partOfSpeech": "v.",
+      "definitionZh": "賦能（給予顧客或業務人員主動行動的工具和資源）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We empower clients with dashboards to track their own results.",
+          "translationZh": "我們透過儀表板賦予客戶自行追蹤成果的能力。"
+        }
+      ]
+    },
+    {
+      "headword": "facilitate",
+      "partOfSpeech": "v.",
+      "definitionZh": "促成（消除障礙以協助顧客完成購買決策）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A live chat feature facilitates real-time support during checkout.",
+          "translationZh": "即時聊天功能在結帳過程中促成了即時客服支援。"
+        }
+      ]
+    },
+    {
+      "headword": "grassroots",
+      "partOfSpeech": "adj.",
+      "definitionZh": "草根的（由一般大眾自發推動而非頂層主導的行銷）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The grassroots campaign built awareness without any paid media.",
+          "translationZh": "這場草根行銷活動在沒有任何付費媒體的情況下建立了品牌認知度。"
+        }
+      ]
+    },
+    {
+      "headword": "hallmark",
+      "partOfSpeech": "n.",
+      "definitionZh": "特徵標誌（辨識品牌品質或特色的顯著記號）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Attention to detail has become the hallmark of our customer service.",
+          "translationZh": "注重細節已成為我們客戶服務的顯著標誌。"
+        }
+      ]
+    },
+    {
+      "headword": "incentivize",
+      "partOfSpeech": "v.",
+      "definitionZh": "提供誘因（以獎勵或優惠刺激特定購買或行動）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We incentivize early sign-ups with a three-month free trial offer.",
+          "translationZh": "我們以三個月免費試用誘因激勵早期用戶完成註冊。"
+        }
+      ]
+    },
+    {
+      "headword": "induce",
+      "partOfSpeech": "v.",
+      "definitionZh": "誘導（透過行銷手段引導顧客產生特定反應）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Limited-time discounts induce immediate action from hesitant buyers.",
+          "translationZh": "限時折扣誘導猶豫不決的買家立即採取行動。"
+        }
+      ]
+    },
+    {
+      "headword": "innovate",
+      "partOfSpeech": "v.",
+      "definitionZh": "創新（引入新思維或新技術改變行銷方式）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Companies must innovate to stay relevant in fast-changing markets.",
+          "translationZh": "企業必須持續創新才能在快速變化的市場中保持競爭力。"
+        }
+      ]
+    },
+    {
+      "headword": "instill",
+      "partOfSpeech": "v.",
+      "definitionZh": "灌輸（在顧客心中建立品牌認同或特定價值觀）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Great storytelling instills brand values in consumers naturally.",
+          "translationZh": "優質的故事行銷能自然地在消費者心中灌輸品牌價值觀。"
+        }
+      ]
+    },
+    {
+      "headword": "lure",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "誘引（以誘人優惠或體驗將顧客吸引進購買流程）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Generous welcome offers lure new customers to try the service.",
+          "translationZh": "豐厚的迎新優惠吸引新顧客嘗試這項服務。"
+        }
+      ]
+    },
+    {
+      "headword": "mainstream",
+      "partOfSpeech": "adj./v.",
+      "definitionZh": "主流化（使產品或理念從小眾走向廣泛接受）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Electric vehicles moved from niche to mainstream remarkably fast.",
+          "translationZh": "電動車以驚人的速度從利基市場走向主流。"
+        }
+      ]
+    },
+    {
+      "headword": "paramount",
+      "partOfSpeech": "adj.",
+      "definitionZh": "至關重要的（在行銷優先順序中最具決定性的）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Customer trust is paramount when entering a new geographic market.",
+          "translationZh": "在進入新的地理市場時，顧客信任至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "perpetuate",
+      "partOfSpeech": "v.",
+      "definitionZh": "持續延伸（維持品牌訊息或顧客習慣的長期性）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Consistent messaging perpetuates brand recall across buyer segments.",
+          "translationZh": "一致的訊息傳遞在各買家族群中持續延伸品牌記憶。"
+        }
+      ]
+    },
+    {
+      "headword": "pivot",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "轉向（策略成效不佳時調整行銷方向的重大轉變）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "After three months, we pivoted from B2C to B2B marketing.",
+          "translationZh": "三個月後，我們將行銷方向從B2C轉向B2B。"
+        }
+      ]
+    },
+    {
+      "headword": "prequalify",
+      "partOfSpeech": "v.",
+      "definitionZh": "預篩選（在正式接觸前確認潛在客戶是否符合購買條件）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We prequalify leads by budget and authority before booking demos.",
+          "translationZh": "我們在安排演示前通過預算與決策權預篩選潛在客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "reposition",
+      "partOfSpeech": "v.",
+      "definitionZh": "重新定位（調整品牌或產品的市場策略定位）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company repositioned the product to target premium buyers.",
+          "translationZh": "公司對產品進行了重新定位，以鎖定高端買家。"
+        }
+      ]
+    },
+    {
+      "headword": "preempt",
+      "partOfSpeech": "v.",
+      "definitionZh": "搶先（在競爭對手之前佔據市場機會或心智位置）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We launched early to preempt the competitor's planned campaign.",
+          "translationZh": "我們提前推出以搶先應對競爭對手計畫中的行銷活動。"
+        }
+      ]
+    },
+    {
+      "headword": "prime",
+      "partOfSpeech": "v.",
+      "definitionZh": "預熱（在主要行銷活動前建立受眾期待與接受度）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Teaser posts prime the audience before the official announcement.",
+          "translationZh": "預告貼文在正式公告前為受眾進行預熱。"
+        }
+      ]
+    },
+    {
+      "headword": "prioritize",
+      "partOfSpeech": "v.",
+      "definitionZh": "優先排序（決定哪些行銷活動或客戶應先獲得資源）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We prioritize high-value clients in our post-sales support model.",
+          "translationZh": "我們在售後支援模式中優先服務高價值客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "propagate",
+      "partOfSpeech": "v.",
+      "definitionZh": "傳播擴散（讓品牌訊息在更廣泛的群體中擴散）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We propagate brand messages through both earned and paid media.",
+          "translationZh": "我們透過贏得媒體與付費媒體傳播擴散品牌訊息。"
+        }
+      ]
+    },
+    {
+      "headword": "receptive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "接受度高的（對行銷訊息持開放態度的受眾特質）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Younger demographics are more receptive to interactive ad formats.",
+          "translationZh": "年輕族群對互動式廣告形式的接受度更高。"
+        }
+      ]
+    },
+    {
+      "headword": "recalibrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "重新校準（根據新數據調整行銷策略方向）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We recalibrate our target segments every quarter using fresh data.",
+          "translationZh": "我們每季利用最新數據重新校準目標受眾區隔。"
+        }
+      ]
+    },
+    {
+      "headword": "reinforce",
+      "partOfSpeech": "v.",
+      "definitionZh": "強化（重複傳遞行銷訊息以加深受眾印象）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Follow-up emails reinforce the key messages from the sales call.",
+          "translationZh": "後續電子郵件強化了銷售電話中的關鍵訊息。"
+        }
+      ]
+    },
+    {
+      "headword": "rejuvenate",
+      "partOfSpeech": "v.",
+      "definitionZh": "重振活力（為老化品牌注入新活力以吸引新世代）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A celebrity partnership helped rejuvenate the aging brand image.",
+          "translationZh": "名人合作有助於重振老化的品牌形象。"
+        }
+      ]
+    },
+    {
+      "headword": "resonate",
+      "partOfSpeech": "v.",
+      "definitionZh": "引起共鳴（行銷訊息在受眾心中產生情感認同）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The sustainability message resonated strongly with millennial buyers.",
+          "translationZh": "永續發展訊息在千禧世代買家中引起了強烈共鳴。"
+        }
+      ]
+    },
+    {
+      "headword": "revitalize",
+      "partOfSpeech": "v.",
+      "definitionZh": "活化（重新啟動失去活力的品牌或產品線）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A product redesign helped revitalize the brand in a crowded market.",
+          "translationZh": "產品重新設計有助於在競爭激烈的市場中活化品牌。"
+        }
+      ]
+    },
+    {
+      "headword": "scrutinize",
+      "partOfSpeech": "v.",
+      "definitionZh": "嚴格審查（仔細分析行銷數據或競品策略）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Investors scrutinize marketing ROI before funding new campaigns.",
+          "translationZh": "投資者在資助新行銷活動前會仔細審查行銷投資回報。"
+        }
+      ]
+    },
+    {
+      "headword": "solidify",
+      "partOfSpeech": "v.",
+      "definitionZh": "鞏固（強化品牌地位或顧客忠誠度的持續行動）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Consistent quality helps solidify customer trust over time.",
+          "translationZh": "持續穩定的品質有助於隨時間鞏固顧客的信任。"
+        }
+      ]
+    },
+    {
+      "headword": "spearhead",
+      "partOfSpeech": "v.",
+      "definitionZh": "主導推動（在行銷專案中擔任先鋒領導角色）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She was chosen to spearhead the company's digital transformation.",
+          "translationZh": "她被選中主導推動公司的數位轉型。"
+        }
+      ]
+    },
+    {
+      "headword": "synergy",
+      "partOfSpeech": "n.",
+      "definitionZh": "協同效應（多個渠道或夥伴合作產生的加乘效果）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The co-branding deal created synergy for both companies involved.",
+          "translationZh": "聯合品牌合作為雙方企業創造了協同效應。"
+        }
+      ]
+    },
+    {
+      "headword": "tactful",
+      "partOfSpeech": "adj.",
+      "definitionZh": "圓融機智的（在業務溝通中措辭得當、顧及對方感受）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A tactful response to complaints can turn upset clients into fans.",
+          "translationZh": "圓融應對投訴能將不滿的客戶轉化為忠實支持者。"
+        }
+      ]
+    },
+    {
+      "headword": "validate",
+      "partOfSpeech": "v.",
+      "definitionZh": "驗證（通過數據或顧客回饋確認行銷假設的正確性）",
+      "examTags": [
+        "TOEIC",
+        "marketing",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "We validate every campaign concept with a small test audience first.",
+          "translationZh": "我們先以小規模測試受眾驗證每個行銷概念。"
+        }
+      ]
     }
   ]
 }

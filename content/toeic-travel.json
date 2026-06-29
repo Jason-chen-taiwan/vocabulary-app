@@ -1473,6 +1473,822 @@
           "translationZh": "確認不可退款的會議房價需全額預付款項。"
         }
       ]
+    },
+    {
+      "headword": "turbulence",
+      "partOfSpeech": "n.",
+      "definitionZh": "亂流；飛行中的氣流顛簸現象",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The pilot warned passengers of moderate turbulence over the mountains.",
+          "translationZh": "機長警告旅客山區上空有中度亂流。"
+        }
+      ]
+    },
+    {
+      "headword": "vaccination",
+      "partOfSpeech": "n.",
+      "definitionZh": "疫苗接種；旅行前所需的防疫預防注射",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Proof of vaccination is required to enter the conference venue.",
+          "translationZh": "進入會議場地須出示疫苗接種證明。"
+        }
+      ]
+    },
+    {
+      "headword": "refund",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "退款；取消預訂後的費用返還",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Request a full refund if the flight is cancelled by the airline.",
+          "translationZh": "若航班由航空公司取消，請申請全額退款。"
+        }
+      ]
+    },
+    {
+      "headword": "deductible",
+      "partOfSpeech": "n.",
+      "definitionZh": "保險自付額；理賠時須個人自行承擔的金額",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The travel policy has a two-hundred-dollar deductible per claim.",
+          "translationZh": "旅行保單每次理賠有兩百美元的自付額。"
+        }
+      ]
+    },
+    {
+      "headword": "escort",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "護送人員；陪同並引導重要賓客的官方接待者",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A security escort accompanied the delegation throughout the visit.",
+          "translationZh": "安全護送人員在整個訪問期間陪同代表團。"
+        }
+      ]
+    },
+    {
+      "headword": "entourage",
+      "partOfSpeech": "n.",
+      "definitionZh": "隨行人員；陪同高層出訪的跟隨團隊",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The CEO's entourage occupied an entire floor of the hotel.",
+          "translationZh": "執行長的隨行人員佔用了飯店的整整一個樓層。"
+        }
+      ]
+    },
+    {
+      "headword": "ballroom",
+      "partOfSpeech": "n.",
+      "definitionZh": "宴會廳；飯店或會議中心的大型活動空間",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The gala dinner is scheduled in the Grand Ballroom at 7 p.m.",
+          "translationZh": "晚宴訂於晚間七點在大宴會廳舉行。"
+        }
+      ]
+    },
+    {
+      "headword": "podium",
+      "partOfSpeech": "n.",
+      "definitionZh": "講台；演講者站立於台前發言的演說平台",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She confidently approached the podium to address the audience.",
+          "translationZh": "她自信地走上講台向聽眾發表演說。"
+        }
+      ]
+    },
+    {
+      "headword": "kiosk",
+      "partOfSpeech": "n.",
+      "definitionZh": "自助服務機；機場自動辦票或通關設備",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Use the self-service kiosk to print your boarding pass quickly.",
+          "translationZh": "使用自助服務機可快速列印您的登機證。"
+        }
+      ]
+    },
+    {
+      "headword": "porter",
+      "partOfSpeech": "n.",
+      "definitionZh": "行李員；機場或飯店協助搬運行李的服務人員",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A porter loaded the luggage onto the cart and escorted us in.",
+          "translationZh": "行李員將行李裝上推車並引領我們進入。"
+        }
+      ]
+    },
+    {
+      "headword": "bellhop",
+      "partOfSpeech": "n.",
+      "definitionZh": "飯店行李服務生；負責引導入房與搬運行李的員工",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bellhop carried all bags to the executive suite on arrival.",
+          "translationZh": "行李服務生在抵達時將所有行李搬至行政套房。"
+        }
+      ]
+    },
+    {
+      "headword": "valet",
+      "partOfSpeech": "n.",
+      "definitionZh": "代客泊車服務；飯店或餐廳提供的停車代泊員",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Hand your keys to the valet at the hotel's main entrance.",
+          "translationZh": "在飯店正門將車鑰匙交給代客泊車服務員。"
+        }
+      ]
+    },
+    {
+      "headword": "turndown",
+      "partOfSpeech": "n.",
+      "definitionZh": "夜床服務；飯店晚間整理床鋪及補充備品的服務",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The turndown service includes fresh towels and a mint on the pillow.",
+          "translationZh": "夜床服務包含更換新毛巾及在枕頭上放置薄荷糖。"
+        }
+      ]
+    },
+    {
+      "headword": "sommelier",
+      "partOfSpeech": "n.",
+      "definitionZh": "侍酒師；餐廳負責葡萄酒推薦與服務的專業人員",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The sommelier suggested a local vintage to pair with the fish.",
+          "translationZh": "侍酒師推薦了一款當地年份酒搭配魚料理。"
+        }
+      ]
+    },
+    {
+      "headword": "roaming",
+      "partOfSpeech": "n.",
+      "definitionZh": "國際漫遊；海外使用行動網路時的計費模式",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Enable international roaming before departure to stay connected.",
+          "translationZh": "出發前請開啟國際漫遊功能以保持通訊暢通。"
+        }
+      ]
+    },
+    {
+      "headword": "connectivity",
+      "partOfSpeech": "n.",
+      "definitionZh": "網路連線能力；出差期間取得網際網路的狀況",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Check hotel connectivity speed before booking for remote work.",
+          "translationZh": "遠端辦公前請先確認飯店的網路連線速度。"
+        }
+      ]
+    },
+    {
+      "headword": "embarkation",
+      "partOfSpeech": "n.",
+      "definitionZh": "登機手續；旅客進入飛機前的辦理程序",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Passengers should proceed to embarkation at least thirty minutes early.",
+          "translationZh": "旅客應至少提前三十分鐘前往辦理登機手續。"
+        }
+      ]
+    },
+    {
+      "headword": "disembark",
+      "partOfSpeech": "v.",
+      "definitionZh": "下機；飛機降落後旅客離開機艙的行為",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Business class passengers are invited to disembark before economy.",
+          "translationZh": "商務艙旅客受邀先於經濟艙旅客下機。"
+        }
+      ]
+    },
+    {
+      "headword": "runway",
+      "partOfSpeech": "n.",
+      "definitionZh": "跑道；供飛機起飛與降落的地面長廊",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The aircraft held on the runway due to heavy traffic ahead.",
+          "translationZh": "由於前方交通繁忙，飛機在跑道上等候起飛。"
+        }
+      ]
+    },
+    {
+      "headword": "airside",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "隔離管制側；通過機場安全查核後的限制區域",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Duty-free shops are located in the airside departure area.",
+          "translationZh": "免稅商店位於候機管制區內的出境區域。"
+        }
+      ]
+    },
+    {
+      "headword": "jetlag",
+      "partOfSpeech": "n.",
+      "definitionZh": "時差；跨多時區長途飛行後的生理疲勞症狀",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Drink plenty of water during the flight to reduce jetlag symptoms.",
+          "translationZh": "飛行途中多喝水有助於減輕時差不適症狀。"
+        }
+      ]
+    },
+    {
+      "headword": "altitude",
+      "partOfSpeech": "n.",
+      "definitionZh": "飛行高度；飛機在空中的海拔位置",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The cabin is pressurized to simulate a comfortable altitude for passengers.",
+          "translationZh": "機艙已加壓以模擬舒適的飛行高度環境。"
+        }
+      ]
+    },
+    {
+      "headword": "waypoint",
+      "partOfSpeech": "n.",
+      "definitionZh": "航路點；飛行計畫中的預定中間導航座標",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The GPS tracked each waypoint on the transcontinental flight route.",
+          "translationZh": "GPS 追蹤了洲際航線上的每個航路導航點。"
+        }
+      ]
+    },
+    {
+      "headword": "apron",
+      "partOfSpeech": "n.",
+      "definitionZh": "停機坪；機場地面供飛機停放及作業的區域",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ground crews prepared the aircraft on the apron for boarding.",
+          "translationZh": "地勤人員在停機坪上為飛機做好登機前準備。"
+        }
+      ]
+    },
+    {
+      "headword": "taxiway",
+      "partOfSpeech": "n.",
+      "definitionZh": "滑行道；飛機在機場地面行駛至跑道的通道",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The aircraft moved slowly along the taxiway toward the runway.",
+          "translationZh": "飛機沿滑行道緩慢行駛朝跑道方向前進。"
+        }
+      ]
+    },
+    {
+      "headword": "hangar",
+      "partOfSpeech": "n.",
+      "definitionZh": "機棚；飛機停放及維修保養的大型封閉設施",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The corporate jet was stored in a private hangar at the airport.",
+          "translationZh": "公司專機停放在機場的一個私人機棚中。"
+        }
+      ]
+    },
+    {
+      "headword": "preclearance",
+      "partOfSpeech": "n.",
+      "definitionZh": "預通關；在出發機場提前完成目的地入境審查",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "US preclearance facilities allow early immigration checks in Dublin.",
+          "translationZh": "美國預通關設施允許旅客在都柏林提早完成入境審查。"
+        }
+      ]
+    },
+    {
+      "headword": "biometric",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "生物辨識的；以指紋或臉部特徵識別個人身分",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Modern airports use biometric gates to speed up passport control.",
+          "translationZh": "現代機場使用生物辨識閘門加快護照查驗速度。"
+        }
+      ]
+    },
+    {
+      "headword": "excursion",
+      "partOfSpeech": "n.",
+      "definitionZh": "附加短程旅遊；出差期間安排的景點參訪活動",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The program includes a half-day cultural excursion to the old town.",
+          "translationZh": "行程包含半天前往舊城區的文化短程旅遊。"
+        }
+      ]
+    },
+    {
+      "headword": "motorcade",
+      "partOfSpeech": "n.",
+      "definitionZh": "護送車隊；官員或高層貴賓的多輛車隊行進安排",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A police motorcade escorted the visiting minister to the summit.",
+          "translationZh": "警察護送車隊陪同訪問部長前往峰會場地。"
+        }
+      ]
+    },
+    {
+      "headword": "repatriate",
+      "partOfSpeech": "v.",
+      "definitionZh": "遣返；將人員或資金送回本國的正式程序",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company repatriated all staff from the conflict zone promptly.",
+          "translationZh": "公司迅速將所有員工從衝突地區遣返回國。"
+        }
+      ]
+    },
+    {
+      "headword": "itinerant",
+      "partOfSpeech": "adj.",
+      "definitionZh": "巡迴的；定期往來多個地點執行業務的",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The itinerant sales manager visits five cities each month.",
+          "translationZh": "這位巡迴業務經理每個月走訪五個城市。"
+        }
+      ]
+    },
+    {
+      "headword": "displacement",
+      "partOfSpeech": "n.",
+      "definitionZh": "機位取消；超額訂票導致旅客被移除訂位的情況",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Passengers facing displacement are entitled to compensation by law.",
+          "translationZh": "依法規定，遭機位取消的旅客有權獲得賠償。"
+        }
+      ]
+    },
+    {
+      "headword": "commute",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "通勤；規律往返工作地點與居所的交通往返",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A weekly commute between branches adds up to significant travel costs.",
+          "translationZh": "每週往返各分部的通勤費用日積月累相當可觀。"
+        }
+      ]
+    },
+    {
+      "headword": "apostille",
+      "partOfSpeech": "n.",
+      "definitionZh": "海牙認證；供國際使用的文件官方合法化認證戳記",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Attach an apostille to the degree certificate for overseas employment.",
+          "translationZh": "為海外就業，請在學位證書上附上海牙認證。"
+        }
+      ]
+    },
+    {
+      "headword": "colloquium",
+      "partOfSpeech": "n.",
+      "definitionZh": "學術研討；以知識交流為目的的非正式討論會",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The annual colloquium attracts researchers from across the region.",
+          "translationZh": "年度學術研討會吸引了來自整個地區的研究人員。"
+        }
+      ]
+    },
+    {
+      "headword": "denominate",
+      "partOfSpeech": "v.",
+      "definitionZh": "以…計價；以特定貨幣或單位表示費用或金額",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Hotel invoices are denominated in US dollars for corporate accounts.",
+          "translationZh": "企業帳戶的飯店發票以美元計價。"
+        }
+      ]
+    },
+    {
+      "headword": "settle",
+      "partOfSpeech": "v.",
+      "definitionZh": "結清帳款；完成費用的最終支付動作",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Please settle your hotel bill before the 11 a.m. checkout deadline.",
+          "translationZh": "請在上午十一點退房期限前結清飯店帳款。"
+        }
+      ]
+    },
+    {
+      "headword": "deplane",
+      "partOfSpeech": "v.",
+      "definitionZh": "下機；飛機降落後旅客離開機艙的動作",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Remain seated until the seatbelt sign is off before you deplane.",
+          "translationZh": "請在安全帶燈號熄滅後再起身準備下機。"
+        }
+      ]
+    },
+    {
+      "headword": "enplane",
+      "partOfSpeech": "v.",
+      "definitionZh": "登機；旅客在出發前進入機艙的行為",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Priority passengers may enplane first at gate B12.",
+          "translationZh": "優先旅客可在B12登機門先行登機。"
+        }
+      ]
+    },
+    {
+      "headword": "aerodrome",
+      "partOfSpeech": "n.",
+      "definitionZh": "小型機場；提供一般航空使用的簡易飛行場",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The charter flight landed at a local aerodrome near the factory.",
+          "translationZh": "包機降落在工廠附近的一個當地小型機場。"
+        }
+      ]
+    },
+    {
+      "headword": "jetway",
+      "partOfSpeech": "n.",
+      "definitionZh": "廊橋；連接航站樓與飛機艙門的伸縮登機通道",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Passengers boarded the aircraft directly via an enclosed jetway.",
+          "translationZh": "旅客透過封閉式廊橋直接登上飛機。"
+        }
+      ]
+    },
+    {
+      "headword": "overstay",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "逾期居留；在簽證到期後仍留在該國的違規行為",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An overstay of even one day may result in an entry ban.",
+          "translationZh": "即使逾期居留僅一天，也可能導致入境禁令。"
+        }
+      ]
+    },
+    {
+      "headword": "sojourn",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "短暫停留；在某地的臨時居住或商務訪問",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "His two-week sojourn in Berlin included client visits and plant tours.",
+          "translationZh": "他在柏林兩週的短暫停留包含客戶拜訪及工廠參觀。"
+        }
+      ]
+    },
+    {
+      "headword": "traverse",
+      "partOfSpeech": "v.",
+      "definitionZh": "穿越；通過或橫跨某地區或路線的移動行為",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The road trip let the team traverse three countries in one week.",
+          "translationZh": "這次公路旅行讓團隊在一週內穿越了三個國家。"
+        }
+      ]
+    },
+    {
+      "headword": "egress",
+      "partOfSpeech": "n.",
+      "definitionZh": "出口通道；供人員安全離開使用的出口設施",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Familiarize yourself with the egress routes upon boarding the aircraft.",
+          "translationZh": "登機後請先熟悉機艙緊急出口的位置與路線。"
+        }
+      ]
+    },
+    {
+      "headword": "ingress",
+      "partOfSpeech": "n.",
+      "definitionZh": "入口通道；進入特定建築或管制區域的入口",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ingress to the VIP lounge requires a valid premium membership card.",
+          "translationZh": "進入貴賓室需持有效的高級會員資格卡。"
+        }
+      ]
+    },
+    {
+      "headword": "overland",
+      "partOfSpeech": "adv./adj.",
+      "definitionZh": "陸路方式；以地面交通工具完成的旅程安排",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An overland journey by train links the two conference host cities.",
+          "translationZh": "搭乘火車的陸路旅程連結了兩座會議主辦城市。"
+        }
+      ]
+    },
+    {
+      "headword": "compulsory",
+      "partOfSpeech": "adj.",
+      "definitionZh": "強制性的；依規定必須辦理的旅行相關手續",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Travel insurance is compulsory for all overseas business assignments.",
+          "translationZh": "所有海外商務外派任務均強制要求購買旅遊保險。"
+        }
+      ]
+    },
+    {
+      "headword": "formality",
+      "partOfSpeech": "n.",
+      "definitionZh": "正式手續；旅行中必須完成的官方規定程序",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Border formalities for EU citizens are faster at automated e-gates.",
+          "translationZh": "歐盟公民使用自動電子閘門可加快辦理邊境手續。"
+        }
+      ]
+    },
+    {
+      "headword": "detour",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "繞道；因道路管制或施工必須改走的替代路線",
+      "examTags": [
+        "TOEIC",
+        "travel",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A road detour added forty minutes to the airport transfer time.",
+          "translationZh": "道路繞行使機場接送行程增加了四十分鐘。"
+        }
+      ]
     }
   ]
 }

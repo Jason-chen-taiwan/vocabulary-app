@@ -1653,6 +1653,1430 @@
           "translationZh": "公司會報銷你的差旅費。"
         }
       ]
+    },
+    {
+      "headword": "arbitrage",
+      "partOfSpeech": "n.",
+      "definitionZh": "套利（同時在不同市場買賣相同資產以賺取價差）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Traders exploit arbitrage by buying low in one market and selling high in another.",
+          "translationZh": "交易員透過在低價市場買入、高價市場賣出來套利。"
+        }
+      ]
+    },
+    {
+      "headword": "leverage",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "財務槓桿（以借入資金放大投資規模與潛在報酬）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "High leverage amplifies both gains and losses in volatile markets.",
+          "translationZh": "高槓桿在波動市場中同時放大獲利與虧損。"
+        }
+      ]
+    },
+    {
+      "headword": "dilution",
+      "partOfSpeech": "n.",
+      "definitionZh": "稀釋效應（新股發行使現有股東每股持份比例下降）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Issuing new shares causes dilution of existing shareholders' equity.",
+          "translationZh": "發行新股會稀釋現有股東的股東權益。"
+        }
+      ]
+    },
+    {
+      "headword": "convertible",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "可轉換的（可依約定條件轉換為普通股的債券或特別股）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The startup issued convertible notes to raise early-stage capital.",
+          "translationZh": "新創公司發行可轉換票據以募集早期資金。"
+        }
+      ]
+    },
+    {
+      "headword": "warrant",
+      "partOfSpeech": "n.",
+      "definitionZh": "認股權證（以固定價格購買公司股份的憑證）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Each bond came with a warrant to buy shares at a fixed price.",
+          "translationZh": "每張債券附帶一份以固定價格購股的認股權證。"
+        }
+      ]
+    },
+    {
+      "headword": "option",
+      "partOfSpeech": "n.",
+      "definitionZh": "選擇權（特定期間以約定價格買賣資產的契約權利）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She exercised her stock option before the expiry date.",
+          "translationZh": "她在到期日前行使了股票選擇權。"
+        }
+      ]
+    },
+    {
+      "headword": "impairment",
+      "partOfSpeech": "n.",
+      "definitionZh": "資產減損（可回收金額低於帳面價值時認列的損失）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The goodwill impairment reduced reported earnings significantly.",
+          "translationZh": "商譽減損大幅降低了報告盈餘。"
+        }
+      ]
+    },
+    {
+      "headword": "goodwill",
+      "partOfSpeech": "n.",
+      "definitionZh": "商譽（企業收購價超過可辨認淨資產公允價值的溢價）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The acquisition generated $20M in goodwill on the balance sheet.",
+          "translationZh": "此次收購在資產負債表上產生了2,000萬美元商譽。"
+        }
+      ]
+    },
+    {
+      "headword": "intangible",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "無形資產（如專利、商標等非實體但具商業價值的資產）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Brand recognition is a valuable intangible asset for the company.",
+          "translationZh": "品牌知名度是公司寶貴的無形資產。"
+        }
+      ]
+    },
+    {
+      "headword": "tangible",
+      "partOfSpeech": "adj.",
+      "definitionZh": "有形的（具實體形式且可計量的資產如機器廠房）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Tangible assets such as machinery are listed under fixed assets.",
+          "translationZh": "機器設備等有形資產列於固定資產項下。"
+        }
+      ]
+    },
+    {
+      "headword": "disclosure",
+      "partOfSpeech": "n.",
+      "definitionZh": "資訊揭露（按規定公開公司財務與重要事項的義務）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Timely disclosure of material risks is required by securities law.",
+          "translationZh": "證券法要求及時揭露重大風險資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "materiality",
+      "partOfSpeech": "n.",
+      "definitionZh": "重大性（能影響財報使用者判斷的資訊重要程度標準）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Auditors apply materiality thresholds to focus on significant items.",
+          "translationZh": "審計師運用重大性門檻聚焦於重要項目。"
+        }
+      ]
+    },
+    {
+      "headword": "restatement",
+      "partOfSpeech": "n.",
+      "definitionZh": "財務重述（修正錯誤後重新公布的財務報表）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The financial restatement corrected errors in prior-year revenue.",
+          "translationZh": "財務重述更正了前一年度的營收錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "insolvency",
+      "partOfSpeech": "n.",
+      "definitionZh": "資不抵債（資產不足清償全部負債的財務危機狀態）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Rising debts pushed the retailer toward insolvency last quarter.",
+          "translationZh": "債務攀升使該零售商上季瀕臨資不抵債。"
+        }
+      ]
+    },
+    {
+      "headword": "bankruptcy",
+      "partOfSpeech": "n.",
+      "definitionZh": "破產（無力還款時依法向法院申請的債務清理保護程序）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The airline filed for bankruptcy to restructure its heavy debt.",
+          "translationZh": "該航空公司申請破產以重組沉重債務。"
+        }
+      ]
+    },
+    {
+      "headword": "liquidation",
+      "partOfSpeech": "n.",
+      "definitionZh": "清算（企業解散時變賣全部資產以清償債務的程序）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Creditors voted for liquidation after restructuring talks failed.",
+          "translationZh": "重組談判破裂後，債權人投票通過清算。"
+        }
+      ]
+    },
+    {
+      "headword": "restructure",
+      "partOfSpeech": "v.",
+      "definitionZh": "重組（調整債務或企業結構以恢復財務健全）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The CFO plans to restructure the firm's debt to extend maturities.",
+          "translationZh": "財務長計畫重組公司債務以延長到期期限。"
+        }
+      ]
+    },
+    {
+      "headword": "divestiture",
+      "partOfSpeech": "n.",
+      "definitionZh": "資產剝離（出售子公司或業務部門的策略性決定）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The conglomerate announced the divestiture of its media division.",
+          "translationZh": "集團宣布剝離旗下媒體事業部門。"
+        }
+      ]
+    },
+    {
+      "headword": "subsidiary",
+      "partOfSpeech": "n.",
+      "definitionZh": "子公司（由母公司持有多數股份並控制的獨立實體）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The overseas subsidiary reports its financials in local currency.",
+          "translationZh": "海外子公司以當地貨幣提交財務報告。"
+        }
+      ]
+    },
+    {
+      "headword": "consolidation",
+      "partOfSpeech": "n.",
+      "definitionZh": "合併報表；整合（將子公司財務數據彙入母公司報表的程序）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The parent completed the consolidation of three subsidiaries.",
+          "translationZh": "母公司完成了三家子公司的合併報表程序。"
+        }
+      ]
+    },
+    {
+      "headword": "custodian",
+      "partOfSpeech": "n.",
+      "definitionZh": "保管機構（代表客戶保管有價證券及資產的受信任金融機構）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The pension fund appointed a custodian to safeguard its assets.",
+          "translationZh": "養老基金委任保管機構妥善保管其資產。"
+        }
+      ]
+    },
+    {
+      "headword": "maturity",
+      "partOfSpeech": "n.",
+      "definitionZh": "到期日（債券或貸款本金全額到期應清償的確定日期）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bond reaches maturity in five years when the principal is due.",
+          "translationZh": "債券五年後到期，屆時本金須一次清償。"
+        }
+      ]
+    },
+    {
+      "headword": "callable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "可提前贖回的（發行人有權在到期前以特定價格贖回的證券）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The callable bond allows the issuer to redeem it before maturity.",
+          "translationZh": "可提前贖回債券允許發行人在到期前回購。"
+        }
+      ]
+    },
+    {
+      "headword": "annuity",
+      "partOfSpeech": "n.",
+      "definitionZh": "年金（按固定間隔支付固定金額的長期財務安排）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She purchased an annuity to receive steady income in retirement.",
+          "translationZh": "她購買年金以在退休後獲得穩定收入。"
+        }
+      ]
+    },
+    {
+      "headword": "capitalization",
+      "partOfSpeech": "n.",
+      "definitionZh": "市值；資本化（公司全部已發行股份的市場總價值）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company's market capitalization exceeded $1 billion this week.",
+          "translationZh": "公司市值本週突破了10億美元。"
+        }
+      ]
+    },
+    {
+      "headword": "par",
+      "partOfSpeech": "n.",
+      "definitionZh": "面值（股票或債券票面上標示的法定名義金額）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Bonds trading above par indicate falling yields in the market.",
+          "translationZh": "債券溢價交易反映市場殖利率下降。"
+        }
+      ]
+    },
+    {
+      "headword": "subsidy",
+      "partOfSpeech": "n.",
+      "definitionZh": "補貼（政府或機構提供的財務援助以降低成本或刺激活動）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The government subsidy reduced production costs for solar panels.",
+          "translationZh": "政府補貼降低了太陽能板的生產成本。"
+        }
+      ]
+    },
+    {
+      "headword": "appropriation",
+      "partOfSpeech": "n.",
+      "definitionZh": "撥款（正式核定特定資金用於指定用途的決策）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Congress passed the emergency appropriation for flood relief.",
+          "translationZh": "國會通過了用於水災救濟的緊急撥款。"
+        }
+      ]
+    },
+    {
+      "headword": "monetize",
+      "partOfSpeech": "v.",
+      "definitionZh": "貨幣化（將資產、服務或流量轉換為現金收益的方式）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The platform plans to monetize its user base through subscriptions.",
+          "translationZh": "該平台計畫透過訂閱制將用戶群變現。"
+        }
+      ]
+    },
+    {
+      "headword": "hypothecate",
+      "partOfSpeech": "v.",
+      "definitionZh": "質押（以資產作抵押取得融資但不移轉所有權）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The borrower agreed to hypothecate inventory as loan collateral.",
+          "translationZh": "借款人同意將存貨質押作為貸款擔保品。"
+        }
+      ]
+    },
+    {
+      "headword": "pledge",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "質押保證（以資產作為抵押保證履行財務義務）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "She pledged her shares as security to obtain working capital.",
+          "translationZh": "她以股份質押作擔保以取得營運資金。"
+        }
+      ]
+    },
+    {
+      "headword": "overdraft",
+      "partOfSpeech": "n.",
+      "definitionZh": "透支（帳戶餘額不足時銀行允許繼續提款的預核安排）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The account entered overdraft after the large payment cleared.",
+          "translationZh": "大額付款過帳後帳戶陷入透支。"
+        }
+      ]
+    },
+    {
+      "headword": "drawdown",
+      "partOfSpeech": "n.",
+      "definitionZh": "提款動用（從已核准貸款或融資額度中實際提取資金）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company made its first drawdown of $2M from the credit line.",
+          "translationZh": "公司首次從信貸額度動用了200萬美元。"
+        }
+      ]
+    },
+    {
+      "headword": "netting",
+      "partOfSpeech": "n.",
+      "definitionZh": "淨額結算（相互抵銷應收應付款後只結清差額的機制）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Netting reduced settlement risk by offsetting mutual obligations.",
+          "translationZh": "淨額結算透過抵銷互相義務降低了結算風險。"
+        }
+      ]
+    },
+    {
+      "headword": "capitalize",
+      "partOfSpeech": "v.",
+      "definitionZh": "資本化（將支出認列為長期資產而非直接列為當期費用）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Development costs meeting the criteria can be capitalized under IFRS.",
+          "translationZh": "符合條件的開發成本在國際財報準則下可資本化。"
+        }
+      ]
+    },
+    {
+      "headword": "writeoff",
+      "partOfSpeech": "n.",
+      "definitionZh": "呆帳沖銷（確認壞帳無法回收並從帳冊中移除的處理）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank recorded a $5M writeoff on uncollectable receivables.",
+          "translationZh": "銀行對無法收回的應收款認列500萬美元呆帳沖銷。"
+        }
+      ]
+    },
+    {
+      "headword": "haircut",
+      "partOfSpeech": "n.",
+      "definitionZh": "折價率（對擔保品市值打折以決定可借款金額的比例）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The repo agreement applied a 10% haircut to pledged securities.",
+          "translationZh": "附買回協議對質押證券適用10%的折價率。"
+        }
+      ]
+    },
+    {
+      "headword": "redemption",
+      "partOfSpeech": "n.",
+      "definitionZh": "贖回（到期或提前按約定價格買回已發行股份或債券）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Early redemption of the bonds triggered a prepayment penalty.",
+          "translationZh": "提前贖回債券觸發了預付罰款條款。"
+        }
+      ]
+    },
+    {
+      "headword": "appraise",
+      "partOfSpeech": "v.",
+      "definitionZh": "鑑價評估（由專業人員確定資產或財產公允市場價值）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "An independent expert was hired to appraise the real estate assets.",
+          "translationZh": "公司聘請獨立專家為不動產資產進行鑑價。"
+        }
+      ]
+    },
+    {
+      "headword": "foreclose",
+      "partOfSpeech": "v.",
+      "definitionZh": "查封取消贖回（抵押人違約後貸方依法接管抵押資產）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank moved to foreclose after six consecutive missed payments.",
+          "translationZh": "借款人連續六期未繳後，銀行啟動查封程序。"
+        }
+      ]
+    },
+    {
+      "headword": "syndicate",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "聯合貸款（多家銀行共同提供大型融資的安排）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Ten banks joined the syndicate to underwrite the $500M facility.",
+          "translationZh": "十家銀行組成聯貸銀行團承銷5億美元融資。"
+        }
+      ]
+    },
+    {
+      "headword": "sovereign",
+      "partOfSpeech": "adj.",
+      "definitionZh": "主權的（由國家政府發行或以國家信用擔保）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Sovereign bonds issued by stable governments carry the lowest risk.",
+          "translationZh": "穩定政府發行的主權債券風險最低。"
+        }
+      ]
+    },
+    {
+      "headword": "mezzanine",
+      "partOfSpeech": "n.",
+      "definitionZh": "夾層融資（介於優先債務與普通股權之間的混合融資層次）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The mezzanine tranche offers higher yield with equity-like upside.",
+          "translationZh": "夾層份額提供較高收益並帶有股權上漲空間。"
+        }
+      ]
+    },
+    {
+      "headword": "perpetuity",
+      "partOfSpeech": "n.",
+      "definitionZh": "永續年金（無限期持續定期支付現金流的財務概念）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Valuing a perpetuity requires dividing cash flow by the discount rate.",
+          "translationZh": "永續年金估值方法是將現金流除以折現率。"
+        }
+      ]
+    },
+    {
+      "headword": "deferral",
+      "partOfSpeech": "n.",
+      "definitionZh": "遞延（將收入或費用推至未來期間認列的會計處理）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Tax deferral lets companies postpone payments to future periods.",
+          "translationZh": "稅務遞延讓公司將納稅義務推遲至未來期間。"
+        }
+      ]
+    },
+    {
+      "headword": "prudence",
+      "partOfSpeech": "n.",
+      "definitionZh": "謹慎原則（對損失提早認列、對收益保守估算的會計慣例）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The prudence concept requires recognizing losses before they occur.",
+          "translationZh": "謹慎原則要求在損失實際發生前即予認列。"
+        }
+      ]
+    },
+    {
+      "headword": "revaluation",
+      "partOfSpeech": "n.",
+      "definitionZh": "重評價（按現行市場或公允價值重新調整資產帳面金額）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Asset revaluation adjusts book value to reflect current market prices.",
+          "translationZh": "資產重評價調整帳面價值以反映當前市場價格。"
+        }
+      ]
+    },
+    {
+      "headword": "prospectus",
+      "partOfSpeech": "n.",
+      "definitionZh": "公開說明書（新發行證券向潛在投資人提供的正式招募文件）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Investors should read the prospectus before subscribing to the IPO.",
+          "translationZh": "投資人認購新股前應詳閱公開說明書。"
+        }
+      ]
+    },
+    {
+      "headword": "threshold",
+      "partOfSpeech": "n.",
+      "definitionZh": "門檻（觸發特定財務條款或監管要求的最低臨界數值）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Profits exceeding the threshold trigger the profit-sharing plan.",
+          "translationZh": "超過門檻的利潤將啟動利潤分享計畫。"
+        }
+      ]
+    },
+    {
+      "headword": "consistency",
+      "partOfSpeech": "n.",
+      "definitionZh": "一致性（各期採用相同會計政策以利不同期間比較的原則）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Consistency in accounting policies allows year-over-year comparison.",
+          "translationZh": "會計政策的一致性使跨年度比較成為可能。"
+        }
+      ]
+    },
+    {
+      "headword": "transparency",
+      "partOfSpeech": "n.",
+      "definitionZh": "透明度（公司充分揭露財務資訊供外部人士審視的程度）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Quarterly reports improve transparency for all market participants.",
+          "translationZh": "季報提升了所有市場參與者的資訊透明度。"
+        }
+      ]
+    },
+    {
+      "headword": "accretion",
+      "partOfSpeech": "n.",
+      "definitionZh": "折價攤升（以折扣買入債券後帳面價值逐期增加至面值的過程）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Bond accretion increases carrying value toward par over its life.",
+          "translationZh": "債券折價攤升使帳面價值逐期趨近面值。"
+        }
+      ]
+    },
+    {
+      "headword": "factoring",
+      "partOfSpeech": "n.",
+      "definitionZh": "應收帳款融資（以折扣出售應收款換取立即現金的融資方式）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The firm used factoring to convert receivables into immediate cash.",
+          "translationZh": "公司透過應收帳款融資將應收款即時轉為現金。"
+        }
+      ]
+    },
+    {
+      "headword": "tranche",
+      "partOfSpeech": "n.",
+      "definitionZh": "次級份額（大型融資或結構型產品中具不同風險條件的分批份額）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The senior tranche was fully subscribed within hours of launch.",
+          "translationZh": "優先份額在發行數小時內即完成認購。"
+        }
+      ]
+    },
+    {
+      "headword": "rollover",
+      "partOfSpeech": "n.",
+      "definitionZh": "展期（到期後將貸款或投資自動或主動延續的安排）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The loan was extended through an automatic rollover for six months.",
+          "translationZh": "貸款透過自動展期延續了六個月。"
+        }
+      ]
+    },
+    {
+      "headword": "refinance",
+      "partOfSpeech": "v.",
+      "definitionZh": "再融資（以新借款取代既有貸款通常是為獲得更佳條件）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company refinanced its bonds at a lower rate after upgrade.",
+          "translationZh": "公司在信用評等調升後以較低利率進行再融資。"
+        }
+      ]
+    },
+    {
+      "headword": "securitization",
+      "partOfSpeech": "n.",
+      "definitionZh": "資產證券化（將應收款匯集打包後發行成可交易有價證券）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Mortgage securitization pools home loans into tradable securities.",
+          "translationZh": "房貸資產證券化將住宅貸款彙集成可交易證券。"
+        }
+      ]
+    },
+    {
+      "headword": "repurchase",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "回購（公司或機構按協議條件買回之前售出的股份或證券）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company announced a $50M share repurchase program this quarter.",
+          "translationZh": "公司本季宣布5,000萬美元的股份回購計畫。"
+        }
+      ]
+    },
+    {
+      "headword": "debenture",
+      "partOfSpeech": "n.",
+      "definitionZh": "無擔保公司債（以發行人信用而非特定資產作擔保的公司債券）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company issued an unsecured debenture at 6% annual interest.",
+          "translationZh": "公司發行了年利率6%的無擔保公司債。"
+        }
+      ]
+    },
+    {
+      "headword": "underperform",
+      "partOfSpeech": "v.",
+      "definitionZh": "表現遜於基準（投資績效低於參照指標的狀況）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The fund continued to underperform its benchmark for three years.",
+          "translationZh": "該基金連續三年績效落後於基準指標。"
+        }
+      ]
+    },
+    {
+      "headword": "outperform",
+      "partOfSpeech": "v.",
+      "definitionZh": "優於基準（投資績效超越參照指標或同類比較的狀況）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Value stocks tend to outperform during periods of rising rates.",
+          "translationZh": "價值股在利率上升時期通常表現優於大盤。"
+        }
+      ]
+    },
+    {
+      "headword": "rebalance",
+      "partOfSpeech": "v.",
+      "definitionZh": "再平衡（調整投資組合以恢復原定目標資產配置比例）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The adviser recommended rebalancing the portfolio back to 60/40.",
+          "translationZh": "顧問建議將投資組合再平衡回股六債四的配置。"
+        }
+      ]
+    },
+    {
+      "headword": "overweight",
+      "partOfSpeech": "adj./v.",
+      "definitionZh": "超配（投資組合中某資產占比高於基準配置的狀態）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Analysts rated the technology sector as overweight going into Q3.",
+          "translationZh": "分析師在進入第三季前將科技類股評為超配。"
+        }
+      ]
+    },
+    {
+      "headword": "underweight",
+      "partOfSpeech": "adj./v.",
+      "definitionZh": "低配（投資組合中某資產占比低於基準配置的狀態）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The portfolio was underweight in emerging markets during the rally.",
+          "translationZh": "市場反彈期間，該投資組合對新興市場持低配立場。"
+        }
+      ]
+    },
+    {
+      "headword": "recapitalize",
+      "partOfSpeech": "v.",
+      "definitionZh": "重新資本化（調整公司股債結構以改善財務穩定性）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The failing bank was forced to recapitalize by issuing new shares.",
+          "translationZh": "陷入困境的銀行被迫透過發行新股重新資本化。"
+        }
+      ]
+    },
+    {
+      "headword": "amortize",
+      "partOfSpeech": "v.",
+      "definitionZh": "攤銷（將無形資產或借款費用分期逐年沖銷至費用）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Loan origination fees are amortized over the life of the facility.",
+          "translationZh": "貸款手續費在融資期限內逐期攤銷。"
+        }
+      ]
+    },
+    {
+      "headword": "delinquency",
+      "partOfSpeech": "n.",
+      "definitionZh": "逾期未繳（貸款或帳款超過到期日仍未還清的狀態）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Mortgage delinquency rates rose sharply during the economic downturn.",
+          "translationZh": "經濟下行期間，房貸逾期率急劇上升。"
+        }
+      ]
+    },
+    {
+      "headword": "forfaiting",
+      "partOfSpeech": "n.",
+      "definitionZh": "出口商應收款買斷（銀行無追索權買入出口商長期票據的融資方式）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Forfaiting gave the exporter immediate cash against long-term notes.",
+          "translationZh": "票據買斷讓出口商以長期票據換取即時現金。"
+        }
+      ]
+    },
+    {
+      "headword": "illiquid",
+      "partOfSpeech": "adj.",
+      "definitionZh": "流動性低的（難以迅速轉換為現金而不大幅折價的資產）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Private equity investments are typically illiquid for several years.",
+          "translationZh": "私募股權投資通常流動性低達數年之久。"
+        }
+      ]
+    },
+    {
+      "headword": "holdback",
+      "partOfSpeech": "n.",
+      "definitionZh": "保留款（暫扣特定款項待條件達成後方予撥付的安排）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A 10% holdback was retained until the project passed final inspection.",
+          "translationZh": "10%保留款在專案通過最終驗收前暫予扣留。"
+        }
+      ]
+    },
+    {
+      "headword": "vesting",
+      "partOfSpeech": "n.",
+      "definitionZh": "權益歸屬（員工股份或期權按時間計畫逐步轉為可行使的權利）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Stock options begin vesting one year after the grant date.",
+          "translationZh": "股票選擇權自授予日起一年後開始歸屬。"
+        }
+      ]
+    },
+    {
+      "headword": "dilutive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "稀釋性的（可轉換證券若行使將降低每股盈餘的效果）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Convertible bonds are dilutive if converted at below-market prices.",
+          "translationZh": "若可轉換債券以低於市價轉換，將產生稀釋效果。"
+        }
+      ]
+    },
+    {
+      "headword": "overstate",
+      "partOfSpeech": "v.",
+      "definitionZh": "高估誇報（在財務報告中虛報或誇大實際數字）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Auditors found that revenue had been overstated by $3 million.",
+          "translationZh": "審計師發現營收被高估了300萬美元。"
+        }
+      ]
+    },
+    {
+      "headword": "understate",
+      "partOfSpeech": "v.",
+      "definitionZh": "低估低報（在財務報表中刻意或錯誤低報金額）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Management understated expenses to inflate the reported net income.",
+          "translationZh": "管理層低報費用以虛增報告淨利。"
+        }
+      ]
+    },
+    {
+      "headword": "embezzle",
+      "partOfSpeech": "v.",
+      "definitionZh": "侵占挪用（受信任人員竊取所管理的公款或資產）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The CFO was charged with embezzling company funds over three years.",
+          "translationZh": "財務長被控三年間侵占公司資金。"
+        }
+      ]
+    },
+    {
+      "headword": "forensic",
+      "partOfSpeech": "adj.",
+      "definitionZh": "法務鑑識的（用於司法調查目的的財務稽查或分析）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Forensic accountants traced the diverted funds to offshore accounts.",
+          "translationZh": "法務會計師追查到被挪用資金流入境外帳戶。"
+        }
+      ]
+    },
+    {
+      "headword": "writedown",
+      "partOfSpeech": "n.",
+      "definitionZh": "減記（將資產帳面價值向下調整以反映價值減損）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank recorded a writedown on its exposure to distressed bonds.",
+          "translationZh": "銀行對其持有的問題債券部位進行了減記。"
+        }
+      ]
+    },
+    {
+      "headword": "carryover",
+      "partOfSpeech": "n.",
+      "definitionZh": "結轉（將未用完的稅務虧損或預算餘額移至下一期使用）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Unused tax losses are eligible for a carryover of up to five years.",
+          "translationZh": "未使用的稅務虧損可結轉最多五年抵用。"
+        }
+      ]
+    },
+    {
+      "headword": "encash",
+      "partOfSpeech": "v.",
+      "definitionZh": "兌現（將支票、票據或有價憑證換取現金）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Employees can encash unused leave at the year-end rate of pay.",
+          "translationZh": "員工可於年底以當時薪資標準兌現未休假期。"
+        }
+      ]
+    },
+    {
+      "headword": "impound",
+      "partOfSpeech": "v.",
+      "definitionZh": "凍結扣押（因法律或監管程序強制扣留資金或資產）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Regulators moved to impound the accounts pending a full investigation.",
+          "translationZh": "監管機構在全面調查期間凍結了相關帳戶。"
+        }
+      ]
+    },
+    {
+      "headword": "intercompany",
+      "partOfSpeech": "adj.",
+      "definitionZh": "集團內部的（屬同一企業集團各實體間的財務往來）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "All intercompany balances must be eliminated during consolidation.",
+          "translationZh": "所有集團內部往來餘額在合併時須予以消除。"
+        }
+      ]
+    },
+    {
+      "headword": "amend",
+      "partOfSpeech": "v.",
+      "definitionZh": "修訂（對財務合約或申報文件作出正式更改）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The parties agreed to amend the contract to adjust payment terms.",
+          "translationZh": "雙方同意修訂合約以調整付款條款。"
+        }
+      ]
+    },
+    {
+      "headword": "noncurrent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "非流動的（存續或償還期間超過一個會計年度的資產或負債）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Noncurrent assets include property and equipment held long term.",
+          "translationZh": "非流動資產包含長期持有的不動產及設備。"
+        }
+      ]
+    },
+    {
+      "headword": "writeup",
+      "partOfSpeech": "n.",
+      "definitionZh": "增記（將資產帳面價值向上調整以反映價值提升）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A writeup of assets is rare and requires regulatory justification.",
+          "translationZh": "資產增記並不常見，且需要監管機關的依據說明。"
+        }
+      ]
+    },
+    {
+      "headword": "recoupment",
+      "partOfSpeech": "n.",
+      "definitionZh": "彌補回收（從後續盈利中收回先前虧損或預付費用）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company sought recoupment of overpaid subsidies from the vendor.",
+          "translationZh": "公司向供應商追討多付的補貼款項。"
+        }
+      ]
+    },
+    {
+      "headword": "undercapitalized",
+      "partOfSpeech": "adj.",
+      "definitionZh": "資本不足的（企業持有資本低於健全營運所需安全水準）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Regulators flagged the bank as undercapitalized after stress tests.",
+          "translationZh": "監管機構在壓力測試後將該銀行列為資本不足。"
+        }
+      ]
+    },
+    {
+      "headword": "consortium",
+      "partOfSpeech": "n.",
+      "definitionZh": "聯合體（多家機構為大型融資或共同投標組成的臨時聯盟）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "A banking consortium provided the $2B infrastructure financing.",
+          "translationZh": "一個銀行聯合體提供了20億美元的基建融資。"
+        }
+      ]
+    },
+    {
+      "headword": "flotation",
+      "partOfSpeech": "n.",
+      "definitionZh": "首次公開發行（公司首次向公眾出售股票並在交易所掛牌）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "The company's stock market flotation raised $300M for expansion.",
+          "translationZh": "公司股票市場掛牌募集了3億美元用於擴張。"
+        }
+      ]
+    },
+    {
+      "headword": "remuneration",
+      "partOfSpeech": "n.",
+      "definitionZh": "薪酬報酬（員工獲得的全部薪資、獎金及福利總和）",
+      "examTags": [
+        "TOEIC",
+        "finance",
+        "advanced"
+      ],
+      "examples": [
+        {
+          "sentence": "Executive remuneration packages include salary, bonus, and options.",
+          "translationZh": "高管薪酬方案包含薪資、獎金及股票選擇權。"
+        }
+      ]
     }
   ]
 }

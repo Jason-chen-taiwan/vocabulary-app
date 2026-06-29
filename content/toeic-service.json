@@ -1,0 +1,2052 @@
+{
+  "slug": "toeic-service",
+  "name": "客戶服務與客訴",
+  "description": "涵蓋客服溝通、投訴處理與顧客關係管理的核心商務詞彙",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "apologize",
+      "partOfSpeech": "verb",
+      "definitionZh": "正式向對方承認錯誤並表示歉意",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We sincerely apologize for the delay in your shipment.",
+          "translationZh": "我們誠摯地為您的貨物延誤向您道歉。"
+        }
+      ]
+    },
+    {
+      "headword": "apology",
+      "partOfSpeech": "noun",
+      "definitionZh": "道歉的言語或正式表達",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Please accept our apology for the billing error.",
+          "translationZh": "請接受我們為帳單錯誤致上的歉意。"
+        }
+      ]
+    },
+    {
+      "headword": "courtesy",
+      "partOfSpeech": "noun",
+      "definitionZh": "對待客戶的禮貌與周到體貼",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Staff should treat every caller with courtesy.",
+          "translationZh": "員工應以禮貌對待每位來電者。"
+        }
+      ]
+    },
+    {
+      "headword": "courteous",
+      "partOfSpeech": "adjective",
+      "definitionZh": "表現出禮貌與對他人尊重的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our agents are trained to remain courteous under pressure.",
+          "translationZh": "我們的客服人員受訓在壓力下仍保持禮貌。"
+        }
+      ]
+    },
+    {
+      "headword": "polite",
+      "partOfSpeech": "adjective",
+      "definitionZh": "言行舉止合乎禮節、措辭得體的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Please keep the conversation polite and professional.",
+          "translationZh": "請保持對話禮貌且專業。"
+        }
+      ]
+    },
+    {
+      "headword": "politeness",
+      "partOfSpeech": "noun",
+      "definitionZh": "言行符合禮節的特質與表現",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Politeness is the foundation of excellent customer service.",
+          "translationZh": "禮貌是優質客戶服務的基礎。"
+        }
+      ]
+    },
+    {
+      "headword": "sincere",
+      "partOfSpeech": "adjective",
+      "definitionZh": "出自內心、不虛假做作的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A sincere response builds greater customer trust.",
+          "translationZh": "真誠的回應能建立更高的客戶信任。"
+        }
+      ]
+    },
+    {
+      "headword": "sincerity",
+      "partOfSpeech": "noun",
+      "definitionZh": "真誠的態度，不帶虛偽或做作",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers value sincerity over scripted responses.",
+          "translationZh": "客戶重視真誠勝過照本宣科的回覆。"
+        }
+      ]
+    },
+    {
+      "headword": "attentive",
+      "partOfSpeech": "adjective",
+      "definitionZh": "專心聆聽並積極回應客戶需求的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Be attentive when the customer explains their concern.",
+          "translationZh": "當客戶說明問題時，請專注傾聽。"
+        }
+      ]
+    },
+    {
+      "headword": "attentiveness",
+      "partOfSpeech": "noun",
+      "definitionZh": "用心關注客戶每個細節的精神",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Her attentiveness reduced complaint resolution time.",
+          "translationZh": "她的用心讓投訴處理時間大幅縮短。"
+        }
+      ]
+    },
+    {
+      "headword": "empathize",
+      "partOfSpeech": "verb",
+      "definitionZh": "設身處地感受並理解客戶的情緒",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Try to empathize before offering a solution.",
+          "translationZh": "在提出解決方案前，先試著理解客戶感受。"
+        }
+      ]
+    },
+    {
+      "headword": "empathetic",
+      "partOfSpeech": "adjective",
+      "definitionZh": "展現同理心、能體諒他人處境的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "An empathetic tone helps calm frustrated customers.",
+          "translationZh": "具同理心的語氣有助於安撫沮喪的客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "reassure",
+      "partOfSpeech": "verb",
+      "definitionZh": "消除客戶疑慮，使其感到安心",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Reassure the customer that the issue will be resolved.",
+          "translationZh": "向客戶保證問題將會獲得解決。"
+        }
+      ]
+    },
+    {
+      "headword": "reassurance",
+      "partOfSpeech": "noun",
+      "definitionZh": "令客戶放心的具體保證或說明",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The customer needed reassurance about the return policy.",
+          "translationZh": "客戶需要對退貨政策的保證說明。"
+        }
+      ]
+    },
+    {
+      "headword": "commend",
+      "partOfSpeech": "verb",
+      "definitionZh": "公開稱讚某人的傑出表現",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The manager commended the agent for handling the complaint well.",
+          "translationZh": "經理稱讚該客服人員妥善處理了投訴。"
+        }
+      ]
+    },
+    {
+      "headword": "commendation",
+      "partOfSpeech": "noun",
+      "definitionZh": "對優秀服務表現的正式表揚或嘉獎",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "She received a commendation for her customer service skills.",
+          "translationZh": "她因優秀的客服技巧而獲得表揚。"
+        }
+      ]
+    },
+    {
+      "headword": "compliment",
+      "partOfSpeech": "noun",
+      "definitionZh": "對服務人員或服務品質表達的正面讚美",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The survey included several compliments about our team.",
+          "translationZh": "問卷中包含數則對我們團隊的讚美。"
+        }
+      ]
+    },
+    {
+      "headword": "praise",
+      "partOfSpeech": "noun",
+      "definitionZh": "對良好表現的正向肯定與鼓勵",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Customer praise boosts staff morale significantly.",
+          "translationZh": "客戶的讚美能顯著提振員工士氣。"
+        }
+      ]
+    },
+    {
+      "headword": "recognition",
+      "partOfSpeech": "noun",
+      "definitionZh": "對貢獻或服務成就的正式認可",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Public recognition motivates staff to maintain high standards.",
+          "translationZh": "公開表揚能激勵員工維持高服務標準。"
+        }
+      ]
+    },
+    {
+      "headword": "complaint",
+      "partOfSpeech": "noun",
+      "definitionZh": "客戶對服務或產品問題的正式不滿表達",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "All complaints must be logged within 24 hours.",
+          "translationZh": "所有投訴必須在24小時內登錄。"
+        },
+        {
+          "sentence": "The complaint was forwarded to the quality team.",
+          "translationZh": "該投訴已轉交品質團隊處理。"
+        }
+      ]
+    },
+    {
+      "headword": "dissatisfied",
+      "partOfSpeech": "adjective",
+      "definitionZh": "對服務或產品感到不滿意的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The dissatisfied customer requested a full refund.",
+          "translationZh": "這位不滿意的客戶要求全額退款。"
+        }
+      ]
+    },
+    {
+      "headword": "dissatisfaction",
+      "partOfSpeech": "noun",
+      "definitionZh": "因期望未達標而產生的不滿情緒",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Customer dissatisfaction often stems from poor communication.",
+          "translationZh": "客戶不滿往往源於溝通不良。"
+        }
+      ]
+    },
+    {
+      "headword": "compensate",
+      "partOfSpeech": "verb",
+      "definitionZh": "對客戶因失誤造成的損失給予補償",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We will compensate affected customers with store credit.",
+          "translationZh": "我們將以店內點數補償受影響的客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "replace",
+      "partOfSpeech": "verb",
+      "definitionZh": "以新品換取有問題或損壞的商品",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We will replace the defective unit at no charge.",
+          "translationZh": "我們將免費更換有缺陷的商品。"
+        }
+      ]
+    },
+    {
+      "headword": "replacement",
+      "partOfSpeech": "noun",
+      "definitionZh": "用以取代瑕疵品或故障品的替代商品",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A replacement will be shipped within two business days.",
+          "translationZh": "替換品將在兩個工作天內寄出。"
+        }
+      ]
+    },
+    {
+      "headword": "accommodate",
+      "partOfSpeech": "verb",
+      "definitionZh": "彈性調整服務以滿足客戶的特殊需求",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We can accommodate special requests with advance notice.",
+          "translationZh": "提前告知的話，我們可以配合特殊要求。"
+        }
+      ]
+    },
+    {
+      "headword": "issue",
+      "partOfSpeech": "noun",
+      "definitionZh": "需要客服介入處理的疑慮或困難",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Please describe the issue so we can help you faster.",
+          "translationZh": "請描述問題，以便我們更快協助您。"
+        }
+      ]
+    },
+    {
+      "headword": "problem",
+      "partOfSpeech": "noun",
+      "definitionZh": "影響客戶體驗的障礙或錯誤狀況",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our team is working to fix the problem immediately.",
+          "translationZh": "我們的團隊正立即處理這個問題。"
+        }
+      ]
+    },
+    {
+      "headword": "solution",
+      "partOfSpeech": "noun",
+      "definitionZh": "針對客戶問題或投訴提出的解決辦法",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We have found a solution that meets your requirements.",
+          "translationZh": "我們已找到符合您需求的解決方案。"
+        }
+      ]
+    },
+    {
+      "headword": "anticipate",
+      "partOfSpeech": "verb",
+      "definitionZh": "事先預測客戶需求並主動準備因應",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Great service means anticipating needs before they arise.",
+          "translationZh": "優質服務意味著在需求出現前就預先準備。"
+        }
+      ]
+    },
+    {
+      "headword": "expectation",
+      "partOfSpeech": "noun",
+      "definitionZh": "客戶對服務品質或結果的預期標準",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Clarify expectations at the start of every interaction.",
+          "translationZh": "在每次互動開始時釐清客戶期望。"
+        }
+      ]
+    },
+    {
+      "headword": "exceed",
+      "partOfSpeech": "verb",
+      "definitionZh": "超越客戶的預期或既定標準",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our goal is to exceed customer expectations every time.",
+          "translationZh": "我們的目標是每次都超越客戶期望。"
+        }
+      ]
+    },
+    {
+      "headword": "excellence",
+      "partOfSpeech": "noun",
+      "definitionZh": "服務品質達到卓越水準的整體表現",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The company is committed to service excellence.",
+          "translationZh": "公司致力於服務卓越的目標。"
+        }
+      ]
+    },
+    {
+      "headword": "personalize",
+      "partOfSpeech": "verb",
+      "definitionZh": "根據個別客戶的特性量身調整服務內容",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We personalize emails based on purchase history.",
+          "translationZh": "我們依據購買紀錄個人化電子郵件內容。"
+        }
+      ]
+    },
+    {
+      "headword": "customize",
+      "partOfSpeech": "verb",
+      "definitionZh": "依客戶指定要求客製化產品或服務",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Clients can customize their service package online.",
+          "translationZh": "客戶可以在線上客製化其服務套餐。"
+        }
+      ]
+    },
+    {
+      "headword": "loyal",
+      "partOfSpeech": "adjective",
+      "definitionZh": "長期信賴並持續惠顧同一品牌的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Loyal customers are our most valuable asset.",
+          "translationZh": "忠誠客戶是我們最寶貴的資產。"
+        }
+      ]
+    },
+    {
+      "headword": "trustworthy",
+      "partOfSpeech": "adjective",
+      "definitionZh": "言行一致、值得客戶信賴依靠的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A trustworthy brand attracts long-term customers.",
+          "translationZh": "值得信賴的品牌能吸引長期客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "gesture",
+      "partOfSpeech": "noun",
+      "definitionZh": "為表示誠意或善意而採取的具體行動",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A small gesture, like a discount, can restore goodwill.",
+          "translationZh": "一個小小的善意舉動，如折扣，可以恢復信任。"
+        }
+      ]
+    },
+    {
+      "headword": "delight",
+      "partOfSpeech": "verb",
+      "definitionZh": "讓客戶感到超乎預期的驚喜與滿意",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We aim to delight customers at every touchpoint.",
+          "translationZh": "我們致力於在每個接觸點讓客戶驚喜。"
+        }
+      ]
+    },
+    {
+      "headword": "membership",
+      "partOfSpeech": "noun",
+      "definitionZh": "加入忠誠計畫或服務方案的會員資格",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Membership grants access to priority customer support.",
+          "translationZh": "會員資格提供優先客服支援的使用權。"
+        }
+      ]
+    },
+    {
+      "headword": "helpline",
+      "partOfSpeech": "noun",
+      "definitionZh": "提供客戶諮詢協助的專屬服務電話",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Call our helpline anytime for product support.",
+          "translationZh": "隨時撥打我們的客服專線獲得產品支援。"
+        }
+      ]
+    },
+    {
+      "headword": "hotline",
+      "partOfSpeech": "noun",
+      "definitionZh": "處理緊急或特定事務的直撥服務電話",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A 24-hour hotline was set up for urgent complaints.",
+          "translationZh": "緊急投訴設有24小時熱線電話。"
+        }
+      ]
+    },
+    {
+      "headword": "caller",
+      "partOfSpeech": "noun",
+      "definitionZh": "撥打客服電話尋求協助的來電者",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The agent greeted each caller by name when possible.",
+          "translationZh": "客服人員盡可能以姓名稱呼每位來電者。"
+        }
+      ]
+    },
+    {
+      "headword": "queue",
+      "partOfSpeech": "noun",
+      "definitionZh": "等待客服接聽或處理的排隊序列",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "You are number three in the queue; please hold.",
+          "translationZh": "您排在第三位，請稍候。"
+        }
+      ]
+    },
+    {
+      "headword": "operator",
+      "partOfSpeech": "noun",
+      "definitionZh": "接聽並引導客戶通話的接線服務人員",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Press zero to speak with a live operator.",
+          "translationZh": "按零鍵可接通真人接線員。"
+        }
+      ]
+    },
+    {
+      "headword": "staff",
+      "partOfSpeech": "noun",
+      "definitionZh": "在服務場所提供協助的全體工作人員",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "All front-line staff completed customer service training.",
+          "translationZh": "所有第一線員工均完成了客服培訓。"
+        }
+      ]
+    },
+    {
+      "headword": "callback",
+      "partOfSpeech": "noun",
+      "definitionZh": "客服人員稍後主動致電回覆客戶的服務",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Leave your number and we will arrange a callback.",
+          "translationZh": "請留下電話，我們將安排回電給您。"
+        }
+      ]
+    },
+    {
+      "headword": "assistance",
+      "partOfSpeech": "noun",
+      "definitionZh": "主動為客戶提供的支援或幫助",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our team is available for assistance around the clock.",
+          "translationZh": "我們的團隊全天候提供協助。"
+        }
+      ]
+    },
+    {
+      "headword": "guidance",
+      "partOfSpeech": "noun",
+      "definitionZh": "引導客戶找到正確解決方向的建議",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The agent provided guidance on the returns process.",
+          "translationZh": "客服人員就退貨流程提供了指引。"
+        }
+      ]
+    },
+    {
+      "headword": "advise",
+      "partOfSpeech": "verb",
+      "definitionZh": "根據情況向客戶提出專業意見或建議",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We advise customers to keep their receipt as proof.",
+          "translationZh": "我們建議客戶保留收據作為憑證。"
+        }
+      ]
+    },
+    {
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "definitionZh": "向客戶推薦最適合其需求的方案或產品",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "I recommend the premium plan for your usage level.",
+          "translationZh": "根據您的使用量，我推薦尊享方案。"
+        }
+      ]
+    },
+    {
+      "headword": "alternative",
+      "partOfSpeech": "noun",
+      "definitionZh": "提供給客戶的其他可行選項或處理方式",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "May I offer you an alternative delivery date?",
+          "translationZh": "我可以為您提供另一個送達日期選擇嗎？"
+        }
+      ]
+    },
+    {
+      "headword": "etiquette",
+      "partOfSpeech": "noun",
+      "definitionZh": "專業客服場合中應遵守的禮節規範",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Telephone etiquette is essential in a call center.",
+          "translationZh": "電話禮儀在客服中心至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "demeanor",
+      "partOfSpeech": "noun",
+      "definitionZh": "客服人員整體展現的態度與行為舉止",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "His calm demeanor helped ease the customer's frustration.",
+          "translationZh": "他冷靜的態度有助於緩解客戶的沮喪。"
+        }
+      ]
+    },
+    {
+      "headword": "tone",
+      "partOfSpeech": "noun",
+      "definitionZh": "與客戶溝通時所表達的語氣或情感色彩",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Use a warm, professional tone in all written replies.",
+          "translationZh": "在所有書面回覆中使用溫暖且專業的語氣。"
+        }
+      ]
+    },
+    {
+      "headword": "cordial",
+      "partOfSpeech": "adjective",
+      "definitionZh": "態度熱誠友善、令客戶感到被歡迎的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A cordial greeting sets the tone for the interaction.",
+          "translationZh": "熱誠的問候為整個互動定下基調。"
+        }
+      ]
+    },
+    {
+      "headword": "amicable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "以友好方式化解紛爭或處理投訴的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Both parties reached an amicable solution to the dispute.",
+          "translationZh": "雙方以友好方式達成了糾紛解決方案。"
+        }
+      ]
+    },
+    {
+      "headword": "gracious",
+      "partOfSpeech": "adjective",
+      "definitionZh": "以優雅且有禮貌的方式接待或回應客戶的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "She remained gracious even when faced with harsh feedback.",
+          "translationZh": "即使面對嚴厲的批評，她仍保持優雅。"
+        }
+      ]
+    },
+    {
+      "headword": "hospitable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "主動熱情地迎接並照顧客戶需求的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The reception staff were hospitable and well-informed.",
+          "translationZh": "接待人員熱情好客且訊息靈通。"
+        }
+      ]
+    },
+    {
+      "headword": "hospitality",
+      "partOfSpeech": "noun",
+      "definitionZh": "以熱情款待精神服務客戶的整體文化",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Hospitality is at the heart of our service philosophy.",
+          "translationZh": "款待精神是我們服務理念的核心。"
+        }
+      ]
+    },
+    {
+      "headword": "welcome",
+      "partOfSpeech": "verb",
+      "definitionZh": "表示歡迎並熱情接待前來的客戶",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We welcome all feedback, both positive and negative.",
+          "translationZh": "我們歡迎所有正面與負面的意見。"
+        }
+      ]
+    },
+    {
+      "headword": "sympathize",
+      "partOfSpeech": "verb",
+      "definitionZh": "對客戶遭受的困境表示理解與關切",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "I sympathize with your situation and will do my best.",
+          "translationZh": "我理解您的處境，將盡力協助您。"
+        }
+      ]
+    },
+    {
+      "headword": "sympathy",
+      "partOfSpeech": "noun",
+      "definitionZh": "對他人不便或損失所表達的體諒之情",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Expressing sympathy first helps de-escalate complaints.",
+          "translationZh": "先表達體諒有助於緩和投訴情緒。"
+        }
+      ]
+    },
+    {
+      "headword": "patience",
+      "partOfSpeech": "noun",
+      "definitionZh": "面對困難客戶時保持冷靜等待的能力",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Patience is a key skill for any customer service role.",
+          "translationZh": "耐心是任何客服職位的關鍵技能。"
+        }
+      ]
+    },
+    {
+      "headword": "lenient",
+      "partOfSpeech": "adjective",
+      "definitionZh": "在處理投訴或例外時採取寬容立場的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The manager was lenient and waived the cancellation fee.",
+          "translationZh": "經理態度寬容，豁免了取消費用。"
+        }
+      ]
+    },
+    {
+      "headword": "flexible",
+      "partOfSpeech": "adjective",
+      "definitionZh": "視情況調整政策或方案以配合客戶需求的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We are flexible on payment arrangements for loyal customers.",
+          "translationZh": "我們對忠誠客戶的付款安排保持彈性。"
+        }
+      ]
+    },
+    {
+      "headword": "amenable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "願意接受建議並積極配合解決問題的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The client was amenable to a revised delivery schedule.",
+          "translationZh": "客戶願意接受修訂後的交貨時間表。"
+        }
+      ]
+    },
+    {
+      "headword": "cooperative",
+      "partOfSpeech": "adjective",
+      "definitionZh": "積極配合以促成雙方共識的態度",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The customer was cooperative throughout the process.",
+          "translationZh": "客戶在整個過程中十分配合。"
+        }
+      ]
+    },
+    {
+      "headword": "communicate",
+      "partOfSpeech": "verb",
+      "definitionZh": "清楚傳達資訊、決定或進度給客戶",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Always communicate delays before the customer asks.",
+          "translationZh": "在客戶詢問之前，主動告知延誤情況。"
+        }
+      ]
+    },
+    {
+      "headword": "listen",
+      "partOfSpeech": "verb",
+      "definitionZh": "全神貫注地接收並理解客戶的陳述",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Listen carefully before offering any solution.",
+          "translationZh": "在提出任何解決方案前，請仔細傾聽。"
+        }
+      ]
+    },
+    {
+      "headword": "rephrase",
+      "partOfSpeech": "verb",
+      "definitionZh": "用不同說法重新表達以確保雙方理解",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Let me rephrase that to make sure we are aligned.",
+          "translationZh": "讓我換個說法，確保我們的理解一致。"
+        }
+      ]
+    },
+    {
+      "headword": "verify",
+      "partOfSpeech": "verb",
+      "definitionZh": "核實客戶資訊或投訴事項的真實性",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Please verify your order number before we proceed.",
+          "translationZh": "在繼續之前，請確認您的訂單號碼。"
+        }
+      ]
+    },
+    {
+      "headword": "adjust",
+      "partOfSpeech": "verb",
+      "definitionZh": "修正服務方案或安排以符合客戶需求",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We can adjust the invoice to reflect the correct amount.",
+          "translationZh": "我們可以調整發票以反映正確金額。"
+        }
+      ]
+    },
+    {
+      "headword": "modify",
+      "partOfSpeech": "verb",
+      "definitionZh": "根據客戶反映局部更改服務細節或條款",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We can modify your plan without a cancellation fee.",
+          "translationZh": "我們可以在不收取取消費的情況下修改您的方案。"
+        }
+      ]
+    },
+    {
+      "headword": "exception",
+      "partOfSpeech": "noun",
+      "definitionZh": "突破常規政策以特別處理的情形",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We will make an exception given the circumstances.",
+          "translationZh": "考量到情況的特殊性，我們將給予例外處理。"
+        }
+      ]
+    },
+    {
+      "headword": "coordinate",
+      "partOfSpeech": "verb",
+      "definitionZh": "整合多個部門資源以共同解決客戶問題",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "I will coordinate with the logistics team on your behalf.",
+          "translationZh": "我將代表您與物流團隊進行協調。"
+        }
+      ]
+    },
+    {
+      "headword": "liaise",
+      "partOfSpeech": "verb",
+      "definitionZh": "在客戶與內部部門之間擔任溝通橋梁",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The account manager will liaise between you and billing.",
+          "translationZh": "客戶經理將在您與帳務部門之間協調溝通。"
+        }
+      ]
+    },
+    {
+      "headword": "remediate",
+      "partOfSpeech": "verb",
+      "definitionZh": "採取補救行動以修正服務缺失或錯誤",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We will remediate the data error within 48 hours.",
+          "translationZh": "我們將在48小時內補救資料錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "defuse",
+      "partOfSpeech": "verb",
+      "definitionZh": "化解緊張局勢，使客訴情緒趨於平靜",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The supervisor stepped in to defuse the situation.",
+          "translationZh": "主管介入以化解緊張局面。"
+        }
+      ]
+    },
+    {
+      "headword": "appease",
+      "partOfSpeech": "verb",
+      "definitionZh": "透過讓步或補償安撫不滿客戶的情緒",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A complimentary upgrade was offered to appease the client.",
+          "translationZh": "提供免費升級以平息客戶的不滿。"
+        }
+      ]
+    },
+    {
+      "headword": "console",
+      "partOfSpeech": "verb",
+      "definitionZh": "以言語給予情感上的安慰緩解客戶沮喪",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The agent consoled the upset customer with empathy.",
+          "translationZh": "客服人員以同理心安慰了沮喪的客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "comfort",
+      "partOfSpeech": "verb",
+      "definitionZh": "以實際行動或承諾讓客戶感到安心",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We called to comfort the customer after the delivery error.",
+          "translationZh": "送貨出錯後，我們致電安撫客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "retain",
+      "partOfSpeech": "verb",
+      "definitionZh": "採取措施留住既有客戶避免其流失",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We offered a discount to retain the dissatisfied customer.",
+          "translationZh": "我們提供折扣以留住不滿意的客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "promise",
+      "partOfSpeech": "noun",
+      "definitionZh": "對客戶就特定事項給予的明確保證",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We keep our promise to deliver by the agreed date.",
+          "translationZh": "我們信守在約定日期前交貨的承諾。"
+        }
+      ]
+    },
+    {
+      "headword": "commitment",
+      "partOfSpeech": "noun",
+      "definitionZh": "對服務品質或客戶需求的鄭重承諾",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our commitment to quality is reflected in every interaction.",
+          "translationZh": "我們對品質的承諾體現在每次互動中。"
+        }
+      ]
+    },
+    {
+      "headword": "assurance",
+      "partOfSpeech": "noun",
+      "definitionZh": "預先提供給客戶的保證性聲明",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The manager gave assurance that the error would not recur.",
+          "translationZh": "經理保證該錯誤不會再次發生。"
+        }
+      ]
+    },
+    {
+      "headword": "responsible",
+      "partOfSpeech": "adjective",
+      "definitionZh": "對客訴結果勇於承擔並負起全責的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We are responsible for ensuring your order arrives safely.",
+          "translationZh": "我們負責確保您的訂單安全送達。"
+        }
+      ]
+    },
+    {
+      "headword": "ownership",
+      "partOfSpeech": "noun",
+      "definitionZh": "主動承擔問題並負責到底解決的精神",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Take ownership of the issue and follow through to resolution.",
+          "translationZh": "對問題負責，並追蹤到最終解決。"
+        }
+      ]
+    },
+    {
+      "headword": "score",
+      "partOfSpeech": "noun",
+      "definitionZh": "衡量客戶滿意度或服務品質的量化評分",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our satisfaction score rose to 92% this quarter.",
+          "translationZh": "本季我們的滿意度評分上升至92%。"
+        }
+      ]
+    },
+    {
+      "headword": "promoter",
+      "partOfSpeech": "noun",
+      "definitionZh": "主動向他人推薦品牌的高度忠誠顧客",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Promoters are the most valuable segment in NPS surveys.",
+          "translationZh": "推薦者是淨推薦值調查中最有價值的群體。"
+        }
+      ]
+    },
+    {
+      "headword": "detractor",
+      "partOfSpeech": "noun",
+      "definitionZh": "對品牌持負面評價並可能勸阻他人的顧客",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Converting detractors into satisfied customers is a priority.",
+          "translationZh": "將批評者轉化為滿意客戶是首要任務。"
+        }
+      ]
+    },
+    {
+      "headword": "escalation",
+      "partOfSpeech": "noun",
+      "definitionZh": "將未解決問題提交更高層主管處理的程序",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Escalation should be the last resort in complaint handling.",
+          "translationZh": "在投訴處理中，升級應為最後手段。"
+        }
+      ]
+    },
+    {
+      "headword": "deescalate",
+      "partOfSpeech": "verb",
+      "definitionZh": "降低衝突強度並使局勢趨於平穩",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Active listening can quickly deescalate angry callers.",
+          "translationZh": "積極傾聽能迅速緩和憤怒的來電者情緒。"
+        }
+      ]
+    },
+    {
+      "headword": "tact",
+      "partOfSpeech": "noun",
+      "definitionZh": "在敏感或困難情境中恰當應對的機智",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Handle sensitive complaints with tact and professionalism.",
+          "translationZh": "以機智和專業態度處理敏感投訴。"
+        }
+      ]
+    },
+    {
+      "headword": "allegation",
+      "partOfSpeech": "noun",
+      "definitionZh": "客戶對服務失當或產品問題所提出的指控",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "All allegations of misconduct will be investigated promptly.",
+          "translationZh": "所有不當行為的指控將立即展開調查。"
+        }
+      ]
+    },
+    {
+      "headword": "defective",
+      "partOfSpeech": "adjective",
+      "definitionZh": "存在製造或設計缺陷、無法正常使用的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Please return defective items using the prepaid label.",
+          "translationZh": "請使用預付標籤退回有缺陷的商品。"
+        }
+      ]
+    },
+    {
+      "headword": "faulty",
+      "partOfSpeech": "adjective",
+      "definitionZh": "因瑕疵或錯誤而無法正常運作的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A faulty component caused the product to overheat.",
+          "translationZh": "一個有瑕疵的零件導致產品過熱。"
+        }
+      ]
+    },
+    {
+      "headword": "inferior",
+      "partOfSpeech": "adjective",
+      "definitionZh": "品質低於標準或客戶合理期待的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers complained that the material was inferior.",
+          "translationZh": "客戶投訴材料品質低劣。"
+        }
+      ]
+    },
+    {
+      "headword": "unacceptable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "不符合服務承諾或標準而無法被接受的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A two-week delay is unacceptable and must be resolved.",
+          "translationZh": "兩週的延誤無法接受，必須立即解決。"
+        }
+      ]
+    },
+    {
+      "headword": "substandard",
+      "partOfSpeech": "adjective",
+      "definitionZh": "未達到公司或行業規定品質標準的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Substandard packaging led to damage during transit.",
+          "translationZh": "不合標準的包裝導致運送途中損壞。"
+        }
+      ]
+    },
+    {
+      "headword": "failure",
+      "partOfSpeech": "noun",
+      "definitionZh": "產品或服務未達預期功能的失敗狀況",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The system failure was resolved within four hours.",
+          "translationZh": "系統故障在四小時內得到解決。"
+        }
+      ]
+    },
+    {
+      "headword": "breakdown",
+      "partOfSpeech": "noun",
+      "definitionZh": "設備或溝通系統突然停止運作的故障",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A communication breakdown caused the order error.",
+          "translationZh": "溝通中斷導致了訂單錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "exemplary",
+      "partOfSpeech": "adjective",
+      "definitionZh": "作為優良典範、值得效仿的服務表現",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Her exemplary service earned a five-star review.",
+          "translationZh": "她模範的服務贏得了五星評價。"
+        }
+      ]
+    },
+    {
+      "headword": "impeccable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "毫無瑕疵且令人無可挑剔的服務水準",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The team maintained impeccable standards throughout.",
+          "translationZh": "團隊始終維持無懈可擊的服務標準。"
+        }
+      ]
+    },
+    {
+      "headword": "thorough",
+      "partOfSpeech": "adjective",
+      "definitionZh": "全面且細緻地處理客服事項的每個環節",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A thorough review of the complaint was conducted.",
+          "translationZh": "對投訴進行了全面徹底的審查。"
+        }
+      ]
+    },
+    {
+      "headword": "conscientious",
+      "partOfSpeech": "adjective",
+      "definitionZh": "認真負責、一絲不苟地履行服務職責的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Conscientious agents document every customer interaction.",
+          "translationZh": "認真負責的客服人員會記錄每次客戶互動。"
+        }
+      ]
+    },
+    {
+      "headword": "reliable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "始終如一、讓客戶可以放心依賴的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers return because they find our service reliable.",
+          "translationZh": "客戶回頭是因為他們認為我們的服務值得信賴。"
+        }
+      ]
+    },
+    {
+      "headword": "seamless",
+      "partOfSpeech": "adjective",
+      "definitionZh": "各服務環節銜接流暢、沒有中斷或摩擦的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "We strive to provide a seamless omnichannel experience.",
+          "translationZh": "我們致力於提供無縫的全通路體驗。"
+        }
+      ]
+    },
+    {
+      "headword": "efficient",
+      "partOfSpeech": "adjective",
+      "definitionZh": "以最少資源在最短時間完成服務的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "An efficient process reduces wait times significantly.",
+          "translationZh": "高效的流程能大幅減少等待時間。"
+        }
+      ]
+    },
+    {
+      "headword": "prompt",
+      "partOfSpeech": "adjective",
+      "definitionZh": "即時回應客戶、不讓其久等的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Prompt replies increase customer satisfaction rates.",
+          "translationZh": "迅速回覆能提高客戶滿意度。"
+        }
+      ]
+    },
+    {
+      "headword": "punctual",
+      "partOfSpeech": "adjective",
+      "definitionZh": "準時履行對客戶承諾的時間或期限",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Be punctual for all scheduled customer appointments.",
+          "translationZh": "務必準時出席所有預約的客戶會面。"
+        }
+      ]
+    },
+    {
+      "headword": "personable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "親切熱情、容易讓客戶感到自在親近的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A personable agent leaves a lasting positive impression.",
+          "translationZh": "親切的客服人員能留下持久的正面印象。"
+        }
+      ]
+    },
+    {
+      "headword": "pacify",
+      "partOfSpeech": "verb",
+      "definitionZh": "以行動或言語使憤怒或焦慮的客戶平靜",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Acknowledge the error first to pacify the angry customer.",
+          "translationZh": "先承認錯誤，以使憤怒的客戶平靜下來。"
+        }
+      ]
+    },
+    {
+      "headword": "placate",
+      "partOfSpeech": "verb",
+      "definitionZh": "透過讓步或合理解釋化解客戶不滿情緒",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A refund offer was enough to placate the customer.",
+          "translationZh": "退款提議足以平息客戶的不滿。"
+        }
+      ]
+    },
+    {
+      "headword": "case",
+      "partOfSpeech": "noun",
+      "definitionZh": "需要追蹤與跟進的個別客訴或服務記錄",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Your case has been assigned to a senior agent.",
+          "translationZh": "您的案件已指派給資深客服人員處理。"
+        }
+      ]
+    },
+    {
+      "headword": "omnichannel",
+      "partOfSpeech": "adjective",
+      "definitionZh": "整合電話、網路及實體等多種管道提供一致服務體驗的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our omnichannel strategy improves the customer journey.",
+          "translationZh": "我們的全通路策略改善了客戶服務歷程。"
+        }
+      ]
+    },
+    {
+      "headword": "interaction",
+      "partOfSpeech": "noun",
+      "definitionZh": "客戶與服務人員之間每一次的溝通接觸",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Every interaction is an opportunity to build loyalty.",
+          "translationZh": "每次互動都是建立忠誠度的機會。"
+        }
+      ]
+    },
+    {
+      "headword": "critical",
+      "partOfSpeech": "adjective",
+      "definitionZh": "對服務運作至關重要或情況緊急需優先處理的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Timely communication is critical during service outages.",
+          "translationZh": "服務中斷期間，及時溝通至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "professional",
+      "partOfSpeech": "adjective",
+      "definitionZh": "展現專業知識與職業素養的服務態度",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Always remain professional when handling difficult clients.",
+          "translationZh": "在處理困難客戶時，始終保持專業態度。"
+        }
+      ]
+    },
+    {
+      "headword": "professionalism",
+      "partOfSpeech": "noun",
+      "definitionZh": "在工作中展現的專業態度與行為標準",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Professionalism distinguishes top agents from average ones.",
+          "translationZh": "專業態度是頂尖客服與普通客服的區別。"
+        }
+      ]
+    },
+    {
+      "headword": "certify",
+      "partOfSpeech": "verb",
+      "definitionZh": "正式認可產品、服務或人員符合規定標準",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "All agents must be certified before handling escalations.",
+          "translationZh": "所有客服人員在處理升級案件前須通過認證。"
+        }
+      ]
+    },
+    {
+      "headword": "hold",
+      "partOfSpeech": "verb",
+      "definitionZh": "讓客戶在線上等待以轉接或查詢資訊",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "May I put you on hold for a moment while I check?",
+          "translationZh": "我查詢一下資料，可以請您稍等嗎？"
+        }
+      ]
+    },
+    {
+      "headword": "abandon",
+      "partOfSpeech": "verb",
+      "definitionZh": "客戶在等待接聽中途主動放棄聯繫",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Long wait times cause customers to abandon the call.",
+          "translationZh": "漫長的等待時間會使客戶中途掛斷電話。"
+        }
+      ]
+    },
+    {
+      "headword": "redirect",
+      "partOfSpeech": "verb",
+      "definitionZh": "將客戶轉接至最適合處理其問題的部門或人員",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "I will redirect your call to our billing department.",
+          "translationZh": "我將把您的電話轉接至帳務部門。"
+        }
+      ]
+    },
+    {
+      "headword": "transparent",
+      "partOfSpeech": "adjective",
+      "definitionZh": "主動且誠實地向客戶揭露相關資訊的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Be transparent about timelines even when delivering bad news.",
+          "translationZh": "即使傳達壞消息，也要對時程坦誠說明。"
+        }
+      ]
+    },
+    {
+      "headword": "straightforward",
+      "partOfSpeech": "adjective",
+      "definitionZh": "直接清楚、不拐彎抹角的溝通方式",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Give a straightforward answer rather than using jargon.",
+          "translationZh": "給出直接明確的答案，而非使用行話。"
+        }
+      ]
+    },
+    {
+      "headword": "candid",
+      "partOfSpeech": "adjective",
+      "definitionZh": "坦率直言、不加修飾地表達真實狀況的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Be candid if the requested feature is unavailable.",
+          "translationZh": "若所需功能無法提供，請坦率告知客戶。"
+        }
+      ]
+    },
+    {
+      "headword": "genuine",
+      "partOfSpeech": "adjective",
+      "definitionZh": "出自真心、無造作成分的服務態度與關懷",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers can tell when concern is genuine or scripted.",
+          "translationZh": "客戶能分辨關心是出自真心還是照本宣科。"
+        }
+      ]
+    },
+    {
+      "headword": "heartfelt",
+      "partOfSpeech": "adjective",
+      "definitionZh": "發自內心、充滿真誠情感的表達",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "A heartfelt apology can turn an upset customer around.",
+          "translationZh": "一句發自真心的道歉能讓不滿的客戶回心轉意。"
+        }
+      ]
+    },
+    {
+      "headword": "satisfactory",
+      "partOfSpeech": "adjective",
+      "definitionZh": "達到基本標準、讓客戶可以接受的結果",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "The outcome was satisfactory to both parties.",
+          "translationZh": "結果對雙方來說都令人滿意。"
+        }
+      ]
+    },
+    {
+      "headword": "forthright",
+      "partOfSpeech": "adjective",
+      "definitionZh": "主動且直接地提供資訊，不等客戶追問",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Be forthright about any known delays in your response.",
+          "translationZh": "在回覆中主動說明已知的任何延誤情況。"
+        }
+      ]
+    },
+    {
+      "headword": "candor",
+      "partOfSpeech": "noun",
+      "definitionZh": "坦率直言、開誠布公的溝通風格",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Candor in addressing errors builds long-term trust.",
+          "translationZh": "坦誠面對錯誤能建立長期的信任關係。"
+        }
+      ]
+    },
+    {
+      "headword": "accessible",
+      "partOfSpeech": "adjective",
+      "definitionZh": "服務或支援容易被客戶取得或聯繫到的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Our support team is accessible via chat, email, and phone.",
+          "translationZh": "我們的支援團隊可透過聊天、電郵和電話聯繫。"
+        }
+      ]
+    },
+    {
+      "headword": "approachable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "親切易於接近、不令客戶感到距離感的",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "An approachable manner encourages customers to speak up.",
+          "translationZh": "親切的態度能鼓勵客戶勇於表達意見。"
+        }
+      ]
+    },
+    {
+      "headword": "caseload",
+      "partOfSpeech": "noun",
+      "definitionZh": "客服人員在特定時期需處理的案件總量",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Heavy caseload affects response time and quality.",
+          "translationZh": "龐大的案件量會影響回應時間與服務品質。"
+        }
+      ]
+    },
+    {
+      "headword": "openness",
+      "partOfSpeech": "noun",
+      "definitionZh": "願意傾聽並接受各種意見的開放態度",
+      "examTags": [
+        "TOEIC",
+        "service"
+      ],
+      "examples": [
+        {
+          "sentence": "Openness to feedback drives continuous service improvement.",
+          "translationZh": "對意見的開放態度推動服務持續改善。"
+        }
+      ]
+    }
+  ]
+}
