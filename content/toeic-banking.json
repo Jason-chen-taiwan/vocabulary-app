@@ -155,21 +155,6 @@
       ]
     },
     {
-      "headword": "accountholder",
-      "partOfSpeech": "noun",
-      "definitionZh": "帳戶持有人，在銀行或金融機構開立帳戶的個人或法人",
-      "examTags": [
-        "TOEIC",
-        "banking"
-      ],
-      "examples": [
-        {
-          "sentence": "The accountholder must present a valid ID for large transactions.",
-          "translationZh": "帳戶持有人進行大額交易時須出示有效身分證明。"
-        }
-      ]
-    },
-    {
       "headword": "joint",
       "partOfSpeech": "adjective",
       "definitionZh": "聯名的，兩人以上共同持有帳戶或資產",
@@ -800,21 +785,6 @@
       ]
     },
     {
-      "headword": "nonrecourse",
-      "partOfSpeech": "adjective",
-      "definitionZh": "無追索權的，貸款人只能以抵押品求償，不得追索其他資產",
-      "examTags": [
-        "TOEIC",
-        "banking"
-      ],
-      "examples": [
-        {
-          "sentence": "A nonrecourse loan limits lender recovery to collateral only.",
-          "translationZh": "無追索權貸款限制貸款方只能以抵押品回收損失。"
-        }
-      ]
-    },
-    {
       "headword": "cosign",
       "partOfSpeech": "verb",
       "definitionZh": "共同簽署，第三方與主借款人聯合簽署並承擔連帶還款責任",
@@ -920,21 +890,6 @@
       ]
     },
     {
-      "headword": "hypothecation",
-      "partOfSpeech": "noun",
-      "definitionZh": "動產質押，以資產作擔保但不移交占有權的安排",
-      "examTags": [
-        "TOEIC",
-        "banking"
-      ],
-      "examples": [
-        {
-          "sentence": "Hypothecation of shares is common in margin lending.",
-          "translationZh": "以股票質押擔保在保證金貸款中十分常見。"
-        }
-      ]
-    },
-    {
       "headword": "collateralize",
       "partOfSpeech": "verb",
       "definitionZh": "以資產擔保，將某項資產指定為貸款的擔保品",
@@ -1026,7 +981,7 @@
     },
     {
       "headword": "correspondent",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "n.",
       "definitionZh": "往來（銀行）的，與境外銀行維持代理關係以處理跨境業務",
       "examTags": [
         "TOEIC",
@@ -1591,21 +1546,6 @@
         {
           "sentence": "Mortality tables guide life insurance premium calculations.",
           "translationZh": "死亡率表格指引壽險保費的計算。"
-        }
-      ]
-    },
-    {
-      "headword": "morbidity",
-      "partOfSpeech": "noun",
-      "definitionZh": "患病率，用於健康險精算計算預期疾病發生頻率的指標",
-      "examTags": [
-        "TOEIC",
-        "banking"
-      ],
-      "examples": [
-        {
-          "sentence": "High morbidity rates in a region increase health premiums.",
-          "translationZh": "某地區的高患病率會推升健康保險的保費。"
         }
       ]
     },
