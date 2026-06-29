@@ -68,4 +68,10 @@ export class ContentRepository {
     })
     return (rows as Parameters<typeof toWordWithExamples>[0][]).map(toWordWithExamples)
   }
+
+  async getWordCore(id: string): Promise<{ headword: string; definitionZh: string } | null> {
+    const row = (await this.db.word.findUnique({ where: { id }, select: { headword: true, definitionZh: true } })) as
+      { headword: string; definitionZh: string } | null
+    return row
+  }
 }

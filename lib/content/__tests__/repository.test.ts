@@ -109,4 +109,12 @@ describe('ContentRepository', () => {
     expect(result).toEqual([])
     expect(db.word.findMany).not.toHaveBeenCalled()
   })
+
+  it('getWordCore returns headword + definitionZh', async () => {
+    const db = makeDb()
+    db.word.findUnique.mockResolvedValue({ headword: 'invoice', definitionZh: '發票' })
+    const repo = new ContentRepository(db as any)
+    expect(await repo.getWordCore('w1')).toEqual({ headword: 'invoice', definitionZh: '發票' })
+    expect(db.word.findUnique).toHaveBeenCalledWith({ where: { id: 'w1' }, select: { headword: true, definitionZh: true } })
+  })
 })

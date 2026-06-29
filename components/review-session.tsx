@@ -93,13 +93,14 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
     return q.type === 'mc' ? answer === q.answer : checkAnswer(answer, q.answer)
   }
 
-  async function commit(correct: boolean) {
+  async function commit(userAnswer: string) {
     if (busy) return
     setBusy(true)
-    setResult({ correct })
-    if (correct) setCorrectCount((n) => n + 1)
+    const localCorrect = evaluate(userAnswer)
+    setResult({ correct: localCorrect })
+    if (localCorrect) setCorrectCount((n) => n + 1)
     try {
-      const res = await submitAnswerAction(q.wordId, correct)
+      const res = await submitAnswerAction(q.wordId, q.type, userAnswer)
       const r = res.reward
       if (r) {
         setRewards((prev) => ({
@@ -109,23 +110,13 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
           badges: [...prev.badges, ...r.newBadges],
         }))
       }
-    } catch {
-      // 即使出錯也讓使用者繼續；本卡進度可能未存
-    }
+    } catch { /* 讓使用者繼續 */ }
     setBusy(false)
   }
 
-  function onPick(opt: string) {
-    if (result) return
-    setPicked(opt)
-    void commit(evaluate(opt))
-  }
+  function onPick(opt: string) { if (result) return; setPicked(opt); void commit(opt) }
 
-  function onSubmitText(e: React.FormEvent) {
-    e.preventDefault()
-    if (result || !input.trim()) return
-    void commit(evaluate(input))
-  }
+  function onSubmitText(e: React.FormEvent) { e.preventDefault(); if (result || !input.trim()) return; void commit(input) }
 
   async function next() {
     if (busy) return
