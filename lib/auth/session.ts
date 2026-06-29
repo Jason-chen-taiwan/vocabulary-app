@@ -1,5 +1,6 @@
 // Lazy-import auth to avoid loading next-auth at module-load time.
 // This keeps toSessionUser as a pure, independently testable function.
+import { cache } from 'react'
 import type { Session } from 'next-auth'
 
 export interface SessionUser {
@@ -15,7 +16,9 @@ export function toSessionUser(session: Session | null): SessionUser | null {
   return { id: u.id, email: u.email, name: u.name ?? null, image: u.image ?? null }
 }
 
-export async function getCurrentUser(): Promise<SessionUser | null> {
+// Cached per-request: multiple server components (e.g. a page + GamificationBar)
+// calling getCurrentUser in the same render share a single auth/session lookup.
+export const getCurrentUser = cache(async (): Promise<SessionUser | null> => {
   const { auth } = await import('@/auth')
   return toSessionUser(await auth())
-}
+})

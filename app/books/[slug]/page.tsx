@@ -8,14 +8,18 @@ import { Card } from '@/components/ui/card'
 import { ProgressBar } from '@/components/ui/progress-bar'
 
 export default async function BookDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const user = await getCurrentUser()
-  if (!user) redirect('/login')
   const { slug } = await params
   const repo = new ContentRepository()
-  const book = await repo.getWordBookBySlug(slug)
+  // user + book are independent → fetch in parallel
+  const [user, book] = await Promise.all([getCurrentUser(), repo.getWordBookBySlug(slug)])
+  if (!user) redirect('/login')
   if (!book) notFound()
-  const words = await repo.listWordsByBook(book.id)
-  const masteredSet = new Set(await new LearningRepository().listMasteredWordIds(user.id, book.id))
+  // words + mastered ids are independent → fetch in parallel
+  const [words, masteredIds] = await Promise.all([
+    repo.listWordsByBook(book.id),
+    new LearningRepository().listMasteredWordIds(user.id, book.id),
+  ])
+  const masteredSet = new Set(masteredIds)
   const masteredHere = words.filter((w) => masteredSet.has(w.id)).length
 
   return (
