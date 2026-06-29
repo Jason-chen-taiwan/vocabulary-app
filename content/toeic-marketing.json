@@ -1,0 +1,1523 @@
+{
+  "slug": "toeic-marketing",
+  "name": "行銷與業務",
+  "description": "涵蓋品牌推廣、數位行銷、業務開發與客戶關係管理的核心 TOEIC 詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "brand",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌（代表企業或產品的識別符號）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our brand is recognized in over 50 countries.",
+          "translationZh": "我們的品牌在超過五十個國家廣為人知。"
+        }
+      ]
+    },
+    {
+      "headword": "branding",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌塑造（建立並維護品牌形象的過程）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Effective branding sets a company apart from its rivals.",
+          "translationZh": "有效的品牌塑造能讓企業與競爭對手區分開來。"
+        }
+      ]
+    },
+    {
+      "headword": "identity",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌識別（品牌的視覺與文化整體形象）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We updated our visual identity to appeal to younger consumers.",
+          "translationZh": "我們更新了視覺識別設計，以吸引年輕消費者。"
+        }
+      ]
+    },
+    {
+      "headword": "logo",
+      "partOfSpeech": "n.",
+      "definitionZh": "標誌（代表品牌的圖形或文字符號）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The new logo reflects the company's modern direction.",
+          "translationZh": "新標誌反映了公司現代化的發展方向。"
+        }
+      ]
+    },
+    {
+      "headword": "slogan",
+      "partOfSpeech": "n.",
+      "definitionZh": "口號（品牌廣告中的簡短宣傳標語）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The slogan 'Quality First' resonates with our audience.",
+          "translationZh": "「品質第一」的口號與我們的受眾產生共鳴。"
+        }
+      ]
+    },
+    {
+      "headword": "tagline",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌標語（品牌識別中傳遞核心理念的一句話）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our new tagline captures the essence of our service.",
+          "translationZh": "我們的新標語精準傳遞了服務的核心精神。"
+        }
+      ]
+    },
+    {
+      "headword": "campaign",
+      "partOfSpeech": "n.",
+      "definitionZh": "行銷活動（有計畫的推廣行動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The summer campaign generated record-high sales.",
+          "translationZh": "夏季行銷活動創下了歷史最高銷售紀錄。"
+        }
+      ]
+    },
+    {
+      "headword": "launch",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "上市、推出（新產品或活動正式發布）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We plan to launch the product in three markets next month.",
+          "translationZh": "我們計畫下個月在三個市場推出該產品。"
+        }
+      ]
+    },
+    {
+      "headword": "promote",
+      "partOfSpeech": "v.",
+      "definitionZh": "推廣（通過宣傳活動提升知名度或銷量）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The team worked hard to promote the new service online.",
+          "translationZh": "團隊努力在線上推廣這項新服務。"
+        }
+      ]
+    },
+    {
+      "headword": "advertise",
+      "partOfSpeech": "v.",
+      "definitionZh": "刊登廣告（付費向大眾宣傳產品或服務）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We advertise on social media to reach younger buyers.",
+          "translationZh": "我們在社群媒體上投放廣告以觸及年輕買家。"
+        }
+      ]
+    },
+    {
+      "headword": "commercial",
+      "partOfSpeech": "n.",
+      "definitionZh": "廣告片（電視或廣播上的付費廣告）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The commercial aired during the championship game.",
+          "translationZh": "這支廣告片在冠軍賽期間播出。"
+        }
+      ]
+    },
+    {
+      "headword": "media",
+      "partOfSpeech": "n.",
+      "definitionZh": "媒體（傳播訊息的渠道或工具的總稱）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We allocated most of the budget to digital media.",
+          "translationZh": "我們將大部分預算分配給了數位媒體。"
+        }
+      ]
+    },
+    {
+      "headword": "channel",
+      "partOfSpeech": "n.",
+      "definitionZh": "渠道（產品或訊息流通的途徑）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Email remains the most cost-effective marketing channel.",
+          "translationZh": "電子郵件仍是最具成本效益的行銷渠道。"
+        }
+      ]
+    },
+    {
+      "headword": "platform",
+      "partOfSpeech": "n.",
+      "definitionZh": "平台（提供服務或內容互動的數位環境）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Instagram is our main platform for brand storytelling.",
+          "translationZh": "Instagram 是我們進行品牌故事行銷的主要平台。"
+        }
+      ]
+    },
+    {
+      "headword": "digital",
+      "partOfSpeech": "adj.",
+      "definitionZh": "數位的（與電子科技或網路相關）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Digital advertising now outpaces traditional print ads.",
+          "translationZh": "數位廣告的規模現已超越傳統平面廣告。"
+        }
+      ]
+    },
+    {
+      "headword": "social",
+      "partOfSpeech": "adj.",
+      "definitionZh": "社群的（與社群媒體互動相關）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Social media plays a key role in our marketing strategy.",
+          "translationZh": "社群媒體在我們的行銷策略中扮演關鍵角色。"
+        }
+      ]
+    },
+    {
+      "headword": "online",
+      "partOfSpeech": "adj./adv.",
+      "definitionZh": "線上的（透過網路進行的）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Most of our customers prefer to shop online.",
+          "translationZh": "我們大多數顧客偏好在線上購物。"
+        }
+      ]
+    },
+    {
+      "headword": "offline",
+      "partOfSpeech": "adj./adv.",
+      "definitionZh": "線下的（非網路的實體活動或通路）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The offline event attracted hundreds of local customers.",
+          "translationZh": "這場實體活動吸引了數百名當地顧客。"
+        }
+      ]
+    },
+    {
+      "headword": "broadcast",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "播送（向大眾傳播訊息或廣告）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We will broadcast the product launch live on our website.",
+          "translationZh": "我們將在官網直播產品發表會。"
+        }
+      ]
+    },
+    {
+      "headword": "viral",
+      "partOfSpeech": "adj.",
+      "definitionZh": "病毒式的（在網路上迅速擴散的）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The video went viral and gained five million views.",
+          "translationZh": "這段影片爆紅，獲得了五百萬次觀看。"
+        }
+      ]
+    },
+    {
+      "headword": "audience",
+      "partOfSpeech": "n.",
+      "definitionZh": "受眾（目標閱聽人群體）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We need to understand our audience before creating content.",
+          "translationZh": "在製作內容之前，我們需要了解目標受眾。"
+        }
+      ]
+    },
+    {
+      "headword": "segment",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "市場區隔（將市場劃分為不同特性的群體）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We segment customers by age and buying behavior.",
+          "translationZh": "我們依年齡和購買行為對顧客進行市場區隔。"
+        }
+      ]
+    },
+    {
+      "headword": "demographic",
+      "partOfSpeech": "n.",
+      "definitionZh": "人口統計資料（描述族群特徵的統計數據）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The 25-to-35 demographic is our primary target group.",
+          "translationZh": "二十五至三十五歲的族群是我們的主要目標客群。"
+        }
+      ]
+    },
+    {
+      "headword": "reach",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "觸達（廣告或內容所能接觸到的受眾範圍）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "This campaign has the potential to reach a million users.",
+          "translationZh": "這次活動有潛力觸達一百萬名使用者。"
+        }
+      ]
+    },
+    {
+      "headword": "impression",
+      "partOfSpeech": "n.",
+      "definitionZh": "曝光次數（廣告被看到的次數）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The banner ad received two million impressions last week.",
+          "translationZh": "這支橫幅廣告上週獲得了兩百萬次曝光。"
+        }
+      ]
+    },
+    {
+      "headword": "click",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "點擊（使用者點選廣告或連結的動作）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Every click on the ad costs about fifty cents.",
+          "translationZh": "每次廣告點擊的費用約為五十美分。"
+        }
+      ]
+    },
+    {
+      "headword": "conversion",
+      "partOfSpeech": "n.",
+      "definitionZh": "轉換（訪客完成購買或目標行為的比率）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Improving the landing page increased our conversion rate.",
+          "translationZh": "優化到達頁面提升了我們的轉換率。"
+        }
+      ]
+    },
+    {
+      "headword": "lead",
+      "partOfSpeech": "n.",
+      "definitionZh": "潛在客戶資訊（可跟進的銷售機會聯絡資料）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The trade show generated over 200 qualified leads.",
+          "translationZh": "這次商展帶來了超過兩百筆合格潛在客戶資料。"
+        }
+      ]
+    },
+    {
+      "headword": "prospect",
+      "partOfSpeech": "n.",
+      "definitionZh": "潛在買家（有購買可能性的個人或企業）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The sales team called every prospect on the list.",
+          "translationZh": "業務團隊聯繫了名單上的每位潛在買家。"
+        }
+      ]
+    },
+    {
+      "headword": "funnel",
+      "partOfSpeech": "n.",
+      "definitionZh": "行銷漏斗（描述顧客購買流程的模型）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Most users drop off at the middle of the sales funnel.",
+          "translationZh": "大多數使用者在銷售漏斗中段便流失了。"
+        }
+      ]
+    },
+    {
+      "headword": "pipeline",
+      "partOfSpeech": "n.",
+      "definitionZh": "銷售管線（追蹤進行中銷售機會的系統）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The sales pipeline shows twenty deals in progress.",
+          "translationZh": "銷售管線顯示目前有二十筆交易正在進行中。"
+        }
+      ]
+    },
+    {
+      "headword": "acquisition",
+      "partOfSpeech": "n.",
+      "definitionZh": "獲客（取得新顧客的行動或成本）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customer acquisition cost fell 20% after we optimized ads.",
+          "translationZh": "優化廣告後，獲客成本下降了二十個百分點。"
+        }
+      ]
+    },
+    {
+      "headword": "loyalty",
+      "partOfSpeech": "n.",
+      "definitionZh": "忠誠度（顧客對品牌長期的偏好與持續支持）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our loyalty program rewards customers with points on purchases.",
+          "translationZh": "我們的忠誠計畫讓顧客每次購買都能累積點數。"
+        }
+      ]
+    },
+    {
+      "headword": "survey",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "調查（收集意見或數據的問卷工具）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We conducted a survey to measure customer satisfaction.",
+          "translationZh": "我們進行了一項調查以評估顧客滿意度。"
+        }
+      ]
+    },
+    {
+      "headword": "research",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "研究（系統性收集與分析市場資訊的活動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Market research helped us identify a new customer segment.",
+          "translationZh": "市場研究幫助我們發現了一個新的顧客族群。"
+        }
+      ]
+    },
+    {
+      "headword": "insight",
+      "partOfSpeech": "n.",
+      "definitionZh": "洞察（從數據中提煉的深度理解）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The report offered valuable insights into user behavior.",
+          "translationZh": "這份報告提供了對使用者行為的寶貴洞察。"
+        }
+      ]
+    },
+    {
+      "headword": "competitor",
+      "partOfSpeech": "n.",
+      "definitionZh": "競爭對手（在市場上競爭的企業或產品）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We monitor each competitor's pricing strategy weekly.",
+          "translationZh": "我們每週監測競爭對手的定價策略。"
+        }
+      ]
+    },
+    {
+      "headword": "differentiate",
+      "partOfSpeech": "v.",
+      "definitionZh": "差異化（讓產品或服務與競品有明顯不同）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We differentiate our product through superior after-sales support.",
+          "translationZh": "我們透過卓越的售後服務讓產品與眾不同。"
+        }
+      ]
+    },
+    {
+      "headword": "niche",
+      "partOfSpeech": "n.",
+      "definitionZh": "利基市場（針對特定小眾的市場定位）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The startup found a profitable niche in eco-friendly packaging.",
+          "translationZh": "這家新創公司在環保包裝領域找到了利潤豐厚的利基市場。"
+        }
+      ]
+    },
+    {
+      "headword": "value",
+      "partOfSpeech": "n.",
+      "definitionZh": "價值（產品或服務帶給顧客的效益）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers buy when they clearly see the value of our product.",
+          "translationZh": "當顧客清楚看到產品的價值時，他們就會購買。"
+        }
+      ]
+    },
+    {
+      "headword": "proposition",
+      "partOfSpeech": "n.",
+      "definitionZh": "價值主張（說明產品為何值得選擇的陳述）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our proposition is simple: better quality at a lower price.",
+          "translationZh": "我們的主張很簡單：以更低的價格提供更好的品質。"
+        }
+      ]
+    },
+    {
+      "headword": "feature",
+      "partOfSpeech": "n.",
+      "definitionZh": "特色功能（產品的具體功能或優點）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The key feature of this app is real-time inventory tracking.",
+          "translationZh": "這款應用程式的核心功能是即時庫存追蹤。"
+        }
+      ]
+    },
+    {
+      "headword": "product",
+      "partOfSpeech": "n.",
+      "definitionZh": "產品（可供銷售的實體或數位商品）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We are planning to expand the product line next quarter.",
+          "translationZh": "我們計畫在下個季度擴充產品線。"
+        }
+      ]
+    },
+    {
+      "headword": "service",
+      "partOfSpeech": "n.",
+      "definitionZh": "服務（提供給顧客的非實體商品或支援）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our customer service team is available around the clock.",
+          "translationZh": "我們的客服團隊全天候提供服務。"
+        }
+      ]
+    },
+    {
+      "headword": "package",
+      "partOfSpeech": "n.",
+      "definitionZh": "套餐（組合多項產品或服務的方案）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The starter package includes a one-year subscription.",
+          "translationZh": "入門套餐包含一年的訂閱服務。"
+        }
+      ]
+    },
+    {
+      "headword": "bundle",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "捆綁銷售（將多樣商品合併為一個組合方案）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We bundle the software with free technical support.",
+          "translationZh": "我們將軟體與免費技術支援捆綁銷售。"
+        }
+      ]
+    },
+    {
+      "headword": "deal",
+      "partOfSpeech": "n.",
+      "definitionZh": "優惠協議（有吸引力的交易條件）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We closed a deal with a major retailer last week.",
+          "translationZh": "我們上週與一家大型零售商完成了一筆交易。"
+        }
+      ]
+    },
+    {
+      "headword": "coupon",
+      "partOfSpeech": "n.",
+      "definitionZh": "折扣券（可折抵購買金額的票券）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers who sign up receive a coupon for 10% off.",
+          "translationZh": "註冊的顧客可獲得一張九折折扣券。"
+        }
+      ]
+    },
+    {
+      "headword": "voucher",
+      "partOfSpeech": "n.",
+      "definitionZh": "兌換券（可兌換商品、服務或金額的憑證）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We sent every member a voucher worth twenty dollars.",
+          "translationZh": "我們向每位會員寄出一張價值二十美元的兌換券。"
+        }
+      ]
+    },
+    {
+      "headword": "sale",
+      "partOfSpeech": "n.",
+      "definitionZh": "特賣活動（以折扣價出售商品的促銷活動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The year-end sale attracted the highest traffic of the year.",
+          "translationZh": "年終特賣吸引了全年最高的流量。"
+        }
+      ]
+    },
+    {
+      "headword": "clearance",
+      "partOfSpeech": "n.",
+      "definitionZh": "清倉特賣（以低價清除剩餘庫存的促銷活動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The clearance event reduced our overstock by 60%.",
+          "translationZh": "清倉活動讓我們的過剩庫存減少了六成。"
+        }
+      ]
+    },
+    {
+      "headword": "exhibition",
+      "partOfSpeech": "n.",
+      "definitionZh": "展覽（展示產品給潛在客戶的公開活動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We booked a large stand at the international exhibition.",
+          "translationZh": "我們在國際展覽上預定了一個大型展位。"
+        }
+      ]
+    },
+    {
+      "headword": "trade",
+      "partOfSpeech": "n.",
+      "definitionZh": "行業貿易（商業交易活動或特定產業領域）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The company expanded its trade partnerships in Southeast Asia.",
+          "translationZh": "該公司擴大了在東南亞的貿易合作關係。"
+        }
+      ]
+    },
+    {
+      "headword": "fair",
+      "partOfSpeech": "n.",
+      "definitionZh": "商展（供廠商展示產品的公開展覽活動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We met ten new distributors at the annual trade fair.",
+          "translationZh": "我們在年度商展上認識了十家新經銷商。"
+        }
+      ]
+    },
+    {
+      "headword": "booth",
+      "partOfSpeech": "n.",
+      "definitionZh": "展位（展覽或活動中供廠商展示的空間）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our booth attracted hundreds of visitors on the first day.",
+          "translationZh": "我們的展位在第一天就吸引了數百名訪客。"
+        }
+      ]
+    },
+    {
+      "headword": "showcase",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "展示（突出呈現產品或服務的優點）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The conference allowed us to showcase our newest technology.",
+          "translationZh": "這次研討會讓我們有機會展示最新的技術。"
+        }
+      ]
+    },
+    {
+      "headword": "sponsor",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "贊助（提供資金或資源支持活動或個人）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We sponsor a local sports team to increase brand awareness.",
+          "translationZh": "我們贊助一支當地運動隊伍以提升品牌知名度。"
+        }
+      ]
+    },
+    {
+      "headword": "endorse",
+      "partOfSpeech": "v.",
+      "definitionZh": "公開代言（為某品牌或產品公開推薦）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The athlete agreed to endorse our new line of sportswear.",
+          "translationZh": "這位運動員同意代言我們的新款運動服裝系列。"
+        }
+      ]
+    },
+    {
+      "headword": "affiliate",
+      "partOfSpeech": "n.",
+      "definitionZh": "聯盟夥伴（在聯盟行銷中合作推廣的合作方）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our affiliate program pays partners a 15% commission per sale.",
+          "translationZh": "我們的聯盟計畫為合作夥伴提供每筆銷售十五%的佣金。"
+        }
+      ]
+    },
+    {
+      "headword": "partnership",
+      "partOfSpeech": "n.",
+      "definitionZh": "合作關係（兩方共同推廣的商業協議）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We formed a partnership with a leading media company.",
+          "translationZh": "我們與一家頂尖媒體公司建立了合作關係。"
+        }
+      ]
+    },
+    {
+      "headword": "collaborate",
+      "partOfSpeech": "v.",
+      "definitionZh": "合作（共同執行行銷計畫或創作內容）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We collaborated with the design agency on the new campaign.",
+          "translationZh": "我們與設計公司合作執行了這次新活動。"
+        }
+      ]
+    },
+    {
+      "headword": "influencer",
+      "partOfSpeech": "n.",
+      "definitionZh": "網紅（社群媒體上具有影響力的人）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We hired an influencer with two million followers to promote the launch.",
+          "translationZh": "我們邀請一位擁有兩百萬粉絲的網紅來推廣新品發布。"
+        }
+      ]
+    },
+    {
+      "headword": "ambassador",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌大使（長期代表品牌形象的人）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "She became our brand ambassador after winning the national award.",
+          "translationZh": "她獲得全國獎項後成為了我們的品牌大使。"
+        }
+      ]
+    },
+    {
+      "headword": "testimonial",
+      "partOfSpeech": "n.",
+      "definitionZh": "顧客見證（顧客對產品的正面評語或推薦）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Positive testimonials on our website boosted conversion rates.",
+          "translationZh": "官網上的正面顧客見證提升了轉換率。"
+        }
+      ]
+    },
+    {
+      "headword": "publicity",
+      "partOfSpeech": "n.",
+      "definitionZh": "公關宣傳（引發媒體或公眾關注的曝光活動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The product launch generated a wave of positive publicity.",
+          "translationZh": "產品發表會引發了一波正面的公關宣傳效應。"
+        }
+      ]
+    },
+    {
+      "headword": "press",
+      "partOfSpeech": "n.",
+      "definitionZh": "新聞媒體（報導商業新聞的記者或媒體機構）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We invited members of the press to the product unveiling.",
+          "translationZh": "我們邀請了媒體記者出席產品發表會。"
+        }
+      ]
+    },
+    {
+      "headword": "release",
+      "partOfSpeech": "n.",
+      "definitionZh": "新聞稿（發給媒體的官方文字聲明）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The marketing team drafted a press release about the merger.",
+          "translationZh": "行銷團隊起草了一份關於併購的新聞稿。"
+        }
+      ]
+    },
+    {
+      "headword": "article",
+      "partOfSpeech": "n.",
+      "definitionZh": "文章（發表在媒體或網路上的書面內容）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We published an article about our sustainability efforts.",
+          "translationZh": "我們發表了一篇關於永續發展努力的文章。"
+        }
+      ]
+    },
+    {
+      "headword": "blog",
+      "partOfSpeech": "n.",
+      "definitionZh": "部落格（定期更新內容的網路日誌）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our blog attracts over 50,000 readers every month.",
+          "translationZh": "我們的部落格每個月吸引超過五萬名讀者。"
+        }
+      ]
+    },
+    {
+      "headword": "newsletter",
+      "partOfSpeech": "n.",
+      "definitionZh": "電子報（定期發送給訂戶的電子郵件內容）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The weekly newsletter keeps subscribers informed of new products.",
+          "translationZh": "每週電子報讓訂戶掌握最新產品資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "email",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "電子郵件行銷（以電子郵件傳送商業訊息）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We email our members a summary of new offers each Friday.",
+          "translationZh": "我們每週五以電子郵件向會員寄送最新優惠摘要。"
+        }
+      ]
+    },
+    {
+      "headword": "unsubscribe",
+      "partOfSpeech": "v.",
+      "definitionZh": "取消訂閱（從電子報或通知名單中退出）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Users who find the content irrelevant will unsubscribe.",
+          "translationZh": "覺得內容不相關的使用者會選擇取消訂閱。"
+        }
+      ]
+    },
+    {
+      "headword": "subscribe",
+      "partOfSpeech": "v.",
+      "definitionZh": "訂閱（加入電子報、頻道或通知名單）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers can subscribe to our newsletter for exclusive deals.",
+          "translationZh": "顧客可訂閱電子報以獲得專屬優惠。"
+        }
+      ]
+    },
+    {
+      "headword": "analytics",
+      "partOfSpeech": "n.",
+      "definitionZh": "數據分析（收集並解讀行銷數據的工具或過程）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We use analytics to track the performance of each campaign.",
+          "translationZh": "我們使用數據分析工具追蹤每次活動的成效。"
+        }
+      ]
+    },
+    {
+      "headword": "metric",
+      "partOfSpeech": "n.",
+      "definitionZh": "衡量指標（評估行銷績效的可量化數字）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Engagement rate is the most important metric for this campaign.",
+          "translationZh": "互動率是這次活動最重要的衡量指標。"
+        }
+      ]
+    },
+    {
+      "headword": "penetration",
+      "partOfSpeech": "n.",
+      "definitionZh": "市場滲透率（產品在目標市場的佔有程度）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our market penetration in Asia grew by 30% this year.",
+          "translationZh": "我們在亞洲的市場滲透率今年成長了三十個百分點。"
+        }
+      ]
+    },
+    {
+      "headword": "rollout",
+      "partOfSpeech": "n.",
+      "definitionZh": "推出（新產品或新活動的分階段上市計畫）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The global rollout of the new app will begin next quarter.",
+          "translationZh": "新應用程式的全球推出將從下季開始。"
+        }
+      ]
+    },
+    {
+      "headword": "pilot",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "試行（在全面推出前進行的小規模測試）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We ran a pilot in three cities before the national launch.",
+          "translationZh": "我們在全國上市前於三個城市進行了試行。"
+        }
+      ]
+    },
+    {
+      "headword": "test",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "測試（評估行銷方法或素材效果的試驗）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We test two versions of the ad to find the better performer.",
+          "translationZh": "我們測試兩版廣告以找出效果較佳的版本。"
+        }
+      ]
+    },
+    {
+      "headword": "iterate",
+      "partOfSpeech": "v.",
+      "definitionZh": "反覆優化（根據數據持續調整行銷策略）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We iterate on the ad copy every week based on performance data.",
+          "translationZh": "我們每週根據成效數據反覆調整廣告文案。"
+        }
+      ]
+    },
+    {
+      "headword": "optimize",
+      "partOfSpeech": "v.",
+      "definitionZh": "優化（提升行銷活動效率或成效的調整行為）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We optimize the landing page to reduce bounce rates.",
+          "translationZh": "我們優化到達頁面以降低跳出率。"
+        }
+      ]
+    },
+    {
+      "headword": "customer",
+      "partOfSpeech": "n.",
+      "definitionZh": "顧客（購買產品或服務的個人或企業）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Every customer receives a follow-up email after purchase.",
+          "translationZh": "每位顧客在購買後都會收到一封後續跟進電子郵件。"
+        }
+      ]
+    },
+    {
+      "headword": "satisfaction",
+      "partOfSpeech": "n.",
+      "definitionZh": "滿意度（顧客對產品或服務的滿意程度）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customer satisfaction scores improved after the product update.",
+          "translationZh": "產品更新後，顧客滿意度分數有所提升。"
+        }
+      ]
+    },
+    {
+      "headword": "journey",
+      "partOfSpeech": "n.",
+      "definitionZh": "顧客旅程（從接觸品牌到購買的完整歷程）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We mapped the customer journey to identify friction points.",
+          "translationZh": "我們繪製了顧客旅程地圖以找出阻礙點。"
+        }
+      ]
+    },
+    {
+      "headword": "touchpoint",
+      "partOfSpeech": "n.",
+      "definitionZh": "接觸點（品牌與顧客互動的每個環節或機會）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Every touchpoint must deliver a consistent brand experience.",
+          "translationZh": "每個接觸點都必須提供一致的品牌體驗。"
+        }
+      ]
+    },
+    {
+      "headword": "awareness",
+      "partOfSpeech": "n.",
+      "definitionZh": "品牌認知度（目標受眾知曉品牌存在的程度）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The campaign increased brand awareness among young consumers.",
+          "translationZh": "這次活動提升了年輕消費者對品牌的認知度。"
+        }
+      ]
+    },
+    {
+      "headword": "purchase",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "購買（顧客完成交易取得商品的行為）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers who read reviews are more likely to complete a purchase.",
+          "translationZh": "閱讀過評論的顧客更有可能完成購買。"
+        }
+      ]
+    },
+    {
+      "headword": "advocacy",
+      "partOfSpeech": "n.",
+      "definitionZh": "口碑推薦（顧客主動為品牌發聲的行為）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customer advocacy is the most cost-effective form of marketing.",
+          "translationZh": "顧客口碑推薦是最具成本效益的行銷形式。"
+        }
+      ]
+    },
+    {
+      "headword": "churn",
+      "partOfSpeech": "n.",
+      "definitionZh": "流失率（顧客停止使用服務的比率）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "High churn indicates customers are dissatisfied with the service.",
+          "translationZh": "高流失率說明顧客對服務不滿意。"
+        }
+      ]
+    },
+    {
+      "headword": "copywriting",
+      "partOfSpeech": "n.",
+      "definitionZh": "文案撰寫（為廣告或行銷材料撰寫說服性文字的工作）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Strong copywriting can double the click-through rate of an ad.",
+          "translationZh": "有力的文案撰寫可讓廣告的點擊率翻倍。"
+        }
+      ]
+    },
+    {
+      "headword": "headline",
+      "partOfSpeech": "n.",
+      "definitionZh": "標題（廣告或文章最顯眼的第一行文字）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "A compelling headline is crucial to capturing reader attention.",
+          "translationZh": "一個吸引人的標題對於抓住讀者注意力至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "banner",
+      "partOfSpeech": "n.",
+      "definitionZh": "橫幅廣告（網頁或實體上的條狀廣告版面）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "The banner ad on the homepage generated 5,000 clicks in one day.",
+          "translationZh": "首頁上的橫幅廣告在一天內帶來了五千次點擊。"
+        }
+      ]
+    },
+    {
+      "headword": "brochure",
+      "partOfSpeech": "n.",
+      "definitionZh": "宣傳冊（介紹產品或服務的摺頁印刷品）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We handed out brochures at the fair to explain our services.",
+          "translationZh": "我們在商展上發放宣傳冊以介紹我們的服務。"
+        }
+      ]
+    },
+    {
+      "headword": "catalog",
+      "partOfSpeech": "n.",
+      "definitionZh": "產品型錄（列出全部商品及規格的冊子）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Customers can browse the full catalog on our website.",
+          "translationZh": "顧客可在我們的網站上瀏覽完整產品型錄。"
+        }
+      ]
+    },
+    {
+      "headword": "showroom",
+      "partOfSpeech": "n.",
+      "definitionZh": "展示廳（供顧客參觀與體驗產品的場所）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Clients visit our showroom to see the furniture before ordering.",
+          "translationZh": "客戶在下訂單前會到我們的展示廳參觀傢俱。"
+        }
+      ]
+    },
+    {
+      "headword": "upsell",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "升級推薦（向顧客推薦更高價值的選項或加購）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We train staff to upsell premium plans to existing customers.",
+          "translationZh": "我們訓練員工向現有顧客推薦升級至高級方案。"
+        }
+      ]
+    },
+    {
+      "headword": "referral",
+      "partOfSpeech": "n.",
+      "definitionZh": "轉介紹（由現有顧客推薦新顧客的方式）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our referral program gives both parties a discount on their next order.",
+          "translationZh": "我們的轉介紹計畫讓雙方均可享有下次訂單折扣。"
+        }
+      ]
+    },
+    {
+      "headword": "keyword",
+      "partOfSpeech": "n.",
+      "definitionZh": "關鍵字（搜尋廣告或SEO中的核心詞彙）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We bid on the keyword 'business software' to reach decision-makers.",
+          "translationZh": "我們對「企業軟體」這個關鍵字出價以觸及決策者。"
+        }
+      ]
+    },
+    {
+      "headword": "hashtag",
+      "partOfSpeech": "n.",
+      "definitionZh": "主題標籤（社群媒體上用來分類內容的符號）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Using the right hashtag can dramatically increase post visibility.",
+          "translationZh": "使用正確的主題標籤可以大幅提升貼文的能見度。"
+        }
+      ]
+    },
+    {
+      "headword": "retarget",
+      "partOfSpeech": "v.",
+      "definitionZh": "再行銷（向曾造訪但未購買的用戶再次投放廣告）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "We retarget visitors who viewed a product but did not buy it.",
+          "translationZh": "我們對瀏覽過產品但未購買的訪客進行再行銷。"
+        }
+      ]
+    },
+    {
+      "headword": "positioning",
+      "partOfSpeech": "n.",
+      "definitionZh": "市場定位（在消費者心中建立品牌策略位置的行動）",
+      "examTags": [
+        "TOEIC",
+        "marketing"
+      ],
+      "examples": [
+        {
+          "sentence": "Our positioning as a premium brand helped us command higher prices.",
+          "translationZh": "我們的高端品牌市場定位幫助我們維持了較高的售價。"
+        }
+      ]
+    }
+  ]
+}

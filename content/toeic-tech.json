@@ -1,0 +1,1523 @@
+{
+  "slug": "toeic-tech",
+  "name": "資訊科技與辦公設備",
+  "description": "涵蓋職場常見資訊科技詞彙，從硬體設備到雲端安全，助您在辦公室 IT 環境中溝通自如。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "software",
+      "partOfSpeech": "n.",
+      "definitionZh": "電腦應用程式的總稱；軟體",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Please install the latest software before the training session.",
+          "translationZh": "請在訓練課程前安裝最新軟體。"
+        }
+      ]
+    },
+    {
+      "headword": "hardware",
+      "partOfSpeech": "n.",
+      "definitionZh": "電腦的實體機器與零組件；硬體",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The IT team will replace the outdated hardware next week.",
+          "translationZh": "IT 部門下週將更換老舊硬體。"
+        }
+      ]
+    },
+    {
+      "headword": "application",
+      "partOfSpeech": "n.",
+      "definitionZh": "為特定用途設計的電腦應用程式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Download the application from the company portal.",
+          "translationZh": "請從公司入口網站下載應用程式。"
+        }
+      ]
+    },
+    {
+      "headword": "system",
+      "partOfSpeech": "n.",
+      "definitionZh": "由相互關聯元件構成的整體運作架構",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The payroll system will be upgraded over the weekend.",
+          "translationZh": "薪資系統將於週末進行升級。"
+        }
+      ]
+    },
+    {
+      "headword": "network",
+      "partOfSpeech": "n.",
+      "definitionZh": "連接電腦與裝置以共享資源的通訊網路",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Connect to the office network before accessing shared files.",
+          "translationZh": "請連接辦公室網路後再存取共用檔案。"
+        }
+      ]
+    },
+    {
+      "headword": "server",
+      "partOfSpeech": "n.",
+      "definitionZh": "提供資料與服務給其他電腦的中央主機",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The server is down, so email access is currently unavailable.",
+          "translationZh": "伺服器故障，電子郵件目前無法使用。"
+        }
+      ]
+    },
+    {
+      "headword": "cloud",
+      "partOfSpeech": "n.",
+      "definitionZh": "透過網際網路提供的遠端運算與儲存資源",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "We store all project files in the cloud for easy access.",
+          "translationZh": "我們將所有專案檔案儲存於雲端以便存取。"
+        }
+      ]
+    },
+    {
+      "headword": "bandwidth",
+      "partOfSpeech": "n.",
+      "definitionZh": "網路在單位時間內可傳輸資料的最大速率；頻寬",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Video conferencing requires sufficient bandwidth to work properly.",
+          "translationZh": "視訊會議需要足夠的頻寬才能正常運作。"
+        }
+      ]
+    },
+    {
+      "headword": "latency",
+      "partOfSpeech": "n.",
+      "definitionZh": "資料從發送到接收所需的網路延遲時間",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "High latency is causing delays during our remote calls.",
+          "translationZh": "高延遲正造成遠端通話中斷的問題。"
+        }
+      ]
+    },
+    {
+      "headword": "uptime",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統持續正常運作不中斷的時間比例",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Our provider guarantees 99.9% uptime for the hosting service.",
+          "translationZh": "供應商保證主機服務 99.9% 的正常運行時間。"
+        }
+      ]
+    },
+    {
+      "headword": "downtime",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統因維護或故障而無法使用的停機期間",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Planned downtime is scheduled for Sunday at 2 a.m.",
+          "translationZh": "計畫性停機排定於週日凌晨兩點。"
+        }
+      ]
+    },
+    {
+      "headword": "outage",
+      "partOfSpeech": "n.",
+      "definitionZh": "服務突然完全中斷的意外故障事件",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The network outage affected all three branch offices.",
+          "translationZh": "網路中斷影響了三個分公司。"
+        }
+      ]
+    },
+    {
+      "headword": "maintenance",
+      "partOfSpeech": "n.",
+      "definitionZh": "定期保養或維修以確保系統正常運作",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The system will be offline during scheduled maintenance tonight.",
+          "translationZh": "系統將於今晚例行維護期間下線。"
+        }
+      ]
+    },
+    {
+      "headword": "install",
+      "partOfSpeech": "v.",
+      "definitionZh": "將軟體或設備安裝至系統使其可用",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "IT will install the new security patch on all computers.",
+          "translationZh": "IT 部門將在所有電腦上安裝新的安全補丁。"
+        }
+      ]
+    },
+    {
+      "headword": "configure",
+      "partOfSpeech": "v.",
+      "definitionZh": "根據需求設定系統或裝置的各項參數",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Please configure the printer settings before use.",
+          "translationZh": "請在使用前設定印表機參數。"
+        }
+      ]
+    },
+    {
+      "headword": "deploy",
+      "partOfSpeech": "v.",
+      "definitionZh": "將軟體或更新正式發布至生產環境",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "We will deploy the new update during off-peak hours.",
+          "translationZh": "我們將在離峰時段發布新版更新。"
+        }
+      ]
+    },
+    {
+      "headword": "migrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "將資料或整個系統移轉至新平台或環境",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The team will migrate all data to the new server this month.",
+          "translationZh": "團隊本月將把所有資料移轉至新伺服器。"
+        }
+      ]
+    },
+    {
+      "headword": "integrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "將不同軟體或服務連接，使其能共享資料並協同運作",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "We need to integrate the HR system with the payroll platform.",
+          "translationZh": "我們需要將人資系統與薪資平台整合。"
+        }
+      ]
+    },
+    {
+      "headword": "interface",
+      "partOfSpeech": "n.",
+      "definitionZh": "使用者與系統互動的操作畫面或連接點",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The new interface is more intuitive for non-technical staff.",
+          "translationZh": "新介面對非技術人員來說更直覺易用。"
+        }
+      ]
+    },
+    {
+      "headword": "plugin",
+      "partOfSpeech": "n.",
+      "definitionZh": "安裝後可擴充主程式功能的附加軟體模組",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Install this plugin to enable the export feature.",
+          "translationZh": "安裝此外掛程式以啟用匯出功能。"
+        }
+      ]
+    },
+    {
+      "headword": "firewall",
+      "partOfSpeech": "n.",
+      "definitionZh": "阻擋未授權網路存取的安全防護系統",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The firewall blocked the suspicious connection attempt.",
+          "translationZh": "防火牆阻擋了可疑的連線嘗試。"
+        }
+      ]
+    },
+    {
+      "headword": "encryption",
+      "partOfSpeech": "n.",
+      "definitionZh": "將資料轉為只有授權方能讀取的加密形式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "All files are protected with end-to-end encryption.",
+          "translationZh": "所有檔案均受端對端加密保護。"
+        }
+      ]
+    },
+    {
+      "headword": "authentication",
+      "partOfSpeech": "n.",
+      "definitionZh": "確認使用者真實身份的驗證程序",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Two-factor authentication adds an extra layer of security.",
+          "translationZh": "雙因素驗證增加了額外的安全層。"
+        }
+      ]
+    },
+    {
+      "headword": "authorization",
+      "partOfSpeech": "n.",
+      "definitionZh": "核准使用者存取特定系統資源的權限授予",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "You need administrator authorization to change system settings.",
+          "translationZh": "您需要管理員授權才能變更系統設定。"
+        }
+      ]
+    },
+    {
+      "headword": "credential",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於登入系統的帳號與密碼等身份憑證",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Do not share your login credentials with anyone.",
+          "translationZh": "請勿與任何人分享您的登入憑證。"
+        }
+      ]
+    },
+    {
+      "headword": "token",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統產生的臨時性數位憑證，用於驗證存取",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The system generates a security token for each login session.",
+          "translationZh": "系統為每次登入會期產生一組安全權杖。"
+        }
+      ]
+    },
+    {
+      "headword": "timeout",
+      "partOfSpeech": "n.",
+      "definitionZh": "閒置超過一定時間後自動斷線的機制",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Your session ended due to inactivity timeout.",
+          "translationZh": "您的工作階段因閒置逾時而結束。"
+        }
+      ]
+    },
+    {
+      "headword": "alert",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統偵測異常時主動發出的警示通知",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "An alert was sent when the disk space fell below 10%.",
+          "translationZh": "磁碟空間低於 10% 時系統發出警示。"
+        }
+      ]
+    },
+    {
+      "headword": "restore",
+      "partOfSpeech": "v.",
+      "definitionZh": "從備份中將資料或系統還原至先前的狀態",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "IT was able to restore all files from last night's backup.",
+          "translationZh": "IT 部門成功從昨晚的備份還原了所有檔案。"
+        }
+      ]
+    },
+    {
+      "headword": "recovery",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統或服務從故障中重新恢復正常的過程",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The disaster recovery plan was activated after the outage.",
+          "translationZh": "中斷後立即啟動了災難復原計畫。"
+        }
+      ]
+    },
+    {
+      "headword": "database",
+      "partOfSpeech": "n.",
+      "definitionZh": "有結構地儲存與管理大量資料的系統",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The customer database is updated in real time.",
+          "translationZh": "客戶資料庫即時更新。"
+        }
+      ]
+    },
+    {
+      "headword": "query",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "向資料庫發出搜尋或請求特定資料的指令",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Run a query to find all orders placed this quarter.",
+          "translationZh": "執行查詢以找出本季所有訂單。"
+        }
+      ]
+    },
+    {
+      "headword": "cache",
+      "partOfSpeech": "n.",
+      "definitionZh": "暫時儲存常用資料以加快讀取速度的記憶體",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Clear the browser cache if the page does not load correctly.",
+          "translationZh": "若頁面無法正確載入，請清除瀏覽器快取。"
+        }
+      ]
+    },
+    {
+      "headword": "sync",
+      "partOfSpeech": "v.",
+      "definitionZh": "使多個裝置或系統的資料保持一致更新",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Your contacts will sync automatically across all devices.",
+          "translationZh": "您的聯絡人將自動在所有裝置間同步。"
+        }
+      ]
+    },
+    {
+      "headword": "replicate",
+      "partOfSpeech": "v.",
+      "definitionZh": "將資料完整複製至另一地點以確保高可用性",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The system replicates data to a secondary server nightly.",
+          "translationZh": "系統每晚將資料複製至備用伺服器。"
+        }
+      ]
+    },
+    {
+      "headword": "user",
+      "partOfSpeech": "n.",
+      "definitionZh": "持有帳號並使用系統或應用程式的人員",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Each user must create a unique username and password.",
+          "translationZh": "每位使用者必須建立唯一的帳號與密碼。"
+        }
+      ]
+    },
+    {
+      "headword": "admin",
+      "partOfSpeech": "n.",
+      "definitionZh": "擁有最高系統管理權限的管理員帳號",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Only the admin can approve new software installations.",
+          "translationZh": "只有管理員可批准新軟體安裝。"
+        }
+      ]
+    },
+    {
+      "headword": "role",
+      "partOfSpeech": "n.",
+      "definitionZh": "定義使用者可存取哪些功能與資源的權限群組",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Assign the correct role to limit access to sensitive data.",
+          "translationZh": "指派正確角色以限制對敏感資料的存取。"
+        }
+      ]
+    },
+    {
+      "headword": "profile",
+      "partOfSpeech": "n.",
+      "definitionZh": "記錄使用者個人資訊與帳戶設定的頁面",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Update your profile to reflect your new job title.",
+          "translationZh": "請更新您的個人資料以反映新的職稱。"
+        }
+      ]
+    },
+    {
+      "headword": "setting",
+      "partOfSpeech": "n.",
+      "definitionZh": "可調整程式或裝置功能行為的設定選項",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Go to the settings menu to change your notification options.",
+          "translationZh": "前往設定選單更改您的通知選項。"
+        }
+      ]
+    },
+    {
+      "headword": "preference",
+      "partOfSpeech": "n.",
+      "definitionZh": "使用者為介面或通知所設定的個人化偏好",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Save your language preference in your account profile.",
+          "translationZh": "請在帳戶個人資料中儲存您的語言偏好。"
+        }
+      ]
+    },
+    {
+      "headword": "dashboard",
+      "partOfSpeech": "n.",
+      "definitionZh": "集中顯示關鍵數據與業務指標的操控畫面",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The sales dashboard shows real-time revenue figures.",
+          "translationZh": "銷售儀表板即時顯示收入數據。"
+        }
+      ]
+    },
+    {
+      "headword": "visualization",
+      "partOfSpeech": "n.",
+      "definitionZh": "將複雜資料以圖表形式呈現以便理解分析",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The report includes a visualization of monthly sales trends.",
+          "translationZh": "報告中包含月度銷售趨勢的視覺化圖表。"
+        }
+      ]
+    },
+    {
+      "headword": "automate",
+      "partOfSpeech": "v.",
+      "definitionZh": "設定系統使重複性作業無需人工介入即可執行",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "We can automate the weekly report generation to save time.",
+          "translationZh": "我們可以自動化每週報告的產生以節省時間。"
+        }
+      ]
+    },
+    {
+      "headword": "workflow",
+      "partOfSpeech": "n.",
+      "definitionZh": "完成一項工作任務所需的既定步驟序列",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The new workflow reduces approval time from days to hours.",
+          "translationZh": "新工作流程將審批時間從數天縮短為數小時。"
+        }
+      ]
+    },
+    {
+      "headword": "trigger",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "啟動自動化流程或動作的條件事件",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "An email trigger fires when a form is submitted online.",
+          "translationZh": "線上表單提交後會觸發電子郵件通知。"
+        }
+      ]
+    },
+    {
+      "headword": "script",
+      "partOfSpeech": "n.",
+      "definitionZh": "執行自動化任務的小型程式碼指令檔",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The IT team runs a script to clean up temporary files weekly.",
+          "translationZh": "IT 團隊每週執行腳本清理暫存檔案。"
+        }
+      ]
+    },
+    {
+      "headword": "debug",
+      "partOfSpeech": "v.",
+      "definitionZh": "找出並修正程式或系統中的錯誤",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The developer spent hours trying to debug the login error.",
+          "translationZh": "開發人員花了數小時排查登入錯誤。"
+        }
+      ]
+    },
+    {
+      "headword": "version",
+      "partOfSpeech": "n.",
+      "definitionZh": "軟體的特定發行編號或迭代更新",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Make sure you are using the latest version of the application.",
+          "translationZh": "請確認您使用的是最新版本的應用程式。"
+        }
+      ]
+    },
+    {
+      "headword": "patch",
+      "partOfSpeech": "n.",
+      "definitionZh": "修正特定漏洞或錯誤的小型軟體更新包",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Apply the security patch immediately to protect your system.",
+          "translationZh": "請立即套用安全補丁以保護您的系統。"
+        }
+      ]
+    },
+    {
+      "headword": "incident",
+      "partOfSpeech": "n.",
+      "definitionZh": "需要調查與處理的非預期 IT 事件或故障",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Report any security incident to the IT helpdesk right away.",
+          "translationZh": "請立即向 IT 服務台通報任何安全事件。"
+        }
+      ]
+    },
+    {
+      "headword": "support",
+      "partOfSpeech": "n.",
+      "definitionZh": "協助使用者解決技術問題的服務與協助",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Contact technical support if the device fails to start.",
+          "translationZh": "若設備無法啟動，請聯繫技術支援。"
+        }
+      ]
+    },
+    {
+      "headword": "helpdesk",
+      "partOfSpeech": "n.",
+      "definitionZh": "集中處理員工 IT 請求與問題回報的服務台",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Submit a helpdesk ticket to request a new software license.",
+          "translationZh": "提交服務台工單以申請新的軟體授權。"
+        }
+      ]
+    },
+    {
+      "headword": "troubleshoot",
+      "partOfSpeech": "v.",
+      "definitionZh": "系統性地識別並排除技術問題的過程",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The technician will troubleshoot the printer connection issue.",
+          "translationZh": "技術人員將排查印表機連線問題。"
+        }
+      ]
+    },
+    {
+      "headword": "diagnose",
+      "partOfSpeech": "v.",
+      "definitionZh": "分析症狀以判斷問題根本原因的技術評估",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Run the diagnostic tool to diagnose the network failure.",
+          "translationZh": "執行診斷工具以判斷網路故障原因。"
+        }
+      ]
+    },
+    {
+      "headword": "escalate",
+      "partOfSpeech": "v.",
+      "definitionZh": "將問題移交至更高層級或專家處理",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Escalate the ticket if it is not resolved within 24 hours.",
+          "translationZh": "若問題 24 小時內未解決，請升級此工單。"
+        }
+      ]
+    },
+    {
+      "headword": "subscription",
+      "partOfSpeech": "n.",
+      "definitionZh": "定期付費以持續使用軟體或服務的授權方案",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Renew the software subscription before it expires next month.",
+          "translationZh": "請在下個月到期前續訂軟體授權。"
+        }
+      ]
+    },
+    {
+      "headword": "vulnerability",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統中可能被攻擊者利用的安全弱點",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "A critical vulnerability was found in the web server software.",
+          "translationZh": "在網頁伺服器軟體中發現了嚴重漏洞。"
+        }
+      ]
+    },
+    {
+      "headword": "threat",
+      "partOfSpeech": "n.",
+      "definitionZh": "可能危害系統或資料安全的潛在攻擊或風險",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The security team monitors for cyber threats around the clock.",
+          "translationZh": "安全團隊全天候監控網路威脅。"
+        }
+      ]
+    },
+    {
+      "headword": "endpoint",
+      "partOfSpeech": "n.",
+      "definitionZh": "連接至企業網路的個人裝置，如電腦或手機",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "All endpoints must have antivirus software installed.",
+          "translationZh": "所有終端裝置都必須安裝防毒軟體。"
+        }
+      ]
+    },
+    {
+      "headword": "mobile",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "可隨身攜帶的智慧型手機或行動裝置",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The app is available on both mobile and desktop platforms.",
+          "translationZh": "此應用程式可在行動端與桌面端使用。"
+        }
+      ]
+    },
+    {
+      "headword": "laptop",
+      "partOfSpeech": "n.",
+      "definitionZh": "可折疊攜帶的輕型筆記型電腦",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Bring your laptop to the workshop for the hands-on exercise.",
+          "translationZh": "請攜帶筆電參加工作坊的實作練習。"
+        }
+      ]
+    },
+    {
+      "headword": "desktop",
+      "partOfSpeech": "n.",
+      "definitionZh": "固定放置於辦公桌的高效能個人電腦",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The graphic design team uses high-performance desktop computers.",
+          "translationZh": "設計團隊使用高效能桌上型電腦。"
+        }
+      ]
+    },
+    {
+      "headword": "tablet",
+      "partOfSpeech": "n.",
+      "definitionZh": "以觸控螢幕操作的平板電腦裝置",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Field staff use tablets to collect data on site.",
+          "translationZh": "現場人員使用平板電腦進行資料蒐集。"
+        }
+      ]
+    },
+    {
+      "headword": "peripheral",
+      "partOfSpeech": "n.",
+      "definitionZh": "連接至電腦主機使用的外接輔助設備",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The keyboard and mouse are the most common peripherals.",
+          "translationZh": "鍵盤和滑鼠是最常見的周邊設備。"
+        }
+      ]
+    },
+    {
+      "headword": "copier",
+      "partOfSpeech": "n.",
+      "definitionZh": "將紙本文件複印成多份的影印機",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The copier on the third floor is out of paper.",
+          "translationZh": "三樓的影印機已沒有紙張。"
+        }
+      ]
+    },
+    {
+      "headword": "router",
+      "partOfSpeech": "n.",
+      "definitionZh": "將網路訊號分配並引導至各裝置的路由器",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Restart the router if you cannot connect to the internet.",
+          "translationZh": "若無法連上網際網路，請重新啟動路由器。"
+        }
+      ]
+    },
+    {
+      "headword": "wireless",
+      "partOfSpeech": "adj.",
+      "definitionZh": "不需實體線路即可連線的無線網路",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The conference room has wireless access for all visitors.",
+          "translationZh": "會議室提供無線網路供所有訪客使用。"
+        }
+      ]
+    },
+    {
+      "headword": "bluetooth",
+      "partOfSpeech": "n.",
+      "definitionZh": "短距離裝置間進行無線資料傳輸的技術",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Connect the headset via bluetooth before the call starts.",
+          "translationZh": "通話前請先透過藍牙連接耳機。"
+        }
+      ]
+    },
+    {
+      "headword": "vpn",
+      "partOfSpeech": "n.",
+      "definitionZh": "透過加密通道安全遠端連線至公司網路的虛擬私人網路",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "You must connect via VPN when working from home.",
+          "translationZh": "在家工作時必須透過 VPN 連線。"
+        }
+      ]
+    },
+    {
+      "headword": "remote",
+      "partOfSpeech": "adj.",
+      "definitionZh": "不在辦公室現場而於異地工作的遠端方式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Remote employees need secure access to company systems.",
+          "translationZh": "遠端員工需要安全存取公司系統。"
+        }
+      ]
+    },
+    {
+      "headword": "portal",
+      "partOfSpeech": "n.",
+      "definitionZh": "提供集中存取多種服務與資訊的網頁入口",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Log into the HR portal to submit your leave request.",
+          "translationZh": "登入人資入口網站提交請假申請。"
+        }
+      ]
+    },
+    {
+      "headword": "intranet",
+      "partOfSpeech": "n.",
+      "definitionZh": "僅限公司內部員工使用的私有網路平台",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Check the intranet for the latest company announcements.",
+          "translationZh": "請查看內部網路以獲取最新公司公告。"
+        }
+      ]
+    },
+    {
+      "headword": "extranet",
+      "partOfSpeech": "n.",
+      "definitionZh": "延伸至特定外部合作夥伴或客戶的企業網路",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Suppliers can access order information through the extranet.",
+          "translationZh": "供應商可透過外部網路查看訂單資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "productivity",
+      "partOfSpeech": "n.",
+      "definitionZh": "在一定時間內完成工作任務的效率與產出量",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The new software tools have greatly improved team productivity.",
+          "translationZh": "新的軟體工具大幅提升了團隊生產力。"
+        }
+      ]
+    },
+    {
+      "headword": "tool",
+      "partOfSpeech": "n.",
+      "definitionZh": "協助完成特定工作的軟體程式或應用程式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "We use collaboration tools to keep remote teams aligned.",
+          "translationZh": "我們使用協作工具讓遠端團隊保持一致。"
+        }
+      ]
+    },
+    {
+      "headword": "activate",
+      "partOfSpeech": "v.",
+      "definitionZh": "使軟體或帳號正式生效並開始可使用",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Activate your account using the link sent to your email.",
+          "translationZh": "請使用發送至您電子郵件的連結啟用帳號。"
+        }
+      ]
+    },
+    {
+      "headword": "register",
+      "partOfSpeech": "v.",
+      "definitionZh": "建立帳號或記錄設備資訊的登記動作",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Register your device to receive warranty support.",
+          "translationZh": "請登錄您的設備以獲得保固服務。"
+        }
+      ]
+    },
+    {
+      "headword": "rollback",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "將系統或程式還原至先前穩定版本的操作",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Perform a rollback if the new update causes system errors.",
+          "translationZh": "若新版本造成系統錯誤，請執行版本回退。"
+        }
+      ]
+    },
+    {
+      "headword": "compatibility",
+      "partOfSpeech": "n.",
+      "definitionZh": "不同軟硬體之間能夠正常搭配運作的能力",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Check the compatibility list before upgrading the operating system.",
+          "translationZh": "升級作業系統前請查看相容性清單。"
+        }
+      ]
+    },
+    {
+      "headword": "specification",
+      "partOfSpeech": "n.",
+      "definitionZh": "軟硬體產品的詳細技術規格說明文件",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Review the product specifications before placing the order.",
+          "translationZh": "請在下訂單前查閱產品規格說明。"
+        }
+      ]
+    },
+    {
+      "headword": "malware",
+      "partOfSpeech": "n.",
+      "definitionZh": "設計用來破壞系統或竊取資料的惡意程式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Do not open unknown attachments to avoid malware infection.",
+          "translationZh": "請勿開啟未知附件以避免感染惡意程式。"
+        }
+      ]
+    },
+    {
+      "headword": "phishing",
+      "partOfSpeech": "n.",
+      "definitionZh": "偽裝成合法機構騙取帳號密碼的詐騙攻擊",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Report suspicious emails to IT as they may be phishing.",
+          "translationZh": "請向 IT 通報可疑電子郵件，可能是網路釣魚。"
+        }
+      ]
+    },
+    {
+      "headword": "spam",
+      "partOfSpeech": "n.",
+      "definitionZh": "大量發送的未經請求廣告或垃圾郵件",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Check your spam folder if you did not receive the email.",
+          "translationZh": "若未收到郵件，請查看垃圾郵件資料夾。"
+        }
+      ]
+    },
+    {
+      "headword": "antivirus",
+      "partOfSpeech": "n.",
+      "definitionZh": "偵測並清除電腦病毒與惡意軟體的防護程式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Run a full antivirus scan after connecting the USB drive.",
+          "translationZh": "連接 USB 碟後請執行完整防毒掃描。"
+        }
+      ]
+    },
+    {
+      "headword": "proxy",
+      "partOfSpeech": "n.",
+      "definitionZh": "代理使用者與目標伺服器之間通訊的中介伺服器",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Configure the proxy settings to access external websites.",
+          "translationZh": "設定代理伺服器以存取外部網站。"
+        }
+      ]
+    },
+    {
+      "headword": "sandbox",
+      "partOfSpeech": "n.",
+      "definitionZh": "與正式環境隔離、供安全測試用的獨立環境",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Test the new feature in the sandbox before going live.",
+          "translationZh": "上線前請先在沙盒環境中測試新功能。"
+        }
+      ]
+    },
+    {
+      "headword": "browser",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於瀏覽與存取網際網路網頁的應用程式",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Use a supported browser to access the company intranet.",
+          "translationZh": "請使用支援的瀏覽器存取公司內部網路。"
+        }
+      ]
+    },
+    {
+      "headword": "download",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "從網路或伺服器將檔案傳輸至本機裝置",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Download the report from the shared drive before the meeting.",
+          "translationZh": "會議前請從共用磁碟下載報告。"
+        }
+      ]
+    },
+    {
+      "headword": "processor",
+      "partOfSpeech": "n.",
+      "definitionZh": "負責執行電腦所有運算指令的中央處理器",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "A faster processor improves performance for data-heavy tasks.",
+          "translationZh": "更快的處理器可提升資料密集任務的效能。"
+        }
+      ]
+    },
+    {
+      "headword": "memory",
+      "partOfSpeech": "n.",
+      "definitionZh": "電腦暫時儲存執行中程式資料的記憶體",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Close unused programs to free up memory and speed up the PC.",
+          "translationZh": "關閉未使用的程式以釋放記憶體並加速電腦。"
+        }
+      ]
+    },
+    {
+      "headword": "disk",
+      "partOfSpeech": "n.",
+      "definitionZh": "電腦內建的主要磁性儲存媒體裝置",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The disk is almost full; please delete unused files.",
+          "translationZh": "磁碟快滿了，請刪除不用的檔案。"
+        }
+      ]
+    },
+    {
+      "headword": "drive",
+      "partOfSpeech": "n.",
+      "definitionZh": "儲存資料的裝置，包含硬碟或 USB 隨身碟",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Save a copy to the external drive as an extra backup.",
+          "translationZh": "請將副本儲存至外接磁碟作為額外備份。"
+        }
+      ]
+    },
+    {
+      "headword": "virtualization",
+      "partOfSpeech": "n.",
+      "definitionZh": "在單一實體主機上同時執行多個虛擬系統的技術",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Virtualization reduces the number of physical servers needed.",
+          "translationZh": "虛擬化技術減少了所需的實體伺服器數量。"
+        }
+      ]
+    },
+    {
+      "headword": "ticketing",
+      "partOfSpeech": "n.",
+      "definitionZh": "以工單系統追蹤並管理 IT 服務請求的機制",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "All IT requests go through the ticketing system.",
+          "translationZh": "所有 IT 請求都透過工單系統處理。"
+        }
+      ]
+    },
+    {
+      "headword": "sla",
+      "partOfSpeech": "n.",
+      "definitionZh": "供應商與客戶之間約定服務品質標準的協議",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The vendor must meet the SLA or face financial penalties.",
+          "translationZh": "廠商必須達到服務等級協議，否則面臨罰款。"
+        }
+      ]
+    },
+    {
+      "headword": "kpi",
+      "partOfSpeech": "n.",
+      "definitionZh": "衡量部門或個人工作績效的關鍵指標",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The dashboard displays key KPIs for the IT support team.",
+          "translationZh": "儀表板顯示 IT 支援團隊的關鍵績效指標。"
+        }
+      ]
+    },
+    {
+      "headword": "notification",
+      "partOfSpeech": "n.",
+      "definitionZh": "系統或應用程式主動推送的訊息提醒",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "You will receive a notification when the file is ready.",
+          "translationZh": "檔案就緒後您將收到通知。"
+        }
+      ]
+    },
+    {
+      "headword": "integration",
+      "partOfSpeech": "n.",
+      "definitionZh": "企業系統之間實現資料互通的整合建置結果",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The CRM integration allows sales data to sync automatically.",
+          "translationZh": "CRM 整合使銷售資料可自動同步。"
+        }
+      ]
+    },
+    {
+      "headword": "chatbot",
+      "partOfSpeech": "n.",
+      "definitionZh": "模擬人類對話並自動回應問題的程式助理",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "The chatbot handles common queries on the support website.",
+          "translationZh": "聊天機器人處理支援網站上的常見查詢。"
+        }
+      ]
+    },
+    {
+      "headword": "automation",
+      "partOfSpeech": "n.",
+      "definitionZh": "企業透過技術系統化地取代人工流程的整體策略",
+      "examTags": [
+        "TOEIC",
+        "tech"
+      ],
+      "examples": [
+        {
+          "sentence": "Automation has reduced manual data entry by 80 percent.",
+          "translationZh": "自動化使人工資料輸入減少了 80%。"
+        }
+      ]
+    }
+  ]
+}

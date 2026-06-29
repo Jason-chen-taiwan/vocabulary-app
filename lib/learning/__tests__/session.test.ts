@@ -12,9 +12,9 @@ describe('buildSession', () => {
     }
     const rng = () => 0 // sample picks first remaining each time
     const items = await buildSession({ userId: 'u1', wordBookId: 'b1', now, newLimit: 5, dueLimit: 50, spotCheckLimit: 2, rng }, { learning: learning as any })
-    expect(learning.listDueCards).toHaveBeenCalledWith('u1', now, 50)
+    expect(learning.listDueCards).toHaveBeenCalledWith('u1', now, 50, 'b1')
     expect(learning.listNewWordIds).toHaveBeenCalledWith('u1', 'b1', 5)
-    expect(learning.listMasteredWordIds).toHaveBeenCalledWith('u1')
+    expect(learning.listMasteredWordIds).toHaveBeenCalledWith('u1', 'b1')
     expect(items).toEqual([
       { wordId: 'd1', questionType: 'mc', isNew: false, isSpotCheck: false },
       { wordId: 'd2', questionType: 'cloze', isNew: false, isSpotCheck: false },

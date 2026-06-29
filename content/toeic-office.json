@@ -1,0 +1,1061 @@
+{
+  "slug": "toeic-office",
+  "name": "辦公室與日常溝通",
+  "description": "涵蓋辦公室文具、設備、日常溝通及文件處理等職場必備詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "staple",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "用釘書機裝訂文件；釘書針",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please staple the pages before handing in the report.", "translationZh": "請在繳交報告前先把頁面裝訂好。"}
+      ]
+    },
+    {
+      "headword": "stationery",
+      "partOfSpeech": "n.",
+      "definitionZh": "筆、紙等書寫材料的文具用品總稱",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "We need to order more stationery for the new employees.", "translationZh": "我們需要為新進員工訂購更多文具。"}
+      ]
+    },
+    {
+      "headword": "memo",
+      "partOfSpeech": "n.",
+      "definitionZh": "辦公室內部傳閱的簡短通知或備忘",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The manager sent a memo about the new dress code policy.", "translationZh": "經理發出一份關於新服裝規定的備忘錄。"}
+      ]
+    },
+    {
+      "headword": "photocopy",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "用影印機複製文件；所產生的影本",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Can you photocopy this contract and give one to each party?", "translationZh": "你能影印這份合約並各給一份嗎？"}
+      ]
+    },
+    {
+      "headword": "fax",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "透過電話線傳送文件；傳真機",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please fax the signed agreement to our head office.", "translationZh": "請將已簽署的協議傳真至我們的總部。"}
+      ]
+    },
+    {
+      "headword": "folder",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於存放文件的紙製或塑膠資料夾",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Keep all project documents in the blue folder on the shelf.", "translationZh": "請將所有專案文件放在架上的藍色資料夾裡。"}
+      ]
+    },
+    {
+      "headword": "binder",
+      "partOfSpeech": "n.",
+      "definitionZh": "以金屬環固定多頁文件的活頁夾",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "She organized the meeting minutes in a three-ring binder.", "translationZh": "她把會議記錄整理在一本三孔活頁夾裡。"}
+      ]
+    },
+    {
+      "headword": "cabinet",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於分類存放紙本文件的抽屜式文件櫃",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The HR files are locked in the cabinet next to the copier.", "translationZh": "人事檔案鎖在影印機旁的文件櫃裡。"}
+      ]
+    },
+    {
+      "headword": "drawer",
+      "partOfSpeech": "n.",
+      "definitionZh": "桌子或櫃子裡可拉出的儲物抽屜",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "I keep spare pens and sticky notes in my desk drawer.", "translationZh": "我把備用的筆和便利貼放在桌子的抽屜裡。"}
+      ]
+    },
+    {
+      "headword": "cubicle",
+      "partOfSpeech": "n.",
+      "definitionZh": "以隔板區隔的個人辦公隔間",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Each employee has a cubicle with a computer and a phone.", "translationZh": "每位員工都有一個附電腦和電話的辦公隔間。"}
+      ]
+    },
+    {
+      "headword": "reception",
+      "partOfSpeech": "n.",
+      "definitionZh": "辦公室或大樓入口的接待區；前台",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please wait at the reception until the manager is available.", "translationZh": "請在接待處等候，直到經理有空。"}
+      ]
+    },
+    {
+      "headword": "lobby",
+      "partOfSpeech": "n.",
+      "definitionZh": "建築物入口處的寬敞公共門廳",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The clients are waiting in the lobby on the ground floor.", "translationZh": "客戶正在一樓大廳等候。"}
+      ]
+    },
+    {
+      "headword": "corridor",
+      "partOfSpeech": "n.",
+      "definitionZh": "連接各辦公室或房間的室內走廊",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The meeting room is at the end of the corridor on the left.", "translationZh": "會議室在走廊盡頭的左側。"}
+      ]
+    },
+    {
+      "headword": "elevator",
+      "partOfSpeech": "n.",
+      "definitionZh": "載人或載物在樓層間移動的電梯",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Take the elevator to the 12th floor for the finance department.", "translationZh": "搭電梯到十二樓找財務部門。"}
+      ]
+    },
+    {
+      "headword": "restroom",
+      "partOfSpeech": "n.",
+      "definitionZh": "辦公室或公共場所的廁所；洗手間",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The restroom is located near the stairwell on each floor.", "translationZh": "洗手間位於每層樓的樓梯間旁邊。"}
+      ]
+    },
+    {
+      "headword": "cafeteria",
+      "partOfSpeech": "n.",
+      "definitionZh": "供員工自助取餐的公司餐廳",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The cafeteria on the third floor offers a hot lunch daily.", "translationZh": "三樓的員工餐廳每天提供熱食午餐。"}
+      ]
+    },
+    {
+      "headword": "supply",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "辦公所需的消耗性用品；提供所需物資",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "We are running low on office supplies—please reorder soon.", "translationZh": "辦公用品快用完了，請儘快補訂。"}
+      ]
+    },
+    {
+      "headword": "request",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "正式提出申請或要求某事",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "You must submit a request form to get additional equipment.", "translationZh": "你必須填寫申請表才能取得額外設備。"}
+      ]
+    },
+    {
+      "headword": "submit",
+      "partOfSpeech": "v.",
+      "definitionZh": "將文件或申請表繳交給負責人或系統",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please submit your expense report by the end of the week.", "translationZh": "請在本週結束前繳交費用報告。"}
+      ]
+    },
+    {
+      "headword": "attach",
+      "partOfSpeech": "v.",
+      "definitionZh": "在電子郵件或文件中夾帶附件",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "I will attach the proposal to this email for your review.", "translationZh": "我會把提案附在這封郵件中供您審閱。"}
+      ]
+    },
+    {
+      "headword": "forward",
+      "partOfSpeech": "v.",
+      "definitionZh": "將收到的郵件轉寄給其他收件人",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Could you forward the invitation to all team members?", "translationZh": "可以請你把邀請函轉寄給所有組員嗎？"}
+      ]
+    },
+    {
+      "headword": "reply",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "回覆寄件人的郵件或訊息",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please reply to the client's email before noon today.", "translationZh": "請在今天中午前回覆客戶的郵件。"}
+      ]
+    },
+    {
+      "headword": "draft",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "撰寫尚未定稿的初步文件版本",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "I'll draft the proposal tonight and send it for feedback.", "translationZh": "我今晚會草擬提案並發送徵求意見。"}
+      ]
+    },
+    {
+      "headword": "proofread",
+      "partOfSpeech": "v.",
+      "definitionZh": "仔細閱讀文件以查找並改正文字錯誤",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Always proofread your report before sending it to the client.", "translationZh": "在把報告寄給客戶之前，務必先校對一遍。"}
+      ]
+    },
+    {
+      "headword": "revise",
+      "partOfSpeech": "v.",
+      "definitionZh": "根據意見對文件內容進行修改或更新",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please revise the contract based on the client's feedback.", "translationZh": "請根據客戶的意見修改合約。"}
+      ]
+    },
+    {
+      "headword": "distribute",
+      "partOfSpeech": "v.",
+      "definitionZh": "將文件或資料分發給多位收件人各存一份",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The assistant will distribute the agenda before the meeting.", "translationZh": "助理將在會議前分發議程。"}
+      ]
+    },
+    {
+      "headword": "circulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "在成員間輪流傳閱同一份文件以供各人過目",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please circulate the draft report for comments by Friday.", "translationZh": "請在週五前傳閱報告草稿以收集意見。"}
+      ]
+    },
+    {
+      "headword": "notify",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式告知相關人員某一消息或變動",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please notify all staff of the schedule change immediately.", "translationZh": "請立即通知所有員工行程變更的消息。"}
+      ]
+    },
+    {
+      "headword": "remind",
+      "partOfSpeech": "v.",
+      "definitionZh": "提醒他人記得某件即將到期或需完成的事",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Can you remind me to call the client at 3 p.m. today?", "translationZh": "你能提醒我今天下午三點打電話給客戶嗎？"}
+      ]
+    },
+    {
+      "headword": "confirm",
+      "partOfSpeech": "v.",
+      "definitionZh": "核實或確定某安排、資訊屬實",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please confirm your attendance by replying to this email.", "translationZh": "請回覆此郵件確認您是否出席。"}
+      ]
+    },
+    {
+      "headword": "acknowledge",
+      "partOfSpeech": "v.",
+      "definitionZh": "回覆表示已收到對方的郵件或通知",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please acknowledge receipt of this email by end of day.", "translationZh": "請在今天下班前回覆確認已收到此郵件。"}
+      ]
+    },
+    {
+      "headword": "correspond",
+      "partOfSpeech": "v.",
+      "definitionZh": "以書信或電子郵件與他人進行往來溝通",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "She corresponds regularly with overseas clients by email.", "translationZh": "她定期以電子郵件與海外客戶進行書信往來。"}
+      ]
+    },
+    {
+      "headword": "greet",
+      "partOfSpeech": "v.",
+      "definitionZh": "以問候語或行動向他人打招呼",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The receptionist will greet visitors at the front desk.", "translationZh": "接待員會在前台迎接來訪者。"}
+      ]
+    },
+    {
+      "headword": "introduce",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式向他人說明某人的身份或背景",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Let me introduce you to our new sales director, Mr. Chen.", "translationZh": "讓我介紹您認識我們的新業務總監陳先生。"}
+      ]
+    },
+    {
+      "headword": "address",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "正式稱呼某人或向特定對象講話；地址",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please address all complaints to the customer service team.", "translationZh": "請將所有投訴事項直接提交給客服團隊。"}
+      ]
+    },
+    {
+      "headword": "signature",
+      "partOfSpeech": "n.",
+      "definitionZh": "本人親筆簽名以表示同意或確認身份",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The contract requires the signature of both parties.", "translationZh": "合約需要雙方當事人的簽名。"}
+      ]
+    },
+    {
+      "headword": "letterhead",
+      "partOfSpeech": "n.",
+      "definitionZh": "印有公司名稱、標誌及地址的正式信紙頭",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Official letters should always be typed on company letterhead.", "translationZh": "正式信件應一律使用公司抬頭信紙。"}
+      ]
+    },
+    {
+      "headword": "envelope",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於封裝信件或文件的紙製信封",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Seal the documents in an envelope and mail them today.", "translationZh": "把文件封入信封後今天寄出。"}
+      ]
+    },
+    {
+      "headword": "postage",
+      "partOfSpeech": "n.",
+      "definitionZh": "寄送郵件或包裹所需支付的郵費",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The postage for express delivery is higher than standard mail.", "translationZh": "快捷郵件的郵資比普通郵件貴。"}
+      ]
+    },
+    {
+      "headword": "courier",
+      "partOfSpeech": "n.",
+      "definitionZh": "負責快速遞送包裹或文件的快遞服務",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "We sent the documents by courier to ensure next-day delivery.", "translationZh": "我們用快遞寄送文件，以確保隔日送達。"}
+      ]
+    },
+    {
+      "headword": "deliver",
+      "partOfSpeech": "v.",
+      "definitionZh": "將物品或文件實際送達至指定地點",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The courier will deliver the package to your office by noon.", "translationZh": "快遞員會在中午前將包裹送到您的辦公室。"}
+      ]
+    },
+    {
+      "headword": "receipt",
+      "partOfSpeech": "n.",
+      "definitionZh": "確認已收到款項或貨物的書面憑證",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Keep the receipt for reimbursement of your business expenses.", "translationZh": "保存收據以便報銷出差費用。"}
+      ]
+    },
+    {
+      "headword": "directory",
+      "partOfSpeech": "n.",
+      "definitionZh": "列出人員、公司或分機的查詢名錄",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Check the company directory for the sales team's extension.", "translationZh": "查閱公司通訊錄以取得業務團隊的分機號碼。"}
+      ]
+    },
+    {
+      "headword": "extension",
+      "partOfSpeech": "n.",
+      "definitionZh": "公司內部電話系統的分機號碼",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "You can reach HR at extension 205 during office hours.", "translationZh": "上班時間可撥分機205聯繫人資部門。"}
+      ]
+    },
+    {
+      "headword": "voicemail",
+      "partOfSpeech": "n.",
+      "definitionZh": "對方未接電話時留存語音留言的信箱",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "I left a voicemail asking him to call back this afternoon.", "translationZh": "我留了語音留言，請他今天下午回電。"}
+      ]
+    },
+    {
+      "headword": "inbox",
+      "partOfSpeech": "n.",
+      "definitionZh": "電子郵件系統中存放收到郵件的收件匣",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Check your inbox for the meeting invitation sent this morning.", "translationZh": "查看您的收件匣，找今天早上發出的會議邀請。"}
+      ]
+    },
+    {
+      "headword": "outbox",
+      "partOfSpeech": "n.",
+      "definitionZh": "存放已寄出或等待送出郵件的寄件匣",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The report is in the outbox and should be sent shortly.", "translationZh": "報告在寄件匣中，應該很快就會送出。"}
+      ]
+    },
+    {
+      "headword": "archive",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "將舊有文件永久封存以備日後查閱",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Archive last year's contracts in the shared drive under 2025.", "translationZh": "將去年的合約封存至共用磁碟的2025年資料夾。"}
+      ]
+    },
+    {
+      "headword": "retrieve",
+      "partOfSpeech": "v.",
+      "definitionZh": "從存放處取回或查找所需的文件或資料",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Can you retrieve the signed copy from the filing cabinet?", "translationZh": "你能從文件櫃裡取出已簽署的副本嗎？"}
+      ]
+    },
+    {
+      "headword": "delete",
+      "partOfSpeech": "v.",
+      "definitionZh": "永久移除不再需要的數位檔案或資料",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Delete any outdated files to free up storage on the server.", "translationZh": "刪除過時的檔案以釋放伺服器的儲存空間。"}
+      ]
+    },
+    {
+      "headword": "save",
+      "partOfSpeech": "v.",
+      "definitionZh": "將正在編輯的檔案寫入儲存媒介以防資料遺失",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Remember to save your work frequently to avoid data loss.", "translationZh": "記得經常儲存您的工作以避免資料遺失。"}
+      ]
+    },
+    {
+      "headword": "copy",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "複製現有內容或文件；所製作的副本",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Copy the text from the old template into the new document.", "translationZh": "從舊範本複製文字貼入新文件中。"}
+      ]
+    },
+    {
+      "headword": "paste",
+      "partOfSpeech": "v.",
+      "definitionZh": "將已複製的內容貼入文件的指定位置",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Copy the heading and paste it at the top of each section.", "translationZh": "複製標題並貼至每個段落的頂端。"}
+      ]
+    },
+    {
+      "headword": "format",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "調整文件的版面編排（字型、間距等外觀設定）",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please format the report with consistent font size and margins.", "translationZh": "請將報告的字型大小和頁邊距統一排版。"}
+      ]
+    },
+    {
+      "headword": "template",
+      "partOfSpeech": "n.",
+      "definitionZh": "可重複套用的預設文件格式或範本",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Use the company template when creating official proposals.", "translationZh": "製作正式提案時請使用公司範本。"}
+      ]
+    },
+    {
+      "headword": "spreadsheet",
+      "partOfSpeech": "n.",
+      "definitionZh": "以欄列格式呈現及計算數據的電子試算表",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Update the budget spreadsheet with the latest figures.", "translationZh": "請用最新數據更新預算試算表。"}
+      ]
+    },
+    {
+      "headword": "document",
+      "partOfSpeech": "n.",
+      "definitionZh": "包含書面資訊的正式文件或電子檔案",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Attach the supporting documents to your application form.", "translationZh": "請在申請表上附上相關佐證文件。"}
+      ]
+    },
+    {
+      "headword": "record",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "正式保存以備查核的書面或電子資料",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Keep a detailed record of all client interactions.", "translationZh": "詳細記錄所有與客戶互動的情況。"}
+      ]
+    },
+    {
+      "headword": "backup",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "複製資料另存以防原始檔案損毀遺失",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Always create a backup before updating the database.", "translationZh": "更新資料庫前務必先建立備份。"}
+      ]
+    },
+    {
+      "headword": "password",
+      "partOfSpeech": "n.",
+      "definitionZh": "用以驗證身份並保護帳號存取的密語",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Change your password every 90 days for better security.", "translationZh": "每90天更換一次密碼以提高安全性。"}
+      ]
+    },
+    {
+      "headword": "permission",
+      "partOfSpeech": "n.",
+      "definitionZh": "存取特定系統、資料或區域的授權資格",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "You need permission from IT to access the shared server.", "translationZh": "您需要資訊部門授權才能存取共用伺服器。"}
+      ]
+    },
+    {
+      "headword": "log",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "系統或事件按時間順序留存的連續紀錄日誌",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The system log shows who accessed the files yesterday.", "translationZh": "系統日誌顯示昨天誰存取了這些檔案。"}
+      ]
+    },
+    {
+      "headword": "track",
+      "partOfSpeech": "v.",
+      "definitionZh": "持續追蹤並記錄工作進度或狀態變化",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Use the project tool to track task completion for the team.", "translationZh": "使用專案工具追蹤團隊的任務完成情況。"}
+      ]
+    },
+    {
+      "headword": "monitor",
+      "partOfSpeech": "v.",
+      "definitionZh": "持續觀察並評估某過程或系統的運作狀況",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The supervisor will monitor employee performance quarterly.", "translationZh": "主管將每季監控員工的工作表現。"}
+      ]
+    },
+    {
+      "headword": "summary",
+      "partOfSpeech": "n.",
+      "definitionZh": "將較長內容精簡呈現的重點概述",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please prepare a one-page summary of the quarterly results.", "translationZh": "請準備一頁的季度業績摘要。"}
+      ]
+    },
+    {
+      "headword": "checklist",
+      "partOfSpeech": "n.",
+      "definitionZh": "逐項確認是否完成的核查表",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Go through the checklist before submitting the final report.", "translationZh": "繳交最終報告前，請逐一核對查核清單。"}
+      ]
+    },
+    {
+      "headword": "form",
+      "partOfSpeech": "n.",
+      "definitionZh": "需填寫特定資料欄位的官方表格",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Fill in the leave application form and give it to your manager.", "translationZh": "填寫請假申請表後交給您的主管。"}
+      ]
+    },
+    {
+      "headword": "fill",
+      "partOfSpeech": "v.",
+      "definitionZh": "在表格或欄位中填入所要求的資訊",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please fill in all required fields on the registration form.", "translationZh": "請填寫登記表上所有必填欄位。"}
+      ]
+    },
+    {
+      "headword": "sign",
+      "partOfSpeech": "v.",
+      "definitionZh": "在文件上親筆簽名以表示同意或確認",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Both managers must sign the purchase order before submission.", "translationZh": "採購單在提交前須由兩位主管簽名。"}
+      ]
+    },
+    {
+      "headword": "date",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "在文件上填寫或標示日期",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please date and sign the agreement at the bottom of page 3.", "translationZh": "請在第三頁底部填寫日期並簽名。"}
+      ]
+    },
+    {
+      "headword": "note",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "隨手記下的簡短臨時備忘",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Leave a note on his desk reminding him of tomorrow's meeting.", "translationZh": "在他桌上留一張便條，提醒他明天的會議。"}
+      ]
+    },
+    {
+      "headword": "list",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "將一系列事項條列排出的清單",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Make a list of supplies needed before placing the order.", "translationZh": "在下訂單前先列出所需用品清單。"}
+      ]
+    },
+    {
+      "headword": "task",
+      "partOfSpeech": "n.",
+      "definitionZh": "分派給個人的具體待辦工作項目",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Each team member has a task assigned in the project plan.", "translationZh": "每位組員在專案計畫中都有分配到的任務。"}
+      ]
+    },
+    {
+      "headword": "urgent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "需要立即處理、刻不容緩的",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "This is an urgent matter—please respond within the hour.", "translationZh": "這是緊急事項，請在一小時內回覆。"}
+      ]
+    },
+    {
+      "headword": "routine",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "例行固定的；日常的例行工作",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Checking emails is part of the morning routine for most staff.", "translationZh": "查看郵件是大多數員工早晨例行工作的一部分。"}
+      ]
+    },
+    {
+      "headword": "procedure",
+      "partOfSpeech": "n.",
+      "definitionZh": "完成某項工作所需遵循的既定操作步驟",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Follow the standard procedure when handling customer refunds.", "translationZh": "處理客戶退款時，請遵循標準操作程序。"}
+      ]
+    },
+    {
+      "headword": "guideline",
+      "partOfSpeech": "n.",
+      "definitionZh": "提供方向建議的操作準則，非強制規定",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Refer to the style guidelines when creating marketing materials.", "translationZh": "製作行銷素材時請參閱設計風格指南。"}
+      ]
+    },
+    {
+      "headword": "regulation",
+      "partOfSpeech": "n.",
+      "definitionZh": "由主管機關頒布的強制性規定或法令",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "All offices must comply with fire safety regulations.", "translationZh": "所有辦公室必須遵守消防安全規定。"}
+      ]
+    },
+    {
+      "headword": "standard",
+      "partOfSpeech": "n.",
+      "definitionZh": "衡量品質或行為是否合格的基準規格",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Our customer service must meet the company's quality standards.", "translationZh": "我們的客戶服務必須符合公司的品質標準。"}
+      ]
+    },
+    {
+      "headword": "protocol",
+      "partOfSpeech": "n.",
+      "definitionZh": "正式場合或特定情境下慣用的禮儀或處理規範",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The email protocol requires cc'ing your manager on client replies.", "translationZh": "電子郵件規範要求回覆客戶時副本給您的主管。"}
+      ]
+    },
+    {
+      "headword": "approve",
+      "partOfSpeech": "v.",
+      "definitionZh": "正式批准或核准某申請、計畫或文件",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The director needs to approve all travel requests over $500.", "translationZh": "超過500美元的出差申請需由總監批准。"}
+      ]
+    },
+    {
+      "headword": "reject",
+      "partOfSpeech": "v.",
+      "definitionZh": "拒絕接受或駁回某申請或提案",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The committee rejected the proposal due to budget constraints.", "translationZh": "委員會因預算限制駁回了該提案。"}
+      ]
+    },
+    {
+      "headword": "defer",
+      "partOfSpeech": "v.",
+      "definitionZh": "將決定或行動推遲至較晚時間再處理",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "We will defer the final decision until more data is available.", "translationZh": "我們將推遲最終決定，等待更多資料。"}
+      ]
+    },
+    {
+      "headword": "process",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "依既定程序逐步處理申請或文件",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "It takes three business days to process a reimbursement claim.", "translationZh": "處理一份報銷申請需要三個工作天。"}
+      ]
+    },
+    {
+      "headword": "handle",
+      "partOfSpeech": "v.",
+      "definitionZh": "親自應對或解決特定問題或情況",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The office manager handles all requests for additional equipment.", "translationZh": "辦公室主管負責處理所有額外設備的申請。"}
+      ]
+    },
+    {
+      "headword": "manage",
+      "partOfSpeech": "v.",
+      "definitionZh": "統籌負責人員、資源或業務的管理工作",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "She manages a team of eight across two different offices.", "translationZh": "她負責管理分布在兩個辦公室的八人團隊。"}
+      ]
+    },
+    {
+      "headword": "organize",
+      "partOfSpeech": "v.",
+      "definitionZh": "系統性地整頓人、物或事務以提升效率",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please organize the files alphabetically by client name.", "translationZh": "請按客戶姓名的字母順序整理檔案。"}
+      ]
+    },
+    {
+      "headword": "sort",
+      "partOfSpeech": "v.",
+      "definitionZh": "依特定條件（如日期、類別）排列或分類",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Sort the invoices by date before filing them in the cabinet.", "translationZh": "將發票按日期排序後歸入文件櫃。"}
+      ]
+    },
+    {
+      "headword": "tag",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "以關鍵字或顏色標記電子檔案以便快速分類",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Tag urgent emails with a red flag for easy identification.", "translationZh": "用紅旗標記緊急郵件以便快速識別。"}
+      ]
+    },
+    {
+      "headword": "store",
+      "partOfSpeech": "v.",
+      "definitionZh": "將物品或資料安全存放於指定地點",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Store all sensitive documents in a locked filing cabinet.", "translationZh": "將所有敏感文件存放在上鎖的文件櫃中。"}
+      ]
+    },
+    {
+      "headword": "dispose",
+      "partOfSpeech": "v.",
+      "definitionZh": "丟棄或適當處置不再使用的物品或廢棄文件",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Dispose of old invoices properly according to company policy.", "translationZh": "按照公司政策妥善處置舊發票。"}
+      ]
+    },
+    {
+      "headword": "shred",
+      "partOfSpeech": "v.",
+      "definitionZh": "用碎紙機銷毀含敏感資訊的紙本文件",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Shred all confidential documents before throwing them away.", "translationZh": "丟棄前請用碎紙機銷毀所有機密文件。"}
+      ]
+    },
+    {
+      "headword": "recycle",
+      "partOfSpeech": "v.",
+      "definitionZh": "將廢紙等可用材料回收再利用",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please recycle used paper using the bins by the printer.", "translationZh": "請使用印表機旁的回收桶回收廢紙。"}
+      ]
+    },
+    {
+      "headword": "maintain",
+      "partOfSpeech": "v.",
+      "definitionZh": "定期保養設備或更新資料以確保正常運作",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "IT staff maintain all office computers on a monthly schedule.", "translationZh": "資訊部門員工按月定期保養所有辦公室電腦。"}
+      ]
+    },
+    {
+      "headword": "equipment",
+      "partOfSpeech": "n.",
+      "definitionZh": "辦公室使用的各類硬體器材與機器設備",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Report any faulty equipment to the facilities team immediately.", "translationZh": "如發現任何故障設備，請立即通報設施管理團隊。"}
+      ]
+    },
+    {
+      "headword": "device",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於辦公的個人電子裝置（如平板電腦、智慧型手機）",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "All company devices must be encrypted for data security.", "translationZh": "所有公司電子裝置均須加密以保障資料安全。"}
+      ]
+    },
+    {
+      "headword": "keyboard",
+      "partOfSpeech": "n.",
+      "definitionZh": "用於輸入文字的電腦鍵盤",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "My keyboard stopped working; I need a replacement from IT.", "translationZh": "我的鍵盤壞了，需要向資訊部申請更換。"}
+      ]
+    },
+    {
+      "headword": "mouse",
+      "partOfSpeech": "n.",
+      "definitionZh": "控制螢幕游標移動的電腦滑鼠",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The wireless mouse has a dead battery and needs replacing.", "translationZh": "無線滑鼠電池沒電了，需要更換。"}
+      ]
+    },
+    {
+      "headword": "cable",
+      "partOfSpeech": "n.",
+      "definitionZh": "連接設備以傳輸電源或資料的導線",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The projector cable is missing; please find one before the meeting.", "translationZh": "投影機連接線不見了，開會前請找一條。"}
+      ]
+    },
+    {
+      "headword": "charger",
+      "partOfSpeech": "n.",
+      "definitionZh": "為電池驅動裝置補充電力的充電器",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please bring your laptop charger to the off-site meeting.", "translationZh": "請帶筆電充電器到外部會議地點。"}
+      ]
+    },
+    {
+      "headword": "battery",
+      "partOfSpeech": "n.",
+      "definitionZh": "為無線或可攜式裝置提供電力的電池",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Replace the battery in the wireless keyboard when it runs low.", "translationZh": "無線鍵盤電力不足時請更換電池。"}
+      ]
+    },
+    {
+      "headword": "outlet",
+      "partOfSpeech": "n.",
+      "definitionZh": "牆上用於連接電器供電的電源插座",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "There's an outlet behind the desk for charging your laptop.", "translationZh": "桌後有一個電源插座可以為您的筆電充電。"}
+      ]
+    },
+    {
+      "headword": "switch",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "控制電源的開關；在不同選項之間切換",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Flip the switch on the power strip to turn off all devices.", "translationZh": "按下電源排插的開關以關閉所有設備。"}
+      ]
+    },
+    {
+      "headword": "lamp",
+      "partOfSpeech": "n.",
+      "definitionZh": "放置在桌上提供局部照明的檯燈",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The desk lamp in the corner cubicle needs a new bulb.", "translationZh": "角落辦公隔間的檯燈需要換一個燈泡。"}
+      ]
+    },
+    {
+      "headword": "whiteboard",
+      "partOfSpeech": "n.",
+      "definitionZh": "用乾式馬克筆書寫、方便擦拭的會議室白板",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Write the action items on the whiteboard during the meeting.", "translationZh": "開會時在白板上寫下行動事項。"}
+      ]
+    },
+    {
+      "headword": "printer",
+      "partOfSpeech": "n.",
+      "definitionZh": "將電腦文件列印成紙本的印表機",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The printer on the second floor is out of paper.", "translationZh": "二樓的印表機紙張用完了。"}
+      ]
+    },
+    {
+      "headword": "scanner",
+      "partOfSpeech": "n.",
+      "definitionZh": "將紙本文件轉換為數位電子檔案的掃描機",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Use the scanner to digitize signed contracts for our records.", "translationZh": "使用掃描機將已簽署的合約數位化以留存記錄。"}
+      ]
+    },
+    {
+      "headword": "projector",
+      "partOfSpeech": "n.",
+      "definitionZh": "將電腦畫面放大投影到幕布上的投影機",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Set up the projector before the client presentation starts.", "translationZh": "在客戶簡報開始前先架設好投影機。"}
+      ]
+    },
+    {
+      "headword": "screen",
+      "partOfSpeech": "n.",
+      "definitionZh": "顯示電腦或投影畫面的平面螢幕",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The meeting room has a large screen for shared presentations.", "translationZh": "會議室有一個大螢幕供共同簡報使用。"}
+      ]
+    },
+    {
+      "headword": "update",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "提供最新狀態資訊；更新資料或系統版本",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please update the project status in the shared spreadsheet daily.", "translationZh": "請每天在共用試算表中更新專案狀態。"}
+      ]
+    },
+    {
+      "headword": "report",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "詳述工作結果或調查發現的正式書面報告",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Submit your monthly report to the department head by Monday.", "translationZh": "請在週一前將月度報告提交給部門主管。"}
+      ]
+    },
+    {
+      "headword": "order",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "向供應商採購所需物品；所下的採購訂單",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Please order more printer cartridges from the supply catalog.", "translationZh": "請從耗材目錄訂購更多印表機墨水匣。"}
+      ]
+    },
+    {
+      "headword": "label",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "貼在物品外部標示名稱或內容的識別標籤",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Label each folder clearly with the client name and project year.", "translationZh": "在每個資料夾上清楚標示客戶名稱及專案年份。"}
+      ]
+    },
+    {
+      "headword": "priority",
+      "partOfSpeech": "n.",
+      "definitionZh": "相對重要性的排序；應優先完成的事項",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Completing the client proposal is the top priority this week.", "translationZh": "完成客戶提案是本週最優先的工作。"}
+      ]
+    },
+    {
+      "headword": "review",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "仔細審閱文件或評估工作以確認整體品質",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The manager will review all expense reports before approval.", "translationZh": "主管將在核准前審閱所有費用報告。"}
+      ]
+    },
+    {
+      "headword": "policy",
+      "partOfSpeech": "n.",
+      "definitionZh": "組織制定的行為方針或管理規章",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "The company's policy requires prior approval for all purchases.", "translationZh": "公司規定所有採購均須事先獲得批准。"}
+      ]
+    },
+    {
+      "headword": "print",
+      "partOfSpeech": "v.",
+      "definitionZh": "將電腦上的電子文件輸出為紙本",
+      "examTags": ["TOEIC", "office"],
+      "examples": [
+        {"sentence": "Print two copies of the contract for the signing ceremony.", "translationZh": "為簽約儀式列印兩份合約副本。"}
+      ]
+    }
+  ]
+}

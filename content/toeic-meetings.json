@@ -1,0 +1,980 @@
+{
+  "slug": "toeic-meetings",
+  "name": "會議與簡報",
+  "description": "涵蓋會議流程、簡報技巧及線上視訊會議所需的核心商務詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "chairperson",
+      "partOfSpeech": "n.",
+      "definitionZh": "主席；主持整場會議並決定議程的人",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The chairperson called the meeting to order at 9 a.m.", "translationZh": "主席在上午九點宣布會議開始。"}
+      ]
+    },
+    {
+      "headword": "facilitator",
+      "partOfSpeech": "n.",
+      "definitionZh": "促進者；帶領團隊完成討論目標的人",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The facilitator kept the discussion on track throughout the workshop.", "translationZh": "促進者在整個工作坊中讓討論保持正軌。"}
+      ]
+    },
+    {
+      "headword": "attendee",
+      "partOfSpeech": "n.",
+      "definitionZh": "與會者；出席會議或活動的人",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "All attendees received a copy of the agenda before the meeting.", "translationZh": "所有與會者在會前都收到了議程副本。"}
+      ]
+    },
+    {
+      "headword": "presenter",
+      "partOfSpeech": "n.",
+      "definitionZh": "簡報者；負責向與會者做報告的人",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The presenter used clear visuals to explain the quarterly results.", "translationZh": "簡報者使用清晰的圖表說明季度業績。"}
+      ]
+    },
+    {
+      "headword": "moderator",
+      "partOfSpeech": "n.",
+      "definitionZh": "調解人；協助維持討論秩序的人",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The moderator invited each panelist to share their views.", "translationZh": "調解人邀請每位小組成員分享觀點。"}
+      ]
+    },
+    {
+      "headword": "quorum",
+      "partOfSpeech": "n.",
+      "definitionZh": "法定人數；會議成立所需的最低出席人數",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The vote was postponed because a quorum was not reached.", "translationZh": "因未達法定人數，投票被推遲。"}
+      ]
+    },
+    {
+      "headword": "minute",
+      "partOfSpeech": "n.",
+      "definitionZh": "會議記錄（複數 minutes 指紀要全文）",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please review the minutes from last week's meeting.", "translationZh": "請查閱上週會議的會議記錄。"}
+      ]
+    },
+    {
+      "headword": "motion",
+      "partOfSpeech": "n.",
+      "definitionZh": "動議；提交表決的正式提案",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She made a motion to approve the revised budget.", "translationZh": "她提出動議，批准修訂後的預算。"}
+      ]
+    },
+    {
+      "headword": "vote",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "投票；以表決方式做出集體決定",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Members voted unanimously to accept the new proposal.", "translationZh": "成員一致投票通過新提案。"}
+      ]
+    },
+    {
+      "headword": "resolution",
+      "partOfSpeech": "n.",
+      "definitionZh": "決議；正式通過並具約束力的決定",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The board passed a resolution to expand into new markets.", "translationZh": "董事會通過決議，拓展新市場。"}
+      ]
+    },
+    {
+      "headword": "adjourn",
+      "partOfSpeech": "v.",
+      "definitionZh": "散會；正式宣布終止會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The chairperson adjourned the meeting at noon.", "translationZh": "主席在中午宣布散會。"}
+      ]
+    },
+    {
+      "headword": "recess",
+      "partOfSpeech": "n.",
+      "definitionZh": "休會；會議中段的短暫中斷休息",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The committee took a short recess before continuing.", "translationZh": "委員會短暫休會後繼續進行。"}
+      ]
+    },
+    {
+      "headword": "postpone",
+      "partOfSpeech": "v.",
+      "definitionZh": "延後；將會議推遲到未來某個時間",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The meeting was postponed due to a scheduling conflict.", "translationZh": "會議因時程衝突而延後召開。"}
+      ]
+    },
+    {
+      "headword": "reschedule",
+      "partOfSpeech": "v.",
+      "definitionZh": "改期；重新安排到另一個確定時間",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "We need to reschedule the presentation to next Thursday.", "translationZh": "我們需要將簡報改期至下週四。"}
+      ]
+    },
+    {
+      "headword": "convene",
+      "partOfSpeech": "v.",
+      "definitionZh": "召集；正式召開會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The CEO convened an emergency meeting after the data breach.", "translationZh": "執行長在資料洩露後召集了緊急會議。"}
+      ]
+    },
+    {
+      "headword": "summarize",
+      "partOfSpeech": "v.",
+      "definitionZh": "總結；簡短概述討論要點",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please summarize the key findings before we close.", "translationZh": "請在結束前總結主要發現。"}
+      ]
+    },
+    {
+      "headword": "clarify",
+      "partOfSpeech": "v.",
+      "definitionZh": "澄清；使模糊的意思變得清楚",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Could you clarify what you mean by 'immediate action'?", "translationZh": "您能澄清「立即行動」的意思嗎？"}
+      ]
+    },
+    {
+      "headword": "elaborate",
+      "partOfSpeech": "v.",
+      "definitionZh": "詳述；進一步說明細節或補充說明",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The manager asked her to elaborate on the risk factors.", "translationZh": "經理請她詳述相關風險因素。"}
+      ]
+    },
+    {
+      "headword": "propose",
+      "partOfSpeech": "v.",
+      "definitionZh": "提議；正式提出方案供討論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "He proposed a new approach to reduce production costs.", "translationZh": "他提議採用新方法以降低生產成本。"}
+      ]
+    },
+    {
+      "headword": "second",
+      "partOfSpeech": "v.",
+      "definitionZh": "附議；正式支持他人提出的動議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The motion was seconded and put to a vote.", "translationZh": "動議獲得附議後提交表決。"}
+      ]
+    },
+    {
+      "headword": "object",
+      "partOfSpeech": "v.",
+      "definitionZh": "反對；正式提出異議或不同意",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Two board members objected to the proposed timeline.", "translationZh": "兩名董事會成員反對提議的時程安排。"}
+      ]
+    },
+    {
+      "headword": "raise",
+      "partOfSpeech": "v.",
+      "definitionZh": "提出（議題）；在會中點出某個問題",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She raised the issue of budget overruns during the meeting.", "translationZh": "她在會議中提出了預算超支的問題。"}
+      ]
+    },
+    {
+      "headword": "table",
+      "partOfSpeech": "v.",
+      "definitionZh": "擱置；暫緩某議題的討論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The committee decided to table the proposal until next month.", "translationZh": "委員會決定將提案擱置至下個月再討論。"}
+      ]
+    },
+    {
+      "headword": "brainstorm",
+      "partOfSpeech": "v.",
+      "definitionZh": "腦力激盪；集思廣益產生創意想法",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The team brainstormed ideas for the new product launch.", "translationZh": "團隊為新產品發布集思廣益。"}
+      ]
+    },
+    {
+      "headword": "discuss",
+      "partOfSpeech": "v.",
+      "definitionZh": "討論；就某議題進行交流與辯論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "We will discuss the sales forecast in the afternoon session.", "translationZh": "我們將在下午場次討論銷售預測。"}
+      ]
+    },
+    {
+      "headword": "conclude",
+      "partOfSpeech": "v.",
+      "definitionZh": "作出結論；正式結束某段討論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The presenter concluded by summarizing the next steps.", "translationZh": "簡報者以總結後續步驟作為結尾。"}
+      ]
+    },
+    {
+      "headword": "outline",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "概述；列出架構或重點提綱",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She outlined the main agenda items at the start of the meeting.", "translationZh": "她在會議開始時概述了主要議程項目。"}
+      ]
+    },
+    {
+      "headword": "slide",
+      "partOfSpeech": "n.",
+      "definitionZh": "投影片；簡報中的單一頁面畫面",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please advance to the next slide to see the financial data.", "translationZh": "請切換到下一張投影片查看財務數據。"}
+      ]
+    },
+    {
+      "headword": "handout",
+      "partOfSpeech": "n.",
+      "definitionZh": "講義；會議中分發的紙本資料",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The handouts were distributed before the presentation began.", "translationZh": "講義在簡報開始前分發給與會者。"}
+      ]
+    },
+    {
+      "headword": "pointer",
+      "partOfSpeech": "n.",
+      "definitionZh": "指示棒；用來指向螢幕或白板的工具",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "He used a laser pointer to highlight key figures on the chart.", "translationZh": "他用雷射指示棒標示圖表上的重要數字。"}
+      ]
+    },
+    {
+      "headword": "microphone",
+      "partOfSpeech": "n.",
+      "definitionZh": "麥克風；收音並放大聲音的設備",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please speak into the microphone so everyone can hear you.", "translationZh": "請對著麥克風說話，讓大家都能聽到。"}
+      ]
+    },
+    {
+      "headword": "webinar",
+      "partOfSpeech": "n.",
+      "definitionZh": "網路研討會；透過網路舉辦的線上研討活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Over 200 participants joined the webinar on digital marketing.", "translationZh": "超過兩百名參與者加入了數位行銷網路研討會。"}
+      ]
+    },
+    {
+      "headword": "videoconference",
+      "partOfSpeech": "n.",
+      "definitionZh": "視訊會議；透過影像與聲音連線的遠端會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The global team held a videoconference to align on priorities.", "translationZh": "全球團隊透過視訊會議協調工作重點。"}
+      ]
+    },
+    {
+      "headword": "teleconference",
+      "partOfSpeech": "n.",
+      "definitionZh": "電話會議；僅透過語音連線的遠端會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The regional managers joined via teleconference.", "translationZh": "各地區經理透過電話會議參與討論。"}
+      ]
+    },
+    {
+      "headword": "dial",
+      "partOfSpeech": "v.",
+      "definitionZh": "撥號；撥打電話加入遠端會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please dial in five minutes before the call starts.", "translationZh": "請在通話開始前五分鐘撥號加入。"}
+      ]
+    },
+    {
+      "headword": "mute",
+      "partOfSpeech": "v.",
+      "definitionZh": "靜音；關閉麥克風使聲音不被傳送",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please mute your microphone when you are not speaking.", "translationZh": "不發言時請將麥克風靜音。"}
+      ]
+    },
+    {
+      "headword": "unmute",
+      "partOfSpeech": "v.",
+      "definitionZh": "取消靜音；重新開啟麥克風讓聲音傳出",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Could you unmute yourself? We can't hear your question.", "translationZh": "能請您取消靜音嗎？我們聽不到您的問題。"}
+      ]
+    },
+    {
+      "headword": "share",
+      "partOfSpeech": "v.",
+      "definitionZh": "分享螢幕；在視訊會議中展示自己的畫面",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "I'll share my screen so you can follow the report.", "translationZh": "我將分享螢幕，讓大家能跟著查看報告。"}
+      ]
+    },
+    {
+      "headword": "present",
+      "partOfSpeech": "v.",
+      "definitionZh": "呈報；向與會者展示或口頭報告",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She will present the market analysis to the board on Friday.", "translationZh": "她將於週五向董事會呈報市場分析。"}
+      ]
+    },
+    {
+      "headword": "display",
+      "partOfSpeech": "v.",
+      "definitionZh": "顯示；在螢幕或投影上呈現內容",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The dashboard displays real-time sales figures for the team.", "translationZh": "儀表板即時顯示團隊的銷售數字。"}
+      ]
+    },
+    {
+      "headword": "demo",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "示範；產品或功能的實際操作展示",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The sales team gave a live demo of the new software.", "translationZh": "銷售團隊對新軟體進行了現場示範。"}
+      ]
+    },
+    {
+      "headword": "chart",
+      "partOfSpeech": "n.",
+      "definitionZh": "圖表；以長條、圓餅等形式呈現數據",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The bar chart clearly shows revenue growth over five years.", "translationZh": "長條圖清楚顯示五年來的營收成長。"}
+      ]
+    },
+    {
+      "headword": "graph",
+      "partOfSpeech": "n.",
+      "definitionZh": "圖形；以線條或點呈現數值關係的圖",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The graph shows a steady increase in customer satisfaction.", "translationZh": "圖形顯示顧客滿意度持續上升。"}
+      ]
+    },
+    {
+      "headword": "figure",
+      "partOfSpeech": "n.",
+      "definitionZh": "圖號；報告或簡報中的附圖編號",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Refer to Figure 3 on page seven for the sales breakdown.", "translationZh": "請參閱第七頁的圖3以查看銷售細項。"}
+      ]
+    },
+    {
+      "headword": "data",
+      "partOfSpeech": "n.",
+      "definitionZh": "數據；收集來供分析的原始資料",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The data indicates a 15% drop in Q2 customer renewals.", "translationZh": "數據顯示第二季客戶續約率下降了15%。"}
+      ]
+    },
+    {
+      "headword": "statistic",
+      "partOfSpeech": "n.",
+      "definitionZh": "統計數據；用數字量化的事實",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The latest statistics show a rise in online purchases.", "translationZh": "最新統計數據顯示線上購買量上升。"}
+      ]
+    },
+    {
+      "headword": "trend",
+      "partOfSpeech": "n.",
+      "definitionZh": "趨勢；數據或市場隨時間的變化方向",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The upward trend in sales is expected to continue next quarter.", "translationZh": "銷售的上升趨勢預計將延續至下一季。"}
+      ]
+    },
+    {
+      "headword": "highlight",
+      "partOfSpeech": "v.",
+      "definitionZh": "點出；特別標示最重要的資訊",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She highlighted the need for faster delivery times.", "translationZh": "她特別點出縮短交貨時間的必要性。"}
+      ]
+    },
+    {
+      "headword": "emphasize",
+      "partOfSpeech": "v.",
+      "definitionZh": "強調；以語氣或重複凸顯某個重點",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The director emphasized that quality must not be compromised.", "translationZh": "總監強調品質絕不能妥協。"}
+      ]
+    },
+    {
+      "headword": "illustrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "說明；以範例或圖表加以解釋",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "This case study illustrates how to handle customer complaints.", "translationZh": "這個案例說明了如何處理客戶投訴。"}
+      ]
+    },
+    {
+      "headword": "compare",
+      "partOfSpeech": "v.",
+      "definitionZh": "比較；找出兩者的相同點與差異",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Let us compare this year's figures with last year's results.", "translationZh": "讓我們將今年的數字與去年的結果相比較。"}
+      ]
+    },
+    {
+      "headword": "contrast",
+      "partOfSpeech": "v.",
+      "definitionZh": "對比；凸顯兩者之間的不同之處",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The report contrasts domestic and international sales figures.", "translationZh": "報告對比了國內與國際的銷售數字。"}
+      ]
+    },
+    {
+      "headword": "benchmark",
+      "partOfSpeech": "n.",
+      "definitionZh": "基準；衡量績效的業界參照標準",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Our response time exceeds the industry benchmark by 20%.", "translationZh": "我們的回應時間超出業界基準20%。"}
+      ]
+    },
+    {
+      "headword": "objective",
+      "partOfSpeech": "n.",
+      "definitionZh": "目標；會議或計畫希望達成的具體標的",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The main objective of today's meeting is to finalize the plan.", "translationZh": "今天會議的主要目標是確定計畫。"}
+      ]
+    },
+    {
+      "headword": "goal",
+      "partOfSpeech": "n.",
+      "definitionZh": "宏觀目的；長期努力的方向與願景",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Our goal is to increase market share by 10% this year.", "translationZh": "我們的目的是今年將市場份額提升10%。"}
+      ]
+    },
+    {
+      "headword": "milestone",
+      "partOfSpeech": "n.",
+      "definitionZh": "里程碑；專案中的重要進度節點",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Reaching 10,000 subscribers is a key milestone for the team.", "translationZh": "達到一萬名訂閱者是團隊的重要里程碑。"}
+      ]
+    },
+    {
+      "headword": "strategy",
+      "partOfSpeech": "n.",
+      "definitionZh": "策略；達成目標的整體行動計劃",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Our pricing strategy needs to be reviewed before the Q4 launch.", "translationZh": "我們的定價策略需要在第四季發布前重新審視。"}
+      ]
+    },
+    {
+      "headword": "initiative",
+      "partOfSpeech": "n.",
+      "definitionZh": "倡議；主動推行的專案或新措施",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The sustainability initiative was approved at the board level.", "translationZh": "永續倡議已在董事會層級獲批。"}
+      ]
+    },
+    {
+      "headword": "plan",
+      "partOfSpeech": "n.",
+      "definitionZh": "計畫；分步驟完成目標的具體安排",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The project plan outlines tasks, owners, and deadlines.", "translationZh": "專案計畫列出了任務、負責人及截止日期。"}
+      ]
+    },
+    {
+      "headword": "target",
+      "partOfSpeech": "n.",
+      "definitionZh": "指標；設定的量化達標數值",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The sales team exceeded its monthly target by 12%.", "translationZh": "銷售團隊超出了月度指標12%。"}
+      ]
+    },
+    {
+      "headword": "outcome",
+      "partOfSpeech": "n.",
+      "definitionZh": "最終成效；行動或決策後的整體結果",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The expected outcome is a 20% reduction in processing time.", "translationZh": "預期最終成效是處理時間縮短20%。"}
+      ]
+    },
+    {
+      "headword": "result",
+      "partOfSpeech": "n.",
+      "definitionZh": "績效數據；已測量的實際表現數字",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The Q3 results show strong growth across all product lines.", "translationZh": "第三季績效數據顯示所有產品線均強勁成長。"}
+      ]
+    },
+    {
+      "headword": "finding",
+      "partOfSpeech": "n.",
+      "definitionZh": "調查發現；研究或審計的具體結論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The key finding is that customer churn rose in rural areas.", "translationZh": "主要調查發現是農村地區的客戶流失率上升。"}
+      ]
+    },
+    {
+      "headword": "recommendation",
+      "partOfSpeech": "n.",
+      "definitionZh": "建議方案；基於深入分析提出的正式行動指引",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The consultant's recommendation is to streamline the supply chain.", "translationZh": "顧問的建議方案是簡化供應鏈流程。"}
+      ]
+    },
+    {
+      "headword": "question",
+      "partOfSpeech": "n.",
+      "definitionZh": "問題；要求解答或澄清的疑問",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Are there any questions before we move to the next topic?", "translationZh": "在進入下一個議題前，有任何問題嗎？"}
+      ]
+    },
+    {
+      "headword": "answer",
+      "partOfSpeech": "n.",
+      "definitionZh": "回答；對提出問題的解釋或回應",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "I'll provide a detailed answer after reviewing the data.", "translationZh": "我在查閱數據後將提供詳細回答。"}
+      ]
+    },
+    {
+      "headword": "comment",
+      "partOfSpeech": "n.",
+      "definitionZh": "評論；對議題的臨時意見或看法",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Does anyone have a comment on the proposed changes?", "translationZh": "對於提議的變更，有人有評論嗎？"}
+      ]
+    },
+    {
+      "headword": "suggestion",
+      "partOfSpeech": "n.",
+      "definitionZh": "點子；供他人考慮的非正式想法",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Her suggestion to simplify the process was well received.", "translationZh": "她簡化流程的點子獲得了好評。"}
+      ]
+    },
+    {
+      "headword": "concern",
+      "partOfSpeech": "n.",
+      "definitionZh": "疑慮；令人擔憂的潛在問題",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The team raised concerns about the tight project deadline.", "translationZh": "團隊對緊迫的專案截止日期表達了疑慮。"}
+      ]
+    },
+    {
+      "headword": "agree",
+      "partOfSpeech": "v.",
+      "definitionZh": "同意；表示認可或贊成",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "All stakeholders agreed to proceed with the new strategy.", "translationZh": "所有利害關係人同意推進新策略。"}
+      ]
+    },
+    {
+      "headword": "disagree",
+      "partOfSpeech": "v.",
+      "definitionZh": "不同意；表達反對或不贊成",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She politely disagreed with the cost estimate presented.", "translationZh": "她禮貌地對提出的成本估算表示不同意。"}
+      ]
+    },
+    {
+      "headword": "consensus",
+      "partOfSpeech": "n.",
+      "definitionZh": "共識；各方共同接受的集體結論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The team reached consensus on the project launch date.", "translationZh": "團隊就專案上線日期達成共識。"}
+      ]
+    },
+    {
+      "headword": "compromise",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "妥協；各退一步達成的雙邊協議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Both sides reached a compromise on the delivery schedule.", "translationZh": "雙方在交貨時程上達成了妥協。"}
+      ]
+    },
+    {
+      "headword": "decision",
+      "partOfSpeech": "n.",
+      "definitionZh": "決定；經討論後選定並確認的方案",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The final decision will be announced at the end of the week.", "translationZh": "最終決定將於本週末公布。"}
+      ]
+    },
+    {
+      "headword": "implement",
+      "partOfSpeech": "v.",
+      "definitionZh": "執行；將計畫或決策付諸實行",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The HR team will implement the new policy starting next month.", "translationZh": "人資團隊將從下個月開始執行新政策。"}
+      ]
+    },
+    {
+      "headword": "assign",
+      "partOfSpeech": "v.",
+      "definitionZh": "分配；指派工作或任務給特定人員",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The manager assigned action items to each team member.", "translationZh": "經理將行動事項分配給每位團隊成員。"}
+      ]
+    },
+    {
+      "headword": "delegate",
+      "partOfSpeech": "v.",
+      "definitionZh": "授權；將自己的責任交付下屬執行",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "She delegated the report preparation to her assistant.", "translationZh": "她將報告準備工作授權給助理執行。"}
+      ]
+    },
+    {
+      "headword": "responsibility",
+      "partOfSpeech": "n.",
+      "definitionZh": "責任；被指派承擔的義務或職責",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Ownership and responsibility were clearly defined in the meeting.", "translationZh": "會議中明確界定了所有者與責任歸屬。"}
+      ]
+    },
+    {
+      "headword": "timeline",
+      "partOfSpeech": "n.",
+      "definitionZh": "時間表；任務起止時間的整體安排",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The project timeline was revised to allow for additional testing.", "translationZh": "專案時間表已修訂，以留出額外測試時間。"}
+      ]
+    },
+    {
+      "headword": "progress",
+      "partOfSpeech": "n.",
+      "definitionZh": "進度；工作向前推進的程度",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Please give us a progress update on the website redesign.", "translationZh": "請就網站重新設計給我們進度更新。"}
+      ]
+    },
+    {
+      "headword": "status",
+      "partOfSpeech": "n.",
+      "definitionZh": "狀態；任務或專案目前的情況",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Each team lead reported on the status of their workstream.", "translationZh": "每位團隊負責人報告了各自工作流的狀態。"}
+      ]
+    },
+    {
+      "headword": "presentation",
+      "partOfSpeech": "n.",
+      "definitionZh": "簡報；以投影片搭配口頭說明的正式報告",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Her presentation on market trends impressed the executives.", "translationZh": "她關於市場趨勢的簡報給高管留下深刻印象。"}
+      ]
+    },
+    {
+      "headword": "proposal",
+      "partOfSpeech": "n.",
+      "definitionZh": "提案；供審核的正式書面計劃書",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The vendor submitted a detailed proposal for the IT upgrade.", "translationZh": "供應商提交了IT升級的詳細提案。"}
+      ]
+    },
+    {
+      "headword": "pitch",
+      "partOfSpeech": "n.",
+      "definitionZh": "商業提案；爭取業務或投資的說服性說明",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The startup delivered a compelling pitch to potential investors.", "translationZh": "新創公司向潛在投資人提出了有力的商業提案。"}
+      ]
+    },
+    {
+      "headword": "brief",
+      "partOfSpeech": "v.",
+      "definitionZh": "簡報（動詞）；向某人說明情況或任務背景",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The manager briefed the team on the new client's requirements.", "translationZh": "經理向團隊說明了新客戶的需求。"}
+      ]
+    },
+    {
+      "headword": "debrief",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "事後檢討；活動或任務結束後的回顧討論",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "We debriefed the client meeting to identify lessons learned.", "translationZh": "我們對客戶會議進行事後檢討以找出學到的教訓。"}
+      ]
+    },
+    {
+      "headword": "session",
+      "partOfSpeech": "n.",
+      "definitionZh": "場次；某段時間內進行的會議或活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The morning session covers strategy; the afternoon covers operations.", "translationZh": "上午場次涵蓋策略，下午場次涵蓋營運。"}
+      ]
+    },
+    {
+      "headword": "workshop",
+      "partOfSpeech": "n.",
+      "definitionZh": "工作坊；互動式的技能培訓或問題解決小組會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Employees attended a workshop on effective communication skills.", "translationZh": "員工參加了有效溝通技巧的工作坊。"}
+      ]
+    },
+    {
+      "headword": "seminar",
+      "partOfSpeech": "n.",
+      "definitionZh": "研討會；專題知識分享或學術演講活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The industry seminar attracted over 300 professionals.", "translationZh": "業界研討會吸引了超過三百名專業人士出席。"}
+      ]
+    },
+    {
+      "headword": "panel",
+      "partOfSpeech": "n.",
+      "definitionZh": "座談小組；由多位專家組成的公開討論團",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "A panel of experts discussed the future of remote work.", "translationZh": "一個專家座談小組討論了遠距工作的未來。"}
+      ]
+    },
+    {
+      "headword": "keynote",
+      "partOfSpeech": "n.",
+      "definitionZh": "主題演講；開場或壓軸的重要演說",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The CEO delivered the keynote address at the annual conference.", "translationZh": "執行長在年會上發表了主題演講。"}
+      ]
+    },
+    {
+      "headword": "speech",
+      "partOfSpeech": "n.",
+      "definitionZh": "演講；正式場合向聽眾發表的口頭表達",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "His opening speech set a positive tone for the summit.", "translationZh": "他的開幕演講為峰會奠定了積極的基調。"}
+      ]
+    },
+    {
+      "headword": "lecture",
+      "partOfSpeech": "n.",
+      "definitionZh": "講座；單向傳授知識的教學演說",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The finance lecture covered cash flow management basics.", "translationZh": "財務講座涵蓋了現金流管理的基礎知識。"}
+      ]
+    },
+    {
+      "headword": "training",
+      "partOfSpeech": "n.",
+      "definitionZh": "培訓；為提升技能而進行的教育活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "New hires must complete compliance training within 30 days.", "translationZh": "新進員工必須在三十天內完成合規培訓。"}
+      ]
+    },
+    {
+      "headword": "orientation",
+      "partOfSpeech": "n.",
+      "definitionZh": "職前說明；為新進人員介紹公司文化與流程的活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The orientation helps new employees understand company culture.", "translationZh": "職前說明幫助新員工了解公司文化。"}
+      ]
+    },
+    {
+      "headword": "kickoff",
+      "partOfSpeech": "n.",
+      "definitionZh": "啟動會議；專案正式開始的第一次會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The project kickoff was held to align the team on goals.", "translationZh": "召開了專案啟動會議以統一團隊目標。"}
+      ]
+    },
+    {
+      "headword": "quarterly",
+      "partOfSpeech": "adj.",
+      "definitionZh": "每季的；每三個月舉辦或發生一次",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The quarterly review highlighted areas needing improvement.", "translationZh": "季度審查突顯了需要改進的領域。"}
+      ]
+    },
+    {
+      "headword": "annual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "每年的；一年舉辦一次的定期活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "All branch managers attend the annual strategy conference.", "translationZh": "所有分行經理都出席年度策略會議。"}
+      ]
+    },
+    {
+      "headword": "monthly",
+      "partOfSpeech": "adj.",
+      "definitionZh": "每月的；每個月定期舉行",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The monthly town hall keeps staff informed of company news.", "translationZh": "每月全員大會讓員工了解公司最新動態。"}
+      ]
+    },
+    {
+      "headword": "weekly",
+      "partOfSpeech": "adj.",
+      "definitionZh": "每週的；每七天定期舉辦一次",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The weekly standup keeps the agile team aligned on priorities.", "translationZh": "每週站會讓敏捷團隊保持優先事項一致。"}
+      ]
+    },
+    {
+      "headword": "retreat",
+      "partOfSpeech": "n.",
+      "definitionZh": "工作營；離開辦公室的團隊建設或策略活動",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The leadership retreat focused on long-term company vision.", "translationZh": "領導力工作營聚焦於公司長期願景。"}
+      ]
+    },
+    {
+      "headword": "breakout",
+      "partOfSpeech": "n.",
+      "definitionZh": "分組討論；大型會議中的小組工作環節",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Attendees split into breakout groups to work on specific topics.", "translationZh": "與會者分成分組討論小組處理特定議題。"}
+      ]
+    },
+    {
+      "headword": "roundtable",
+      "partOfSpeech": "n.",
+      "definitionZh": "圓桌討論；各方地位平等的小組對話形式",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "A roundtable on supply chain issues was held after lunch.", "translationZh": "午餐後舉行了一場供應鏈議題的圓桌討論。"}
+      ]
+    },
+    {
+      "headword": "townhall",
+      "partOfSpeech": "n.",
+      "definitionZh": "全員大會；管理層向全體員工說明的開放式會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The CEO addressed employee concerns at the company townhall.", "translationZh": "執行長在公司全員大會上回應了員工疑慮。"}
+      ]
+    },
+    {
+      "headword": "standup",
+      "partOfSpeech": "n.",
+      "definitionZh": "站會；簡短的每日同步進度會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The morning standup lasts no more than fifteen minutes.", "translationZh": "早晨站會時間不超過十五分鐘。"}
+      ]
+    },
+    {
+      "headword": "retrospective",
+      "partOfSpeech": "n.",
+      "definitionZh": "回顧會；專案結束後反思改善的檢討會議",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The sprint retrospective revealed process bottlenecks to fix.", "translationZh": "衝刺回顧會揭示了需要修正的流程瓶頸。"}
+      ]
+    },
+    {
+      "headword": "action",
+      "partOfSpeech": "n.",
+      "definitionZh": "行動（事項）；會後須跟進的具體待辦任務",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "Each action from today's meeting has an owner and due date.", "translationZh": "今天會議的每項行動事項都有負責人與截止日期。"}
+      ]
+    },
+    {
+      "headword": "item",
+      "partOfSpeech": "n.",
+      "definitionZh": "議程條目；會議中的單一討論事項",
+      "examTags": ["TOEIC", "meetings"],
+      "examples": [
+        {"sentence": "The last agenda item was deferred to the next meeting.", "translationZh": "最後一項議程條目被推遲至下次會議處理。"}
+      ]
+    }
+  ]
+}

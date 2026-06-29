@@ -48,9 +48,9 @@ describe('LearningRepository', () => {
     const db = makeDb()
     db.userCard.findMany.mockResolvedValue([{ wordId: 'w1', consecutiveCorrect: 2 }])
     const repo = new LearningRepository(db as any)
-    const result = await repo.listDueCards('u1', now, 50)
+    const result = await repo.listDueCards('u1', now, 50, 'b1')
     expect(db.userCard.findMany).toHaveBeenCalledWith({
-      where: { userId: 'u1', mastered: false, due: { lte: now } },
+      where: { userId: 'u1', mastered: false, due: { lte: now }, word: { wordBookId: 'b1' } },
       orderBy: { due: 'asc' }, take: 50, select: { wordId: true, consecutiveCorrect: true },
     })
     expect(result).toEqual([{ wordId: 'w1', consecutiveCorrect: 2 }])
@@ -60,9 +60,9 @@ describe('LearningRepository', () => {
     const db = makeDb()
     db.userCard.findMany.mockResolvedValue([{ wordId: 'w9' }, { wordId: 'w8' }])
     const repo = new LearningRepository(db as any)
-    expect(await repo.listMasteredWordIds('u1')).toEqual(['w9', 'w8'])
+    expect(await repo.listMasteredWordIds('u1', 'b1')).toEqual(['w9', 'w8'])
     expect(db.userCard.findMany).toHaveBeenCalledWith({
-      where: { userId: 'u1', mastered: true }, select: { wordId: true },
+      where: { userId: 'u1', mastered: true, word: { wordBookId: 'b1' } }, select: { wordId: true },
     })
   })
 
