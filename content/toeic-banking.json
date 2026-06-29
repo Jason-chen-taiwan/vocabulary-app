@@ -1,0 +1,2108 @@
+{
+  "slug": "toeic-banking",
+  "name": "銀行與保險",
+  "description": "涵蓋零售銀行業務、信貸放款、支付結算及保險核保理賠等 TOEIC 高頻詞彙。",
+  "level": "TOEIC",
+  "words": [
+    {
+      "headword": "teller",
+      "partOfSpeech": "noun",
+      "definitionZh": "銀行出納員，負責存款、提款及換鈔等櫃台作業",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The teller processed the cash withdrawal in minutes.",
+          "translationZh": "出納員幾分鐘內便完成了現金提款手續。"
+        }
+      ]
+    },
+    {
+      "headword": "vault",
+      "partOfSpeech": "noun",
+      "definitionZh": "銀行保險庫，用於存放現金、貴重物品及重要文件",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Only authorized staff may access the bank vault.",
+          "translationZh": "只有授權人員才能進入銀行保險庫。"
+        }
+      ]
+    },
+    {
+      "headword": "passbook",
+      "partOfSpeech": "noun",
+      "definitionZh": "存摺，記錄帳戶存提款往來的小冊子",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She updated her passbook at the bank counter.",
+          "translationZh": "她在銀行櫃台更新了存摺記錄。"
+        }
+      ]
+    },
+    {
+      "headword": "cashier",
+      "partOfSpeech": "noun",
+      "definitionZh": "出納員，辦理收款、付款的銀行或商業機構人員",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The cashier verified the signature before releasing funds.",
+          "translationZh": "出納員核驗簽名後才撥付款項。"
+        }
+      ]
+    },
+    {
+      "headword": "branch",
+      "partOfSpeech": "noun",
+      "definitionZh": "銀行分行，提供零售金融服務的地區據點",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Please visit your nearest branch to open an account.",
+          "translationZh": "請前往最近的分行開立帳戶。"
+        }
+      ]
+    },
+    {
+      "headword": "dormant",
+      "partOfSpeech": "adjective",
+      "definitionZh": "休眠的（帳戶），長期無任何交易紀錄的狀態",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The dormant account was flagged for review after two years.",
+          "translationZh": "該休眠帳戶在兩年後被標記進行審查。"
+        }
+      ]
+    },
+    {
+      "headword": "inactive",
+      "partOfSpeech": "adjective",
+      "definitionZh": "閒置的（帳戶），在規定期間內無交易活動",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Inactive accounts may incur a monthly maintenance fee.",
+          "translationZh": "閒置帳戶可能會收取每月維護費用。"
+        }
+      ]
+    },
+    {
+      "headword": "freeze",
+      "partOfSpeech": "verb",
+      "definitionZh": "凍結（帳戶或資產），暫停其使用或交易",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The court ordered the bank to freeze the suspect's account.",
+          "translationZh": "法院命令銀行凍結嫌疑人的帳戶。"
+        }
+      ]
+    },
+    {
+      "headword": "savings",
+      "partOfSpeech": "noun",
+      "definitionZh": "儲蓄帳戶，以累積存款並賺取利息為目的的銀行帳戶",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "He transfers part of his salary into a savings account monthly.",
+          "translationZh": "他每月將部分薪水轉入儲蓄帳戶。"
+        }
+      ]
+    },
+    {
+      "headword": "checking",
+      "partOfSpeech": "noun",
+      "definitionZh": "支票帳戶，用於日常付款及開立支票的活期帳戶",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She uses a checking account for daily expenses.",
+          "translationZh": "她使用支票帳戶支付日常費用。"
+        }
+      ]
+    },
+    {
+      "headword": "accountholder",
+      "partOfSpeech": "noun",
+      "definitionZh": "帳戶持有人，在銀行或金融機構開立帳戶的個人或法人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The accountholder must present a valid ID for large transactions.",
+          "translationZh": "帳戶持有人進行大額交易時須出示有效身分證明。"
+        }
+      ]
+    },
+    {
+      "headword": "joint",
+      "partOfSpeech": "adjective",
+      "definitionZh": "聯名的，兩人以上共同持有帳戶或資產",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "They opened a joint account to manage household expenses.",
+          "translationZh": "他們開立了一個聯名帳戶來管理家庭開支。"
+        }
+      ]
+    },
+    {
+      "headword": "cheque",
+      "partOfSpeech": "noun",
+      "definitionZh": "支票（英式拼法），書面指示銀行支付特定金額給受款人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The vendor prefers payment by cheque rather than cash.",
+          "translationZh": "供應商偏好以支票而非現金付款。"
+        }
+      ]
+    },
+    {
+      "headword": "payee",
+      "partOfSpeech": "noun",
+      "definitionZh": "受款人，接受支票或匯款的一方",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Write the payee's name clearly on the cheque.",
+          "translationZh": "在支票上清楚填寫受款人姓名。"
+        }
+      ]
+    },
+    {
+      "headword": "payer",
+      "partOfSpeech": "noun",
+      "definitionZh": "付款人，負責支付款項的一方",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The payer's account will be debited upon transfer.",
+          "translationZh": "轉帳後，付款人帳戶將立即被扣款。"
+        }
+      ]
+    },
+    {
+      "headword": "drawee",
+      "partOfSpeech": "noun",
+      "definitionZh": "付票行（受票方），被指示支付支票款項的銀行",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The drawee bank must verify funds before honoring a cheque.",
+          "translationZh": "付票行在兌現支票前必須核實資金是否充足。"
+        }
+      ]
+    },
+    {
+      "headword": "bearer",
+      "partOfSpeech": "noun",
+      "definitionZh": "持票人，持有並有權兌現票據的人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A bearer bond can be redeemed by anyone who holds it.",
+          "translationZh": "無記名債券可由任何持有者兌現。"
+        }
+      ]
+    },
+    {
+      "headword": "denomination",
+      "partOfSpeech": "noun",
+      "definitionZh": "面額，貨幣、債券或票據的標示金額單位",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The ATM dispenses notes in small denominations.",
+          "translationZh": "自動提款機提供小面額鈔票。"
+        }
+      ]
+    },
+    {
+      "headword": "float",
+      "partOfSpeech": "noun",
+      "definitionZh": "在途資金，支票開出到實際入帳之間尚未結清的金額",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "There is a two-day float before the cheque clears.",
+          "translationZh": "支票需兩個工作日的在途期才會入帳。"
+        }
+      ]
+    },
+    {
+      "headword": "giro",
+      "partOfSpeech": "noun",
+      "definitionZh": "劃撥轉帳，透過銀行系統將款項直接轉入受款人帳戶",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Many European firms pay salaries via giro transfer.",
+          "translationZh": "許多歐洲公司透過劃撥轉帳方式發放薪水。"
+        }
+      ]
+    },
+    {
+      "headword": "clearing",
+      "partOfSpeech": "noun",
+      "definitionZh": "票據清算，銀行間核對並結算支付指令的作業程序",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Interbank clearing usually takes one to three business days.",
+          "translationZh": "銀行間票據清算通常需一至三個工作天。"
+        }
+      ]
+    },
+    {
+      "headword": "clearinghouse",
+      "partOfSpeech": "noun",
+      "definitionZh": "票據交換所，集中處理銀行間交易清算的中介機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The clearinghouse nets out bilateral positions each day.",
+          "translationZh": "票據交換所每日軋差銀行間的雙邊部位。"
+        }
+      ]
+    },
+    {
+      "headword": "interchange",
+      "partOfSpeech": "noun",
+      "definitionZh": "交換費，發卡行向收單行收取的刷卡手續費",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Merchants pay an interchange fee on every card transaction.",
+          "translationZh": "商家每筆刷卡交易都需支付交換費。"
+        }
+      ]
+    },
+    {
+      "headword": "routing",
+      "partOfSpeech": "noun",
+      "definitionZh": "路由號碼，識別特定銀行及分行的數字代碼",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Enter the routing number to identify the correct bank branch.",
+          "translationZh": "輸入路由號碼以識別正確的銀行分行。"
+        }
+      ]
+    },
+    {
+      "headword": "chargeback",
+      "partOfSpeech": "noun",
+      "definitionZh": "拒付退款，持卡人向銀行申請撤銷信用卡交易的機制",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The customer filed a chargeback after goods were not delivered.",
+          "translationZh": "貨物未送達後，客戶提出了拒付退款申請。"
+        }
+      ]
+    },
+    {
+      "headword": "merchant",
+      "partOfSpeech": "noun",
+      "definitionZh": "特約商店，接受信用卡或電子支付的零售商或服務商",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The merchant must display accepted card brands at checkout.",
+          "translationZh": "特約商店須在結帳處展示可接受的信用卡品牌。"
+        }
+      ]
+    },
+    {
+      "headword": "acquirer",
+      "partOfSpeech": "noun",
+      "definitionZh": "收單機構，代替商家接收持卡人付款的銀行或機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The acquirer processes the payment on behalf of the store.",
+          "translationZh": "收單機構代表商家處理付款。"
+        }
+      ]
+    },
+    {
+      "headword": "issuer",
+      "partOfSpeech": "noun",
+      "definitionZh": "發卡機構，核發信用卡或金融卡的銀行或金融公司",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Contact your card issuer if you suspect unauthorized charges.",
+          "translationZh": "若懷疑有未授權消費，請聯絡您的發卡機構。"
+        }
+      ]
+    },
+    {
+      "headword": "counterfeit",
+      "partOfSpeech": "adjective",
+      "definitionZh": "偽造的，指非法仿製的貨幣或票據",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Tellers use UV lamps to detect counterfeit banknotes.",
+          "translationZh": "出納員使用紫外線燈檢查偽造鈔票。"
+        }
+      ]
+    },
+    {
+      "headword": "forgery",
+      "partOfSpeech": "noun",
+      "definitionZh": "偽造，非法仿製或竄改支票、簽名等行為",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank reimbursed the loss caused by cheque forgery.",
+          "translationZh": "銀行賠付了因支票偽造造成的損失。"
+        }
+      ]
+    },
+    {
+      "headword": "fraud",
+      "partOfSpeech": "noun",
+      "definitionZh": "金融詐欺，以欺騙手段非法取得金錢或財產的行為",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank's fraud team monitors suspicious transactions.",
+          "translationZh": "銀行詐欺防制小組監控可疑交易。"
+        }
+      ]
+    },
+    {
+      "headword": "laundering",
+      "partOfSpeech": "noun",
+      "definitionZh": "洗錢，將非法所得偽裝成合法資金的行為",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Banks must report suspicious activity to prevent laundering.",
+          "translationZh": "銀行必須舉報可疑活動以防止洗錢。"
+        }
+      ]
+    },
+    {
+      "headword": "lender",
+      "partOfSpeech": "noun",
+      "definitionZh": "貸款方，提供借款資金的銀行或金融機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Compare rates from several lenders before signing a loan.",
+          "translationZh": "簽署貸款前，應向多家貸款方比較利率。"
+        }
+      ]
+    },
+    {
+      "headword": "borrower",
+      "partOfSpeech": "noun",
+      "definitionZh": "借款人，向銀行或金融機構申請並使用貸款資金的一方",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The borrower must repay principal plus interest on time.",
+          "translationZh": "借款人必須按時償還本金及利息。"
+        }
+      ]
+    },
+    {
+      "headword": "originate",
+      "partOfSpeech": "verb",
+      "definitionZh": "承作（貸款），由放款機構完成貸款申請、審核及撥款的全程",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank originates about 500 home loans per month.",
+          "translationZh": "該銀行每月承作約五百件房屋貸款。"
+        }
+      ]
+    },
+    {
+      "headword": "origination",
+      "partOfSpeech": "noun",
+      "definitionZh": "貸款承作費，放款機構承辦新貸款時收取的服務費用",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "An origination fee of 1% was charged at closing.",
+          "translationZh": "結案時收取了1%的貸款承作費。"
+        }
+      ]
+    },
+    {
+      "headword": "servicer",
+      "partOfSpeech": "noun",
+      "definitionZh": "貸款服務商，代表放款方收取每期還款並管理帳戶的機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The servicer sends monthly statements to all borrowers.",
+          "translationZh": "貸款服務商每月寄發對帳單給所有借款人。"
+        }
+      ]
+    },
+    {
+      "headword": "repay",
+      "partOfSpeech": "verb",
+      "definitionZh": "償還，歸還借款本金或利息",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She plans to repay the loan within three years.",
+          "translationZh": "她計畫在三年內償還貸款。"
+        }
+      ]
+    },
+    {
+      "headword": "repayment",
+      "partOfSpeech": "noun",
+      "definitionZh": "還款，依貸款合約定期歸還的款項",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Monthly repayment amounts depend on the loan term.",
+          "translationZh": "每月還款金額取決於貸款期限。"
+        }
+      ]
+    },
+    {
+      "headword": "arrears",
+      "partOfSpeech": "noun",
+      "definitionZh": "欠款，已到期但尚未支付的款項或利息",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The account is two months in arrears.",
+          "translationZh": "該帳戶已有兩個月的欠款。"
+        }
+      ]
+    },
+    {
+      "headword": "delinquent",
+      "partOfSpeech": "adjective",
+      "definitionZh": "逾期未還的，貸款或債務超過還款期限仍未支付",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Delinquent loans affect the bank's overall credit quality.",
+          "translationZh": "逾期貸款會影響銀行整體的資產品質。"
+        }
+      ]
+    },
+    {
+      "headword": "repossess",
+      "partOfSpeech": "verb",
+      "definitionZh": "收回，因借款人違約而強制取回抵押品",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The lender repossessed the car after three missed payments.",
+          "translationZh": "借款人連續三次未還款後，貸款方收回了汽車。"
+        }
+      ]
+    },
+    {
+      "headword": "foreclosure",
+      "partOfSpeech": "noun",
+      "definitionZh": "止贖程序，貸款方因借款人違約而取得抵押不動產的法律程序",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The property was sold at auction after foreclosure.",
+          "translationZh": "止贖程序完成後，該不動產以拍賣方式出售。"
+        }
+      ]
+    },
+    {
+      "headword": "advance",
+      "partOfSpeech": "noun",
+      "definitionZh": "墊款，銀行預先墊付給客戶或帳戶的短期資金",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank granted a cash advance against his credit limit.",
+          "translationZh": "銀行依其信用額度核准了預借現金。"
+        }
+      ]
+    },
+    {
+      "headword": "revolving",
+      "partOfSpeech": "adjective",
+      "definitionZh": "循環的，指可反覆動用與還款的信用額度",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A revolving credit line lets you borrow and repay repeatedly.",
+          "translationZh": "循環信用額度讓您可以反覆借款與還款。"
+        }
+      ]
+    },
+    {
+      "headword": "balloon",
+      "partOfSpeech": "adjective",
+      "definitionZh": "氣球式的，指到期一次性大額還清的付款結構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A balloon loan has low monthly payments but a large final sum.",
+          "translationZh": "氣球式貸款月付金低，但最後一期還款金額龐大。"
+        }
+      ]
+    },
+    {
+      "headword": "subprime",
+      "partOfSpeech": "adjective",
+      "definitionZh": "次級的，指提供給信用評分較低借款人的貸款",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Subprime mortgages carry higher interest rates.",
+          "translationZh": "次級房貸通常附有較高的利率。"
+        }
+      ]
+    },
+    {
+      "headword": "adjustable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "浮動利率的，貸款利率定期隨市場指標調整",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "An adjustable-rate mortgage may reset annually.",
+          "translationZh": "浮動利率房貸每年可能重設利率。"
+        }
+      ]
+    },
+    {
+      "headword": "fixed",
+      "partOfSpeech": "adjective",
+      "definitionZh": "固定利率的，貸款期間利率維持不變",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A fixed-rate loan offers predictable monthly payments.",
+          "translationZh": "固定利率貸款提供可預期的每月還款金額。"
+        }
+      ]
+    },
+    {
+      "headword": "cap",
+      "partOfSpeech": "noun",
+      "definitionZh": "利率上限，規定浮動利率不得超過的最高水準",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The loan has a 5% cap on the annual interest rate.",
+          "translationZh": "該貸款設有年利率5%的上限。"
+        }
+      ]
+    },
+    {
+      "headword": "floor",
+      "partOfSpeech": "noun",
+      "definitionZh": "利率下限，規定浮動利率不得低於的最低水準",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The floor prevents the rate from dropping below 1%.",
+          "translationZh": "利率下限阻止利率跌破1%。"
+        }
+      ]
+    },
+    {
+      "headword": "spread",
+      "partOfSpeech": "noun",
+      "definitionZh": "利差，貸款利率與基準利率之間的差額",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank earns a spread between lending and deposit rates.",
+          "translationZh": "銀行從放款利率與存款利率之間的利差中獲利。"
+        }
+      ]
+    },
+    {
+      "headword": "tenor",
+      "partOfSpeech": "noun",
+      "definitionZh": "貸款期限，從撥款到最終還清的時間長度",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The facility has a three-year tenor with quarterly payments.",
+          "translationZh": "該融資額度期限三年，每季還款一次。"
+        }
+      ]
+    },
+    {
+      "headword": "nonrecourse",
+      "partOfSpeech": "adjective",
+      "definitionZh": "無追索權的，貸款人只能以抵押品求償，不得追索其他資產",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A nonrecourse loan limits lender recovery to collateral only.",
+          "translationZh": "無追索權貸款限制貸款方只能以抵押品回收損失。"
+        }
+      ]
+    },
+    {
+      "headword": "cosign",
+      "partOfSpeech": "verb",
+      "definitionZh": "共同簽署，第三方與主借款人聯合簽署並承擔連帶還款責任",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Her parents agreed to cosign the student loan application.",
+          "translationZh": "她的父母同意共同簽署學生貸款申請。"
+        }
+      ]
+    },
+    {
+      "headword": "cosigner",
+      "partOfSpeech": "noun",
+      "definitionZh": "共同簽署人，與主借款人連帶負責還款的第三方擔保人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A cosigner with good credit improves loan approval chances.",
+          "translationZh": "信用良好的共同簽署人可提高貸款核准機率。"
+        }
+      ]
+    },
+    {
+      "headword": "overdraw",
+      "partOfSpeech": "verb",
+      "definitionZh": "透支，從帳戶提領超過餘額的金額",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "If you overdraw your account, a fee will be charged.",
+          "translationZh": "若您透支帳戶，將被收取手續費。"
+        }
+      ]
+    },
+    {
+      "headword": "overdrawn",
+      "partOfSpeech": "adjective",
+      "definitionZh": "已透支的，帳戶餘額為負數的狀態",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "His account was overdrawn after the large payment cleared.",
+          "translationZh": "大額付款入帳後，他的帳戶已透支。"
+        }
+      ]
+    },
+    {
+      "headword": "creditworthy",
+      "partOfSpeech": "adjective",
+      "definitionZh": "信用良好的，具備按時還款能力且紀錄佳的借款人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Only creditworthy applicants qualify for the lowest rates.",
+          "translationZh": "只有信用良好的申請人才能享有最低利率。"
+        }
+      ]
+    },
+    {
+      "headword": "creditworthiness",
+      "partOfSpeech": "noun",
+      "definitionZh": "信用度，評估借款人履行還款義務能力的整體指標",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Creditworthiness is assessed using income and credit history.",
+          "translationZh": "信用度透過收入及信用紀錄來評估。"
+        }
+      ]
+    },
+    {
+      "headword": "title",
+      "partOfSpeech": "noun",
+      "definitionZh": "產權，不動產的法律所有權及其相關文件",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A title search confirms there are no outstanding liens.",
+          "translationZh": "產權查核確認沒有未清除的抵押權。"
+        }
+      ]
+    },
+    {
+      "headword": "hypothecation",
+      "partOfSpeech": "noun",
+      "definitionZh": "動產質押，以資產作擔保但不移交占有權的安排",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Hypothecation of shares is common in margin lending.",
+          "translationZh": "以股票質押擔保在保證金貸款中十分常見。"
+        }
+      ]
+    },
+    {
+      "headword": "collateralize",
+      "partOfSpeech": "verb",
+      "definitionZh": "以資產擔保，將某項資產指定為貸款的擔保品",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The firm collateralized its machinery to secure the loan.",
+          "translationZh": "該公司以機器設備作擔保取得貸款。"
+        }
+      ]
+    },
+    {
+      "headword": "attachment",
+      "partOfSpeech": "noun",
+      "definitionZh": "財產查封，法院依令扣押債務人財產以保障債權",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The court granted an attachment on the debtor's assets.",
+          "translationZh": "法院核准對債務人資產進行查封。"
+        }
+      ]
+    },
+    {
+      "headword": "garnish",
+      "partOfSpeech": "verb",
+      "definitionZh": "扣押薪資或財產，依法律程序從第三方取得款項以清償債務",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The court ordered the employer to garnish the debtor's wages.",
+          "translationZh": "法院命令雇主扣押債務人的薪資。"
+        }
+      ]
+    },
+    {
+      "headword": "guaranty",
+      "partOfSpeech": "noun",
+      "definitionZh": "書面保證，一方承諾在主債務人違約時代為履行債務",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The government guaranty reduced the bank's lending risk.",
+          "translationZh": "政府書面保證降低了銀行的放款風險。"
+        }
+      ]
+    },
+    {
+      "headword": "forfeit",
+      "partOfSpeech": "verb",
+      "definitionZh": "喪失（財產或權利），因違反合約或規定而被沒收",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The deposit will be forfeit if the deal falls through.",
+          "translationZh": "若交易失敗，訂金將被沒收。"
+        }
+      ]
+    },
+    {
+      "headword": "forex",
+      "partOfSpeech": "noun",
+      "definitionZh": "外匯，不同國家貨幣之間的兌換與交易市場",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank offers competitive forex rates for businesses.",
+          "translationZh": "該銀行為企業提供具競爭力的外匯匯率。"
+        }
+      ]
+    },
+    {
+      "headword": "correspondent",
+      "partOfSpeech": "adjective",
+      "definitionZh": "往來（銀行）的，與境外銀行維持代理關係以處理跨境業務",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Funds were routed through a correspondent bank overseas.",
+          "translationZh": "資金透過海外往來銀行進行轉匯。"
+        }
+      ]
+    },
+    {
+      "headword": "depository",
+      "partOfSpeech": "noun",
+      "definitionZh": "存管機構，代為保管有價證券或資金的金融機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The central depository holds securities for all investors.",
+          "translationZh": "中央存管機構代所有投資人保管有價證券。"
+        }
+      ]
+    },
+    {
+      "headword": "safekeeping",
+      "partOfSpeech": "noun",
+      "definitionZh": "保管業務，銀行代客戶保管貴重文件或資產的服務",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She left her jewelry at the bank for safekeeping.",
+          "translationZh": "她將珠寶存放在銀行保管。"
+        }
+      ]
+    },
+    {
+      "headword": "outstanding",
+      "partOfSpeech": "adjective",
+      "definitionZh": "未清償的，尚未還款或尚未兌現的餘額或票據",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The outstanding balance must be cleared before account closure.",
+          "translationZh": "帳戶關閉前，未清餘額必須結清。"
+        }
+      ]
+    },
+    {
+      "headword": "compound",
+      "partOfSpeech": "adjective",
+      "definitionZh": "複利的，利息計算時將已產生的利息再列入本金計息",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Compound interest accelerates the growth of savings.",
+          "translationZh": "複利加速了儲蓄的增長速度。"
+        }
+      ]
+    },
+    {
+      "headword": "accumulate",
+      "partOfSpeech": "verb",
+      "definitionZh": "累積，隨時間逐漸增加存款、利息或財富",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Interest accumulates daily on this savings product.",
+          "translationZh": "此儲蓄產品每日累積利息。"
+        }
+      ]
+    },
+    {
+      "headword": "reserve",
+      "partOfSpeech": "noun",
+      "definitionZh": "準備金，銀行依規定或謹慎原則保留的資金",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Banks must hold a minimum reserve with the central bank.",
+          "translationZh": "銀行必須在中央銀行存放最低準備金。"
+        }
+      ]
+    },
+    {
+      "headword": "adequacy",
+      "partOfSpeech": "noun",
+      "definitionZh": "充足性，資本是否足以吸收潛在損失的衡量標準",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Regulators assess capital adequacy each year.",
+          "translationZh": "監理機關每年評估銀行的資本充足性。"
+        }
+      ]
+    },
+    {
+      "headword": "systemic",
+      "partOfSpeech": "adjective",
+      "definitionZh": "系統性的，對整體金融體系造成廣泛影響的風險或事件",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The failure of major banks poses systemic risk.",
+          "translationZh": "大型銀行倒閉會帶來系統性風險。"
+        }
+      ]
+    },
+    {
+      "headword": "contagion",
+      "partOfSpeech": "noun",
+      "definitionZh": "金融傳染，金融危機從一個市場或機構蔓延至其他地區",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Regulators acted quickly to prevent financial contagion.",
+          "translationZh": "監管機關迅速行動以防止金融危機蔓延。"
+        }
+      ]
+    },
+    {
+      "headword": "bailout",
+      "partOfSpeech": "noun",
+      "definitionZh": "金融紓困，政府或機構注資以挽救瀕臨破產的金融機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The government approved a bank bailout during the crisis.",
+          "translationZh": "政府在危機期間批准了銀行紓困方案。"
+        }
+      ]
+    },
+    {
+      "headword": "solvent",
+      "partOfSpeech": "adjective",
+      "definitionZh": "有償債能力的，資產足以覆蓋負債的財務健全狀態",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank remained solvent throughout the economic downturn.",
+          "translationZh": "該銀行在整個經濟低迷期間仍保持償債能力。"
+        }
+      ]
+    },
+    {
+      "headword": "insolvent",
+      "partOfSpeech": "adjective",
+      "definitionZh": "無力償債的，負債超過資產、無法履行債務義務",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The firm was declared insolvent and placed into receivership.",
+          "translationZh": "該公司被宣告無力償債並進行接管。"
+        }
+      ]
+    },
+    {
+      "headword": "bankrupt",
+      "partOfSpeech": "adjective",
+      "definitionZh": "破產的，經法院認定無法清償債務的法律狀態",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The developer went bankrupt after the housing market collapsed.",
+          "translationZh": "房市崩潰後，該開發商宣告破產。"
+        }
+      ]
+    },
+    {
+      "headword": "nationalize",
+      "partOfSpeech": "verb",
+      "definitionZh": "國有化，政府接管並取得私營企業所有權",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The government nationalized the failing bank to protect depositors.",
+          "translationZh": "政府將倒閉銀行國有化以保護存款人。"
+        }
+      ]
+    },
+    {
+      "headword": "privatize",
+      "partOfSpeech": "verb",
+      "definitionZh": "私有化，將國有企業轉讓給私人部門持有",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The state bank was privatized through a public share offering.",
+          "translationZh": "國有銀行透過公開發行股票方式進行私有化。"
+        }
+      ]
+    },
+    {
+      "headword": "assess",
+      "partOfSpeech": "verb",
+      "definitionZh": "評估，對損失、風險或保費金額進行核算",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The adjuster was sent to assess the damage to the property.",
+          "translationZh": "理賠調查員被派往評估財產損失。"
+        }
+      ]
+    },
+    {
+      "headword": "assessor",
+      "partOfSpeech": "noun",
+      "definitionZh": "評估員，對損失、財產或保費進行評定的專業人員",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "An independent assessor determined the property's market value.",
+          "translationZh": "獨立評估員核定了財產的市場價值。"
+        }
+      ]
+    },
+    {
+      "headword": "charge",
+      "partOfSpeech": "noun",
+      "definitionZh": "手續費，銀行或機構針對服務收取的費用",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A monthly service charge applies to standard accounts.",
+          "translationZh": "標準帳戶每月收取服務手續費。"
+        }
+      ]
+    },
+    {
+      "headword": "policyholder",
+      "partOfSpeech": "noun",
+      "definitionZh": "保單持有人，購買保險合約並擁有保障權益的人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The policyholder must notify the insurer within 30 days.",
+          "translationZh": "保單持有人必須在三十天內通知保險公司。"
+        }
+      ]
+    },
+    {
+      "headword": "insurer",
+      "partOfSpeech": "noun",
+      "definitionZh": "保險公司，承擔風險並在事故發生時理賠的機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The insurer paid out the claim within two weeks.",
+          "translationZh": "保險公司在兩週內完成了理賠給付。"
+        }
+      ]
+    },
+    {
+      "headword": "insured",
+      "partOfSpeech": "noun",
+      "definitionZh": "被保險人，受保單保障的個人或財產",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The insured must disclose all pre-existing conditions.",
+          "translationZh": "被保險人必須揭露所有既有的健康狀況。"
+        }
+      ]
+    },
+    {
+      "headword": "underwriter",
+      "partOfSpeech": "noun",
+      "definitionZh": "承保人，評估風險並決定保單條件的保險專業人員",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The underwriter reviewed the application and set the premium.",
+          "translationZh": "承保人審閱申請後核定了保費。"
+        }
+      ]
+    },
+    {
+      "headword": "underwriting",
+      "partOfSpeech": "noun",
+      "definitionZh": "承保作業，評估申請人風險並決定是否核保及保費的過程",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Underwriting standards determine who qualifies for coverage.",
+          "translationZh": "承保標準決定誰符合保障資格。"
+        }
+      ]
+    },
+    {
+      "headword": "actuary",
+      "partOfSpeech": "noun",
+      "definitionZh": "精算師，運用統計與數學方法評估保險風險及保費的專家",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The actuary modeled the risk to price the policy accurately.",
+          "translationZh": "精算師建立風險模型以精確定價保單。"
+        }
+      ]
+    },
+    {
+      "headword": "actuarial",
+      "partOfSpeech": "adjective",
+      "definitionZh": "精算的，涉及精算師使用的統計方法或計算",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Actuarial tables estimate the probability of future claims.",
+          "translationZh": "精算表格用來估算未來索賠發生的機率。"
+        }
+      ]
+    },
+    {
+      "headword": "coverage",
+      "partOfSpeech": "noun",
+      "definitionZh": "保障範圍，保單承保的事故種類及理賠金額上限",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Read the policy carefully to understand your coverage limits.",
+          "translationZh": "仔細閱讀保單以了解您的保障範圍上限。"
+        }
+      ]
+    },
+    {
+      "headword": "exclusion",
+      "partOfSpeech": "noun",
+      "definitionZh": "除外責任，保單明確不予承保的事故或情況",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "War damage is a standard exclusion in property policies.",
+          "translationZh": "戰爭損害是財產保險中常見的除外責任。"
+        }
+      ]
+    },
+    {
+      "headword": "rider",
+      "partOfSpeech": "noun",
+      "definitionZh": "附加條款，加入主保單以擴大或修改保障範圍的附約",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She added a critical illness rider to her life insurance.",
+          "translationZh": "她在壽險保單上附加了重大疾病附約。"
+        }
+      ]
+    },
+    {
+      "headword": "adjuster",
+      "partOfSpeech": "noun",
+      "definitionZh": "理賠調查員，代保險公司調查並評估損失金額的人員",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The claims adjuster inspected the fire-damaged building.",
+          "translationZh": "理賠調查員勘察了火災受損的建築物。"
+        }
+      ]
+    },
+    {
+      "headword": "surrender",
+      "partOfSpeech": "verb",
+      "definitionZh": "解約退保，提前終止保單並取回現金價值",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "He surrendered the policy and received the cash value.",
+          "translationZh": "他解約退保並取回了保單現金價值。"
+        }
+      ]
+    },
+    {
+      "headword": "grace",
+      "partOfSpeech": "noun",
+      "definitionZh": "寬限期，保費到期後仍可補繳而不失效的緩衝時間",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The policy allows a 30-day grace period for late payments.",
+          "translationZh": "保單允許三十天的寬限期用於補繳逾期保費。"
+        }
+      ]
+    },
+    {
+      "headword": "reinsure",
+      "partOfSpeech": "verb",
+      "definitionZh": "辦理再保險，原保險公司將部分風險轉讓給再保險公司",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The insurer chose to reinsure large catastrophe risks.",
+          "translationZh": "保險公司選擇對大型巨災風險辦理再保險。"
+        }
+      ]
+    },
+    {
+      "headword": "reinsurer",
+      "partOfSpeech": "noun",
+      "definitionZh": "再保險公司，承接原保險公司轉讓風險的保險業者",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The reinsurer covers losses above the primary retention level.",
+          "translationZh": "再保險公司承擔超過主保自留額以上的損失。"
+        }
+      ]
+    },
+    {
+      "headword": "reinsurance",
+      "partOfSpeech": "noun",
+      "definitionZh": "再保險，保險公司將所承保風險的一部分移轉給其他保險人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Reinsurance spreads catastrophe risk across multiple insurers.",
+          "translationZh": "再保險將巨災風險分散至多家保險公司。"
+        }
+      ]
+    },
+    {
+      "headword": "coinsurance",
+      "partOfSpeech": "noun",
+      "definitionZh": "共同保險，被保險人自行承擔一定比例損失的保險安排",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Under coinsurance, the insured covers 20% of each claim.",
+          "translationZh": "在共同保險安排下，被保險人自行承擔每次理賠20%。"
+        }
+      ]
+    },
+    {
+      "headword": "copayment",
+      "partOfSpeech": "noun",
+      "definitionZh": "共付額，被保險人每次就醫或申請理賠時須自付的固定金額",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A $20 copayment applies to each outpatient visit.",
+          "translationZh": "每次門診就診需支付20美元的共付額。"
+        }
+      ]
+    },
+    {
+      "headword": "mortality",
+      "partOfSpeech": "noun",
+      "definitionZh": "死亡率，用於壽險精算計算預期死亡人數的統計指標",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Mortality tables guide life insurance premium calculations.",
+          "translationZh": "死亡率表格指引壽險保費的計算。"
+        }
+      ]
+    },
+    {
+      "headword": "morbidity",
+      "partOfSpeech": "noun",
+      "definitionZh": "患病率，用於健康險精算計算預期疾病發生頻率的指標",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "High morbidity rates in a region increase health premiums.",
+          "translationZh": "某地區的高患病率會推升健康保險的保費。"
+        }
+      ]
+    },
+    {
+      "headword": "endowment",
+      "partOfSpeech": "noun",
+      "definitionZh": "養老型保險，兼具儲蓄與身故給付的生死合險保單",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "An endowment policy matures at a set age with a lump sum.",
+          "translationZh": "養老型保單到期時一次性給付保險金。"
+        }
+      ]
+    },
+    {
+      "headword": "annuitize",
+      "partOfSpeech": "verb",
+      "definitionZh": "轉換為年金領取，將保險帳戶累積金額轉為定期給付",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Retirees can annuitize their savings for monthly income.",
+          "translationZh": "退休人士可將儲蓄轉換為每月年金收入。"
+        }
+      ]
+    },
+    {
+      "headword": "fidelity",
+      "partOfSpeech": "noun",
+      "definitionZh": "忠誠保證險，保障雇主免受員工不誠實行為所致損失的保險",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A fidelity bond protects the company from employee theft.",
+          "translationZh": "忠誠保證保單保障公司免受員工竊盜的損失。"
+        }
+      ]
+    },
+    {
+      "headword": "property",
+      "partOfSpeech": "noun",
+      "definitionZh": "財產險，承保建築物、設備等有形資產損失的保險類型",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Property insurance covers fire, theft, and storm damage.",
+          "translationZh": "財產險承保火災、竊盜及風暴造成的損失。"
+        }
+      ]
+    },
+    {
+      "headword": "casualty",
+      "partOfSpeech": "noun",
+      "definitionZh": "意外傷亡險，承保第三方人身傷害或財產損害賠償責任",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Property and casualty insurance is mandatory for businesses.",
+          "translationZh": "財產及意外傷亡保險對企業是強制要求。"
+        }
+      ]
+    },
+    {
+      "headword": "marine",
+      "partOfSpeech": "adjective",
+      "definitionZh": "海上保險的，承保貨物、船舶及海上運輸風險的保險類別",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Marine insurance covers cargo lost or damaged at sea.",
+          "translationZh": "海上保險承保在海上遺失或受損的貨物。"
+        }
+      ]
+    },
+    {
+      "headword": "umbrella",
+      "partOfSpeech": "noun",
+      "definitionZh": "傘型保障，在基礎保單保障上限外額外提供超額賠償的保單",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "An umbrella policy provides extra liability protection.",
+          "translationZh": "傘型保單提供超額的責任保障。"
+        }
+      ]
+    },
+    {
+      "headword": "captive",
+      "partOfSpeech": "noun",
+      "definitionZh": "自保公司，企業自行成立的保險子公司以管理內部風險",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The multinational set up a captive to insure its own risks.",
+          "translationZh": "該跨國公司成立自保公司以承保自身風險。"
+        }
+      ]
+    },
+    {
+      "headword": "occurrence",
+      "partOfSpeech": "noun",
+      "definitionZh": "事故，觸發保險理賠的突發意外事件",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Each occurrence is subject to a separate deductible amount.",
+          "translationZh": "每次事故均適用各自的自付額。"
+        }
+      ]
+    },
+    {
+      "headword": "hazard",
+      "partOfSpeech": "noun",
+      "definitionZh": "危險因素，增加損失可能性或嚴重性的情況或條件",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Smoking is a hazard that raises life insurance premiums.",
+          "translationZh": "吸菸是提高壽險保費的危險因素。"
+        }
+      ]
+    },
+    {
+      "headword": "peril",
+      "partOfSpeech": "noun",
+      "definitionZh": "保險危險，保單明確承保的特定風險事件類型",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Flood and earthquake are named perils under this policy.",
+          "translationZh": "洪水和地震是此保單列名承保的危險事故。"
+        }
+      ]
+    },
+    {
+      "headword": "uninsured",
+      "partOfSpeech": "adjective",
+      "definitionZh": "未投保的，缺乏保險保障的狀態",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Driving uninsured is illegal in most jurisdictions.",
+          "translationZh": "在大多數地區，無保險駕車屬違法行為。"
+        }
+      ]
+    },
+    {
+      "headword": "insurable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "可保的，符合保險公司承保條件的風險或資產",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Only insurable risks are accepted by the underwriting team.",
+          "translationZh": "承保團隊僅接受可保的風險。"
+        }
+      ]
+    },
+    {
+      "headword": "underinsured",
+      "partOfSpeech": "adjective",
+      "definitionZh": "保額不足的，保險保障金額低於實際損失或資產價值",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Underinsured homeowners may face large out-of-pocket costs.",
+          "translationZh": "保額不足的房主可能面臨高額自付費用。"
+        }
+      ]
+    },
+    {
+      "headword": "overinsured",
+      "partOfSpeech": "adjective",
+      "definitionZh": "超額投保的，投保金額高於資產實際價值",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Being overinsured wastes money on unnecessary premium payments.",
+          "translationZh": "超額投保會造成保費的不必要浪費。"
+        }
+      ]
+    },
+    {
+      "headword": "layer",
+      "partOfSpeech": "noun",
+      "definitionZh": "保障層，在總損失中各保險計劃分擔的特定金額區間",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The reinsurer covers the excess layer above the primary limit.",
+          "translationZh": "再保險公司承擔超過主保額以上的超額層。"
+        }
+      ]
+    },
+    {
+      "headword": "deferred",
+      "partOfSpeech": "adjective",
+      "definitionZh": "遞延的（年金），保費繳納後延至未來某時點才開始給付",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "A deferred annuity accumulates tax-free until retirement.",
+          "translationZh": "遞延年金在退休前可免稅累積。"
+        }
+      ]
+    },
+    {
+      "headword": "immediate",
+      "partOfSpeech": "adjective",
+      "definitionZh": "即期的（年金），一次性繳費後立即開始定期給付",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She chose an immediate annuity for steady monthly income.",
+          "translationZh": "她選擇了即期年金以獲得穩定的每月收入。"
+        }
+      ]
+    },
+    {
+      "headword": "universal",
+      "partOfSpeech": "adjective",
+      "definitionZh": "萬能型的，保費和保障可彈性調整的壽險產品",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Universal life insurance offers flexible premium schedules.",
+          "translationZh": "萬能壽險提供彈性的保費繳付安排。"
+        }
+      ]
+    },
+    {
+      "headword": "variable",
+      "partOfSpeech": "adjective",
+      "definitionZh": "變額型的，保單價值連結投資標的表現而波動",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Variable annuities offer higher returns but carry market risk.",
+          "translationZh": "變額年金提供較高報酬但承擔市場風險。"
+        }
+      ]
+    },
+    {
+      "headword": "tier",
+      "partOfSpeech": "noun",
+      "definitionZh": "保費等級，依風險高低或客戶群分類的計費層級",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Premium rates differ by tier based on the driver's risk level.",
+          "translationZh": "保費費率依駕駛人風險等級的不同而有所差異。"
+        }
+      ]
+    },
+    {
+      "headword": "trust",
+      "partOfSpeech": "noun",
+      "definitionZh": "信託，委託人將資產交由受託人管理並為受益人利益運用的法律安排",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "He placed his assets into a trust to protect his children.",
+          "translationZh": "他將資產置入信託以保障子女的權益。"
+        }
+      ]
+    },
+    {
+      "headword": "executor",
+      "partOfSpeech": "noun",
+      "definitionZh": "遺囑執行人，負責管理並分配遺產的指定人員",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The executor distributed the estate according to the will.",
+          "translationZh": "遺囑執行人依遺囑分配了遺產。"
+        }
+      ]
+    },
+    {
+      "headword": "probate",
+      "partOfSpeech": "noun",
+      "definitionZh": "遺囑認證，法院確認遺囑有效性並授權執行的法律程序",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The estate went through probate before assets were released.",
+          "translationZh": "資產移轉前，遺產需先經過遺囑認證程序。"
+        }
+      ]
+    },
+    {
+      "headword": "estate",
+      "partOfSpeech": "noun",
+      "definitionZh": "遺產，個人死亡後遺留的全部財產及負債",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The estate was valued at over two million dollars.",
+          "translationZh": "遺產估值超過兩百萬美元。"
+        }
+      ]
+    },
+    {
+      "headword": "heir",
+      "partOfSpeech": "noun",
+      "definitionZh": "繼承人，依法或依遺囑有權繼承遺產的人",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The bank notified all heirs of the account balance.",
+          "translationZh": "銀行通知了所有繼承人帳戶餘額。"
+        }
+      ]
+    },
+    {
+      "headword": "inheritance",
+      "partOfSpeech": "noun",
+      "definitionZh": "遺產繼承，依法或遺囑從亡者處獲得財產的行為",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Inheritance taxes may apply to large estates.",
+          "translationZh": "大額遺產可能需繳納遺產稅。"
+        }
+      ]
+    },
+    {
+      "headword": "pawn",
+      "partOfSpeech": "verb",
+      "definitionZh": "典當，以個人物品為擔保向典當行借取現金",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "She pawned her watch to cover the urgent expense.",
+          "translationZh": "她典當了手錶以應付緊急開支。"
+        }
+      ]
+    },
+    {
+      "headword": "annualize",
+      "partOfSpeech": "verb",
+      "definitionZh": "年化，將短期利率或報酬率換算成年度標準以便比較",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Annualize the monthly return to compare investment products.",
+          "translationZh": "將月報酬率年化以比較不同投資產品。"
+        }
+      ]
+    },
+    {
+      "headword": "assessment",
+      "partOfSpeech": "noun",
+      "definitionZh": "評估作業，對財產、損失或保費所做的正式核定程序",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "An independent assessment confirmed the property's value.",
+          "translationZh": "獨立評估確認了該財產的價值。"
+        }
+      ]
+    },
+    {
+      "headword": "overextend",
+      "partOfSpeech": "verb",
+      "definitionZh": "過度借貸，借款或承諾超過自身償還能力的範圍",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Borrowers who overextend may struggle to repay their loans.",
+          "translationZh": "過度借貸的借款人可能難以還清貸款。"
+        }
+      ]
+    },
+    {
+      "headword": "financier",
+      "partOfSpeech": "noun",
+      "definitionZh": "金融業者，從事大規模資金籌措或投資業務的人士或機構",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "The project secured backing from a leading financier.",
+          "translationZh": "該專案獲得了一家頂尖金融業者的資金支持。"
+        }
+      ]
+    },
+    {
+      "headword": "interbank",
+      "partOfSpeech": "adjective",
+      "definitionZh": "銀行同業的，指銀行之間互相拆借資金或交易的市場",
+      "examTags": [
+        "TOEIC",
+        "banking"
+      ],
+      "examples": [
+        {
+          "sentence": "Interbank lending rates affect all consumer loan pricing.",
+          "translationZh": "銀行同業拆借利率影響所有消費者貸款的定價。"
+        }
+      ]
+    }
+  ]
+}
