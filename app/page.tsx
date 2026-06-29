@@ -52,6 +52,8 @@ export default async function Home() {
           開始學單字
         </Link>
 
+        <Link href="/leaderboard" className="text-sm font-bold text-primary-600 hover:underline">查看排行榜 🏆</Link>
+
         <SignOutButton />
       </main>
     </>
