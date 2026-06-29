@@ -16,6 +16,7 @@ function repoWith(state: any, opts: { dailyGoal?: number; mastered?: number; bad
 const base = {
   xp: 0, level: 1, coinBalance: 0, streak: 0, longestStreak: 0,
   lastGoalDate: null, reviewsToday: 0, lastReviewDate: null, streakFreezes: 0,
+  weeklyXp: 0, weekStartDate: null,
 }
 
 describe('applyReview', () => {
@@ -103,6 +104,20 @@ describe('applyReview', () => {
     expect(r.dailyGoalMet).toBe(true)
     expect(r.streak).toBe(1)
     expect(repo.saveState).toHaveBeenCalledWith('u1', expect.objectContaining({ streak: 1, streakFreezes: 0, longestStreak: 10 }), true)
+  })
+
+  it('accumulates weeklyXp and resets on a new week', async () => {
+    // now = 2026-06-29 (Mon) Asia/Taipei → weekStart 2026-06-29; prev week differs → reset then +10
+    const repo = repoWith({ ...base, weeklyXp: 99, weekStartDate: '2026-06-22' })
+    const svc = new GamificationService(repo as any)
+    await svc.applyReview({ userId: 'u1', correct: true, mastered: false, now: new Date('2026-06-29T02:00:00Z') })
+    expect(repo.saveState).toHaveBeenCalledWith('u1', expect.objectContaining({ weeklyXp: 10, weekStartDate: '2026-06-29' }), true)
+  })
+  it('adds to weeklyXp within the same week', async () => {
+    const repo = repoWith({ ...base, weeklyXp: 40, weekStartDate: '2026-06-29' })
+    const svc = new GamificationService(repo as any)
+    await svc.applyReview({ userId: 'u1', correct: false, mastered: false, now: new Date('2026-06-30T02:00:00Z') })
+    expect(repo.saveState).toHaveBeenCalledWith('u1', expect.objectContaining({ weeklyXp: 42, weekStartDate: '2026-06-29' }), true)
   })
 })
 

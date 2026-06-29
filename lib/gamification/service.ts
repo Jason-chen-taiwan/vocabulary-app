@@ -1,5 +1,5 @@
 import { GamificationRepository } from './repository'
-import { todayYmd, daysBetween } from './date'
+import { todayYmd, daysBetween, weekStartYmd } from './date'
 import {
   xpForReview, levelForXp, updateStreak, evaluateBadges,
   COIN_DAILY_GOAL, COIN_MASTERY, FREEZE_PER_MILESTONE_DAYS, FREEZE_CAP,
@@ -9,6 +9,7 @@ import type { GamificationStateData, ReviewReward, SessionReward } from './types
 const DEFAULT_STATE: GamificationStateData = {
   xp: 0, level: 1, coinBalance: 0, streak: 0, longestStreak: 0,
   lastGoalDate: null, reviewsToday: 0, lastReviewDate: null, streakFreezes: 0,
+  weeklyXp: 0, weekStartDate: null,
 }
 
 export class GamificationService {
@@ -33,6 +34,8 @@ export class GamificationService {
 
     const xpGained = xpForReview(correct)
     const xp = prev.xp + xpGained
+    const weekStart = weekStartYmd(now, ctx.timezone)
+    const weeklyXp = (prev.weekStartDate === weekStart ? prev.weeklyXp : 0) + xpGained
     const level = levelForXp(xp)
     const leveledUpTo = level > prev.level ? level : null
 
@@ -72,6 +75,7 @@ export class GamificationService {
 
     const next: GamificationStateData = {
       xp, level, coinBalance, streak, longestStreak, lastGoalDate, reviewsToday, lastReviewDate: today, streakFreezes,
+      weeklyXp, weekStartDate: weekStart,
     }
     await this.repo.saveState(userId, next, exists)
     if (newBadges.length) await this.repo.unlockBadges(userId, newBadges)

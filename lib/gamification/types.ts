@@ -9,6 +9,8 @@ export interface GamificationStateData {
   reviewsToday: number
   lastReviewDate: string | null
   streakFreezes: number
+  weeklyXp: number
+  weekStartDate: string | null
 }
 
 // 單次作答的獎勵 delta，回傳給 UI 累加顯示。

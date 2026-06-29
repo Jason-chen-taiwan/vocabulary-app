@@ -4,6 +4,7 @@ import { GamificationRepository } from '@/lib/gamification/repository'
 const stateData = {
   xp: 30, level: 1, coinBalance: 50, streak: 2, longestStreak: 3,
   lastGoalDate: '2026-06-27', reviewsToday: 5, lastReviewDate: '2026-06-28', streakFreezes: 1,
+  weeklyXp: 0, weekStartDate: null,
 }
 
 function makeDb() {
