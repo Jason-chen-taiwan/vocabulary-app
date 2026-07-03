@@ -68,6 +68,14 @@ describe('ShopService.purchase', () => {
     const svc = new ShopService(repo as any)
     expect(await svc.purchase('u1', 'hat_party')).toEqual({ ok: false, reason: 'insufficient' })
   })
+
+  it('rejects freeze on insufficient balance while under cap, no charge', async () => {
+    const repo = makeRepo({ getWallet: vi.fn().mockResolvedValue({ coinBalance: 100, streakFreezes: 0 }) })
+    const svc = new ShopService(repo as any)
+    const r = await svc.purchase('u1', 'freeze_refill') // cost 120
+    expect(r).toEqual({ ok: false, reason: 'insufficient' })
+    expect(repo.grantFreeze).not.toHaveBeenCalled()
+  })
 })
 
 describe('ShopService.equip', () => {
@@ -101,6 +109,13 @@ describe('ShopService.equip', () => {
   it('rejects unknown item', async () => {
     const svc = new ShopService(makeRepo() as any)
     expect(await svc.equip('u1', 'head', 'nope')).toEqual({ ok: false, reason: 'unknown_item' })
+  })
+
+  it('rejects equipping a non-accessory (consumable) item, no write', async () => {
+    const repo = makeRepo()
+    const svc = new ShopService(repo as any)
+    expect(await svc.equip('u1', 'head', 'freeze_refill')).toEqual({ ok: false, reason: 'unknown_item' })
+    expect(repo.setEquipped).not.toHaveBeenCalled()
   })
 })
 
