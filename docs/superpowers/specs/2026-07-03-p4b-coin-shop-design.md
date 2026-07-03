@@ -147,6 +147,7 @@ export function isAccessory(i: ShopItem): i is Extract<ShopItem, { kind: 'access
 - 送禮 / 使用者間交易 / 市集。
 - 配件稀有度、隨機轉蛋包、限時商店。
 - 購買的**強一致性**：目前 read-modify-write 無交易，極端並發競態下可能 lost update（花超餘額/重複授予），只影響自己、機率低；日後以原子扣減或交易硬化。
+- **跨子系統 `coinBalance`/`streakFreezes` 競態**（final review 提出）：shop（花幣）與 gamification（賺幣）都對同一 `GamificationState` 列做無交易的絕對值寫入。同一使用者的「複習結算」與「購買」若重疊，last-writer-wins 可能默默增減硬幣/凍結。機率低（單使用者、兩並發寫入），且與 gamification 既有的無交易取捨一致。**後續**：把 shop 扣幣/加凍結改為 Prisma 原子 `{ decrement }`/`{ increment }`（單一 UPDATE、HTTP 可行）即可消除硬幣端競態，無需交易。本輪不做（YAGNI）。
 
 ## 11. 參數（可調）
 
