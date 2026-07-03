@@ -57,6 +57,7 @@ export default async function Home() {
 
         <Link href="/leaderboard" className="text-sm font-bold text-primary-600 hover:underline">查看排行榜 🏆</Link>
         <Link href="/shop" className="text-sm font-bold text-primary-600 hover:underline">前往商店 🛍️</Link>
+        <Link href="/stats" className="text-sm font-bold text-primary-600 hover:underline">學習數據 📊</Link>
 
         <SignOutButton />
       </main>
