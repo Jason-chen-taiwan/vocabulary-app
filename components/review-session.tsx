@@ -11,13 +11,14 @@ import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
 import { checkAnswer, sample, seededRng, type Question } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
+import type { Equipped } from '@/lib/shop/repository'
 
 export interface ReviewItem {
   question: Question
   isSpotCheck: boolean
 }
 
-export function ReviewSession({ bookName, bookSlug, items }: { bookName: string; bookSlug: string; items: ReviewItem[] }) {
+export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookName: string; bookSlug: string; items: ReviewItem[]; equipped?: Equipped }) {
   const router = useRouter()
   const [index, setIndex] = useState(0)
   const [input, setInput] = useState('')
@@ -57,7 +58,7 @@ export function ReviewSession({ bookName, bookSlug, items }: { bookName: string;
     return (
       <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
         <Confetti className="mx-auto" />
-        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: finishedTotal })} size={132} className="mx-auto" />
+        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: finishedTotal })} size={132} className="mx-auto" equipped={equipped} />
         <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
         <p className="text-sm text-neutral-600">本次複習了 {finishedTotal} 個單字</p>
         <div className="mt-2 grid w-full max-w-xs gap-2">

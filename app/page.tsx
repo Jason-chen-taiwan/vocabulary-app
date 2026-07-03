@@ -8,12 +8,14 @@ import { GoalRing } from '@/components/ui/goal-ring'
 import { Card } from '@/components/ui/card'
 import { SignOutButton } from '@/components/sign-out-button'
 import { Mascot, moodForHome } from '@/components/ui/mascot'
+import { ShopRepository, type Equipped } from '@/lib/shop/repository'
 
 export default async function Home() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')
 
   let done = 0, goal = 20, streak = 0, longest = 0
+  let equipped: Equipped = { head: null, face: null, neck: null }
   try {
     const { state, timezone, dailyGoal } = await new GamificationRepository().getContext(user.id)
     goal = dailyGoal
@@ -23,13 +25,14 @@ export default async function Home() {
       // reviewsToday 只在「今天」才算數（懶評估尚未跨日重置時避免顯示昨天的數）
       done = state.lastReviewDate === todayYmd(new Date(), timezone) ? state.reviewsToday : 0
     }
+    equipped = await new ShopRepository().getEquipped(user.id)
   } catch { /* 用預設值，不阻斷頁面 */ }
 
   return (
     <>
       <GamificationBar />
       <main className="mx-auto flex w-full max-w-2xl flex-col items-center gap-6 px-4 py-8">
-        <Mascot mood={moodForHome({ goalMet: done >= goal, streak, longestStreak: longest })} size={120} />
+        <Mascot mood={moodForHome({ goalMet: done >= goal, streak, longestStreak: longest })} size={120} equipped={equipped} />
         <h1 className="text-xl font-extrabold text-neutral-900">歡迎，{user.name ?? user.email}</h1>
 
         <Card className="flex w-full flex-col items-center gap-3 p-6">
@@ -53,6 +56,7 @@ export default async function Home() {
         </Link>
 
         <Link href="/leaderboard" className="text-sm font-bold text-primary-600 hover:underline">查看排行榜 🏆</Link>
+        <Link href="/shop" className="text-sm font-bold text-primary-600 hover:underline">前往商店 🛍️</Link>
 
         <SignOutButton />
       </main>

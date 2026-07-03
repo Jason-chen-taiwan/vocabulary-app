@@ -8,6 +8,7 @@ import { buildQuestion, sample } from '@/lib/learning/question'
 import { ReviewSession, type ReviewItem } from '@/components/review-session'
 import { GamificationBar } from '@/components/gamification-bar'
 import { Mascot } from '@/components/ui/mascot'
+import { ShopRepository } from '@/lib/shop/repository'
 
 const NEW_LIMIT = 20
 const DUE_LIMIT = 100
@@ -54,5 +55,6 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
       </>
     )
   }
-  return <ReviewSession bookName={book.name} bookSlug={slug} items={reviewItems} />
+  const equipped = await new ShopRepository().getEquipped(user.id)
+  return <ReviewSession bookName={book.name} bookSlug={slug} items={reviewItems} equipped={equipped} />
 }
