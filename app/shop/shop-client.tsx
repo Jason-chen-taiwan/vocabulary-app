@@ -28,17 +28,28 @@ export function ShopClient({ view, equipped }: { view: ShopView; equipped: Equip
 
   async function buy(key: string) {
     setBusy(true); setMsg(null)
-    const r = await purchaseAction(key)
-    setMsg(r.ok ? (r.alreadyOwned ? '已擁有' : '購買成功！') : reasonText(r.reason))
-    router.refresh()
-    setBusy(false)
+    try {
+      const r = await purchaseAction(key)
+      setMsg(r.ok ? (r.alreadyOwned ? '已擁有' : '購買成功！') : reasonText(r.reason))
+      router.refresh()
+    } catch {
+      setMsg('操作失敗')
+    } finally {
+      setBusy(false)
+    }
   }
 
   async function toggleEquip(slot: Slot, key: string, isEquipped: boolean) {
     setBusy(true); setMsg(null)
-    await equipAction(slot, isEquipped ? null : key)
-    router.refresh()
-    setBusy(false)
+    try {
+      const r = await equipAction(slot, isEquipped ? null : key)
+      if (!r.ok) setMsg(reasonText(r.reason ?? ''))
+      router.refresh()
+    } catch {
+      setMsg('操作失敗')
+    } finally {
+      setBusy(false)
+    }
   }
 
   const consumables = view.items.filter((i) => i.item.kind === 'consumable')
