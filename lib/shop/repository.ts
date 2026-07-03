@@ -48,6 +48,7 @@ export class ShopRepository {
   }
 
   async grantAccessory(userId: string, itemKey: string, newBalance: number): Promise<void> {
+    // Neon HTTP 無交易：先建 item 再扣幣。若兩步間程序中止，使用者拿到 item 但未扣幣（偏向使用者、不可被利用）。spec §2/§10 已記錄。
     await this.db.userItem.create({ data: { userId, itemKey } })
     await this.db.gamificationState.update({ where: { userId }, data: { coinBalance: newBalance } })
   }

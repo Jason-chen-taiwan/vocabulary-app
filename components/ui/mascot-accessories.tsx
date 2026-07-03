@@ -9,8 +9,8 @@ export const ACCESSORY_SVG: Record<string, ReactNode> = {
   // ── head ──
   hat_party: (
     <>
-      <polygon points="42,24 60,-2 78,24" fill="#7C5CFF" stroke={INK} strokeWidth="3.5" strokeLinejoin="round" />
-      <circle cx="60" cy="-2" r="4" fill="#FFD23F" stroke={INK} strokeWidth="2" />
+      <polygon points="42,32 60,6 78,32" fill="#7C5CFF" stroke={INK} strokeWidth="3.5" strokeLinejoin="round" />
+      <circle cx="60" cy="6" r="4" fill="#FFD23F" stroke={INK} strokeWidth="2" />
     </>
   ),
   hat_grad: (
