@@ -19,6 +19,7 @@
 5. **資料存取收斂**：一律透過 Prisma + repository 模式。業務邏輯不得散落原生 SQL 或直接拼裝查詢。
 6. **小而專注**：每個檔案/模組單一職責，能回答「做什麼、怎麼用、依賴誰」。檔案變大 = 責任過多的訊號，應拆分。
 7. **乾淨擴充點**：AI 匯入（下一輪）將以新增 `CardSource` 實作 + 生成管線接入。現在寫的程式不得做出會阻擋此擴充的假設。
+8. **虛擬經濟收斂**：硬幣餘額是後端權威的單一真相（`GamificationState.coinBalance`）。前端從不自己算或存餘額；所有「賺幣／花幣」一律經服務層（gamification／shop）改這一個欄位，業務他處不得直接動 `coinBalance`。購買時前端只送「買哪件（itemKey）」，其餘由後端判定——從 catalog 查價格、讀當前餘額、不足即拒（餘額不動）、足夠才扣幣＋授予；不信任前端送的價格或擁有狀態。
 
 ---
 
@@ -26,7 +27,7 @@
 
 服務層模組（對外只暴露介面，內部可自由改）：
 
-`auth` · `content` · `scheduler` · `learning` · `gamification` · `leaderboard` · `stats` · `sync` · `events` · `pwa-shell`
+`auth` · `content` · `scheduler` · `learning` · `gamification` · `shop` · `leaderboard` · `stats` · `sync` · `events` · `pwa-shell`
 
 模組間以介面與領域事件溝通，**不得**直接 import 另一模組的內部實作。
 
