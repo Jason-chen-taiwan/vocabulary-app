@@ -1,0 +1,103 @@
+import { todayYmd, daysBetween } from '@/lib/gamification/date'
+
+// 任一 Date 在使用者時區的 YYYY-MM-DD（沿用 gamification 的 todayYmd）。
+export function dayKey(d: Date, timezone: string): string {
+  return todayYmd(d, timezone)
+}
+
+// UTC anchor of a YYYY-MM-DD, so we can step whole calendar days deterministically.
+function ymdPlus(ymd: string, deltaDays: number): string {
+  const d = new Date(`${ymd}T00:00:00Z`)
+  d.setUTCDate(d.getUTCDate() + deltaDays)
+  return d.toISOString().slice(0, 10)
+}
+
+export function groupReviewsByDay(logs: { reviewedAt: Date }[], timezone: string): Map<string, number> {
+  const m = new Map<string, number>()
+  for (const l of logs) {
+    const k = dayKey(l.reviewedAt, timezone)
+    m.set(k, (m.get(k) ?? 0) + 1)
+  }
+  return m
+}
+
+export interface DayAccuracy { day: string; correct: number; total: number }
+export function dailyAccuracy(logs: { reviewedAt: Date; rating: number }[], timezone: string): DayAccuracy[] {
+  const byDay = new Map<string, { correct: number; total: number }>()
+  for (const l of logs) {
+    const k = dayKey(l.reviewedAt, timezone)
+    const cur = byDay.get(k) ?? { correct: 0, total: 0 }
+    cur.total += 1
+    if (l.rating >= 2) cur.correct += 1
+    byDay.set(k, cur)
+  }
+  return [...byDay.entries()]
+    .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
+    .map(([day, v]) => ({ day, correct: v.correct, total: v.total }))
+}
+
+export interface DueBucket { day: string; count: number }
+export function dueForecast(cards: { due: Date }[], now: Date, timezone: string, days = 7): DueBucket[] {
+  const today = todayYmd(now, timezone)
+  const keys = Array.from({ length: days }, (_, i) => ymdPlus(today, i))
+  const counts = new Map<string, number>(keys.map((k) => [k, 0]))
+  for (const c of cards) {
+    const k = dayKey(c.due, timezone)
+    const idx = daysBetween(today, k) // k - today，天
+    if (idx <= 0) counts.set(today, (counts.get(today) ?? 0) + 1)          // 逾期或今日
+    else if (idx < days) counts.set(keys[idx], (counts.get(keys[idx]) ?? 0) + 1)
+    // idx >= days：超出視界，忽略
+  }
+  return keys.map((day) => ({ day, count: counts.get(day) ?? 0 }))
+}
+
+export function countMasteredByBook(cards: { mastered: boolean; wordBookId: string }[]): Map<string, number> {
+  const m = new Map<string, number>()
+  for (const c of cards) if (c.mastered) m.set(c.wordBookId, (m.get(c.wordBookId) ?? 0) + 1)
+  return m
+}
+
+export interface BookMastery { slug: string; name: string; mastered: number; total: number; pct: number }
+export function masteryByBook(
+  masteredByBookId: Map<string, number>,
+  books: { id: string; slug: string; name: string; wordCount: number }[],
+): BookMastery[] {
+  return books.map((b) => {
+    const mastered = masteredByBookId.get(b.id) ?? 0
+    const pct = b.wordCount > 0 ? Math.round((mastered / b.wordCount) * 100) : 0
+    return { slug: b.slug, name: b.name, mastered, total: b.wordCount, pct }
+  })
+}
+
+export interface StateCounts { newCount: number; learning: number; review: number; mastered: number; startedTotal: number }
+export function stateCounts(cards: { state: number; mastered: boolean }[], totalWords: number): StateCounts {
+  let learning = 0, review = 0, mastered = 0
+  for (const c of cards) {
+    if (c.mastered) { mastered += 1; continue }
+    if (c.state === 2) review += 1  // FSRS Review（已畢業）
+    else learning += 1              // Learning/Relearning
+  }
+  const startedTotal = cards.length
+  return { newCount: Math.max(0, totalWords - startedTotal), learning, review, mastered, startedTotal }
+}
+
+export type HeatLevel = 0 | 1 | 2 | 3
+export interface HeatCell { day: string; count: number; level: HeatLevel }
+export const HEAT_THRESHOLDS: [number, number, number] = [1, 3, 6] // >=1 / >=3 / >=6
+export function heatLevel(count: number): HeatLevel {
+  if (count >= HEAT_THRESHOLDS[2]) return 3
+  if (count >= HEAT_THRESHOLDS[1]) return 2
+  if (count >= HEAT_THRESHOLDS[0]) return 1
+  return 0
+}
+export function heatmapCells(byDay: Map<string, number>, now: Date, timezone: string, weeks = 12): HeatCell[] {
+  const today = todayYmd(now, timezone)
+  const total = weeks * 7
+  const cells: HeatCell[] = []
+  for (let i = total - 1; i >= 0; i--) {
+    const day = ymdPlus(today, -i)
+    const count = byDay.get(day) ?? 0
+    cells.push({ day, count, level: heatLevel(count) })
+  }
+  return cells
+}
