@@ -2,8 +2,8 @@ import type { StateCounts } from '@/lib/stats/aggregate'
 
 const SEGMENTS: { key: keyof StateCounts; label: string; bg: string }[] = [
   { key: 'mastered', label: '精熟', bg: 'bg-primary-600' },
-  { key: 'review', label: '複習中', bg: 'bg-primary-400' },
-  { key: 'learning', label: '學習中', bg: 'bg-primary-200' },
+  { key: 'review', label: '複習中', bg: 'bg-primary-500' },
+  { key: 'learning', label: '學習中', bg: 'bg-primary-300' },
   { key: 'newCount', label: '未開始', bg: 'bg-neutral-200' },
 ]
 

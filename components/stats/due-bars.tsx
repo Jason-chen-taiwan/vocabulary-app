@@ -14,7 +14,7 @@ export function DueBars({ buckets }: { buckets: DueBucket[] }) {
         <div key={b.day} className="flex flex-1 flex-col items-center gap-1" title={`${b.day}：${b.count} 張`}>
           <span className="text-xs font-bold text-neutral-900">{b.count}</span>
           <div className="flex h-full w-full items-end">
-            <div className="w-full rounded-t-[3px] bg-primary-400" style={{ height: `${clampPct(b.count, max)}%` }} />
+            <div className="w-full rounded-t-[3px] bg-primary-500" style={{ height: `${clampPct(b.count, max)}%` }} />
           </div>
           <span className="text-xs text-neutral-600">{i === 0 ? '今天' : weekdayLabel(b.day)}</span>
         </div>

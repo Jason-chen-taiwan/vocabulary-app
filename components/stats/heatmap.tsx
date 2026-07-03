@@ -2,8 +2,8 @@ import type { HeatCell } from '@/lib/stats/aggregate'
 
 const LEVEL_BG: Record<number, string> = {
   0: 'bg-primary-50',
-  1: 'bg-primary-200',
-  2: 'bg-primary-400',
+  1: 'bg-primary-300',
+  2: 'bg-primary-500',
   3: 'bg-primary-600',
 }
 
