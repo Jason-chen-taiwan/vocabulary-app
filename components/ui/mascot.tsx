@@ -1,3 +1,5 @@
+import { AccessoryLayers, type EquippedShape } from './mascot-accessories'
+
 // 原創 SVG 吉祥物「小橙狐」。單一 SVG，依 mood 切換耳/眼/嘴/手勢部件，base 共用。
 // 純表現、無業務依賴。顏色取自設計 tokens。
 export const MASCOT_MOODS = ['hi', 'cheer', 'encourage', 'sad'] as const
@@ -20,7 +22,7 @@ const INK = '#1A1A1A'
 const MUZZLE = '#FFF7F2'
 const LIGHT = '#FFB68F'
 
-export function Mascot({ mood = 'hi', size = 120, className = '' }: { mood?: MascotMood; size?: number; className?: string }) {
+export function Mascot({ mood = 'hi', size = 120, className = '', equipped }: { mood?: MascotMood; size?: number; className?: string; equipped?: EquippedShape }) {
   const sad = mood === 'sad'
   return (
     <svg
@@ -108,6 +110,7 @@ export function Mascot({ mood = 'hi', size = 120, className = '' }: { mood?: Mas
       {mood === 'sad' && (
         <path d="M84 66 q4 7 0 11 q-4 -4 0 -11 Z" fill="#2BB3C0" stroke={INK} strokeWidth="1.5" />
       )}
+      <AccessoryLayers equipped={equipped} />
     </svg>
   )
 }
