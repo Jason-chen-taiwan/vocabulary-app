@@ -49,7 +49,7 @@ export class StatsService {
       progress: { states, totalWords, byBook },
       activity: { cells, streak: streakInfo.streak, longestStreak: streakInfo.longestStreak },
       accuracy: { daily, overallPct, window: ACCURACY_DAYS },
-      dueForecast: dueForecast(cards, now, timezone, FORECAST_DAYS),
+      dueForecast: dueForecast(cards.filter((c) => !c.mastered), now, timezone, FORECAST_DAYS),
     }
   }
 }

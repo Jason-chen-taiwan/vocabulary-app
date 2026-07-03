@@ -49,7 +49,7 @@ describe('StatsService.getDashboard', () => {
 
     // due forecast (7 buckets, today absorbs overdue)
     expect(d.dueForecast.length).toBe(7)
-    expect(d.dueForecast[0]).toEqual({ day: '2026-07-04', count: 1 })
+    expect(d.dueForecast[0]).toEqual({ day: '2026-07-04', count: 0 }) // mastered card due today is excluded from forecast
     expect(d.dueForecast[2]).toEqual({ day: '2026-07-06', count: 1 })
   })
 
@@ -60,5 +60,18 @@ describe('StatsService.getDashboard', () => {
     const since = repo.listReviewLogsSince.mock.calls[0][1] as Date
     const deltaDays = Math.round((now.getTime() - since.getTime()) / 86_400_000)
     expect(deltaDays).toBe(12 * 7)
+  })
+
+  it('excludes mastered cards from the due forecast', async () => {
+    const repo = makeRepo({
+      listUserCards: vi.fn().mockResolvedValue([
+        { state: 2, mastered: true, due: new Date('2026-07-01T00:00:00Z'), wordBookId: 'b1' },  // mastered + overdue → must NOT count
+        { state: 1, mastered: false, due: new Date('2026-07-04T09:00:00Z'), wordBookId: 'b1' }, // due today → counts
+      ]),
+    })
+    const svc = new StatsService(repo as any)
+    const d = await svc.getDashboard('u1', now, TZ)
+    // only the non-mastered card lands in today's bucket; the mastered overdue card is excluded
+    expect(d.dueForecast[0]).toEqual({ day: '2026-07-04', count: 1 })
   })
 })
