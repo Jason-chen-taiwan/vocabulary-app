@@ -5,7 +5,7 @@ import { statsService } from '@/lib/stats/service'
 import { GamificationBar } from '@/components/gamification-bar'
 import { Card } from '@/components/ui/card'
 import { Heatmap } from '@/components/stats/heatmap'
-import { AccuracyBars } from '@/components/stats/accuracy-bars'
+import { AccuracyTrend } from '@/components/stats/accuracy-trend'
 import { DueBars } from '@/components/stats/due-bars'
 import { StateDistribution } from '@/components/stats/state-distribution'
 import { BookProgress } from '@/components/stats/book-progress'
@@ -62,8 +62,8 @@ export default async function StatsPage() {
               <h2 className="text-base font-extrabold text-neutral-900">🎯 正確率趨勢</h2>
               <span className="text-xs font-bold text-primary-600">近 {d.accuracy.window} 天 {d.accuracy.overallPct}%</span>
             </div>
-            <p className="text-xs text-neutral-600">每根長條 = 有複習的那天的答對率。</p>
-            <AccuracyBars daily={d.accuracy.daily} />
+            <p className="text-xs text-neutral-600">每個點 = 有複習的那天的答對率。</p>
+            <AccuracyTrend daily={d.accuracy.daily} />
           </Card>
 
           <Card className="space-y-3 p-5">
