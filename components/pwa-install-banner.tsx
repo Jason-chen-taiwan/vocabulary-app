@@ -11,6 +11,14 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>
 }
 
+// 由 app/layout.tsx 的 beforeInteractive inline script 早一步攔下並存於 window。
+declare global {
+  interface Window {
+    __deferredInstallPrompt?: BeforeInstallPromptEvent | null
+    __pwaInstalled?: boolean
+  }
+}
+
 export function PwaInstallBanner() {
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null)
   const [dismissed, setDismissed] = useState(false)
@@ -31,14 +39,23 @@ export function PwaInstallBanner() {
       // 隱私模式等存取失敗：維持 env=null → 不顯示。
     }
 
+    // 早捕捉：inline <head> script 可能已在 hydration 前攔到事件，存於 window。
+    if (window.__deferredInstallPrompt) setDeferred(window.__deferredInstallPrompt)
+    if (window.__pwaInstalled) setInstalled(true)
+
+    const onCaptured = () => {
+      if (window.__deferredInstallPrompt) setDeferred(window.__deferredInstallPrompt)
+    }
     const onBeforeInstallPrompt = (e: Event) => {
       e.preventDefault()
       setDeferred(e as BeforeInstallPromptEvent)
     }
     const onInstalled = () => setInstalled(true)
+    window.addEventListener('pwa-bip-captured', onCaptured)
     window.addEventListener('beforeinstallprompt', onBeforeInstallPrompt)
     window.addEventListener('appinstalled', onInstalled)
     return () => {
+      window.removeEventListener('pwa-bip-captured', onCaptured)
       window.removeEventListener('beforeinstallprompt', onBeforeInstallPrompt)
       window.removeEventListener('appinstalled', onInstalled)
     }
@@ -66,6 +83,7 @@ export function PwaInstallBanner() {
       await deferred.userChoice
     } catch { /* ignore */ }
     setDeferred(null) // prompt 只能用一次
+    window.__deferredInstallPrompt = null
   }
 
   return (

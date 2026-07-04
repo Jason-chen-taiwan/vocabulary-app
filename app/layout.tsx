@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Nunito, Noto_Sans_TC } from "next/font/google";
 import "./globals.css";
 import { PwaRegister } from "@/components/pwa-register";
@@ -37,7 +38,25 @@ export default function RootLayout({
       lang="zh-Hant"
       className={`${nunito.variable} ${notoTC.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}<PwaRegister /></body>
+      <body className="min-h-full flex flex-col">
+        {/* 早捕捉 beforeinstallprompt：Chrome 在 React hydration 前就觸發，必須在框架載入前先攔下存全域，否則安裝鈕永遠抓不到事件。 */}
+        <Script id="pwa-install-capture" strategy="beforeInteractive">
+          {`(function(){
+  window.__deferredInstallPrompt = window.__deferredInstallPrompt || null;
+  window.addEventListener('beforeinstallprompt', function(e){
+    e.preventDefault();
+    window.__deferredInstallPrompt = e;
+    window.dispatchEvent(new Event('pwa-bip-captured'));
+  });
+  window.addEventListener('appinstalled', function(){
+    window.__deferredInstallPrompt = null;
+    window.__pwaInstalled = true;
+  });
+})();`}
+        </Script>
+        {children}
+        <PwaRegister />
+      </body>
     </html>
   );
 }
