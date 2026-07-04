@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Nunito, Noto_Sans_TC } from "next/font/google";
 import "./globals.css";
 import { PwaRegister } from "@/components/pwa-register";
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
   title: "VocabApp 字彙學習",
   description: "考試導向的英文字彙學習 PWA",
   manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, statusBarStyle: "default", title: "VocabApp" },
+  icons: { apple: "/icons/icon-192.png" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#FF6A3D",
 };
 
 export default function RootLayout({
