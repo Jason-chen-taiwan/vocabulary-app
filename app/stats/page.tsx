@@ -4,11 +4,11 @@ import { getCurrentUser } from '@/lib/auth/session'
 import { statsService } from '@/lib/stats/service'
 import { GamificationBar } from '@/components/gamification-bar'
 import { Card } from '@/components/ui/card'
-import { ProgressBar } from '@/components/ui/progress-bar'
 import { Heatmap } from '@/components/stats/heatmap'
 import { AccuracyBars } from '@/components/stats/accuracy-bars'
 import { DueBars } from '@/components/stats/due-bars'
 import { StateDistribution } from '@/components/stats/state-distribution'
+import { BookProgress } from '@/components/stats/book-progress'
 
 export default async function StatsPage() {
   const user = await getCurrentUser()
@@ -34,10 +34,7 @@ export default async function StatsPage() {
             <StateDistribution states={d.progress.states} totalWords={d.progress.totalWords} />
             <div className="space-y-2 pt-2">
               {d.progress.byBook.map((b) => (
-                <div key={b.slug} className="space-y-1">
-                  <div className="flex justify-between text-xs font-semibold text-neutral-600"><span>{b.name}</span><span>{b.mastered}/{b.total}（{b.pct}%）</span></div>
-                  <ProgressBar value={b.mastered} max={b.total} />
-                </div>
+                <BookProgress key={b.slug} book={b} />
               ))}
             </div>
           </Card>

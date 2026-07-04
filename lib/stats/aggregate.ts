@@ -51,21 +51,28 @@ export function dueForecast(cards: { due: Date }[], now: Date, timezone: string,
   return keys.map((day) => ({ day, count: counts.get(day) ?? 0 }))
 }
 
-export function countMasteredByBook(cards: { mastered: boolean; wordBookId: string }[]): Map<string, number> {
-  const m = new Map<string, number>()
-  for (const c of cards) if (c.mastered) m.set(c.wordBookId, (m.get(c.wordBookId) ?? 0) + 1)
-  return m
-}
-
-export interface BookMastery { slug: string; name: string; mastered: number; total: number; pct: number }
-export function masteryByBook(
-  masteredByBookId: Map<string, number>,
+// 每本書拆成三態：mastered（精熟）/ studied（已開始但未精熟）/ new（未開始）。
+// started = mastered + studied；new = max(0, total - started)。
+export interface BookBreakdown { slug: string; name: string; total: number; mastered: number; studied: number; newCount: number }
+export function bookBreakdown(
+  cards: { mastered: boolean; wordBookId: string }[],
   books: { id: string; slug: string; name: string; wordCount: number }[],
-): BookMastery[] {
+): BookBreakdown[] {
+  const byBook = new Map<string, { mastered: number; started: number }>()
+  for (const c of cards) {
+    const cur = byBook.get(c.wordBookId) ?? { mastered: 0, started: 0 }
+    cur.started += 1
+    if (c.mastered) cur.mastered += 1
+    byBook.set(c.wordBookId, cur)
+  }
   return books.map((b) => {
-    const mastered = masteredByBookId.get(b.id) ?? 0
-    const pct = b.wordCount > 0 ? Math.round((mastered / b.wordCount) * 100) : 0
-    return { slug: b.slug, name: b.name, mastered, total: b.wordCount, pct }
+    const cur = byBook.get(b.id) ?? { mastered: 0, started: 0 }
+    return {
+      slug: b.slug, name: b.name, total: b.wordCount,
+      mastered: cur.mastered,
+      studied: cur.started - cur.mastered,
+      newCount: Math.max(0, b.wordCount - cur.started),
+    }
   })
 }
 
