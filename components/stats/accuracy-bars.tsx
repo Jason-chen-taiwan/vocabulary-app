@@ -11,9 +11,9 @@ export function AccuracyBars({ daily }: { daily: DayAccuracy[] }) {
       {daily.map((d) => {
         const pct = Math.round((d.correct / d.total) * 100)
         return (
-          <div key={d.day} className="flex min-w-[10px] flex-1 flex-col items-center gap-1" title={`${d.day}：${d.correct}/${d.total}（${pct}%）`}>
-            <div className="flex h-24 w-full items-end rounded-[3px] bg-primary-50">
-              <div className="w-full rounded-[3px] bg-primary-500" style={{ height: `${pct}%` }} />
+          <div key={d.day} className="flex min-w-[10px] flex-1 flex-col items-center" title={`${d.day}：${d.correct}/${d.total}（${pct}%）`}>
+            <div className="flex h-24 w-full items-end overflow-hidden rounded-[4px] bg-neutral-100">
+              <div className="w-full rounded-[4px] bg-primary-500" style={{ height: `${Math.max(pct, 4)}%` }} />
             </div>
           </div>
         )
