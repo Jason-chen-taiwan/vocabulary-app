@@ -18,7 +18,7 @@ export function DueBars({ buckets }: { buckets: DueBucket[] }) {
       </div>
       <div className="flex h-24 items-end gap-2 border-b-2 border-neutral-100">
         {buckets.map((b, i) => (
-          <div key={b.day} className="flex flex-1 items-end justify-center" title={`${b.day}：${b.count} 張`}>
+          <div key={b.day} className="flex h-full flex-1 items-end justify-center" title={`${b.day}：${b.count} 張`}>
             <div className={`w-7 max-w-full rounded-t-[5px] ${i === 0 ? 'bg-primary-500' : 'bg-primary-300'}`} style={{ height: `${clampPct(b.count, max)}%` }} />
           </div>
         ))}
