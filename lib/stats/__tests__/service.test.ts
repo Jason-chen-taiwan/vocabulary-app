@@ -31,7 +31,7 @@ describe('StatsService.getDashboard', () => {
     // progress
     expect(d.progress.totalWords).toBe(4)
     expect(d.progress.states).toEqual({ newCount: 2, learning: 1, review: 0, mastered: 1, startedTotal: 2 })
-    expect(d.progress.byBook).toEqual([{ slug: 'office', name: '辦公室', mastered: 1, total: 4, pct: 25 }])
+    expect(d.progress.byBook).toEqual([{ slug: 'office', name: '辦公室', total: 4, mastered: 1, studied: 1, newCount: 2 }])
 
     // activity
     expect(d.activity.cells.length).toBe(12 * 7)

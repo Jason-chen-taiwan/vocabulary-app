@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   dayKey, groupReviewsByDay, dailyAccuracy, dueForecast,
-  countMasteredByBook, masteryByBook, stateCounts,
+  bookBreakdown, stateCounts,
   heatLevel, heatmapCells,
 } from '@/lib/stats/aggregate'
 
@@ -55,20 +55,32 @@ describe('dueForecast', () => {
   })
 })
 
-describe('countMasteredByBook + masteryByBook', () => {
-  it('counts mastered per book and computes pct', () => {
-    const counts = countMasteredByBook([
+describe('bookBreakdown', () => {
+  it('splits each book into mastered / studied / new', () => {
+    const out = bookBreakdown([
       { mastered: true, wordBookId: 'b1' },
       { mastered: true, wordBookId: 'b1' },
       { mastered: false, wordBookId: 'b1' },
-      { mastered: true, wordBookId: 'b2' },
+      { mastered: false, wordBookId: 'b2' },
+    ], [
+      { id: 'b1', slug: 'office', name: '辦公室', wordCount: 5 },
+      { id: 'b2', slug: 'finance', name: '財務', wordCount: 3 },
+      { id: 'b3', slug: 'legal', name: '法律', wordCount: 2 },
     ])
-    const out = masteryByBook(counts, [
-      { id: 'b1', slug: 'office', name: '辦公室', wordCount: 4 },
-      { id: 'b2', slug: 'finance', name: '財務', wordCount: 0 },
-    ])
-    expect(out[0]).toEqual({ slug: 'office', name: '辦公室', mastered: 2, total: 4, pct: 50 })
-    expect(out[1]).toEqual({ slug: 'finance', name: '財務', mastered: 1, total: 0, pct: 0 })
+    // b1: started 3 (mastered 2, studied 1), new 5-3=2
+    expect(out[0]).toEqual({ slug: 'office', name: '辦公室', total: 5, mastered: 2, studied: 1, newCount: 2 })
+    // b2: started 1 (mastered 0, studied 1), new 3-1=2
+    expect(out[1]).toEqual({ slug: 'finance', name: '財務', total: 3, mastered: 0, studied: 1, newCount: 2 })
+    // b3: no cards → all new
+    expect(out[2]).toEqual({ slug: 'legal', name: '法律', total: 2, mastered: 0, studied: 0, newCount: 2 })
+  })
+
+  it('clamps newCount at 0 when started exceeds total (stale word count)', () => {
+    const out = bookBreakdown(
+      [{ mastered: false, wordBookId: 'b1' }, { mastered: true, wordBookId: 'b1' }],
+      [{ id: 'b1', slug: 'office', name: '辦公室', wordCount: 1 }],
+    )
+    expect(out[0]).toEqual({ slug: 'office', name: '辦公室', total: 1, mastered: 1, studied: 1, newCount: 0 })
   })
 })
 

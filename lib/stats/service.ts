@@ -1,8 +1,8 @@
 import { StatsRepository } from './repository'
 import {
   groupReviewsByDay, dailyAccuracy, dueForecast, heatmapCells,
-  countMasteredByBook, masteryByBook, stateCounts,
-  type DayAccuracy, type DueBucket, type HeatCell, type BookMastery, type StateCounts,
+  bookBreakdown, stateCounts,
+  type DayAccuracy, type DueBucket, type HeatCell, type BookBreakdown, type StateCounts,
 } from './aggregate'
 
 export const ACCURACY_DAYS = 30
@@ -10,7 +10,7 @@ export const HEATMAP_WEEKS = 12
 export const FORECAST_DAYS = 7
 
 export interface Dashboard {
-  progress: { states: StateCounts; totalWords: number; byBook: BookMastery[] }
+  progress: { states: StateCounts; totalWords: number; byBook: BookBreakdown[] }
   activity: { cells: HeatCell[]; streak: number; longestStreak: number }
   accuracy: { daily: DayAccuracy[]; overallPct: number; window: number }
   dueForecast: DueBucket[]
@@ -35,7 +35,7 @@ export class StatsService {
 
     const totalWords = books.reduce((s, b) => s + b.wordCount, 0)
     const states = stateCounts(cards, totalWords)
-    const byBook = masteryByBook(countMasteredByBook(cards), books)
+    const byBook = bookBreakdown(cards, books)
 
     const cells = heatmapCells(groupReviewsByDay(logs, timezone), now, timezone, HEATMAP_WEEKS)
 
