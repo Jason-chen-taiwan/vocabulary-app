@@ -44,6 +44,7 @@ export default async function StatsPage() {
               <h2 className="text-sm font-extrabold text-neutral-900">活躍紀錄</h2>
               <span className="text-xs font-bold text-primary-600">🔥 {d.activity.streak} 天（最長 {d.activity.longestStreak}）</span>
             </div>
+            <p className="text-xs text-neutral-600">近 12 週每日複習量，格子越深表示當天複習越多。</p>
             <Heatmap cells={d.activity.cells} />
           </Card>
 
@@ -52,11 +53,13 @@ export default async function StatsPage() {
               <h2 className="text-sm font-extrabold text-neutral-900">正確率趨勢</h2>
               <span className="text-xs font-bold text-primary-600">近 {d.accuracy.window} 天 {d.accuracy.overallPct}%</span>
             </div>
+            <p className="text-xs text-neutral-600">每根長條 = 有複習的那天的答對率。</p>
             <AccuracyBars daily={d.accuracy.daily} />
           </Card>
 
           <Card className="space-y-3 p-5">
             <h2 className="text-sm font-extrabold text-neutral-900">到期預報（7 天）</h2>
+            <p className="text-xs text-neutral-600">未來 7 天每天有幾張卡「到期該複習」（今天含逾期）。</p>
             <DueBars buckets={d.dueForecast} />
           </Card>
         </div>
