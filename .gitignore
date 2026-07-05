@@ -48,3 +48,6 @@ next-env.d.ts
 
 # superpowers scratch (brainstorm mockups, sdd ledgers)
 .superpowers/
+
+# stray path-escaping artifact (windows fullwidth-colon filename bug)
+*task-*-report.md
