@@ -1,8 +1,10 @@
 generator client {
-  provider        = "prisma-client-js"
-  // queryCompiler = wasm SQL compiler that runs entirely in-client and hands
-  // execution to the driver adapter (Neon HTTP). No Rust library engine, so no
-  // fs/libssl scan — the reason plain `prisma-client-js` crashes on Workers.
+  provider = "prisma-client-js"
+  // DO NOT REMOVE despite the "deprecated preview feature" warning at generate
+  // time: these flags are what make Prisma emit the wasm client entry
+  // (`@prisma/client/wasm`) that lib/db/client.ts imports to run on Cloudflare
+  // Workers. Without them the wasm entry is not generated and the build/tests
+  // fail with "Cannot find package '@prisma/client/wasm'".
   previewFeatures = ["queryCompiler", "driverAdapters"]
 }
 
