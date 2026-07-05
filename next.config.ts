@@ -6,7 +6,10 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // OpenNext must externalize + patch the Prisma client for the workerd
+  // runtime; without this the client does fs scans (e.g. fs.readdir) that
+  // Cloudflare Workers don't implement. See opennext.js.org/cloudflare/howtos/db
+  serverExternalPackages: ["@prisma/client", ".prisma/client"],
 };
 
 export default nextConfig;

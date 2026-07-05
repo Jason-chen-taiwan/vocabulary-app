@@ -9,6 +9,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth(() => {
   return {
     adapter: PrismaAdapter(getPrisma()),
     session: { strategy: 'database' },
+    trustHost: true,
     providers: [
       Google({ clientId: env.AUTH_GOOGLE_ID, clientSecret: env.AUTH_GOOGLE_SECRET }),
     ],

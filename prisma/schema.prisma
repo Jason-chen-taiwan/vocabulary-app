@@ -1,9 +1,14 @@
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  // queryCompiler = wasm SQL compiler that runs entirely in-client and hands
+  // execution to the driver adapter (Neon HTTP). No Rust library engine, so no
+  // fs/libssl scan — the reason plain `prisma-client-js` crashes on Workers.
+  previewFeatures = ["queryCompiler", "driverAdapters"]
 }
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model User {
