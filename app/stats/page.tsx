@@ -10,6 +10,8 @@ import { DueBars } from '@/components/stats/due-bars'
 import { StateDistribution } from '@/components/stats/state-distribution'
 import { BookProgress } from '@/components/stats/book-progress'
 
+export const dynamic = 'force-dynamic'
+
 export default async function StatsPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')

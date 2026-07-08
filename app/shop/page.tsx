@@ -6,6 +6,8 @@ import { ShopRepository } from '@/lib/shop/repository'
 import { GamificationBar } from '@/components/gamification-bar'
 import { ShopClient } from './shop-client'
 
+export const dynamic = 'force-dynamic'
+
 export default async function ShopPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')

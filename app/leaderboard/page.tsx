@@ -5,6 +5,8 @@ import { leaderboardService } from '@/lib/leaderboard/service'
 import { GamificationBar } from '@/components/gamification-bar'
 import { LeaderboardTabs } from './tabs'
 
+export const dynamic = 'force-dynamic'
+
 export default async function LeaderboardPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')

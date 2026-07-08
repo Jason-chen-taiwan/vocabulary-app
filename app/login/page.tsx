@@ -3,6 +3,8 @@ import { getCurrentUser } from '@/lib/auth/session'
 import { redirect } from 'next/navigation'
 import { Mascot } from '@/components/ui/mascot'
 
+export const dynamic = 'force-dynamic'
+
 export default async function LoginPage() {
   if (await getCurrentUser()) redirect('/')
   return (
