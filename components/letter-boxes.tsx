@@ -28,12 +28,17 @@ export function LetterBoxes({
   answer,
   disabled,
   onComplete,
+  revealed = false,
 }: {
   answer: string
   disabled: boolean
   onComplete: (value: string) => void
+  // once answered, boxes fill with the correct letters and color per-letter:
+  // green where the learner's letter matched, red where it was wrong or blank.
+  revealed?: boolean
 }) {
   const slots = useMemo(() => buildSlots(answer), [answer])
+  const answerChars = useMemo(() => [...answer], [answer])
   // editable letter slot indices (excludes locked first letter + separators)
   const editable = useMemo(() => slots.map((s, i) => ({ s, i })).filter((x) => x.s.kind === 'letter' && !x.s.locked).map((x) => x.i), [slots])
 
@@ -103,10 +108,28 @@ export function LetterBoxes({
 
   return (
     <div className="flex flex-wrap items-center justify-center gap-1.5">
-      {slots.map((s, i) =>
-        s.kind === 'sep' ? (
-          <span key={i} className="px-1 text-2xl text-neutral-400">{s.char === ' ' ? ' ' : s.char}</span>
-        ) : (
+      {slots.map((s, i) => {
+        if (s.kind === 'sep') {
+          return <span key={i} className="px-1 text-2xl text-neutral-400">{s.char === ' ' ? ' ' : s.char}</span>
+        }
+        if (revealed) {
+          // answered: show the correct letter, green if the learner had it, red if not
+          const correctChar = answerChars[i]
+          const userChar = s.locked ? s.char : values[i] ?? ''
+          const ok = s.locked || userChar.toLowerCase() === correctChar.toLowerCase()
+          return (
+            <div
+              key={i}
+              aria-label={`第 ${i + 1} 個字母：${correctChar}`}
+              className={`flex h-12 w-9 items-center justify-center rounded-control border-2 text-xl font-bold uppercase ${
+                ok ? 'border-success bg-success/10 text-success' : 'border-error bg-error/10 text-error'
+              }`}
+            >
+              {correctChar}
+            </div>
+          )
+        }
+        return (
           <input
             key={i}
             ref={(el) => { refs.current[i] = el }}
@@ -126,8 +149,8 @@ export function LetterBoxes({
                 : 'border-primary-200 bg-surface text-neutral-900 focus:border-primary-500'
             }`}
           />
-        ),
-      )}
+        )
+      })}
     </div>
   )
 }

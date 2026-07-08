@@ -195,10 +195,16 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
             </div>
           )}
           {q.type !== 'mc' && (
-            <div className="flex flex-col items-center gap-3">
-              <LetterBoxes key={q.wordId} answer={q.answer} disabled={!!result} onComplete={(v) => { if (!result) { setInput(v); void commit(v) } }} />
+            <div className="flex flex-col items-center gap-5">
+              <LetterBoxes key={q.wordId} answer={q.answer} disabled={!!result} revealed={!!result} onComplete={(v) => { if (!result) { setInput(v); void commit(v) } }} />
               {!result && (
-                <button type="button" onClick={reveal} disabled={busy} className="text-sm font-semibold text-neutral-500 hover:text-neutral-700 hover:underline disabled:opacity-50">
+                <button
+                  type="button"
+                  onClick={reveal}
+                  disabled={busy}
+                  className="inline-flex items-center gap-1.5 rounded-pill border-2 border-neutral-200 bg-surface px-4 py-2 text-sm font-semibold text-neutral-500 transition hover:border-neutral-300 hover:bg-neutral-100 hover:text-neutral-700 disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+                >
+                  <span aria-hidden>💡</span>
                   不會，看答案
                 </button>
               )}
@@ -209,11 +215,12 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
         {/* feedback */}
         {result && (
           <div className="mt-4">
-            <p className={result.correct ? 'text-success' : 'text-error'}>
+            <p className={`font-bold ${result.correct ? 'text-success' : 'text-error'}`}>
               {result.correct ? '答對了！' : '答錯了'}
             </p>
+            {/* mc has no boxes → show the answer text; typing/cloze already show it in the boxes, just offer TTS */}
             <p className="mt-1 flex items-center justify-center gap-2 text-lg font-semibold text-neutral-900">
-              {q.answer}{q.type !== 'mc' && <TtsButton text={q.answer} />}
+              {q.type === 'mc' ? q.answer : <TtsButton text={q.answer} />}
             </p>
           </div>
         )}
