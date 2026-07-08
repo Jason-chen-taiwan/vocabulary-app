@@ -48,16 +48,6 @@ export interface Question {
   audioText: string | null
   options: string[] | null
   answer: string
-  // 首字母提示 + 其餘每字一格底線，長度對齊答案（如 apple → "a ▁ ▁ ▁ ▁"）。mc 為 null。
-  masked: string | null
-}
-
-// 首字母顯示，其餘字母以底線佔位；非字母（空格、連字號）原樣保留位置。
-export function maskWord(word: string): string {
-  const chars = [...word]
-  return chars
-    .map((c, i) => (i === 0 ? c : /[a-zA-Z]/.test(c) ? '▁' : c))
-    .join(' ')
 }
 
 function escapeRegExp(s: string): string {
@@ -65,14 +55,14 @@ function escapeRegExp(s: string): string {
 }
 
 function typingQuestion(word: WordWithExamples): Question {
-  return { wordId: word.id, type: 'typing', prompt: word.definitionZh, hint: null, audioText: null, options: null, answer: word.headword, masked: maskWord(word.headword) }
+  return { wordId: word.id, type: 'typing', prompt: word.definitionZh, hint: null, audioText: null, options: null, answer: word.headword }
 }
 
 export function buildQuestion(word: WordWithExamples, type: QuestionType, distractorDefs: string[]): Question {
   if (type === 'mc') {
     return {
       wordId: word.id, type: 'mc', prompt: word.headword, hint: null, audioText: word.headword,
-      options: [word.definitionZh, ...distractorDefs], answer: word.definitionZh, masked: null,
+      options: [word.definitionZh, ...distractorDefs], answer: word.definitionZh,
     }
   }
   if (type === 'cloze') {
@@ -83,7 +73,6 @@ export function buildQuestion(word: WordWithExamples, type: QuestionType, distra
         return {
           wordId: word.id, type: 'cloze', prompt: ex.sentence.replace(re, '(？)'),
           hint: ex.translationZh, audioText: null, options: null, answer: word.headword,
-          masked: maskWord(word.headword),
         }
       }
     }

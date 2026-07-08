@@ -7,6 +7,7 @@ import { OptionButton } from '@/components/ui/option-button'
 import { ProgressBar } from '@/components/ui/progress-bar'
 import { CelebrateCard } from '@/components/ui/celebrate-card'
 import { Button } from '@/components/ui/button'
+import { LetterBoxes } from '@/components/letter-boxes'
 import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
 import { checkAnswer, sample, seededRng, type Question } from '@/lib/learning/question'
@@ -119,7 +120,9 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
 
   function onPick(opt: string) { if (result) return; setPicked(opt); void commit(opt) }
 
-  function onSubmitText(e: React.FormEvent) { e.preventDefault(); if (result || !input.trim()) return; void commit(input) }
+  // 「不會，看答案」：以空作答提交 → 後端判錯並記錄複習，接著 feedback 顯示正解、出現下一題按鈕。
+  function reveal() { if (result || busy) return; void commit('') }
+
 
   async function next() {
     if (busy) return
@@ -165,14 +168,12 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
           <div className="space-y-2">
             <p className="text-2xl text-neutral-900">{q.prompt}</p>
             {q.hint && <p className="text-sm text-neutral-600">{q.hint}</p>}
-            {q.masked && <p className="font-mono text-2xl tracking-widest text-neutral-900">{q.masked}</p>}
             <p className="text-xs text-neutral-600">填入空格的英文字</p>
           </div>
         )}
         {q.type === 'typing' && (
           <div className="space-y-1">
             <p className="text-2xl text-neutral-900">{q.prompt}</p>
-            {q.masked && <p className="font-mono text-2xl tracking-widest text-neutral-900">{q.masked}</p>}
             <p className="text-xs text-neutral-600">拼出對應的英文字</p>
           </div>
         )}
@@ -194,12 +195,14 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
             </div>
           )}
           {q.type !== 'mc' && (
-            <form onSubmit={onSubmitText} className="flex flex-col items-center gap-2">
-              <input autoFocus value={input} onChange={(e) => setInput(e.target.value)} disabled={!!result}
-                className="w-full rounded-control border-2 border-primary-200 bg-surface px-4 py-3 text-center text-lg text-neutral-900 focus:border-primary-500 focus:outline-none"
-                placeholder="輸入英文單字" />
-              {!result && <Button type="submit" fullWidth>作答</Button>}
-            </form>
+            <div className="flex flex-col items-center gap-3">
+              <LetterBoxes key={q.wordId} answer={q.answer} disabled={!!result} onComplete={(v) => { if (!result) { setInput(v); void commit(v) } }} />
+              {!result && (
+                <button type="button" onClick={reveal} disabled={busy} className="text-sm font-semibold text-neutral-500 hover:text-neutral-700 hover:underline disabled:opacity-50">
+                  不會，看答案
+                </button>
+              )}
+            </div>
           )}
         </div>
 
