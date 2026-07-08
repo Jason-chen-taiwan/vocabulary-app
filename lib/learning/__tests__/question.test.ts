@@ -1,10 +1,22 @@
 import { describe, it, expect } from 'vitest'
-import { pickQuestionType, checkAnswer, sample, seededRng, buildQuestion } from '@/lib/learning/question'
+import { pickQuestionType, checkAnswer, sample, seededRng, buildQuestion, maskWord } from '@/lib/learning/question'
 
 const word = {
   id: 'w1', headword: 'negotiate', phonetic: '/n/', partOfSpeech: 'v.', definitionZh: '談判，協商', examTags: ['TOEIC'],
   examples: [{ id: 'e1', sentence: 'We need to negotiate the terms.', translationZh: '我們需要協商條款。', source: null }],
 }
+
+describe('maskWord', () => {
+  it('shows first letter, one underscore box per remaining letter, aligns to length', () => {
+    expect(maskWord('apple')).toBe('a ▁ ▁ ▁ ▁')
+    expect(maskWord('go')).toBe('g ▁')
+    expect(maskWord('a')).toBe('a')
+  })
+  it('keeps non-letters (space, hyphen) in place, still reveals first char', () => {
+    expect(maskWord('ice cream')).toBe('i ▁ ▁   ▁ ▁ ▁ ▁ ▁')
+    expect(maskWord('well-known')).toBe('w ▁ ▁ ▁ - ▁ ▁ ▁ ▁ ▁')
+  })
+})
 
 describe('pickQuestionType', () => {
   it('maps streak to type by threshold', () => {
@@ -64,15 +76,17 @@ describe('buildQuestion', () => {
   it('cloze: blanks the headword in the example, hint is the translation, answer is headword', () => {
     const q = buildQuestion(word as any, 'cloze', [])
     expect(q.type).toBe('cloze')
-    expect(q.prompt).toBe('We need to _____ the terms.')
+    expect(q.prompt).toBe('We need to (？) the terms.')
     expect(q.hint).toBe('我們需要協商條款。')
+    expect(q.masked).toBe('n ▁ ▁ ▁ ▁ ▁ ▁ ▁ ▁')
     expect(q.options).toBeNull()
     expect(q.answer).toBe('negotiate')
   })
-  it('typing: definition prompt, no options, answer is headword', () => {
+  it('typing: definition prompt + masked hint (first letter + length), answer is headword', () => {
     const q = buildQuestion(word as any, 'typing', [])
     expect(q.type).toBe('typing')
     expect(q.prompt).toBe('談判，協商')
+    expect(q.masked).toBe('n ▁ ▁ ▁ ▁ ▁ ▁ ▁ ▁')
     expect(q.options).toBeNull()
     expect(q.answer).toBe('negotiate')
   })

@@ -20,6 +20,8 @@ export interface ReviewItem {
 
 export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookName: string; bookSlug: string; items: ReviewItem[]; equipped?: Equipped }) {
   const router = useRouter()
+  // mixed-practice slug has no book page; send "back" to the book list instead.
+  const backHref = bookSlug === 'all' ? '/books' : `/books/${bookSlug}`
   const [index, setIndex] = useState(0)
   const [input, setInput] = useState('')
   const [picked, setPicked] = useState<string | null>(null)
@@ -69,7 +71,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
           {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
         </div>
         <div className="mt-6 flex justify-center gap-4">
-          <Link href={`/books/${bookSlug}`} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
+          <Link href={backHref} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
           <button onClick={restart} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>
         </div>
       </main>
@@ -83,7 +85,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
         <Mascot mood="cheer" size={120} className="mx-auto" />
         <h1 className="text-2xl font-extrabold text-neutral-900">{bookName}</h1>
         <p className="mt-2 text-neutral-600">今天沒有待複習的單字了 🎉</p>
-        <Link href={`/books/${bookSlug}`} className="mt-4 text-sm font-semibold text-primary-600 hover:underline">← 回單字書</Link>
+        <Link href={backHref} className="mt-4 text-sm font-semibold text-primary-600 hover:underline">← 回單字書</Link>
       </main>
     )
   }
@@ -144,7 +146,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col px-4 py-8">
       <div className="mb-2 flex items-center justify-between text-sm text-neutral-600">
-        <Link href={`/books/${bookSlug}`} className="hover:underline">← {bookName}</Link>
+        <Link href={backHref} className="hover:underline">← {bookName}</Link>
         <span>{index + 1} / {items.length}</span>
       </div>
       <ProgressBar value={index + 1} max={items.length} />
@@ -163,12 +165,14 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
           <div className="space-y-2">
             <p className="text-2xl text-neutral-900">{q.prompt}</p>
             {q.hint && <p className="text-sm text-neutral-600">{q.hint}</p>}
+            {q.masked && <p className="font-mono text-2xl tracking-widest text-neutral-900">{q.masked}</p>}
             <p className="text-xs text-neutral-600">填入空格的英文字</p>
           </div>
         )}
         {q.type === 'typing' && (
           <div className="space-y-1">
             <p className="text-2xl text-neutral-900">{q.prompt}</p>
+            {q.masked && <p className="font-mono text-2xl tracking-widest text-neutral-900">{q.masked}</p>}
             <p className="text-xs text-neutral-600">拼出對應的英文字</p>
           </div>
         )}
