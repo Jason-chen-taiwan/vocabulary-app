@@ -43,6 +43,12 @@ export class ContentRepository {
     return (rows as Parameters<typeof toWordData>[0][]).map(toWordData)
   }
 
+  // All definitions across every book — MC distractor pool for mixed practice.
+  async listAllDefinitions(): Promise<string[]> {
+    const rows = (await this.db.word.findMany({ select: { definitionZh: true } })) as { definitionZh: string }[]
+    return rows.map((r) => r.definitionZh)
+  }
+
   async getWordWithExamples(wordId: string): Promise<WordWithExamples | null> {
     const row = await this.db.word.findUnique({
       where: { id: wordId },

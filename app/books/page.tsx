@@ -2,8 +2,11 @@ import { redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth/session'
 import { ContentRepository } from '@/lib/content/repository'
 import { GamificationBar } from '@/components/gamification-bar'
+import Link from 'next/link'
 import { CardLink } from '@/components/ui/card'
 import { StatPill } from '@/components/ui/stat-pill'
+
+export const dynamic = 'force-dynamic'
 
 export default async function BooksPage() {
   if (!(await getCurrentUser())) redirect('/login')
@@ -13,6 +16,15 @@ export default async function BooksPage() {
       <GamificationBar />
       <main className="mx-auto w-full max-w-2xl px-4 py-8">
         <h1 className="mb-6 text-2xl font-extrabold text-neutral-900">單字書</h1>
+        {books.length > 0 && (
+          <Link
+            href="/learn/all"
+            className="mb-4 flex items-center justify-between gap-3 rounded-control border-2 border-primary-200 bg-primary-50 p-5 font-extrabold text-primary-700 transition hover:bg-primary-100"
+          >
+            <span>🔀 全部混合練習</span>
+            <span className="text-sm font-semibold">跨所有單字書複習 →</span>
+          </Link>
+        )}
         {books.length === 0 ? (
           <p className="text-neutral-600">目前還沒有單字書。</p>
         ) : (

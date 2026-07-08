@@ -76,4 +76,28 @@ describe('LearningRepository', () => {
       orderBy: { order: 'asc' }, take: 10, select: { id: true },
     })
   })
+
+  it('mixed practice (no wordBookId) omits the book filter in all three queries', async () => {
+    const db = makeDb()
+    db.userCard.findMany.mockResolvedValue([])
+    db.word.findMany.mockResolvedValue([])
+    const repo = new LearningRepository(db as any)
+
+    await repo.listDueCards('u1', now, 50)
+    expect(db.userCard.findMany).toHaveBeenLastCalledWith({
+      where: { userId: 'u1', mastered: false, due: { lte: now } },
+      orderBy: { due: 'asc' }, take: 50, select: { wordId: true, consecutiveCorrect: true },
+    })
+
+    await repo.listMasteredWordIds('u1')
+    expect(db.userCard.findMany).toHaveBeenLastCalledWith({
+      where: { userId: 'u1', mastered: true }, select: { wordId: true },
+    })
+
+    await repo.listNewWordIds('u1', undefined, 10)
+    expect(db.word.findMany).toHaveBeenLastCalledWith({
+      where: { userCards: { none: { userId: 'u1' } } },
+      orderBy: { order: 'asc' }, take: 10, select: { id: true },
+    })
+  })
 })

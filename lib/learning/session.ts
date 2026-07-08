@@ -9,7 +9,8 @@ export interface SessionItem {
 }
 
 export async function buildSession(
-  args: { userId: string; wordBookId: string; now: Date; newLimit: number; dueLimit: number; spotCheckLimit: number; rng?: () => number },
+  // wordBookId omitted → mixed practice across all books
+  args: { userId: string; wordBookId?: string; now: Date; newLimit: number; dueLimit: number; spotCheckLimit: number; rng?: () => number },
   deps: { learning: LearningRepository },
 ): Promise<SessionItem[]> {
   // the three queries are independent → run them in parallel (one Neon round-trip stack, not three)
