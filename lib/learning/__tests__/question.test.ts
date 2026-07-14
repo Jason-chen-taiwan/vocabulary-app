@@ -1,10 +1,25 @@
 import { describe, it, expect } from 'vitest'
-import { pickQuestionType, checkAnswer, sample, seededRng, buildQuestion } from '@/lib/learning/question'
+import { pickQuestionType, checkAnswer, sample, seededRng, buildQuestion, shortDef } from '@/lib/learning/question'
 
 const word = {
   id: 'w1', headword: 'negotiate', phonetic: '/n/', partOfSpeech: 'v.', definitionZh: '談判，協商', examTags: ['TOEIC'],
   examples: [{ id: 'e1', sentence: 'We need to negotiate the terms.', translationZh: '我們需要協商條款。', source: null }],
 }
+
+describe('shortDef', () => {
+  it('keeps only the main gloss before the semicolon', () => {
+    expect(shortDef('倉庫；大型貨物儲存設施')).toBe('倉庫')
+    expect(shortDef('貨架；倉庫用金屬層架')).toBe('貨架')
+  })
+  it('strips parenthetical notes (both full/half-width)', () => {
+    expect(shortDef('無擔保公司債（以發行人信用而非特定資產作擔保的公司債券）')).toBe('無擔保公司債')
+    expect(shortDef('trust (a legal arrangement)')).toBe('trust')
+  })
+  it('leaves commas and plain defs untouched', () => {
+    expect(shortDef('信託，委託人將資產交由受託人管理')).toBe('信託，委託人將資產交由受託人管理')
+    expect(shortDef('倉庫')).toBe('倉庫')
+  })
+})
 
 describe('pickQuestionType', () => {
   it('maps streak to type by threshold', () => {

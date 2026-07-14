@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/button'
 import { LetterBoxes } from '@/components/letter-boxes'
 import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
-import { checkAnswer, sample, seededRng, type Question } from '@/lib/learning/question'
+import { checkAnswer, sample, seededRng, shortDef, type Question } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
 import type { Equipped } from '@/lib/shop/repository'
 
@@ -188,7 +188,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
                   : 'idle'
                 return (
                   <OptionButton key={opt} state={st as 'idle'|'correct'|'wrong'|'dimmed'} disabled={!!result} onClick={() => onPick(opt)}>
-                    {opt}
+                    {shortDef(opt)}
                   </OptionButton>
                 )
               })}
@@ -220,7 +220,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
             </p>
             {/* mc has no boxes → show the answer text; typing/cloze already show it in the boxes, just offer TTS */}
             <p className="mt-1 flex items-center justify-center gap-2 text-lg font-semibold text-neutral-900">
-              {q.type === 'mc' ? q.answer : <TtsButton text={q.answer} />}
+              {q.type === 'mc' ? shortDef(q.answer) : <TtsButton text={q.answer} />}
             </p>
           </div>
         )}
