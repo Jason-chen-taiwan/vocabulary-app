@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { SignInButton } from '@/components/sign-in-button'
 import { getCurrentUser } from '@/lib/auth/session'
 import { redirect } from 'next/navigation'
@@ -11,6 +12,7 @@ export default async function LoginPage() {
       <h1 className="text-3xl font-extrabold text-neutral-900">VocabApp</h1>
       <p className="text-neutral-600">考試導向的英文字彙學習，邊背邊解鎖成就。</p>
       <SignInButton />
+      <Link href="/" className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回首頁看介紹</Link>
     </main>
   )
 }
