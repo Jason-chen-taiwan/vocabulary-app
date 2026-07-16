@@ -12,7 +12,7 @@
     <ellipse cx="120" cy="168" rx="14" ry="10" fill="#1A1A1A"/>
     <path d="M96 200 q24 18 48 0" stroke="#1A1A1A" stroke-width="7" fill="none" stroke-linecap="round"/>
   </g>
-  <text x="480" y="270" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="76" font-weight="800" fill="#1A1A1A">VocabApp 字彙學習</text>
+  <text x="480" y="270" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="62" font-weight="800" fill="#1A1A1A">VocabApp 字彙學習</text>
   <text x="480" y="350" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="40" fill="#555555">TOEIC 單字，用科學排程背起來</text>
   <text x="480" y="470" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="34" font-weight="700" fill="#FF6A3D">0stack.org・免費・離線可用</text>
 </svg>
