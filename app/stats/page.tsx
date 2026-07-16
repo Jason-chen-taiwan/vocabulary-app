@@ -9,12 +9,34 @@ import { AccuracyTrend } from '@/components/stats/accuracy-trend'
 import { DueBars } from '@/components/stats/due-bars'
 import { StateDistribution } from '@/components/stats/state-distribution'
 import { BookProgress } from '@/components/stats/book-progress'
+import { GamificationRepository } from '@/lib/gamification/repository'
+import { todayYmd } from '@/lib/gamification/date'
+import { ShareButton } from '@/components/share-card/share-button'
+import type { ShareCardStats } from '@/components/share-card/card-data'
 
 export default async function StatsPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')
   const tz = 'Asia/Taipei'
   const d = await statsService.getDashboard(user.id, new Date(), tz)
+
+  // 分享卡資料：全部是後端已算好的權威數字，前端只畫圖。
+  let share: ShareCardStats = { streak: 0, level: 1, badgeCount: 0, goalMet: false, dateLabel: '' }
+  try {
+    const repo = new GamificationRepository()
+    const [{ state, timezone, dailyGoal }, badgeKeys] = await Promise.all([
+      repo.getContext(user.id),
+      repo.listBadgeKeys(user.id),
+    ])
+    const today = todayYmd(new Date(), timezone)
+    share = {
+      streak: state?.streak ?? 0,
+      level: state?.level ?? 1,
+      badgeCount: badgeKeys.length,
+      goalMet: state ? state.lastReviewDate === today && state.reviewsToday >= dailyGoal : false,
+      dateLabel: new Intl.DateTimeFormat('zh-TW', { dateStyle: 'long', timeZone: timezone }).format(new Date()),
+    }
+  } catch { /* 分享卡用預設值，不阻斷頁面 */ }
 
   return (
     <>
@@ -70,6 +92,12 @@ export default async function StatsPage() {
             <h2 className="text-base font-extrabold text-neutral-900">📅 到期預報（7 天）</h2>
             <p className="text-xs text-neutral-600">未來 7 天每天有幾張卡「到期該複習」（今天含逾期）。</p>
             <DueBars buckets={d.dueForecast} />
+          </Card>
+
+          <Card className="space-y-3 p-5">
+            <h2 className="text-base font-extrabold text-neutral-900">📤 分享成果</h2>
+            <p className="text-xs text-neutral-600">產生一張成績圖卡，分享到 LINE / IG / FB。</p>
+            <ShareButton stats={share} />
           </Card>
         </div>
       </main>
