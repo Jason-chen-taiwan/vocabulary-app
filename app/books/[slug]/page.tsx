@@ -3,9 +3,12 @@ import { notFound, redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth/session'
 import { ContentRepository } from '@/lib/content/repository'
 import { LearningRepository } from '@/lib/learning/repository'
+import { shortDef } from '@/lib/learning/question'
 import { GamificationBar } from '@/components/gamification-bar'
 import { Card } from '@/components/ui/card'
 import { ProgressBar } from '@/components/ui/progress-bar'
+
+export const dynamic = 'force-dynamic'
 
 export default async function BookDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -54,7 +57,7 @@ export default async function BookDetailPage({ params }: { params: Promise<{ slu
                   {masteredSet.has(w.id) && <span title="已精熟" className="text-success">✓</span>}
                   {w.headword}
                 </span>
-                <span className="ml-4 truncate text-sm text-neutral-600">{w.definitionZh}</span>
+                <span className="ml-4 truncate text-sm text-neutral-600">{shortDef(w.definitionZh)}</span>
               </Link>
             </li>
           ))}

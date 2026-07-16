@@ -4,6 +4,8 @@ import { getCurrentUser } from '@/lib/auth/session'
 import { UserSettingsRepository } from '@/lib/user/settings'
 import { SettingsForm } from './form'
 
+export const dynamic = 'force-dynamic'
+
 export default async function SettingsPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')

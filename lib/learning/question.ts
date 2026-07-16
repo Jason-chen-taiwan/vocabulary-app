@@ -12,6 +12,14 @@ export function checkAnswer(input: string, expected: string): boolean {
   return input.trim().toLowerCase() === expected.trim().toLowerCase()
 }
 
+// 辭典式短釋義（僅供顯示）：取第一個全形分號前的主釋義，去掉括號補充說明。
+// 判定一律用完整 definitionZh，此函式不參與對錯判斷。
+export function shortDef(def: string): string {
+  const main = def.split('；')[0]
+  const stripped = main.replace(/[（(][^）)]*[）)]/g, '').trim()
+  return stripped || main.trim()
+}
+
 // 由字串種子產生確定性 PRNG（xmur3 種子 + mulberry32）。
 // 用於需要「SSR 與 client 一致」的洗牌（如 MC 選項順序），避免 hydration 不匹配。
 export function seededRng(seed: string): () => number {
@@ -71,7 +79,7 @@ export function buildQuestion(word: WordWithExamples, type: QuestionType, distra
       const re = new RegExp(`\\b${escapeRegExp(word.headword)}\\b`, 'i')
       if (re.test(ex.sentence)) {
         return {
-          wordId: word.id, type: 'cloze', prompt: ex.sentence.replace(re, '_____'),
+          wordId: word.id, type: 'cloze', prompt: ex.sentence.replace(re, '(？)'),
           hint: ex.translationZh, audioText: null, options: null, answer: word.headword,
         }
       }

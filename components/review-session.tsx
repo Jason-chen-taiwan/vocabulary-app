@@ -7,9 +7,10 @@ import { OptionButton } from '@/components/ui/option-button'
 import { ProgressBar } from '@/components/ui/progress-bar'
 import { CelebrateCard } from '@/components/ui/celebrate-card'
 import { Button } from '@/components/ui/button'
+import { LetterBoxes } from '@/components/letter-boxes'
 import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
-import { checkAnswer, sample, seededRng, type Question } from '@/lib/learning/question'
+import { checkAnswer, sample, seededRng, shortDef, type Question } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
 import type { Equipped } from '@/lib/shop/repository'
 
@@ -20,6 +21,8 @@ export interface ReviewItem {
 
 export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookName: string; bookSlug: string; items: ReviewItem[]; equipped?: Equipped }) {
   const router = useRouter()
+  // mixed-practice slug has no book page; send "back" to the book list instead.
+  const backHref = bookSlug === 'all' ? '/books' : `/books/${bookSlug}`
   const [index, setIndex] = useState(0)
   const [input, setInput] = useState('')
   const [picked, setPicked] = useState<string | null>(null)
@@ -69,7 +72,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
           {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
         </div>
         <div className="mt-6 flex justify-center gap-4">
-          <Link href={`/books/${bookSlug}`} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
+          <Link href={backHref} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
           <button onClick={restart} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>
         </div>
       </main>
@@ -83,7 +86,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
         <Mascot mood="cheer" size={120} className="mx-auto" />
         <h1 className="text-2xl font-extrabold text-neutral-900">{bookName}</h1>
         <p className="mt-2 text-neutral-600">今天沒有待複習的單字了 🎉</p>
-        <Link href={`/books/${bookSlug}`} className="mt-4 text-sm font-semibold text-primary-600 hover:underline">← 回單字書</Link>
+        <Link href={backHref} className="mt-4 text-sm font-semibold text-primary-600 hover:underline">← 回單字書</Link>
       </main>
     )
   }
@@ -117,7 +120,9 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
 
   function onPick(opt: string) { if (result) return; setPicked(opt); void commit(opt) }
 
-  function onSubmitText(e: React.FormEvent) { e.preventDefault(); if (result || !input.trim()) return; void commit(input) }
+  // 「不會，看答案」：以空作答提交 → 後端判錯並記錄複習，接著 feedback 顯示正解、出現下一題按鈕。
+  function reveal() { if (result || busy) return; void commit('') }
+
 
   async function next() {
     if (busy) return
@@ -144,7 +149,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col px-4 py-8">
       <div className="mb-2 flex items-center justify-between text-sm text-neutral-600">
-        <Link href={`/books/${bookSlug}`} className="hover:underline">← {bookName}</Link>
+        <Link href={backHref} className="hover:underline">← {bookName}</Link>
         <span>{index + 1} / {items.length}</span>
       </div>
       <ProgressBar value={index + 1} max={items.length} />
@@ -183,30 +188,39 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
                   : 'idle'
                 return (
                   <OptionButton key={opt} state={st as 'idle'|'correct'|'wrong'|'dimmed'} disabled={!!result} onClick={() => onPick(opt)}>
-                    {opt}
+                    {shortDef(opt)}
                   </OptionButton>
                 )
               })}
             </div>
           )}
           {q.type !== 'mc' && (
-            <form onSubmit={onSubmitText} className="flex flex-col items-center gap-2">
-              <input autoFocus value={input} onChange={(e) => setInput(e.target.value)} disabled={!!result}
-                className="w-full rounded-control border-2 border-primary-200 bg-surface px-4 py-3 text-center text-lg text-neutral-900 focus:border-primary-500 focus:outline-none"
-                placeholder="輸入英文單字" />
-              {!result && <Button type="submit" fullWidth>作答</Button>}
-            </form>
+            <div className="flex flex-col items-center gap-5">
+              <LetterBoxes key={q.wordId} answer={q.answer} disabled={!!result} revealed={!!result} onComplete={(v) => { if (!result) { setInput(v); void commit(v) } }} />
+              {!result && (
+                <button
+                  type="button"
+                  onClick={reveal}
+                  disabled={busy}
+                  className="inline-flex items-center gap-1.5 rounded-pill border-2 border-neutral-200 bg-surface px-4 py-2 text-sm font-semibold text-neutral-500 transition hover:border-neutral-300 hover:bg-neutral-100 hover:text-neutral-700 disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+                >
+                  <span aria-hidden>💡</span>
+                  不會，看答案
+                </button>
+              )}
+            </div>
           )}
         </div>
 
         {/* feedback */}
         {result && (
           <div className="mt-4">
-            <p className={result.correct ? 'text-success' : 'text-error'}>
+            <p className={`font-bold ${result.correct ? 'text-success' : 'text-error'}`}>
               {result.correct ? '答對了！' : '答錯了'}
             </p>
+            {/* mc has no boxes → show the answer text; typing/cloze already show it in the boxes, just offer TTS */}
             <p className="mt-1 flex items-center justify-center gap-2 text-lg font-semibold text-neutral-900">
-              {q.answer}{q.type !== 'mc' && <TtsButton text={q.answer} />}
+              {q.type === 'mc' ? shortDef(q.answer) : <TtsButton text={q.answer} />}
             </p>
           </div>
         )}

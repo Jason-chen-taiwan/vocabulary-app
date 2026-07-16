@@ -5,6 +5,8 @@ import { ContentRepository } from '@/lib/content/repository'
 import { TtsButton } from '@/components/tts-button'
 import { Card } from '@/components/ui/card'
 
+export const dynamic = 'force-dynamic'
+
 export default async function WordDetailPage({ params }: { params: Promise<{ id: string }> }) {
   if (!(await getCurrentUser())) redirect('/login')
   const { id } = await params

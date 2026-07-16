@@ -14,6 +14,8 @@ import { todayYmd } from '@/lib/gamification/date'
 import { ShareButton } from '@/components/share-card/share-button'
 import type { ShareCardStats } from '@/components/share-card/card-data'
 
+export const dynamic = 'force-dynamic'
+
 export default async function StatsPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')

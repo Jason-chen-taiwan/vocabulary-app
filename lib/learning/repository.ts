@@ -59,22 +59,23 @@ export class LearningRepository {
     await this.db.reviewLog.create({ data: input })
   }
 
-  async listDueCards(userId: string, now: Date, limit: number, wordBookId: string): Promise<{ wordId: string; consecutiveCorrect: number }[]> {
+  // wordBookId omitted → mixed practice across every word book.
+  async listDueCards(userId: string, now: Date, limit: number, wordBookId?: string): Promise<{ wordId: string; consecutiveCorrect: number }[]> {
     const rows = await this.db.userCard.findMany({
-      where: { userId, mastered: false, due: { lte: now }, word: { wordBookId } },
+      where: { userId, mastered: false, due: { lte: now }, ...(wordBookId ? { word: { wordBookId } } : {}) },
       orderBy: { due: 'asc' }, take: limit, select: { wordId: true, consecutiveCorrect: true },
     })
     return rows as { wordId: string; consecutiveCorrect: number }[]
   }
 
-  async listMasteredWordIds(userId: string, wordBookId: string): Promise<string[]> {
-    const rows = await this.db.userCard.findMany({ where: { userId, mastered: true, word: { wordBookId } }, select: { wordId: true } })
+  async listMasteredWordIds(userId: string, wordBookId?: string): Promise<string[]> {
+    const rows = await this.db.userCard.findMany({ where: { userId, mastered: true, ...(wordBookId ? { word: { wordBookId } } : {}) }, select: { wordId: true } })
     return (rows as { wordId: string }[]).map((r) => r.wordId)
   }
 
-  async listNewWordIds(userId: string, wordBookId: string, limit: number): Promise<string[]> {
+  async listNewWordIds(userId: string, wordBookId: string | undefined, limit: number): Promise<string[]> {
     const rows = await this.db.word.findMany({
-      where: { wordBookId, userCards: { none: { userId } } },
+      where: { ...(wordBookId ? { wordBookId } : {}), userCards: { none: { userId } } },
       orderBy: { order: 'asc' }, take: limit, select: { id: true },
     })
     return (rows as { id: string }[]).map((r) => r.id)

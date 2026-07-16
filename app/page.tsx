@@ -13,6 +13,8 @@ import { Mascot, moodForHome } from '@/components/ui/mascot'
 import { ShopRepository, type Equipped } from '@/lib/shop/repository'
 import { PwaInstallBanner } from '@/components/pwa-install-banner'
 
+export const dynamic = 'force-dynamic'
+
 export default async function Home() {
   const user = await getCurrentUser()
   if (!user) {
