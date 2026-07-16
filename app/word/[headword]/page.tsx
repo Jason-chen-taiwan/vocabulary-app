@@ -1,3 +1,4 @@
+import { cache } from 'react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -5,9 +6,12 @@ import { ContentRepository } from '@/lib/content/repository'
 import { TtsButton } from '@/components/tts-button'
 import { Card } from '@/components/ui/card'
 
+// generateMetadata 與頁面本體共用同一次查詢（React request-scoped cache），避免每次瀏覽打兩次 DB。
+const getPublicWord = cache((headword: string) => new ContentRepository().getPublicWordByHeadword(headword))
+
 export async function generateMetadata({ params }: { params: Promise<{ headword: string }> }): Promise<Metadata> {
   const { headword } = await params
-  const word = await new ContentRepository().getPublicWordByHeadword(headword)
+  const word = await getPublicWord(headword)
   if (!word) return { title: '找不到單字｜VocabApp' }
   const firstExample = word.examples[0]?.sentence ?? ''
   return {
@@ -19,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ headword:
 
 export default async function PublicWordPage({ params }: { params: Promise<{ headword: string }> }) {
   const { headword } = await params
-  const word = await new ContentRepository().getPublicWordByHeadword(headword)
+  const word = await getPublicWord(headword)
   if (!word) notFound()
 
   return (
