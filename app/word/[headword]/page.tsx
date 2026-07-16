@@ -20,7 +20,16 @@ export async function generateMetadata({ params }: { params: Promise<{ headword:
     title,
     description,
     alternates: { canonical: `/word/${encodeURIComponent(word.headword)}` },
-    openGraph: { title, description, url: `/word/${encodeURIComponent(word.headword)}` },
+    // openGraph 是整欄取代、非合併，覆寫 layout 的同時要把 og:image/siteName/type 一併帶上，
+    // 否則 LINE/FB 分享預覽只剩文字。
+    openGraph: {
+      title,
+      description,
+      url: `/word/${encodeURIComponent(word.headword)}`,
+      siteName: 'VocabApp',
+      type: 'article',
+      images: ['/og.png'],
+    },
   }
 }
 
