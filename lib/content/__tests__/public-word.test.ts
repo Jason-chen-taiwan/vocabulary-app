@@ -63,6 +63,7 @@ describe('ContentRepository 公開查詢', () => {
     const w = await repo.getPublicWordByHeadword('  Invoice ')
     expect(db.word.findMany).toHaveBeenCalledWith({
       where: { headword: { equals: 'invoice', mode: 'insensitive' } },
+      orderBy: [{ wordBook: { slug: 'asc' } }, { id: 'asc' }],
       include: {
         examples: { orderBy: { order: 'asc' } },
         wordBook: { select: { slug: true, name: true } },

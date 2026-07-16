@@ -82,6 +82,7 @@ export class ContentRepository {
     if (!hw) return null
     const rows = await this.db.word.findMany({
       where: { headword: { equals: hw, mode: 'insensitive' } },
+      orderBy: [{ wordBook: { slug: 'asc' } }, { id: 'asc' }],
       include: {
         examples: { orderBy: { order: 'asc' } },
         wordBook: { select: { slug: true, name: true } },
