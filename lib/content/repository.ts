@@ -3,6 +3,7 @@ import {
   toWordBookData, toWordData, toWordWithExamples,
   type WordBookData, type WordData, type WordWithExamples,
 } from './types'
+import { mergePublicWordRows, type PublicWordData, type PublicWordRow } from './public-word'
 
 // Minimal structural type of the Prisma delegates we use — lets tests inject a mock.
 interface ContentDb {
@@ -73,5 +74,29 @@ export class ContentRepository {
     const row = (await this.db.word.findUnique({ where: { id }, select: { headword: true, definitionZh: true } })) as
       { headword: string; definitionZh: string } | null
     return row
+  }
+
+  /** 公開單字頁用：跨書合併同一 headword。匿名可呼叫，無使用者資料。 */
+  async getPublicWordByHeadword(headword: string): Promise<PublicWordData | null> {
+    const hw = headword.trim().toLowerCase()
+    if (!hw) return null
+    const rows = await this.db.word.findMany({
+      where: { headword: { equals: hw, mode: 'insensitive' } },
+      include: {
+        examples: { orderBy: { order: 'asc' } },
+        wordBook: { select: { slug: true, name: true } },
+      },
+    })
+    return mergePublicWordRows(rows as PublicWordRow[])
+  }
+
+  /** sitemap 用：全站 headword（小寫、去重、排序）。 */
+  async listAllHeadwords(): Promise<string[]> {
+    const rows = (await this.db.word.findMany({
+      select: { headword: true },
+      distinct: ['headword'],
+      orderBy: { headword: 'asc' },
+    })) as { headword: string }[]
+    return [...new Set(rows.map((r) => r.headword.toLowerCase()))].sort()
   }
 }
