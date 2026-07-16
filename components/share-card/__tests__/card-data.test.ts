@@ -23,4 +23,8 @@ describe('buildShareCardContent', () => {
   it('goalMet false 時標題為進行中語氣', () => {
     expect(buildShareCardContent({ ...base, goalMet: false }).headline).toBe('我正在 VocabApp 累積連續 12 天！')
   })
+
+  it('goalMet false 且 streak 0 時避免尷尬的 0 天文案', () => {
+    expect(buildShareCardContent({ ...base, goalMet: false, streak: 0 }).headline).toBe('我在 VocabApp 練 TOEIC 單字中！')
+  })
 })

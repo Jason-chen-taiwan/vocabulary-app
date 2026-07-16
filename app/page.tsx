@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ContentRepository } from '@/lib/content/repository'
+import type { WordBookData } from '@/lib/content/types'
 import { LandingPage } from '@/components/landing/landing-page'
 import { getCurrentUser } from '@/lib/auth/session'
 import { GamificationBar } from '@/components/gamification-bar'
@@ -16,7 +17,7 @@ export default async function Home() {
   const user = await getCurrentUser()
   if (!user) {
     // 未登入：對外門面。DB 掛了也要能渲染（books 給空陣列）。
-    let books: Awaited<ReturnType<ContentRepository['listWordBooks']>> = []
+    let books: WordBookData[] = []
     try { books = await new ContentRepository().listWordBooks() } catch { /* 靜態內容照常呈現 */ }
     return <LandingPage books={books} />
   }

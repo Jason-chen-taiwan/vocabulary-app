@@ -19,7 +19,9 @@ export function buildShareCardContent(s: ShareCardStats): ShareCardContent {
     ? s.streak > 0
       ? `我在 VocabApp 連續達標 ${s.streak} 天！`
       : '我今天在 VocabApp 完成單字複習！'
-    : `我正在 VocabApp 累積連續 ${s.streak} 天！`
+    : s.streak > 0
+      ? `我正在 VocabApp 累積連續 ${s.streak} 天！`
+      : '我在 VocabApp 練 TOEIC 單字中！'
   return {
     headline,
     lines: [

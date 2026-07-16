@@ -56,13 +56,13 @@ describe('mergePublicWordRows', () => {
 })
 
 describe('ContentRepository 公開查詢', () => {
-  it('getPublicWordByHeadword 正規化輸入並以 insensitive 查詢', async () => {
+  it('getPublicWordByHeadword 正規化輸入並查詢', async () => {
     const db = makeDb()
     db.word.findMany.mockResolvedValue([rowA])
     const repo = new ContentRepository(db as any)
     const w = await repo.getPublicWordByHeadword('  Invoice ')
     expect(db.word.findMany).toHaveBeenCalledWith({
-      where: { headword: { equals: 'invoice', mode: 'insensitive' } },
+      where: { headword: 'invoice' },
       orderBy: [{ wordBook: { slug: 'asc' } }, { id: 'asc' }],
       include: {
         examples: { orderBy: { order: 'asc' } },

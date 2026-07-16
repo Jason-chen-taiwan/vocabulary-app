@@ -24,7 +24,7 @@ export default async function StatsPage() {
   let share: ShareCardStats = { streak: 0, level: 1, badgeCount: 0, goalMet: false, dateLabel: '' }
   try {
     const repo = new GamificationRepository()
-    const [{ state, timezone, dailyGoal }, badgeKeys] = await Promise.all([
+    const [{ state, timezone }, badgeKeys] = await Promise.all([
       repo.getContext(user.id),
       repo.listBadgeKeys(user.id),
     ])
@@ -33,7 +33,7 @@ export default async function StatsPage() {
       streak: state?.streak ?? 0,
       level: state?.level ?? 1,
       badgeCount: badgeKeys.length,
-      goalMet: state ? state.lastReviewDate === today && state.reviewsToday >= dailyGoal : false,
+      goalMet: state ? state.lastGoalDate === today : false,
       dateLabel: new Intl.DateTimeFormat('zh-TW', { dateStyle: 'long', timeZone: timezone }).format(new Date()),
     }
   } catch { /* 分享卡用預設值，不阻斷頁面 */ }

@@ -8,13 +8,16 @@ const ORANGE = '#FF6A3D'
 const CREAM = '#FFF7F2'
 const INK = '#1A1A1A'
 const GREY = '#555555'
-const FONT = '"Nunito", "Noto Sans TC", sans-serif'
 
 export function drawShareCard(canvas: HTMLCanvasElement, content: ShareCardContent, mascot: HTMLImageElement | null): void {
   canvas.width = CARD_W
   canvas.height = CARD_H
   const ctx = canvas.getContext('2d')
   if (!ctx) return
+
+  // canvas 讀不到 next/font 產生的混淆 family 名稱，module-level 常數會抓不到；
+  // 改在畫的當下從 DOM 讀取實際套用中的字型。
+  const FONT = (typeof getComputedStyle !== 'undefined' && getComputedStyle(canvas.ownerDocument.body).fontFamily) || 'sans-serif'
 
   ctx.fillStyle = ORANGE
   ctx.fillRect(0, 0, CARD_W, CARD_H)

@@ -81,7 +81,7 @@ export class ContentRepository {
     const hw = headword.trim().toLowerCase()
     if (!hw) return null
     const rows = await this.db.word.findMany({
-      where: { headword: { equals: hw, mode: 'insensitive' } },
+      where: { headword: hw },
       orderBy: [{ wordBook: { slug: 'asc' } }, { id: 'asc' }],
       include: {
         examples: { orderBy: { order: 'asc' } },

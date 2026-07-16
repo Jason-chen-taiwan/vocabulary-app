@@ -14,10 +14,13 @@ export async function generateMetadata({ params }: { params: Promise<{ headword:
   const word = await getPublicWord(headword)
   if (!word) return { title: '找不到單字｜VocabApp' }
   const firstExample = word.examples[0]?.sentence ?? ''
+  const title = `${word.headword} 中文意思・例句｜VocabApp`
+  const description = `${word.headword}：${word.definitionZh}。${firstExample}`
   return {
-    title: `${word.headword} 中文意思・例句｜VocabApp`,
-    description: `${word.headword}：${word.definitionZh}。${firstExample}`,
+    title,
+    description,
     alternates: { canonical: `/word/${encodeURIComponent(word.headword)}` },
+    openGraph: { title, description, url: `/word/${encodeURIComponent(word.headword)}` },
   }
 }
 
@@ -49,20 +52,24 @@ export default async function PublicWordPage({ params }: { params: Promise<{ hea
         ))}
       </div>
 
-      <h2 className="mt-6 mb-2 text-sm font-bold text-neutral-600">例句</h2>
-      <ul className="space-y-3">
-        {word.examples.map((e) => (
-          <li key={e.id}>
-            <Card className="p-4">
-              <div className="flex items-start gap-2">
-                <p className="flex-1 text-neutral-900">{e.sentence}</p>
-                <TtsButton text={e.sentence} />
-              </div>
-              <p className="mt-1 text-sm text-neutral-600">{e.translationZh}</p>
-            </Card>
-          </li>
-        ))}
-      </ul>
+      {word.examples.length > 0 && (
+        <>
+          <h2 className="mt-6 mb-2 text-sm font-bold text-neutral-600">例句</h2>
+          <ul className="space-y-3">
+            {word.examples.map((e) => (
+              <li key={e.id}>
+                <Card className="p-4">
+                  <div className="flex items-start gap-2">
+                    <p className="flex-1 text-neutral-900">{e.sentence}</p>
+                    <TtsButton text={e.sentence} />
+                  </div>
+                  <p className="mt-1 text-sm text-neutral-600">{e.translationZh}</p>
+                </Card>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
 
       <Card className="mt-8 flex flex-col items-center gap-3 p-6 text-center">
         <p className="font-bold text-neutral-900">想把「{word.headword}」記進長期記憶？</p>
