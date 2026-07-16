@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import { redirect } from 'next/navigation'
+import { ContentRepository } from '@/lib/content/repository'
+import type { WordBookData } from '@/lib/content/types'
+import { LandingPage } from '@/components/landing/landing-page'
 import { getCurrentUser } from '@/lib/auth/session'
 import { GamificationBar } from '@/components/gamification-bar'
 import { GamificationRepository } from '@/lib/gamification/repository'
@@ -13,7 +15,12 @@ import { PwaInstallBanner } from '@/components/pwa-install-banner'
 
 export default async function Home() {
   const user = await getCurrentUser()
-  if (!user) redirect('/login')
+  if (!user) {
+    // 未登入：對外門面。DB 掛了也要能渲染（books 給空陣列）。
+    let books: WordBookData[] = []
+    try { books = await new ContentRepository().listWordBooks() } catch { /* 靜態內容照常呈現 */ }
+    return <LandingPage books={books} />
+  }
 
   let done = 0, goal = 20, streak = 0, longest = 0
   let equipped: Equipped = { head: null, face: null, neck: null }
@@ -60,7 +67,7 @@ export default async function Home() {
 
         <Link href="/leaderboard" className="text-sm font-bold text-primary-600 hover:underline">查看排行榜 🏆</Link>
         <Link href="/shop" className="text-sm font-bold text-primary-600 hover:underline">前往商店 🛍️</Link>
-        <Link href="/stats" className="text-sm font-bold text-primary-600 hover:underline">學習數據 📊</Link>
+        <Link href="/stats" className="text-sm font-bold text-primary-600 hover:underline">學習數據與分享 📊</Link>
 
         <SignOutButton />
       </main>

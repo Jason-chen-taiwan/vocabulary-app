@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FF6A3D"/>
+  <rect x="40" y="40" width="1120" height="550" rx="36" fill="#FFF7F2"/>
+  <!-- 簡化版小橙狐（自包含，避免外部引用在 librsvg 失效） -->
+  <g transform="translate(120,170)">
+    <polygon points="30,60 10,-10 75,35" fill="#FF6A3D" stroke="#1A1A1A" stroke-width="7" stroke-linejoin="round"/>
+    <polygon points="210,60 230,-10 165,35" fill="#FF6A3D" stroke="#1A1A1A" stroke-width="7" stroke-linejoin="round"/>
+    <ellipse cx="120" cy="140" rx="115" ry="105" fill="#FF6A3D" stroke="#1A1A1A" stroke-width="7"/>
+    <ellipse cx="120" cy="185" rx="70" ry="52" fill="#FFF7F2"/>
+    <circle cx="78" cy="120" r="12" fill="#1A1A1A"/>
+    <circle cx="162" cy="120" r="12" fill="#1A1A1A"/>
+    <ellipse cx="120" cy="168" rx="14" ry="10" fill="#1A1A1A"/>
+    <path d="M96 200 q24 18 48 0" stroke="#1A1A1A" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="480" y="270" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="62" font-weight="800" fill="#1A1A1A">VocabApp 字彙學習</text>
+  <text x="480" y="350" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="40" fill="#555555">TOEIC 單字，用科學排程背起來</text>
+  <text x="480" y="470" font-family="Segoe UI, Noto Sans TC, sans-serif" font-size="34" font-weight="700" fill="#FF6A3D">0stack.org・免費・離線可用</text>
+</svg>
