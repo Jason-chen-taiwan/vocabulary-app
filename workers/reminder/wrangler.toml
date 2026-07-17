@@ -8,4 +8,4 @@ crons = ["0 * * * *"]
 
 [[kv_namespaces]]
 binding = "REMINDER_LOCKS"
-id = "<create via: wrangler kv namespace create REMINDER_LOCKS>"
+id = "6b0deb63eb124dae88aeabf5ef7ff54f"

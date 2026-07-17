@@ -51,6 +51,10 @@ jobs:
           AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
           AUTH_GOOGLE_ID: ${{ secrets.AUTH_GOOGLE_ID }}
           AUTH_GOOGLE_SECRET: ${{ secrets.AUTH_GOOGLE_SECRET }}
+          # VAPID public key is public by design (ships in the client bundle),
+          # so it lives here in plaintext, not in a repo secret. The private
+          # half exists only as a vocab-reminder Worker secret.
+          NEXT_PUBLIC_VAPID_PUBLIC_KEY: BOAluC_Fn369or-pnOoB8-Ts4oLZXuIdLr9a6SvGKB5XUnBTEPoni1C_nNPd8u3qOlNRIFhtM6NUVADP6nSPmqg
 
       - name: Deploy to Cloudflare
         run: npx wrangler deploy
