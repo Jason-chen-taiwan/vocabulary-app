@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getCurrentUser } from '@/lib/auth/session'
 import { UserSettingsRepository } from '@/lib/user/settings'
 import { SettingsForm } from './form'
+import { ReminderForm } from './reminder-form'
 
 export const dynamic = 'force-dynamic'
 
@@ -11,6 +12,7 @@ export default async function SettingsPage() {
   if (!user) redirect('/login')
 
   const s = await new UserSettingsRepository().get(user.id)
+  const r = await new UserSettingsRepository().getReminder(user.id)
 
   return (
     <main className="mx-auto w-full max-w-xl px-4 py-8">
@@ -25,6 +27,7 @@ export default async function SettingsPage() {
         initialName={s.displayName ?? s.name ?? ''}
         initialOptIn={s.leaderboardOptIn}
       />
+      <ReminderForm initialEnabled={r.reminderEnabled} initialHour={r.reminderHour} />
     </main>
   )
 }
