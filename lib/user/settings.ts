@@ -39,4 +39,23 @@ export class UserSettingsRepository {
   ): Promise<void> {
     await this.db.user.update({ where: { id: userId }, data })
   }
+
+  async getReminder(userId: string): Promise<{ reminderEnabled: boolean; reminderHour: number }> {
+    const row = (await this.db.user.findUnique({
+      where: { id: userId },
+      select: { reminderEnabled: true, reminderHour: true },
+    })) as { reminderEnabled: boolean; reminderHour: number } | null
+    return row ?? { reminderEnabled: false, reminderHour: 20 }
+  }
+
+  async updateReminder(
+    userId: string,
+    data: { reminderEnabled: boolean; reminderHour: number }
+  ): Promise<void> {
+    const hour = Math.max(0, Math.min(23, Math.trunc(data.reminderHour)))
+    await this.db.user.update({
+      where: { id: userId },
+      data: { reminderEnabled: data.reminderEnabled, reminderHour: hour },
+    })
+  }
 }
