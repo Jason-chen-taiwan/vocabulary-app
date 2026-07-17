@@ -6,7 +6,8 @@ import { scheduler } from '@/lib/learning/scheduler'
 import { eventBus } from '@/lib/events/bus'
 import { submitAnswer, finishSession } from '@/lib/learning/submit'
 import { gamificationService } from '@/lib/gamification/service'
-import { checkAnswer, type QuestionType } from '@/lib/learning/question'
+import type { QuestionType } from '@/lib/learning/question'
+import { judgeAnswer } from '@/lib/learning/judge'
 import type { ReviewReward, SessionReward } from '@/lib/gamification/types'
 
 export async function submitAnswerAction(
@@ -19,9 +20,7 @@ export async function submitAnswerAction(
   const word = await new ContentRepository().getWordCore(wordId)
   if (!word) return { ok: false, mastered: false, correct: false, reward: null }
   // 後端權威判定：不信任前端送的對錯
-  const correct = questionType === 'mc'
-    ? userAnswer === word.definitionZh
-    : checkAnswer(userAnswer, word.headword)
+  const correct = judgeAnswer(word, questionType, userAnswer)
   const now = new Date()
   const { mastered } = await submitAnswer(
     { userId: user.id, wordId, correct, now },
