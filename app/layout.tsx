@@ -3,6 +3,8 @@ import Script from "next/script";
 import { Nunito, Noto_Sans_TC } from "next/font/google";
 import "./globals.css";
 import { PwaRegister } from "@/components/pwa-register";
+import { OfflinePrefetch } from "@/components/offline-prefetch";
+import { SyncOnReconnect } from "@/components/sync-on-reconnect";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -65,6 +67,8 @@ export default function RootLayout({
         </Script>
         {children}
         <PwaRegister />
+        <OfflinePrefetch />
+        <SyncOnReconnect />
       </body>
     </html>
   );
