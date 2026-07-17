@@ -10,17 +10,28 @@ import { Button } from '@/components/ui/button'
 import { LetterBoxes } from '@/components/letter-boxes'
 import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
-import { checkAnswer, sample, seededRng, shortDef, type Question } from '@/lib/learning/question'
+import { checkAnswer, sample, seededRng, shortDef, type Question, type QuestionType } from '@/lib/learning/question'
 import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
 import type { Equipped } from '@/lib/shop/repository'
+import type { ReviewReward, SessionReward } from '@/lib/gamification/types'
 
 export interface ReviewItem {
   question: Question
   isSpotCheck: boolean
 }
 
-export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookName: string; bookSlug: string; items: ReviewItem[]; equipped?: Equipped }) {
+export type SubmitAnswerFn = (wordId: string, type: QuestionType, userAnswer: string) =>
+  Promise<{ ok: boolean; mastered: boolean; correct: boolean; reward: ReviewReward | null }>
+export type FinishSessionFn = (reviewed: number, correct: number) =>
+  Promise<{ ok: boolean; reward: SessionReward | null }>
+
+export function ReviewSession({ bookName, bookSlug, items, equipped, submit, finish, offlineMode }: {
+  bookName: string; bookSlug: string; items: ReviewItem[]; equipped?: Equipped
+  submit?: SubmitAnswerFn; finish?: FinishSessionFn; offlineMode?: boolean
+}) {
   const router = useRouter()
+  const submitFn: SubmitAnswerFn = submit ?? submitAnswerAction
+  const finishFn: FinishSessionFn = finish ?? finishSessionAction
   // mixed-practice slug has no book page; send "back" to the book list instead.
   const backHref = bookSlug === 'all' ? '/books' : `/books/${bookSlug}`
   const [index, setIndex] = useState(0)
@@ -64,16 +75,20 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
         <Mascot mood={moodForSessionEnd({ correct: correctCount, total: finishedTotal })} size={132} className="mx-auto" equipped={equipped} />
         <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
         <p className="text-sm text-neutral-600">本次複習了 {finishedTotal} 個單字</p>
-        <div className="mt-2 grid w-full max-w-xs gap-2">
-          <CelebrateCard tone="reward">+{rewards.xp} XP</CelebrateCard>
-          {rewards.coins > 0 && <CelebrateCard tone="coin">+{rewards.coins} 🪙</CelebrateCard>}
-          {rewards.level !== null && <CelebrateCard tone="level">升級到 Lv.{rewards.level}！</CelebrateCard>}
-          {sessionPerfect && <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>}
-          {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
-        </div>
+        {offlineMode ? (
+          <p className="mt-2 text-sm font-semibold text-neutral-600">已記錄 {finishedTotal} 題，回線後入帳</p>
+        ) : (
+          <div className="mt-2 grid w-full max-w-xs gap-2">
+            <CelebrateCard tone="reward">+{rewards.xp} XP</CelebrateCard>
+            {rewards.coins > 0 && <CelebrateCard tone="coin">+{rewards.coins} 🪙</CelebrateCard>}
+            {rewards.level !== null && <CelebrateCard tone="level">升級到 Lv.{rewards.level}！</CelebrateCard>}
+            {sessionPerfect && <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>}
+            {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
+          </div>
+        )}
         <div className="mt-6 flex justify-center gap-4">
           <Link href={backHref} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
-          <button onClick={restart} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>
+          {!offlineMode && <button onClick={restart} className="text-sm font-bold text-primary-600 hover:underline">再來一輪</button>}
         </div>
       </main>
     )
@@ -104,7 +119,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
     setResult({ correct: localCorrect })
     if (localCorrect) setCorrectCount((n) => n + 1)
     try {
-      const res = await submitAnswerAction(q.wordId, q.type, userAnswer)
+      const res = await submitFn(q.wordId, q.type, userAnswer)
       const r = res.reward
       if (r) {
         setRewards((prev) => ({
@@ -130,7 +145,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
       setBusy(true)
       setFinishedTotal(items.length)
       try {
-        const res = await finishSessionAction(items.length, correctCount)
+        const res = await finishFn(items.length, correctCount)
         if (res.reward) {
           setSessionPerfect(res.reward.perfect)
           if (res.reward.newBadges.length) {
@@ -139,7 +154,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
         }
       } catch { /* ignore */ }
       setDone(true)
-      router.refresh()
+      if (!offlineMode) router.refresh()
       return
     }
     setIndex(index + 1)
