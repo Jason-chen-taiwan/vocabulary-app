@@ -33,7 +33,7 @@
 **同步（回線）**
 - 觸發：`online` 事件、app 啟動時檢查佇列非空。
 - `POST /api/sync` body `{ entries: [{uuid, wordId, questionType, userAnswer, answeredAt}], session?: {reviewed, correct, finishedAt} }`。
-- server：auth → zod 驗證 → 逐筆以 uuid 去重（已入帳者跳過）→ `judgeAnswer` 重判 → 按 `answeredAt` 升冪重放 `submitAnswer`（FSRS）＋ `gamificationService.applyReview` → 若帶 session 摘要則 `applySessionFinish`（reviewed/correct 以 server 重判結果重算，不信前端數字）→ 回 `{ applied, skipped, reward 彙總 }`。
+- server：auth → 手寫驗證（比照 push handler 模式，零新依賴） → 逐筆以 uuid 去重（已入帳者跳過）→ `judgeAnswer` 重判 → 按 `answeredAt` 升冪重放 `submitAnswer`（FSRS）＋ `gamificationService.applyReview` → 若帶 session 摘要則 `applySessionFinish`（reviewed/correct 以 server 重判結果重算，不信前端數字）→ 回 `{ applied, skipped, reward 彙總 }`。
 - 前端：成功→清佇列＋toast「離線複習 N 題已入帳 +XX XP」；失敗→保留佇列下次再試；部分成功→依 server 回傳的 per-entry 結果只清已入帳者。
 
 ## §2 資料模型
@@ -68,7 +68,7 @@ lib/learning/
   judge.ts                    judgeAnswer(word, questionType, userAnswer) 純函式
                               （自 submitAnswerAction 抽出，線上 action 與 /api/sync 共用）
 
-app/api/sync/route.ts         POST：auth → zod → 去重 → 重判 → 時序重放 → 獎勵彙總
+app/api/sync/route.ts         POST：auth → 手寫驗證（比照 push handler 模式，零新依賴） → 去重 → 重判 → 時序重放 → 獎勵彙總
 app/api/offline/pack/route.ts GET：auth → 有進度書的今日 session 包
 
 app/learn/[slug]/             review-session 的「送出作答」抽成注入 prop：
