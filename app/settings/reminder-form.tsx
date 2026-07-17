@@ -35,7 +35,7 @@ async function subscribeBrowser(): Promise<boolean> {
 }
 
 async function unsubscribeBrowser(): Promise<void> {
-  if (!('serviceWorker' in navigator)) return
+  if (!('serviceWorker' in navigator) || !('PushManager' in window)) return
   const reg = await navigator.serviceWorker.ready
   const sub = await reg.pushManager.getSubscription()
   if (!sub) return
