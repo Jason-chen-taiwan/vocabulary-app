@@ -163,6 +163,7 @@ model ReviewLog {
   lastElapsedDays Int
   scheduledDays   Int
   reviewedAt      DateTime @default(now())
+  clientRef       String?  @unique // 離線作答 uuid；同步冪等去重（重送安全）
   userCard        UserCard @relation(fields: [userCardId], references: [id], onDelete: Cascade)
 
   @@index([userCardId])

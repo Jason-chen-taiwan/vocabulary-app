@@ -9,7 +9,7 @@ interface LearningDb {
     findMany(args: unknown): Promise<unknown[]>
   }
   word: { findMany(args: unknown): Promise<unknown[]> }
-  reviewLog: { create(args: unknown): Promise<unknown> }
+  reviewLog: { create(args: unknown): Promise<unknown>; findMany(args: unknown): Promise<unknown[]> }
 }
 
 function stateData(state: CardState) {
@@ -23,7 +23,7 @@ function stateData(state: CardState) {
 export interface ReviewLogInput {
   userCardId: string; rating: number; state: number; due: Date
   stability: number; difficulty: number; elapsedDays: number
-  lastElapsedDays: number; scheduledDays: number
+  lastElapsedDays: number; scheduledDays: number; clientRef?: string
 }
 
 export interface CardProgress {
@@ -79,5 +79,25 @@ export class LearningRepository {
       orderBy: { order: 'asc' }, take: limit, select: { id: true },
     })
     return (rows as { id: string }[]).map((r) => r.id)
+  }
+
+  // 同步冪等：回傳 refs 中已入帳（ReviewLog.clientRef 已存在）的子集。
+  async listClientRefs(refs: string[]): Promise<string[]> {
+    if (refs.length === 0) return []
+    const rows = (await this.db.reviewLog.findMany({
+      where: { clientRef: { in: refs } }, select: { clientRef: true },
+    })) as { clientRef: string }[]
+    return rows.map((r) => r.clientRef)
+  }
+
+  // 有學習進度（存在 UserCard）的單字書，離線預抓包的範圍。
+  async listStartedBooks(userId: string): Promise<{ id: string; slug: string; name: string }[]> {
+    const rows = (await this.db.userCard.findMany({
+      where: { userId },
+      select: { word: { select: { wordBook: { select: { id: true, slug: true, name: true } } } } },
+    })) as { word: { wordBook: { id: string; slug: string; name: string } } }[]
+    const byId = new Map<string, { id: string; slug: string; name: string }>()
+    for (const r of rows) byId.set(r.word.wordBook.id, r.word.wordBook)
+    return [...byId.values()]
   }
 }
