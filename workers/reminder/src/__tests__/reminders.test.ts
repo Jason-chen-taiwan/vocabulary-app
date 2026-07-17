@@ -72,4 +72,43 @@ describe('runReminders', () => {
     await runReminders(d as never)
     expect(d.prune).toHaveBeenCalledWith('e')
   })
+
+  it('sets lock exactly once when first sub is 410 but second succeeds', async () => {
+    const twoSubs = {
+      ...taipeiUser,
+      subscriptions: [
+        { endpoint: 'e1', p256dh: 'k', auth: 'a' },
+        { endpoint: 'e2', p256dh: 'k', auth: 'a' },
+      ],
+    }
+    const send = vi
+      .fn()
+      .mockResolvedValueOnce({ status: 410 })
+      .mockResolvedValueOnce({ status: 201 })
+    const d = deps({ listDue: vi.fn(async () => [twoSubs]), send })
+    const res = await runReminders(d as never)
+    expect(d.prune).toHaveBeenCalledWith('e1')
+    expect(d.lockSet).toHaveBeenCalledTimes(1)
+    expect(res.sent).toBe(1)
+    expect(res.pruned).toBe(1)
+  })
+
+  it('skips a sub whose send throws (transient error) without aborting the run', async () => {
+    const twoSubs = {
+      ...taipeiUser,
+      subscriptions: [
+        { endpoint: 'e1', p256dh: 'k', auth: 'a' },
+        { endpoint: 'e2', p256dh: 'k', auth: 'a' },
+      ],
+    }
+    const send = vi
+      .fn()
+      .mockRejectedValueOnce(new Error('network timeout'))
+      .mockResolvedValueOnce({ status: 201 })
+    const d = deps({ listDue: vi.fn(async () => [twoSubs]), send })
+    const res = await runReminders(d as never)
+    expect(send).toHaveBeenCalledTimes(2)
+    expect(d.prune).not.toHaveBeenCalled()
+    expect(res.sent).toBe(1)
+  })
 })

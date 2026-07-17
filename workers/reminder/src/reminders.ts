@@ -48,7 +48,14 @@ export async function runReminders(deps: RunDeps): Promise<{ sent: number; prune
     if (await deps.lockGet(key)) continue
     let delivered = false
     for (const sub of u.subscriptions) {
-      const res = await deps.send(sub)
+      // A transient send error (network/DNS timeout with no HTTP status) must not
+      // abort the whole cron run — skip this sub and move on.
+      let res: { status: number }
+      try {
+        res = await deps.send(sub)
+      } catch {
+        continue
+      }
       if (res.status === 410 || res.status === 404) {
         await deps.prune(sub.endpoint)
         pruned++
