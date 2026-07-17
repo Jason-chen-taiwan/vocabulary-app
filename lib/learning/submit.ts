@@ -5,7 +5,7 @@ import type { LearningRepository } from './repository'
 import type { EventBus } from '@/lib/events/bus'
 
 export async function submitAnswer(
-  input: { userId: string; wordId: string; correct: boolean; now: Date },
+  input: { userId: string; wordId: string; correct: boolean; now: Date; clientRef?: string },
   deps: { learning: LearningRepository; scheduler: SchedulerService; bus: EventBus },
 ): Promise<{ mastered: boolean }> {
   const { userId, wordId, correct, now } = input
@@ -29,6 +29,7 @@ export async function submitAnswer(
     elapsedDays: next.elapsedDays,
     lastElapsedDays: before.elapsedDays,
     scheduledDays: next.scheduledDays,
+    clientRef: input.clientRef,
   })
   await deps.bus.publish({ type: 'ReviewCompleted', userId, wordId, rating, correct, mastered, at: now })
   return { mastered }

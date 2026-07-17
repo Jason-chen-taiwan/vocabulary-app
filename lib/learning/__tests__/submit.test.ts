@@ -43,6 +43,12 @@ describe('submitAnswer', () => {
     expect(d.learning.saveCard).toHaveBeenCalledWith('u1', 'w1', reviewed, { consecutiveCorrect: 0, mastered: false, exists: true })
     expect(result).toEqual({ mastered: false })
   })
+
+  it('clientRef 有給時寫進 review log', async () => {
+    const d = deps(null)
+    await submitAnswer({ userId: 'u1', wordId: 'w1', correct: true, now, clientRef: 'uuid-9' }, d as any)
+    expect(d.learning.createReviewLog).toHaveBeenCalledWith(expect.objectContaining({ clientRef: 'uuid-9' }))
+  })
 })
 
 describe('finishSession', () => {
