@@ -21,6 +21,8 @@ model User {
   tier          String    @default("free")
   timezone      String    @default("Asia/Taipei")
   dailyGoal     Int       @default(20)
+  reminderEnabled  Boolean  @default(false)
+  reminderHour     Int      @default(20)
   displayName      String?
   leaderboardOptIn Boolean  @default(false)
   emailVerified DateTime?
@@ -29,8 +31,21 @@ model User {
   cards         UserCard[]
   gamification  GamificationState?
   items         UserItem[]
+  pushSubscriptions PushSubscription[]
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
+}
+
+model PushSubscription {
+  id        String   @id @default(cuid())
+  userId    String
+  endpoint  String   @unique
+  p256dh    String
+  auth      String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 model Account {
