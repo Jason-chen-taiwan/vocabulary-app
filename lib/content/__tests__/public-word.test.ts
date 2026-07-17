@@ -50,7 +50,7 @@ describe('mergePublicWordRows', () => {
   it('首筆欄位為 null 時向後補值', () => {
     const w = mergePublicWordRows([{ ...rowA, phonetic: null }, rowB])
     expect(w?.phonetic).toBeNull() // rowB.phonetic 也是 null
-    const w2 = mergePublicWordRows([{ ...rowB, id: 'x' }, rowA])
+    const w2 = mergePublicWordRows([rowB, rowA])
     expect(w2?.phonetic).toBe('/ˈɪnvɔɪs/') // 首筆 null，取後筆的音標
   })
 })
