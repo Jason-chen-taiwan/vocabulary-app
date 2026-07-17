@@ -7,9 +7,6 @@ function fakeDb(overrides: Record<string, unknown> = {}) {
       upsert: vi.fn(async () => ({})),
       delete: vi.fn(async () => ({})),
     },
-    user: {
-      findMany: vi.fn(async () => []),
-    },
     ...overrides,
   } as never
 }
@@ -33,27 +30,5 @@ describe('PushSubscriptionRepository', () => {
     await repo.deleteByEndpoint('https://push/x')
     expect((db as never as { pushSubscription: { delete: ReturnType<typeof vi.fn> } })
       .pushSubscription.delete).toHaveBeenCalledWith({ where: { endpoint: 'https://push/x' } })
-  })
-
-  it('listDue queries reminderEnabled users with subscriptions and shapes DueUser', async () => {
-    const db = fakeDb({
-      user: {
-        findMany: vi.fn(async () => [
-          {
-            id: 'u1',
-            timezone: 'Asia/Taipei',
-            pushSubscriptions: [{ endpoint: 'e', p256dh: 'k', auth: 'a' }],
-          },
-        ]),
-      },
-    })
-    const repo = new PushSubscriptionRepository(db)
-    const due = await repo.listDue(12)
-    expect(due).toEqual([
-      { userId: 'u1', timezone: 'Asia/Taipei', subscriptions: [{ endpoint: 'e', p256dh: 'k', auth: 'a' }] },
-    ])
-    const call = (db as never as { user: { findMany: ReturnType<typeof vi.fn> } }).user.findMany.mock.calls[0][0]
-    expect(call.where.reminderEnabled).toBe(true)
-    expect(call.where.pushSubscriptions).toEqual({ some: {} })
   })
 })

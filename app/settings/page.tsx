@@ -11,8 +11,9 @@ export default async function SettingsPage() {
   const user = await getCurrentUser()
   if (!user) redirect('/login')
 
-  const s = await new UserSettingsRepository().get(user.id)
-  const r = await new UserSettingsRepository().getReminder(user.id)
+  const settings = new UserSettingsRepository()
+  const s = await settings.get(user.id)
+  const r = await settings.getReminder(user.id)
 
   return (
     <main className="mx-auto w-full max-w-xl px-4 py-8">

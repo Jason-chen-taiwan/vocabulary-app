@@ -1,21 +1,16 @@
 import { getPrisma } from '@/lib/db/client'
-import type { PushSubscriptionData, DueUser } from './types'
+import type { PushSubscriptionData } from './types'
 
 interface PushDb {
   pushSubscription: {
     upsert(a: unknown): Promise<unknown>
     delete(a: unknown): Promise<unknown>
   }
-  user: {
-    findMany(a: unknown): Promise<unknown[]>
-  }
 }
 
-// listDue returns every reminder-enabled user that has at least one subscription.
-// Hour filtering (utcHourFor) happens in the worker, which knows each user's
-// tzOffset — the DB layer just narrows to enabled + subscribed. nowUtcHour is
-// accepted for a future SQL-side hour filter; kept in the signature now so the
-// worker call site is stable.
+// Stores/removes a device's push subscription. The reminder worker reads
+// subscriptions directly via its own SQL (separate build), so this repo only
+// owns the write path from the subscribe/unsubscribe routes.
 export class PushSubscriptionRepository {
   private readonly db: PushDb
   constructor(db?: PushDb) {
@@ -32,22 +27,5 @@ export class PushSubscriptionRepository {
 
   async deleteByEndpoint(endpoint: string): Promise<void> {
     await this.db.pushSubscription.delete({ where: { endpoint } })
-  }
-
-  async listDue(_nowUtcHour: number): Promise<DueUser[]> {
-    const rows = (await this.db.user.findMany({
-      where: { reminderEnabled: true, pushSubscriptions: { some: {} } },
-      select: {
-        id: true,
-        timezone: true,
-        pushSubscriptions: { select: { endpoint: true, p256dh: true, auth: true } },
-      },
-    })) as Array<{ id: string; timezone: string; pushSubscriptions: PushSubscriptionData[] }>
-
-    return rows.map((r) => ({
-      userId: r.id,
-      timezone: r.timezone,
-      subscriptions: r.pushSubscriptions,
-    }))
   }
 }
