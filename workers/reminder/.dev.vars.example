@@ -1,0 +1,8 @@
+# Reminder Worker local dev vars (copy to .dev.vars, fill real values, never commit .dev.vars).
+# Generate the VAPID pair once with: npx web-push generate-vapid-keys --json
+# In production these are set as secrets: cd workers/reminder && npx wrangler secret put <NAME>
+
+VAPID_PUBLIC_KEY=<publicKey from web-push generate-vapid-keys>
+VAPID_PRIVATE_KEY=<privateKey from web-push generate-vapid-keys>
+VAPID_SUBJECT=mailto:you@example.com
+DATABASE_URL=<same Neon HTTP connection string as the main app>
