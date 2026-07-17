@@ -6,3 +6,6 @@ VAPID_PUBLIC_KEY=<publicKey from web-push generate-vapid-keys>
 VAPID_PRIVATE_KEY=<privateKey from web-push generate-vapid-keys>
 VAPID_SUBJECT=mailto:you@example.com
 DATABASE_URL=<same Neon HTTP connection string as the main app>
+# Optional: set to 1 to use the crypto.subtle fallback sender (bodyless push)
+# if the default web-push sender fails under workerd. Leave unset otherwise.
+# PUSH_NATIVE=1

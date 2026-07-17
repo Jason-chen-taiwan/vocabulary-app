@@ -52,6 +52,12 @@ Setup:
    ```
    For local dev, copy `.dev.vars.example` to `.dev.vars` (gitignored) and fill it.
 
+If `web-push` fails to run under workerd at the smoke test, set the worker
+secret `PUSH_NATIVE=1` (`npx wrangler secret put PUSH_NATIVE`, value `1`) to
+switch to the built-in `crypto.subtle` fallback sender — no code change needed.
+The fallback sends a bodyless push; the service worker fills in the reminder
+text from its defaults.
+
 iOS note: push only works after the PWA is added to the home screen.
 
 ## Deploy on Vercel

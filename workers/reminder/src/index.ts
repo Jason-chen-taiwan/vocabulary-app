@@ -1,6 +1,7 @@
 import { neon, type NeonQueryFunction } from '@neondatabase/serverless'
 import { runReminders, type DueUserInput } from './reminders'
 import { sendPush } from './push'
+import { sendPush as sendPushNative } from './push-native'
 
 interface Env {
   DATABASE_URL: string
@@ -8,6 +9,9 @@ interface Env {
   VAPID_PRIVATE_KEY: string
   VAPID_SUBJECT: string
   REMINDER_LOCKS: KVNamespace
+  // Set to "1" to use the crypto.subtle fallback sender instead of web-push
+  // (in case web-push fails to run under workerd). No redeploy of code needed.
+  PUSH_NATIVE?: string
 }
 
 // ponytail: cast to any-mode neon fn to avoid deep generic variance mismatch
@@ -56,7 +60,7 @@ export default {
         listDue: () => listDue(sql),
         lockGet: (k) => env.REMINDER_LOCKS.get(k),
         lockSet: async (k) => { await env.REMINDER_LOCKS.put(k, '1', { expirationTtl: 86_400 }) },
-        send: (sub) => sendPush(sub, vapid),
+        send: (sub) => (env.PUSH_NATIVE === '1' ? sendPushNative(sub, vapid) : sendPush(sub, vapid)),
         prune: async (endpoint) => { await sql`DELETE FROM "PushSubscription" WHERE endpoint = ${endpoint}` },
         nowUtcHour,
         nowUtcMs,
