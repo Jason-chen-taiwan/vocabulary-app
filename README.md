@@ -60,6 +60,10 @@ text from its defaults.
 
 iOS note: push only works after the PWA is added to the home screen.
 
+## 離線複習
+
+在線時 app 會每日自動預抓「有學習進度的書」的今日複習包存 IndexedDB。離線打開 app 會落到 `/offline`：選書作答（本地即時回饋），作答存進同步佇列；回線後自動 `POST /api/sync`——server 逐筆去重（`ReviewLog.clientRef`）、重判對錯、按作答時間重放 FSRS 並入帳獎勵，完成後顯示入帳 toast。
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
