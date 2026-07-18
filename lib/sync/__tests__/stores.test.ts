@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import type { KV, StoreName } from '../kv'
 import { localYmd } from '../kv'
-import { enqueueAnswer, listQueue, removeQueued } from '../queue'
+import { enqueueAnswer, listQueue, removeQueued, bumpAttempts } from '../queue'
 import { savePacks, loadPack, listPacks, removePack } from '../pack-store'
 import { getMeta, setMeta } from '../meta'
 
@@ -35,6 +35,15 @@ describe('queue', () => {
     expect(q.map((e) => e.wordId)).toEqual(['w1', 'w2'])
     await removeQueued(kv, [a.uuid])
     expect((await listQueue(kv)).map((e) => e.wordId)).toEqual(['w2'])
+  })
+
+  it('bumpAttempts 累加次數，滿 3 次移除並回傳該 uuid', async () => {
+    const kv = memKV()
+    const e = await enqueueAnswer(kv, { wordId: 'w9', questionType: 'mc', userAnswer: 'x', answeredAt: '2026-07-18T09:00:00.000Z' })
+    expect(await bumpAttempts(kv, [e.uuid])).toEqual([])
+    expect(await bumpAttempts(kv, [e.uuid])).toEqual([])
+    expect(await bumpAttempts(kv, [e.uuid])).toEqual([e.uuid])
+    expect(await listQueue(kv)).toEqual([])
   })
 })
 

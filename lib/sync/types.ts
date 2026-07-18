@@ -8,6 +8,7 @@ export interface QueueEntry {
   questionType: QuestionType
   userAnswer: string
   answeredAt: string // ISO 8601
+  attempts?: number // server 判為 error 的累計次數；不存在視為 0
 }
 
 // /api/offline/pack 回傳的一本書的今日複習包。
