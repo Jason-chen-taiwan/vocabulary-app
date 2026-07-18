@@ -106,6 +106,41 @@ describe('handleSync', () => {
     expect(res.results.find((r) => r.uuid === 'ok')?.status).toBe('applied')
   })
 
+  it('獎勵入帳一律用 server now，不用回填的 answeredAt（防回填倒退 streak/日期狀態、防刷 daily goal）', async () => {
+    const { deps } = makeDeps()
+    let sawNow: Date | null = null
+    deps.applyReview = async ({ now: n, correct }) => {
+      sawNow = n
+      return { xpGained: correct ? 10 : 2, coinsGained: 0, leveledUpTo: null, dailyGoalMet: false, streak: 1, newBadges: [] }
+    }
+    const threeDaysAgo = new Date(NOW.getTime() - 3 * 24 * 3600_000).toISOString()
+    const res = await handleSync(user, { entries: [entry('a', { answeredAt: threeDaysAgo })] }, deps, NOW)
+    expect(res.ok).toBe(true)
+    expect(sawNow).toEqual(NOW)
+    expect(sawNow).not.toEqual(new Date(threeDaysAgo))
+  })
+
+  it('單筆 submitAnswer 拋出（DB 抖動/clientRef 撞唯一鍵）→ 該筆 error，其餘照常入帳，整體 ok:true', async () => {
+    const { deps } = makeDeps()
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    ;(deps.learning as any).saveCard = async (userId: string, wordId: string) => {
+      if (wordId === 'boom') throw new Error('unique violation on clientRef')
+      return 'c1'
+    }
+    const res = await handleSync(user, {
+      entries: [
+        entry('before', { wordId: 'w1', answeredAt: '2026-07-18T09:00:00.000Z' }),
+        entry('crash', { wordId: 'boom', answeredAt: '2026-07-18T09:30:00.000Z' }),
+        entry('after', { wordId: 'w1', answeredAt: '2026-07-18T10:00:00.000Z' }),
+      ],
+    }, deps, NOW)
+    expect(res.ok).toBe(true)
+    expect(res.results.find((r) => r.uuid === 'crash')?.status).toBe('error')
+    expect(res.results.find((r) => r.uuid === 'before')?.status).toBe('applied')
+    expect(res.results.find((r) => r.uuid === 'after')?.status).toBe('applied')
+    expect(res.reward.applied).toBe(2)
+  })
+
   it('session.finishedAt 有給且有入帳 → applySessionFinish 用 server 重判數字', async () => {
     const { deps } = makeDeps()
     let finishInput: { reviewed: number; correct: number } | null = null

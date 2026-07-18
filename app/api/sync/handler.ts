@@ -56,7 +56,7 @@ export async function handleSync(
   const entries = parseEntries(body?.entries)
   if (!entries) return { ok: false, results: [], reward: EMPTY_REWARD }
 
-  const existing = new Set(await deps.learning.listClientRefs(entries.map((e) => e.uuid)))
+  const existing = new Set(await deps.learning.listClientRefs(user.id, entries.map((e) => e.uuid)))
   const sorted = [...entries].sort((a, b) => a.answeredAt.localeCompare(b.answeredAt))
 
   const results: SyncEntryResult[] = []
@@ -69,28 +69,34 @@ export async function handleSync(
       continue
     }
     seenInBatch.add(e.uuid)
-    const word = await deps.getWordCore(e.wordId)
-    if (!word) {
-      results.push({ uuid: e.uuid, status: 'error' })
-      continue
-    }
-    // 後端權威：重判對錯，不信任前端
-    const correct = judgeAnswer(word, e.questionType, e.userAnswer)
-    const at = clampAnsweredAt(Date.parse(e.answeredAt), now.getTime())
-    const { mastered } = await submitAnswer(
-      { userId: user.id, wordId: e.wordId, correct, now: at, clientRef: e.uuid },
-      { learning: deps.learning, scheduler: deps.scheduler, bus: deps.bus },
-    )
-    results.push({ uuid: e.uuid, status: 'applied' })
-    reward.applied++
-    if (correct) reward.correct++
     try {
-      const r = await deps.applyReview({ userId: user.id, correct, mastered, now: at })
-      reward.xp += r.xpGained
-      reward.coins += r.coinsGained
-      if (r.leveledUpTo !== null) reward.level = r.leveledUpTo
-      reward.badges.push(...r.newBadges)
-    } catch { /* 獎勵失敗不阻斷同步（與線上 action 同策略） */ }
+      const word = await deps.getWordCore(e.wordId)
+      if (!word) {
+        results.push({ uuid: e.uuid, status: 'error' })
+        continue
+      }
+      // 後端權威：重判對錯，不信任前端
+      const correct = judgeAnswer(word, e.questionType, e.userAnswer)
+      const at = clampAnsweredAt(Date.parse(e.answeredAt), now.getTime())
+      const { mastered } = await submitAnswer(
+        { userId: user.id, wordId: e.wordId, correct, now: at, clientRef: e.uuid },
+        { learning: deps.learning, scheduler: deps.scheduler, bus: deps.bus },
+      )
+      results.push({ uuid: e.uuid, status: 'applied' })
+      reward.applied++
+      if (correct) reward.correct++
+      try {
+        // FSRS 用作答時間重放；獎勵一律以 server 當下時間入帳，避免回填時間倒退/刷 streak
+        const r = await deps.applyReview({ userId: user.id, correct, mastered, now })
+        reward.xp += r.xpGained
+        reward.coins += r.coinsGained
+        if (r.leveledUpTo !== null) reward.level = r.leveledUpTo
+        reward.badges.push(...r.newBadges)
+      } catch { /* 獎勵失敗不阻斷同步（與線上 action 同策略） */ }
+    } catch {
+      // 單筆失敗（DB 抖動、clientRef 併發撞唯一鍵等）不可拖垮整批：該筆標記 error，其餘照常
+      results.push({ uuid: e.uuid, status: 'error' })
+    }
   }
 
   const finishedAt = body?.session?.finishedAt

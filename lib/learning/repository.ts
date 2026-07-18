@@ -81,11 +81,13 @@ export class LearningRepository {
     return (rows as { id: string }[]).map((r) => r.id)
   }
 
-  // 同步冪等：回傳 refs 中已入帳（ReviewLog.clientRef 已存在）的子集。
-  async listClientRefs(refs: string[]): Promise<string[]> {
+  // 同步冪等：回傳 refs 中「此使用者」已入帳（ReviewLog.clientRef 已存在）的子集。
+  // DB 上 clientRef 全域 @unique 只是防重寫的最後防線；去重語意必須限定在該使用者名下的卡片，
+  // 否則別人卡片剛好撞到同一 uuid 會誤判成 duplicate，害這筆答案被前端直接丟棄。
+  async listClientRefs(userId: string, refs: string[]): Promise<string[]> {
     if (refs.length === 0) return []
     const rows = (await this.db.reviewLog.findMany({
-      where: { clientRef: { in: refs } }, select: { clientRef: true },
+      where: { clientRef: { in: refs }, userCard: { userId } }, select: { clientRef: true },
     })) as { clientRef: string }[]
     return rows.map((r) => r.clientRef)
   }

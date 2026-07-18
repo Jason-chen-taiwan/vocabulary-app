@@ -31,9 +31,24 @@ describe('LearningRepository sync additions', () => {
         findMany: async () => { called = true; return [{ clientRef: 'a' }, { clientRef: 'b' }] },
       },
     }))
-    expect(await repo.listClientRefs([])).toEqual([])
+    expect(await repo.listClientRefs('u1', [])).toEqual([])
     expect(called).toBe(false)
-    expect(await repo.listClientRefs(['a', 'b', 'c'])).toEqual(['a', 'b'])
+    expect(await repo.listClientRefs('u1', ['a', 'b', 'c'])).toEqual(['a', 'b'])
+  })
+
+  it('listClientRefs 只查該使用者名下的卡片（避免撞到別人 clientRef 誤判 duplicate）', async () => {
+    let captured: unknown
+    const repo = new LearningRepository(fakeDb({
+      reviewLog: {
+        create: async () => ({}),
+        findMany: async (args: unknown) => { captured = args; return [] },
+      },
+    }))
+    await repo.listClientRefs('u1', ['a', 'b'])
+    expect(captured).toEqual({
+      where: { clientRef: { in: ['a', 'b'] }, userCard: { userId: 'u1' } },
+      select: { clientRef: true },
+    })
   })
 
   it('listStartedBooks 以 book id 去重', async () => {
