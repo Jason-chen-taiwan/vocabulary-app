@@ -1642,7 +1642,7 @@
     {
       "headword": "rapporteur",
       "partOfSpeech": "n.",
-      "definitionZh": "正式會議的指定記錄員，負責整理並發布官方報告",
+      "definitionZh": "報告員，會議指定的記錄員，負責整理並發布官方報告",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1690,7 +1690,7 @@
     {
       "headword": "plenary",
       "partOfSpeech": "adj.",
-      "definitionZh": "所有成員全體出席的（全體大會或全會）",
+      "definitionZh": "全體的，全體成員出席的（大會或全會）",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1706,7 +1706,7 @@
     {
       "headword": "caucus",
       "partOfSpeech": "n.",
-      "definitionZh": "利益相同的群體在大會前私下召開的協調小會",
+      "definitionZh": "黨團會議，利益相同者於大會前私下召開的協調小會",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1722,7 +1722,7 @@
     {
       "headword": "symposium",
       "partOfSpeech": "n.",
-      "definitionZh": "多位專家發表論文並交流意見的正式學術或專業會議",
+      "definitionZh": "研討會，多位專家發表論文並交流意見的正式會議",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1738,7 +1738,7 @@
     {
       "headword": "convocation",
       "partOfSpeech": "n.",
-      "definitionZh": "由正式機構或權威召集的正式集會",
+      "definitionZh": "集會，由正式機構或權威召集的正式聚會",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1754,7 +1754,7 @@
     {
       "headword": "forum",
       "partOfSpeech": "n.",
-      "definitionZh": "供各方就議題公開交流意見的大型討論平台",
+      "definitionZh": "論壇，供各方就議題公開交流意見的大型平台",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1770,7 +1770,7 @@
     {
       "headword": "deliberate",
       "partOfSpeech": "v.",
-      "definitionZh": "在做出決定前進行深思熟慮的詳細討論",
+      "definitionZh": "商議，做出決定前深思熟慮地詳細討論",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1786,7 +1786,7 @@
     {
       "headword": "dissent",
       "partOfSpeech": "n./v.",
-      "definitionZh": "在正式場合表達與多數意見相左的異議",
+      "definitionZh": "異議，正式場合中表達與多數意見相左的看法",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1818,7 +1818,7 @@
     {
       "headword": "rebut",
       "partOfSpeech": "v.",
-      "definitionZh": "提出具體反論以推翻對方觀點",
+      "definitionZh": "反駁，提出具體反論以推翻對方觀點",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1834,7 +1834,7 @@
     {
       "headword": "substantiate",
       "partOfSpeech": "v.",
-      "definitionZh": "以具體事實或數據支持並證實某主張",
+      "definitionZh": "證實，以具體事實或數據支持並證明某主張",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1850,7 +1850,7 @@
     {
       "headword": "contend",
       "partOfSpeech": "v.",
-      "definitionZh": "在爭辯中堅持提出某論點或立場",
+      "definitionZh": "主張，在爭辯中堅持提出某論點或立場",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1866,7 +1866,7 @@
     {
       "headword": "elicit",
       "partOfSpeech": "v.",
-      "definitionZh": "透過提問引導出回應、資訊或意見",
+      "definitionZh": "引出，透過提問引導出回應、資訊或意見",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1882,7 +1882,7 @@
     {
       "headword": "solicit",
       "partOfSpeech": "v.",
-      "definitionZh": "正式徵求他人的意見、回應或支持",
+      "definitionZh": "徵求，正式請求他人的意見、回應或支持",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1898,7 +1898,7 @@
     {
       "headword": "paraphrase",
       "partOfSpeech": "v.",
-      "definitionZh": "用不同的措辭重述他人說法，確認理解正確",
+      "definitionZh": "改述，用不同措辭重述他人說法以確認理解",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1914,7 +1914,7 @@
     {
       "headword": "recapitulate",
       "partOfSpeech": "v.",
-      "definitionZh": "在演說或會議末尾扼要重述所有主要要點",
+      "definitionZh": "總結重述，在演說或會議末尾扼要重述要點",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1930,7 +1930,7 @@
     {
       "headword": "synopsis",
       "partOfSpeech": "n.",
-      "definitionZh": "提案或報告內容的簡潔摘要或大綱",
+      "definitionZh": "摘要，提案或報告內容的簡潔綱要",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1994,7 +1994,7 @@
     {
       "headword": "plurality",
       "partOfSpeech": "n.",
-      "definitionZh": "獲得最多票但未達絕對多數的相對多數",
+      "definitionZh": "相對多數，獲最多票但未達過半的多數",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2026,7 +2026,7 @@
     {
       "headword": "corroborate",
       "partOfSpeech": "v.",
-      "definitionZh": "以獨立的額外證據確認或加強某陳述",
+      "definitionZh": "佐證，以獨立的額外證據確認或加強某陳述",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2042,7 +2042,7 @@
     {
       "headword": "refute",
       "partOfSpeech": "v.",
-      "definitionZh": "以有力論據推翻或否定他人的主張",
+      "definitionZh": "駁斥，以有力論據推翻或否定他人主張",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2090,7 +2090,7 @@
     {
       "headword": "salient",
       "partOfSpeech": "adj.",
-      "definitionZh": "最突出最值得注意的（論點或特徵）",
+      "definitionZh": "顯著的，最突出最值得注意的（論點或特徵）",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2138,7 +2138,7 @@
     {
       "headword": "reiterate",
       "partOfSpeech": "v.",
-      "definitionZh": "再次重複強調以確保所有人理解",
+      "definitionZh": "重申，再次強調以確保所有人理解",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2154,7 +2154,7 @@
     {
       "headword": "takeaway",
       "partOfSpeech": "n.",
-      "definitionZh": "會議或簡報結束後應記住並付諸行動的關鍵結論",
+      "definitionZh": "重點結論，會議或簡報後應記住並付諸行動的結論",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2170,7 +2170,7 @@
     {
       "headword": "override",
       "partOfSpeech": "v.",
-      "definitionZh": "推翻或凌駕於既有決定或規則之上",
+      "definitionZh": "推翻，凌駕於既有決定或規則之上",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2186,7 +2186,7 @@
     {
       "headword": "rationale",
       "partOfSpeech": "n.",
-      "definitionZh": "決策或提案背後的核心邏輯與正當理由",
+      "definitionZh": "理由依據，決策或提案背後的核心邏輯",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2202,7 +2202,7 @@
     {
       "headword": "iteration",
       "partOfSpeech": "n.",
-      "definitionZh": "根據回饋修改後的新版本或重複執行週期",
+      "definitionZh": "迭代版本，根據回饋修改後的新版本或重複週期",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2218,7 +2218,7 @@
     {
       "headword": "momentum",
       "partOfSpeech": "n.",
-      "definitionZh": "在推進過程中持續累積的動力或氣勢",
+      "definitionZh": "氣勢動能，推進過程中持續累積的動力",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2234,7 +2234,7 @@
     {
       "headword": "impasse",
       "partOfSpeech": "n.",
-      "definitionZh": "談判或討論進入無法推進的僵局",
+      "definitionZh": "僵局，談判或討論陷入無法推進的困境",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2250,7 +2250,7 @@
     {
       "headword": "substantive",
       "partOfSpeech": "adj.",
-      "definitionZh": "具有實質重要意義和內容的（討論或成果）",
+      "definitionZh": "實質性的，具有實質重要意義和內容的（討論或成果）",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2266,7 +2266,7 @@
     {
       "headword": "preliminary",
       "partOfSpeech": "adj.",
-      "definitionZh": "在正式或主要程序之前進行的初步準備性的",
+      "definitionZh": "初步的，正式或主要程序之前的準備性階段",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2282,7 +2282,7 @@
     {
       "headword": "interim",
       "partOfSpeech": "adj.",
-      "definitionZh": "在正式決定或安排確定前臨時適用的",
+      "definitionZh": "臨時的，在正式決定或安排確定前暫行適用的",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2298,7 +2298,7 @@
     {
       "headword": "concurrent",
       "partOfSpeech": "adj.",
-      "definitionZh": "與其他工作或會議同時進行的",
+      "definitionZh": "並行的，與其他工作或會議同時進行的",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2314,7 +2314,7 @@
     {
       "headword": "holistic",
       "partOfSpeech": "adj.",
-      "definitionZh": "整體考量所有相關面向而非只看局部的",
+      "definitionZh": "整體的，考量所有相關面向而非只看局部",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2346,7 +2346,7 @@
     {
       "headword": "overarching",
       "partOfSpeech": "adj.",
-      "definitionZh": "涵蓋所有面向的整體架構性（目標或主題）",
+      "definitionZh": "總括性的，涵蓋所有面向的整體架構（目標或主題）",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2362,7 +2362,7 @@
     {
       "headword": "extrapolate",
       "partOfSpeech": "v.",
-      "definitionZh": "根據已有數據或趨勢推估未來的值或走向",
+      "definitionZh": "推估，根據已有數據或趨勢推算未來走向",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2378,7 +2378,7 @@
     {
       "headword": "synthesize",
       "partOfSpeech": "v.",
-      "definitionZh": "將多方來源的資訊或觀點整合成連貫整體",
+      "definitionZh": "整合，將多方來源的資訊或觀點合成連貫整體",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2394,7 +2394,7 @@
     {
       "headword": "contextualize",
       "partOfSpeech": "v.",
-      "definitionZh": "將資訊放入更大的背景框架中加以解釋",
+      "definitionZh": "脈絡化，將資訊放入更大背景框架中加以解釋",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2410,7 +2410,7 @@
     {
       "headword": "rapport",
       "partOfSpeech": "n.",
-      "definitionZh": "簡報者與聽眾之間建立的和諧互信關係",
+      "definitionZh": "融洽關係，簡報者與聽眾之間建立的互信和諧感",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2426,7 +2426,7 @@
     {
       "headword": "incremental",
       "partOfSpeech": "adj.",
-      "definitionZh": "以小幅度逐步累積推進的漸進式方式",
+      "definitionZh": "漸進式的，以小幅度逐步累積推進的方式",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2458,7 +2458,7 @@
     {
       "headword": "accountable",
       "partOfSpeech": "adj.",
-      "definitionZh": "須對被分配任務的結果負責且接受問責的",
+      "definitionZh": "須負責的，對被分配任務的結果接受問責",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2490,7 +2490,7 @@
     {
       "headword": "viable",
       "partOfSpeech": "adj.",
-      "definitionZh": "在現有條件下切實可行且可持續的",
+      "definitionZh": "可行的，在現有條件下切實可行且可持續",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2506,7 +2506,7 @@
     {
       "headword": "assertion",
       "partOfSpeech": "n.",
-      "definitionZh": "在會議中自信提出的明確立場或正式主張",
+      "definitionZh": "斷言，會議中自信提出的明確立場或正式主張",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2522,7 +2522,7 @@
     {
       "headword": "delineate",
       "partOfSpeech": "v.",
-      "definitionZh": "精確界定並說明職責範圍或任務邊界",
+      "definitionZh": "界定，精確劃定並說明職責範圍或任務邊界",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2538,7 +2538,7 @@
     {
       "headword": "convey",
       "partOfSpeech": "v.",
-      "definitionZh": "有效地向聽眾傳達觀點、資訊或情感",
+      "definitionZh": "傳達，向聽眾有效傳遞觀點、資訊或情感",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2554,7 +2554,7 @@
     {
       "headword": "canvass",
       "partOfSpeech": "v.",
-      "definitionZh": "廣泛徵詢成員意見以評估共識或偏好",
+      "definitionZh": "徵詢意見，廣泛詢問成員以評估共識或偏好",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2570,7 +2570,7 @@
     {
       "headword": "tally",
       "partOfSpeech": "v./n.",
-      "definitionZh": "統計並記錄投票或計數的最終結果",
+      "definitionZh": "統計計票，統計並記錄投票或計數的最終結果",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2586,7 +2586,7 @@
     {
       "headword": "verbalize",
       "partOfSpeech": "v.",
-      "definitionZh": "將內心想法或書面資料轉化為清晰口頭表達",
+      "definitionZh": "口頭表達，將內心想法或書面資料轉化為清晰言語",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2602,7 +2602,7 @@
     {
       "headword": "visualize",
       "partOfSpeech": "v.",
-      "definitionZh": "將數據或抽象概念以視覺化圖表方式呈現",
+      "definitionZh": "視覺化，將數據或抽象概念以圖表方式呈現",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2618,7 +2618,7 @@
     {
       "headword": "pivotal",
       "partOfSpeech": "adj.",
-      "definitionZh": "對整體進程或結果具有決定性關鍵作用的",
+      "definitionZh": "關鍵性的，對整體進程或結果具有決定性作用",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2634,7 +2634,7 @@
     {
       "headword": "upshot",
       "partOfSpeech": "n.",
-      "definitionZh": "經一連串討論後最終得出的結論或結果",
+      "definitionZh": "最終結論，經一連串討論後得出的結果",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2650,7 +2650,7 @@
     {
       "headword": "turnaround",
       "partOfSpeech": "n.",
-      "definitionZh": "對請求或任務從接收到完成所需的時間",
+      "definitionZh": "處理時效，從接收請求或任務到完成所需的時間",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2682,7 +2682,7 @@
     {
       "headword": "ancillary",
       "partOfSpeech": "adj.",
-      "definitionZh": "支援主要目標或議程的次要輔助性的",
+      "definitionZh": "輔助性的，支援主要目標或議程的次要事項",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2698,7 +2698,7 @@
     {
       "headword": "concession",
       "partOfSpeech": "n.",
-      "definitionZh": "在談判或辯論中主動讓步接受對方部分要求",
+      "definitionZh": "讓步，談判或辯論中主動接受對方部分要求",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2714,7 +2714,7 @@
     {
       "headword": "prerogative",
       "partOfSpeech": "n.",
-      "definitionZh": "特定職位或角色所獨有的特殊權力或特權",
+      "definitionZh": "特權，特定職位或角色所獨有的特殊權力",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2730,7 +2730,7 @@
     {
       "headword": "remit",
       "partOfSpeech": "n.",
-      "definitionZh": "特定職責或工作被正式授權處理的職能範圍",
+      "definitionZh": "職權範圍，特定職責被正式授權處理的工作範圍",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2746,7 +2746,7 @@
     {
       "headword": "reconvene",
       "partOfSpeech": "v.",
-      "definitionZh": "在休會或中斷後重新召集並繼續進行會議",
+      "definitionZh": "復會，休會或中斷後重新召集並繼續會議",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2762,7 +2762,7 @@
     {
       "headword": "confer",
       "partOfSpeech": "v.",
-      "definitionZh": "就特定議題正式磋商或交換意見",
+      "definitionZh": "磋商，就特定議題正式交換意見",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2778,7 +2778,7 @@
     {
       "headword": "postmortem",
       "partOfSpeech": "n.",
-      "definitionZh": "在專案失敗或出現問題後進行的深度事後分析",
+      "definitionZh": "事後檢討，專案失敗或出問題後的深度分析",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2794,7 +2794,7 @@
     {
       "headword": "onboarding",
       "partOfSpeech": "n.",
-      "definitionZh": "引導新成員熟悉組織文化、流程與工具的程序",
+      "definitionZh": "職前導入，引導新成員熟悉組織文化與工具流程",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2826,7 +2826,7 @@
     {
       "headword": "readout",
       "partOfSpeech": "n.",
-      "definitionZh": "向上級彙報會議重點或任務結果的摘要報告",
+      "definitionZh": "彙報摘要，向上級報告會議重點或任務結果",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2842,7 +2842,7 @@
     {
       "headword": "sidebar",
       "partOfSpeech": "n.",
-      "definitionZh": "會議進行中簡短離題的補充說明或私下溝通",
+      "definitionZh": "場邊討論，會議中簡短離題的補充說明或私下溝通",
       "examTags": [
         "TOEIC",
         "meetings",

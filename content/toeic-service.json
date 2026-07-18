@@ -7,7 +7,7 @@
     {
       "headword": "apologize",
       "partOfSpeech": "verb",
-      "definitionZh": "正式向對方承認錯誤並表示歉意",
+      "definitionZh": "道歉，正式承認錯誤並表示歉意",
       "examTags": [
         "TOEIC",
         "service"
@@ -22,7 +22,7 @@
     {
       "headword": "apology",
       "partOfSpeech": "noun",
-      "definitionZh": "道歉的言語或正式表達",
+      "definitionZh": "道歉，表達歉意的言語或正式聲明",
       "examTags": [
         "TOEIC",
         "service"
@@ -37,7 +37,7 @@
     {
       "headword": "courtesy",
       "partOfSpeech": "noun",
-      "definitionZh": "對待客戶的禮貌與周到體貼",
+      "definitionZh": "禮貌周到，對待客戶的禮貌與體貼態度",
       "examTags": [
         "TOEIC",
         "service"
@@ -52,7 +52,7 @@
     {
       "headword": "courteous",
       "partOfSpeech": "adjective",
-      "definitionZh": "表現出禮貌與對他人尊重的",
+      "definitionZh": "有禮貌的，表現出禮貌與尊重他人的",
       "examTags": [
         "TOEIC",
         "service"
@@ -82,7 +82,7 @@
     {
       "headword": "politeness",
       "partOfSpeech": "noun",
-      "definitionZh": "言行符合禮節的特質與表現",
+      "definitionZh": "禮貌，言行合乎禮節的特質",
       "examTags": [
         "TOEIC",
         "service"
@@ -127,7 +127,7 @@
     {
       "headword": "attentive",
       "partOfSpeech": "adjective",
-      "definitionZh": "專心聆聽並積極回應客戶需求的",
+      "definitionZh": "專注細心的，用心聆聽並積極回應客戶需求的",
       "examTags": [
         "TOEIC",
         "service"
@@ -142,7 +142,7 @@
     {
       "headword": "attentiveness",
       "partOfSpeech": "noun",
-      "definitionZh": "用心關注客戶每個細節的精神",
+      "definitionZh": "細心關注，用心留意客戶每個細節的態度",
       "examTags": [
         "TOEIC",
         "service"
@@ -157,7 +157,7 @@
     {
       "headword": "empathize",
       "partOfSpeech": "verb",
-      "definitionZh": "設身處地感受並理解客戶的情緒",
+      "definitionZh": "感同身受，設身處地理解客戶的情緒",
       "examTags": [
         "TOEIC",
         "service"
@@ -202,7 +202,7 @@
     {
       "headword": "reassurance",
       "partOfSpeech": "noun",
-      "definitionZh": "令客戶放心的具體保證或說明",
+      "definitionZh": "安心保證，讓客戶放心的具體說明",
       "examTags": [
         "TOEIC",
         "service"
@@ -217,7 +217,7 @@
     {
       "headword": "commend",
       "partOfSpeech": "verb",
-      "definitionZh": "公開稱讚某人的傑出表現",
+      "definitionZh": "表揚，公開稱讚某人的傑出表現",
       "examTags": [
         "TOEIC",
         "service"
@@ -232,7 +232,7 @@
     {
       "headword": "commendation",
       "partOfSpeech": "noun",
-      "definitionZh": "對優秀服務表現的正式表揚或嘉獎",
+      "definitionZh": "嘉獎，對優秀服務表現的正式表揚",
       "examTags": [
         "TOEIC",
         "service"
@@ -247,7 +247,7 @@
     {
       "headword": "compliment",
       "partOfSpeech": "noun",
-      "definitionZh": "對服務人員或服務品質表達的正面讚美",
+      "definitionZh": "讚美，對服務人員或品質的正面評語",
       "examTags": [
         "TOEIC",
         "service"
@@ -262,7 +262,7 @@
     {
       "headword": "praise",
       "partOfSpeech": "noun",
-      "definitionZh": "對良好表現的正向肯定與鼓勵",
+      "definitionZh": "稱讚，對良好表現的正向肯定",
       "examTags": [
         "TOEIC",
         "service"
@@ -277,7 +277,7 @@
     {
       "headword": "recognition",
       "partOfSpeech": "noun",
-      "definitionZh": "對貢獻或服務成就的正式認可",
+      "definitionZh": "表彰，對貢獻或服務成就的正式肯定",
       "examTags": [
         "TOEIC",
         "service"
@@ -292,7 +292,7 @@
     {
       "headword": "complaint",
       "partOfSpeech": "noun",
-      "definitionZh": "客戶對服務或產品問題的正式不滿表達",
+      "definitionZh": "客訴，對服務或產品問題的正式不滿表達",
       "examTags": [
         "TOEIC",
         "service"
@@ -311,7 +311,7 @@
     {
       "headword": "dissatisfied",
       "partOfSpeech": "adjective",
-      "definitionZh": "對服務或產品感到不滿意的",
+      "definitionZh": "不滿意的，對服務或產品感到不滿的",
       "examTags": [
         "TOEIC",
         "service"
@@ -326,7 +326,7 @@
     {
       "headword": "dissatisfaction",
       "partOfSpeech": "noun",
-      "definitionZh": "因期望未達標而產生的不滿情緒",
+      "definitionZh": "不滿，因期望落空而產生的負面情緒",
       "examTags": [
         "TOEIC",
         "service"
@@ -341,7 +341,7 @@
     {
       "headword": "compensate",
       "partOfSpeech": "verb",
-      "definitionZh": "對客戶因失誤造成的損失給予補償",
+      "definitionZh": "補償，對客戶的損失給予彌補",
       "examTags": [
         "TOEIC",
         "service"
@@ -356,7 +356,7 @@
     {
       "headword": "replace",
       "partOfSpeech": "verb",
-      "definitionZh": "以新品換取有問題或損壞的商品",
+      "definitionZh": "更換，以新品換掉有問題的商品",
       "examTags": [
         "TOEIC",
         "service"
@@ -371,7 +371,7 @@
     {
       "headword": "replacement",
       "partOfSpeech": "noun",
-      "definitionZh": "用以取代瑕疵品或故障品的替代商品",
+      "definitionZh": "替代品，用來取代瑕疵品的商品",
       "examTags": [
         "TOEIC",
         "service"
@@ -386,7 +386,7 @@
     {
       "headword": "accommodate",
       "partOfSpeech": "verb",
-      "definitionZh": "彈性調整服務以滿足客戶的特殊需求",
+      "definitionZh": "配合，彈性調整服務以滿足客戶需求",
       "examTags": [
         "TOEIC",
         "service"
@@ -401,7 +401,7 @@
     {
       "headword": "issue",
       "partOfSpeech": "noun",
-      "definitionZh": "需要客服介入處理的疑慮或困難",
+      "definitionZh": "問題，需要客服介入處理的疑難",
       "examTags": [
         "TOEIC",
         "service"
@@ -416,7 +416,7 @@
     {
       "headword": "problem",
       "partOfSpeech": "noun",
-      "definitionZh": "影響客戶體驗的障礙或錯誤狀況",
+      "definitionZh": "問題，影響顧客體驗的障礙或狀況",
       "examTags": [
         "TOEIC",
         "service"
@@ -431,7 +431,7 @@
     {
       "headword": "solution",
       "partOfSpeech": "noun",
-      "definitionZh": "針對客戶問題或投訴提出的解決辦法",
+      "definitionZh": "解決方案，針對客訴提出的處理辦法",
       "examTags": [
         "TOEIC",
         "service"
@@ -446,7 +446,7 @@
     {
       "headword": "anticipate",
       "partOfSpeech": "verb",
-      "definitionZh": "事先預測客戶需求並主動準備因應",
+      "definitionZh": "預先設想，事先預測客戶需求並主動準備",
       "examTags": [
         "TOEIC",
         "service"
@@ -461,7 +461,7 @@
     {
       "headword": "expectation",
       "partOfSpeech": "noun",
-      "definitionZh": "客戶對服務品質或結果的預期標準",
+      "definitionZh": "期待，客戶對服務品質的預期標準",
       "examTags": [
         "TOEIC",
         "service"
@@ -476,7 +476,7 @@
     {
       "headword": "exceed",
       "partOfSpeech": "verb",
-      "definitionZh": "超越客戶的預期或既定標準",
+      "definitionZh": "超出，超越客戶預期或既定標準",
       "examTags": [
         "TOEIC",
         "service"
@@ -491,7 +491,7 @@
     {
       "headword": "excellence",
       "partOfSpeech": "noun",
-      "definitionZh": "服務品質達到卓越水準的整體表現",
+      "definitionZh": "卓越，服務品質達到頂尖水準的表現",
       "examTags": [
         "TOEIC",
         "service"
@@ -506,7 +506,7 @@
     {
       "headword": "personalize",
       "partOfSpeech": "verb",
-      "definitionZh": "根據個別客戶的特性量身調整服務內容",
+      "definitionZh": "客製化，依個別客戶特性調整服務內容",
       "examTags": [
         "TOEIC",
         "service"
@@ -521,7 +521,7 @@
     {
       "headword": "customize",
       "partOfSpeech": "verb",
-      "definitionZh": "依客戶指定要求客製化產品或服務",
+      "definitionZh": "訂製，依客戶指定要求調整產品或服務",
       "examTags": [
         "TOEIC",
         "service"
@@ -536,7 +536,7 @@
     {
       "headword": "loyal",
       "partOfSpeech": "adjective",
-      "definitionZh": "長期信賴並持續惠顧同一品牌的",
+      "definitionZh": "忠誠的，長期信賴並持續惠顧同品牌的",
       "examTags": [
         "TOEIC",
         "service"
@@ -566,7 +566,7 @@
     {
       "headword": "gesture",
       "partOfSpeech": "noun",
-      "definitionZh": "為表示誠意或善意而採取的具體行動",
+      "definitionZh": "善意舉動，為表達誠意而採取的具體行動",
       "examTags": [
         "TOEIC",
         "service"
@@ -581,7 +581,7 @@
     {
       "headword": "delight",
       "partOfSpeech": "verb",
-      "definitionZh": "讓客戶感到超乎預期的驚喜與滿意",
+      "definitionZh": "取悅，讓客戶感到超乎預期的驚喜滿意",
       "examTags": [
         "TOEIC",
         "service"
@@ -596,7 +596,7 @@
     {
       "headword": "membership",
       "partOfSpeech": "noun",
-      "definitionZh": "加入忠誠計畫或服務方案的會員資格",
+      "definitionZh": "會員資格，加入忠誠計畫的身分",
       "examTags": [
         "TOEIC",
         "service"
@@ -611,7 +611,7 @@
     {
       "headword": "helpline",
       "partOfSpeech": "noun",
-      "definitionZh": "提供客戶諮詢協助的專屬服務電話",
+      "definitionZh": "服務專線，提供客戶諮詢協助的電話",
       "examTags": [
         "TOEIC",
         "service"
@@ -626,7 +626,7 @@
     {
       "headword": "hotline",
       "partOfSpeech": "noun",
-      "definitionZh": "處理緊急或特定事務的直撥服務電話",
+      "definitionZh": "熱線，處理緊急事務的直撥電話",
       "examTags": [
         "TOEIC",
         "service"
@@ -641,7 +641,7 @@
     {
       "headword": "caller",
       "partOfSpeech": "noun",
-      "definitionZh": "撥打客服電話尋求協助的來電者",
+      "definitionZh": "來電者，撥打客服電話尋求協助的人",
       "examTags": [
         "TOEIC",
         "service"
@@ -656,7 +656,7 @@
     {
       "headword": "queue",
       "partOfSpeech": "noun",
-      "definitionZh": "等待客服接聽或處理的排隊序列",
+      "definitionZh": "排隊序列，等待客服接聽處理的隊伍",
       "examTags": [
         "TOEIC",
         "service"
@@ -671,7 +671,7 @@
     {
       "headword": "operator",
       "partOfSpeech": "noun",
-      "definitionZh": "接聽並引導客戶通話的接線服務人員",
+      "definitionZh": "接線生，接聽並引導客戶通話的人員",
       "examTags": [
         "TOEIC",
         "service"
@@ -686,7 +686,7 @@
     {
       "headword": "staff",
       "partOfSpeech": "noun",
-      "definitionZh": "在服務場所提供協助的全體工作人員",
+      "definitionZh": "員工，在服務場所提供協助的工作人員",
       "examTags": [
         "TOEIC",
         "service"
@@ -701,7 +701,7 @@
     {
       "headword": "callback",
       "partOfSpeech": "noun",
-      "definitionZh": "客服人員稍後主動致電回覆客戶的服務",
+      "definitionZh": "回撥，客服稍後主動致電回覆客戶的服務",
       "examTags": [
         "TOEIC",
         "service"
@@ -716,7 +716,7 @@
     {
       "headword": "assistance",
       "partOfSpeech": "noun",
-      "definitionZh": "主動為客戶提供的支援或幫助",
+      "definitionZh": "協助，主動為客戶提供的支援幫助",
       "examTags": [
         "TOEIC",
         "service"
@@ -731,7 +731,7 @@
     {
       "headword": "guidance",
       "partOfSpeech": "noun",
-      "definitionZh": "引導客戶找到正確解決方向的建議",
+      "definitionZh": "指引，引導客戶找到解決方向的建議",
       "examTags": [
         "TOEIC",
         "service"
@@ -746,7 +746,7 @@
     {
       "headword": "advise",
       "partOfSpeech": "verb",
-      "definitionZh": "根據情況向客戶提出專業意見或建議",
+      "definitionZh": "建議，依情況向客戶提出專業意見",
       "examTags": [
         "TOEIC",
         "service"
@@ -761,7 +761,7 @@
     {
       "headword": "recommend",
       "partOfSpeech": "verb",
-      "definitionZh": "向客戶推薦最適合其需求的方案或產品",
+      "definitionZh": "推薦，向客戶推介最適合的方案",
       "examTags": [
         "TOEIC",
         "service"
@@ -776,7 +776,7 @@
     {
       "headword": "alternative",
       "partOfSpeech": "noun",
-      "definitionZh": "提供給客戶的其他可行選項或處理方式",
+      "definitionZh": "替代方案，提供給客戶的其他可行選項",
       "examTags": [
         "TOEIC",
         "service"
@@ -791,7 +791,7 @@
     {
       "headword": "etiquette",
       "partOfSpeech": "noun",
-      "definitionZh": "專業客服場合中應遵守的禮節規範",
+      "definitionZh": "禮節，專業客服場合應遵守的規範",
       "examTags": [
         "TOEIC",
         "service"
@@ -806,7 +806,7 @@
     {
       "headword": "demeanor",
       "partOfSpeech": "noun",
-      "definitionZh": "客服人員整體展現的態度與行為舉止",
+      "definitionZh": "舉止態度，客服人員展現的整體行為表現",
       "examTags": [
         "TOEIC",
         "service"
@@ -821,7 +821,7 @@
     {
       "headword": "tone",
       "partOfSpeech": "noun",
-      "definitionZh": "與客戶溝通時所表達的語氣或情感色彩",
+      "definitionZh": "語氣，溝通時所表達的情感色彩",
       "examTags": [
         "TOEIC",
         "service"
@@ -851,7 +851,7 @@
     {
       "headword": "amicable",
       "partOfSpeech": "adjective",
-      "definitionZh": "以友好方式化解紛爭或處理投訴的",
+      "definitionZh": "友善和睦的，以友好方式化解糾紛的",
       "examTags": [
         "TOEIC",
         "service"
@@ -866,7 +866,7 @@
     {
       "headword": "gracious",
       "partOfSpeech": "adjective",
-      "definitionZh": "以優雅且有禮貌的方式接待或回應客戶的",
+      "definitionZh": "親切優雅的，以有禮方式接待客戶的",
       "examTags": [
         "TOEIC",
         "service"
@@ -881,7 +881,7 @@
     {
       "headword": "hospitable",
       "partOfSpeech": "adjective",
-      "definitionZh": "主動熱情地迎接並照顧客戶需求的",
+      "definitionZh": "好客熱情的，主動照顧客戶需求的",
       "examTags": [
         "TOEIC",
         "service"
@@ -896,7 +896,7 @@
     {
       "headword": "hospitality",
       "partOfSpeech": "noun",
-      "definitionZh": "以熱情款待精神服務客戶的整體文化",
+      "definitionZh": "待客之道，以熱情款待精神服務客戶的文化",
       "examTags": [
         "TOEIC",
         "service"
@@ -911,7 +911,7 @@
     {
       "headword": "welcome",
       "partOfSpeech": "verb",
-      "definitionZh": "表示歡迎並熱情接待前來的客戶",
+      "definitionZh": "歡迎，表示歡迎並熱情接待來訪客戶",
       "examTags": [
         "TOEIC",
         "service"
@@ -926,7 +926,7 @@
     {
       "headword": "sympathize",
       "partOfSpeech": "verb",
-      "definitionZh": "對客戶遭受的困境表示理解與關切",
+      "definitionZh": "表示同情，對客戶困境表達理解關切",
       "examTags": [
         "TOEIC",
         "service"
@@ -941,7 +941,7 @@
     {
       "headword": "sympathy",
       "partOfSpeech": "noun",
-      "definitionZh": "對他人不便或損失所表達的體諒之情",
+      "definitionZh": "同情，對他人不便或損失所表達的體諒",
       "examTags": [
         "TOEIC",
         "service"
@@ -956,7 +956,7 @@
     {
       "headword": "patience",
       "partOfSpeech": "noun",
-      "definitionZh": "面對困難客戶時保持冷靜等待的能力",
+      "definitionZh": "耐心，面對難纏客戶仍保持冷靜的能力",
       "examTags": [
         "TOEIC",
         "service"
@@ -971,7 +971,7 @@
     {
       "headword": "lenient",
       "partOfSpeech": "adjective",
-      "definitionZh": "在處理投訴或例外時採取寬容立場的",
+      "definitionZh": "寬容的，處理投訴或例外時採取寬鬆立場的",
       "examTags": [
         "TOEIC",
         "service"
@@ -986,7 +986,7 @@
     {
       "headword": "flexible",
       "partOfSpeech": "adjective",
-      "definitionZh": "視情況調整政策或方案以配合客戶需求的",
+      "definitionZh": "有彈性的，視情況調整政策以配合客戶的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1001,7 +1001,7 @@
     {
       "headword": "amenable",
       "partOfSpeech": "adjective",
-      "definitionZh": "願意接受建議並積極配合解決問題的",
+      "definitionZh": "願意配合的，樂於接受建議並積極解決問題的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1016,7 +1016,7 @@
     {
       "headword": "cooperative",
       "partOfSpeech": "adjective",
-      "definitionZh": "積極配合以促成雙方共識的態度",
+      "definitionZh": "合作的，積極配合以促成共識的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1046,7 +1046,7 @@
     {
       "headword": "listen",
       "partOfSpeech": "verb",
-      "definitionZh": "全神貫注地接收並理解客戶的陳述",
+      "definitionZh": "傾聽，全神貫注接收並理解客戶陳述",
       "examTags": [
         "TOEIC",
         "service"
@@ -1061,7 +1061,7 @@
     {
       "headword": "rephrase",
       "partOfSpeech": "verb",
-      "definitionZh": "用不同說法重新表達以確保雙方理解",
+      "definitionZh": "換句話說，改用不同說法重述以確保理解",
       "examTags": [
         "TOEIC",
         "service"
@@ -1076,7 +1076,7 @@
     {
       "headword": "verify",
       "partOfSpeech": "verb",
-      "definitionZh": "核實客戶資訊或投訴事項的真實性",
+      "definitionZh": "核實，確認客戶資訊或投訴事項的真實性",
       "examTags": [
         "TOEIC",
         "service"
@@ -1091,7 +1091,7 @@
     {
       "headword": "adjust",
       "partOfSpeech": "verb",
-      "definitionZh": "修正服務方案或安排以符合客戶需求",
+      "definitionZh": "調整，修正服務方案以符合客戶需求",
       "examTags": [
         "TOEIC",
         "service"
@@ -1106,7 +1106,7 @@
     {
       "headword": "modify",
       "partOfSpeech": "verb",
-      "definitionZh": "根據客戶反映局部更改服務細節或條款",
+      "definitionZh": "修改，依客戶反映局部更動服務細節",
       "examTags": [
         "TOEIC",
         "service"
@@ -1121,7 +1121,7 @@
     {
       "headword": "exception",
       "partOfSpeech": "noun",
-      "definitionZh": "突破常規政策以特別處理的情形",
+      "definitionZh": "例外情形，突破常規政策的特別處理",
       "examTags": [
         "TOEIC",
         "service"
@@ -1136,7 +1136,7 @@
     {
       "headword": "coordinate",
       "partOfSpeech": "verb",
-      "definitionZh": "整合多個部門資源以共同解決客戶問題",
+      "definitionZh": "協調，整合多部門資源共同解決問題",
       "examTags": [
         "TOEIC",
         "service"
@@ -1151,7 +1151,7 @@
     {
       "headword": "liaise",
       "partOfSpeech": "verb",
-      "definitionZh": "在客戶與內部部門之間擔任溝通橋梁",
+      "definitionZh": "聯繫協調，在客戶與內部部門間擔任溝通橋梁",
       "examTags": [
         "TOEIC",
         "service"
@@ -1166,7 +1166,7 @@
     {
       "headword": "remediate",
       "partOfSpeech": "verb",
-      "definitionZh": "採取補救行動以修正服務缺失或錯誤",
+      "definitionZh": "補救，採取行動修正服務缺失或錯誤",
       "examTags": [
         "TOEIC",
         "service"
@@ -1196,7 +1196,7 @@
     {
       "headword": "appease",
       "partOfSpeech": "verb",
-      "definitionZh": "透過讓步或補償安撫不滿客戶的情緒",
+      "definitionZh": "安撫，透過讓步或補償平息客戶不滿",
       "examTags": [
         "TOEIC",
         "service"
@@ -1211,7 +1211,7 @@
     {
       "headword": "console",
       "partOfSpeech": "verb",
-      "definitionZh": "以言語給予情感上的安慰緩解客戶沮喪",
+      "definitionZh": "安慰，以言語撫平客戶的沮喪情緒",
       "examTags": [
         "TOEIC",
         "service"
@@ -1226,7 +1226,7 @@
     {
       "headword": "comfort",
       "partOfSpeech": "verb",
-      "definitionZh": "以實際行動或承諾讓客戶感到安心",
+      "definitionZh": "寬慰，以行動或承諾讓客戶感到安心",
       "examTags": [
         "TOEIC",
         "service"
@@ -1241,7 +1241,7 @@
     {
       "headword": "retain",
       "partOfSpeech": "verb",
-      "definitionZh": "採取措施留住既有客戶避免其流失",
+      "definitionZh": "留住，採取措施避免既有客戶流失",
       "examTags": [
         "TOEIC",
         "service"
@@ -1256,7 +1256,7 @@
     {
       "headword": "promise",
       "partOfSpeech": "noun",
-      "definitionZh": "對客戶就特定事項給予的明確保證",
+      "definitionZh": "承諾，對客戶就特定事項的明確保證",
       "examTags": [
         "TOEIC",
         "service"
@@ -1271,7 +1271,7 @@
     {
       "headword": "commitment",
       "partOfSpeech": "noun",
-      "definitionZh": "對服務品質或客戶需求的鄭重承諾",
+      "definitionZh": "承諾，對服務品質或客戶需求的鄭重保證",
       "examTags": [
         "TOEIC",
         "service"
@@ -1286,7 +1286,7 @@
     {
       "headword": "assurance",
       "partOfSpeech": "noun",
-      "definitionZh": "預先提供給客戶的保證性聲明",
+      "definitionZh": "保證，預先提供給客戶的保證性聲明",
       "examTags": [
         "TOEIC",
         "service"
@@ -1301,7 +1301,7 @@
     {
       "headword": "responsible",
       "partOfSpeech": "adjective",
-      "definitionZh": "對客訴結果勇於承擔並負起全責的",
+      "definitionZh": "負責任的，對客訴結果勇於承擔全責的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1316,7 +1316,7 @@
     {
       "headword": "ownership",
       "partOfSpeech": "noun",
-      "definitionZh": "主動承擔問題並負責到底解決的精神",
+      "definitionZh": "當責，主動承擔問題並負責到底的精神",
       "examTags": [
         "TOEIC",
         "service"
@@ -1331,7 +1331,7 @@
     {
       "headword": "score",
       "partOfSpeech": "noun",
-      "definitionZh": "衡量客戶滿意度或服務品質的量化評分",
+      "definitionZh": "評分，衡量客戶滿意度的量化指標",
       "examTags": [
         "TOEIC",
         "service"
@@ -1346,7 +1346,7 @@
     {
       "headword": "promoter",
       "partOfSpeech": "noun",
-      "definitionZh": "主動向他人推薦品牌的高度忠誠顧客",
+      "definitionZh": "推廣者，主動向他人推薦品牌的忠誠顧客",
       "examTags": [
         "TOEIC",
         "service"
@@ -1361,7 +1361,7 @@
     {
       "headword": "detractor",
       "partOfSpeech": "noun",
-      "definitionZh": "對品牌持負面評價並可能勸阻他人的顧客",
+      "definitionZh": "貶損者，對品牌持負評並可能勸阻他人的顧客",
       "examTags": [
         "TOEIC",
         "service"
@@ -1376,7 +1376,7 @@
     {
       "headword": "escalation",
       "partOfSpeech": "noun",
-      "definitionZh": "將未解決問題提交更高層主管處理的程序",
+      "definitionZh": "升級處理，將未解問題呈報上級主管的程序",
       "examTags": [
         "TOEIC",
         "service"
@@ -1391,7 +1391,7 @@
     {
       "headword": "deescalate",
       "partOfSpeech": "verb",
-      "definitionZh": "降低衝突強度並使局勢趨於平穩",
+      "definitionZh": "緩和降級，降低衝突強度使局勢趨於平穩",
       "examTags": [
         "TOEIC",
         "service"
@@ -1406,7 +1406,7 @@
     {
       "headword": "tact",
       "partOfSpeech": "noun",
-      "definitionZh": "在敏感或困難情境中恰當應對的機智",
+      "definitionZh": "應對得體的機智，敏感情境中恰當處理的能力",
       "examTags": [
         "TOEIC",
         "service"
@@ -1421,7 +1421,7 @@
     {
       "headword": "allegation",
       "partOfSpeech": "noun",
-      "definitionZh": "客戶對服務失當或產品問題所提出的指控",
+      "definitionZh": "指控，客戶對服務失當所提出的指責",
       "examTags": [
         "TOEIC",
         "service"
@@ -1436,7 +1436,7 @@
     {
       "headword": "defective",
       "partOfSpeech": "adjective",
-      "definitionZh": "存在製造或設計缺陷、無法正常使用的",
+      "definitionZh": "有瑕疵的，因製造缺陷而無法正常使用的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1451,7 +1451,7 @@
     {
       "headword": "faulty",
       "partOfSpeech": "adjective",
-      "definitionZh": "因瑕疵或錯誤而無法正常運作的",
+      "definitionZh": "故障的，因錯誤而無法正常運作的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1466,7 +1466,7 @@
     {
       "headword": "inferior",
       "partOfSpeech": "adjective",
-      "definitionZh": "品質低於標準或客戶合理期待的",
+      "definitionZh": "劣質的，品質低於標準或客戶期待的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1481,7 +1481,7 @@
     {
       "headword": "unacceptable",
       "partOfSpeech": "adjective",
-      "definitionZh": "不符合服務承諾或標準而無法被接受的",
+      "definitionZh": "無法接受的，不符合服務承諾或標準的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1496,7 +1496,7 @@
     {
       "headword": "substandard",
       "partOfSpeech": "adjective",
-      "definitionZh": "未達到公司或行業規定品質標準的",
+      "definitionZh": "不達標的，未達公司或行業品質規定的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1511,7 +1511,7 @@
     {
       "headword": "failure",
       "partOfSpeech": "noun",
-      "definitionZh": "產品或服務未達預期功能的失敗狀況",
+      "definitionZh": "故障失效，產品或服務未達預期功能的狀況",
       "examTags": [
         "TOEIC",
         "service"
@@ -1526,7 +1526,7 @@
     {
       "headword": "breakdown",
       "partOfSpeech": "noun",
-      "definitionZh": "設備或溝通系統突然停止運作的故障",
+      "definitionZh": "故障，設備或系統突然停止運作",
       "examTags": [
         "TOEIC",
         "service"
@@ -1556,7 +1556,7 @@
     {
       "headword": "impeccable",
       "partOfSpeech": "adjective",
-      "definitionZh": "毫無瑕疵且令人無可挑剔的服務水準",
+      "definitionZh": "無可挑剔的，毫無瑕疵的服務水準",
       "examTags": [
         "TOEIC",
         "service"
@@ -1571,7 +1571,7 @@
     {
       "headword": "thorough",
       "partOfSpeech": "adjective",
-      "definitionZh": "全面且細緻地處理客服事項的每個環節",
+      "definitionZh": "徹底周全的，全面細緻處理每個環節的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1616,7 +1616,7 @@
     {
       "headword": "seamless",
       "partOfSpeech": "adjective",
-      "definitionZh": "各服務環節銜接流暢、沒有中斷或摩擦的",
+      "definitionZh": "無縫銜接的，服務環節流暢不中斷的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1631,7 +1631,7 @@
     {
       "headword": "efficient",
       "partOfSpeech": "adjective",
-      "definitionZh": "以最少資源在最短時間完成服務的",
+      "definitionZh": "有效率的，以最少資源在最短時間完成服務的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1661,7 +1661,7 @@
     {
       "headword": "punctual",
       "partOfSpeech": "adjective",
-      "definitionZh": "準時履行對客戶承諾的時間或期限",
+      "definitionZh": "準時的，準時履行對客戶承諾的期限",
       "examTags": [
         "TOEIC",
         "service"
@@ -1691,7 +1691,7 @@
     {
       "headword": "pacify",
       "partOfSpeech": "verb",
-      "definitionZh": "以行動或言語使憤怒或焦慮的客戶平靜",
+      "definitionZh": "平息，以言行使憤怒或焦慮的客戶平靜",
       "examTags": [
         "TOEIC",
         "service"
@@ -1706,7 +1706,7 @@
     {
       "headword": "placate",
       "partOfSpeech": "verb",
-      "definitionZh": "透過讓步或合理解釋化解客戶不滿情緒",
+      "definitionZh": "撫平，透過讓步或解釋化解客戶不滿",
       "examTags": [
         "TOEIC",
         "service"
@@ -1721,7 +1721,7 @@
     {
       "headword": "case",
       "partOfSpeech": "noun",
-      "definitionZh": "需要追蹤與跟進的個別客訴或服務記錄",
+      "definitionZh": "案件，需要追蹤跟進的個別客訴記錄",
       "examTags": [
         "TOEIC",
         "service"
@@ -1751,7 +1751,7 @@
     {
       "headword": "interaction",
       "partOfSpeech": "noun",
-      "definitionZh": "客戶與服務人員之間每一次的溝通接觸",
+      "definitionZh": "互動，客戶與服務人員每次的溝通接觸",
       "examTags": [
         "TOEIC",
         "service"
@@ -1766,7 +1766,7 @@
     {
       "headword": "critical",
       "partOfSpeech": "adjective",
-      "definitionZh": "對服務運作至關重要或情況緊急需優先處理的",
+      "definitionZh": "至關重要的，情況緊急需優先處理的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1781,7 +1781,7 @@
     {
       "headword": "professional",
       "partOfSpeech": "adjective",
-      "definitionZh": "展現專業知識與職業素養的服務態度",
+      "definitionZh": "專業的，展現專業知識與職業素養的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1796,7 +1796,7 @@
     {
       "headword": "professionalism",
       "partOfSpeech": "noun",
-      "definitionZh": "在工作中展現的專業態度與行為標準",
+      "definitionZh": "專業素養，工作中展現的專業態度標準",
       "examTags": [
         "TOEIC",
         "service"
@@ -1826,7 +1826,7 @@
     {
       "headword": "hold",
       "partOfSpeech": "verb",
-      "definitionZh": "讓客戶在線上等待以轉接或查詢資訊",
+      "definitionZh": "稍候，讓客戶在線上等待轉接或查詢",
       "examTags": [
         "TOEIC",
         "service"
@@ -1841,7 +1841,7 @@
     {
       "headword": "abandon",
       "partOfSpeech": "verb",
-      "definitionZh": "客戶在等待接聽中途主動放棄聯繫",
+      "definitionZh": "中途放棄，客戶在等待接聽中主動掛斷",
       "examTags": [
         "TOEIC",
         "service"
@@ -1856,7 +1856,7 @@
     {
       "headword": "redirect",
       "partOfSpeech": "verb",
-      "definitionZh": "將客戶轉接至最適合處理其問題的部門或人員",
+      "definitionZh": "轉接，將客戶轉至最適合處理的部門",
       "examTags": [
         "TOEIC",
         "service"
@@ -1871,7 +1871,7 @@
     {
       "headword": "transparent",
       "partOfSpeech": "adjective",
-      "definitionZh": "主動且誠實地向客戶揭露相關資訊的",
+      "definitionZh": "透明公開的，主動誠實揭露相關資訊的",
       "examTags": [
         "TOEIC",
         "service"
@@ -1961,7 +1961,7 @@
     {
       "headword": "forthright",
       "partOfSpeech": "adjective",
-      "definitionZh": "主動且直接地提供資訊，不等客戶追問",
+      "definitionZh": "直言不諱的，主動直接提供資訊不待追問",
       "examTags": [
         "TOEIC",
         "service"
@@ -1991,7 +1991,7 @@
     {
       "headword": "accessible",
       "partOfSpeech": "adjective",
-      "definitionZh": "服務或支援容易被客戶取得或聯繫到的",
+      "definitionZh": "易於接觸的，服務容易被客戶取得聯繫的",
       "examTags": [
         "TOEIC",
         "service"
@@ -2021,7 +2021,7 @@
     {
       "headword": "caseload",
       "partOfSpeech": "noun",
-      "definitionZh": "客服人員在特定時期需處理的案件總量",
+      "definitionZh": "案件量，客服人員需處理的案件總數",
       "examTags": [
         "TOEIC",
         "service"
@@ -2036,7 +2036,7 @@
     {
       "headword": "openness",
       "partOfSpeech": "noun",
-      "definitionZh": "願意傾聽並接受各種意見的開放態度",
+      "definitionZh": "開放態度，願意傾聽並接受各種意見的",
       "examTags": [
         "TOEIC",
         "service"

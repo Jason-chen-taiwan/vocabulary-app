@@ -157,7 +157,7 @@
     {
       "headword": "cargo",
       "partOfSpeech": "n.",
-      "definitionZh": "船艙或機艙內承載的貨物整體",
+      "definitionZh": "貨物，船艙或機艙內承載的貨物整體",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -232,7 +232,7 @@
     {
       "headword": "duty",
       "partOfSpeech": "n.",
-      "definitionZh": "依法須繳的進口稅額；實際應繳稅款",
+      "definitionZh": "關稅，政府機關對進口貨物依法課徵的稅款",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -247,7 +247,7 @@
     {
       "headword": "tariff",
       "partOfSpeech": "n.",
-      "definitionZh": "政府公告的進出口商品稅率表",
+      "definitionZh": "稅率表，政府公告的進出口商品課稅稅率標準",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -772,7 +772,7 @@
     {
       "headword": "damage",
       "partOfSpeech": "n.",
-      "definitionZh": "貨物在運輸中所受的損壞",
+      "definitionZh": "損壞，貨物在運輸過程中所受的損害",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -877,7 +877,7 @@
     {
       "headword": "purchasing",
       "partOfSpeech": "n.",
-      "definitionZh": "實際下訂購買的行為；採購部門的日常操作",
+      "definitionZh": "採購，下訂購買的行為，或採購部門的日常作業",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -937,7 +937,7 @@
     {
       "headword": "inspect",
       "partOfSpeech": "v.",
-      "definitionZh": "逐一查驗貨物是否符合規格",
+      "definitionZh": "檢驗，逐一查驗貨物是否符合規格",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -997,7 +997,7 @@
     {
       "headword": "defect",
       "partOfSpeech": "n.",
-      "definitionZh": "製造或包裝上的瑕疵；不良品特徵",
+      "definitionZh": "瑕疵，製造或包裝上的缺陷，也指不良品特徵",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1222,7 +1222,7 @@
     {
       "headword": "partner",
       "partOfSpeech": "n.",
-      "definitionZh": "長期業務合作的合夥廠商",
+      "definitionZh": "合作夥伴，長期配合的業務廠商",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1567,7 +1567,7 @@
     {
       "headword": "consignment",
       "partOfSpeech": "n.",
-      "definitionZh": "一批委託運送的貨物；整票寄售商品",
+      "definitionZh": "寄售貨物，委託運送或寄售的一批商品",
       "examTags": [
         "TOEIC",
         "logistics",

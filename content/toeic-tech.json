@@ -7,7 +7,7 @@
     {
       "headword": "software",
       "partOfSpeech": "n.",
-      "definitionZh": "電腦應用程式的總稱；軟體",
+      "definitionZh": "軟體，電腦應用程式的總稱",
       "examTags": [
         "TOEIC",
         "tech"
@@ -22,7 +22,7 @@
     {
       "headword": "hardware",
       "partOfSpeech": "n.",
-      "definitionZh": "電腦的實體機器與零組件；硬體",
+      "definitionZh": "硬體，電腦的實體機器與零組件",
       "examTags": [
         "TOEIC",
         "tech"
@@ -37,7 +37,7 @@
     {
       "headword": "application",
       "partOfSpeech": "n.",
-      "definitionZh": "為特定用途設計的電腦應用程式",
+      "definitionZh": "應用程式，為特定用途設計的程式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -52,7 +52,7 @@
     {
       "headword": "system",
       "partOfSpeech": "n.",
-      "definitionZh": "由相互關聯元件構成的整體運作架構",
+      "definitionZh": "系統，相互關聯元件構成的整體運作架構",
       "examTags": [
         "TOEIC",
         "tech"
@@ -67,7 +67,7 @@
     {
       "headword": "network",
       "partOfSpeech": "n.",
-      "definitionZh": "連接電腦與裝置以共享資源的通訊網路",
+      "definitionZh": "網路，連接電腦與裝置以共享資源的通訊架構",
       "examTags": [
         "TOEIC",
         "tech"
@@ -82,7 +82,7 @@
     {
       "headword": "server",
       "partOfSpeech": "n.",
-      "definitionZh": "提供資料與服務給其他電腦的中央主機",
+      "definitionZh": "伺服器，提供資料與服務給其他電腦的中央主機",
       "examTags": [
         "TOEIC",
         "tech"
@@ -97,7 +97,7 @@
     {
       "headword": "cloud",
       "partOfSpeech": "n.",
-      "definitionZh": "透過網際網路提供的遠端運算與儲存資源",
+      "definitionZh": "雲端，透過網際網路提供的遠端運算與儲存資源",
       "examTags": [
         "TOEIC",
         "tech"
@@ -112,7 +112,7 @@
     {
       "headword": "bandwidth",
       "partOfSpeech": "n.",
-      "definitionZh": "網路在單位時間內可傳輸資料的最大速率；頻寬",
+      "definitionZh": "頻寬，網路單位時間內可傳輸資料的最大速率",
       "examTags": [
         "TOEIC",
         "tech"
@@ -127,7 +127,7 @@
     {
       "headword": "latency",
       "partOfSpeech": "n.",
-      "definitionZh": "資料從發送到接收所需的網路延遲時間",
+      "definitionZh": "延遲，資料從發送到接收所需的網路等待時間",
       "examTags": [
         "TOEIC",
         "tech"
@@ -142,7 +142,7 @@
     {
       "headword": "uptime",
       "partOfSpeech": "n.",
-      "definitionZh": "系統持續正常運作不中斷的時間比例",
+      "definitionZh": "正常運作時間，系統持續運作不中斷的時間比例",
       "examTags": [
         "TOEIC",
         "tech"
@@ -157,7 +157,7 @@
     {
       "headword": "downtime",
       "partOfSpeech": "n.",
-      "definitionZh": "系統因維護或故障而無法使用的停機期間",
+      "definitionZh": "停機時間，系統因維護或故障而無法使用的期間",
       "examTags": [
         "TOEIC",
         "tech"
@@ -172,7 +172,7 @@
     {
       "headword": "outage",
       "partOfSpeech": "n.",
-      "definitionZh": "服務突然完全中斷的意外故障事件",
+      "definitionZh": "斷線事故，服務突然完全中斷的意外故障事件",
       "examTags": [
         "TOEIC",
         "tech"
@@ -187,7 +187,7 @@
     {
       "headword": "maintenance",
       "partOfSpeech": "n.",
-      "definitionZh": "定期保養或維修以確保系統正常運作",
+      "definitionZh": "維護，定期保養或維修以確保系統正常運作",
       "examTags": [
         "TOEIC",
         "tech"
@@ -202,7 +202,7 @@
     {
       "headword": "install",
       "partOfSpeech": "v.",
-      "definitionZh": "將軟體或設備安裝至系統使其可用",
+      "definitionZh": "安裝，將軟體或設備裝入系統使其可用",
       "examTags": [
         "TOEIC",
         "tech"
@@ -217,7 +217,7 @@
     {
       "headword": "configure",
       "partOfSpeech": "v.",
-      "definitionZh": "根據需求設定系統或裝置的各項參數",
+      "definitionZh": "設定，根據需求調整系統或裝置的各項參數",
       "examTags": [
         "TOEIC",
         "tech"
@@ -232,7 +232,7 @@
     {
       "headword": "deploy",
       "partOfSpeech": "v.",
-      "definitionZh": "將軟體或更新正式發布至生產環境",
+      "definitionZh": "部署，將軟體或更新正式發布至生產環境",
       "examTags": [
         "TOEIC",
         "tech"
@@ -247,7 +247,7 @@
     {
       "headword": "migrate",
       "partOfSpeech": "v.",
-      "definitionZh": "將資料或整個系統移轉至新平台或環境",
+      "definitionZh": "遷移，將資料或系統移轉至新平台或環境",
       "examTags": [
         "TOEIC",
         "tech"
@@ -262,7 +262,7 @@
     {
       "headword": "integrate",
       "partOfSpeech": "v.",
-      "definitionZh": "將不同軟體或服務連接，使其能共享資料並協同運作",
+      "definitionZh": "整合，將不同軟體或服務連接使其協同運作",
       "examTags": [
         "TOEIC",
         "tech"
@@ -277,7 +277,7 @@
     {
       "headword": "interface",
       "partOfSpeech": "n.",
-      "definitionZh": "使用者與系統互動的操作畫面或連接點",
+      "definitionZh": "介面，使用者與系統互動的操作畫面或連接點",
       "examTags": [
         "TOEIC",
         "tech"
@@ -292,7 +292,7 @@
     {
       "headword": "plugin",
       "partOfSpeech": "n.",
-      "definitionZh": "安裝後可擴充主程式功能的附加軟體模組",
+      "definitionZh": "外掛，安裝後可擴充主程式功能的附加模組",
       "examTags": [
         "TOEIC",
         "tech"
@@ -307,7 +307,7 @@
     {
       "headword": "firewall",
       "partOfSpeech": "n.",
-      "definitionZh": "阻擋未授權網路存取的安全防護系統",
+      "definitionZh": "防火牆，阻擋未授權網路存取的安全防護系統",
       "examTags": [
         "TOEIC",
         "tech"
@@ -322,7 +322,7 @@
     {
       "headword": "encryption",
       "partOfSpeech": "n.",
-      "definitionZh": "將資料轉為只有授權方能讀取的加密形式",
+      "definitionZh": "加密，將資料轉為只有授權方能讀取的形式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -337,7 +337,7 @@
     {
       "headword": "authentication",
       "partOfSpeech": "n.",
-      "definitionZh": "確認使用者真實身份的驗證程序",
+      "definitionZh": "身分驗證，確認使用者真實身份的驗證程序",
       "examTags": [
         "TOEIC",
         "tech"
@@ -352,7 +352,7 @@
     {
       "headword": "authorization",
       "partOfSpeech": "n.",
-      "definitionZh": "核准使用者存取特定系統資源的權限授予",
+      "definitionZh": "授權，核准使用者存取特定系統資源的權限",
       "examTags": [
         "TOEIC",
         "tech"
@@ -367,7 +367,7 @@
     {
       "headword": "credential",
       "partOfSpeech": "n.",
-      "definitionZh": "用於登入系統的帳號與密碼等身份憑證",
+      "definitionZh": "憑證，用於登入系統的帳號密碼等身份證明",
       "examTags": [
         "TOEIC",
         "tech"
@@ -382,7 +382,7 @@
     {
       "headword": "token",
       "partOfSpeech": "n.",
-      "definitionZh": "系統產生的臨時性數位憑證，用於驗證存取",
+      "definitionZh": "權杖，系統產生用於驗證存取的臨時性數位憑證",
       "examTags": [
         "TOEIC",
         "tech"
@@ -397,7 +397,7 @@
     {
       "headword": "timeout",
       "partOfSpeech": "n.",
-      "definitionZh": "閒置超過一定時間後自動斷線的機制",
+      "definitionZh": "逾時，閒置超過一定時間後自動斷線的機制",
       "examTags": [
         "TOEIC",
         "tech"
@@ -412,7 +412,7 @@
     {
       "headword": "alert",
       "partOfSpeech": "n.",
-      "definitionZh": "系統偵測異常時主動發出的警示通知",
+      "definitionZh": "警示，系統偵測異常時主動發出的通知",
       "examTags": [
         "TOEIC",
         "tech"
@@ -427,7 +427,7 @@
     {
       "headword": "restore",
       "partOfSpeech": "v.",
-      "definitionZh": "從備份中將資料或系統還原至先前的狀態",
+      "definitionZh": "還原，從備份將資料或系統復原至先前狀態",
       "examTags": [
         "TOEIC",
         "tech"
@@ -442,7 +442,7 @@
     {
       "headword": "recovery",
       "partOfSpeech": "n.",
-      "definitionZh": "系統或服務從故障中重新恢復正常的過程",
+      "definitionZh": "復原，系統或服務從故障中恢復正常的過程",
       "examTags": [
         "TOEIC",
         "tech"
@@ -457,7 +457,7 @@
     {
       "headword": "database",
       "partOfSpeech": "n.",
-      "definitionZh": "有結構地儲存與管理大量資料的系統",
+      "definitionZh": "資料庫，有結構地儲存與管理大量資料的系統",
       "examTags": [
         "TOEIC",
         "tech"
@@ -472,7 +472,7 @@
     {
       "headword": "query",
       "partOfSpeech": "n./v.",
-      "definitionZh": "向資料庫發出搜尋或請求特定資料的指令",
+      "definitionZh": "查詢，向資料庫發出搜尋或請求特定資料的指令",
       "examTags": [
         "TOEIC",
         "tech"
@@ -487,7 +487,7 @@
     {
       "headword": "cache",
       "partOfSpeech": "n.",
-      "definitionZh": "暫時儲存常用資料以加快讀取速度的記憶體",
+      "definitionZh": "快取，暫存常用資料以加快讀取速度的記憶體",
       "examTags": [
         "TOEIC",
         "tech"
@@ -502,7 +502,7 @@
     {
       "headword": "sync",
       "partOfSpeech": "v.",
-      "definitionZh": "使多個裝置或系統的資料保持一致更新",
+      "definitionZh": "同步，使多個裝置或系統的資料保持一致更新",
       "examTags": [
         "TOEIC",
         "tech"
@@ -517,7 +517,7 @@
     {
       "headword": "replicate",
       "partOfSpeech": "v.",
-      "definitionZh": "將資料完整複製至另一地點以確保高可用性",
+      "definitionZh": "複寫，將資料完整複製至另一地點以確保高可用性",
       "examTags": [
         "TOEIC",
         "tech"
@@ -532,7 +532,7 @@
     {
       "headword": "user",
       "partOfSpeech": "n.",
-      "definitionZh": "持有帳號並使用系統或應用程式的人員",
+      "definitionZh": "使用者，持有帳號並使用系統或應用程式的人",
       "examTags": [
         "TOEIC",
         "tech"
@@ -547,7 +547,7 @@
     {
       "headword": "admin",
       "partOfSpeech": "n.",
-      "definitionZh": "擁有最高系統管理權限的管理員帳號",
+      "definitionZh": "管理員，擁有最高系統管理權限的帳號",
       "examTags": [
         "TOEIC",
         "tech"
@@ -562,7 +562,7 @@
     {
       "headword": "role",
       "partOfSpeech": "n.",
-      "definitionZh": "定義使用者可存取哪些功能與資源的權限群組",
+      "definitionZh": "角色，定義使用者可存取哪些功能與資源的權限群組",
       "examTags": [
         "TOEIC",
         "tech"
@@ -577,7 +577,7 @@
     {
       "headword": "profile",
       "partOfSpeech": "n.",
-      "definitionZh": "記錄使用者個人資訊與帳戶設定的頁面",
+      "definitionZh": "個人資料，記錄使用者資訊與帳戶設定的頁面",
       "examTags": [
         "TOEIC",
         "tech"
@@ -592,7 +592,7 @@
     {
       "headword": "setting",
       "partOfSpeech": "n.",
-      "definitionZh": "可調整程式或裝置功能行為的設定選項",
+      "definitionZh": "設定，可調整程式或裝置功能行為的選項",
       "examTags": [
         "TOEIC",
         "tech"
@@ -607,7 +607,7 @@
     {
       "headword": "preference",
       "partOfSpeech": "n.",
-      "definitionZh": "使用者為介面或通知所設定的個人化偏好",
+      "definitionZh": "偏好設定，使用者對介面或通知設的個人化選項",
       "examTags": [
         "TOEIC",
         "tech"
@@ -622,7 +622,7 @@
     {
       "headword": "dashboard",
       "partOfSpeech": "n.",
-      "definitionZh": "集中顯示關鍵數據與業務指標的操控畫面",
+      "definitionZh": "儀表板，集中顯示關鍵數據與業務指標的畫面",
       "examTags": [
         "TOEIC",
         "tech"
@@ -637,7 +637,7 @@
     {
       "headword": "visualization",
       "partOfSpeech": "n.",
-      "definitionZh": "將複雜資料以圖表形式呈現以便理解分析",
+      "definitionZh": "視覺化，將複雜資料以圖表呈現以便理解分析",
       "examTags": [
         "TOEIC",
         "tech"
@@ -652,7 +652,7 @@
     {
       "headword": "automate",
       "partOfSpeech": "v.",
-      "definitionZh": "設定系統使重複性作業無需人工介入即可執行",
+      "definitionZh": "自動化，設定系統使重複性作業無需人工即可執行",
       "examTags": [
         "TOEIC",
         "tech"
@@ -667,7 +667,7 @@
     {
       "headword": "workflow",
       "partOfSpeech": "n.",
-      "definitionZh": "完成一項工作任務所需的既定步驟序列",
+      "definitionZh": "工作流程，完成一項工作所需的既定步驟序列",
       "examTags": [
         "TOEIC",
         "tech"
@@ -682,7 +682,7 @@
     {
       "headword": "trigger",
       "partOfSpeech": "n./v.",
-      "definitionZh": "啟動自動化流程或動作的條件事件",
+      "definitionZh": "觸發，啟動自動化流程或動作的條件事件",
       "examTags": [
         "TOEIC",
         "tech"
@@ -697,7 +697,7 @@
     {
       "headword": "script",
       "partOfSpeech": "n.",
-      "definitionZh": "執行自動化任務的小型程式碼指令檔",
+      "definitionZh": "指令碼，執行自動化任務的小型程式碼檔案",
       "examTags": [
         "TOEIC",
         "tech"
@@ -712,7 +712,7 @@
     {
       "headword": "debug",
       "partOfSpeech": "v.",
-      "definitionZh": "找出並修正程式或系統中的錯誤",
+      "definitionZh": "除錯，找出並修正程式或系統中的錯誤",
       "examTags": [
         "TOEIC",
         "tech"
@@ -727,7 +727,7 @@
     {
       "headword": "version",
       "partOfSpeech": "n.",
-      "definitionZh": "軟體的特定發行編號或迭代更新",
+      "definitionZh": "版本，軟體的特定發行編號或迭代更新",
       "examTags": [
         "TOEIC",
         "tech"
@@ -742,7 +742,7 @@
     {
       "headword": "patch",
       "partOfSpeech": "n.",
-      "definitionZh": "修正特定漏洞或錯誤的小型軟體更新包",
+      "definitionZh": "修補程式，修正特定漏洞或錯誤的小型更新包",
       "examTags": [
         "TOEIC",
         "tech"
@@ -757,7 +757,7 @@
     {
       "headword": "incident",
       "partOfSpeech": "n.",
-      "definitionZh": "需要調查與處理的非預期 IT 事件或故障",
+      "definitionZh": "事故，需要調查與處理的非預期 IT 故障事件",
       "examTags": [
         "TOEIC",
         "tech"
@@ -772,7 +772,7 @@
     {
       "headword": "support",
       "partOfSpeech": "n.",
-      "definitionZh": "協助使用者解決技術問題的服務與協助",
+      "definitionZh": "支援，協助使用者解決技術問題的服務",
       "examTags": [
         "TOEIC",
         "tech"
@@ -787,7 +787,7 @@
     {
       "headword": "helpdesk",
       "partOfSpeech": "n.",
-      "definitionZh": "集中處理員工 IT 請求與問題回報的服務台",
+      "definitionZh": "服務台，集中處理員工 IT 請求與問題回報的單位",
       "examTags": [
         "TOEIC",
         "tech"
@@ -802,7 +802,7 @@
     {
       "headword": "troubleshoot",
       "partOfSpeech": "v.",
-      "definitionZh": "系統性地識別並排除技術問題的過程",
+      "definitionZh": "排除故障，系統性地識別並排除技術問題",
       "examTags": [
         "TOEIC",
         "tech"
@@ -817,7 +817,7 @@
     {
       "headword": "diagnose",
       "partOfSpeech": "v.",
-      "definitionZh": "分析症狀以判斷問題根本原因的技術評估",
+      "definitionZh": "診斷，分析症狀以判斷問題根本原因",
       "examTags": [
         "TOEIC",
         "tech"
@@ -832,7 +832,7 @@
     {
       "headword": "escalate",
       "partOfSpeech": "v.",
-      "definitionZh": "將問題移交至更高層級或專家處理",
+      "definitionZh": "上報，將問題移交至更高層級或專家處理",
       "examTags": [
         "TOEIC",
         "tech"
@@ -847,7 +847,7 @@
     {
       "headword": "subscription",
       "partOfSpeech": "n.",
-      "definitionZh": "定期付費以持續使用軟體或服務的授權方案",
+      "definitionZh": "訂閱，定期付費以持續使用軟體或服務的方案",
       "examTags": [
         "TOEIC",
         "tech"
@@ -862,7 +862,7 @@
     {
       "headword": "vulnerability",
       "partOfSpeech": "n.",
-      "definitionZh": "系統中可能被攻擊者利用的安全弱點",
+      "definitionZh": "漏洞，系統中可能被攻擊者利用的安全弱點",
       "examTags": [
         "TOEIC",
         "tech"
@@ -877,7 +877,7 @@
     {
       "headword": "threat",
       "partOfSpeech": "n.",
-      "definitionZh": "可能危害系統或資料安全的潛在攻擊或風險",
+      "definitionZh": "威脅，可能危害系統或資料安全的潛在攻擊或風險",
       "examTags": [
         "TOEIC",
         "tech"
@@ -892,7 +892,7 @@
     {
       "headword": "endpoint",
       "partOfSpeech": "n.",
-      "definitionZh": "連接至企業網路的個人裝置，如電腦或手機",
+      "definitionZh": "端點，連接至企業網路的個人裝置，如電腦或手機",
       "examTags": [
         "TOEIC",
         "tech"
@@ -907,7 +907,7 @@
     {
       "headword": "mobile",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "可隨身攜帶的智慧型手機或行動裝置",
+      "definitionZh": "行動裝置，可隨身攜帶的智慧型手機或裝置",
       "examTags": [
         "TOEIC",
         "tech"
@@ -922,7 +922,7 @@
     {
       "headword": "laptop",
       "partOfSpeech": "n.",
-      "definitionZh": "可折疊攜帶的輕型筆記型電腦",
+      "definitionZh": "筆記型電腦，可折疊攜帶的輕型電腦",
       "examTags": [
         "TOEIC",
         "tech"
@@ -937,7 +937,7 @@
     {
       "headword": "desktop",
       "partOfSpeech": "n.",
-      "definitionZh": "固定放置於辦公桌的高效能個人電腦",
+      "definitionZh": "桌上型電腦，固定放置於辦公桌的高效能電腦",
       "examTags": [
         "TOEIC",
         "tech"
@@ -952,7 +952,7 @@
     {
       "headword": "tablet",
       "partOfSpeech": "n.",
-      "definitionZh": "以觸控螢幕操作的平板電腦裝置",
+      "definitionZh": "平板電腦，以觸控螢幕操作的裝置",
       "examTags": [
         "TOEIC",
         "tech"
@@ -967,7 +967,7 @@
     {
       "headword": "peripheral",
       "partOfSpeech": "n.",
-      "definitionZh": "連接至電腦主機使用的外接輔助設備",
+      "definitionZh": "周邊設備，連接至電腦主機使用的外接輔助設備",
       "examTags": [
         "TOEIC",
         "tech"
@@ -982,7 +982,7 @@
     {
       "headword": "copier",
       "partOfSpeech": "n.",
-      "definitionZh": "將紙本文件複印成多份的影印機",
+      "definitionZh": "影印機，將紙本文件複印成多份的機器",
       "examTags": [
         "TOEIC",
         "tech"
@@ -997,7 +997,7 @@
     {
       "headword": "router",
       "partOfSpeech": "n.",
-      "definitionZh": "將網路訊號分配並引導至各裝置的路由器",
+      "definitionZh": "路由器，將網路訊號分配並引導至各裝置的設備",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1012,7 +1012,7 @@
     {
       "headword": "wireless",
       "partOfSpeech": "adj.",
-      "definitionZh": "不需實體線路即可連線的無線網路",
+      "definitionZh": "無線，不需實體線路即可連線的網路方式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1027,7 +1027,7 @@
     {
       "headword": "bluetooth",
       "partOfSpeech": "n.",
-      "definitionZh": "短距離裝置間進行無線資料傳輸的技術",
+      "definitionZh": "藍牙，短距離裝置間進行無線資料傳輸的技術",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1042,7 +1042,7 @@
     {
       "headword": "vpn",
       "partOfSpeech": "n.",
-      "definitionZh": "透過加密通道安全遠端連線至公司網路的虛擬私人網路",
+      "definitionZh": "虛擬私人網路，透過加密通道遠端安全連線至公司網路",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1057,7 +1057,7 @@
     {
       "headword": "remote",
       "partOfSpeech": "adj.",
-      "definitionZh": "不在辦公室現場而於異地工作的遠端方式",
+      "definitionZh": "遠端，不在辦公室現場而於異地工作的方式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1072,7 +1072,7 @@
     {
       "headword": "portal",
       "partOfSpeech": "n.",
-      "definitionZh": "提供集中存取多種服務與資訊的網頁入口",
+      "definitionZh": "入口網站，提供集中存取多種服務與資訊的網頁",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1087,7 +1087,7 @@
     {
       "headword": "intranet",
       "partOfSpeech": "n.",
-      "definitionZh": "僅限公司內部員工使用的私有網路平台",
+      "definitionZh": "內部網路，僅限公司內部員工使用的私有網路平台",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1102,7 +1102,7 @@
     {
       "headword": "extranet",
       "partOfSpeech": "n.",
-      "definitionZh": "延伸至特定外部合作夥伴或客戶的企業網路",
+      "definitionZh": "外部網路，延伸至特定外部合作夥伴或客戶的企業網路",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1117,7 +1117,7 @@
     {
       "headword": "productivity",
       "partOfSpeech": "n.",
-      "definitionZh": "在一定時間內完成工作任務的效率與產出量",
+      "definitionZh": "生產力，在一定時間內完成工作的效率與產出量",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1132,7 +1132,7 @@
     {
       "headword": "tool",
       "partOfSpeech": "n.",
-      "definitionZh": "協助完成特定工作的軟體程式或應用程式",
+      "definitionZh": "工具，協助完成特定工作的軟體程式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1147,7 +1147,7 @@
     {
       "headword": "activate",
       "partOfSpeech": "v.",
-      "definitionZh": "使軟體或帳號正式生效並開始可使用",
+      "definitionZh": "啟用，使軟體或帳號正式生效並開始可使用",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1162,7 +1162,7 @@
     {
       "headword": "register",
       "partOfSpeech": "v.",
-      "definitionZh": "建立帳號或記錄設備資訊的登記動作",
+      "definitionZh": "註冊，建立帳號或記錄設備資訊的登記動作",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1177,7 +1177,7 @@
     {
       "headword": "rollback",
       "partOfSpeech": "n./v.",
-      "definitionZh": "將系統或程式還原至先前穩定版本的操作",
+      "definitionZh": "回滾，將系統或程式還原至先前穩定版本的操作",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1192,7 +1192,7 @@
     {
       "headword": "compatibility",
       "partOfSpeech": "n.",
-      "definitionZh": "不同軟硬體之間能夠正常搭配運作的能力",
+      "definitionZh": "相容性，不同軟硬體之間能夠正常搭配運作的能力",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1207,7 +1207,7 @@
     {
       "headword": "specification",
       "partOfSpeech": "n.",
-      "definitionZh": "軟硬體產品的詳細技術規格說明文件",
+      "definitionZh": "規格，軟硬體產品的詳細技術說明文件",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1222,7 +1222,7 @@
     {
       "headword": "malware",
       "partOfSpeech": "n.",
-      "definitionZh": "設計用來破壞系統或竊取資料的惡意程式",
+      "definitionZh": "惡意軟體，設計用來破壞系統或竊取資料的程式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1237,7 +1237,7 @@
     {
       "headword": "phishing",
       "partOfSpeech": "n.",
-      "definitionZh": "偽裝成合法機構騙取帳號密碼的詐騙攻擊",
+      "definitionZh": "網路釣魚，偽裝成合法機構騙取帳號密碼的詐騙攻擊",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1252,7 +1252,7 @@
     {
       "headword": "spam",
       "partOfSpeech": "n.",
-      "definitionZh": "大量發送的未經請求廣告或垃圾郵件",
+      "definitionZh": "垃圾郵件，大量發送的未經請求廣告訊息",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1267,7 +1267,7 @@
     {
       "headword": "antivirus",
       "partOfSpeech": "n.",
-      "definitionZh": "偵測並清除電腦病毒與惡意軟體的防護程式",
+      "definitionZh": "防毒軟體，偵測並清除電腦病毒與惡意軟體的程式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1282,7 +1282,7 @@
     {
       "headword": "proxy",
       "partOfSpeech": "n.",
-      "definitionZh": "代理使用者與目標伺服器之間通訊的中介伺服器",
+      "definitionZh": "代理伺服器，代理使用者與目標伺服器間通訊的中介",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1312,7 +1312,7 @@
     {
       "headword": "browser",
       "partOfSpeech": "n.",
-      "definitionZh": "用於瀏覽與存取網際網路網頁的應用程式",
+      "definitionZh": "瀏覽器，用於瀏覽與存取網際網路網頁的應用程式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1327,7 +1327,7 @@
     {
       "headword": "download",
       "partOfSpeech": "v./n.",
-      "definitionZh": "從網路或伺服器將檔案傳輸至本機裝置",
+      "definitionZh": "下載，從網路或伺服器將檔案傳輸至本機裝置",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1342,7 +1342,7 @@
     {
       "headword": "processor",
       "partOfSpeech": "n.",
-      "definitionZh": "負責執行電腦所有運算指令的中央處理器",
+      "definitionZh": "處理器，負責執行電腦所有運算指令的中央晶片",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1357,7 +1357,7 @@
     {
       "headword": "memory",
       "partOfSpeech": "n.",
-      "definitionZh": "電腦暫時儲存執行中程式資料的記憶體",
+      "definitionZh": "記憶體，電腦暫時儲存執行中程式資料的元件",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1372,7 +1372,7 @@
     {
       "headword": "disk",
       "partOfSpeech": "n.",
-      "definitionZh": "電腦內建的主要磁性儲存媒體裝置",
+      "definitionZh": "磁碟，電腦內建的主要儲存媒體裝置",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1402,7 +1402,7 @@
     {
       "headword": "virtualization",
       "partOfSpeech": "n.",
-      "definitionZh": "在單一實體主機上同時執行多個虛擬系統的技術",
+      "definitionZh": "虛擬化，在單一實體主機上同時執行多個系統的技術",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1417,7 +1417,7 @@
     {
       "headword": "ticketing",
       "partOfSpeech": "n.",
-      "definitionZh": "以工單系統追蹤並管理 IT 服務請求的機制",
+      "definitionZh": "工單系統，以工單追蹤並管理 IT 服務請求的機制",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1432,7 +1432,7 @@
     {
       "headword": "sla",
       "partOfSpeech": "n.",
-      "definitionZh": "供應商與客戶之間約定服務品質標準的協議",
+      "definitionZh": "服務水準協議，供應商與客戶約定服務品質標準的協議",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1447,7 +1447,7 @@
     {
       "headword": "kpi",
       "partOfSpeech": "n.",
-      "definitionZh": "衡量部門或個人工作績效的關鍵指標",
+      "definitionZh": "關鍵績效指標，衡量部門或個人工作績效的指標",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1462,7 +1462,7 @@
     {
       "headword": "notification",
       "partOfSpeech": "n.",
-      "definitionZh": "系統或應用程式主動推送的訊息提醒",
+      "definitionZh": "通知，系統或應用程式主動推送的訊息提醒",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1477,7 +1477,7 @@
     {
       "headword": "integration",
       "partOfSpeech": "n.",
-      "definitionZh": "企業系統之間實現資料互通的整合建置結果",
+      "definitionZh": "整合，企業系統之間實現資料互通的建置結果",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1492,7 +1492,7 @@
     {
       "headword": "chatbot",
       "partOfSpeech": "n.",
-      "definitionZh": "模擬人類對話並自動回應問題的程式助理",
+      "definitionZh": "聊天機器人，模擬人類對話並自動回應問題的程式",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1507,7 +1507,7 @@
     {
       "headword": "automation",
       "partOfSpeech": "n.",
-      "definitionZh": "企業透過技術系統化地取代人工流程的整體策略",
+      "definitionZh": "自動化，企業以技術系統化取代人工流程的整體策略",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1522,7 +1522,7 @@
     {
       "headword": "intrusion",
       "partOfSpeech": "n.",
-      "definitionZh": "未授權進入網路或系統的入侵行為",
+      "definitionZh": "入侵，未授權進入網路或系統的行為",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1538,7 +1538,7 @@
     {
       "headword": "segmentation",
       "partOfSpeech": "n.",
-      "definitionZh": "將網路切割為獨立區域以降低攻擊蔓延的技術",
+      "definitionZh": "網段分割，將網路切割為獨立區域以降低攻擊蔓延的技術",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1554,7 +1554,7 @@
     {
       "headword": "forensics",
       "partOfSpeech": "n.",
-      "definitionZh": "以數位技術調查設備並重建安全事件的鑑識方法",
+      "definitionZh": "數位鑑識，以技術調查設備並重建安全事件的方法",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1570,7 +1570,7 @@
     {
       "headword": "privilege",
       "partOfSpeech": "n.",
-      "definitionZh": "授予使用者執行特定操作的特殊系統許可權",
+      "definitionZh": "權限，授予使用者執行特定操作的特殊系統許可",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1586,7 +1586,7 @@
     {
       "headword": "governance",
       "partOfSpeech": "n.",
-      "definitionZh": "規範 IT 資源使用與安全管理的政策框架",
+      "definitionZh": "治理，規範 IT 資源使用與安全管理的政策框架",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1602,7 +1602,7 @@
     {
       "headword": "exploit",
       "partOfSpeech": "v./n.",
-      "definitionZh": "利用系統漏洞進行攻擊或取得未授權存取的行動",
+      "definitionZh": "攻擊利用，利用系統漏洞取得未授權存取的行動",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1618,7 +1618,7 @@
     {
       "headword": "scalability",
       "partOfSpeech": "n.",
-      "definitionZh": "系統在需求增加時仍能平滑擴展的能力",
+      "definitionZh": "可擴展性，系統在需求增加時仍能平滑擴展的能力",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1634,7 +1634,7 @@
     {
       "headword": "gateway",
       "partOfSpeech": "n.",
-      "definitionZh": "連接不同網路並轉送資料流量的橋接裝置",
+      "definitionZh": "閘道，連接不同網路並轉送資料流量的橋接裝置",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1650,7 +1650,7 @@
     {
       "headword": "topology",
       "partOfSpeech": "n.",
-      "definitionZh": "描述網路中節點與連線配置方式的架構布局",
+      "definitionZh": "拓樸，描述網路中節點與連線配置方式的架構布局",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1666,7 +1666,7 @@
     {
       "headword": "subnet",
       "partOfSpeech": "n.",
-      "definitionZh": "從較大 IP 網路切割出的獨立子網段",
+      "definitionZh": "子網路，從較大 IP 網路切割出的獨立網段",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1682,7 +1682,7 @@
     {
       "headword": "failover",
       "partOfSpeech": "n.",
-      "definitionZh": "主系統故障時自動切換至備援系統的機制",
+      "definitionZh": "容錯移轉，主系統故障時自動切換至備援系統的機制",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1698,7 +1698,7 @@
     {
       "headword": "clustering",
       "partOfSpeech": "n.",
-      "definitionZh": "多台伺服器協同運作以提升效能與可用性的技術",
+      "definitionZh": "叢集化，多台伺服器協同運作以提升效能與可用性的技術",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1714,7 +1714,7 @@
     {
       "headword": "middleware",
       "partOfSpeech": "n.",
-      "definitionZh": "位於作業系統與應用程式之間協調通訊的軟體層",
+      "definitionZh": "中介軟體，位於作業系統與應用程式間協調通訊的軟體層",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1730,7 +1730,7 @@
     {
       "headword": "infrastructure",
       "partOfSpeech": "n.",
-      "definitionZh": "支撐 IT 服務正常運作的基礎硬體、網路與軟體",
+      "definitionZh": "基礎架構，支撐 IT 服務運作的硬體、網路與軟體",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1746,7 +1746,7 @@
     {
       "headword": "workload",
       "partOfSpeech": "n.",
-      "definitionZh": "系統或人員在特定期間內需要完成的工作總量",
+      "definitionZh": "工作負載，系統或人員在特定期間內需完成的工作總量",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1762,7 +1762,7 @@
     {
       "headword": "screenshot",
       "partOfSpeech": "n.",
-      "definitionZh": "擷取電腦當前畫面並儲存為影像的螢幕截圖",
+      "definitionZh": "螢幕截圖，擷取電腦當前畫面並儲存為影像",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1778,7 +1778,7 @@
     {
       "headword": "defragment",
       "partOfSpeech": "v.",
-      "definitionZh": "重整磁碟上零散資料以提升讀寫效能的磁碟重組",
+      "definitionZh": "磁碟重組，重整磁碟上零散資料以提升讀寫效能",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1794,7 +1794,7 @@
     {
       "headword": "resource",
       "partOfSpeech": "n.",
-      "definitionZh": "系統可分配給應用程式或使用者使用的計算資源",
+      "definitionZh": "資源，系統可分配給應用程式或使用者的計算能力",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1810,7 +1810,7 @@
     {
       "headword": "firmware",
       "partOfSpeech": "n.",
-      "definitionZh": "燒錄於硬體裝置中負責控制基本功能的內建程式",
+      "definitionZh": "韌體，燒錄於硬體裝置中負責控制基本功能的程式",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1826,7 +1826,7 @@
     {
       "headword": "provisioning",
       "partOfSpeech": "n.",
-      "definitionZh": "為新使用者或裝置建立帳號並分配系統資源的程序",
+      "definitionZh": "佈建，為新使用者或裝置建立帳號並分配資源的程序",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1842,7 +1842,7 @@
     {
       "headword": "decommission",
       "partOfSpeech": "v.",
-      "definitionZh": "正式停用並退除老舊設備或服務的作業",
+      "definitionZh": "除役，正式停用並退除老舊設備或服務的作業",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1858,7 +1858,7 @@
     {
       "headword": "packet",
       "partOfSpeech": "n.",
-      "definitionZh": "網路傳輸中資料被切分成的最小傳輸單位",
+      "definitionZh": "封包，網路傳輸中資料被切分成的最小單位",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1874,7 +1874,7 @@
     {
       "headword": "node",
       "partOfSpeech": "n.",
-      "definitionZh": "網路中可傳送或接收資料的任何連接裝置或端點",
+      "definitionZh": "節點，網路中可傳送或接收資料的連接裝置或端點",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1890,7 +1890,7 @@
     {
       "headword": "throttle",
       "partOfSpeech": "v./n.",
-      "definitionZh": "限制資料傳輸速率以防系統過載的節流機制",
+      "definitionZh": "節流，限制資料傳輸速率以防系統過載的機制",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1906,7 +1906,7 @@
     {
       "headword": "metadata",
       "partOfSpeech": "n.",
-      "definitionZh": "描述資料本身屬性與結構的附加說明資訊",
+      "definitionZh": "中繼資料，描述資料本身屬性與結構的附加說明資訊",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1922,7 +1922,7 @@
     {
       "headword": "compression",
       "partOfSpeech": "n.",
-      "definitionZh": "縮減資料體積以節省儲存空間或加快傳輸的技術",
+      "definitionZh": "壓縮，縮減資料體積以節省空間或加快傳輸的技術",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1938,7 +1938,7 @@
     {
       "headword": "deduplication",
       "partOfSpeech": "n.",
-      "definitionZh": "識別並移除儲存中重複資料以提升儲存效率的技術",
+      "definitionZh": "重刪，識別並移除儲存中重複資料以提升效率的技術",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1954,7 +1954,7 @@
     {
       "headword": "repository",
       "partOfSpeech": "n.",
-      "definitionZh": "集中儲存並版本管理程式碼或文件的版本庫",
+      "definitionZh": "版本庫，集中儲存並版本管理程式碼或文件的地方",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1970,7 +1970,7 @@
     {
       "headword": "dataset",
       "partOfSpeech": "n.",
-      "definitionZh": "為特定分析或應用所整理的結構化資料集合",
+      "definitionZh": "資料集，為特定分析或應用整理的結構化資料集合",
       "examTags": [
         "TOEIC",
         "tech",
@@ -1986,7 +1986,7 @@
     {
       "headword": "schema",
       "partOfSpeech": "n.",
-      "definitionZh": "定義資料庫表格欄位結構與資料關聯的設計圖",
+      "definitionZh": "綱要，定義資料庫表格欄位結構與資料關聯的設計圖",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2002,7 +2002,7 @@
     {
       "headword": "framework",
       "partOfSpeech": "n.",
-      "definitionZh": "為應用程式開發提供基礎結構的軟體架構平台",
+      "definitionZh": "框架，為應用程式開發提供基礎結構的軟體架構",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2018,7 +2018,7 @@
     {
       "headword": "algorithm",
       "partOfSpeech": "n.",
-      "definitionZh": "解決特定問題或執行計算的有序步驟規則集",
+      "definitionZh": "演算法，解決特定問題或執行計算的有序步驟規則集",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2034,7 +2034,7 @@
     {
       "headword": "deprecate",
       "partOfSpeech": "v.",
-      "definitionZh": "正式宣告某功能或版本將被淘汰停止維護",
+      "definitionZh": "淘汰，正式宣告某功能或版本將被停止維護",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2050,7 +2050,7 @@
     {
       "headword": "refactor",
       "partOfSpeech": "v.",
-      "definitionZh": "在不改變功能的前提下重新整理改善程式碼結構",
+      "definitionZh": "重構，不改變功能前提下重新整理改善程式碼結構",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2066,7 +2066,7 @@
     {
       "headword": "interoperability",
       "partOfSpeech": "n.",
-      "definitionZh": "不同系統間能相互運作並順暢交換資料的能力",
+      "definitionZh": "互通性，不同系統間能相互運作並順暢交換資料的能力",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2082,7 +2082,7 @@
     {
       "headword": "workaround",
       "partOfSpeech": "n.",
-      "definitionZh": "在正式修復前暫時繞過問題的替代解決方法",
+      "definitionZh": "權宜之計，在正式修復前暫時繞過問題的替代方法",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2098,7 +2098,7 @@
     {
       "headword": "sprint",
       "partOfSpeech": "n.",
-      "definitionZh": "敏捷開發中固定短週期的工作迭代衝刺",
+      "definitionZh": "衝刺，敏捷開發中固定短週期的工作迭代",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2146,7 +2146,7 @@
     {
       "headword": "triage",
       "partOfSpeech": "v./n.",
-      "definitionZh": "快速評估並分類問題以決定處理優先順序的程序",
+      "definitionZh": "分級處理，快速評估並分類問題以決定處理優先順序",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2162,7 +2162,7 @@
     {
       "headword": "agile",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "以短週期迭代與彈性回應變化為核心的軟體開發方法論",
+      "definitionZh": "敏捷式，以短週期迭代與彈性回應變化為核心的開發方法論",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2178,7 +2178,7 @@
     {
       "headword": "tenant",
       "partOfSpeech": "n.",
-      "definitionZh": "在共享雲端平台中擁有獨立隔離資源的單一組織",
+      "definitionZh": "租戶，在共享雲端平台中擁有獨立隔離資源的組織",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2194,7 +2194,7 @@
     {
       "headword": "monitoring",
       "partOfSpeech": "n.",
-      "definitionZh": "持續追蹤系統效能與健康狀態的運維監控作業",
+      "definitionZh": "監控，持續追蹤系統效能與健康狀態的運維作業",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2210,7 +2210,7 @@
     {
       "headword": "logging",
       "partOfSpeech": "n.",
-      "definitionZh": "自動記錄系統事件與操作歷程以供稽核追蹤的機制",
+      "definitionZh": "日誌記錄，自動記錄系統事件與操作歷程以供稽核的機制",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2226,7 +2226,7 @@
     {
       "headword": "diagnostics",
       "partOfSpeech": "n.",
-      "definitionZh": "偵測並分析系統故障原因的診斷工具與程序",
+      "definitionZh": "診斷工具，偵測並分析系統故障原因的工具與程序",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2242,7 +2242,7 @@
     {
       "headword": "telemetry",
       "partOfSpeech": "n.",
-      "definitionZh": "自動收集並回傳設備或應用程式運作資料的遠測技術",
+      "definitionZh": "遠端遙測，自動收集並回傳設備運作資料的技術",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2258,7 +2258,7 @@
     {
       "headword": "reboot",
       "partOfSpeech": "v./n.",
-      "definitionZh": "重新啟動電腦或裝置以套用更新或修復問題",
+      "definitionZh": "重開機，重新啟動電腦或裝置以套用更新或修復問題",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2274,7 +2274,7 @@
     {
       "headword": "upload",
       "partOfSpeech": "v./n.",
-      "definitionZh": "從本機裝置將檔案傳輸至網路伺服器或雲端的動作",
+      "definitionZh": "上傳，從本機裝置將檔案傳輸至伺服器或雲端",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2306,7 +2306,7 @@
     {
       "headword": "revision",
       "partOfSpeech": "n.",
-      "definitionZh": "對文件或程式碼進行審閱後所做的版本修改",
+      "definitionZh": "修訂，對文件或程式碼審閱後所做的版本修改",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2322,7 +2322,7 @@
     {
       "headword": "validation",
       "partOfSpeech": "n.",
-      "definitionZh": "確認系統或資料符合預期規格與標準的驗證程序",
+      "definitionZh": "驗證，確認系統或資料符合預期規格與標準的程序",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2338,7 +2338,7 @@
     {
       "headword": "geolocation",
       "partOfSpeech": "n.",
-      "definitionZh": "透過裝置或網路偵測使用者地理位置的技術",
+      "definitionZh": "地理定位，透過裝置或網路偵測使用者所在位置的技術",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2354,7 +2354,7 @@
     {
       "headword": "registry",
       "partOfSpeech": "n.",
-      "definitionZh": "儲存作業系統設定與軟體安裝資訊的集中登錄庫",
+      "definitionZh": "登錄檔，儲存作業系統設定與軟體安裝資訊的集中資料庫",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2370,7 +2370,7 @@
     {
       "headword": "harden",
       "partOfSpeech": "v.",
-      "definitionZh": "強化系統安全設定以縮小可被攻擊面的安全加固",
+      "definitionZh": "強化安全，加固系統設定以縮小可被攻擊的範圍",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2418,7 +2418,7 @@
     {
       "headword": "component",
       "partOfSpeech": "n.",
-      "definitionZh": "組成更大系統並可被重用的軟體或硬體單元",
+      "definitionZh": "元件，組成更大系統並可被重用的軟硬體單元",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2434,7 +2434,7 @@
     {
       "headword": "dependency",
       "partOfSpeech": "n.",
-      "definitionZh": "軟體正常運作所需的外部套件或服務依賴關係",
+      "definitionZh": "相依性，軟體正常運作所需的外部套件或服務關係",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2450,7 +2450,7 @@
     {
       "headword": "payload",
       "partOfSpeech": "n.",
-      "definitionZh": "網路傳輸或 API 請求中攜帶的實際資料內容",
+      "definitionZh": "酬載，網路傳輸或 API 請求中攜帶的實際資料內容",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2498,7 +2498,7 @@
     {
       "headword": "responsive",
       "partOfSpeech": "adj.",
-      "definitionZh": "網頁或介面能自動適應不同螢幕尺寸的回應式設計",
+      "definitionZh": "回應式，網頁或介面能自動適應不同螢幕尺寸的設計",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2514,7 +2514,7 @@
     {
       "headword": "parameter",
       "partOfSpeech": "n.",
-      "definitionZh": "傳入函式或系統設定中可調整功能行為的可變參數",
+      "definitionZh": "參數，傳入函式或系統設定中可調整功能行為的變數",
       "examTags": [
         "TOEIC",
         "tech",

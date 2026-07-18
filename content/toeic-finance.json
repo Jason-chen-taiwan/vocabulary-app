@@ -472,7 +472,7 @@
     {
       "headword": "actual",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "實際值（真實發生的財務數字，與預算相對）",
+      "definitionZh": "實際數，真實發生的財務數字，與預算相對",
       "examTags": [
         "TOEIC",
         "finance"
@@ -607,7 +607,7 @@
     {
       "headword": "principal",
       "partOfSpeech": "n.",
-      "definitionZh": "本金（貸款或投資的原始金額，不含利息）",
+      "definitionZh": "本金，貸款或投資的原始金額，不含利息",
       "examTags": [
         "TOEIC",
         "finance"
@@ -1057,7 +1057,7 @@
     {
       "headword": "accrual",
       "partOfSpeech": "n.",
-      "definitionZh": "應計（依發生時點認列收益或費用，不論現金是否移轉）",
+      "definitionZh": "應計，依發生時點認列收益或費用，不論現金是否移轉",
       "examTags": [
         "TOEIC",
         "finance"
@@ -2377,7 +2377,7 @@
     {
       "headword": "prudence",
       "partOfSpeech": "n.",
-      "definitionZh": "謹慎原則（對損失提早認列、對收益保守估算的會計慣例）",
+      "definitionZh": "審慎原則，損失提早認列、收益保守估算的會計慣例",
       "examTags": [
         "TOEIC",
         "finance",
@@ -3065,7 +3065,7 @@
     {
       "headword": "remuneration",
       "partOfSpeech": "n.",
-      "definitionZh": "薪酬報酬（員工獲得的全部薪資、獎金及福利總和）",
+      "definitionZh": "報酬，員工獲得的全部薪資、獎金及福利總和",
       "examTags": [
         "TOEIC",
         "finance",

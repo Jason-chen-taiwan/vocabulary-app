@@ -22,7 +22,7 @@
     {
       "headword": "clause",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中規範特定事項的單一條款",
+      "definitionZh": "條款，合約中規範特定事項的條文",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -37,7 +37,7 @@
     {
       "headword": "term",
       "partOfSpeech": "n.",
-      "definitionZh": "合約的約定期限或基本條件",
+      "definitionZh": "期限，合約的約定期限或基本條件",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -52,7 +52,7 @@
     {
       "headword": "condition",
       "partOfSpeech": "n.",
-      "definitionZh": "合約義務得以觸發或生效的前提要件",
+      "definitionZh": "條件，合約義務得以觸發或生效的前提要件",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -67,7 +67,7 @@
     {
       "headword": "obligation",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中各方依法須履行的責任",
+      "definitionZh": "義務，合約中各方依法須履行的責任",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -82,7 +82,7 @@
     {
       "headword": "party",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中的簽約當事方",
+      "definitionZh": "當事方，合約中的簽約一方",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -112,7 +112,7 @@
     {
       "headword": "signatory",
       "partOfSpeech": "n.",
-      "definitionZh": "正式在合約上簽名的人或機構",
+      "definitionZh": "簽署人，正式在合約上簽名的人或機構",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -127,7 +127,7 @@
     {
       "headword": "execute",
       "partOfSpeech": "v.",
-      "definitionZh": "正式完成簽署手續使合約生效",
+      "definitionZh": "簽署，正式完成簽署手續使合約生效",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -142,7 +142,7 @@
     {
       "headword": "enforce",
       "partOfSpeech": "v.",
-      "definitionZh": "透過法律手段強制要求對方遵守合約",
+      "definitionZh": "強制執行，透過法律手段要求對方遵守合約",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -157,7 +157,7 @@
     {
       "headword": "breach",
       "partOfSpeech": "n./v.",
-      "definitionZh": "違反合約規定義務的行為",
+      "definitionZh": "違約，違反合約義務的行為",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -172,7 +172,7 @@
     {
       "headword": "remedy",
       "partOfSpeech": "n.",
-      "definitionZh": "違約時受害方可依法採取的救濟手段",
+      "definitionZh": "救濟，違約時受害方可採取的補救手段",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -187,7 +187,7 @@
     {
       "headword": "representation",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中當事方對事實所做的陳述與保證",
+      "definitionZh": "陳述保證，當事方對事實所做的陳述與保證",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -202,7 +202,7 @@
     {
       "headword": "covenant",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中正式承諾須積極作為或不得作為的特別條款",
+      "definitionZh": "約定條款，承諾須積極作為或不作為的特別條款",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -217,7 +217,7 @@
     {
       "headword": "amendment",
       "partOfSpeech": "n.",
-      "definitionZh": "對已簽署合約條款所做的正式書面修改",
+      "definitionZh": "修正案，對已簽署合約條款的正式書面修改",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -232,7 +232,7 @@
     {
       "headword": "addendum",
       "partOfSpeech": "n.",
-      "definitionZh": "合約生效後額外簽署的補充條款文件",
+      "definitionZh": "附加條款，合約生效後額外簽署的補充文件",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -262,7 +262,7 @@
     {
       "headword": "exhibit",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中引用的佐證文件，如樣本或圖表",
+      "definitionZh": "附件，合約中引用的佐證文件，如樣本或圖表",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -277,7 +277,7 @@
     {
       "headword": "appendix",
       "partOfSpeech": "n.",
-      "definitionZh": "合約末尾附上的補充說明資料，不屬主要條款",
+      "definitionZh": "附錄，合約末尾附上的補充資料，不屬主要條款",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -292,7 +292,7 @@
     {
       "headword": "preamble",
       "partOfSpeech": "n.",
-      "definitionZh": "合約開篇介紹各方身份與訂約宗旨的引言",
+      "definitionZh": "前言，合約開篇介紹各方身份與訂約宗旨",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -307,7 +307,7 @@
     {
       "headword": "recital",
       "partOfSpeech": "n.",
-      "definitionZh": "鑑於條款中具體說明締約事由的陳述段落",
+      "definitionZh": "鑑於條款，說明締約事由的陳述段落",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -322,7 +322,7 @@
     {
       "headword": "whereas",
       "partOfSpeech": "conj.",
-      "definitionZh": "合約前言中引導背景陳述的法律用語，意為「鑑於」",
+      "definitionZh": "鑑於，合約前言中引導背景陳述的法律用語",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -352,7 +352,7 @@
     {
       "headword": "effective",
       "partOfSpeech": "adj.",
-      "definitionZh": "合約或條款開始正式生效的（用於日期）",
+      "definitionZh": "生效的，合約或條款開始正式生效（用於日期）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -367,7 +367,7 @@
     {
       "headword": "commencement",
       "partOfSpeech": "n.",
-      "definitionZh": "合約義務正式開始履行的起始日期",
+      "definitionZh": "起始日，合約義務正式開始履行的日期",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -382,7 +382,7 @@
     {
       "headword": "expiry",
       "partOfSpeech": "n.",
-      "definitionZh": "合約期滿自動終止的日期",
+      "definitionZh": "到期日，合約期滿自動終止的日期",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -397,7 +397,7 @@
     {
       "headword": "renewal",
       "partOfSpeech": "n.",
-      "definitionZh": "合約期滿後雙方同意繼續有效的續簽行為",
+      "definitionZh": "續約，合約期滿後雙方同意繼續有效的行為",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -412,7 +412,7 @@
     {
       "headword": "notice",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約規定須以書面向對方發出的正式通知",
+      "definitionZh": "通知，依合約規定須向對方發出的正式文書",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -427,7 +427,7 @@
     {
       "headword": "cure",
       "partOfSpeech": "v.",
-      "definitionZh": "在合約規定的期限內補救違約情形",
+      "definitionZh": "補救，在合約規定期限內改正違約情形",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -442,7 +442,7 @@
     {
       "headword": "waiver",
       "partOfSpeech": "n.",
-      "definitionZh": "主動放棄合約中某項權利的書面聲明",
+      "definitionZh": "棄權，主動放棄合約中某項權利的聲明",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -457,7 +457,7 @@
     {
       "headword": "consent",
       "partOfSpeech": "n.",
-      "definitionZh": "對合約變更或特定行為表示同意的聲明",
+      "definitionZh": "同意，對合約變更或特定行為表示同意的聲明",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -472,7 +472,7 @@
     {
       "headword": "authorize",
       "partOfSpeech": "v.",
-      "definitionZh": "正式賦予某人或機構執行特定行為的權力",
+      "definitionZh": "授權，正式賦予某人或機構執行特定行為的權力",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -487,7 +487,7 @@
     {
       "headword": "jurisdiction",
       "partOfSpeech": "n.",
-      "definitionZh": "法院或仲裁庭依法有權審理案件的地理或法律範圍",
+      "definitionZh": "管轄權，法院或仲裁庭依法有權審理案件的範圍",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -502,7 +502,7 @@
     {
       "headword": "governing",
       "partOfSpeech": "adj.",
-      "definitionZh": "合約準據法條款中指定適用之法律體系的形容詞",
+      "definitionZh": "準據的，合約中指定適用法律體系的（法律）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -517,7 +517,7 @@
     {
       "headword": "law",
       "partOfSpeech": "n.",
-      "definitionZh": "合約明定適用的特定國家或地區法律制度",
+      "definitionZh": "法律，合約明定適用的特定國家或地區法律制度",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -532,7 +532,7 @@
     {
       "headword": "dispute",
       "partOfSpeech": "n.",
-      "definitionZh": "合約雙方就履行或解釋所產生的正式糾紛",
+      "definitionZh": "爭議，合約雙方就履行或解釋所生的糾紛",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -547,7 +547,7 @@
     {
       "headword": "arbitration",
       "partOfSpeech": "n.",
-      "definitionZh": "由中立仲裁人以裁決取代訴訟的正式爭議解決程序",
+      "definitionZh": "仲裁，由中立仲裁人裁決以取代訴訟的程序",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -562,7 +562,7 @@
     {
       "headword": "mediation",
       "partOfSpeech": "n.",
-      "definitionZh": "在調解人引導下雙方自願協商和解的非訴訟程序",
+      "definitionZh": "調解，在調解人引導下雙方協商和解的程序",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -577,7 +577,7 @@
     {
       "headword": "litigation",
       "partOfSpeech": "n.",
-      "definitionZh": "透過法院起訴程序解決合約爭議",
+      "definitionZh": "訴訟，透過法院起訴程序解決合約爭議",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -607,7 +607,7 @@
     {
       "headword": "tribunal",
       "partOfSpeech": "n.",
-      "definitionZh": "處理特定類型爭議的專門仲裁庭或裁判機構",
+      "definitionZh": "仲裁庭，處理特定類型爭議的專門裁判機構",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -622,7 +622,7 @@
     {
       "headword": "judgment",
       "partOfSpeech": "n.",
-      "definitionZh": "法院對訴訟案件所作的最終判決",
+      "definitionZh": "判決，法院對訴訟案件所作的最終裁定",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -637,7 +637,7 @@
     {
       "headword": "award",
       "partOfSpeech": "n.",
-      "definitionZh": "仲裁程序終結後仲裁庭的最終裁決結果",
+      "definitionZh": "裁決，仲裁程序終結後仲裁庭的最終結果",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -652,7 +652,7 @@
     {
       "headword": "injunction",
       "partOfSpeech": "n.",
-      "definitionZh": "法院命令某方立即停止或避免特定行為的禁令",
+      "definitionZh": "禁制令，法院命令某方停止或避免特定行為",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -667,7 +667,7 @@
     {
       "headword": "confidentiality",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中約定保護敏感資訊不得向外洩露的義務",
+      "definitionZh": "保密義務，約定保護敏感資訊不得外洩的責任",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -682,7 +682,7 @@
     {
       "headword": "disclose",
       "partOfSpeech": "v.",
-      "definitionZh": "向合約他方揭露資訊或事實",
+      "definitionZh": "揭露，向合約他方公開資訊或事實",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -697,7 +697,7 @@
     {
       "headword": "proprietary",
       "partOfSpeech": "adj.",
-      "definitionZh": "屬於特定公司所有且受法律保護的（資訊或技術）",
+      "definitionZh": "專屬的，屬於特定公司所有且受法律保護的",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -727,7 +727,7 @@
     {
       "headword": "copyright",
       "partOfSpeech": "n.",
-      "definitionZh": "對原創作品享有的著作財產權",
+      "definitionZh": "著作權，對原創作品享有的財產權",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -757,7 +757,7 @@
     {
       "headword": "patent",
       "partOfSpeech": "n.",
-      "definitionZh": "政府授予發明人獨占使用其發明一定期間的專利權",
+      "definitionZh": "專利，政府授予發明人獨占使用其發明的權利",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -772,7 +772,7 @@
     {
       "headword": "license",
       "partOfSpeech": "n.",
-      "definitionZh": "允許他方在特定條件下使用智慧財產的授權許可",
+      "definitionZh": "授權許可，允許他方在特定條件下使用智慧財產",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -787,7 +787,7 @@
     {
       "headword": "royalty",
       "partOfSpeech": "n.",
-      "definitionZh": "被授權方依協議向智慧財產權人支付的權利金",
+      "definitionZh": "權利金，被授權方依協議支付給權利人的費用",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -817,7 +817,7 @@
     {
       "headword": "nonexclusive",
       "partOfSpeech": "adj.",
-      "definitionZh": "可同時授予多方使用、非獨占性的（授權）",
+      "definitionZh": "非獨占的，可同時授予多方使用的（授權）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -832,7 +832,7 @@
     {
       "headword": "sublicense",
       "partOfSpeech": "v.",
-      "definitionZh": "將已獲得的授權再轉授予第三方",
+      "definitionZh": "轉授權，將已獲得的授權再轉授予第三方",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -847,7 +847,7 @@
     {
       "headword": "assignment",
       "partOfSpeech": "n.",
-      "definitionZh": "將合約中的權利或義務轉讓給第三方的行為",
+      "definitionZh": "讓與，將合約中的權利或義務轉讓給第三方",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -862,7 +862,7 @@
     {
       "headword": "rescind",
       "partOfSpeech": "v.",
-      "definitionZh": "因重大違約或欺詐而撤銷合約，使其自始無效",
+      "definitionZh": "撤銷，因重大違約或欺詐使合約自始無效",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -877,7 +877,7 @@
     {
       "headword": "void",
       "partOfSpeech": "adj.",
-      "definitionZh": "在法律上從一開始即不具效力的（合約）",
+      "definitionZh": "無效的，在法律上自始不具效力的（合約）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -892,7 +892,7 @@
     {
       "headword": "indemnification",
       "partOfSpeech": "n.",
-      "definitionZh": "約定補償對方因特定事由所遭受損失的合約義務",
+      "definitionZh": "補償，約定賠償對方因特定事由所受損失的義務",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -907,7 +907,7 @@
     {
       "headword": "limitation",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中設定賠償責任金額上限的條款",
+      "definitionZh": "責任上限，合約中設定賠償金額上限的條款",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -922,7 +922,7 @@
     {
       "headword": "damages",
       "partOfSpeech": "n.",
-      "definitionZh": "因違約而須向受害方支付的金錢賠償總額",
+      "definitionZh": "損害賠償，因違約須支付受害方的金錢總額",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -937,7 +937,7 @@
     {
       "headword": "consequential",
       "partOfSpeech": "adj.",
-      "definitionZh": "非直接但由違約間接引發的（損害）",
+      "definitionZh": "間接的，非直接但由違約引發的（損害）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -952,7 +952,7 @@
     {
       "headword": "incidental",
       "partOfSpeech": "adj.",
-      "definitionZh": "伴隨違約附帶發生的（費用或損失）",
+      "definitionZh": "附帶的，伴隨違約而附帶發生的（費用損失）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -967,7 +967,7 @@
     {
       "headword": "punitive",
       "partOfSpeech": "adj.",
-      "definitionZh": "旨在懲罰故意不當行為的（賠償）",
+      "definitionZh": "懲罰性的，旨在懲罰故意不當行為的（賠償）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -982,7 +982,7 @@
     {
       "headword": "liquidated",
       "partOfSpeech": "adj.",
-      "definitionZh": "合約預先約定違約時須支付固定金額的（損害賠償）",
+      "definitionZh": "違約金的，預先約定違約須付固定金額的（賠償）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -997,7 +997,7 @@
     {
       "headword": "consideration",
       "partOfSpeech": "n.",
-      "definitionZh": "合約成立所需雙方各自提供的對價（金錢或服務）",
+      "definitionZh": "對價，合約成立所需雙方提供的金錢或服務",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1012,7 +1012,7 @@
     {
       "headword": "offer",
       "partOfSpeech": "n.",
-      "definitionZh": "締結合約時一方提出的具體要約",
+      "definitionZh": "要約，締結合約時一方提出的具體提議",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1027,7 +1027,7 @@
     {
       "headword": "acceptance",
       "partOfSpeech": "n.",
-      "definitionZh": "無條件同意對方要約以成立合約的行為",
+      "definitionZh": "承諾，無條件同意對方要約以成立合約",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1042,7 +1042,7 @@
     {
       "headword": "counteroffer",
       "partOfSpeech": "n.",
-      "definitionZh": "對原要約提出修改條件的反要約",
+      "definitionZh": "反要約，對原要約提出修改條件的提議",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1057,7 +1057,7 @@
     {
       "headword": "binding",
       "partOfSpeech": "adj.",
-      "definitionZh": "一旦成立即對各方產生法律拘束效力的",
+      "definitionZh": "具拘束力的，一旦成立即對各方產生法律效力",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1072,7 +1072,7 @@
     {
       "headword": "enforceable",
       "partOfSpeech": "adj.",
-      "definitionZh": "法院可強制命令履行的（條款或合約）",
+      "definitionZh": "可強制執行的，法院可強制命令履行的（條款）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1087,7 +1087,7 @@
     {
       "headword": "valid",
       "partOfSpeech": "adj.",
-      "definitionZh": "因符合法律要件（要約、承諾、對價）而合法成立的",
+      "definitionZh": "有效的，因符合法律要件而合法成立的",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1117,7 +1117,7 @@
     {
       "headword": "comply",
       "partOfSpeech": "v.",
-      "definitionZh": "遵守合約條款或相關法規的要求",
+      "definitionZh": "遵守，依合約條款或相關法規行事",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1132,7 +1132,7 @@
     {
       "headword": "fulfill",
       "partOfSpeech": "v.",
-      "definitionZh": "完整達成合約所規定的全部義務",
+      "definitionZh": "履行，完整達成合約所規定的全部義務",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1147,7 +1147,7 @@
     {
       "headword": "perform",
       "partOfSpeech": "v.",
-      "definitionZh": "按合約承諾執行具體的工作或服務",
+      "definitionZh": "履約，按合約承諾執行具體工作或服務",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1162,7 +1162,7 @@
     {
       "headword": "tender",
       "partOfSpeech": "v.",
-      "definitionZh": "正式提交款項或文件以履行合約義務",
+      "definitionZh": "提交，正式提交款項或文件以履行義務",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1177,7 +1177,7 @@
     {
       "headword": "overdue",
       "partOfSpeech": "adj.",
-      "definitionZh": "已超過合約約定期限尚未完成的（付款或義務）",
+      "definitionZh": "逾期的，已超過約定期限尚未完成的（付款）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1192,7 +1192,7 @@
     {
       "headword": "reinstate",
       "partOfSpeech": "v.",
-      "definitionZh": "恢復因違約或暫停而失效的合約效力",
+      "definitionZh": "恢復效力，使因違約或暫停而失效的合約復生效",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1207,7 +1207,7 @@
     {
       "headword": "suspend",
       "partOfSpeech": "v.",
-      "definitionZh": "暫時中止合約義務的履行",
+      "definitionZh": "暫停，暫時中止合約義務的履行",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1222,7 +1222,7 @@
     {
       "headword": "arbitrate",
       "partOfSpeech": "v.",
-      "definitionZh": "將糾紛提交仲裁人作出具約束力裁決",
+      "definitionZh": "交付仲裁，將糾紛提交仲裁人作出裁決",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1237,7 +1237,7 @@
     {
       "headword": "mediate",
       "partOfSpeech": "v.",
-      "definitionZh": "擔任中立調解人主持雙方達成妥協",
+      "definitionZh": "調解，擔任中立第三方主持雙方達成妥協",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1252,7 +1252,7 @@
     {
       "headword": "resolve",
       "partOfSpeech": "v.",
-      "definitionZh": "達成最終協議使合約爭議得以解決",
+      "definitionZh": "解決，達成最終協議使合約爭議落幕",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1267,7 +1267,7 @@
     {
       "headword": "venue",
       "partOfSpeech": "n.",
-      "definitionZh": "合約明定提起訴訟或仲裁程序的特定城市或場所",
+      "definitionZh": "管轄地，合約明定提起訴訟或仲裁的場所",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1282,7 +1282,7 @@
     {
       "headword": "applicable",
       "partOfSpeech": "adj.",
-      "definitionZh": "適用於本合約情況的（法規或條款）",
+      "definitionZh": "適用的，適用於本合約情況的（法規條款）",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1297,7 +1297,7 @@
     {
       "headword": "precedent",
       "partOfSpeech": "n.",
-      "definitionZh": "影響後續相似案件判決方向的先例",
+      "definitionZh": "判例，影響後續相似案件判決方向的先例",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1312,7 +1312,7 @@
     {
       "headword": "statute",
       "partOfSpeech": "n.",
-      "definitionZh": "由立法機關正式制定的成文法律",
+      "definitionZh": "成文法，由立法機關正式制定的法律",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1327,7 +1327,7 @@
     {
       "headword": "regulatory",
       "partOfSpeech": "adj.",
-      "definitionZh": "與政府監管機關規定相關的",
+      "definitionZh": "監管的，與政府監管機關規定相關的",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1342,7 +1342,7 @@
     {
       "headword": "authority",
       "partOfSpeech": "n.",
-      "definitionZh": "擁有法律或行政管轄權的政府主管機關",
+      "definitionZh": "主管機關，擁有法律或行政管轄權的政府機關",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1357,7 +1357,7 @@
     {
       "headword": "permit",
       "partOfSpeech": "n.",
-      "definitionZh": "政府核准特定活動或工程的書面許可證",
+      "definitionZh": "許可證，政府核准特定活動或工程的文件",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1372,7 +1372,7 @@
     {
       "headword": "certification",
       "partOfSpeech": "n.",
-      "definitionZh": "證明個人或產品符合特定標準的官方認證",
+      "definitionZh": "認證，證明個人或產品符合標準的官方文件",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1387,7 +1387,7 @@
     {
       "headword": "registration",
       "partOfSpeech": "n.",
-      "definitionZh": "在主管機關登記以取得法律保護的正式程序",
+      "definitionZh": "登記，在主管機關登記以取得法律保護的程序",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1402,7 +1402,7 @@
     {
       "headword": "terminate",
       "partOfSpeech": "v.",
-      "definitionZh": "依合約規定程序正式結束合約關係",
+      "definitionZh": "終止，依規定程序正式結束合約關係",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1417,7 +1417,7 @@
     {
       "headword": "liable",
       "partOfSpeech": "adj.",
-      "definitionZh": "依法須對損害或違約後果承擔賠償責任的",
+      "definitionZh": "應負責的，依法須對損害或違約承擔賠償責任",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1432,7 +1432,7 @@
     {
       "headword": "subcontract",
       "partOfSpeech": "v./n.",
-      "definitionZh": "將主合約中部分工作委託給另一方承包",
+      "definitionZh": "轉包，將主合約部分工作委託給另一方承包",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1462,7 +1462,7 @@
     {
       "headword": "subcontractor",
       "partOfSpeech": "n.",
-      "definitionZh": "接受承包商委託執行部分工程或服務的次承包商",
+      "definitionZh": "次承包商，接受承包商委託執行部分工程的一方",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1507,7 +1507,7 @@
     {
       "headword": "stipulate",
       "partOfSpeech": "v.",
-      "definitionZh": "在合約中明確指定特定條件或要求",
+      "definitionZh": "明訂，在合約中明確指定特定條件或要求",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1523,7 +1523,7 @@
     {
       "headword": "stipulation",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中所明定的特定條件或前提要求",
+      "definitionZh": "明定條件，合約中明定的特定條件或前提",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1539,7 +1539,7 @@
     {
       "headword": "severability",
       "partOfSpeech": "n.",
-      "definitionZh": "部分條款無效時其餘條款仍具效力的可分性原則",
+      "definitionZh": "可分性，部分條款無效時其餘條款仍有效",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1555,7 +1555,7 @@
     {
       "headword": "indemnify",
       "partOfSpeech": "v.",
-      "definitionZh": "依合約義務補償對方因特定事由所受的損失",
+      "definitionZh": "補償，依合約義務賠償對方因特定事由所受損失",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1571,7 +1571,7 @@
     {
       "headword": "indemnity",
       "partOfSpeech": "n.",
-      "definitionZh": "合約約定補償損失或損害的保障責任（區別於indemnification的條款名稱）",
+      "definitionZh": "賠償條款，約定補償損失或損害的保障責任",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1587,7 +1587,7 @@
     {
       "headword": "restitution",
       "partOfSpeech": "n.",
-      "definitionZh": "要求返還所得利益以恢復受害方原狀的法律救濟",
+      "definitionZh": "返還救濟，要求返還所得利益以恢復原狀",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1603,7 +1603,7 @@
     {
       "headword": "novation",
       "partOfSpeech": "n.",
-      "definitionZh": "以新義務或新當事方取代原合約義務的更替協議",
+      "definitionZh": "債務更替，以新義務或新當事方取代原合約",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1619,7 +1619,7 @@
     {
       "headword": "rescission",
       "partOfSpeech": "n.",
-      "definitionZh": "撤銷合約使雙方回復簽約前狀態的法律救濟",
+      "definitionZh": "撤銷合約，使雙方回復簽約前狀態的救濟",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1635,7 +1635,7 @@
     {
       "headword": "repudiate",
       "partOfSpeech": "v.",
-      "definitionZh": "明確拒絕承認或拒絕履行合約義務",
+      "definitionZh": "拒絕履行，明確拒絕承認或履行合約義務",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1651,7 +1651,7 @@
     {
       "headword": "repudiation",
       "partOfSpeech": "n.",
-      "definitionZh": "一方在合約到期前明確表示拒絕履行義務的行為",
+      "definitionZh": "預期違約，到期前明確表示拒絕履行的行為",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1667,7 +1667,7 @@
     {
       "headword": "mitigation",
       "partOfSpeech": "n.",
-      "definitionZh": "違約後受害方採取合理步驟減少損失的法律義務",
+      "definitionZh": "減損義務，違約後受害方須合理減少損失",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1683,7 +1683,7 @@
     {
       "headword": "mitigate",
       "partOfSpeech": "v.",
-      "definitionZh": "採取合理行動以降低違約所造成的損失",
+      "definitionZh": "減輕損害，採取合理行動降低違約造成的損失",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1699,7 +1699,7 @@
     {
       "headword": "privity",
       "partOfSpeech": "n.",
-      "definitionZh": "僅存在於合約當事方之間的法律關係",
+      "definitionZh": "合約關係，僅存在於合約當事方之間的法律關係",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1715,7 +1715,7 @@
     {
       "headword": "estoppel",
       "partOfSpeech": "n.",
-      "definitionZh": "禁止當事方否認其先前陳述或行為的法律原則",
+      "definitionZh": "禁反言，禁止當事方否認先前陳述或行為的原則",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1747,7 +1747,7 @@
     {
       "headword": "beneficiary",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約或信託而獲得利益的一方",
+      "definitionZh": "受益人，依合約或信託而獲得利益的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1763,7 +1763,7 @@
     {
       "headword": "guarantor",
       "partOfSpeech": "n.",
-      "definitionZh": "承諾在主債務人違約時代為履行義務的保證人",
+      "definitionZh": "保證人，承諾在債務人違約時代為履行義務",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1779,7 +1779,7 @@
     {
       "headword": "surety",
       "partOfSpeech": "n.",
-      "definitionZh": "對他方債務承擔連帶清償責任的保證人或擔保物",
+      "definitionZh": "擔保人，對他方債務承擔連帶清償責任的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1795,7 +1795,7 @@
     {
       "headword": "escrow",
       "partOfSpeech": "n.",
-      "definitionZh": "由中立第三方代為保管、待條件成就後撥付的款項",
+      "definitionZh": "第三方保管，中立方代為保管待條件成就撥付的款項",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1811,7 +1811,7 @@
     {
       "headword": "lien",
       "partOfSpeech": "n.",
-      "definitionZh": "對債務人財產所設定的法律留置權",
+      "definitionZh": "留置權，對債務人財產所設定的法律權利",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1827,7 +1827,7 @@
     {
       "headword": "encumbrance",
       "partOfSpeech": "n.",
-      "definitionZh": "附著於財產上的抵押、留置或其他法律負擔",
+      "definitionZh": "財產負擔，附著於財產上的抵押、留置等負擔",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1843,7 +1843,7 @@
     {
       "headword": "forfeiture",
       "partOfSpeech": "n.",
-      "definitionZh": "因違反合約而喪失特定權利或財產的懲罰性後果",
+      "definitionZh": "喪失權利，因違約而喪失特定權利或財產的後果",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1859,7 +1859,7 @@
     {
       "headword": "assignee",
       "partOfSpeech": "n.",
-      "definitionZh": "接受合約權利或義務轉讓的一方",
+      "definitionZh": "受讓人，接受合約權利或義務轉讓的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1875,7 +1875,7 @@
     {
       "headword": "assignor",
       "partOfSpeech": "n.",
-      "definitionZh": "將合約權利或義務轉讓給他人的一方",
+      "definitionZh": "讓與人，將合約權利或義務轉讓給他人的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1891,7 +1891,7 @@
     {
       "headword": "transferee",
       "partOfSpeech": "n.",
-      "definitionZh": "接受財產或權利轉讓的受讓方",
+      "definitionZh": "受讓方，接受財產或權利轉讓的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1907,7 +1907,7 @@
     {
       "headword": "transferor",
       "partOfSpeech": "n.",
-      "definitionZh": "將財產或權利轉讓給他人的讓與方",
+      "definitionZh": "讓與方，將財產或權利轉讓給他人的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1923,7 +1923,7 @@
     {
       "headword": "lessee",
       "partOfSpeech": "n.",
-      "definitionZh": "依租賃合約取得資產使用權的承租方",
+      "definitionZh": "承租人，依租賃合約取得資產使用權的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1939,7 +1939,7 @@
     {
       "headword": "lessor",
       "partOfSpeech": "n.",
-      "definitionZh": "依租賃合約授予他方資產使用權的出租方",
+      "definitionZh": "出租人，依租賃合約授予他方資產使用權的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1955,7 +1955,7 @@
     {
       "headword": "mortgagee",
       "partOfSpeech": "n.",
-      "definitionZh": "抵押貸款中接受財產抵押擔保的貸款方",
+      "definitionZh": "抵押權人，接受財產抵押擔保的貸款方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1971,7 +1971,7 @@
     {
       "headword": "mortgagor",
       "partOfSpeech": "n.",
-      "definitionZh": "以財產設定抵押向抵押權人借款的債務方",
+      "definitionZh": "抵押人，以財產設定抵押向貸款方借款的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -1987,7 +1987,7 @@
     {
       "headword": "trustee",
       "partOfSpeech": "n.",
-      "definitionZh": "依信託協議為受益人持有並管理資產的受託人",
+      "definitionZh": "受託人，依信託協議為受益人持有並管理資產",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2003,7 +2003,7 @@
     {
       "headword": "nominee",
       "partOfSpeech": "n.",
-      "definitionZh": "被指定以自身名義代他人持有資產或職位的名義人",
+      "definitionZh": "名義人，被指定以自身名義代他人持有資產或職位",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2035,7 +2035,7 @@
     {
       "headword": "derivative",
       "partOfSpeech": "adj.",
-      "definitionZh": "源自他人原始創作而衍生出的（作品或授權）",
+      "definitionZh": "衍生的，源自他人原始創作而衍生出的（作品）",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2051,7 +2051,7 @@
     {
       "headword": "infringement",
       "partOfSpeech": "n.",
-      "definitionZh": "未經授權使用他人智慧財產的侵權行為",
+      "definitionZh": "侵權，未經授權使用他人智慧財產的行為",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2067,7 +2067,7 @@
     {
       "headword": "misappropriation",
       "partOfSpeech": "n.",
-      "definitionZh": "未經授權挪用他人商業秘密或財產的行為",
+      "definitionZh": "侵占，未經授權挪用他人商業秘密或財產",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2083,7 +2083,7 @@
     {
       "headword": "ratify",
       "partOfSpeech": "v.",
-      "definitionZh": "正式批准或確認先前所做的行為或協議",
+      "definitionZh": "批准，正式確認先前所做的行為或協議",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2099,7 +2099,7 @@
     {
       "headword": "ratification",
       "partOfSpeech": "n.",
-      "definitionZh": "對合約或決議的正式批准與確認程序",
+      "definitionZh": "批准程序，對合約或決議的正式確認程序",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2115,7 +2115,7 @@
     {
       "headword": "contingency",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中規定可能發生而影響義務生效的未來條件事件",
+      "definitionZh": "或有事件，可能發生而影響義務生效的未來條件",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2131,7 +2131,7 @@
     {
       "headword": "hardship",
       "partOfSpeech": "n.",
-      "definitionZh": "使合約履行變得異常困難的重大情況變化",
+      "definitionZh": "情事變更，使合約履行變得異常困難的重大變化",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2163,7 +2163,7 @@
     {
       "headword": "prevail",
       "partOfSpeech": "v.",
-      "definitionZh": "在法律衝突中佔優先地位，或在訴訟中勝訴",
+      "definitionZh": "勝訴，在法律衝突中佔優先地位或訴訟中獲勝",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2179,7 +2179,7 @@
     {
       "headword": "invoke",
       "partOfSpeech": "v.",
-      "definitionZh": "援引合約條款或法律規定以主張特定權利",
+      "definitionZh": "援引，援引合約條款或法律規定以主張權利",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2195,7 +2195,7 @@
     {
       "headword": "entitlement",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約或法律所享有的特定權利或利益",
+      "definitionZh": "權益，依合約或法律所享有的特定權利或利益",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2211,7 +2211,7 @@
     {
       "headword": "immunity",
       "partOfSpeech": "n.",
-      "definitionZh": "豁免特定法律責任的保護",
+      "definitionZh": "豁免權，豁免特定法律責任的保護",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2227,7 +2227,7 @@
     {
       "headword": "scope",
       "partOfSpeech": "n.",
-      "definitionZh": "合約所界定的工作或服務的涵蓋範圍",
+      "definitionZh": "範圍，合約所界定的工作或服務涵蓋範圍",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2243,7 +2243,7 @@
     {
       "headword": "deliverable",
       "partOfSpeech": "n.",
-      "definitionZh": "合約要求在特定時限內交付的具體成果或文件",
+      "definitionZh": "交付成果，合約要求在特定時限內交付的成果",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2259,7 +2259,7 @@
     {
       "headword": "requisite",
       "partOfSpeech": "adj.",
-      "definitionZh": "合約或法規所要求的必備條件",
+      "definitionZh": "必要的，合約或法規所要求的必備條件",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2275,7 +2275,7 @@
     {
       "headword": "prerequisite",
       "partOfSpeech": "n.",
-      "definitionZh": "合約義務觸發或生效前須先滿足的先決條件",
+      "definitionZh": "先決條件，合約義務生效前須先滿足的條件",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2291,7 +2291,7 @@
     {
       "headword": "subsequent",
       "partOfSpeech": "adj.",
-      "definitionZh": "於特定事件或合約簽署之後發生的",
+      "definitionZh": "其後的，於特定事件或合約簽署之後發生的",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2307,7 +2307,7 @@
     {
       "headword": "contemporaneous",
       "partOfSpeech": "adj.",
-      "definitionZh": "與合約文件同時期存在或製作的",
+      "definitionZh": "同時期的，與合約文件同時期存在或製作的",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2355,7 +2355,7 @@
     {
       "headword": "aforesaid",
       "partOfSpeech": "adj.",
-      "definitionZh": "前文已提及或定義的",
+      "definitionZh": "前述的，前文已提及或定義的",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2371,7 +2371,7 @@
     {
       "headword": "incur",
       "partOfSpeech": "v.",
-      "definitionZh": "因合約執行或違約而產生費用或義務",
+      "definitionZh": "招致，因合約執行或違約而產生費用或義務",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2387,7 +2387,7 @@
     {
       "headword": "aggregate",
       "partOfSpeech": "adj.",
-      "definitionZh": "在合約中指累計的總金額或責任上限",
+      "definitionZh": "累計的，合約中指累計總金額或責任上限",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2403,7 +2403,7 @@
     {
       "headword": "accrue",
       "partOfSpeech": "v.",
-      "definitionZh": "隨時間累積產生（利息、費用或義務）",
+      "definitionZh": "累積，隨時間累積產生（利息、費用或義務）",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2419,7 +2419,7 @@
     {
       "headword": "abatement",
       "partOfSpeech": "n.",
-      "definitionZh": "對合約規定罰款或費用的減免或削減",
+      "definitionZh": "減免，對合約規定罰款或費用的削減",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2435,7 +2435,7 @@
     {
       "headword": "setoff",
       "partOfSpeech": "n.",
-      "definitionZh": "以自身債權抵銷對方所欠款項的法律權利",
+      "definitionZh": "抵銷權，以自身債權抵銷對方所欠款項的權利",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2451,7 +2451,7 @@
     {
       "headword": "reimbursement",
       "partOfSpeech": "n.",
-      "definitionZh": "對他方代墊費用的退款補償",
+      "definitionZh": "償還，對他方代墊費用的退款補償",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2467,7 +2467,7 @@
     {
       "headword": "disbursement",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約從帳戶向指定方撥付款項的行為",
+      "definitionZh": "撥款，依合約從帳戶向指定方撥付款項的行為",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2483,7 +2483,7 @@
     {
       "headword": "offset",
       "partOfSpeech": "v.",
-      "definitionZh": "以一方債務金額抵銷另一方所欠的款項",
+      "definitionZh": "抵銷，以一方債務金額抵銷另一方所欠款項",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2499,7 +2499,7 @@
     {
       "headword": "lapse",
       "partOfSpeech": "v.",
-      "definitionZh": "因未在期限內行使或續簽而自動失效",
+      "definitionZh": "失效，因未在期限內行使或續簽而自動失效",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2515,7 +2515,7 @@
     {
       "headword": "deem",
       "partOfSpeech": "v.",
-      "definitionZh": "合約中視為或推定某項事實成立",
+      "definitionZh": "視為，合約中視為或推定某項事實成立",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2531,7 +2531,7 @@
     {
       "headword": "construe",
       "partOfSpeech": "v.",
-      "definitionZh": "依法律原則解讀並詮釋合約條款的含義",
+      "definitionZh": "解釋，依法律原則解讀並詮釋合約條款含義",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2547,7 +2547,7 @@
     {
       "headword": "interpretation",
       "partOfSpeech": "n.",
-      "definitionZh": "對合約條款文義與意圖的法律解釋方式",
+      "definitionZh": "解釋方式，對合約條款文義與意圖的法律解釋",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2563,7 +2563,7 @@
     {
       "headword": "ambiguity",
       "partOfSpeech": "n.",
-      "definitionZh": "合約條款因措詞不清而可能有多種解釋的情況",
+      "definitionZh": "模糊性，合約條款因措詞不清而有多種解釋",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2579,7 +2579,7 @@
     {
       "headword": "boilerplate",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中反覆出現的標準化通用條款",
+      "definitionZh": "制式條款，合約中反覆出現的標準化通用條款",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2611,7 +2611,7 @@
     {
       "headword": "merger",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中規定書面文件取代所有先前協議的整合條款",
+      "definitionZh": "完整協議條款，書面文件取代所有先前協議的整合條款",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2627,7 +2627,7 @@
     {
       "headword": "reformation",
       "partOfSpeech": "n.",
-      "definitionZh": "法院修正合約以反映雙方真實意圖的司法救濟",
+      "definitionZh": "合約修正，法院修正合約以反映雙方真實意圖",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2643,7 +2643,7 @@
     {
       "headword": "subrogation",
       "partOfSpeech": "n.",
-      "definitionZh": "一方清償他方債務後取得其對第三方求償權的代位",
+      "definitionZh": "代位求償，清償他方債務後取得對第三方求償權",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2659,7 +2659,7 @@
     {
       "headword": "endorsement",
       "partOfSpeech": "n.",
-      "definitionZh": "對合約或保單正式書面批准或追加的附加條款",
+      "definitionZh": "批註，對合約或保單正式書面批准或追加的條款",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2675,7 +2675,7 @@
     {
       "headword": "undertaking",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中正式承諾執行或不執行特定行為的義務",
+      "definitionZh": "承諾義務，正式承諾執行或不執行特定行為",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2691,7 +2691,7 @@
     {
       "headword": "counterparty",
       "partOfSpeech": "n.",
-      "definitionZh": "金融或商務合約中的交易對手方",
+      "definitionZh": "交易對手，金融或商務合約中的另一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2707,7 +2707,7 @@
     {
       "headword": "obligor",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中負有履行義務的一方",
+      "definitionZh": "債務人，合約中負有履行義務的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2723,7 +2723,7 @@
     {
       "headword": "obligee",
       "partOfSpeech": "n.",
-      "definitionZh": "合約中有權要求他方履行義務的一方",
+      "definitionZh": "債權人，合約中有權要求他方履行義務的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2739,7 +2739,7 @@
     {
       "headword": "acceleration",
       "partOfSpeech": "n.",
-      "definitionZh": "違約時要求立即清償全部未到期債務的條款",
+      "definitionZh": "加速到期，違約時要求立即清償全部未到期債務",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2755,7 +2755,7 @@
     {
       "headword": "arbitrator",
       "partOfSpeech": "n.",
-      "definitionZh": "接受爭議各方委任主持仲裁並作出裁決的中立人",
+      "definitionZh": "仲裁人，接受各方委任主持仲裁並作出裁決的人",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2771,7 +2771,7 @@
     {
       "headword": "claimant",
       "partOfSpeech": "n.",
-      "definitionZh": "在仲裁或訴訟中提出索賠的一方",
+      "definitionZh": "索賠人，在仲裁或訴訟中提出索賠的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2787,7 +2787,7 @@
     {
       "headword": "respondent",
       "partOfSpeech": "n.",
-      "definitionZh": "在仲裁或其他正式程序中回應索賠的一方",
+      "definitionZh": "應訴人，在仲裁或其他正式程序中回應索賠的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2803,7 +2803,7 @@
     {
       "headword": "plaintiff",
       "partOfSpeech": "n.",
-      "definitionZh": "在法院訴訟中提起訴訟的原告方",
+      "definitionZh": "原告，在法院訴訟中提起訴訟的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2819,7 +2819,7 @@
     {
       "headword": "defendant",
       "partOfSpeech": "n.",
-      "definitionZh": "在法院訴訟中被起訴的被告方",
+      "definitionZh": "被告，在法院訴訟中被起訴的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2835,7 +2835,7 @@
     {
       "headword": "affidavit",
       "partOfSpeech": "n.",
-      "definitionZh": "在法律程序中提交的書面宣誓陳述書",
+      "definitionZh": "宣誓書，在法律程序中提交的書面宣誓陳述",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2851,7 +2851,7 @@
     {
       "headword": "acknowledgment",
       "partOfSpeech": "n.",
-      "definitionZh": "正式確認收到文件或同意特定事實的書面聲明",
+      "definitionZh": "確認書，正式確認收到文件或同意事實的聲明",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2867,7 +2867,7 @@
     {
       "headword": "notarize",
       "partOfSpeech": "v.",
-      "definitionZh": "由公證人正式見證並認證文件以確認其真實性",
+      "definitionZh": "公證，由公證人正式見證並認證文件真實性",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2883,7 +2883,7 @@
     {
       "headword": "compel",
       "partOfSpeech": "v.",
-      "definitionZh": "透過法律手段強制要求某方採取或停止特定行為",
+      "definitionZh": "強制，透過法律手段要求某方採取或停止行為",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2899,7 +2899,7 @@
     {
       "headword": "enjoin",
       "partOfSpeech": "v.",
-      "definitionZh": "法院透過命令要求某方執行或禁止特定行為",
+      "definitionZh": "責令，法院透過命令要求某方執行或禁止行為",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2915,7 +2915,7 @@
     {
       "headword": "indemnitor",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約承擔補償義務的一方",
+      "definitionZh": "補償義務人，依合約承擔補償義務的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2931,7 +2931,7 @@
     {
       "headword": "indemnitee",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約受到補償保護的一方",
+      "definitionZh": "受償人，依合約受到補償保護的一方",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2947,7 +2947,7 @@
     {
       "headword": "deposition",
       "partOfSpeech": "n.",
-      "definitionZh": "在法庭外以書面記錄的宣誓證詞",
+      "definitionZh": "庭外證詞，在法庭外以書面記錄的宣誓證詞",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2963,7 +2963,7 @@
     {
       "headword": "recourse",
       "partOfSpeech": "n.",
-      "definitionZh": "在對方違約時向其追索補償或救濟的法律途徑",
+      "definitionZh": "追索權，對方違約時向其追索補償的法律途徑",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2979,7 +2979,7 @@
     {
       "headword": "encumber",
       "partOfSpeech": "v.",
-      "definitionZh": "在財產上設定抵押或留置等法律負擔",
+      "definitionZh": "設定負擔，在財產上設定抵押或留置等負擔",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2995,7 +2995,7 @@
     {
       "headword": "perfection",
       "partOfSpeech": "n.",
-      "definitionZh": "使擔保利益取得對抗第三方法律效力的完善程序",
+      "definitionZh": "完善程序，使擔保利益取得對抗第三方效力的程序",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -3011,7 +3011,7 @@
     {
       "headword": "clawback",
       "partOfSpeech": "n.",
-      "definitionZh": "依合約規定收回已支付款項或利益的機制",
+      "definitionZh": "追回機制，依合約收回已支付款項或利益的機制",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -3027,7 +3027,7 @@
     {
       "headword": "unilateral",
       "partOfSpeech": "adj.",
-      "definitionZh": "僅由合約一方單方面決定或採取的",
+      "definitionZh": "單方的，僅由合約一方單方面決定或採取的",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -3043,7 +3043,7 @@
     {
       "headword": "bilateral",
       "partOfSpeech": "adj.",
-      "definitionZh": "由合約雙方相互同意且對雙方均具拘束力的",
+      "definitionZh": "雙方的，由合約雙方相互同意且均具拘束力的",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -3059,7 +3059,7 @@
     {
       "headword": "executory",
       "partOfSpeech": "adj.",
-      "definitionZh": "合約義務尚未完全履行、仍在執行中的",
+      "definitionZh": "尚待履行的，合約義務尚未完全履行、仍在執行中",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -3075,7 +3075,7 @@
     {
       "headword": "remediation",
       "partOfSpeech": "n.",
-      "definitionZh": "採取具體措施修補合約違規或交付缺陷",
+      "definitionZh": "補救措施，採取具體措施修補違規或缺陷",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -3091,7 +3091,7 @@
     {
       "headword": "solicitation",
       "partOfSpeech": "n.",
-      "definitionZh": "向潛在供應商發出的正式投標或報價邀請",
+      "definitionZh": "招標邀請，向潛在供應商發出的正式投標邀請",
       "examTags": [
         "TOEIC",
         "contracts",

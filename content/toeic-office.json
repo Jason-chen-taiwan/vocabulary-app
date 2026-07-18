@@ -37,7 +37,7 @@
     {
       "headword": "memo",
       "partOfSpeech": "n.",
-      "definitionZh": "辦公室內部傳閱的簡短通知或備忘",
+      "definitionZh": "備忘錄，辦公室內部傳閱的簡短通知",
       "examTags": [
         "TOEIC",
         "office"
@@ -82,7 +82,7 @@
     {
       "headword": "folder",
       "partOfSpeech": "n.",
-      "definitionZh": "用於存放文件的紙製或塑膠資料夾",
+      "definitionZh": "資料夾，用於存放文件的紙製或塑膠夾",
       "examTags": [
         "TOEIC",
         "office"
@@ -97,7 +97,7 @@
     {
       "headword": "binder",
       "partOfSpeech": "n.",
-      "definitionZh": "以金屬環固定多頁文件的活頁夾",
+      "definitionZh": "活頁夾，以金屬環固定多頁文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -112,7 +112,7 @@
     {
       "headword": "cabinet",
       "partOfSpeech": "n.",
-      "definitionZh": "用於分類存放紙本文件的抽屜式文件櫃",
+      "definitionZh": "文件櫃，分類存放紙本文件的抽屜式櫃子",
       "examTags": [
         "TOEIC",
         "office"
@@ -127,7 +127,7 @@
     {
       "headword": "drawer",
       "partOfSpeech": "n.",
-      "definitionZh": "桌子或櫃子裡可拉出的儲物抽屜",
+      "definitionZh": "抽屜，桌子或櫃子裡可拉出的儲物空間",
       "examTags": [
         "TOEIC",
         "office"
@@ -142,7 +142,7 @@
     {
       "headword": "cubicle",
       "partOfSpeech": "n.",
-      "definitionZh": "以隔板區隔的個人辦公隔間",
+      "definitionZh": "辦公隔間，以隔板區隔的個人工作空間",
       "examTags": [
         "TOEIC",
         "office"
@@ -157,7 +157,7 @@
     {
       "headword": "reception",
       "partOfSpeech": "n.",
-      "definitionZh": "辦公室或大樓入口的接待區；前台",
+      "definitionZh": "接待處，辦公室或大樓入口的前台",
       "examTags": [
         "TOEIC",
         "office"
@@ -172,7 +172,7 @@
     {
       "headword": "lobby",
       "partOfSpeech": "n.",
-      "definitionZh": "建築物入口處的寬敞公共門廳",
+      "definitionZh": "大廳，建築物入口處的寬敞公共門廳",
       "examTags": [
         "TOEIC",
         "office"
@@ -187,7 +187,7 @@
     {
       "headword": "corridor",
       "partOfSpeech": "n.",
-      "definitionZh": "連接各辦公室或房間的室內走廊",
+      "definitionZh": "走廊，連接各辦公室或房間的通道",
       "examTags": [
         "TOEIC",
         "office"
@@ -202,7 +202,7 @@
     {
       "headword": "elevator",
       "partOfSpeech": "n.",
-      "definitionZh": "載人或載物在樓層間移動的電梯",
+      "definitionZh": "電梯，載人或載物在樓層間移動",
       "examTags": [
         "TOEIC",
         "office"
@@ -217,7 +217,7 @@
     {
       "headword": "restroom",
       "partOfSpeech": "n.",
-      "definitionZh": "辦公室或公共場所的廁所；洗手間",
+      "definitionZh": "洗手間，辦公室或公共場所的廁所",
       "examTags": [
         "TOEIC",
         "office"
@@ -232,7 +232,7 @@
     {
       "headword": "cafeteria",
       "partOfSpeech": "n.",
-      "definitionZh": "供員工自助取餐的公司餐廳",
+      "definitionZh": "員工餐廳，供員工自助取餐的公司餐廳",
       "examTags": [
         "TOEIC",
         "office"
@@ -247,7 +247,7 @@
     {
       "headword": "supply",
       "partOfSpeech": "n./v.",
-      "definitionZh": "辦公所需的消耗性用品；提供所需物資",
+      "definitionZh": "用品，辦公所需的消耗性物品；供應，提供所需物資",
       "examTags": [
         "TOEIC",
         "office"
@@ -262,7 +262,7 @@
     {
       "headword": "request",
       "partOfSpeech": "v./n.",
-      "definitionZh": "正式提出申請或要求某事",
+      "definitionZh": "請求，正式提出申請或要求某事",
       "examTags": [
         "TOEIC",
         "office"
@@ -277,7 +277,7 @@
     {
       "headword": "submit",
       "partOfSpeech": "v.",
-      "definitionZh": "將文件或申請表繳交給負責人或系統",
+      "definitionZh": "繳交，將文件或申請表交給負責人或系統",
       "examTags": [
         "TOEIC",
         "office"
@@ -292,7 +292,7 @@
     {
       "headword": "attach",
       "partOfSpeech": "v.",
-      "definitionZh": "在電子郵件或文件中夾帶附件",
+      "definitionZh": "附加，在電子郵件或文件中夾帶附件",
       "examTags": [
         "TOEIC",
         "office"
@@ -307,7 +307,7 @@
     {
       "headword": "forward",
       "partOfSpeech": "v.",
-      "definitionZh": "將收到的郵件轉寄給其他收件人",
+      "definitionZh": "轉寄，將收到的郵件轉給其他收件人",
       "examTags": [
         "TOEIC",
         "office"
@@ -322,7 +322,7 @@
     {
       "headword": "reply",
       "partOfSpeech": "v./n.",
-      "definitionZh": "回覆寄件人的郵件或訊息",
+      "definitionZh": "回覆，回應寄件人的郵件或訊息",
       "examTags": [
         "TOEIC",
         "office"
@@ -337,7 +337,7 @@
     {
       "headword": "draft",
       "partOfSpeech": "v./n.",
-      "definitionZh": "撰寫尚未定稿的初步文件版本",
+      "definitionZh": "草稿，撰寫尚未定稿的初步文件版本",
       "examTags": [
         "TOEIC",
         "office"
@@ -352,7 +352,7 @@
     {
       "headword": "proofread",
       "partOfSpeech": "v.",
-      "definitionZh": "仔細閱讀文件以查找並改正文字錯誤",
+      "definitionZh": "校對，仔細閱讀文件以查找並改正錯字",
       "examTags": [
         "TOEIC",
         "office"
@@ -367,7 +367,7 @@
     {
       "headword": "revise",
       "partOfSpeech": "v.",
-      "definitionZh": "根據意見對文件內容進行修改或更新",
+      "definitionZh": "修訂，根據意見對文件內容進行修改更新",
       "examTags": [
         "TOEIC",
         "office"
@@ -382,7 +382,7 @@
     {
       "headword": "distribute",
       "partOfSpeech": "v.",
-      "definitionZh": "將文件或資料分發給多位收件人各存一份",
+      "definitionZh": "分發，將文件或資料分給多位收件人各存一份",
       "examTags": [
         "TOEIC",
         "office"
@@ -397,7 +397,7 @@
     {
       "headword": "circulate",
       "partOfSpeech": "v.",
-      "definitionZh": "在成員間輪流傳閱同一份文件以供各人過目",
+      "definitionZh": "傳閱，在成員間輪流傳遞同一份文件供各人過目",
       "examTags": [
         "TOEIC",
         "office"
@@ -412,7 +412,7 @@
     {
       "headword": "notify",
       "partOfSpeech": "v.",
-      "definitionZh": "正式告知相關人員某一消息或變動",
+      "definitionZh": "通知，正式告知相關人員某一消息或變動",
       "examTags": [
         "TOEIC",
         "office"
@@ -427,7 +427,7 @@
     {
       "headword": "remind",
       "partOfSpeech": "v.",
-      "definitionZh": "提醒他人記得某件即將到期或需完成的事",
+      "definitionZh": "提醒，讓他人記得某件即將到期或需完成的事",
       "examTags": [
         "TOEIC",
         "office"
@@ -457,7 +457,7 @@
     {
       "headword": "acknowledge",
       "partOfSpeech": "v.",
-      "definitionZh": "回覆表示已收到對方的郵件或通知",
+      "definitionZh": "確認收到，回覆表示已收到對方的郵件或通知",
       "examTags": [
         "TOEIC",
         "office"
@@ -472,7 +472,7 @@
     {
       "headword": "correspond",
       "partOfSpeech": "v.",
-      "definitionZh": "以書信或電子郵件與他人進行往來溝通",
+      "definitionZh": "通信，以書信或電子郵件與他人往來溝通",
       "examTags": [
         "TOEIC",
         "office"
@@ -487,7 +487,7 @@
     {
       "headword": "greet",
       "partOfSpeech": "v.",
-      "definitionZh": "以問候語或行動向他人打招呼",
+      "definitionZh": "打招呼，以問候語或行動向他人致意",
       "examTags": [
         "TOEIC",
         "office"
@@ -502,7 +502,7 @@
     {
       "headword": "introduce",
       "partOfSpeech": "v.",
-      "definitionZh": "正式向他人說明某人的身份或背景",
+      "definitionZh": "介紹，正式向他人說明某人的身份或背景",
       "examTags": [
         "TOEIC",
         "office"
@@ -517,7 +517,7 @@
     {
       "headword": "address",
       "partOfSpeech": "v./n.",
-      "definitionZh": "正式稱呼某人或向特定對象講話；地址",
+      "definitionZh": "稱呼，正式稱呼某人或向特定對象講話；地址",
       "examTags": [
         "TOEIC",
         "office"
@@ -532,7 +532,7 @@
     {
       "headword": "signature",
       "partOfSpeech": "n.",
-      "definitionZh": "本人親筆簽名以表示同意或確認身份",
+      "definitionZh": "簽名，本人親筆簽署以表示同意或確認身份",
       "examTags": [
         "TOEIC",
         "office"
@@ -562,7 +562,7 @@
     {
       "headword": "envelope",
       "partOfSpeech": "n.",
-      "definitionZh": "用於封裝信件或文件的紙製信封",
+      "definitionZh": "信封，用於封裝信件或文件的紙製封套",
       "examTags": [
         "TOEIC",
         "office"
@@ -577,7 +577,7 @@
     {
       "headword": "postage",
       "partOfSpeech": "n.",
-      "definitionZh": "寄送郵件或包裹所需支付的郵費",
+      "definitionZh": "郵資，寄送郵件或包裹所需支付的費用",
       "examTags": [
         "TOEIC",
         "office"
@@ -592,7 +592,7 @@
     {
       "headword": "courier",
       "partOfSpeech": "n.",
-      "definitionZh": "負責快速遞送包裹或文件的快遞服務",
+      "definitionZh": "快遞，負責快速遞送包裹或文件的服務",
       "examTags": [
         "TOEIC",
         "office"
@@ -607,7 +607,7 @@
     {
       "headword": "deliver",
       "partOfSpeech": "v.",
-      "definitionZh": "將物品或文件實際送達至指定地點",
+      "definitionZh": "遞送，將物品或文件實際送達指定地點",
       "examTags": [
         "TOEIC",
         "office"
@@ -622,7 +622,7 @@
     {
       "headword": "receipt",
       "partOfSpeech": "n.",
-      "definitionZh": "確認已收到款項或貨物的書面憑證",
+      "definitionZh": "收據，確認已收到款項或貨物的書面憑證",
       "examTags": [
         "TOEIC",
         "office"
@@ -652,7 +652,7 @@
     {
       "headword": "extension",
       "partOfSpeech": "n.",
-      "definitionZh": "公司內部電話系統的分機號碼",
+      "definitionZh": "分機，公司內部電話系統的分機號碼",
       "examTags": [
         "TOEIC",
         "office"
@@ -667,7 +667,7 @@
     {
       "headword": "voicemail",
       "partOfSpeech": "n.",
-      "definitionZh": "對方未接電話時留存語音留言的信箱",
+      "definitionZh": "語音信箱，對方未接電話時留存的語音留言",
       "examTags": [
         "TOEIC",
         "office"
@@ -682,7 +682,7 @@
     {
       "headword": "inbox",
       "partOfSpeech": "n.",
-      "definitionZh": "電子郵件系統中存放收到郵件的收件匣",
+      "definitionZh": "收件匣，電子郵件系統中存放收到郵件之處",
       "examTags": [
         "TOEIC",
         "office"
@@ -697,7 +697,7 @@
     {
       "headword": "outbox",
       "partOfSpeech": "n.",
-      "definitionZh": "存放已寄出或等待送出郵件的寄件匣",
+      "definitionZh": "寄件匣，存放已寄出或等待送出的郵件",
       "examTags": [
         "TOEIC",
         "office"
@@ -712,7 +712,7 @@
     {
       "headword": "archive",
       "partOfSpeech": "v./n.",
-      "definitionZh": "將舊有文件永久封存以備日後查閱",
+      "definitionZh": "封存，將舊有文件永久保存以備日後查閱",
       "examTags": [
         "TOEIC",
         "office"
@@ -727,7 +727,7 @@
     {
       "headword": "retrieve",
       "partOfSpeech": "v.",
-      "definitionZh": "從存放處取回或查找所需的文件或資料",
+      "definitionZh": "取回，從存放處取回或查找所需的文件資料",
       "examTags": [
         "TOEIC",
         "office"
@@ -742,7 +742,7 @@
     {
       "headword": "delete",
       "partOfSpeech": "v.",
-      "definitionZh": "永久移除不再需要的數位檔案或資料",
+      "definitionZh": "刪除，永久移除不再需要的數位檔案或資料",
       "examTags": [
         "TOEIC",
         "office"
@@ -757,7 +757,7 @@
     {
       "headword": "save",
       "partOfSpeech": "v.",
-      "definitionZh": "將正在編輯的檔案寫入儲存媒介以防資料遺失",
+      "definitionZh": "儲存，將編輯中的檔案寫入媒介以防資料遺失",
       "examTags": [
         "TOEIC",
         "office"
@@ -772,7 +772,7 @@
     {
       "headword": "copy",
       "partOfSpeech": "v./n.",
-      "definitionZh": "複製現有內容或文件；所製作的副本",
+      "definitionZh": "複製，重製現有內容或文件；副本，複製出的文件本身",
       "examTags": [
         "TOEIC",
         "office"
@@ -787,7 +787,7 @@
     {
       "headword": "paste",
       "partOfSpeech": "v.",
-      "definitionZh": "將已複製的內容貼入文件的指定位置",
+      "definitionZh": "貼上，將已複製的內容貼入文件的指定位置",
       "examTags": [
         "TOEIC",
         "office"
@@ -802,7 +802,7 @@
     {
       "headword": "format",
       "partOfSpeech": "v./n.",
-      "definitionZh": "調整文件的版面編排（字型、間距等外觀設定）",
+      "definitionZh": "格式化，調整文件版面編排（字型、間距等）",
       "examTags": [
         "TOEIC",
         "office"
@@ -817,7 +817,7 @@
     {
       "headword": "template",
       "partOfSpeech": "n.",
-      "definitionZh": "可重複套用的預設文件格式或範本",
+      "definitionZh": "範本，可重複套用的預設文件格式",
       "examTags": [
         "TOEIC",
         "office"
@@ -832,7 +832,7 @@
     {
       "headword": "spreadsheet",
       "partOfSpeech": "n.",
-      "definitionZh": "以欄列格式呈現及計算數據的電子試算表",
+      "definitionZh": "試算表，以欄列格式呈現及計算數據的表格",
       "examTags": [
         "TOEIC",
         "office"
@@ -847,7 +847,7 @@
     {
       "headword": "document",
       "partOfSpeech": "n.",
-      "definitionZh": "包含書面資訊的正式文件或電子檔案",
+      "definitionZh": "文件，包含書面資訊的正式檔案或電子檔",
       "examTags": [
         "TOEIC",
         "office"
@@ -862,7 +862,7 @@
     {
       "headword": "record",
       "partOfSpeech": "v./n.",
-      "definitionZh": "正式保存以備查核的書面或電子資料",
+      "definitionZh": "紀錄，正式保存以備查核的書面或電子資料",
       "examTags": [
         "TOEIC",
         "office"
@@ -877,7 +877,7 @@
     {
       "headword": "backup",
       "partOfSpeech": "n./v.",
-      "definitionZh": "複製資料另存以防原始檔案損毀遺失",
+      "definitionZh": "備份，複製資料另存以防原始檔案損毀遺失",
       "examTags": [
         "TOEIC",
         "office"
@@ -892,7 +892,7 @@
     {
       "headword": "password",
       "partOfSpeech": "n.",
-      "definitionZh": "用以驗證身份並保護帳號存取的密語",
+      "definitionZh": "密碼，用以驗證身份並保護帳號存取的密語",
       "examTags": [
         "TOEIC",
         "office"
@@ -922,7 +922,7 @@
     {
       "headword": "log",
       "partOfSpeech": "v./n.",
-      "definitionZh": "系統或事件按時間順序留存的連續紀錄日誌",
+      "definitionZh": "日誌，系統或事件按時間順序留存的紀錄",
       "examTags": [
         "TOEIC",
         "office"
@@ -937,7 +937,7 @@
     {
       "headword": "track",
       "partOfSpeech": "v.",
-      "definitionZh": "持續追蹤並記錄工作進度或狀態變化",
+      "definitionZh": "追蹤，持續記錄工作進度或狀態變化",
       "examTags": [
         "TOEIC",
         "office"
@@ -952,7 +952,7 @@
     {
       "headword": "monitor",
       "partOfSpeech": "v.",
-      "definitionZh": "持續觀察並評估某過程或系統的運作狀況",
+      "definitionZh": "監控，持續觀察並評估某過程或系統運作",
       "examTags": [
         "TOEIC",
         "office"
@@ -967,7 +967,7 @@
     {
       "headword": "summary",
       "partOfSpeech": "n.",
-      "definitionZh": "將較長內容精簡呈現的重點概述",
+      "definitionZh": "摘要，將較長內容精簡呈現的重點概述",
       "examTags": [
         "TOEIC",
         "office"
@@ -982,7 +982,7 @@
     {
       "headword": "checklist",
       "partOfSpeech": "n.",
-      "definitionZh": "逐項確認是否完成的核查表",
+      "definitionZh": "檢查表，逐項確認是否完成的核查清單",
       "examTags": [
         "TOEIC",
         "office"
@@ -997,7 +997,7 @@
     {
       "headword": "form",
       "partOfSpeech": "n.",
-      "definitionZh": "需填寫特定資料欄位的官方表格",
+      "definitionZh": "表格，需填寫特定資料欄位的官方文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -1012,7 +1012,7 @@
     {
       "headword": "fill",
       "partOfSpeech": "v.",
-      "definitionZh": "在表格或欄位中填入所要求的資訊",
+      "definitionZh": "填寫，在表格或欄位中填入所要求的資訊",
       "examTags": [
         "TOEIC",
         "office"
@@ -1027,7 +1027,7 @@
     {
       "headword": "sign",
       "partOfSpeech": "v.",
-      "definitionZh": "在文件上親筆簽名以表示同意或確認",
+      "definitionZh": "簽署，親手簽下姓名以確認文件內容或同意",
       "examTags": [
         "TOEIC",
         "office"
@@ -1042,7 +1042,7 @@
     {
       "headword": "date",
       "partOfSpeech": "v./n.",
-      "definitionZh": "在文件上填寫或標示日期",
+      "definitionZh": "標註日期，在文件上寫下或蓋上日期以供查核",
       "examTags": [
         "TOEIC",
         "office"
@@ -1057,7 +1057,7 @@
     {
       "headword": "note",
       "partOfSpeech": "n./v.",
-      "definitionZh": "隨手記下的簡短臨時備忘",
+      "definitionZh": "便條，隨手記下的簡短臨時備忘",
       "examTags": [
         "TOEIC",
         "office"
@@ -1072,7 +1072,7 @@
     {
       "headword": "list",
       "partOfSpeech": "n./v.",
-      "definitionZh": "將一系列事項條列排出的清單",
+      "definitionZh": "清單，將一系列事項條列排出",
       "examTags": [
         "TOEIC",
         "office"
@@ -1087,7 +1087,7 @@
     {
       "headword": "task",
       "partOfSpeech": "n.",
-      "definitionZh": "分派給個人的具體待辦工作項目",
+      "definitionZh": "工作項目，分派給個人的具體待辦事項",
       "examTags": [
         "TOEIC",
         "office"
@@ -1132,7 +1132,7 @@
     {
       "headword": "procedure",
       "partOfSpeech": "n.",
-      "definitionZh": "完成某項工作所需遵循的既定操作步驟",
+      "definitionZh": "程序，完成某項工作所需遵循的既定步驟",
       "examTags": [
         "TOEIC",
         "office"
@@ -1147,7 +1147,7 @@
     {
       "headword": "guideline",
       "partOfSpeech": "n.",
-      "definitionZh": "提供方向建議的操作準則，非強制規定",
+      "definitionZh": "指導方針，提供方向建議的操作準則，非強制規定",
       "examTags": [
         "TOEIC",
         "office"
@@ -1162,7 +1162,7 @@
     {
       "headword": "regulation",
       "partOfSpeech": "n.",
-      "definitionZh": "由主管機關頒布的強制性規定或法令",
+      "definitionZh": "法規，由主管機關頒布的強制性規定",
       "examTags": [
         "TOEIC",
         "office"
@@ -1177,7 +1177,7 @@
     {
       "headword": "standard",
       "partOfSpeech": "n.",
-      "definitionZh": "衡量品質或行為是否合格的基準規格",
+      "definitionZh": "標準，衡量品質或行為是否合格的基準",
       "examTags": [
         "TOEIC",
         "office"
@@ -1192,7 +1192,7 @@
     {
       "headword": "protocol",
       "partOfSpeech": "n.",
-      "definitionZh": "正式場合或特定情境下慣用的禮儀或處理規範",
+      "definitionZh": "禮儀規範，正式場合或特定情境下慣用的禮節與處理方式",
       "examTags": [
         "TOEIC",
         "office"
@@ -1207,7 +1207,7 @@
     {
       "headword": "approve",
       "partOfSpeech": "v.",
-      "definitionZh": "正式批准或核准某申請、計畫或文件",
+      "definitionZh": "核准，正式批准某申請、計畫或文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -1222,7 +1222,7 @@
     {
       "headword": "reject",
       "partOfSpeech": "v.",
-      "definitionZh": "拒絕接受或駁回某申請或提案",
+      "definitionZh": "駁回，拒絕接受某申請或提案",
       "examTags": [
         "TOEIC",
         "office"
@@ -1237,7 +1237,7 @@
     {
       "headword": "defer",
       "partOfSpeech": "v.",
-      "definitionZh": "將決定或行動推遲至較晚時間再處理",
+      "definitionZh": "延後，將決定或行動推遲至較晚時間處理",
       "examTags": [
         "TOEIC",
         "office"
@@ -1252,7 +1252,7 @@
     {
       "headword": "process",
       "partOfSpeech": "v./n.",
-      "definitionZh": "依既定程序逐步處理申請或文件",
+      "definitionZh": "處理，依既定程序逐步審核申請或文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -1267,7 +1267,7 @@
     {
       "headword": "handle",
       "partOfSpeech": "v.",
-      "definitionZh": "親自應對或解決特定問題或情況",
+      "definitionZh": "應對，親自處理或解決特定問題或情況",
       "examTags": [
         "TOEIC",
         "office"
@@ -1312,7 +1312,7 @@
     {
       "headword": "sort",
       "partOfSpeech": "v.",
-      "definitionZh": "依特定條件（如日期、類別）排列或分類",
+      "definitionZh": "分類排序，依日期、類別等條件排列",
       "examTags": [
         "TOEIC",
         "office"
@@ -1327,7 +1327,7 @@
     {
       "headword": "tag",
       "partOfSpeech": "v./n.",
-      "definitionZh": "以關鍵字或顏色標記電子檔案以便快速分類",
+      "definitionZh": "標記，以關鍵字或顏色標示電子檔案以便分類",
       "examTags": [
         "TOEIC",
         "office"
@@ -1342,7 +1342,7 @@
     {
       "headword": "store",
       "partOfSpeech": "v.",
-      "definitionZh": "將物品或資料安全存放於指定地點",
+      "definitionZh": "存放，將物品或資料安全存放於指定地點",
       "examTags": [
         "TOEIC",
         "office"
@@ -1357,7 +1357,7 @@
     {
       "headword": "dispose",
       "partOfSpeech": "v.",
-      "definitionZh": "丟棄或適當處置不再使用的物品或廢棄文件",
+      "definitionZh": "處置丟棄，適當處理不再使用的物品或文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -1372,7 +1372,7 @@
     {
       "headword": "shred",
       "partOfSpeech": "v.",
-      "definitionZh": "用碎紙機銷毀含敏感資訊的紙本文件",
+      "definitionZh": "碎紙，用碎紙機銷毀含敏感資訊的紙本文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -1387,7 +1387,7 @@
     {
       "headword": "recycle",
       "partOfSpeech": "v.",
-      "definitionZh": "將廢紙等可用材料回收再利用",
+      "definitionZh": "回收，將廢紙等可用材料回收再利用",
       "examTags": [
         "TOEIC",
         "office"
@@ -1402,7 +1402,7 @@
     {
       "headword": "maintain",
       "partOfSpeech": "v.",
-      "definitionZh": "定期保養設備或更新資料以確保正常運作",
+      "definitionZh": "維護保養，定期保養設備或更新資料",
       "examTags": [
         "TOEIC",
         "office"
@@ -1417,7 +1417,7 @@
     {
       "headword": "equipment",
       "partOfSpeech": "n.",
-      "definitionZh": "辦公室使用的各類硬體器材與機器設備",
+      "definitionZh": "設備，辦公室使用的各類硬體器材與機器",
       "examTags": [
         "TOEIC",
         "office"
@@ -1432,7 +1432,7 @@
     {
       "headword": "device",
       "partOfSpeech": "n.",
-      "definitionZh": "用於辦公的個人電子裝置（如平板電腦、智慧型手機）",
+      "definitionZh": "裝置，用於辦公的個人電子裝置（如平板、手機）",
       "examTags": [
         "TOEIC",
         "office"
@@ -1447,7 +1447,7 @@
     {
       "headword": "keyboard",
       "partOfSpeech": "n.",
-      "definitionZh": "用於輸入文字的電腦鍵盤",
+      "definitionZh": "鍵盤，用於輸入文字的電腦鍵盤",
       "examTags": [
         "TOEIC",
         "office"
@@ -1462,7 +1462,7 @@
     {
       "headword": "mouse",
       "partOfSpeech": "n.",
-      "definitionZh": "控制螢幕游標移動的電腦滑鼠",
+      "definitionZh": "滑鼠，控制螢幕游標移動的電腦滑鼠",
       "examTags": [
         "TOEIC",
         "office"
@@ -1477,7 +1477,7 @@
     {
       "headword": "cable",
       "partOfSpeech": "n.",
-      "definitionZh": "連接設備以傳輸電源或資料的導線",
+      "definitionZh": "電纜線，連接設備以傳輸電源或資料的導線",
       "examTags": [
         "TOEIC",
         "office"
@@ -1492,7 +1492,7 @@
     {
       "headword": "charger",
       "partOfSpeech": "n.",
-      "definitionZh": "為電池驅動裝置補充電力的充電器",
+      "definitionZh": "充電器，為電池驅動裝置補充電力",
       "examTags": [
         "TOEIC",
         "office"
@@ -1507,7 +1507,7 @@
     {
       "headword": "battery",
       "partOfSpeech": "n.",
-      "definitionZh": "為無線或可攜式裝置提供電力的電池",
+      "definitionZh": "電池，為無線或可攜式裝置提供電力",
       "examTags": [
         "TOEIC",
         "office"
@@ -1522,7 +1522,7 @@
     {
       "headword": "outlet",
       "partOfSpeech": "n.",
-      "definitionZh": "牆上用於連接電器供電的電源插座",
+      "definitionZh": "電源插座，牆上用於連接電器供電的插座",
       "examTags": [
         "TOEIC",
         "office"
@@ -1552,7 +1552,7 @@
     {
       "headword": "lamp",
       "partOfSpeech": "n.",
-      "definitionZh": "放置在桌上提供局部照明的檯燈",
+      "definitionZh": "檯燈，放置在桌上提供局部照明的燈具",
       "examTags": [
         "TOEIC",
         "office"
@@ -1582,7 +1582,7 @@
     {
       "headword": "printer",
       "partOfSpeech": "n.",
-      "definitionZh": "將電腦文件列印成紙本的印表機",
+      "definitionZh": "印表機，將電腦文件列印成紙本的機器",
       "examTags": [
         "TOEIC",
         "office"
@@ -1597,7 +1597,7 @@
     {
       "headword": "scanner",
       "partOfSpeech": "n.",
-      "definitionZh": "將紙本文件轉換為數位電子檔案的掃描機",
+      "definitionZh": "掃描機，將紙本文件轉換為數位電子檔的機器",
       "examTags": [
         "TOEIC",
         "office"
@@ -1612,7 +1612,7 @@
     {
       "headword": "projector",
       "partOfSpeech": "n.",
-      "definitionZh": "將電腦畫面放大投影到幕布上的投影機",
+      "definitionZh": "投影機，將畫面放大投影到幕布上的機器",
       "examTags": [
         "TOEIC",
         "office"
@@ -1627,7 +1627,7 @@
     {
       "headword": "screen",
       "partOfSpeech": "n.",
-      "definitionZh": "顯示電腦或投影畫面的平面螢幕",
+      "definitionZh": "螢幕，顯示電腦或投影畫面的平面裝置",
       "examTags": [
         "TOEIC",
         "office"
@@ -1657,7 +1657,7 @@
     {
       "headword": "report",
       "partOfSpeech": "n./v.",
-      "definitionZh": "詳述工作結果或調查發現的正式書面報告",
+      "definitionZh": "報告，詳述工作結果或調查發現的正式文書",
       "examTags": [
         "TOEIC",
         "office"
@@ -1672,7 +1672,7 @@
     {
       "headword": "order",
       "partOfSpeech": "v./n.",
-      "definitionZh": "向供應商採購所需物品；所下的採購訂單",
+      "definitionZh": "訂購，向供應商採購所需物品；訂單，所下的採購單",
       "examTags": [
         "TOEIC",
         "office"
@@ -1687,7 +1687,7 @@
     {
       "headword": "label",
       "partOfSpeech": "n./v.",
-      "definitionZh": "貼在物品外部標示名稱或內容的識別標籤",
+      "definitionZh": "標籤，貼在物品外部標示名稱或內容的識別牌",
       "examTags": [
         "TOEIC",
         "office"
@@ -1717,7 +1717,7 @@
     {
       "headword": "review",
       "partOfSpeech": "v./n.",
-      "definitionZh": "仔細審閱文件或評估工作以確認整體品質",
+      "definitionZh": "審閱，仔細檢視文件或評估工作以確認品質",
       "examTags": [
         "TOEIC",
         "office"
@@ -1732,7 +1732,7 @@
     {
       "headword": "policy",
       "partOfSpeech": "n.",
-      "definitionZh": "組織制定的行為方針或管理規章",
+      "definitionZh": "政策，組織制定的行為方針或管理規章",
       "examTags": [
         "TOEIC",
         "office"
@@ -1747,7 +1747,7 @@
     {
       "headword": "print",
       "partOfSpeech": "v.",
-      "definitionZh": "將電腦上的電子文件輸出為紙本",
+      "definitionZh": "列印，將電腦上的電子文件輸出為紙本",
       "examTags": [
         "TOEIC",
         "office"
@@ -1792,7 +1792,7 @@
     {
       "headword": "annotation",
       "partOfSpeech": "n.",
-      "definitionZh": "加在文件或文字旁邊的補充說明或批注",
+      "definitionZh": "註解，加在文件或文字旁邊的補充說明",
       "examTags": [
         "TOEIC",
         "office",
@@ -1872,7 +1872,7 @@
     {
       "headword": "partition",
       "partOfSpeech": "n./v.",
-      "definitionZh": "用以分隔辦公空間的隔板；將空間加以分隔",
+      "definitionZh": "隔板，區隔辦公空間用的板材；分隔，將空間加以區隔",
       "examTags": [
         "TOEIC",
         "office",
@@ -1888,7 +1888,7 @@
     {
       "headword": "petition",
       "partOfSpeech": "n./v.",
-      "definitionZh": "向有決策權者提出的正式書面請願",
+      "definitionZh": "請願書，向有決策權者提出的正式書面請求",
       "examTags": [
         "TOEIC",
         "office",
@@ -1904,7 +1904,7 @@
     {
       "headword": "procure",
       "partOfSpeech": "v.",
-      "definitionZh": "依照正式採購程序取得所需物品或服務",
+      "definitionZh": "採購取得，依照正式程序取得所需物品或服務",
       "examTags": [
         "TOEIC",
         "office",
@@ -1920,7 +1920,7 @@
     {
       "headword": "proficient",
       "partOfSpeech": "adj.",
-      "definitionZh": "在特定技能或工作上具備高度能力且熟練的",
+      "definitionZh": "熟練的，在特定技能或工作上具備高度能力",
       "examTags": [
         "TOEIC",
         "office",
@@ -1936,7 +1936,7 @@
     {
       "headword": "redact",
       "partOfSpeech": "v.",
-      "definitionZh": "在公開文件前將機密或敏感資訊遮蔽刪除",
+      "definitionZh": "遮蔽刪除，公開文件前將機密資訊塗銷",
       "examTags": [
         "TOEIC",
         "office",
@@ -1952,7 +1952,7 @@
     {
       "headword": "requisition",
       "partOfSpeech": "n./v.",
-      "definitionZh": "正式申請採購物品或服務的內部請購單",
+      "definitionZh": "請購單，正式申請採購物品或服務的內部文件",
       "examTags": [
         "TOEIC",
         "office",
@@ -1968,7 +1968,7 @@
     {
       "headword": "dossier",
       "partOfSpeech": "n.",
-      "definitionZh": "收集關於特定人物或議題的完整背景資料檔案",
+      "definitionZh": "檔案卷宗，收集特定人物或議題的完整背景資料",
       "examTags": [
         "TOEIC",
         "office",
@@ -1984,7 +1984,7 @@
     {
       "headword": "enclosure",
       "partOfSpeech": "n.",
-      "definitionZh": "隨信件或正式郵件一併附上的其他文件",
+      "definitionZh": "附件，隨信件或正式郵件一併附上的其他文件",
       "examTags": [
         "TOEIC",
         "office",
@@ -2000,7 +2000,7 @@
     {
       "headword": "declassify",
       "partOfSpeech": "v.",
-      "definitionZh": "解除文件的機密級別使其可對外公開存取",
+      "definitionZh": "解密，解除文件的機密級別使其可對外公開",
       "examTags": [
         "TOEIC",
         "office",
@@ -2016,7 +2016,7 @@
     {
       "headword": "workstation",
       "partOfSpeech": "n.",
-      "definitionZh": "員工專用的電腦桌及周邊設備組成的辦公工作區",
+      "definitionZh": "工作站，員工專用的電腦桌及周邊設備組成的工作區",
       "examTags": [
         "TOEIC",
         "office",
@@ -2032,7 +2032,7 @@
     {
       "headword": "nondisclosure",
       "partOfSpeech": "n.",
-      "definitionZh": "禁止透露機密資訊的保密義務或合約約束",
+      "definitionZh": "保密協議，禁止透露機密資訊的義務或合約約束",
       "examTags": [
         "TOEIC",
         "office",
@@ -2048,7 +2048,7 @@
     {
       "headword": "feasibility",
       "partOfSpeech": "n.",
-      "definitionZh": "評估某計畫或提案在現實條件下能否執行的可行性",
+      "definitionZh": "可行性，評估計畫或提案在現實條件下能否執行",
       "examTags": [
         "TOEIC",
         "office",
@@ -2064,7 +2064,7 @@
     {
       "headword": "expenditure",
       "partOfSpeech": "n.",
-      "definitionZh": "為特定目的花費的金額；支出總額",
+      "definitionZh": "支出，為特定目的花費的金額；支出總額",
       "examTags": [
         "TOEIC",
         "office",
@@ -2096,7 +2096,7 @@
     {
       "headword": "authenticate",
       "partOfSpeech": "v.",
-      "definitionZh": "確認文件或身份的真實性與合法有效性",
+      "definitionZh": "驗證，確認文件或身份的真實性與合法性",
       "examTags": [
         "TOEIC",
         "office",
@@ -2112,7 +2112,7 @@
     {
       "headword": "clarification",
       "partOfSpeech": "n.",
-      "definitionZh": "消除模糊或誤解所提供的進一步解釋說明",
+      "definitionZh": "澄清說明，消除模糊或誤解所提供的進一步解釋",
       "examTags": [
         "TOEIC",
         "office",
@@ -2128,7 +2128,7 @@
     {
       "headword": "revocation",
       "partOfSpeech": "n.",
-      "definitionZh": "正式撤銷先前已授予的許可、授權或資格",
+      "definitionZh": "撤銷，正式取消先前已授予的許可或資格",
       "examTags": [
         "TOEIC",
         "office",
@@ -2144,7 +2144,7 @@
     {
       "headword": "memorialize",
       "partOfSpeech": "v.",
-      "definitionZh": "以正式書面記錄留存某一決議、協議或事件",
+      "definitionZh": "記載留存，以正式書面記錄某一決議或事件",
       "examTags": [
         "TOEIC",
         "office",
@@ -2160,7 +2160,7 @@
     {
       "headword": "correspondence",
       "partOfSpeech": "n.",
-      "definitionZh": "透過書信或電子郵件進行的正式書面往來",
+      "definitionZh": "書信往來，透過書信或電子郵件進行的正式溝通",
       "examTags": [
         "TOEIC",
         "office",
@@ -2176,7 +2176,7 @@
     {
       "headword": "transmittal",
       "partOfSpeech": "n.",
-      "definitionZh": "隨文件或資料一同附上的正式說明性寄送通知函",
+      "definitionZh": "送件函，隨文件或資料一同附上的正式說明通知",
       "examTags": [
         "TOEIC",
         "office",
