@@ -4,8 +4,20 @@ const CACHE = 'vocab-v2'
 const OFFLINE_URL = '/offline'
 
 self.addEventListener('install', (e) => {
+  // /offline 是 client component，離線 hydrate 需要它的 _next/static chunks；
+  // install 時一併快取，讓沒在線上訪問過 /offline 的裝置也能離線用
   e.waitUntil(
-    caches.open(CACHE).then((c) => c.add(OFFLINE_URL)).then(() => self.skipWaiting())
+    (async () => {
+      const cache = await caches.open(CACHE)
+      const res = await fetch(OFFLINE_URL).catch(() => null)
+      if (res && res.ok) {
+        await cache.put(OFFLINE_URL, res.clone())
+        const html = await res.text()
+        const assetUrls = [...new Set(html.match(/\/_next\/static\/[^"'\\\s)>]+/g) || [])]
+        await Promise.all(assetUrls.map((u) => cache.add(u).catch(() => {})))
+      }
+      self.skipWaiting()
+    })()
   )
 })
 
