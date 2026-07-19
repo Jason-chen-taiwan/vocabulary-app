@@ -7,7 +7,7 @@
     {
       "headword": "evacuation",
       "partOfSpeech": "noun",
-      "definitionZh": "疏散；緊急情況下有序離開危險區域",
+      "definitionZh": "疏散，緊急情況下有序撤離危險區域的行動",
       "examTags": [
         "TOEIC",
         "safety"
@@ -22,7 +22,7 @@
     {
       "headword": "drill",
       "partOfSpeech": "noun",
-      "definitionZh": "演練；模擬緊急狀況的定期訓練",
+      "definitionZh": "演練，模擬緊急狀況以熟悉應變流程的定期訓練",
       "examTags": [
         "TOEIC",
         "safety"
@@ -37,7 +37,7 @@
     {
       "headword": "alarm",
       "partOfSpeech": "noun",
-      "definitionZh": "警報器；偵測危險並發出聲音或信號的裝置",
+      "definitionZh": "警報器，偵測危險並發出聲響或信號的裝置",
       "examTags": [
         "TOEIC",
         "safety"
@@ -52,7 +52,7 @@
     {
       "headword": "siren",
       "partOfSpeech": "noun",
-      "definitionZh": "警報聲；緊急情況警示用的高音警鳴聲",
+      "definitionZh": "警報聲，緊急情況下警示眾人的高音鳴響",
       "examTags": [
         "TOEIC",
         "safety"
@@ -67,7 +67,7 @@
     {
       "headword": "extinguisher",
       "partOfSpeech": "noun",
-      "definitionZh": "滅火器；撲滅初期火源的手持式器材",
+      "definitionZh": "滅火器，撲滅初期火源的手持式器材",
       "examTags": [
         "TOEIC",
         "safety"
@@ -82,7 +82,7 @@
     {
       "headword": "refuge",
       "partOfSpeech": "noun",
-      "definitionZh": "避難所；緊急情況下供人員暫時避難的安全處所",
+      "definitionZh": "避難所，緊急時供人員暫時躲避的安全處所",
       "examTags": [
         "TOEIC",
         "safety"
@@ -97,7 +97,7 @@
     {
       "headword": "rescue",
       "partOfSpeech": "noun",
-      "definitionZh": "救援；在緊急情況下協助傷患脫離危險",
+      "definitionZh": "救援，協助傷患或受困者脫離危險的行動",
       "examTags": [
         "TOEIC",
         "safety"
@@ -112,7 +112,7 @@
     {
       "headword": "helmet",
       "partOfSpeech": "noun",
-      "definitionZh": "安全帽；保護頭部免受撞擊的硬式頭盔",
+      "definitionZh": "安全帽，保護頭部免受撞擊的硬式頭盔",
       "examTags": [
         "TOEIC",
         "safety"
@@ -127,7 +127,7 @@
     {
       "headword": "goggles",
       "partOfSpeech": "noun",
-      "definitionZh": "護目鏡；保護眼睛不受化學品或碎屑傷害",
+      "definitionZh": "護目鏡，保護眼睛不受化學品或碎屑傷害的眼罩",
       "examTags": [
         "TOEIC",
         "safety"
@@ -142,7 +142,7 @@
     {
       "headword": "gloves",
       "partOfSpeech": "noun",
-      "definitionZh": "手套；保護雙手不受切割、化學品或高溫傷害",
+      "definitionZh": "手套，保護雙手不受切割、化學品或高溫傷害的護具",
       "examTags": [
         "TOEIC",
         "safety"
@@ -157,7 +157,7 @@
     {
       "headword": "vest",
       "partOfSpeech": "noun",
-      "definitionZh": "反光背心；提高在施工或交通環境中能見度的安全服",
+      "definitionZh": "反光背心，提高施工或交通環境中能見度的安全服",
       "examTags": [
         "TOEIC",
         "safety"
@@ -172,7 +172,7 @@
     {
       "headword": "respirator",
       "partOfSpeech": "noun",
-      "definitionZh": "呼吸防護具；過濾有毒或有害氣體的口罩設備",
+      "definitionZh": "呼吸防護具，過濾有毒或有害氣體的口罩設備",
       "examTags": [
         "TOEIC",
         "safety"
@@ -187,7 +187,7 @@
     {
       "headword": "harness",
       "partOfSpeech": "noun",
-      "definitionZh": "安全帶；防止高空作業人員墜落的束帶系統",
+      "definitionZh": "安全帶，防止高空作業人員墜落的束帶系統",
       "examTags": [
         "TOEIC",
         "safety"
@@ -202,7 +202,7 @@
     {
       "headword": "shield",
       "partOfSpeech": "noun",
-      "definitionZh": "防護面罩；隔絕飛濺物或強光傷害面部的保護板",
+      "definitionZh": "防護面罩，隔絕飛濺物或強光以保護面部的護板",
       "examTags": [
         "TOEIC",
         "safety"
@@ -232,7 +232,7 @@
     {
       "headword": "sanitation",
       "partOfSpeech": "noun",
-      "definitionZh": "環境衛生；維持工作場所清潔以防止疾病傳播",
+      "definitionZh": "環境衛生，維持工作場所清潔以防止疾病傳播",
       "examTags": [
         "TOEIC",
         "safety"
@@ -247,7 +247,7 @@
     {
       "headword": "hygiene",
       "partOfSpeech": "noun",
-      "definitionZh": "個人衛生；保持身體清潔以降低感染風險的習慣",
+      "definitionZh": "個人衛生，保持身體清潔以降低感染風險的習慣",
       "examTags": [
         "TOEIC",
         "safety"
@@ -262,7 +262,7 @@
     {
       "headword": "disinfection",
       "partOfSpeech": "noun",
-      "definitionZh": "消毒；使用化學藥劑殺滅物體表面的病原體",
+      "definitionZh": "消毒，使用化學藥劑殺滅物體表面病原體的處理",
       "examTags": [
         "TOEIC",
         "safety"
@@ -277,7 +277,7 @@
     {
       "headword": "cleanliness",
       "partOfSpeech": "noun",
-      "definitionZh": "整潔；保持工作環境無髒污以防事故及疾病",
+      "definitionZh": "整潔，保持環境無髒污以防事故及疾病的狀態",
       "examTags": [
         "TOEIC",
         "safety"
@@ -292,7 +292,7 @@
     {
       "headword": "ventilation",
       "partOfSpeech": "noun",
-      "definitionZh": "通風；確保空間內空氣流通以降低有害氣體濃度",
+      "definitionZh": "通風，使空間內空氣流通以降低有害氣體濃度",
       "examTags": [
         "TOEIC",
         "safety"
@@ -307,7 +307,7 @@
     {
       "headword": "sterilization",
       "partOfSpeech": "noun",
-      "definitionZh": "滅菌；徹底消除物品上所有微生物的處理過程",
+      "definitionZh": "滅菌，徹底消除物品上所有微生物的高規格處理",
       "examTags": [
         "TOEIC",
         "safety"
@@ -322,7 +322,7 @@
     {
       "headword": "injury",
       "partOfSpeech": "noun",
-      "definitionZh": "傷害；身體受到損傷的狀態",
+      "definitionZh": "傷害，工作或意外中身體受到損傷的情形",
       "examTags": [
         "TOEIC",
         "safety"
@@ -337,7 +337,7 @@
     {
       "headword": "bruise",
       "partOfSpeech": "noun",
-      "definitionZh": "瘀傷；皮下出血造成的暗色腫痛部位",
+      "definitionZh": "瘀傷，皮下出血造成的暗色腫痛部位",
       "examTags": [
         "TOEIC",
         "safety"
@@ -352,7 +352,7 @@
     {
       "headword": "fracture",
       "partOfSpeech": "noun",
-      "definitionZh": "骨折；骨骼因衝擊或壓力而破裂",
+      "definitionZh": "骨折，骨骼因衝擊或壓力而破裂的傷害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -367,7 +367,7 @@
     {
       "headword": "sprain",
       "partOfSpeech": "noun",
-      "definitionZh": "扭傷；韌帶過度拉伸或撕裂的傷害",
+      "definitionZh": "扭傷，關節韌帶過度拉伸或撕裂的傷害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -382,7 +382,7 @@
     {
       "headword": "wound",
       "partOfSpeech": "noun",
-      "definitionZh": "傷口；皮膚或組織受到切割或撕裂的開放性損傷",
+      "definitionZh": "傷口，皮膚或組織被切割、撕裂的開放性損傷",
       "examTags": [
         "TOEIC",
         "safety"
@@ -397,7 +397,7 @@
     {
       "headword": "trauma",
       "partOfSpeech": "noun",
-      "definitionZh": "創傷；因嚴重意外或衝擊導致的身心傷害",
+      "definitionZh": "創傷，嚴重意外或衝擊導致的身心傷害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -412,7 +412,7 @@
     {
       "headword": "fatigue",
       "partOfSpeech": "noun",
-      "definitionZh": "疲勞；過度工作或睡眠不足導致的身體或精神衰竭",
+      "definitionZh": "疲勞，過勞或睡眠不足導致的身心耗竭狀態",
       "examTags": [
         "TOEIC",
         "safety"
@@ -427,7 +427,7 @@
     {
       "headword": "violation",
       "partOfSpeech": "noun",
-      "definitionZh": "違規；違反安全規定或法律的行為",
+      "definitionZh": "違規，違反安全規定或法律的行為",
       "examTags": [
         "TOEIC",
         "safety"
@@ -442,7 +442,7 @@
     {
       "headword": "enforcement",
       "partOfSpeech": "noun",
-      "definitionZh": "執行；確保安全規範被遵守的監督與管理行動",
+      "definitionZh": "執行，確保安全規範被落實遵守的監督行動",
       "examTags": [
         "TOEIC",
         "safety"
@@ -457,7 +457,7 @@
     {
       "headword": "precaution",
       "partOfSpeech": "noun",
-      "definitionZh": "預防措施；為避免危險而事先採取的防範行動",
+      "definitionZh": "預防措施，為避免危險而事先採取的防範行動",
       "examTags": [
         "TOEIC",
         "safety"
@@ -472,7 +472,7 @@
     {
       "headword": "restriction",
       "partOfSpeech": "noun",
-      "definitionZh": "限制；禁止或管控特定行為以保障安全的規定",
+      "definitionZh": "限制，管控特定行為以保障安全的規定",
       "examTags": [
         "TOEIC",
         "safety"
@@ -487,7 +487,7 @@
     {
       "headword": "malfunction",
       "partOfSpeech": "noun",
-      "definitionZh": "故障；設備未能正常運作的狀態",
+      "definitionZh": "故障，設備未能正常運作的狀態",
       "examTags": [
         "TOEIC",
         "safety"
@@ -502,7 +502,7 @@
     {
       "headword": "fixture",
       "partOfSpeech": "noun",
-      "definitionZh": "固定裝置；安裝於建築結構上的電氣或管路設備",
+      "definitionZh": "固定裝置，安裝於建築結構上的電氣或管路設備",
       "examTags": [
         "TOEIC",
         "safety"
@@ -517,7 +517,7 @@
     {
       "headword": "installation",
       "partOfSpeech": "noun",
-      "definitionZh": "安裝；將設備或系統固定於指定位置的作業過程",
+      "definitionZh": "安裝，將設備或系統固定於指定位置的作業",
       "examTags": [
         "TOEIC",
         "safety"
@@ -532,7 +532,7 @@
     {
       "headword": "repair",
       "partOfSpeech": "noun",
-      "definitionZh": "修繕；針對損壞設備或設施進行修復的作業",
+      "definitionZh": "修繕，修復損壞設備或設施的作業",
       "examTags": [
         "TOEIC",
         "safety"
@@ -547,7 +547,7 @@
     {
       "headword": "renovation",
       "partOfSpeech": "noun",
-      "definitionZh": "翻新；對設施或建築進行整修或改善的工程",
+      "definitionZh": "翻新，對設施或建築進行整修改善的工程",
       "examTags": [
         "TOEIC",
         "safety"
@@ -562,7 +562,7 @@
     {
       "headword": "stairway",
       "partOfSpeech": "noun",
-      "definitionZh": "樓梯通道；連接不同樓層的階梯走道",
+      "definitionZh": "樓梯通道，連接不同樓層的階梯走道",
       "examTags": [
         "TOEIC",
         "safety"
@@ -577,7 +577,7 @@
     {
       "headword": "railing",
       "partOfSpeech": "noun",
-      "definitionZh": "扶手欄杆；設置於樓梯或走道旁防止人員跌落的護欄",
+      "definitionZh": "扶手欄杆，設於樓梯或走道旁防止跌落的護欄",
       "examTags": [
         "TOEIC",
         "safety"
@@ -592,7 +592,7 @@
     {
       "headword": "posture",
       "partOfSpeech": "noun",
-      "definitionZh": "姿勢；身體在工作時的位置或排列方式",
+      "definitionZh": "姿勢，工作時身體的位置與排列方式",
       "examTags": [
         "TOEIC",
         "safety"
@@ -607,7 +607,7 @@
     {
       "headword": "strain",
       "partOfSpeech": "noun",
-      "definitionZh": "拉傷；肌肉或肌腱因過度使用而造成的損傷",
+      "definitionZh": "拉傷，肌肉或肌腱因過度使用造成的損傷",
       "examTags": [
         "TOEIC",
         "safety"
@@ -622,7 +622,7 @@
     {
       "headword": "adjustment",
       "partOfSpeech": "noun",
-      "definitionZh": "調整；修改設備或工作方式以符合人體工學的行為",
+      "definitionZh": "調整，修改設備或作業方式以符合人體工學",
       "examTags": [
         "TOEIC",
         "safety"
@@ -637,7 +637,7 @@
     {
       "headword": "workspace",
       "partOfSpeech": "noun",
-      "definitionZh": "工作區域；員工執行職務的操作空間與環境",
+      "definitionZh": "工作區域，員工執行職務的操作空間與環境",
       "examTags": [
         "TOEIC",
         "safety"
@@ -667,7 +667,7 @@
     {
       "headword": "warning",
       "partOfSpeech": "noun",
-      "definitionZh": "警告；提示某物或某地點存在危險的通知",
+      "definitionZh": "警告，告知存在明確危險的正式通知",
       "examTags": [
         "TOEIC",
         "safety"
@@ -682,7 +682,7 @@
     {
       "headword": "caution",
       "partOfSpeech": "noun",
-      "definitionZh": "謹慎提示；要求注意潛在危險的提醒",
+      "definitionZh": "注意，提醒留意潛在風險的謹慎提示",
       "examTags": [
         "TOEIC",
         "safety"
@@ -697,7 +697,7 @@
     {
       "headword": "symbol",
       "partOfSpeech": "noun",
-      "definitionZh": "安全符號；以圖形傳達特定危險或指示的視覺標記",
+      "definitionZh": "符號，以圖形傳達特定危險或指示的視覺標記",
       "examTags": [
         "TOEIC",
         "safety"
@@ -712,7 +712,7 @@
     {
       "headword": "protect",
       "partOfSpeech": "verb",
-      "definitionZh": "保護；採取措施使人員或設備免受危害",
+      "definitionZh": "保護，採取措施使人員或設備免受危害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -727,7 +727,7 @@
     {
       "headword": "prevent",
       "partOfSpeech": "verb",
-      "definitionZh": "預防；採取行動阻止危險事故的發生",
+      "definitionZh": "預防，採取行動阻止危險事故發生",
       "examTags": [
         "TOEIC",
         "safety"
@@ -742,7 +742,7 @@
     {
       "headword": "accident",
       "partOfSpeech": "noun",
-      "definitionZh": "意外事故；未預期發生的造成傷害或損失的事件",
+      "definitionZh": "意外事故，未預期發生且造成傷害或損失的事件",
       "examTags": [
         "TOEIC",
         "safety"
@@ -757,7 +757,7 @@
     {
       "headword": "toxic",
       "partOfSpeech": "adjective",
-      "definitionZh": "有毒的；含有對人體有害物質的",
+      "definitionZh": "有毒的，含有對人體有害物質的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -772,7 +772,7 @@
     {
       "headword": "spillage",
       "partOfSpeech": "noun",
-      "definitionZh": "外漏；液體或有害物質從容器中不慎溢出",
+      "definitionZh": "溢漏，有害液體從容器中不慎流出的情況",
       "examTags": [
         "TOEIC",
         "safety"
@@ -787,7 +787,7 @@
     {
       "headword": "leakage",
       "partOfSpeech": "noun",
-      "definitionZh": "滲漏；氣體或液體通過容器或管道的縫隙逸出",
+      "definitionZh": "滲漏，氣體或液體經縫隙緩慢逸出的現象",
       "examTags": [
         "TOEIC",
         "safety"
@@ -802,7 +802,7 @@
     {
       "headword": "disposal",
       "partOfSpeech": "noun",
-      "definitionZh": "廢棄物處理；以安全合規的方式處置有害廢物",
+      "definitionZh": "廢棄物處理，以安全合規方式處置有害廢物",
       "examTags": [
         "TOEIC",
         "safety"
@@ -817,7 +817,7 @@
     {
       "headword": "waste",
       "partOfSpeech": "noun",
-      "definitionZh": "廢棄物；在生產或使用過程中產生的無用或有害物料",
+      "definitionZh": "廢棄物，生產或使用過程中產生的無用物料",
       "examTags": [
         "TOEIC",
         "safety"
@@ -832,7 +832,7 @@
     {
       "headword": "chemical",
       "partOfSpeech": "noun",
-      "definitionZh": "化學品；工業或實驗室中使用的化合物",
+      "definitionZh": "化學品，工業或實驗室中使用的化合物",
       "examTags": [
         "TOEIC",
         "safety"
@@ -847,7 +847,7 @@
     {
       "headword": "substance",
       "partOfSpeech": "noun",
-      "definitionZh": "物質；可能對健康造成影響的任何材料或化合物",
+      "definitionZh": "物質，可能影響健康的任何材料或成分",
       "examTags": [
         "TOEIC",
         "safety"
@@ -862,7 +862,7 @@
     {
       "headword": "inspector",
       "partOfSpeech": "noun",
-      "definitionZh": "稽查員；負責核查安全規範是否被遵守的官員",
+      "definitionZh": "稽查員，負責核查安全規範是否被遵守的官員",
       "examTags": [
         "TOEIC",
         "safety"
@@ -877,7 +877,7 @@
     {
       "headword": "officer",
       "partOfSpeech": "noun",
-      "definitionZh": "安全主任；負責監督工作場所安全的人員",
+      "definitionZh": "安全主任，負責監督工作場所安全事務的人員",
       "examTags": [
         "TOEIC",
         "safety"
@@ -892,7 +892,7 @@
     {
       "headword": "secure",
       "partOfSpeech": "verb",
-      "definitionZh": "固定；確保物品或區域穩固安全不會移位或失控",
+      "definitionZh": "固定，使物品或區域穩固不致移位或失控",
       "examTags": [
         "TOEIC",
         "safety"
@@ -922,7 +922,7 @@
     {
       "headword": "protective",
       "partOfSpeech": "adjective",
-      "definitionZh": "防護性的；用於防止危害或傷害的",
+      "definitionZh": "防護性的，用於防止危害或傷害的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -937,7 +937,7 @@
     {
       "headword": "safeguard",
       "partOfSpeech": "noun",
-      "definitionZh": "防護措施；預防危險的保護機制或規定",
+      "definitionZh": "防護措施，預防危險的保護機制或規定",
       "examTags": [
         "TOEIC",
         "safety"
@@ -952,7 +952,7 @@
     {
       "headword": "fire",
       "partOfSpeech": "noun",
-      "definitionZh": "火災；建築或工廠中發生的無法控制的燃燒事故",
+      "definitionZh": "火災，建築或工廠中無法控制的燃燒事故",
       "examTags": [
         "TOEIC",
         "safety"
@@ -967,7 +967,7 @@
     {
       "headword": "exit",
       "partOfSpeech": "noun",
-      "definitionZh": "緊急出口；供人員在緊急情況下迅速離開的通道",
+      "definitionZh": "緊急出口，供人員在緊急時迅速離開的通道",
       "examTags": [
         "TOEIC",
         "safety"
@@ -982,7 +982,7 @@
     {
       "headword": "warden",
       "partOfSpeech": "noun",
-      "definitionZh": "安全督導員；負責引導人員疏散或管理安全的指定人",
+      "definitionZh": "安全督導員，負責引導疏散或管理秩序的指定人",
       "examTags": [
         "TOEIC",
         "safety"
@@ -997,7 +997,7 @@
     {
       "headword": "pathway",
       "partOfSpeech": "noun",
-      "definitionZh": "通行走道；供人員安全移動的標示通道",
+      "definitionZh": "通行走道，供人員安全移動的標示通道",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1012,7 +1012,7 @@
     {
       "headword": "blockage",
       "partOfSpeech": "noun",
-      "definitionZh": "堵塞；阻擋通道或出口使其無法正常使用的狀況",
+      "definitionZh": "堵塞，通道或出口被阻擋而無法使用的狀況",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1057,7 +1057,7 @@
     {
       "headword": "inhalation",
       "partOfSpeech": "noun",
-      "definitionZh": "吸入；透過呼吸將有毒或有害物質引入肺部",
+      "definitionZh": "吸入，經呼吸將有害物質引入肺部的過程",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1072,7 +1072,7 @@
     {
       "headword": "radiation",
       "partOfSpeech": "noun",
-      "definitionZh": "輻射；能量以波或粒子形式發射，可能對人體有害",
+      "definitionZh": "輻射，以波或粒子形式發射且可能傷身的能量",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1087,7 +1087,7 @@
     {
       "headword": "contaminant",
       "partOfSpeech": "noun",
-      "definitionZh": "污染物；使環境或物質不安全的外來雜質",
+      "definitionZh": "污染物，使環境或物質變得不安全的外來雜質",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1102,7 +1102,7 @@
     {
       "headword": "disinfectant",
       "partOfSpeech": "noun",
-      "definitionZh": "消毒劑；用於殺滅表面病菌的化學清潔劑",
+      "definitionZh": "消毒劑，用於殺滅表面病菌的化學清潔劑",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1117,7 +1117,7 @@
     {
       "headword": "antiseptic",
       "partOfSpeech": "noun",
-      "definitionZh": "抗菌藥；用於傷口清潔以防止感染的殺菌製劑",
+      "definitionZh": "抗菌藥，清潔傷口以防止感染的殺菌製劑",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1132,7 +1132,7 @@
     {
       "headword": "barrier",
       "partOfSpeech": "noun",
-      "definitionZh": "隔離屏障；用於分隔危險區域與人員的物理裝置",
+      "definitionZh": "隔離屏障，分隔危險區域與人員的物理裝置",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1147,7 +1147,7 @@
     {
       "headword": "barricade",
       "partOfSpeech": "noun",
-      "definitionZh": "臨時路障；封閉危險區域防止人員進入的障礙物",
+      "definitionZh": "臨時路障，封閉危險區域防止進入的障礙物",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1162,7 +1162,7 @@
     {
       "headword": "lockdown",
       "partOfSpeech": "noun",
-      "definitionZh": "封鎖；為應對緊急威脅而封閉建築或區域的措施",
+      "definitionZh": "封鎖，因緊急威脅而關閉建築或區域的措施",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1177,7 +1177,7 @@
     {
       "headword": "muster",
       "partOfSpeech": "noun",
-      "definitionZh": "集合點；緊急疏散後人員集合報到的指定地點",
+      "definitionZh": "集合點，疏散後清點人數與報到的指定地點",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1192,7 +1192,7 @@
     {
       "headword": "assembly",
       "partOfSpeech": "noun",
-      "definitionZh": "集合區；緊急疏散時人員聚集的指定安全地點",
+      "definitionZh": "集合區，緊急疏散時眾人聚集等待的安全區域",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1207,7 +1207,7 @@
     {
       "headword": "combustible",
       "partOfSpeech": "adjective",
-      "definitionZh": "易燃的；在接觸火源時容易點燃燃燒的",
+      "definitionZh": "易燃的，接觸火源時容易點燃的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1222,7 +1222,7 @@
     {
       "headword": "explosion",
       "partOfSpeech": "noun",
-      "definitionZh": "爆炸；物質在瞬間快速膨脹並釋放大量能量的事故",
+      "definitionZh": "爆炸，物質瞬間膨脹並釋放大量能量的事故",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1237,7 +1237,7 @@
     {
       "headword": "ignition",
       "partOfSpeech": "noun",
-      "definitionZh": "點火；引起燃燒開始的熱源或火花",
+      "definitionZh": "點火，引發燃燒開始的熱源或火花",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1252,7 +1252,7 @@
     {
       "headword": "flame",
       "partOfSpeech": "noun",
-      "definitionZh": "火焰；物質燃燒時產生的可見光與熱的發光氣體",
+      "definitionZh": "火焰，物質燃燒時產生的發光發熱氣體",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1267,7 +1267,7 @@
     {
       "headword": "firefighter",
       "partOfSpeech": "noun",
-      "definitionZh": "消防員；受過訓練的滅火救災專業人員",
+      "definitionZh": "消防員，受過專業訓練的滅火救災人員",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1282,7 +1282,7 @@
     {
       "headword": "sprinkler",
       "partOfSpeech": "noun",
-      "definitionZh": "灑水滅火系統；偵測高溫後自動噴水的天花板消防裝置",
+      "definitionZh": "自動灑水器，偵測高溫後噴水滅火的天花板消防裝置",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1312,7 +1312,7 @@
     {
       "headword": "sensor",
       "partOfSpeech": "noun",
-      "definitionZh": "感應器；自動感測環境變化並傳送數據的電子元件",
+      "definitionZh": "感應器，自動偵測環境變化並傳送訊號的元件",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1327,7 +1327,7 @@
     {
       "headword": "isolate",
       "partOfSpeech": "verb",
-      "definitionZh": "隔離；將危險物質或受傷人員與其他人員分開",
+      "definitionZh": "隔離，將危險物質或傷患與其他人員分開",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1342,7 +1342,7 @@
     {
       "headword": "segregate",
       "partOfSpeech": "verb",
-      "definitionZh": "分類隔離；將不同種類的危險物品分開存放",
+      "definitionZh": "分類隔離，將不同種類的危險物品分開存放",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1357,7 +1357,7 @@
     {
       "headword": "decontaminate",
       "partOfSpeech": "verb",
-      "definitionZh": "去污染；清除附著在人員或設備上有害物質的程序",
+      "definitionZh": "除污，清除人員或設備上附著有害物質的程序",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1372,7 +1372,7 @@
     {
       "headword": "sanitize",
       "partOfSpeech": "verb",
-      "definitionZh": "消毒；清潔並殺滅物品或環境中病原微生物",
+      "definitionZh": "消毒清潔，清洗並殺滅物品或環境中的病原微生物",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1387,7 +1387,7 @@
     {
       "headword": "fume",
       "partOfSpeech": "noun",
-      "definitionZh": "有害煙氣；加熱或化學反應產生的有毒氣態物質",
+      "definitionZh": "有害煙氣，加熱或化學反應產生的有毒氣體",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1402,7 +1402,7 @@
     {
       "headword": "particulate",
       "partOfSpeech": "noun",
-      "definitionZh": "微粒；懸浮在空氣中可吸入肺部的微細固體顆粒",
+      "definitionZh": "微粒，懸浮空氣中且可吸入肺部的細小顆粒",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1417,7 +1417,7 @@
     {
       "headword": "grounding",
       "partOfSpeech": "noun",
-      "definitionZh": "接地；將電氣設備連接大地以防止觸電的安全措施",
+      "definitionZh": "接地，將電氣設備連接大地以防觸電的措施",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1432,7 +1432,7 @@
     {
       "headword": "insulation",
       "partOfSpeech": "noun",
-      "definitionZh": "絕緣；防止電流意外流過或熱量傳導的保護材料",
+      "definitionZh": "絕緣，防止電流外洩或熱量傳導的保護材料",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1447,7 +1447,7 @@
     {
       "headword": "conductor",
       "partOfSpeech": "noun",
-      "definitionZh": "導電體；能讓電流通過的材料",
+      "definitionZh": "導電體，可讓電流通過、須防觸電的材料",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1462,7 +1462,7 @@
     {
       "headword": "overload",
       "partOfSpeech": "noun",
-      "definitionZh": "過載；超過設備或電路設計承受能力的危險狀態",
+      "definitionZh": "過載，超出設備或電路承受能力的危險狀態",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1477,7 +1477,7 @@
     {
       "headword": "circuit",
       "partOfSpeech": "noun",
-      "definitionZh": "電路；電流流動的封閉路徑或網路",
+      "definitionZh": "電路，電流流動的封閉路徑或網路",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1492,7 +1492,7 @@
     {
       "headword": "electrocution",
       "partOfSpeech": "noun",
-      "definitionZh": "觸電；因電流通過人體造成的嚴重傷害或死亡",
+      "definitionZh": "觸電，電流通過人體造成的嚴重傷害或死亡",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1507,7 +1507,7 @@
     {
       "headword": "abrasion",
       "partOfSpeech": "noun",
-      "definitionZh": "擦傷；皮膚表面因摩擦而受到的輕微損傷",
+      "definitionZh": "擦傷，皮膚表面因摩擦造成的輕微損傷",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1522,7 +1522,7 @@
     {
       "headword": "laceration",
       "partOfSpeech": "noun",
-      "definitionZh": "撕裂傷；皮膚或組織因銳利物品切割造成的開放性傷口",
+      "definitionZh": "撕裂傷，銳利物切割造成的深層開放性傷口",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1537,7 +1537,7 @@
     {
       "headword": "asphyxia",
       "partOfSpeech": "noun",
-      "definitionZh": "窒息；因缺氧導致身體功能喪失的緊急狀況",
+      "definitionZh": "窒息，血氧不足導致身體機能喪失的危急狀態",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1552,7 +1552,7 @@
     {
       "headword": "hypothermia",
       "partOfSpeech": "noun",
-      "definitionZh": "低體溫症；體溫過低危及生命的醫療緊急狀況",
+      "definitionZh": "低體溫症，體溫過低而危及生命的緊急狀況",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1567,7 +1567,7 @@
     {
       "headword": "heatstroke",
       "partOfSpeech": "noun",
-      "definitionZh": "中暑；因高溫造成體溫調節失敗的緊急狀況",
+      "definitionZh": "中暑，高溫使體溫調節失效的緊急狀況",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1582,7 +1582,7 @@
     {
       "headword": "dehydration",
       "partOfSpeech": "noun",
-      "definitionZh": "脫水；體內水分不足而影響工作能力或健康的狀態",
+      "definitionZh": "脫水，體內水分不足而影響健康與工作的狀態",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1597,7 +1597,7 @@
     {
       "headword": "distress",
       "partOfSpeech": "noun",
-      "definitionZh": "緊迫困境；個人處於危險或需要立即援助的狀態",
+      "definitionZh": "危難，人員陷於危險急需援助的處境",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1612,7 +1612,7 @@
     {
       "headword": "congestion",
       "partOfSpeech": "noun",
-      "definitionZh": "擁塞；通道因過多人員或物品造成阻礙流通的情況",
+      "definitionZh": "擁塞，通道因人員或物品過多而阻礙流通",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1627,7 +1627,7 @@
     {
       "headword": "corrosion",
       "partOfSpeech": "noun",
-      "definitionZh": "腐蝕；金屬或材料因化學反應逐漸劣化的過程",
+      "definitionZh": "腐蝕，金屬或材料因化學反應逐漸劣化的過程",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1642,7 +1642,7 @@
     {
       "headword": "oversight",
       "partOfSpeech": "noun",
-      "definitionZh": "監督；對安全規範執行情況進行持續管理的職責",
+      "definitionZh": "監督，持續管理安全規範執行情況的職責",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1657,7 +1657,7 @@
     {
       "headword": "spill",
       "partOfSpeech": "noun",
-      "definitionZh": "灑出；有害液體意外流出容器或設備的事件",
+      "definitionZh": "灑出，液體意外潑灑出容器的事件",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1672,7 +1672,7 @@
     {
       "headword": "scaffold",
       "partOfSpeech": "noun",
-      "definitionZh": "鷹架；建築工地供工人在高處作業的臨時工作台",
+      "definitionZh": "鷹架，供工人在建築高處作業的臨時工作台",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1687,7 +1687,7 @@
     {
       "headword": "ladder",
       "partOfSpeech": "noun",
-      "definitionZh": "梯子；供工人攀爬至高處的可攜式爬梯",
+      "definitionZh": "梯子，供人攀爬至高處的可攜式爬具",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1702,7 +1702,7 @@
     {
       "headword": "confined",
       "partOfSpeech": "adjective",
-      "definitionZh": "密閉的；空間狹小且通風不良、存在缺氧危險的",
+      "definitionZh": "密閉的，空間狹小通風不良且有缺氧風險的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1717,7 +1717,7 @@
     {
       "headword": "asbestos",
       "partOfSpeech": "noun",
-      "definitionZh": "石棉；已知致癌且在舊建築中常見的危險纖維物質",
+      "definitionZh": "石棉，舊建築中常見且已知致癌的危險纖維",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1732,7 +1732,7 @@
     {
       "headword": "eyewash",
       "partOfSpeech": "noun",
-      "definitionZh": "洗眼站；沖洗眼部化學品的緊急清洗設備",
+      "definitionZh": "洗眼站，緊急沖洗眼部化學品的清洗設備",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1747,7 +1747,7 @@
     {
       "headword": "noise",
       "partOfSpeech": "noun",
-      "definitionZh": "噪音；可能損害聽力的過高工作環境音量",
+      "definitionZh": "噪音，可能損害聽力的過高環境音量",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1762,7 +1762,7 @@
     {
       "headword": "vibration",
       "partOfSpeech": "noun",
-      "definitionZh": "振動；持續震動對肌肉骨骼及神經系統的傷害",
+      "definitionZh": "振動，持續震動對肌肉骨骼與神經的危害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1777,7 +1777,7 @@
     {
       "headword": "illumination",
       "partOfSpeech": "noun",
-      "definitionZh": "照明；確保工作場所有足夠光線以利安全作業",
+      "definitionZh": "照明，提供充足光線以利安全作業的措施",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1792,7 +1792,7 @@
     {
       "headword": "combustion",
       "partOfSpeech": "noun",
-      "definitionZh": "燃燒；物質與氧氣快速反應產生熱與光的化學反應",
+      "definitionZh": "燃燒，物質與氧氣快速反應產生光熱的過程",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1807,7 +1807,7 @@
     {
       "headword": "nozzle",
       "partOfSpeech": "noun",
-      "definitionZh": "噴嘴；控制水柱或化學品流量方向的管口裝置",
+      "definitionZh": "噴嘴，控制水柱或藥劑流向與流量的管口",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1822,7 +1822,7 @@
     {
       "headword": "flammability",
       "partOfSpeech": "noun",
-      "definitionZh": "易燃性；物質容易被點燃燃燒的特性",
+      "definitionZh": "易燃性，物質容易被點燃的特性程度",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1837,7 +1837,7 @@
     {
       "headword": "slippery",
       "partOfSpeech": "adjective",
-      "definitionZh": "濕滑的；因潮濕或液體使得地面容易造成滑倒",
+      "definitionZh": "濕滑的，因潮濕或液體而容易使人滑倒的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1852,7 +1852,7 @@
     {
       "headword": "elevated",
       "partOfSpeech": "adjective",
-      "definitionZh": "高架的；位於地面以上的高度，需特別注意墜落危險",
+      "definitionZh": "高架的，位於地面以上且須防墜落的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1867,7 +1867,7 @@
     {
       "headword": "flush",
       "partOfSpeech": "verb",
-      "definitionZh": "沖洗；用大量清水沖除皮膚或眼睛上的有害物質",
+      "definitionZh": "沖洗，以大量清水沖除皮膚或眼睛上的有害物",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1897,7 +1897,7 @@
     {
       "headword": "glare",
       "partOfSpeech": "noun",
-      "definitionZh": "眩光；強烈光線直接照射眼睛造成視覺干擾",
+      "definitionZh": "眩光，強光直射眼睛造成的視覺干擾",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1912,7 +1912,7 @@
     {
       "headword": "fatality",
       "partOfSpeech": "noun",
-      "definitionZh": "死亡事故；因事故或疾病導致的人員死亡",
+      "definitionZh": "死亡事故，因意外或職業災害導致的人員喪生",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1927,7 +1927,7 @@
     {
       "headword": "precautionary",
       "partOfSpeech": "adjective",
-      "definitionZh": "預防性的；作為預防危險所採取的",
+      "definitionZh": "預防性的，為防範危險而預先採行的",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1942,7 +1942,7 @@
     {
       "headword": "response",
       "partOfSpeech": "noun",
-      "definitionZh": "應變；面對緊急狀況所採取的及時行動或處置",
+      "definitionZh": "應變，面對緊急狀況採取的即時行動與處置",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1957,7 +1957,7 @@
     {
       "headword": "negligence",
       "partOfSpeech": "noun",
-      "definitionZh": "疏失；因不謹慎或未盡職責而導致意外或傷害",
+      "definitionZh": "疏失，未盡謹慎職責而導致意外或傷害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1972,7 +1972,7 @@
     {
       "headword": "biohazard",
       "partOfSpeech": "noun",
-      "definitionZh": "生物危害；對人體健康構成威脅的生物性有害物質",
+      "definitionZh": "生物危害，對人體健康構成威脅的生物性物質",
       "examTags": [
         "TOEIC",
         "safety"
@@ -1987,7 +1987,7 @@
     {
       "headword": "debris",
       "partOfSpeech": "noun",
-      "definitionZh": "碎屑；散落的廢料或破碎物品對工作環境的危害",
+      "definitionZh": "碎屑，散落的廢料或破碎物造成的環境危害",
       "examTags": [
         "TOEIC",
         "safety"
@@ -2017,7 +2017,7 @@
     {
       "headword": "suffocation",
       "partOfSpeech": "noun",
-      "definitionZh": "窒息；因外部阻塞或缺氧無法呼吸的狀態",
+      "definitionZh": "窒息，呼吸道受阻或空氣不足而無法呼吸",
       "examTags": [
         "TOEIC",
         "safety"
@@ -2032,7 +2032,7 @@
     {
       "headword": "overflow",
       "partOfSpeech": "noun",
-      "definitionZh": "溢出；液體超過容量限制而從容器或管道流出",
+      "definitionZh": "溢出，液體超過容量上限而流出容器或管道",
       "examTags": [
         "TOEIC",
         "safety"
@@ -2047,7 +2047,7 @@
     {
       "headword": "ventilator",
       "partOfSpeech": "noun",
-      "definitionZh": "通風設備；強制空氣流通以排除有害氣體的機械裝置",
+      "definitionZh": "通風設備，強制排出有害氣體的機械換氣裝置",
       "examTags": [
         "TOEIC",
         "safety"

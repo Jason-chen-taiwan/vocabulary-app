@@ -7,7 +7,7 @@
     {
       "headword": "chairperson",
       "partOfSpeech": "n.",
-      "definitionZh": "主席；主持整場會議並決定議程的人",
+      "definitionZh": "主席，主持整場會議並決定議程的人",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -22,7 +22,7 @@
     {
       "headword": "facilitator",
       "partOfSpeech": "n.",
-      "definitionZh": "促進者；帶領團隊完成討論目標的人",
+      "definitionZh": "引導者，帶領團隊順利完成討論目標的人",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -37,7 +37,7 @@
     {
       "headword": "attendee",
       "partOfSpeech": "n.",
-      "definitionZh": "與會者；出席會議或活動的人",
+      "definitionZh": "與會者，出席會議或活動的人",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -52,7 +52,7 @@
     {
       "headword": "presenter",
       "partOfSpeech": "n.",
-      "definitionZh": "簡報者；負責向與會者做報告的人",
+      "definitionZh": "簡報者，負責向與會者做報告的人",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -67,7 +67,7 @@
     {
       "headword": "moderator",
       "partOfSpeech": "n.",
-      "definitionZh": "調解人；協助維持討論秩序的人",
+      "definitionZh": "主持人，維持討論秩序並控管發言的人",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -82,7 +82,7 @@
     {
       "headword": "quorum",
       "partOfSpeech": "n.",
-      "definitionZh": "法定人數；會議成立所需的最低出席人數",
+      "definitionZh": "法定人數，會議成立所需的最低出席人數",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -112,7 +112,7 @@
     {
       "headword": "motion",
       "partOfSpeech": "n.",
-      "definitionZh": "動議；提交表決的正式提案",
+      "definitionZh": "動議，會議中提交表決的正式提案",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -127,7 +127,7 @@
     {
       "headword": "vote",
       "partOfSpeech": "v./n.",
-      "definitionZh": "投票；以表決方式做出集體決定",
+      "definitionZh": "投票，以表決方式做出集體決定",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -142,7 +142,7 @@
     {
       "headword": "resolution",
       "partOfSpeech": "n.",
-      "definitionZh": "決議；正式通過並具約束力的決定",
+      "definitionZh": "決議，正式通過並具約束力的決定",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -157,7 +157,7 @@
     {
       "headword": "adjourn",
       "partOfSpeech": "v.",
-      "definitionZh": "散會；正式宣布終止會議",
+      "definitionZh": "散會，正式宣布終止會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -172,7 +172,7 @@
     {
       "headword": "recess",
       "partOfSpeech": "n.",
-      "definitionZh": "休會；會議中段的短暫中斷休息",
+      "definitionZh": "休會，會議中段的短暫中斷休息",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -187,7 +187,7 @@
     {
       "headword": "postpone",
       "partOfSpeech": "v.",
-      "definitionZh": "延後；將會議推遲到未來某個時間",
+      "definitionZh": "延後，將會議推遲到未來某個時間",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -202,7 +202,7 @@
     {
       "headword": "reschedule",
       "partOfSpeech": "v.",
-      "definitionZh": "改期；重新安排到另一個確定時間",
+      "definitionZh": "改期，重新安排到另一個確定時間",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -232,7 +232,7 @@
     {
       "headword": "summarize",
       "partOfSpeech": "v.",
-      "definitionZh": "總結；簡短概述討論要點",
+      "definitionZh": "總結，簡短概述討論要點",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -247,7 +247,7 @@
     {
       "headword": "clarify",
       "partOfSpeech": "v.",
-      "definitionZh": "澄清；使模糊的意思變得清楚",
+      "definitionZh": "澄清，使模糊的意思變得清楚",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -262,7 +262,7 @@
     {
       "headword": "elaborate",
       "partOfSpeech": "v.",
-      "definitionZh": "詳述；進一步說明細節或補充說明",
+      "definitionZh": "詳述，進一步補充細節說明",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -277,7 +277,7 @@
     {
       "headword": "propose",
       "partOfSpeech": "v.",
-      "definitionZh": "提議；正式提出方案供討論",
+      "definitionZh": "提議，正式提出方案供討論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -292,7 +292,7 @@
     {
       "headword": "second",
       "partOfSpeech": "v.",
-      "definitionZh": "附議；正式支持他人提出的動議",
+      "definitionZh": "附議，正式支持他人提出的動議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -307,7 +307,7 @@
     {
       "headword": "object",
       "partOfSpeech": "v.",
-      "definitionZh": "反對；正式提出異議或不同意",
+      "definitionZh": "反對，正式提出異議或不同意",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -322,7 +322,7 @@
     {
       "headword": "raise",
       "partOfSpeech": "v.",
-      "definitionZh": "提出（議題）；在會中點出某個問題",
+      "definitionZh": "提出，在會議中點出某個議題或疑問",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -337,7 +337,7 @@
     {
       "headword": "table",
       "partOfSpeech": "v.",
-      "definitionZh": "擱置；暫緩某議題的討論",
+      "definitionZh": "擱置，暫緩某議題的討論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -352,7 +352,7 @@
     {
       "headword": "brainstorm",
       "partOfSpeech": "v.",
-      "definitionZh": "腦力激盪；集思廣益產生創意想法",
+      "definitionZh": "腦力激盪，集思廣益產生創意想法",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -367,7 +367,7 @@
     {
       "headword": "discuss",
       "partOfSpeech": "v.",
-      "definitionZh": "討論；就某議題進行交流與辯論",
+      "definitionZh": "討論，就某議題交換意見與辯論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -382,7 +382,7 @@
     {
       "headword": "conclude",
       "partOfSpeech": "v.",
-      "definitionZh": "作出結論；正式結束某段討論",
+      "definitionZh": "作出結論，正式結束某段討論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -397,7 +397,7 @@
     {
       "headword": "outline",
       "partOfSpeech": "v./n.",
-      "definitionZh": "概述；列出架構或重點提綱",
+      "definitionZh": "概述，列出架構或重點提綱",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -412,7 +412,7 @@
     {
       "headword": "slide",
       "partOfSpeech": "n.",
-      "definitionZh": "投影片；簡報中的單一頁面畫面",
+      "definitionZh": "投影片，簡報中的單一頁面畫面",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -427,7 +427,7 @@
     {
       "headword": "handout",
       "partOfSpeech": "n.",
-      "definitionZh": "講義；會議中分發的紙本資料",
+      "definitionZh": "講義，會議中分發的紙本資料",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -442,7 +442,7 @@
     {
       "headword": "pointer",
       "partOfSpeech": "n.",
-      "definitionZh": "指示棒；用來指向螢幕或白板的工具",
+      "definitionZh": "指示棒，用來指向螢幕或白板的工具",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -457,7 +457,7 @@
     {
       "headword": "microphone",
       "partOfSpeech": "n.",
-      "definitionZh": "麥克風；收音並放大聲音的設備",
+      "definitionZh": "麥克風，收音並放大聲音的設備",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -472,7 +472,7 @@
     {
       "headword": "webinar",
       "partOfSpeech": "n.",
-      "definitionZh": "網路研討會；透過網路舉辦的線上研討活動",
+      "definitionZh": "網路研討會，透過網路舉辦的線上研討活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -487,7 +487,7 @@
     {
       "headword": "videoconference",
       "partOfSpeech": "n.",
-      "definitionZh": "視訊會議；透過影像與聲音連線的遠端會議",
+      "definitionZh": "視訊會議，透過影像與聲音連線的遠端會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -502,7 +502,7 @@
     {
       "headword": "teleconference",
       "partOfSpeech": "n.",
-      "definitionZh": "電話會議；僅透過語音連線的遠端會議",
+      "definitionZh": "電話會議，僅透過語音連線的遠端會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -517,7 +517,7 @@
     {
       "headword": "dial",
       "partOfSpeech": "v.",
-      "definitionZh": "撥號；撥打電話加入遠端會議",
+      "definitionZh": "撥號，撥打電話號碼以加入遠端會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -532,7 +532,7 @@
     {
       "headword": "mute",
       "partOfSpeech": "v.",
-      "definitionZh": "靜音；關閉麥克風使聲音不被傳送",
+      "definitionZh": "靜音，關閉麥克風使聲音不被傳送",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -547,7 +547,7 @@
     {
       "headword": "unmute",
       "partOfSpeech": "v.",
-      "definitionZh": "取消靜音；重新開啟麥克風讓聲音傳出",
+      "definitionZh": "取消靜音，重新開啟麥克風讓聲音傳出",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -562,7 +562,7 @@
     {
       "headword": "share",
       "partOfSpeech": "v.",
-      "definitionZh": "分享螢幕；在視訊會議中展示自己的畫面",
+      "definitionZh": "分享螢幕，在視訊會議中展示自己的畫面",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -577,7 +577,7 @@
     {
       "headword": "present",
       "partOfSpeech": "v.",
-      "definitionZh": "呈報；向與會者展示或口頭報告",
+      "definitionZh": "呈報，向與會者展示或口頭報告",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -592,7 +592,7 @@
     {
       "headword": "display",
       "partOfSpeech": "v.",
-      "definitionZh": "顯示；在螢幕或投影上呈現內容",
+      "definitionZh": "顯示，在螢幕或投影上呈現內容",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -607,7 +607,7 @@
     {
       "headword": "demo",
       "partOfSpeech": "n./v.",
-      "definitionZh": "示範；產品或功能的實際操作展示",
+      "definitionZh": "示範，產品或功能的實際操作展示",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -637,7 +637,7 @@
     {
       "headword": "graph",
       "partOfSpeech": "n.",
-      "definitionZh": "圖形；以線條或點呈現數值關係的圖",
+      "definitionZh": "圖形，以線條或點呈現數值關係的圖",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -652,7 +652,7 @@
     {
       "headword": "figure",
       "partOfSpeech": "n.",
-      "definitionZh": "圖號；報告或簡報中的附圖編號",
+      "definitionZh": "圖號，報告或簡報中的附圖編號",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -667,7 +667,7 @@
     {
       "headword": "data",
       "partOfSpeech": "n.",
-      "definitionZh": "數據；收集來供分析的原始資料",
+      "definitionZh": "數據，收集來供分析的原始資料",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -682,7 +682,7 @@
     {
       "headword": "statistic",
       "partOfSpeech": "n.",
-      "definitionZh": "統計數據；用數字量化的事實",
+      "definitionZh": "統計數據，用數字量化呈現的事實",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -697,7 +697,7 @@
     {
       "headword": "trend",
       "partOfSpeech": "n.",
-      "definitionZh": "趨勢；數據或市場隨時間的變化方向",
+      "definitionZh": "趨勢，數據或市場隨時間的變化方向",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -712,7 +712,7 @@
     {
       "headword": "highlight",
       "partOfSpeech": "v.",
-      "definitionZh": "點出；特別標示最重要的資訊",
+      "definitionZh": "點出重點，特別標示最重要的資訊",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -727,7 +727,7 @@
     {
       "headword": "emphasize",
       "partOfSpeech": "v.",
-      "definitionZh": "強調；以語氣或重複凸顯某個重點",
+      "definitionZh": "強調，以語氣或重複凸顯某個重點",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -742,7 +742,7 @@
     {
       "headword": "illustrate",
       "partOfSpeech": "v.",
-      "definitionZh": "說明；以範例或圖表加以解釋",
+      "definitionZh": "舉例說明，以範例或圖表加以解釋",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -757,7 +757,7 @@
     {
       "headword": "compare",
       "partOfSpeech": "v.",
-      "definitionZh": "比較；找出兩者的相同點與差異",
+      "definitionZh": "比較，找出兩者的相同點與差異",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -772,7 +772,7 @@
     {
       "headword": "contrast",
       "partOfSpeech": "v.",
-      "definitionZh": "對比；凸顯兩者之間的不同之處",
+      "definitionZh": "對比，凸顯兩者之間的不同之處",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -787,7 +787,7 @@
     {
       "headword": "benchmark",
       "partOfSpeech": "n.",
-      "definitionZh": "基準；衡量績效的業界參照標準",
+      "definitionZh": "基準，衡量績效的業界參照標準",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -802,7 +802,7 @@
     {
       "headword": "objective",
       "partOfSpeech": "n.",
-      "definitionZh": "目標；會議或計畫希望達成的具體標的",
+      "definitionZh": "目標，會議或計畫欲達成的具體標的",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -817,7 +817,7 @@
     {
       "headword": "goal",
       "partOfSpeech": "n.",
-      "definitionZh": "宏觀目的；長期努力的方向與願景",
+      "definitionZh": "宏觀目的，長期努力的方向與願景",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -832,7 +832,7 @@
     {
       "headword": "milestone",
       "partOfSpeech": "n.",
-      "definitionZh": "里程碑；專案中的重要進度節點",
+      "definitionZh": "里程碑，專案中的重要進度節點",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -847,7 +847,7 @@
     {
       "headword": "strategy",
       "partOfSpeech": "n.",
-      "definitionZh": "策略；達成目標的整體行動計劃",
+      "definitionZh": "策略，達成目標的整體行動計劃",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -862,7 +862,7 @@
     {
       "headword": "initiative",
       "partOfSpeech": "n.",
-      "definitionZh": "倡議；主動推行的專案或新措施",
+      "definitionZh": "倡議，主動推行的專案或新措施",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -877,7 +877,7 @@
     {
       "headword": "plan",
       "partOfSpeech": "n.",
-      "definitionZh": "計畫；分步驟完成目標的具體安排",
+      "definitionZh": "計畫，分步驟完成目標的具體安排",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -892,7 +892,7 @@
     {
       "headword": "target",
       "partOfSpeech": "n.",
-      "definitionZh": "指標；設定的量化達標數值",
+      "definitionZh": "指標，設定要達成的量化數值",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -907,7 +907,7 @@
     {
       "headword": "outcome",
       "partOfSpeech": "n.",
-      "definitionZh": "最終成效；行動或決策後的整體結果",
+      "definitionZh": "最終成效，行動或決策後的整體結果",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -922,7 +922,7 @@
     {
       "headword": "result",
       "partOfSpeech": "n.",
-      "definitionZh": "績效數據；已測量的實際表現數字",
+      "definitionZh": "績效數據，已測量得出的實際表現數字",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -937,7 +937,7 @@
     {
       "headword": "finding",
       "partOfSpeech": "n.",
-      "definitionZh": "調查發現；研究或審計的具體結論",
+      "definitionZh": "調查發現，研究或審計得出的具體結論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -952,7 +952,7 @@
     {
       "headword": "recommendation",
       "partOfSpeech": "n.",
-      "definitionZh": "建議方案；基於深入分析提出的正式行動指引",
+      "definitionZh": "建議方案，基於深入分析提出的正式行動指引",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -967,7 +967,7 @@
     {
       "headword": "question",
       "partOfSpeech": "n.",
-      "definitionZh": "問題；要求解答或澄清的疑問",
+      "definitionZh": "問題，要求解答或澄清的疑問",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -982,7 +982,7 @@
     {
       "headword": "answer",
       "partOfSpeech": "n.",
-      "definitionZh": "回答；對提出問題的解釋或回應",
+      "definitionZh": "回答，對疑問所做的解釋或回應",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -997,7 +997,7 @@
     {
       "headword": "comment",
       "partOfSpeech": "n.",
-      "definitionZh": "評論；對議題的臨時意見或看法",
+      "definitionZh": "評論，對議題發表的即席意見或看法",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1012,7 +1012,7 @@
     {
       "headword": "suggestion",
       "partOfSpeech": "n.",
-      "definitionZh": "點子；供他人考慮的非正式想法",
+      "definitionZh": "點子，供他人參考的非正式想法",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1027,7 +1027,7 @@
     {
       "headword": "concern",
       "partOfSpeech": "n.",
-      "definitionZh": "疑慮；令人擔憂的潛在問題",
+      "definitionZh": "疑慮，令人擔憂的潛在問題",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1042,7 +1042,7 @@
     {
       "headword": "agree",
       "partOfSpeech": "v.",
-      "definitionZh": "同意；表示認可或贊成",
+      "definitionZh": "同意，表示認可或贊成",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1057,7 +1057,7 @@
     {
       "headword": "disagree",
       "partOfSpeech": "v.",
-      "definitionZh": "不同意；表達反對或不贊成",
+      "definitionZh": "不同意，表達反對或不贊成的立場",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1072,7 +1072,7 @@
     {
       "headword": "consensus",
       "partOfSpeech": "n.",
-      "definitionZh": "共識；各方共同接受的集體結論",
+      "definitionZh": "共識，各方共同接受的集體結論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1087,7 +1087,7 @@
     {
       "headword": "compromise",
       "partOfSpeech": "n./v.",
-      "definitionZh": "妥協；各退一步達成的雙邊協議",
+      "definitionZh": "妥協，各退一步達成的折衷協議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1102,7 +1102,7 @@
     {
       "headword": "decision",
       "partOfSpeech": "n.",
-      "definitionZh": "決定；經討論後選定並確認的方案",
+      "definitionZh": "決定，經討論後選定並確認的方案",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1117,7 +1117,7 @@
     {
       "headword": "implement",
       "partOfSpeech": "v.",
-      "definitionZh": "執行；將計畫或決策付諸實行",
+      "definitionZh": "執行，將計畫或決策付諸實行",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1132,7 +1132,7 @@
     {
       "headword": "assign",
       "partOfSpeech": "v.",
-      "definitionZh": "分配；指派工作或任務給特定人員",
+      "definitionZh": "分配，指派工作或任務給特定人員",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1147,7 +1147,7 @@
     {
       "headword": "delegate",
       "partOfSpeech": "v.",
-      "definitionZh": "授權；將自己的責任交付下屬執行",
+      "definitionZh": "授權，將自身職責交付下屬執行",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1162,7 +1162,7 @@
     {
       "headword": "responsibility",
       "partOfSpeech": "n.",
-      "definitionZh": "責任；被指派承擔的義務或職責",
+      "definitionZh": "責任，被指派承擔的義務或職責",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1177,7 +1177,7 @@
     {
       "headword": "timeline",
       "partOfSpeech": "n.",
-      "definitionZh": "時間表；任務起止時間的整體安排",
+      "definitionZh": "時間表，任務起訖時間的整體安排",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1192,7 +1192,7 @@
     {
       "headword": "progress",
       "partOfSpeech": "n.",
-      "definitionZh": "進度；工作向前推進的程度",
+      "definitionZh": "進度，工作向前推進的程度",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1207,7 +1207,7 @@
     {
       "headword": "status",
       "partOfSpeech": "n.",
-      "definitionZh": "狀態；任務或專案目前的情況",
+      "definitionZh": "狀態，任務或專案目前的情況",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1222,7 +1222,7 @@
     {
       "headword": "presentation",
       "partOfSpeech": "n.",
-      "definitionZh": "簡報；以投影片搭配口頭說明的正式報告",
+      "definitionZh": "簡報，以投影片搭配口頭說明的正式報告",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1237,7 +1237,7 @@
     {
       "headword": "proposal",
       "partOfSpeech": "n.",
-      "definitionZh": "提案；供審核的正式書面計劃書",
+      "definitionZh": "提案，供審核的正式書面計劃書",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1252,7 +1252,7 @@
     {
       "headword": "pitch",
       "partOfSpeech": "n.",
-      "definitionZh": "商業提案；爭取業務或投資的說服性說明",
+      "definitionZh": "商業提案，爭取業務或投資的說服性說明",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1267,7 +1267,7 @@
     {
       "headword": "brief",
       "partOfSpeech": "v.",
-      "definitionZh": "簡報（動詞）；向某人說明情況或任務背景",
+      "definitionZh": "簡要說明，向某人交代情況或任務背景",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1282,7 +1282,7 @@
     {
       "headword": "debrief",
       "partOfSpeech": "v./n.",
-      "definitionZh": "事後檢討；活動或任務結束後的回顧討論",
+      "definitionZh": "事後檢討，活動或任務結束後的回顧討論",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1297,7 +1297,7 @@
     {
       "headword": "session",
       "partOfSpeech": "n.",
-      "definitionZh": "場次；某段時間內進行的會議或活動",
+      "definitionZh": "場次，某段時間內進行的會議或活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1312,7 +1312,7 @@
     {
       "headword": "workshop",
       "partOfSpeech": "n.",
-      "definitionZh": "工作坊；互動式的技能培訓或問題解決小組會議",
+      "definitionZh": "工作坊，互動式技能培訓的小組會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1327,7 +1327,7 @@
     {
       "headword": "seminar",
       "partOfSpeech": "n.",
-      "definitionZh": "研討會；專題知識分享或學術演講活動",
+      "definitionZh": "研討會，專題知識分享或學術演講活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1342,7 +1342,7 @@
     {
       "headword": "panel",
       "partOfSpeech": "n.",
-      "definitionZh": "座談小組；由多位專家組成的公開討論團",
+      "definitionZh": "座談小組，由多位專家組成的公開討論團",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1357,7 +1357,7 @@
     {
       "headword": "keynote",
       "partOfSpeech": "n.",
-      "definitionZh": "主題演講；開場或壓軸的重要演說",
+      "definitionZh": "主題演講，開場或壓軸的重要演說",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1372,7 +1372,7 @@
     {
       "headword": "speech",
       "partOfSpeech": "n.",
-      "definitionZh": "演講；正式場合向聽眾發表的口頭表達",
+      "definitionZh": "演講，正式場合向聽眾發表的口頭表達",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1387,7 +1387,7 @@
     {
       "headword": "lecture",
       "partOfSpeech": "n.",
-      "definitionZh": "講座；單向傳授知識的教學演說",
+      "definitionZh": "講座，單向傳授知識的教學演說",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1402,7 +1402,7 @@
     {
       "headword": "training",
       "partOfSpeech": "n.",
-      "definitionZh": "培訓；為提升技能而進行的教育活動",
+      "definitionZh": "培訓，為提升技能而進行的教育活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1417,7 +1417,7 @@
     {
       "headword": "orientation",
       "partOfSpeech": "n.",
-      "definitionZh": "職前說明；為新進人員介紹公司文化與流程的活動",
+      "definitionZh": "職前說明，向新進人員介紹公司文化與流程的活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1432,7 +1432,7 @@
     {
       "headword": "kickoff",
       "partOfSpeech": "n.",
-      "definitionZh": "啟動會議；專案正式開始的第一次會議",
+      "definitionZh": "啟動會議，專案正式開始的第一次會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1447,7 +1447,7 @@
     {
       "headword": "quarterly",
       "partOfSpeech": "adj.",
-      "definitionZh": "每季的；每三個月舉辦或發生一次",
+      "definitionZh": "每季的，每三個月舉辦或發生一次",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1462,7 +1462,7 @@
     {
       "headword": "annual",
       "partOfSpeech": "adj.",
-      "definitionZh": "每年的；一年舉辦一次的定期活動",
+      "definitionZh": "每年的，一年舉辦一次的定期活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1477,7 +1477,7 @@
     {
       "headword": "monthly",
       "partOfSpeech": "adj.",
-      "definitionZh": "每月的；每個月定期舉行",
+      "definitionZh": "每月的，每個月定期舉行一次",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1492,7 +1492,7 @@
     {
       "headword": "weekly",
       "partOfSpeech": "adj.",
-      "definitionZh": "每週的；每七天定期舉辦一次",
+      "definitionZh": "每週的，每七天定期舉辦一次",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1507,7 +1507,7 @@
     {
       "headword": "retreat",
       "partOfSpeech": "n.",
-      "definitionZh": "工作營；離開辦公室的團隊建設或策略活動",
+      "definitionZh": "工作營，離開辦公室進行的團隊策略活動",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1522,7 +1522,7 @@
     {
       "headword": "breakout",
       "partOfSpeech": "n.",
-      "definitionZh": "分組討論；大型會議中的小組工作環節",
+      "definitionZh": "分組討論，大型會議中的小組工作環節",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1537,7 +1537,7 @@
     {
       "headword": "roundtable",
       "partOfSpeech": "n.",
-      "definitionZh": "圓桌討論；各方地位平等的小組對話形式",
+      "definitionZh": "圓桌討論，各方地位平等的小組對話形式",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1552,7 +1552,7 @@
     {
       "headword": "townhall",
       "partOfSpeech": "n.",
-      "definitionZh": "全員大會；管理層向全體員工說明的開放式會議",
+      "definitionZh": "全員大會，管理層向全體員工說明的開放式會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1567,7 +1567,7 @@
     {
       "headword": "standup",
       "partOfSpeech": "n.",
-      "definitionZh": "站會；簡短的每日同步進度會議",
+      "definitionZh": "站會，每日簡短同步進度的會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1582,7 +1582,7 @@
     {
       "headword": "retrospective",
       "partOfSpeech": "n.",
-      "definitionZh": "回顧會；專案結束後反思改善的檢討會議",
+      "definitionZh": "回顧會，專案結束後反思改善的檢討會議",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1597,7 +1597,7 @@
     {
       "headword": "action",
       "partOfSpeech": "n.",
-      "definitionZh": "行動（事項）；會後須跟進的具體待辦任務",
+      "definitionZh": "行動事項，會後須跟進的具體待辦任務",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1612,7 +1612,7 @@
     {
       "headword": "item",
       "partOfSpeech": "n.",
-      "definitionZh": "議程條目；會議中的單一討論事項",
+      "definitionZh": "議程條目，會議中的單一討論事項",
       "examTags": [
         "TOEIC",
         "meetings"
@@ -1658,7 +1658,7 @@
     {
       "headword": "abstain",
       "partOfSpeech": "v.",
-      "definitionZh": "在正式表決中棄權，不投贊成或反對票",
+      "definitionZh": "棄權，表決時不投贊成票也不投反對票",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1802,7 +1802,7 @@
     {
       "headword": "concur",
       "partOfSpeech": "v.",
-      "definitionZh": "正式表示贊同；與他人持相同立場或意見",
+      "definitionZh": "贊同，正式表示與他人立場一致",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -1962,7 +1962,7 @@
     {
       "headword": "provisional",
       "partOfSpeech": "adj.",
-      "definitionZh": "暫定的；在獲得最終確認前暫時適用的",
+      "definitionZh": "暫定的，在獲得最終確認前暫時適用的",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2058,7 +2058,7 @@
     {
       "headword": "enumerate",
       "partOfSpeech": "v.",
-      "definitionZh": "依序逐一列舉要點、選項或問題",
+      "definitionZh": "列舉，依序逐一說出要點或選項",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2074,7 +2074,7 @@
     {
       "headword": "verbatim",
       "partOfSpeech": "adv./adj.",
-      "definitionZh": "逐字引用；完全照原文重現",
+      "definitionZh": "逐字地，完全照原文一字不差地重現",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2106,7 +2106,7 @@
     {
       "headword": "succinct",
       "partOfSpeech": "adj.",
-      "definitionZh": "簡潔有力；以最少文字傳達完整意思",
+      "definitionZh": "簡潔的，以最少文字傳達完整意思",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2330,7 +2330,7 @@
     {
       "headword": "granular",
       "partOfSpeech": "adj.",
-      "definitionZh": "細化到最小細節的；極為詳細具體的",
+      "definitionZh": "細部的，拆解到最小細節的詳盡程度",
       "examTags": [
         "TOEIC",
         "meetings",
@@ -2442,7 +2442,7 @@
     {
       "headword": "constructive",
       "partOfSpeech": "adj.",
-      "definitionZh": "具建設性的；有助於改善結果而非批評的",
+      "definitionZh": "具建設性的，有助於改善結果而非一味批評的",
       "examTags": [
         "TOEIC",
         "meetings",

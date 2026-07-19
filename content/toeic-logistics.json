@@ -7,7 +7,7 @@
     {
       "headword": "warehouse",
       "partOfSpeech": "n.",
-      "definitionZh": "倉庫；大型貨物儲存設施",
+      "definitionZh": "倉庫，大型貨物儲存設施",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -37,7 +37,7 @@
     {
       "headword": "rack",
       "partOfSpeech": "n.",
-      "definitionZh": "貨架；倉庫用金屬層架",
+      "definitionZh": "貨架，倉庫用的金屬層架",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -52,7 +52,7 @@
     {
       "headword": "pallet",
       "partOfSpeech": "n.",
-      "definitionZh": "棧板；用於堆放貨物的木製平台",
+      "definitionZh": "棧板，用於堆放貨物的木製平台",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -67,7 +67,7 @@
     {
       "headword": "forklift",
       "partOfSpeech": "n.",
-      "definitionZh": "堆高機；用於搬運棧板的機具",
+      "definitionZh": "堆高機，用於搬運棧板的機具",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -82,7 +82,7 @@
     {
       "headword": "loading",
       "partOfSpeech": "n.",
-      "definitionZh": "裝貨；將貨物裝入運輸工具的作業",
+      "definitionZh": "裝貨，將貨物裝入運輸工具的作業",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -97,7 +97,7 @@
     {
       "headword": "unloading",
       "partOfSpeech": "n.",
-      "definitionZh": "卸貨；從運輸工具取出貨物的作業",
+      "definitionZh": "卸貨，從運輸工具取出貨物的作業",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -112,7 +112,7 @@
     {
       "headword": "dock",
       "partOfSpeech": "n.",
-      "definitionZh": "裝卸月台；貨車靠站的裝卸區",
+      "definitionZh": "裝卸月台，貨車停靠進行裝卸的平台區",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -127,7 +127,7 @@
     {
       "headword": "bay",
       "partOfSpeech": "n.",
-      "definitionZh": "倉庫儲區；貨架或停靠隔間的編號單位",
+      "definitionZh": "儲區，倉庫中貨架或停靠隔間的編號單位",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -142,7 +142,7 @@
     {
       "headword": "freight",
       "partOfSpeech": "n.",
-      "definitionZh": "貨物運輸費用；整批商業貨物的陸海空運服務",
+      "definitionZh": "貨運，整批商業貨物的運輸服務或其費用",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -172,7 +172,7 @@
     {
       "headword": "container",
       "partOfSpeech": "n.",
-      "definitionZh": "標準貨櫃；用於海運或陸運的金屬箱體",
+      "definitionZh": "貨櫃，用於海運或陸運的標準金屬箱體",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -187,7 +187,7 @@
     {
       "headword": "vessel",
       "partOfSpeech": "n.",
-      "definitionZh": "船舶；從事貨物運輸的輪船",
+      "definitionZh": "船舶，從事貨物運輸的大型輪船",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -202,7 +202,7 @@
     {
       "headword": "port",
       "partOfSpeech": "n.",
-      "definitionZh": "港口；船舶停靠進行裝卸的水上設施",
+      "definitionZh": "港口，船舶停靠進行裝卸的水岸設施",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -217,7 +217,7 @@
     {
       "headword": "customs",
       "partOfSpeech": "n.",
-      "definitionZh": "海關；負責進出口查驗與徵稅的政府機關",
+      "definitionZh": "海關，負責進出口查驗與徵稅的政府機關",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -262,7 +262,7 @@
     {
       "headword": "import",
       "partOfSpeech": "v./n.",
-      "definitionZh": "進口；從國外購入商品或原料",
+      "definitionZh": "進口，從國外購入商品或原料",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -277,7 +277,7 @@
     {
       "headword": "export",
       "partOfSpeech": "v./n.",
-      "definitionZh": "出口；將商品銷往國外市場",
+      "definitionZh": "出口，將商品銷往國外市場",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -292,7 +292,7 @@
     {
       "headword": "border",
       "partOfSpeech": "n.",
-      "definitionZh": "國境；兩國之間的邊界線",
+      "definitionZh": "國境，兩國之間的邊界線",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -307,7 +307,7 @@
     {
       "headword": "inspection",
       "partOfSpeech": "n.",
-      "definitionZh": "到貨查驗；對貨物進行的官方或品質檢查（名詞）",
+      "definitionZh": "查驗，對到貨進行的官方或品質檢查",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -322,7 +322,7 @@
     {
       "headword": "quarantine",
       "partOfSpeech": "n.",
-      "definitionZh": "檢疫；為防疫而暫時隔離貨物或人員",
+      "definitionZh": "檢疫，為防疫而暫時隔離貨物或人員",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -337,7 +337,7 @@
     {
       "headword": "certificate",
       "partOfSpeech": "n.",
-      "definitionZh": "官方證明文件；如品質或原產地證書",
+      "definitionZh": "證書，證明品質或原產地等的官方文件",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -352,7 +352,7 @@
     {
       "headword": "origin",
       "partOfSpeech": "n.",
-      "definitionZh": "產地；商品的製造或生產國",
+      "definitionZh": "產地，商品的製造或生產國",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -367,7 +367,7 @@
     {
       "headword": "manifest",
       "partOfSpeech": "n.",
-      "definitionZh": "艙單；列出所有貨物的船舶或飛機載貨清單",
+      "definitionZh": "艙單，列出全部載運貨物的船機清單",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -397,7 +397,7 @@
     {
       "headword": "lading",
       "partOfSpeech": "n.",
-      "definitionZh": "（提單中）貨物裝載的記載；提單的法律要素",
+      "definitionZh": "裝載，貨物裝運上船的行為，常用於提單名稱中",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -412,7 +412,7 @@
     {
       "headword": "waybill",
       "partOfSpeech": "n.",
-      "definitionZh": "運貨單；隨貨附帶的運輸明細文件",
+      "definitionZh": "運貨單，隨貨附帶的運輸明細文件",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -427,7 +427,7 @@
     {
       "headword": "tracking",
       "partOfSpeech": "n.",
-      "definitionZh": "即時貨物追蹤；監看貨物目前位置的功能",
+      "definitionZh": "追蹤，即時監看貨物目前所在位置",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -442,7 +442,7 @@
     {
       "headword": "trace",
       "partOfSpeech": "v.",
-      "definitionZh": "追查歷史軌跡；回溯貨物的完整運送記錄",
+      "definitionZh": "追查，回溯貨物過往的完整運送記錄",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -457,7 +457,7 @@
     {
       "headword": "route",
       "partOfSpeech": "n.",
-      "definitionZh": "運輸路線；從起點到目的地的路徑規劃",
+      "definitionZh": "路線，從起點到目的地的運輸路徑規劃",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -472,7 +472,7 @@
     {
       "headword": "carrier",
       "partOfSpeech": "n.",
-      "definitionZh": "承運人；實際負責貨物運輸的公司或個人",
+      "definitionZh": "承運人，實際負責運送貨物的公司或個人",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -487,7 +487,7 @@
     {
       "headword": "truck",
       "partOfSpeech": "n.",
-      "definitionZh": "卡車；陸路貨物運輸車輛",
+      "definitionZh": "卡車，陸路貨物運輸車輛",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -502,7 +502,7 @@
     {
       "headword": "rail",
       "partOfSpeech": "n.",
-      "definitionZh": "鐵路運輸；以火車運送貨物的方式",
+      "definitionZh": "鐵路運輸，以火車載運貨物的方式",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -517,7 +517,7 @@
     {
       "headword": "air",
       "partOfSpeech": "n.",
-      "definitionZh": "空運；以飛機運送貨物的模式",
+      "definitionZh": "空運，以飛機載運貨物的方式",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -532,7 +532,7 @@
     {
       "headword": "sea",
       "partOfSpeech": "n.",
-      "definitionZh": "海運；以船舶跨洋運送貨物的方式",
+      "definitionZh": "海運，以船舶跨洋運送貨物的方式",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -547,7 +547,7 @@
     {
       "headword": "multimodal",
       "partOfSpeech": "adj.",
-      "definitionZh": "多式聯運的；結合兩種以上運輸方式的",
+      "definitionZh": "多式聯運的，結合兩種以上運輸方式的",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -562,7 +562,7 @@
     {
       "headword": "hub",
       "partOfSpeech": "n.",
-      "definitionZh": "物流樞紐；大型集散與轉運中心",
+      "definitionZh": "樞紐，大型貨物集散與轉運中心",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -577,7 +577,7 @@
     {
       "headword": "spoke",
       "partOfSpeech": "n.",
-      "definitionZh": "支線路徑；從樞紐延伸至末端的輻射線路",
+      "definitionZh": "支線，從樞紐延伸至末端的輻射路線",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -592,7 +592,7 @@
     {
       "headword": "distribution",
       "partOfSpeech": "n.",
-      "definitionZh": "配送；將貨物從倉庫分發至各目的地",
+      "definitionZh": "配銷，將貨物從倉庫分發至各目的地",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -607,7 +607,7 @@
     {
       "headword": "fulfillment",
       "partOfSpeech": "n.",
-      "definitionZh": "訂單履行；從接單到完成配送的全程作業",
+      "definitionZh": "訂單履行，從接單到完成配送的全程作業",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -622,7 +622,7 @@
     {
       "headword": "dispatch",
       "partOfSpeech": "v./n.",
-      "definitionZh": "從倉庫發出貨物；出貨派送",
+      "definitionZh": "發貨，將貨物從倉庫發出並派送",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -637,7 +637,7 @@
     {
       "headword": "pick",
       "partOfSpeech": "v.",
-      "definitionZh": "揀貨；從貨架上取出訂購商品",
+      "definitionZh": "揀貨，從貨架取出訂購商品",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -652,7 +652,7 @@
     {
       "headword": "pack",
       "partOfSpeech": "v.",
-      "definitionZh": "打包；將商品包裝好以便安全運輸",
+      "definitionZh": "打包，將商品包裝妥當以便安全運輸",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -667,7 +667,7 @@
     {
       "headword": "barcode",
       "partOfSpeech": "n.",
-      "definitionZh": "條碼；印在商品或包裝上的機器可讀識別碼",
+      "definitionZh": "條碼，印在商品或包裝上的機讀識別碼",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -682,7 +682,7 @@
     {
       "headword": "scan",
       "partOfSpeech": "v.",
-      "definitionZh": "掃描條碼；用讀取器擷取商品識別資訊",
+      "definitionZh": "掃描，用讀取器擷取條碼識別資訊",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -697,7 +697,7 @@
     {
       "headword": "consolidate",
       "partOfSpeech": "v.",
-      "definitionZh": "合併裝運；將多票小批貨物合為一個運輸單位",
+      "definitionZh": "併貨，將多票小批貨物合為一個運輸單位",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -712,7 +712,7 @@
     {
       "headword": "deconsolidate",
       "partOfSpeech": "v.",
-      "definitionZh": "拆運；到達目的地後將合併貨物分開配送",
+      "definitionZh": "拆貨，抵達後將合併貨物分開各自配送",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -727,7 +727,7 @@
     {
       "headword": "dropship",
       "partOfSpeech": "v.",
-      "definitionZh": "代發貨；由供應商直接將商品寄給終端客戶",
+      "definitionZh": "代發貨，由供應商直接將商品寄給終端客戶",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -742,7 +742,7 @@
     {
       "headword": "reverse",
       "partOfSpeech": "adj.",
-      "definitionZh": "逆向（物流）的；處理退貨或回收的",
+      "definitionZh": "逆向的，指處理退貨或回收的物流方向",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -757,7 +757,7 @@
     {
       "headword": "recall",
       "partOfSpeech": "v./n.",
-      "definitionZh": "產品召回；因品質問題通知客戶退回商品",
+      "definitionZh": "召回，因品質問題通知客戶退回商品",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -787,7 +787,7 @@
     {
       "headword": "shortage",
       "partOfSpeech": "n.",
-      "definitionZh": "庫存短缺；實際到貨數量少於訂購數量",
+      "definitionZh": "短缺，實際到貨數量少於訂購數量",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -802,7 +802,7 @@
     {
       "headword": "surplus",
       "partOfSpeech": "n.",
-      "definitionZh": "過剩庫存；超出需求的多餘貨品",
+      "definitionZh": "過剩，超出需求的多餘貨品",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -817,7 +817,7 @@
     {
       "headword": "replenish",
       "partOfSpeech": "v.",
-      "definitionZh": "補貨；當庫存降至低點時重新補充",
+      "definitionZh": "補貨，庫存降至低點時重新補充",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -832,7 +832,7 @@
     {
       "headword": "reorder",
       "partOfSpeech": "v./n.",
-      "definitionZh": "再訂購；向供應商重新下單補充庫存",
+      "definitionZh": "再訂購，向供應商重新下單補足庫存",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -847,7 +847,7 @@
     {
       "headword": "supplier",
       "partOfSpeech": "n.",
-      "definitionZh": "供應商；提供原料或成品的上游廠商",
+      "definitionZh": "供應商，提供原料或成品的上游廠商",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -862,7 +862,7 @@
     {
       "headword": "procurement",
       "partOfSpeech": "n.",
-      "definitionZh": "統籌採購流程；取得所需物資的整體活動",
+      "definitionZh": "採購，統籌取得所需物資的整體流程",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -892,7 +892,7 @@
     {
       "headword": "sourcing",
       "partOfSpeech": "n.",
-      "definitionZh": "尋源；尋找並評估合適供應商的過程",
+      "definitionZh": "尋源，尋找並評估合適供應商的過程",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -907,7 +907,7 @@
     {
       "headword": "quotation",
       "partOfSpeech": "n.",
-      "definitionZh": "報價單；供應商提供的價格與條件說明",
+      "definitionZh": "報價單，供應商提出的價格與條件說明",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -922,7 +922,7 @@
     {
       "headword": "receive",
       "partOfSpeech": "v.",
-      "definitionZh": "收貨；實際接收供應商交付的貨物",
+      "definitionZh": "收貨，實際接收供應商交付的貨物",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -952,7 +952,7 @@
     {
       "headword": "accept",
       "partOfSpeech": "v.",
-      "definitionZh": "驗收；確認貨物符合規格後正式收下",
+      "definitionZh": "驗收，確認貨物符合規格後正式收下",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -967,7 +967,7 @@
     {
       "headword": "quality",
       "partOfSpeech": "n.",
-      "definitionZh": "品質；貨品良品率或達標程度",
+      "definitionZh": "品質，貨品符合標準的優良程度",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -982,7 +982,7 @@
     {
       "headword": "control",
       "partOfSpeech": "n.",
-      "definitionZh": "管控；防止生產或物流偏差的管理措施",
+      "definitionZh": "管控，防止生產或物流偏差的管理措施",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1012,7 +1012,7 @@
     {
       "headword": "rework",
       "partOfSpeech": "v./n.",
-      "definitionZh": "返工；對不良品進行修整使其達到標準",
+      "definitionZh": "返工，修整不良品使其達到標準",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1027,7 +1027,7 @@
     {
       "headword": "scrap",
       "partOfSpeech": "n.",
-      "definitionZh": "廢料；無法修復而被淘汰的不良品",
+      "definitionZh": "廢料，無法修復而遭淘汰的不良品",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1042,7 +1042,7 @@
     {
       "headword": "discard",
       "partOfSpeech": "v.",
-      "definitionZh": "丟棄；永久棄置無使用價值的貨品",
+      "definitionZh": "丟棄，永久棄置無使用價值的貨品",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1057,7 +1057,7 @@
     {
       "headword": "delivery",
       "partOfSpeech": "n.",
-      "definitionZh": "配送；將貨物送達客戶指定地點的服務",
+      "definitionZh": "送貨，將貨物送達客戶指定地點的服務",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1072,7 +1072,7 @@
     {
       "headword": "collection",
       "partOfSpeech": "n.",
-      "definitionZh": "集貨；由承運人前往發貨地主動取件",
+      "definitionZh": "集貨，由承運人前往發貨地主動取件",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1087,7 +1087,7 @@
     {
       "headword": "pickup",
       "partOfSpeech": "n.",
-      "definitionZh": "取貨；客戶或快遞員親至指定點領取包裹",
+      "definitionZh": "取貨，客戶或快遞員親至指定點領取包裹",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1102,7 +1102,7 @@
     {
       "headword": "transit",
       "partOfSpeech": "n.",
-      "definitionZh": "在途；貨物從出發地到目的地的運輸過程",
+      "definitionZh": "在途，貨物從出發地往目的地的運送過程",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1117,7 +1117,7 @@
     {
       "headword": "arrival",
       "partOfSpeech": "n.",
-      "definitionZh": "抵達；貨物或運輸工具到達目的地",
+      "definitionZh": "抵達，貨物或運輸工具到達目的地",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1132,7 +1132,7 @@
     {
       "headword": "departure",
       "partOfSpeech": "n.",
-      "definitionZh": "出發；貨物或運輸工具啟程離開的時間",
+      "definitionZh": "出發，貨物或運輸工具啟程離開",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1147,7 +1147,7 @@
     {
       "headword": "delay",
       "partOfSpeech": "n./v.",
-      "definitionZh": "延誤；超出預定時間的運輸或處理拖延",
+      "definitionZh": "延誤，超出預定時間的運輸或處理拖延",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1162,7 +1162,7 @@
     {
       "headword": "expedite",
       "partOfSpeech": "v.",
-      "definitionZh": "加急催運；加快訂單或貨物的處理速度",
+      "definitionZh": "加急，加快訂單或貨物的處理速度",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1177,7 +1177,7 @@
     {
       "headword": "express",
       "partOfSpeech": "adj.",
-      "definitionZh": "快遞的；比標準配送更快的運輸服務",
+      "definitionZh": "快遞的，比標準配送更快的運輸服務",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1192,7 +1192,7 @@
     {
       "headword": "overnight",
       "partOfSpeech": "adj.",
-      "definitionZh": "翌日送達的；隔夜完成配送的快速服務",
+      "definitionZh": "隔夜達的，翌日即完成配送的快速服務",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1207,7 +1207,7 @@
     {
       "headword": "outsource",
       "partOfSpeech": "v.",
-      "definitionZh": "外包；將業務委託給外部公司執行",
+      "definitionZh": "外包，將業務委託給外部公司執行",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1237,7 +1237,7 @@
     {
       "headword": "provider",
       "partOfSpeech": "n.",
-      "definitionZh": "外部服務提供商；承接物流委外業務的業者",
+      "definitionZh": "服務業者，承接委外物流業務的第三方公司",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1267,7 +1267,7 @@
     {
       "headword": "throughput",
       "partOfSpeech": "n.",
-      "definitionZh": "吞吐量；單位時間內處理的貨物或訂單數量",
+      "definitionZh": "吞吐量，單位時間內處理的貨物或訂單數",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1282,7 +1282,7 @@
     {
       "headword": "efficiency",
       "partOfSpeech": "n.",
-      "definitionZh": "作業效率；以最少資源達到最多產出的程度",
+      "definitionZh": "效率，以最少資源達成最多產出的程度",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1297,7 +1297,7 @@
     {
       "headword": "accuracy",
       "partOfSpeech": "n.",
-      "definitionZh": "準確率；訂單或庫存記錄的正確性比例",
+      "definitionZh": "準確率，訂單或庫存紀錄的正確比例",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1312,7 +1312,7 @@
     {
       "headword": "demand",
       "partOfSpeech": "n.",
-      "definitionZh": "市場需求量；顧客對商品的購買意願",
+      "definitionZh": "需求，顧客對商品的購買意願與數量",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1342,7 +1342,7 @@
     {
       "headword": "optimization",
       "partOfSpeech": "n.",
-      "definitionZh": "最佳化；透過分析找出最有效率的操作方式",
+      "definitionZh": "最佳化，分析找出最有效率的作業方式",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1387,7 +1387,7 @@
     {
       "headword": "batch",
       "partOfSpeech": "n.",
-      "definitionZh": "批次；同時處理的一組相同作業或商品單位",
+      "definitionZh": "批次，同時處理的一組作業或商品",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1402,7 +1402,7 @@
     {
       "headword": "lot",
       "partOfSpeech": "n.",
-      "definitionZh": "批號；同一生產批次的一組貨品識別碼",
+      "definitionZh": "批號，同一生產批次貨品的識別編號",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1417,7 +1417,7 @@
     {
       "headword": "serial",
       "partOfSpeech": "n.",
-      "definitionZh": "序號；為每件產品賦予的唯一識別號碼",
+      "definitionZh": "序號，每件產品各自唯一的識別號碼",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1432,7 +1432,7 @@
     {
       "headword": "palletize",
       "partOfSpeech": "v.",
-      "definitionZh": "棧板化；將貨物整齊堆疊於棧板上以利裝運",
+      "definitionZh": "棧板化，將貨物堆疊於棧板上以利裝運",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1447,7 +1447,7 @@
     {
       "headword": "shrinkwrap",
       "partOfSpeech": "v./n.",
-      "definitionZh": "熱縮膜包裝；以塑膠薄膜包覆固定棧板貨物",
+      "definitionZh": "熱縮膜包裝，以塑膠薄膜包覆固定棧板貨物",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1462,7 +1462,7 @@
     {
       "headword": "crating",
       "partOfSpeech": "n.",
-      "definitionZh": "木箱包裝；用木製箱架保護大型或精密貨物",
+      "definitionZh": "裝箱，用木製箱架保護大型或精密貨物",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1477,7 +1477,7 @@
     {
       "headword": "containerize",
       "partOfSpeech": "v.",
-      "definitionZh": "貨櫃化；將貨物裝入標準貨櫃以進行運輸",
+      "definitionZh": "貨櫃化，將貨物裝入標準貨櫃以便運輸",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1492,7 +1492,7 @@
     {
       "headword": "incoterm",
       "partOfSpeech": "n.",
-      "definitionZh": "國際貿易條規；規範買賣雙方責任與費用分擔的術語",
+      "definitionZh": "國貿條規，規範買賣雙方責任與費用分擔的貿易術語",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1522,7 +1522,7 @@
     {
       "headword": "cif",
       "partOfSpeech": "abbr.",
-      "definitionZh": "到岸價；賣方負責支付運費與保險費至目的港",
+      "definitionZh": "到岸價，賣方負擔運費與保險費至目的港的條件",
       "examTags": [
         "TOEIC",
         "logistics"
@@ -1583,7 +1583,7 @@
     {
       "headword": "consignee",
       "partOfSpeech": "n.",
-      "definitionZh": "收貨人；提單上指定接收貨物的一方",
+      "definitionZh": "收貨人，提單上指定接收貨物的一方",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1599,7 +1599,7 @@
     {
       "headword": "consignor",
       "partOfSpeech": "n.",
-      "definitionZh": "發貨人；委託承運人運送貨物的一方",
+      "definitionZh": "發貨人，運送單據上載明寄出貨物的一方",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1615,7 +1615,7 @@
     {
       "headword": "bonded",
       "partOfSpeech": "adj.",
-      "definitionZh": "保稅的；在海關監管下儲存未完稅貨物的倉儲狀態",
+      "definitionZh": "保稅的，未完稅貨物受海關監管儲存的",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1647,7 +1647,7 @@
     {
       "headword": "broker",
       "partOfSpeech": "n.",
-      "definitionZh": "報關行；專業處理海關申報與放行手續的業者",
+      "definitionZh": "報關行，代辦海關申報與放行手續的業者",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1663,7 +1663,7 @@
     {
       "headword": "agent",
       "partOfSpeech": "n.",
-      "definitionZh": "貨運代理人；代表貨主或船公司處理運務的授權業者",
+      "definitionZh": "貨運代理，代表貨主或船公司處理運務的業者",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1679,7 +1679,7 @@
     {
       "headword": "depot",
       "partOfSpeech": "n.",
-      "definitionZh": "貨物集散站；區域性中型儲存與分配設施",
+      "definitionZh": "集散站，區域性中型貨物儲存與分配設施",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1695,7 +1695,7 @@
     {
       "headword": "stevedore",
       "partOfSpeech": "n.",
-      "definitionZh": "碼頭裝卸工；負責在港口裝卸船貨的工人或業者",
+      "definitionZh": "碼頭工人，在港口負責裝卸船貨的人員或業者",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1711,7 +1711,7 @@
     {
       "headword": "shipper",
       "partOfSpeech": "n.",
-      "definitionZh": "託運人；委託承運人將貨物出運的發貨方",
+      "definitionZh": "託運人，與承運人簽訂運送契約的出貨方",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1727,7 +1727,7 @@
     {
       "headword": "charter",
       "partOfSpeech": "v./n.",
-      "definitionZh": "租船；承租整艘船舶或整機艙位進行貨物運輸",
+      "definitionZh": "租船，承租整艘船或整架飛機艙位運貨",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1743,7 +1743,7 @@
     {
       "headword": "slot",
       "partOfSpeech": "n.",
-      "definitionZh": "艙位；船公司提供給貨主的貨櫃裝載空間",
+      "definitionZh": "艙位，船公司供貨主裝載貨櫃的空間",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1759,7 +1759,7 @@
     {
       "headword": "stowage",
       "partOfSpeech": "n.",
-      "definitionZh": "積載；在船艙或機艙中妥善排列並固定貨物位置",
+      "definitionZh": "積載，在船艙內妥善排列並固定貨物",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1775,7 +1775,7 @@
     {
       "headword": "feeder",
       "partOfSpeech": "n.",
-      "definitionZh": "支線船；在樞紐港與小型港口之間轉運貨物的接駁船",
+      "definitionZh": "支線船，往返樞紐港與小港之間的接駁船",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1791,7 +1791,7 @@
     {
       "headword": "transship",
       "partOfSpeech": "v.",
-      "definitionZh": "轉運；在中途港將貨物從一艘船轉移至另一艘繼續運輸",
+      "definitionZh": "轉運，中途將貨物換船或換運具繼續運送",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1823,7 +1823,7 @@
     {
       "headword": "demurrage",
       "partOfSpeech": "n.",
-      "definitionZh": "滯港費；貨物超期占用港口設施所產生的罰款費用",
+      "definitionZh": "滯港費，貨物超期占用港口設施的罰款",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1839,7 +1839,7 @@
     {
       "headword": "detention",
       "partOfSpeech": "n.",
-      "definitionZh": "滯箱費；超期持有貨櫃而須向船公司支付的罰款",
+      "definitionZh": "滯箱費，超期持有貨櫃須付給船公司的罰款",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1855,7 +1855,7 @@
     {
       "headword": "drayage",
       "partOfSpeech": "n.",
-      "definitionZh": "短途拖運；貨櫃場或港口至倉庫的近距離陸路運費",
+      "definitionZh": "短程拖運，貨櫃場或港口到倉庫的近距離陸運",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1871,7 +1871,7 @@
     {
       "headword": "lashing",
       "partOfSpeech": "n.",
-      "definitionZh": "捆紮固定；用繩索或鏈條將貨物固定以防運輸中移位",
+      "definitionZh": "綑固，用繩索或鏈條固定貨物防止移位",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1887,7 +1887,7 @@
     {
       "headword": "dunnage",
       "partOfSpeech": "n.",
-      "definitionZh": "墊料；防止貨物在運輸中移動或受損的填充材料",
+      "definitionZh": "墊料，防止貨物運輸中碰撞受損的填充材料",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1903,7 +1903,7 @@
     {
       "headword": "overstock",
       "partOfSpeech": "v./n.",
-      "definitionZh": "過量備貨；超出銷售需求的過剩庫存狀態或行為",
+      "definitionZh": "備貨過量，庫存超出銷售需求的狀態",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1919,7 +1919,7 @@
     {
       "headword": "stockout",
       "partOfSpeech": "n.",
-      "definitionZh": "斷貨；庫存耗盡無法供應客戶訂單需求的狀態",
+      "definitionZh": "斷貨，庫存耗盡無法供應訂單的狀態",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1935,7 +1935,7 @@
     {
       "headword": "backorder",
       "partOfSpeech": "n.",
-      "definitionZh": "缺貨待補訂單；因庫存不足而暫時無法出貨的訂單",
+      "definitionZh": "缺貨待補單，因無庫存而暫延出貨的訂單",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1951,7 +1951,7 @@
     {
       "headword": "slotting",
       "partOfSpeech": "n.",
-      "definitionZh": "貨位規劃；決定商品在倉庫中最佳儲放位置的作業",
+      "definitionZh": "貨位規劃，決定商品在倉庫中最佳儲位的作業",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1967,7 +1967,7 @@
     {
       "headword": "putaway",
       "partOfSpeech": "n.",
-      "definitionZh": "上架入庫；將收到的貨物搬放至倉庫指定貨位的作業",
+      "definitionZh": "上架入庫，將到貨搬放至指定儲位的作業",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1983,7 +1983,7 @@
     {
       "headword": "crossdock",
       "partOfSpeech": "v./n.",
-      "definitionZh": "越庫作業；貨物到達後不入庫直接轉運出貨的模式",
+      "definitionZh": "越庫，到貨不入庫直接轉運出貨的模式",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -1999,7 +1999,7 @@
     {
       "headword": "kitting",
       "partOfSpeech": "n.",
-      "definitionZh": "套件組裝；將多個零件或商品組合為一個出貨單元",
+      "definitionZh": "組套，將多個零件或商品組成一個出貨單元",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2015,7 +2015,7 @@
     {
       "headword": "perishable",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "易腐的；需在短期內使用以避免腐壞的食品或商品",
+      "definitionZh": "易腐的，需短期內使用以免腐壞的",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2031,7 +2031,7 @@
     {
       "headword": "ambient",
       "partOfSpeech": "adj.",
-      "definitionZh": "常溫儲存的；不需特殊溫控即可存放的貨物環境條件",
+      "definitionZh": "常溫的，不需溫控即可存放的儲存條件",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2047,7 +2047,7 @@
     {
       "headword": "refrigerate",
       "partOfSpeech": "v.",
-      "definitionZh": "冷藏保存；以低溫環境維持商品新鮮度與品質",
+      "definitionZh": "冷藏，以低溫維持商品新鮮與品質",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2063,7 +2063,7 @@
     {
       "headword": "fumigation",
       "partOfSpeech": "n.",
-      "definitionZh": "燻蒸處理；以氣體消滅貨物或木材包裝中害蟲的程序",
+      "definitionZh": "燻蒸，以氣體消滅貨物或木質包裝中害蟲的處理",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2079,7 +2079,7 @@
     {
       "headword": "labeling",
       "partOfSpeech": "n.",
-      "definitionZh": "標示作業；在商品或包裝上正確附加識別與法規標籤",
+      "definitionZh": "貼標，在商品或包裝上附加識別與法規標籤",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2095,7 +2095,7 @@
     {
       "headword": "conveyor",
       "partOfSpeech": "n.",
-      "definitionZh": "輸送帶；自動傳遞貨物的機械裝置",
+      "definitionZh": "輸送帶，自動傳送貨物的機械裝置",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2111,7 +2111,7 @@
     {
       "headword": "sorter",
       "partOfSpeech": "n.",
-      "definitionZh": "自動分揀機；依目的地或訂單自動分類包裹的設備",
+      "definitionZh": "分揀機，依目的地自動分類包裹的設備",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2127,7 +2127,7 @@
     {
       "headword": "bundling",
       "partOfSpeech": "n.",
-      "definitionZh": "捆包；將多件商品合為一個出貨或銷售單位",
+      "definitionZh": "捆包，將多件商品綁成一個銷售或出貨組合",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2143,7 +2143,7 @@
     {
       "headword": "unitize",
       "partOfSpeech": "v.",
-      "definitionZh": "單元化；將散裝貨物整合為標準化運輸單元",
+      "definitionZh": "單元化，將散裝貨物整合為標準運輸單元",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2159,7 +2159,7 @@
     {
       "headword": "spoilage",
       "partOfSpeech": "n.",
-      "definitionZh": "腐損；因溫度超標或保存不當造成貨物損壞的損失",
+      "definitionZh": "腐損，保存不當造成貨物損壞的損失",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2191,7 +2191,7 @@
     {
       "headword": "traceability",
       "partOfSpeech": "n.",
-      "definitionZh": "溯源性；追蹤商品從生產到配送全程歷史記錄的能力",
+      "definitionZh": "溯源性，追蹤商品生產至配送全程紀錄的能力",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2207,7 +2207,7 @@
     {
       "headword": "visibility",
       "partOfSpeech": "n.",
-      "definitionZh": "能見度；即時掌握供應鏈各節點狀態的資訊透明程度",
+      "definitionZh": "能見度，即時掌握供應鏈各節點狀態的透明程度",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2223,7 +2223,7 @@
     {
       "headword": "deviation",
       "partOfSpeech": "n.",
-      "definitionZh": "偏差；實際結果與計劃、規格或路線之間的差距",
+      "definitionZh": "偏差，實際結果與計畫或規格間的差距",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2239,7 +2239,7 @@
     {
       "headword": "discrepancy",
       "partOfSpeech": "n.",
-      "definitionZh": "差異；文件記錄或數量與實物之間的不一致情形",
+      "definitionZh": "差異，單據紀錄與實際貨物間的不一致情形",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2255,7 +2255,7 @@
     {
       "headword": "embargo",
       "partOfSpeech": "n.",
-      "definitionZh": "禁運；政府禁止對特定國家或商品進行進出口的命令",
+      "definitionZh": "禁運，政府禁止對特定國家或商品進出口的命令",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2287,7 +2287,7 @@
     {
       "headword": "flammable",
       "partOfSpeech": "adj.",
-      "definitionZh": "易燃的；容易著火且在運輸中需特別管制的貨物特性",
+      "definitionZh": "易燃的，運輸中須特別管制的易著火特性",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2303,7 +2303,7 @@
     {
       "headword": "streamline",
       "partOfSpeech": "v.",
-      "definitionZh": "精簡流程；去除冗餘步驟以提高供應鏈作業效率",
+      "definitionZh": "精簡，去除冗餘步驟以提升作業效率",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2319,7 +2319,7 @@
     {
       "headword": "digitize",
       "partOfSpeech": "v.",
-      "definitionZh": "數位化；將紙本文件或類比流程轉換為電子格式",
+      "definitionZh": "數位化，將紙本文件或流程轉為電子格式",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2335,7 +2335,7 @@
     {
       "headword": "orchestrate",
       "partOfSpeech": "v.",
-      "definitionZh": "統籌協調；整合多個物流環節確保供應鏈順暢運作",
+      "definitionZh": "統籌，整合多個環節使供應鏈順暢運作",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2351,7 +2351,7 @@
     {
       "headword": "intermodal",
       "partOfSpeech": "adj.",
-      "definitionZh": "聯合運輸的；使用同一運輸單元跨越不同運輸方式",
+      "definitionZh": "複合運輸的，同一運輸單元跨用不同運具的",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2383,7 +2383,7 @@
     {
       "headword": "serialization",
       "partOfSpeech": "n.",
-      "definitionZh": "序號化；為每件產品賦予唯一識別碼以利追蹤管理",
+      "definitionZh": "序號化，為每件產品賦予唯一碼以利追蹤",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2399,7 +2399,7 @@
     {
       "headword": "seize",
       "partOfSpeech": "v.",
-      "definitionZh": "扣押；海關或執法機關依法扣留違規或走私貨物",
+      "definitionZh": "扣押，海關依法扣留違規或走私貨物",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2415,7 +2415,7 @@
     {
       "headword": "liquidate",
       "partOfSpeech": "v.",
-      "definitionZh": "清倉拍售；以低價快速出售過剩或淘汰的庫存商品",
+      "definitionZh": "清倉，低價快速出售過剩或淘汰庫存",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2431,7 +2431,7 @@
     {
       "headword": "obsolete",
       "partOfSpeech": "adj.",
-      "definitionZh": "過時的；因產品停產或更新而失去使用或銷售價值",
+      "definitionZh": "過時的，因停產或更新而失去價值的",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2447,7 +2447,7 @@
     {
       "headword": "depreciate",
       "partOfSpeech": "v.",
-      "definitionZh": "折舊；資產或設備隨時間推移而帳面價值逐漸降低",
+      "definitionZh": "折舊，資產帳面價值隨時間逐漸降低",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2463,7 +2463,7 @@
     {
       "headword": "seasonality",
       "partOfSpeech": "n.",
-      "definitionZh": "季節性；需求因不同季節或假期產生的週期性波動",
+      "definitionZh": "季節性，需求隨季節或假期的週期波動",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2479,7 +2479,7 @@
     {
       "headword": "velocity",
       "partOfSpeech": "n.",
-      "definitionZh": "庫存流速；商品在倉庫中被揀取或售出的頻率速率",
+      "definitionZh": "流速，商品在倉庫被揀出或售出的速率",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2495,7 +2495,7 @@
     {
       "headword": "aging",
       "partOfSpeech": "n.",
-      "definitionZh": "庫齡分析；記錄庫存在倉庫中停留時間的管理報告",
+      "definitionZh": "庫齡，庫存在倉庫中停留時間的分析",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2511,7 +2511,7 @@
     {
       "headword": "consolidator",
       "partOfSpeech": "n.",
-      "definitionZh": "拼箱業者；集合多票小批貨物合裝一個貨櫃的服務商",
+      "definitionZh": "併櫃業者，集多票小貨合裝一櫃的服務商",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2543,7 +2543,7 @@
     {
       "headword": "intake",
       "partOfSpeech": "n.",
-      "definitionZh": "進料；工廠或倉庫接收並登錄物料的入庫作業",
+      "definitionZh": "進料，工廠或倉庫接收登錄物料的作業",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2559,7 +2559,7 @@
     {
       "headword": "outbound",
       "partOfSpeech": "adj.",
-      "definitionZh": "出貨的；從設施向外流出的貨物或運輸方向",
+      "definitionZh": "出貨的，從設施向外送出的貨物流向",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2575,7 +2575,7 @@
     {
       "headword": "inbound",
       "partOfSpeech": "adj.",
-      "definitionZh": "進貨的；流入設施的貨物接收方向或作業",
+      "definitionZh": "進貨的，流入設施的貨物接收方向",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2591,7 +2591,7 @@
     {
       "headword": "waive",
       "partOfSpeech": "v.",
-      "definitionZh": "豁免；放棄主張某項費用、條件或法律權利",
+      "definitionZh": "豁免，放棄收取費用或主張權利",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2607,7 +2607,7 @@
     {
       "headword": "disruption",
       "partOfSpeech": "n.",
-      "definitionZh": "中斷；突發事件導致供應鏈正常運作停滯或受損",
+      "definitionZh": "中斷，突發事件使供應鏈運作停滯",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2639,7 +2639,7 @@
     {
       "headword": "synchronize",
       "partOfSpeech": "v.",
-      "definitionZh": "同步協調；使不同環節的作業時間和資訊互相配合一致",
+      "definitionZh": "同步，使各環節作業時間與資訊一致",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2655,7 +2655,7 @@
     {
       "headword": "simulate",
       "partOfSpeech": "v.",
-      "definitionZh": "模擬；以電腦模型預測物流情境或計劃變更的結果",
+      "definitionZh": "模擬，以電腦模型預測物流情境結果",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2671,7 +2671,7 @@
     {
       "headword": "allocate",
       "partOfSpeech": "v.",
-      "definitionZh": "分派；依據規則將有限資源或庫存指定給各需求方",
+      "definitionZh": "分派，將有限資源或庫存指定給需求方",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2703,7 +2703,7 @@
     {
       "headword": "interline",
       "partOfSpeech": "v./adj.",
-      "definitionZh": "多承運商聯票；不同承運人之間共享票據或接力運送的安排",
+      "definitionZh": "聯運，不同承運人共用票據接力運送的安排",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2735,7 +2735,7 @@
     {
       "headword": "depletion",
       "partOfSpeech": "n.",
-      "definitionZh": "耗盡；庫存因持續出貨而逐漸減少至低水位的過程",
+      "definitionZh": "耗盡，庫存因持續出貨而降至低點",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2751,7 +2751,7 @@
     {
       "headword": "multilateral",
       "partOfSpeech": "adj.",
-      "definitionZh": "多邊的；涉及三個或以上國家的貿易協議或合作安排",
+      "definitionZh": "多邊的，涉及三國以上的貿易協議安排",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2767,7 +2767,7 @@
     {
       "headword": "accessorial",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "附加服務的；運費以外因特殊服務項目衍生的額外費用",
+      "definitionZh": "附加費的，基本運費外因特殊服務衍生的費用",
       "examTags": [
         "TOEIC",
         "logistics",
@@ -2799,7 +2799,7 @@
     {
       "headword": "overage",
       "partOfSpeech": "n.",
-      "definitionZh": "超量；實際到貨數量超出訂購數量的多餘部分",
+      "definitionZh": "溢量，實際到貨超出訂購數量的部分",
       "examTags": [
         "TOEIC",
         "logistics",

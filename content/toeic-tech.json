@@ -1297,7 +1297,7 @@
     {
       "headword": "sandbox",
       "partOfSpeech": "n.",
-      "definitionZh": "與正式環境隔離、供安全測試用的獨立環境",
+      "definitionZh": "沙箱，與正式環境隔離、供安全測試用的獨立環境",
       "examTags": [
         "TOEIC",
         "tech"
@@ -1387,7 +1387,7 @@
     {
       "headword": "drive",
       "partOfSpeech": "n.",
-      "definitionZh": "儲存資料的裝置，包含硬碟或 USB 隨身碟",
+      "definitionZh": "磁碟機，儲存資料的裝置，如硬碟或隨身碟",
       "examTags": [
         "TOEIC",
         "tech"
@@ -2466,7 +2466,7 @@
     {
       "headword": "blocklist",
       "partOfSpeech": "n.",
-      "definitionZh": "明確封鎖特定程式、IP 位址或使用者存取的拒絕清單",
+      "definitionZh": "封鎖清單，列出禁止存取的程式、位址或使用者的名單",
       "examTags": [
         "TOEIC",
         "tech",
@@ -2482,7 +2482,7 @@
     {
       "headword": "allowlist",
       "partOfSpeech": "n.",
-      "definitionZh": "明確許可特定程式、IP 位址或使用者存取的允許清單",
+      "definitionZh": "允許清單，僅放行所列程式、位址或使用者的存取機制",
       "examTags": [
         "TOEIC",
         "tech",

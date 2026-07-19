@@ -7,7 +7,7 @@
     {
       "headword": "itinerary",
       "partOfSpeech": "n.",
-      "definitionZh": "行程表；差旅日程安排書",
+      "definitionZh": "行程表，差旅日程與交通住宿的安排總覽",
       "examTags": [
         "TOEIC",
         "travel"
@@ -37,7 +37,7 @@
     {
       "headword": "reservation",
       "partOfSpeech": "n.",
-      "definitionZh": "預約；保留座位或房間的申請",
+      "definitionZh": "預約，事先保留座位或房間的申請",
       "examTags": [
         "TOEIC",
         "travel"
@@ -82,7 +82,7 @@
     {
       "headword": "ticket",
       "partOfSpeech": "n.",
-      "definitionZh": "票；機票或車票憑證",
+      "definitionZh": "票券，機票或車票等乘車憑證",
       "examTags": [
         "TOEIC",
         "travel"
@@ -97,7 +97,7 @@
     {
       "headword": "boarding",
       "partOfSpeech": "n.",
-      "definitionZh": "登機；上機程序的進行",
+      "definitionZh": "登機，旅客進入機艙的上機程序",
       "examTags": [
         "TOEIC",
         "travel"
@@ -112,7 +112,7 @@
     {
       "headword": "pass",
       "partOfSpeech": "n.",
-      "definitionZh": "登機證；進入特定區域的通行憑證",
+      "definitionZh": "通行證，登機或進入管制區域的憑證",
       "examTags": [
         "TOEIC",
         "travel"
@@ -157,7 +157,7 @@
     {
       "headword": "flight",
       "partOfSpeech": "n.",
-      "definitionZh": "航班；特定班機的飛行",
+      "definitionZh": "航班，特定班次的飛行行程",
       "examTags": [
         "TOEIC",
         "travel"
@@ -172,7 +172,7 @@
     {
       "headword": "airline",
       "partOfSpeech": "n.",
-      "definitionZh": "航空公司；提供航班服務的運輸業者",
+      "definitionZh": "航空公司，提供班機運輸服務的業者",
       "examTags": [
         "TOEIC",
         "travel"
@@ -187,7 +187,7 @@
     {
       "headword": "aircraft",
       "partOfSpeech": "n.",
-      "definitionZh": "飛機；航空器種類與機型",
+      "definitionZh": "飛機，各式航空器與機型的總稱",
       "examTags": [
         "TOEIC",
         "travel"
@@ -202,7 +202,7 @@
     {
       "headword": "seat",
       "partOfSpeech": "n.",
-      "definitionZh": "座位；機艙或車廂中的椅位",
+      "definitionZh": "座位，機艙或車廂中的乘坐椅位",
       "examTags": [
         "TOEIC",
         "travel"
@@ -217,7 +217,7 @@
     {
       "headword": "class",
       "partOfSpeech": "n.",
-      "definitionZh": "艙等；航班或列車的服務等級",
+      "definitionZh": "艙等，航班或列車的服務等級",
       "examTags": [
         "TOEIC",
         "travel"
@@ -232,7 +232,7 @@
     {
       "headword": "upgrade",
       "partOfSpeech": "n./v.",
-      "definitionZh": "升艙；提升至更高服務等級",
+      "definitionZh": "升等，提升至更高艙等或房型",
       "examTags": [
         "TOEIC",
         "travel"
@@ -262,7 +262,7 @@
     {
       "headword": "business",
       "partOfSpeech": "n./adj.",
-      "definitionZh": "商務艙（飛機艙等）；高於經濟艙的艙位",
+      "definitionZh": "商務艙，高於經濟艙的班機艙位等級",
       "examTags": [
         "TOEIC",
         "travel"
@@ -277,7 +277,7 @@
     {
       "headword": "layover",
       "partOfSpeech": "n.",
-      "definitionZh": "轉機等候時間；在中間機場的候機停留",
+      "definitionZh": "轉機停留，在中間機場等候銜接班機的時間",
       "examTags": [
         "TOEIC",
         "travel"
@@ -292,7 +292,7 @@
     {
       "headword": "connection",
       "partOfSpeech": "n.",
-      "definitionZh": "轉機銜接航班；聯程下一段班機",
+      "definitionZh": "轉機航班，聯程行程中銜接的下一段班機",
       "examTags": [
         "TOEIC",
         "travel"
@@ -307,7 +307,7 @@
     {
       "headword": "checkin",
       "partOfSpeech": "n./v.",
-      "definitionZh": "報到；辦理入住或登機的手續",
+      "definitionZh": "報到，辦理登機或飯店入住的手續",
       "examTags": [
         "TOEIC",
         "travel"
@@ -322,7 +322,7 @@
     {
       "headword": "checkout",
       "partOfSpeech": "n./v.",
-      "definitionZh": "退房；結清飯店帳單並離開",
+      "definitionZh": "退房，結清飯店帳單並離開房間",
       "examTags": [
         "TOEIC",
         "travel"
@@ -337,7 +337,7 @@
     {
       "headword": "baggage",
       "partOfSpeech": "n.",
-      "definitionZh": "行李（托運計量用）；行李件數或重量總稱",
+      "definitionZh": "行李，托運計量時指件數或重量的總稱",
       "examTags": [
         "TOEIC",
         "travel"
@@ -352,7 +352,7 @@
     {
       "headword": "luggage",
       "partOfSpeech": "n.",
-      "definitionZh": "行李箱包；旅行中攜帶的實體物件",
+      "definitionZh": "行李箱包，旅途中隨身攜帶的箱袋物件",
       "examTags": [
         "TOEIC",
         "travel"
@@ -367,7 +367,7 @@
     {
       "headword": "compartment",
       "partOfSpeech": "n.",
-      "definitionZh": "頭頂行李艙；機艙座位上方的置物空間",
+      "definitionZh": "置物艙，機艙座位上方的行李收納空間",
       "examTags": [
         "TOEIC",
         "travel"
@@ -382,7 +382,7 @@
     {
       "headword": "excess",
       "partOfSpeech": "n./adj.",
-      "definitionZh": "超額；超出限重的行李費用",
+      "definitionZh": "超額，超出免費限重須加收費用的行李",
       "examTags": [
         "TOEIC",
         "travel"
@@ -397,7 +397,7 @@
     {
       "headword": "passport",
       "partOfSpeech": "n.",
-      "definitionZh": "護照；國際旅行身分證件",
+      "definitionZh": "護照，國際旅行使用的身分證件",
       "examTags": [
         "TOEIC",
         "travel"
@@ -427,7 +427,7 @@
     {
       "headword": "immigration",
       "partOfSpeech": "n.",
-      "definitionZh": "入境審查；海關移民管制程序",
+      "definitionZh": "入境審查，機場的移民查驗管制程序",
       "examTags": [
         "TOEIC",
         "travel"
@@ -442,7 +442,7 @@
     {
       "headword": "declaration",
       "partOfSpeech": "n.",
-      "definitionZh": "申報；海關申報表及物品申報行為",
+      "definitionZh": "申報，向海關填報攜帶物品的程序",
       "examTags": [
         "TOEIC",
         "travel"
@@ -457,7 +457,7 @@
     {
       "headword": "convert",
       "partOfSpeech": "v.",
-      "definitionZh": "兌換（外幣）；將一種貨幣換算成另一種",
+      "definitionZh": "兌換，將一種貨幣換算成另一種",
       "examTags": [
         "TOEIC",
         "travel"
@@ -472,7 +472,7 @@
     {
       "headword": "withdraw",
       "partOfSpeech": "v.",
-      "definitionZh": "提款；從銀行帳戶提取現金",
+      "definitionZh": "提款，從銀行帳戶提取現金",
       "examTags": [
         "TOEIC",
         "travel"
@@ -502,7 +502,7 @@
     {
       "headword": "hotel",
       "partOfSpeech": "n.",
-      "definitionZh": "飯店；提供住宿餐飲的商業旅館",
+      "definitionZh": "飯店，提供住宿與餐飲的商業旅館",
       "examTags": [
         "TOEIC",
         "travel"
@@ -517,7 +517,7 @@
     {
       "headword": "accommodation",
       "partOfSpeech": "n.",
-      "definitionZh": "住宿設施；出差或會議期間的住宿安排",
+      "definitionZh": "住宿，出差或會議期間的落腳安排",
       "examTags": [
         "TOEIC",
         "travel"
@@ -532,7 +532,7 @@
     {
       "headword": "suite",
       "partOfSpeech": "n.",
-      "definitionZh": "套房；含客廳的豪華飯店房型",
+      "definitionZh": "套房，含客廳空間的高級飯店房型",
       "examTags": [
         "TOEIC",
         "travel"
@@ -547,7 +547,7 @@
     {
       "headword": "room",
       "partOfSpeech": "n.",
-      "definitionZh": "客房；飯店標準住宿房間",
+      "definitionZh": "客房，飯店的標準住宿房間",
       "examTags": [
         "TOEIC",
         "travel"
@@ -562,7 +562,7 @@
     {
       "headword": "amenity",
       "partOfSpeech": "n.",
-      "definitionZh": "飯店客用設施；住宿附加便利配備",
+      "definitionZh": "備品設施，住宿附加的客用便利配備",
       "examTags": [
         "TOEIC",
         "travel"
@@ -577,7 +577,7 @@
     {
       "headword": "concierge",
       "partOfSpeech": "n.",
-      "definitionZh": "禮賓服務員；飯店服務台接待人員",
+      "definitionZh": "禮賓人員，飯店服務台的接待專員",
       "examTags": [
         "TOEIC",
         "travel"
@@ -592,7 +592,7 @@
     {
       "headword": "housekeeping",
       "partOfSpeech": "n.",
-      "definitionZh": "客房整理服務；房務部門的日常工作",
+      "definitionZh": "房務，飯店客房清潔整理的部門工作",
       "examTags": [
         "TOEIC",
         "travel"
@@ -607,7 +607,7 @@
     {
       "headword": "minibar",
       "partOfSpeech": "n.",
-      "definitionZh": "客房迷你吧；客房內附設的小型冰箱飲料區",
+      "definitionZh": "迷你吧，客房內附設的小型冰箱飲品區",
       "examTags": [
         "TOEIC",
         "travel"
@@ -622,7 +622,7 @@
     {
       "headword": "folio",
       "partOfSpeech": "n.",
-      "definitionZh": "住宿帳單；客房消費明細紀錄",
+      "definitionZh": "住宿帳單，客房各項消費的明細紀錄",
       "examTags": [
         "TOEIC",
         "travel"
@@ -637,7 +637,7 @@
     {
       "headword": "restaurant",
       "partOfSpeech": "n.",
-      "definitionZh": "餐廳；飯店或會場附設的正式用餐場所",
+      "definitionZh": "餐廳，供應正式餐點的用餐場所",
       "examTags": [
         "TOEIC",
         "travel"
@@ -652,7 +652,7 @@
     {
       "headword": "dine",
       "partOfSpeech": "v.",
-      "definitionZh": "用餐；在餐廳正式進行一頓飯",
+      "definitionZh": "用餐，在餐廳正式享用一頓飯",
       "examTags": [
         "TOEIC",
         "travel"
@@ -667,7 +667,7 @@
     {
       "headword": "menu",
       "partOfSpeech": "n.",
-      "definitionZh": "菜單；餐點選項的列表",
+      "definitionZh": "菜單，列出餐點選項的單子",
       "examTags": [
         "TOEIC",
         "travel"
@@ -682,7 +682,7 @@
     {
       "headword": "cuisine",
       "partOfSpeech": "n.",
-      "definitionZh": "料理類型；特定地區或文化的飲食風格",
+      "definitionZh": "料理，特定地區或文化的飲食風格",
       "examTags": [
         "TOEIC",
         "travel"
@@ -697,7 +697,7 @@
     {
       "headword": "tip",
       "partOfSpeech": "n./v.",
-      "definitionZh": "小費；給予服務人員的額外酬謝金",
+      "definitionZh": "小費，給服務人員的額外酬謝金",
       "examTags": [
         "TOEIC",
         "travel"
@@ -712,7 +712,7 @@
     {
       "headword": "taxi",
       "partOfSpeech": "n.",
-      "definitionZh": "計程車；召喚付費的出租車",
+      "definitionZh": "計程車，按表計費的載客出租車",
       "examTags": [
         "TOEIC",
         "travel"
@@ -727,7 +727,7 @@
     {
       "headword": "rental",
       "partOfSpeech": "n.",
-      "definitionZh": "租車；短期租用車輛的服務或費用",
+      "definitionZh": "租車，短期租用車輛的服務或費用",
       "examTags": [
         "TOEIC",
         "travel"
@@ -742,7 +742,7 @@
     {
       "headword": "car",
       "partOfSpeech": "n.",
-      "definitionZh": "差旅專用轎車；公司接送或租用的乘用車",
+      "definitionZh": "轎車，差旅接送或租用的乘用車",
       "examTags": [
         "TOEIC",
         "travel"
@@ -757,7 +757,7 @@
     {
       "headword": "shuttle",
       "partOfSpeech": "n.",
-      "definitionZh": "接駁巴士；定期往返兩地的短程交通工具",
+      "definitionZh": "接駁車，定期往返兩地的短程交通工具",
       "examTags": [
         "TOEIC",
         "travel"
@@ -772,7 +772,7 @@
     {
       "headword": "transportation",
       "partOfSpeech": "n.",
-      "definitionZh": "交通；差旅移動方式或地面接送安排",
+      "definitionZh": "交通，差旅移動方式或地面接送安排",
       "examTags": [
         "TOEIC",
         "travel"
@@ -787,7 +787,7 @@
     {
       "headword": "map",
       "partOfSpeech": "n.",
-      "definitionZh": "地圖；城市或區域的平面圖示",
+      "definitionZh": "地圖，城市或區域的平面圖示",
       "examTags": [
         "TOEIC",
         "travel"
@@ -802,7 +802,7 @@
     {
       "headword": "direction",
       "partOfSpeech": "n.",
-      "definitionZh": "路線指引；到達目的地的方向說明",
+      "definitionZh": "路線指引，前往目的地的方向說明",
       "examTags": [
         "TOEIC",
         "travel"
@@ -817,7 +817,7 @@
     {
       "headword": "navigate",
       "partOfSpeech": "v.",
-      "definitionZh": "導航；規劃路線找到目的地",
+      "definitionZh": "導航，規劃路線找到目的地",
       "examTags": [
         "TOEIC",
         "travel"
@@ -832,7 +832,7 @@
     {
       "headword": "landmark",
       "partOfSpeech": "n.",
-      "definitionZh": "地標；城市中知名的辨識建築或地點",
+      "definitionZh": "地標，城市中易於辨識的知名建築或地點",
       "examTags": [
         "TOEIC",
         "travel"
@@ -847,7 +847,7 @@
     {
       "headword": "attraction",
       "partOfSpeech": "n.",
-      "definitionZh": "景點；值得參觀的觀光或文化場所",
+      "definitionZh": "景點，值得參觀的觀光或文化場所",
       "examTags": [
         "TOEIC",
         "travel"
@@ -862,7 +862,7 @@
     {
       "headword": "tour",
       "partOfSpeech": "n./v.",
-      "definitionZh": "參觀行程；安排嚮導的觀光或廠區巡覽",
+      "definitionZh": "參觀行程，有嚮導帶領的觀光或廠區巡覽",
       "examTags": [
         "TOEIC",
         "travel"
@@ -877,7 +877,7 @@
     {
       "headword": "conference",
       "partOfSpeech": "n.",
-      "definitionZh": "大型正式會議；國際研討或產業論壇",
+      "definitionZh": "大型會議，國際研討或產業論壇等正式集會",
       "examTags": [
         "TOEIC",
         "travel"
@@ -892,7 +892,7 @@
     {
       "headword": "catering",
       "partOfSpeech": "n.",
-      "definitionZh": "餐飲外燴；活動或會議的餐食供應服務",
+      "definitionZh": "外燴，活動或會議的餐飲供應服務",
       "examTags": [
         "TOEIC",
         "travel"
@@ -907,7 +907,7 @@
     {
       "headword": "audiovisual",
       "partOfSpeech": "n./adj.",
-      "definitionZh": "視聽設備；音影器材及相關技術支援",
+      "definitionZh": "視聽的，與簡報音響投影器材相關的",
       "examTags": [
         "TOEIC",
         "travel"
@@ -922,7 +922,7 @@
     {
       "headword": "badge",
       "partOfSpeech": "n.",
-      "definitionZh": "識別證；會議名牌或出入憑證",
+      "definitionZh": "識別證，會議名牌或出入場憑證",
       "examTags": [
         "TOEIC",
         "travel"
@@ -937,7 +937,7 @@
     {
       "headword": "lanyard",
       "partOfSpeech": "n.",
-      "definitionZh": "識別證掛繩；用於佩戴名牌的頸繩",
+      "definitionZh": "掛繩，用於佩戴識別名牌的頸繩",
       "examTags": [
         "TOEIC",
         "travel"
@@ -952,7 +952,7 @@
     {
       "headword": "networking",
       "partOfSpeech": "n.",
-      "definitionZh": "人際交流；在活動中拓展業界聯絡",
+      "definitionZh": "人脈交流，在活動中拓展業界聯繫",
       "examTags": [
         "TOEIC",
         "travel"
@@ -982,7 +982,7 @@
     {
       "headword": "cocktail",
       "partOfSpeech": "n.",
-      "definitionZh": "雞尾酒會；正式晚宴前的歡迎飲品社交時段",
+      "definitionZh": "雞尾酒會，晚宴前的迎賓飲品社交時段",
       "examTags": [
         "TOEIC",
         "travel"
@@ -997,7 +997,7 @@
     {
       "headword": "entertain",
       "partOfSpeech": "v.",
-      "definitionZh": "款待；接待客戶或貴賓並安排活動",
+      "definitionZh": "款待，接待客戶並安排餐敘或活動",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1012,7 +1012,7 @@
     {
       "headword": "host",
       "partOfSpeech": "n./v.",
-      "definitionZh": "主辦；擔任東道主並接待賓客",
+      "definitionZh": "主辦，擔任東道主接待賓客",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1027,7 +1027,7 @@
     {
       "headword": "mileage",
       "partOfSpeech": "n.",
-      "definitionZh": "飛行里程；積累可兌換獎勵的里程點數",
+      "definitionZh": "飛行里程，可累積兌換獎勵的里程點數",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1042,7 +1042,7 @@
     {
       "headword": "lounge",
       "partOfSpeech": "n.",
-      "definitionZh": "貴賓候機室；機場提供休憩餐飲的尊榮空間",
+      "definitionZh": "貴賓室，機場供休憩餐飲的候機空間",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1057,7 +1057,7 @@
     {
       "headword": "access",
       "partOfSpeech": "n./v.",
-      "definitionZh": "使用權限；進入特定設施的資格",
+      "definitionZh": "使用權限，進入特定設施的資格",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1072,7 +1072,7 @@
     {
       "headword": "security",
       "partOfSpeech": "n.",
-      "definitionZh": "安全檢查；機場通關前的安全篩查程序",
+      "definitionZh": "安檢，機場登機前的安全檢查程序",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1087,7 +1087,7 @@
     {
       "headword": "emergency",
       "partOfSpeech": "n.",
-      "definitionZh": "緊急情況；突發事故或危急狀況",
+      "definitionZh": "緊急情況，突發事故或危急狀況",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1102,7 +1102,7 @@
     {
       "headword": "assist",
       "partOfSpeech": "v.",
-      "definitionZh": "協助；幫忙處理或支援特定需求",
+      "definitionZh": "協助，幫忙處理或支援特定需求",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1117,7 +1117,7 @@
     {
       "headword": "medical",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "醫療的；旅行途中緊急就醫的相關事務",
+      "definitionZh": "醫療的，與旅途中就醫照護相關的",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1132,7 +1132,7 @@
     {
       "headword": "evacuate",
       "partOfSpeech": "v.",
-      "definitionZh": "疏散；在緊急情況下撤離建築或飛機",
+      "definitionZh": "疏散，緊急時撤離建築或機艙",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1147,7 +1147,7 @@
     {
       "headword": "embassy",
       "partOfSpeech": "n.",
-      "definitionZh": "大使館；駐外國的最高外交代表機構",
+      "definitionZh": "大使館，駐外國首都的最高外交代表機構",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1162,7 +1162,7 @@
     {
       "headword": "consulate",
       "partOfSpeech": "n.",
-      "definitionZh": "領事館；駐外地區的外交辦事處",
+      "definitionZh": "領事館，設於外國城市的外交辦事處",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1177,7 +1177,7 @@
     {
       "headword": "representative",
       "partOfSpeech": "n.",
-      "definitionZh": "代表；代表公司或機構的外派聯絡人員",
+      "definitionZh": "代表，受公司或機構委派的聯絡人員",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1192,7 +1192,7 @@
     {
       "headword": "contact",
       "partOfSpeech": "n./v.",
-      "definitionZh": "聯絡人；出差地點的緊急或業務聯繫對象",
+      "definitionZh": "聯絡人，出差地的緊急或業務聯繫對象",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1207,7 +1207,7 @@
     {
       "headword": "timezone",
       "partOfSpeech": "n.",
-      "definitionZh": "時區；地球上不同地區的標準時間帶",
+      "definitionZh": "時區，各地區採用的標準時間帶",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1222,7 +1222,7 @@
     {
       "headword": "adapt",
       "partOfSpeech": "v.",
-      "definitionZh": "適應；調整自身以適應新環境或時差",
+      "definitionZh": "適應，調整自身以配合新環境或作息",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1237,7 +1237,7 @@
     {
       "headword": "concourse",
       "partOfSpeech": "n.",
-      "definitionZh": "航廈通廊；機場中央大廳或候機走廊",
+      "definitionZh": "航廈大廳，機場中央通廊或候機走廊",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1252,7 +1252,7 @@
     {
       "headword": "timetable",
       "partOfSpeech": "n.",
-      "definitionZh": "時刻表；列車或航班的班次時間表",
+      "definitionZh": "時刻表，列車或班機的班次時間一覽",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1267,7 +1267,7 @@
     {
       "headword": "stopover",
       "partOfSpeech": "n.",
-      "definitionZh": "中途停留；在銜接城市過夜或停留超過24小時",
+      "definitionZh": "中途停留，行程中在銜接城市過夜的停站",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1282,7 +1282,7 @@
     {
       "headword": "roundtrip",
       "partOfSpeech": "n./adj.",
-      "definitionZh": "來回票；包含去程與回程的往返行程",
+      "definitionZh": "來回票，包含去程與回程的往返行程",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1312,7 +1312,7 @@
     {
       "headword": "chauffeur",
       "partOfSpeech": "n.",
-      "definitionZh": "專職司機；受雇的豪華轎車或禮車駕駛員",
+      "definitionZh": "專職司機，受雇駕駛禮車接送的駕駛員",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1327,7 +1327,7 @@
     {
       "headword": "limousine",
       "partOfSpeech": "n.",
-      "definitionZh": "豪華轎車；機場接送用的高級禮車",
+      "definitionZh": "豪華禮車，機場接送用的高級加長轎車",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1342,7 +1342,7 @@
     {
       "headword": "steward",
       "partOfSpeech": "n.",
-      "definitionZh": "空服員（男）；負責客艙服務的機組成員",
+      "definitionZh": "男空服員，負責客艙餐飲服務的機組成員",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1357,7 +1357,7 @@
     {
       "headword": "crew",
       "partOfSpeech": "n.",
-      "definitionZh": "機組人員；客艙或駕駛艙的全體服務人員",
+      "definitionZh": "機組人員，客艙與駕駛艙的全體工作人員",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1372,7 +1372,7 @@
     {
       "headword": "guesthouse",
       "partOfSpeech": "n.",
-      "definitionZh": "民宿；非連鎖的小型私人住宿設施",
+      "definitionZh": "民宿，小型私人經營的住宿處所",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1387,7 +1387,7 @@
     {
       "headword": "hostel",
       "partOfSpeech": "n.",
-      "definitionZh": "青年旅舍；廉價多人住宿設施",
+      "definitionZh": "青年旅舍，多人同房的平價住宿設施",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1402,7 +1402,7 @@
     {
       "headword": "motel",
       "partOfSpeech": "n.",
-      "definitionZh": "汽車旅館；公路沿線方便停車的住宿設施",
+      "definitionZh": "汽車旅館，公路沿線方便停車的住宿處",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1417,7 +1417,7 @@
     {
       "headword": "inn",
       "partOfSpeech": "n.",
-      "definitionZh": "小旅館；提供住宿餐飲的家庭式客棧",
+      "definitionZh": "小旅館，家庭式經營的客棧",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1432,7 +1432,7 @@
     {
       "headword": "resort",
       "partOfSpeech": "n.",
-      "definitionZh": "度假村；附設休閒設施的高級旅館",
+      "definitionZh": "度假村，附休閒設施的度假型旅館",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1447,7 +1447,7 @@
     {
       "headword": "villa",
       "partOfSpeech": "n.",
-      "definitionZh": "別墅；附私人設施的獨立度假住所",
+      "definitionZh": "別墅，附私人設施的獨棟度假住所",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1462,7 +1462,7 @@
     {
       "headword": "prepayment",
       "partOfSpeech": "n.",
-      "definitionZh": "預付款；在服務前提前付清的費用",
+      "definitionZh": "預付款，服務開始前先付清的費用",
       "examTags": [
         "TOEIC",
         "travel"
@@ -1477,7 +1477,7 @@
     {
       "headword": "turbulence",
       "partOfSpeech": "n.",
-      "definitionZh": "亂流；飛行中的氣流顛簸現象",
+      "definitionZh": "亂流，飛行中氣流不穩造成的顛簸",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1493,7 +1493,7 @@
     {
       "headword": "vaccination",
       "partOfSpeech": "n.",
-      "definitionZh": "疫苗接種；旅行前所需的防疫預防注射",
+      "definitionZh": "疫苗接種，出國前所需的防疫注射",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1509,7 +1509,7 @@
     {
       "headword": "refund",
       "partOfSpeech": "n./v.",
-      "definitionZh": "退款；取消預訂後的費用返還",
+      "definitionZh": "退款，取消預訂後返還已付費用",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1525,7 +1525,7 @@
     {
       "headword": "deductible",
       "partOfSpeech": "n.",
-      "definitionZh": "保險自付額；理賠時須個人自行承擔的金額",
+      "definitionZh": "自付額，保險理賠時須自行承擔的金額",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1541,7 +1541,7 @@
     {
       "headword": "escort",
       "partOfSpeech": "n./v.",
-      "definitionZh": "護送人員；陪同並引導重要賓客的官方接待者",
+      "definitionZh": "護送人員，陪同引導貴賓的接待者",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1557,7 +1557,7 @@
     {
       "headword": "entourage",
       "partOfSpeech": "n.",
-      "definitionZh": "隨行人員；陪同高層出訪的跟隨團隊",
+      "definitionZh": "隨行人員，陪同高層出訪的跟隨團隊",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1573,7 +1573,7 @@
     {
       "headword": "ballroom",
       "partOfSpeech": "n.",
-      "definitionZh": "宴會廳；飯店或會議中心的大型活動空間",
+      "definitionZh": "宴會廳，飯店或會議中心的大型活動場地",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1589,7 +1589,7 @@
     {
       "headword": "podium",
       "partOfSpeech": "n.",
-      "definitionZh": "講台；演講者站立於台前發言的演說平台",
+      "definitionZh": "講台，演講者發言所站的台座",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1605,7 +1605,7 @@
     {
       "headword": "kiosk",
       "partOfSpeech": "n.",
-      "definitionZh": "自助服務機；機場自動辦票或通關設備",
+      "definitionZh": "自助機台，機場自動辦理報到的設備",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1621,7 +1621,7 @@
     {
       "headword": "porter",
       "partOfSpeech": "n.",
-      "definitionZh": "行李員；機場或飯店協助搬運行李的服務人員",
+      "definitionZh": "行李員，機場或車站協助搬運行李的人員",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1637,7 +1637,7 @@
     {
       "headword": "bellhop",
       "partOfSpeech": "n.",
-      "definitionZh": "飯店行李服務生；負責引導入房與搬運行李的員工",
+      "definitionZh": "行李服務生，飯店內引導入房並搬運行李的員工",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1653,7 +1653,7 @@
     {
       "headword": "valet",
       "partOfSpeech": "n.",
-      "definitionZh": "代客泊車服務；飯店或餐廳提供的停車代泊員",
+      "definitionZh": "代客泊車，飯店或餐廳的停車代泊服務",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1669,7 +1669,7 @@
     {
       "headword": "turndown",
       "partOfSpeech": "n.",
-      "definitionZh": "夜床服務；飯店晚間整理床鋪及補充備品的服務",
+      "definitionZh": "夜床服務，晚間整理床鋪並補充備品",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1685,7 +1685,7 @@
     {
       "headword": "sommelier",
       "partOfSpeech": "n.",
-      "definitionZh": "侍酒師；餐廳負責葡萄酒推薦與服務的專業人員",
+      "definitionZh": "侍酒師，餐廳推薦與服務葡萄酒的專業人員",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1701,7 +1701,7 @@
     {
       "headword": "roaming",
       "partOfSpeech": "n.",
-      "definitionZh": "國際漫遊；海外使用行動網路時的計費模式",
+      "definitionZh": "國際漫遊，在海外使用行動網路的計費模式",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1717,7 +1717,7 @@
     {
       "headword": "connectivity",
       "partOfSpeech": "n.",
-      "definitionZh": "網路連線能力；出差期間取得網際網路的狀況",
+      "definitionZh": "網路連線，出差期間可否上網的狀況",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1733,7 +1733,7 @@
     {
       "headword": "embarkation",
       "partOfSpeech": "n.",
-      "definitionZh": "登機手續；旅客進入飛機前的辦理程序",
+      "definitionZh": "登機手續，出發前進入飛機或船隻的程序",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1749,7 +1749,7 @@
     {
       "headword": "disembark",
       "partOfSpeech": "v.",
-      "definitionZh": "下機；飛機降落後旅客離開機艙的行為",
+      "definitionZh": "下機下船，抵達後旅客離開飛機或船隻",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1765,7 +1765,7 @@
     {
       "headword": "runway",
       "partOfSpeech": "n.",
-      "definitionZh": "跑道；供飛機起飛與降落的地面長廊",
+      "definitionZh": "跑道，供飛機起降的地面長條區域",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1781,7 +1781,7 @@
     {
       "headword": "airside",
       "partOfSpeech": "n./adj.",
-      "definitionZh": "隔離管制側；通過機場安全查核後的限制區域",
+      "definitionZh": "管制區，通過安檢後的機場隔離側",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1797,7 +1797,7 @@
     {
       "headword": "jetlag",
       "partOfSpeech": "n.",
-      "definitionZh": "時差；跨多時區長途飛行後的生理疲勞症狀",
+      "definitionZh": "時差不適，跨時區飛行後的生理疲勞",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1813,7 +1813,7 @@
     {
       "headword": "altitude",
       "partOfSpeech": "n.",
-      "definitionZh": "飛行高度；飛機在空中的海拔位置",
+      "definitionZh": "高度，飛機在空中的海拔位置",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1829,7 +1829,7 @@
     {
       "headword": "waypoint",
       "partOfSpeech": "n.",
-      "definitionZh": "航路點；飛行計畫中的預定中間導航座標",
+      "definitionZh": "航路點，飛行計畫中的中途導航座標",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1845,7 +1845,7 @@
     {
       "headword": "apron",
       "partOfSpeech": "n.",
-      "definitionZh": "停機坪；機場地面供飛機停放及作業的區域",
+      "definitionZh": "停機坪，供飛機停放與地勤作業的區域",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1861,7 +1861,7 @@
     {
       "headword": "taxiway",
       "partOfSpeech": "n.",
-      "definitionZh": "滑行道；飛機在機場地面行駛至跑道的通道",
+      "definitionZh": "滑行道，飛機自停機坪駛往跑道的通道",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1877,7 +1877,7 @@
     {
       "headword": "hangar",
       "partOfSpeech": "n.",
-      "definitionZh": "機棚；飛機停放及維修保養的大型封閉設施",
+      "definitionZh": "機棚，停放與維修飛機的大型廠房",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1893,7 +1893,7 @@
     {
       "headword": "preclearance",
       "partOfSpeech": "n.",
-      "definitionZh": "預通關；在出發機場提前完成目的地入境審查",
+      "definitionZh": "預先通關，在出發地先完成目的地入境審查",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1909,7 +1909,7 @@
     {
       "headword": "biometric",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "生物辨識的；以指紋或臉部特徵識別個人身分",
+      "definitionZh": "生物辨識的，以指紋或臉部特徵驗證身分的",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1925,7 +1925,7 @@
     {
       "headword": "excursion",
       "partOfSpeech": "n.",
-      "definitionZh": "附加短程旅遊；出差期間安排的景點參訪活動",
+      "definitionZh": "短程旅遊，出差期間附加的景點參訪",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1941,7 +1941,7 @@
     {
       "headword": "motorcade",
       "partOfSpeech": "n.",
-      "definitionZh": "護送車隊；官員或高層貴賓的多輛車隊行進安排",
+      "definitionZh": "車隊，護送官員或貴賓的多車行進編隊",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1957,7 +1957,7 @@
     {
       "headword": "repatriate",
       "partOfSpeech": "v.",
-      "definitionZh": "遣返；將人員或資金送回本國的正式程序",
+      "definitionZh": "遣返，將人員或資金送回本國",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1973,7 +1973,7 @@
     {
       "headword": "itinerant",
       "partOfSpeech": "adj.",
-      "definitionZh": "巡迴的；定期往來多個地點執行業務的",
+      "definitionZh": "巡迴的，定期往來多地執行業務的",
       "examTags": [
         "TOEIC",
         "travel",
@@ -1989,7 +1989,7 @@
     {
       "headword": "displacement",
       "partOfSpeech": "n.",
-      "definitionZh": "機位取消；超額訂票導致旅客被移除訂位的情況",
+      "definitionZh": "機位取消，超額訂票致旅客失去訂位的情況",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2005,7 +2005,7 @@
     {
       "headword": "commute",
       "partOfSpeech": "n./v.",
-      "definitionZh": "通勤；規律往返工作地點與居所的交通往返",
+      "definitionZh": "通勤，規律往返居所與工作地點",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2021,7 +2021,7 @@
     {
       "headword": "apostille",
       "partOfSpeech": "n.",
-      "definitionZh": "海牙認證；供國際使用的文件官方合法化認證戳記",
+      "definitionZh": "海牙認證，供國際使用的文件官方認證戳記",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2037,7 +2037,7 @@
     {
       "headword": "colloquium",
       "partOfSpeech": "n.",
-      "definitionZh": "學術研討；以知識交流為目的的非正式討論會",
+      "definitionZh": "研討會，以知識交流為主的學術討論集會",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2053,7 +2053,7 @@
     {
       "headword": "denominate",
       "partOfSpeech": "v.",
-      "definitionZh": "以…計價；以特定貨幣或單位表示費用或金額",
+      "definitionZh": "以…計價，用特定貨幣表示金額",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2069,7 +2069,7 @@
     {
       "headword": "settle",
       "partOfSpeech": "v.",
-      "definitionZh": "結清帳款；完成費用的最終支付動作",
+      "definitionZh": "結清，完成帳款的最終支付",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2085,7 +2085,7 @@
     {
       "headword": "deplane",
       "partOfSpeech": "v.",
-      "definitionZh": "下機；飛機降落後旅客離開機艙的動作",
+      "definitionZh": "下機，旅客步出機艙的正式用語",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2101,7 +2101,7 @@
     {
       "headword": "enplane",
       "partOfSpeech": "v.",
-      "definitionZh": "登機；旅客在出發前進入機艙的行為",
+      "definitionZh": "登上飛機，指旅客進入機艙的正式書面用語",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2117,7 +2117,7 @@
     {
       "headword": "aerodrome",
       "partOfSpeech": "n.",
-      "definitionZh": "小型機場；提供一般航空使用的簡易飛行場",
+      "definitionZh": "小型機場，供一般航空使用的簡易飛行場",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2133,7 +2133,7 @@
     {
       "headword": "jetway",
       "partOfSpeech": "n.",
-      "definitionZh": "廊橋；連接航站樓與飛機艙門的伸縮登機通道",
+      "definitionZh": "空橋，連接航廈與機艙門的伸縮通道",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2149,7 +2149,7 @@
     {
       "headword": "overstay",
       "partOfSpeech": "v./n.",
-      "definitionZh": "逾期居留；在簽證到期後仍留在該國的違規行為",
+      "definitionZh": "逾期居留，簽證到期後仍滯留該國",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2165,7 +2165,7 @@
     {
       "headword": "sojourn",
       "partOfSpeech": "n./v.",
-      "definitionZh": "短暫停留；在某地的臨時居住或商務訪問",
+      "definitionZh": "短暫旅居，在某地的臨時停留或商務暫住",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2181,7 +2181,7 @@
     {
       "headword": "traverse",
       "partOfSpeech": "v.",
-      "definitionZh": "穿越；通過或橫跨某地區或路線的移動行為",
+      "definitionZh": "穿越，橫跨某地區或路線的移動",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2197,7 +2197,7 @@
     {
       "headword": "egress",
       "partOfSpeech": "n.",
-      "definitionZh": "出口通道；供人員安全離開使用的出口設施",
+      "definitionZh": "出口，供人員安全離開的通道設施",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2213,7 +2213,7 @@
     {
       "headword": "ingress",
       "partOfSpeech": "n.",
-      "definitionZh": "入口通道；進入特定建築或管制區域的入口",
+      "definitionZh": "入口，進入建築或管制區的通道",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2229,7 +2229,7 @@
     {
       "headword": "overland",
       "partOfSpeech": "adv./adj.",
-      "definitionZh": "陸路方式；以地面交通工具完成的旅程安排",
+      "definitionZh": "陸路的，經由地面交通完成行程的",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2245,7 +2245,7 @@
     {
       "headword": "compulsory",
       "partOfSpeech": "adj.",
-      "definitionZh": "強制性的；依規定必須辦理的旅行相關手續",
+      "definitionZh": "強制性的，依規定必須辦理的",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2261,7 +2261,7 @@
     {
       "headword": "formality",
       "partOfSpeech": "n.",
-      "definitionZh": "正式手續；旅行中必須完成的官方規定程序",
+      "definitionZh": "正式手續，依官方規定須完成的程序",
       "examTags": [
         "TOEIC",
         "travel",
@@ -2277,7 +2277,7 @@
     {
       "headword": "detour",
       "partOfSpeech": "n./v.",
-      "definitionZh": "繞道；因道路管制或施工必須改走的替代路線",
+      "definitionZh": "繞道，因管制或施工改走替代路線",
       "examTags": [
         "TOEIC",
         "travel",

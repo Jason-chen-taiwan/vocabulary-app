@@ -7,7 +7,7 @@
     {
       "headword": "staple",
       "partOfSpeech": "v./n.",
-      "definitionZh": "用釘書機裝訂文件；釘書針",
+      "definitionZh": "裝訂，用釘書機固定文件；釘書針，裝訂文件用的細金屬針",
       "examTags": [
         "TOEIC",
         "office"
@@ -52,7 +52,7 @@
     {
       "headword": "photocopy",
       "partOfSpeech": "v./n.",
-      "definitionZh": "用影印機複製文件；所產生的影本",
+      "definitionZh": "影印，用影印機複製文件；影本，影印所產生的複製文件",
       "examTags": [
         "TOEIC",
         "office"
@@ -442,7 +442,7 @@
     {
       "headword": "confirm",
       "partOfSpeech": "v.",
-      "definitionZh": "核實或確定某安排、資訊屬實",
+      "definitionZh": "確認，核實某項安排或資訊屬實無誤",
       "examTags": [
         "TOEIC",
         "office"
@@ -1117,7 +1117,7 @@
     {
       "headword": "routine",
       "partOfSpeech": "adj./n.",
-      "definitionZh": "例行固定的；日常的例行工作",
+      "definitionZh": "例行的，固定且日常反覆進行的；例行公事，照慣例處理的日常工作",
       "examTags": [
         "TOEIC",
         "office"
@@ -1297,7 +1297,7 @@
     {
       "headword": "organize",
       "partOfSpeech": "v.",
-      "definitionZh": "系統性地整頓人、物或事務以提升效率",
+      "definitionZh": "整理，有系統地安排人、物或事務以提升效率",
       "examTags": [
         "TOEIC",
         "office"
@@ -1537,7 +1537,7 @@
     {
       "headword": "switch",
       "partOfSpeech": "n./v.",
-      "definitionZh": "控制電源的開關；在不同選項之間切換",
+      "definitionZh": "開關，控制電源通斷的裝置；切換，在不同選項或模式之間轉換",
       "examTags": [
         "TOEIC",
         "office"
@@ -1567,7 +1567,7 @@
     {
       "headword": "whiteboard",
       "partOfSpeech": "n.",
-      "definitionZh": "用乾式馬克筆書寫、方便擦拭的會議室白板",
+      "definitionZh": "白板，會議室常用、以乾擦筆書寫且方便擦拭的板面",
       "examTags": [
         "TOEIC",
         "office"
@@ -1642,7 +1642,7 @@
     {
       "headword": "update",
       "partOfSpeech": "v./n.",
-      "definitionZh": "提供最新狀態資訊；更新資料或系統版本",
+      "definitionZh": "更新，提供最新狀態資訊，或將資料與系統升至新版",
       "examTags": [
         "TOEIC",
         "office"
@@ -1702,7 +1702,7 @@
     {
       "headword": "priority",
       "partOfSpeech": "n.",
-      "definitionZh": "相對重要性的排序；應優先完成的事項",
+      "definitionZh": "優先事項，依相對重要性排序後應率先處理的事",
       "examTags": [
         "TOEIC",
         "office"
@@ -1840,7 +1840,7 @@
     {
       "headword": "ergonomic",
       "partOfSpeech": "adj.",
-      "definitionZh": "符合人體工學設計、可減輕身體負擔的",
+      "definitionZh": "人體工學的，依人體姿勢設計以減輕身體負擔的",
       "examTags": [
         "TOEIC",
         "office",

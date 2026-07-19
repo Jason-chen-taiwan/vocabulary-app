@@ -247,7 +247,7 @@
     {
       "headword": "annex",
       "partOfSpeech": "n.",
-      "definitionZh": "合約的大型附件，通常含詳細規格或表格",
+      "definitionZh": "附件，合約所附的大型補充文件，常含詳細規格或表格",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -592,7 +592,7 @@
     {
       "headword": "court",
       "partOfSpeech": "n.",
-      "definitionZh": "具有法律管轄權、正式審理民商事案件的法院",
+      "definitionZh": "法院，具管轄權並正式審理民商事案件的司法機構",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -712,7 +712,7 @@
     {
       "headword": "intellectual",
       "partOfSpeech": "adj.",
-      "definitionZh": "與智慧財產（版權、專利、商標等）相關的",
+      "definitionZh": "智慧財產的，涉及版權、專利、商標等無形資產權利的",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1102,7 +1102,7 @@
     {
       "headword": "legal",
       "partOfSpeech": "adj.",
-      "definitionZh": "符合現行法律規定、不違法的",
+      "definitionZh": "合法的，符合現行法律規定而不違法的",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1447,7 +1447,7 @@
     {
       "headword": "contractor",
       "partOfSpeech": "n.",
-      "definitionZh": "與發包方簽訂合約、負責執行工程或服務的廠商",
+      "definitionZh": "承包商，與發包方簽約並負責執行工程或服務的廠商",
       "examTags": [
         "TOEIC",
         "contracts"
@@ -1731,7 +1731,7 @@
     {
       "headword": "fiduciary",
       "partOfSpeech": "adj.",
-      "definitionZh": "基於信任與誠信、須以對方最大利益行事的",
+      "definitionZh": "受託的，負有以委託人最大利益行事之誠信義務的",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2147,7 +2147,7 @@
     {
       "headword": "supersede",
       "partOfSpeech": "v.",
-      "definitionZh": "取代先前的合約、條款或文件使其失效",
+      "definitionZh": "取代，使先前的合約條款或文件失效並改以新版為準",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2323,7 +2323,7 @@
     {
       "headword": "herein",
       "partOfSpeech": "adv.",
-      "definitionZh": "在本合約文件內（指文件本身所含內容）",
+      "definitionZh": "於本文件中，合約用語，指本份文件所載範圍之內",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2339,7 +2339,7 @@
     {
       "headword": "hereinafter",
       "partOfSpeech": "adv.",
-      "definitionZh": "在本合約以下稱為（用於定義縮寫或簡稱）",
+      "definitionZh": "以下簡稱，合約用語，為當事人或名詞定義後續使用的簡稱",
       "examTags": [
         "TOEIC",
         "contracts",
@@ -2595,7 +2595,7 @@
     {
       "headword": "entirety",
       "partOfSpeech": "n.",
-      "definitionZh": "合約的全部整體；常見於「整份合約」的法律指稱",
+      "definitionZh": "整體，事物的全部總和，合約中常指整份文件而言",
       "examTags": [
         "TOEIC",
         "contracts",
