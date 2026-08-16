@@ -1,4 +1,4 @@
-import type { PassageToken } from '../types'
+import type { PassageToken } from '../types.ts'
 
 const WORD_RE = /[A-Za-z]+(?:['’-][A-Za-z]+)*/g
 

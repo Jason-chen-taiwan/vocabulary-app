@@ -1,4 +1,4 @@
-import type { GlossEntry, PassageFile, PassageQuestion, PassageToken } from './types'
+import type { GlossEntry, PassageFile, PassageQuestion, PassageToken } from './types.ts'
 
 function req(cond: boolean, msg: string): void {
   if (!cond) throw new Error(`Invalid passage: ${msg}`)
