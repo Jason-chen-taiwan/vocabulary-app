@@ -1,6 +1,6 @@
 import type { PassageToken } from '../types'
 
-const WORD_RE = /[A-Za-z]+(?:[''-][A-Za-z]+)*/g
+const WORD_RE = /[A-Za-z]+(?:['’-][A-Za-z]+)*/g
 
 // 把一段原文切成 token 串：英文字帶 lemma，其餘（標點、空白）原樣保留，串回可還原原文
 export function tokenize(paragraph: string, lemmaOf: (word: string) => string): PassageToken[] {

@@ -21,4 +21,14 @@ describe('tokenize', () => {
     const joined = tokenize(src, lower).map((t) => t.w).join('')
     expect(joined).toBe(src)
   })
+
+  it('right single quotation mark (U+2019) in contractions', () => {
+    const rightQuote = String.fromCharCode(0x2019)
+    const input = `Don${rightQuote}t stop`
+    const wordToken = `Don${rightQuote}t`
+    const lemmaToken = `don${rightQuote}t`
+    expect(tokenize(input, lower)).toEqual([
+      { w: wordToken, l: lemmaToken }, { w: ' ' }, { w: 'stop', l: 'stop' },
+    ])
+  })
 })
