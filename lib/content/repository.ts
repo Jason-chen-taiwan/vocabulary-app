@@ -10,12 +10,16 @@ interface ContentDb {
   wordBook: {
     findMany(args: unknown): Promise<unknown[]>
     findUnique(args: unknown): Promise<unknown | null>
+    create(args: unknown): Promise<unknown>
   }
   word: {
     findMany(args: unknown): Promise<unknown[]>
     findUnique(args: unknown): Promise<unknown | null>
+    create(args: unknown): Promise<unknown>
   }
 }
+
+export const NOTEBOOK_SLUG = 'my-notebook'
 
 export class ContentRepository {
   private readonly db: ContentDb
@@ -105,5 +109,31 @@ export class ContentRepository {
       orderBy: { headword: 'asc' },
     })) as { headword: string }[]
     return [...new Set(rows.map((r) => r.headword.toLowerCase()))].sort()
+  }
+
+  // 「我的生字本」系統書：全域一本，個人視角由 UserCard 決定
+  async ensureNotebookBook(): Promise<{ id: string }> {
+    const existing = (await this.db.wordBook.findUnique({ where: { slug: NOTEBOOK_SLUG }, select: { id: true } })) as { id: string } | null
+    if (existing) return existing
+    return (await this.db.wordBook.create({
+      data: { slug: NOTEBOOK_SLUG, name: '我的生字本', sourceType: 'notebook', order: 99 },
+      select: { id: true },
+    })) as { id: string }
+  }
+
+  // 收藏字 upsert：已存在直接回 id（不覆寫先收藏者建立的釋義）
+  async upsertNotebookWord(
+    bookId: string,
+    data: { headword: string; definitionZh: string; partOfSpeech: string | null },
+  ): Promise<{ id: string }> {
+    const existing = (await this.db.word.findUnique({
+      where: { wordBookId_headword: { wordBookId: bookId, headword: data.headword } },
+      select: { id: true },
+    })) as { id: string } | null
+    if (existing) return existing
+    return (await this.db.word.create({
+      data: { wordBookId: bookId, headword: data.headword, definitionZh: data.definitionZh, partOfSpeech: data.partOfSpeech, examTags: ['reader'] },
+      select: { id: true },
+    })) as { id: string }
   }
 }
