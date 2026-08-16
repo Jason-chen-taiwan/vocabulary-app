@@ -17,6 +17,7 @@
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
     "seed": "node --experimental-strip-types scripts/seed-content.mjs",
+    "seed:passages": "node --experimental-strip-types scripts/seed-passages.mjs",
     "check-content": "node --experimental-strip-types scripts/check-content.mjs",
     "fetch:dict": "node scripts/fetch-dict.mjs",
     "build:passages": "node --experimental-strip-types scripts/build-passage.mjs"
