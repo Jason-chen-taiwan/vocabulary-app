@@ -17,6 +17,7 @@ describe('ContentRepository', () => {
     const repo = new ContentRepository(db as any)
     const result = await repo.listWordBooks()
     expect(db.wordBook.findMany).toHaveBeenCalledWith({
+      where: { sourceType: { not: 'notebook' } },
       orderBy: { order: 'asc' },
       include: { _count: { select: { words: true } } },
     })
@@ -143,5 +144,21 @@ describe('notebook', () => {
     const repo = new ContentRepository(db as any)
     expect(await repo.upsertNotebookWord('b1', { headword: 'zeal', definitionZh: '熱忱', partOfSpeech: 'n.' })).toEqual({ id: 'w1' })
     expect(db.word.create).not.toHaveBeenCalled()
+  })
+
+  it('listWordBooks 排除 notebook 書', async () => {
+    const db = makeDb()
+    db.wordBook.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listWordBooks()
+    expect(db.wordBook.findMany.mock.calls[0][0].where).toEqual({ sourceType: { not: 'notebook' } })
+  })
+
+  it('listCollectedWordsByBook 只取該使用者有卡的字', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listCollectedWordsByBook('b1', 'u1')
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBookId: 'b1', userCards: { some: { userId: 'u1' } } })
   })
 })

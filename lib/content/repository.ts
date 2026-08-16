@@ -29,6 +29,7 @@ export class ContentRepository {
 
   async listWordBooks(): Promise<WordBookData[]> {
     const rows = await this.db.wordBook.findMany({
+      where: { sourceType: { not: 'notebook' } },
       orderBy: { order: 'asc' },
       include: { _count: { select: { words: true } } },
     })
@@ -46,6 +47,15 @@ export class ContentRepository {
   async listWordsByBook(wordBookId: string): Promise<WordData[]> {
     const rows = await this.db.word.findMany({ where: { wordBookId }, orderBy: { order: 'asc' } })
     return (rows as Parameters<typeof toWordData>[0][]).map(toWordData)
+  }
+
+  // 生字本個人視角：只列使用者有 UserCard 的字
+  async listCollectedWordsByBook(bookId: string, userId: string): Promise<WordData[]> {
+    const rows = (await this.db.word.findMany({
+      where: { wordBookId: bookId, userCards: { some: { userId } } },
+      orderBy: { createdAt: 'asc' },
+    })) as Parameters<typeof toWordData>[0][]
+    return rows.map(toWordData)
   }
 
   // All definitions across every book — MC distractor pool for mixed practice.

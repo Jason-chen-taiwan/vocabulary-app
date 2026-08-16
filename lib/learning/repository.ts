@@ -75,7 +75,11 @@ export class LearningRepository {
 
   async listNewWordIds(userId: string, wordBookId: string | undefined, limit: number): Promise<string[]> {
     const rows = await this.db.word.findMany({
-      where: { ...(wordBookId ? { wordBookId } : {}), userCards: { none: { userId } } },
+      where: {
+        ...(wordBookId ? { wordBookId } : {}),
+        userCards: { none: { userId } },
+        wordBook: { sourceType: { not: 'notebook' } },
+      },
       orderBy: { order: 'asc' }, take: limit, select: { id: true },
     })
     return (rows as { id: string }[]).map((r) => r.id)
