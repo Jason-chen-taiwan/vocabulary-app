@@ -17,6 +17,12 @@ export function xpForReview(correct: boolean): number {
   return correct ? XP_CORRECT : XP_WRONG
 }
 
+export const XP_PASSAGE_BASE = 15
+export const XP_PASSAGE_PER_CORRECT = 5
+export function xpForPassage(correctCount: number): number {
+  return XP_PASSAGE_BASE + XP_PASSAGE_PER_CORRECT * correctCount
+}
+
 export interface StreakUpdate {
   streak: number
   freezesConsumed: number

@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { GamificationService } from '@/lib/gamification/service'
+import { weekStartYmd } from '@/lib/gamification/date'
 
 const now = new Date('2026-06-28T02:00:00Z') // 台北 06-28 10:00
 
@@ -154,5 +155,29 @@ describe('applySessionFinish', () => {
     expect(r.perfect).toBe(true)
     expect(r.newBadges).toEqual([])
     expect(repo.unlockBadges).not.toHaveBeenCalled()
+  })
+})
+
+describe('applyPassageFinish', () => {
+  it('XP = 15 + 5×答對數，累入 xp 與 weeklyXp，可升級', () => {
+    const repo = repoWith({ ...base, xp: 95, level: 1, weeklyXp: 10, weekStartDate: weekStartYmd(now, 'Asia/Taipei') })
+    const svc = new GamificationService(repo as any)
+    return svc.applyPassageFinish({ userId: 'u1', correctCount: 3, now }).then((r) => {
+      expect(r.xpGained).toBe(30)
+      expect(r.leveledUpTo).toBe(2) // 95+30=125 → level 2
+      const saved = repo.saveState.mock.calls[0][1]
+      expect(saved.xp).toBe(125)
+      expect(saved.weeklyXp).toBe(40)
+      expect(saved.coinBalance).toBe(base.coinBalance) // 不發幣
+      expect(saved.streak).toBe(base.streak)           // 不動 streak
+    })
+  })
+
+  it('首次（無 state）也可運作', async () => {
+    const repo = repoWith(null)
+    const svc = new GamificationService(repo as any)
+    const r = await svc.applyPassageFinish({ userId: 'u1', correctCount: 0, now })
+    expect(r.xpGained).toBe(15)
+    expect(repo.saveState).toHaveBeenCalledWith('u1', expect.objectContaining({ xp: 15 }), false)
   })
 })
