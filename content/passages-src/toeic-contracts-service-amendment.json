@@ -1,0 +1,63 @@
+{
+  "slug": "toeic-contracts-service-amendment",
+  "kind": "toeic",
+  "title": "Memo: Amendment to the Service Agreement",
+  "titleZh": "備忘錄：服務合約修訂",
+  "level": "L2",
+  "topic": "contracts",
+  "source": "self-made",
+  "paragraphs": [
+    "To: All Department Managers",
+    "From: Legal Affairs",
+    "Subject: Amendment to the current service agreement",
+    "Effective October 1, the term of the current service agreement will be extended by one year. A new clause has been added to address late payment, and the condition regarding the notice period has been updated from thirty days to 45 days.",
+    "Any party wishing to object to the amendment must submit a written objection within two weeks. If no objection is received, the amendment will be treated as accepted by all parties and cannot be changed until the next review.",
+    "Please direct any questions to the legal affairs office before the effective date."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this memo?",
+      "options": [
+        "To announce an amendment to the service agreement",
+        "To cancel the service agreement entirely",
+        "To introduce a new supplier",
+        "To report a payment failure"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "How has the notice period changed?",
+      "options": [
+        "From 45 days to thirty days",
+        "From thirty days to 45 days",
+        "It has been removed entirely",
+        "It has been reduced to one week"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What new clause has been added to the agreement?",
+      "options": [
+        "A clause addressing late payment",
+        "A clause about employee benefits",
+        "A clause about office relocation",
+        "A clause about product warranty"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "inference",
+      "stem": "What will happen if no department submits a written objection within two weeks?",
+      "options": [
+        "The service agreement will be canceled",
+        "The amendment will be treated as accepted by all parties",
+        "The notice period will return to thirty days",
+        "A new agreement will be drafted"
+      ],
+      "answer": 1
+    }
+  ]
+}

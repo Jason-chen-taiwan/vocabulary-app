@@ -1,0 +1,52 @@
+{
+  "slug": "toeic-banking-wire-transfer",
+  "kind": "toeic",
+  "title": "Delay in Your International Wire Transfer",
+  "titleZh": "您的國際電匯延遲通知",
+  "level": "L2",
+  "topic": "banking",
+  "source": "self-made",
+  "paragraphs": [
+    "Subject: Update on your recent transfer",
+    "Dear Grace,",
+    "We are writing to inform you that the wire transfer you requested on Monday has been delayed due to a mismatch in the account number provided. The remittance cannot be completed until the correct information is confirmed.",
+    "Please reply using the correct account number and the current exchange rate you expect, and we will retry the transaction within one business day. There is no additional fee for correcting this request, but future delays may result in a small charge.",
+    "You may also check the status through our online portal or visit any branch and bring your check book for assistance.",
+    "Thank you for your patience, Sunrise Bank Customer Service"
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "Why was this email sent?",
+      "options": [
+        "To inform about a delay in a wire transfer",
+        "To offer a new banking product",
+        "To confirm a successful transaction",
+        "To close an account"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "Why was the transfer delayed?",
+      "options": [
+        "Insufficient funds",
+        "A mismatch in the account number",
+        "A system outage",
+        "An expired check"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about future delays caused by incorrect information?",
+      "options": [
+        "They will result in immediate account closure",
+        "They will be processed for free every time",
+        "They may lead to a small charge",
+        "They will not affect the exchange rate"
+      ],
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "toeic-banking-savings-promotion",
+  "kind": "toeic",
+  "title": "Open a New Savings Account This Month",
+  "titleZh": "本月開立新儲蓄帳戶",
+  "level": "L1",
+  "topic": "banking",
+  "source": "self-made",
+  "paragraphs": [
+    "Sunrise Bank is pleased to announce a special offer for new customers. Open a new savings account before the end of August and enjoy an interest rate of 3.5 percent for the first six months.",
+    "There is no fee for a deposit or withdrawal made at any branch, and every transaction can be tracked through our mobile application. Simply bring valid identification and an initial deposit of at least NT$2,000 to open your account.",
+    "Existing customers who refer a friend will receive a cash bonus once the new account reaches a balance of NT$10,000. Visit any branch or call our service line to learn more about this offer."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is being advertised?",
+      "options": [
+        "A new savings account offer",
+        "A loan repayment plan",
+        "A change in branch hours",
+        "A new mobile application"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What is required to open the account?",
+      "options": [
+        "A minimum balance of NT$10,000",
+        "Valid identification and an initial deposit of at least NT$2,000",
+        "A recommendation from an existing customer",
+        "A credit check"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What is the interest rate offered for the first six months?",
+      "options": [
+        "1.5 percent",
+        "2.5 percent",
+        "3.5 percent",
+        "10 percent"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What will most likely happen if a customer refers a friend and the new account reaches NT$10,000?",
+      "options": [
+        "The interest rate will decrease",
+        "A withdrawal fee will apply",
+        "The account will be closed automatically",
+        "The referring customer will receive a cash bonus"
+      ],
+      "answer": 3
+    }
+  ]
+}

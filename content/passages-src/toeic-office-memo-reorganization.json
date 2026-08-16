@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-office-memo-reorganization",
+  "kind": "toeic",
+  "title": "Memo: Office Reorganization",
+  "titleZh": "辦公室搬遷備忘錄",
+  "level": "L2",
+  "topic": "office",
+  "source": "self-made",
+  "paragraphs": [
+    "Memo: Office Reorganization",
+    "Starting Monday, the sales team will move to the cubicle area near the west corridor, close to the lobby. Please pack your folder and binder before Friday afternoon.",
+    "Old paper documents that you no longer need should go to the archive room on the second floor. Do not leave any drawer full of loose paper. Each box you send to storage must have a label showing your name and department.",
+    "We ask everyone to organize their own desk and distribute this memo to team members who are on leave this week. A new seating chart will be sent by email on Thursday.",
+    "If you have any question, contact the facility team."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is this memo mainly about?", "options": ["A change in company holiday schedule", "A move to a new cubicle area and desk organization", "A new printer supply request process", "A training webinar for the marketing team"], "answer": 1 },
+    { "type": "detail", "stem": "What should staff do with old paper documents?", "options": ["Send them to the archive room", "Leave them in the drawer", "Give them to the facility team directly", "Bring them to the lobby"], "answer": 0 },
+    { "type": "detail", "stem": "What must each storage box include?", "options": ["A department budget report", "A label with name and department", "A signature from the manager", "A copy of the seating chart"], "answer": 1 },
+    { "type": "inference", "stem": "Who most likely will receive information about the memo through a team member?", "options": ["Staff members who are on leave this week", "New employees starting next month", "Visitors from other departments", "The facility team only"], "answer": 0 }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "toeic-travel-letter",
+  "kind": "toeic",
+  "title": "Letter About Travel Document",
+  "titleZh": "旅行文件事宜信函",
+  "level": "L3",
+  "topic": "travel",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear Owen Hill,",
+    "I am writing to confirm the travel document you need before the trip overseas next month. Your passport must be valid for at least six months, and you will also need a business visa from the local consulate.",
+    "The consulate representative told me that a visa application can take up to two weeks, so please contact the embassy office as soon as possible. Bring your invitation letter and passport photo for your visit.",
+    "For the flight, there is a short stop before the final connection. Remember to check the timezone difference so your immigration form is completed correctly on arrival.",
+    "Please let me know if you need any further help.",
+    "Best wishes, Grace Stone"
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this letter?", "options": ["To cancel a hotel reservation", "To inform Owen about travel document needed for the trip", "To invite Owen to a business conference", "To request a refund for a flight"], "answer": 1 },
+    { "type": "detail", "stem": "How long can a visa application take?", "options": ["Up to two weeks", "Six months", "One day", "A full month"], "answer": 0 },
+    { "type": "detail", "stem": "What should Owen bring when visiting the consulate?", "options": ["A hotel confirmation and boarding pass", "An invitation letter and passport photo", "A signed contract and business card", "A visa form and airline ticket only"], "answer": 1 },
+    { "type": "inference", "stem": "Why does Grace remind Owen about the timezone difference?", "options": ["Because the immigration form must be completed correctly on arrival", "Because the flight has been delayed", "Because the embassy office is closed on weekends", "Because his passport is not valid anymore"], "answer": 0 }
+  ]
+}

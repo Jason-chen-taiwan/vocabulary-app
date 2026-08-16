@@ -1,0 +1,20 @@
+{
+  "slug": "toeic-logistics-dock-notice",
+  "kind": "toeic",
+  "title": "New Loading Dock Procedure",
+  "titleZh": "新的裝卸貨區作業程序",
+  "level": "L1",
+  "topic": "logistics",
+  "source": "self-made",
+  "paragraphs": [
+    "Notice to all warehouse staff: starting Monday, every pallet must be loaded through Dock 3 only. Dock 1 and Dock 2 will be closed for repair. Please use the forklift carefully and check that each rack is stable before you place any additional load.",
+    "Every carton must be scanned using a barcode reader before it leaves the warehouse. This step supports inventory tracking and reduces shortage in the busy season. If you find any damage or defect, report it to the supervisor before loading continues.",
+    "Storage space near the entrance is reserved for urgent order that require same day dispatch. Please do not block this area using empty pallet or unused equipment. Thank you for your cooperation while this change is in effect."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this notice?", "options": ["To announce a new loading dock procedure", "To advertise a job opening", "To report a customs delay", "To request a quotation from a supplier"], "answer": 0 },
+    { "type": "detail", "stem": "Which dock will remain open for loading?", "options": ["Dock 1", "Dock 2", "Dock 3", "All docks"], "answer": 2 },
+    { "type": "detail", "stem": "What should staff do before placing additional load on a rack?", "options": ["Scan the barcode twice", "Check that the rack is stable", "Contact the customs office", "Reduce the storage space"], "answer": 1 },
+    { "type": "inference", "stem": "What can be inferred about the area near the entrance?", "options": ["It is closed permanently", "It is reserved for urgent order needing quick dispatch", "It is used for staff parking", "It will be converted into Dock 4"], "answer": 1 }
+  ]
+}

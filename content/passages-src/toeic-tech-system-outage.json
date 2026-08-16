@@ -1,0 +1,63 @@
+{
+  "slug": "toeic-tech-system-outage",
+  "kind": "toeic",
+  "title": "Scheduled System Maintenance Notice",
+  "titleZh": "系統維護排程通知",
+  "level": "L3",
+  "topic": "tech",
+  "source": "self-made",
+  "paragraphs": [
+    "To: All Employees",
+    "From: Information Technology Helpdesk",
+    "Subject: Planned system maintenance",
+    "Our team will perform scheduled maintenance on the internal network this Saturday from 10 pm to 2 am. Within this window, expect some downtime, and the file server may face a short outage.",
+    "This maintenance follows a minor incident last week when several employees could not connect to our network while working remote. Our engineers have already found the cause and will restore full access before the maintenance window ends.",
+    "If you still cannot log in after 2 am, please try resetting your credential through the support portal. If the problem continues, open a helpdesk ticket, and an engineer will help you fix the issue."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this notice?",
+      "options": [
+        "To inform employees about scheduled system maintenance",
+        "To announce a permanent shutdown of the network",
+        "To request approval for a new server",
+        "To report a security breach"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What caused the team to schedule this maintenance?",
+      "options": [
+        "A request from the helpdesk staff",
+        "A minor incident with network connections last week",
+        "A complaint from a customer",
+        "A planned office relocation"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What should an employee do if login still fails after 2 am?",
+      "options": [
+        "Wait until Monday",
+        "Call the information technology director",
+        "Reset the credential through the support portal",
+        "Restart the internal network"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about the engineers mentioned in the notice?",
+      "options": [
+        "They are unaware of the outage",
+        "They will not respond to new tickets",
+        "They plan to remove the internal network entirely",
+        "They already identified the cause of the incident that happened last week"
+      ],
+      "answer": 3
+    }
+  ]
+}

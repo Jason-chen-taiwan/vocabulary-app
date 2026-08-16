@@ -29,14 +29,22 @@ const dup = srcs.map((s) => s.slug).filter((s, i, a) => a.indexOf(s) !== i)
 if (dup.length) throw new Error(`slug 重複：${[...new Set(dup)].join(', ')}`)
 
 // 詞形還原表 + 手動釋義覆寫
-const lemmaOf = makeLemmaOf(parseLemmaFile(readFileSync(LEMMA, 'utf8')))
+const rawLemmaOf = makeLemmaOf(parseLemmaFile(readFileSync(LEMMA, 'utf8')))
 const overridesPath = `${srcDir}/_gloss-overrides.json`
 const overrides = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : {}
 
-// 先掃全部原文收集需要的 lemma，再一次掃 66MB csv 建索引
+// 先掃全部原文收集需要的 lemma（連同原詞小寫，供死 lemma 回退），再一次掃 66MB csv 建索引
 const needed = new Set()
-for (const src of srcs) for (const para of src.paragraphs) for (const t of tokenize(para, lemmaOf)) if (t.l) needed.add(t.l)
+for (const src of srcs) for (const para of src.paragraphs) for (const t of tokenize(para, rawLemmaOf)) if (t.l) { needed.add(t.l); needed.add(t.w.toLowerCase()) }
 const dict = buildDictIndex(readFileSync(CSV, 'utf8'), needed)
+
+// BNC lemma 表有死 lemma（如 marketing→markete 查無字典列）：還原結果查無釋義時回退原詞小寫
+const lemmaOf = (w) => {
+  const l = rawLemmaOf(w)
+  if (overrides[l] || dict.has(l)) return l
+  const base = w.toLowerCase()
+  return overrides[base] || dict.has(base) ? base : l
+}
 
 const toTraditional = OpenCC.Converter({ from: 'cn', to: 'twp' })
 const curated = new Set(

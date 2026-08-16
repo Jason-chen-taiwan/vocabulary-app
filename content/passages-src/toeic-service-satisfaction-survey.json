@@ -1,0 +1,62 @@
+{
+  "slug": "toeic-service-satisfaction-survey",
+  "kind": "toeic",
+  "title": "Help Us Improve: Customer Experience Survey",
+  "titleZh": "顧客體驗調查邀請",
+  "level": "L3",
+  "topic": "service",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear Valued Customer,",
+    "We are conducting a short survey about your recent interaction. Your feedback will help our team measure whether we delivered a seamless and professional experience.",
+    "Each customer is asked one simple question: how likely are you to recommend our service to a friend? Based on your score, we classify responses as promoter, passive, or detractor. This method helps track professionalism across every channel.",
+    "We are proud to offer support by phone, chat, or email, and every representative follows the same standard. If a case requires escalation, a senior agent will step in to resolve it quickly and keep the process transparent.",
+    "We recognize the conscientious effort of our team, and many customers have called their service exemplary. Please take three minutes to complete the survey and share how we can keep improving."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this message?",
+      "options": [
+        "To invite the customer to complete a survey about service",
+        "To announce a price increase",
+        "To apologize for a recent complaint",
+        "To advertise a new product"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "How does the company classify survey responses?",
+      "options": [
+        "By phone, chat, and email",
+        "As promoter, passive, or detractor",
+        "By professionalism and case number",
+        "As transparent or urgent"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What happens if a case requires escalation?",
+      "options": [
+        "The customer must call again later",
+        "The case is closed without action",
+        "A senior agent steps in to resolve it",
+        "The survey is canceled"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about the company approach to customer service?",
+      "options": [
+        "It relies only on phone support",
+        "It only surveys customers who complain",
+        "It does not track customer scores",
+        "It values consistent, professional service across every channel"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "toeic-marketing-product-launch",
+  "kind": "toeic",
+  "title": "Introducing the Star Home Bundle",
+  "titleZh": "Star Home 組合上市",
+  "level": "L1",
+  "topic": "marketing",
+  "source": "self-made",
+  "paragraphs": [
+    "Star Home, a trusted brand in kitchen appliances, is proud to launch a new advertising campaign this month. The campaign will promote our latest product line to a wider audience across the country.",
+    "The new bundle includes a blender, a toaster, and a coffee maker at one special price. Each item includes a two year warranty, plus something earlier models did not have: a smart timer.",
+    "This sale will end on September 30, so act soon. Customers who buy the bundle before the deadline will also receive a free gift worth 500 dollars.",
+    "Visit any Star Home store or shop online to see the full deal."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is this advertisement mainly about?",
+      "options": [
+        "A new bundle launch with a limited time sale",
+        "A change in store locations",
+        "A survey about kitchen appliances",
+        "A new warranty policy for all products"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What new feature does the bundle include?",
+      "options": [
+        "A two year warranty only",
+        "A smart timer",
+        "A free coffee maker for existing customers",
+        "A larger blender"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "When does the sale end?",
+      "options": [
+        "August 30",
+        "October 30",
+        "September 30",
+        "September 13"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What can customers expect if they buy the bundle before the deadline?",
+      "options": [
+        "A discount on their next purchase",
+        "A longer warranty period",
+        "Free shipping to any country",
+        "A free gift worth 500 dollars"
+      ],
+      "answer": 3
+    }
+  ]
+}

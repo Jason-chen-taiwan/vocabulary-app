@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-office-printer-notice",
+  "kind": "toeic",
+  "title": "Printer Supply Request Notice",
+  "titleZh": "印表機耗材申請公告",
+  "level": "L1",
+  "topic": "office",
+  "source": "self-made",
+  "paragraphs": [
+    "To: All Staff",
+    "The printer on the third floor is running low on paper and ink. Any staff member who needs printer supply should submit a request form. Copies of the form are kept in the supply cabinet next to the reception desk.",
+    "Write your name, department, and the item you need on the form. For an urgent request, call extension 205 instead of waiting for the usual form process. The supply team will notify you by email once your order is ready for pickup.",
+    "The team will also maintain the printer and other shared equipment every Friday afternoon. Please report any machine problem before Friday morning so it can be added to the maintenance list.",
+    "Thank you for your cooperation, Office Management"
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this notice?", "options": ["To announce a new office location", "To explain how staff can request printer supply", "To introduce a new employee in the supply team", "To cancel the Friday maintenance schedule"], "answer": 1 },
+    { "type": "detail", "stem": "Where can staff find the request form?", "options": ["In the supply cabinet next to the reception desk", "In the archive room on the second floor", "At the front desk of a hotel", "In the manager office"], "answer": 0 },
+    { "type": "detail", "stem": "What should staff do for an urgent request?", "options": ["Send an email to the supply team", "Wait for the usual form process", "Call extension 205", "Visit the cafeteria"], "answer": 2 },
+    { "type": "inference", "stem": "What can be inferred about the maintenance schedule?", "options": ["It happens once a month", "It takes place every Friday afternoon", "It only covers the printer, not other equipment", "It has been cancelled this week"], "answer": 1 }
+  ]
+}

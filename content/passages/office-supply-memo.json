@@ -678,7 +678,8 @@
     },
     "staff": {
       "zh": "全體人員",
-      "pos": "n."
+      "pos": "n.",
+      "curated": true
     },
     "from": {
       "zh": "從",
