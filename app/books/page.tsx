@@ -58,6 +58,7 @@ export default async function BooksPage() {
             ))}
           </ul>
         )}
+        <p className="mt-8 text-center"><Link href="/" className="text-sm font-bold text-primary-600 hover:underline">← 回首頁</Link></p>
       </main>
     </>
   )
