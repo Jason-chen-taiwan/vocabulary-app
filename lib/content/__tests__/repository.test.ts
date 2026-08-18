@@ -161,4 +161,28 @@ describe('notebook', () => {
     await new ContentRepository(db as any).listCollectedWordsByBook('b1', 'u1')
     expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBookId: 'b1', userCards: { some: { userId: 'u1' } } })
   })
+
+  it('listAllDefinitions 排除 notebook 書的釋義（不進 MC 干擾項池）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listAllDefinitions()
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBook: { sourceType: { not: 'notebook' } } })
+  })
+
+  it('listAllHeadwords 排除 notebook 書（sitemap 不收生字本）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listAllHeadwords()
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBook: { sourceType: { not: 'notebook' } } })
+  })
+
+  it('getPublicWordByHeadword 排除 notebook 書（不進公開單字頁）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).getPublicWordByHeadword('invoice')
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ headword: 'invoice', wordBook: { sourceType: { not: 'notebook' } } })
+  })
 })

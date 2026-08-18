@@ -33,6 +33,7 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
   const [outcome, setOutcome] = useState<SubmitResponse | null>(null)
   const [readSeconds, setReadSeconds] = useState<number | null>(null)
   const [busy, setBusy] = useState(false)
+  const [errorMsg, setErrorMsg] = useState<string | null>(null)
   // 計時起點在 mount 後設定（render 中呼叫 Date.now() 違反 React 純渲染規則）
   const startMs = useRef<number | null>(null)
   useEffect(() => {
@@ -45,13 +46,17 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
   async function collect(lemma: string) {
     if (busy || collected.has(lemma)) return
     setBusy(true)
+    setErrorMsg(null)
     try {
       const res = await fetch('/api/vocab/collect', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ passageSlug: passage.slug, lemma }),
       })
-      const data = await res.json().catch(() => ({ ok: false }))
+      const data = await res.json()
       if (data.ok) setCollected((prev) => new Set(prev).add(lemma))
+      else setErrorMsg('連線失敗，請再試一次')
+    } catch {
+      setErrorMsg('連線失敗，請再試一次')
     } finally { setBusy(false) }
   }
 
@@ -63,13 +68,17 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
   async function submit() {
     if (busy || answers.some((a) => a === null)) return
     setBusy(true)
+    setErrorMsg(null)
     try {
       const res = await fetch('/api/passage/submit', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ slug: passage.slug, answers, readSeconds: readSeconds ?? undefined }),
       })
-      const data: SubmitResponse = await res.json().catch(() => ({ ok: false, results: [], correctCount: 0, totalCount: 0, firstCompletion: false, reward: null }))
+      const data: SubmitResponse = await res.json()
       if (data.ok) { setOutcome(data); setPhase('result') }
+      else setErrorMsg('連線失敗，請再試一次')
+    } catch {
+      setErrorMsg('連線失敗，請再試一次')
     } finally { setBusy(false) }
   }
 
@@ -136,6 +145,7 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
             onClick={submit}
             className="inline-flex min-h-11 w-full items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white shadow-[0_6px_14px_rgba(255,106,61,.35)] transition hover:bg-primary-600 disabled:opacity-40"
           >送出答案</button>
+          {errorMsg && <p className="mt-2 text-center text-sm font-bold text-error">{errorMsg}</p>}
         </div>
       )}
 
@@ -191,6 +201,7 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
               onClick={() => collect(selected)}
               className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white shadow-[0_6px_14px_rgba(255,106,61,.35)] transition hover:bg-primary-600 disabled:opacity-60"
             >{collected.has(selected) ? '已在生字本 ✓' : '加入生字本 ➕'}</button>
+            {errorMsg && <p className="mt-2 text-center text-sm font-bold text-error">{errorMsg}</p>}
           </div>
         </div>
       )}

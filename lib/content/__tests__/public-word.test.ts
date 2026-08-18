@@ -62,7 +62,7 @@ describe('ContentRepository 公開查詢', () => {
     const repo = new ContentRepository(db as any)
     const w = await repo.getPublicWordByHeadword('  Invoice ')
     expect(db.word.findMany).toHaveBeenCalledWith({
-      where: { headword: 'invoice' },
+      where: { headword: 'invoice', wordBook: { sourceType: { not: 'notebook' } } },
       orderBy: [{ wordBook: { slug: 'asc' } }, { id: 'asc' }],
       include: {
         examples: { orderBy: { order: 'asc' } },
@@ -94,6 +94,7 @@ describe('ContentRepository 公開查詢', () => {
     const repo = new ContentRepository(db as any)
     expect(await repo.listAllHeadwords()).toEqual(['audit', 'budget'])
     expect(db.word.findMany).toHaveBeenCalledWith({
+      where: { wordBook: { sourceType: { not: 'notebook' } } },
       select: { headword: true },
       distinct: ['headword'],
       orderBy: { headword: 'asc' },

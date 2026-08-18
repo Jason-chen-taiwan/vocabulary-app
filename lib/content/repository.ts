@@ -20,6 +20,8 @@ interface ContentDb {
 }
 
 export const NOTEBOOK_SLUG = 'my-notebook'
+// 生字本是使用者觸發產生的內容，不得進入公開面（SEO 頁、sitemap、干擾項池）
+const NOT_NOTEBOOK = { sourceType: { not: 'notebook' } } as const
 
 export class ContentRepository {
   private readonly db: ContentDb
@@ -29,7 +31,7 @@ export class ContentRepository {
 
   async listWordBooks(): Promise<WordBookData[]> {
     const rows = await this.db.wordBook.findMany({
-      where: { sourceType: { not: 'notebook' } },
+      where: NOT_NOTEBOOK,
       orderBy: { order: 'asc' },
       include: { _count: { select: { words: true } } },
     })
@@ -60,7 +62,10 @@ export class ContentRepository {
 
   // All definitions across every book — MC distractor pool for mixed practice.
   async listAllDefinitions(): Promise<string[]> {
-    const rows = (await this.db.word.findMany({ select: { definitionZh: true } })) as { definitionZh: string }[]
+    const rows = (await this.db.word.findMany({
+      where: { wordBook: NOT_NOTEBOOK },
+      select: { definitionZh: true },
+    })) as { definitionZh: string }[]
     return rows.map((r) => r.definitionZh)
   }
 
@@ -101,7 +106,7 @@ export class ContentRepository {
     const hw = headword.trim().toLowerCase()
     if (!hw) return null
     const rows = await this.db.word.findMany({
-      where: { headword: hw },
+      where: { headword: hw, wordBook: NOT_NOTEBOOK },
       orderBy: [{ wordBook: { slug: 'asc' } }, { id: 'asc' }],
       include: {
         examples: { orderBy: { order: 'asc' } },
@@ -114,6 +119,7 @@ export class ContentRepository {
   /** sitemap 用：全站 headword（小寫、去重、排序）。 */
   async listAllHeadwords(): Promise<string[]> {
     const rows = (await this.db.word.findMany({
+      where: { wordBook: NOT_NOTEBOOK },
       select: { headword: true },
       distinct: ['headword'],
       orderBy: { headword: 'asc' },
