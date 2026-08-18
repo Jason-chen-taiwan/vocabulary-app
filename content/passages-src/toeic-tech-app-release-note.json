@@ -1,0 +1,61 @@
+{
+  "slug": "toeic-tech-app-release-note",
+  "kind": "toeic",
+  "title": "Version 4.2 Release Notes",
+  "titleZh": "4.2 版更新說明",
+  "level": "L2",
+  "topic": "tech",
+  "source": "self-made",
+  "paragraphs": [
+    "Star Cloud, our productivity application, has a new version available today. Please install the update on both desktop and mobile devices to access the latest improvements.",
+    "This release includes a security patch that fixes a login issue reported by several users last month. We also made your files update between devices faster, so changes now appear in the cloud almost instantly.",
+    "The dashboard now has a fresh design. It shows clearer charts and a new notification center. You can now choose which alerts appear, and turn off ones you do not need.",
+    "If you experience any problem after the update, contact our support team through the help menu inside the app."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is this announcement mainly about?",
+      "options": [
+        "A new version of an application with several updates",
+        "A price change for a subscription",
+        "A new mobile device for sale",
+        "A change in the support team"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What did the release fix?",
+      "options": [
+        "A payment error",
+        "A login issue",
+        "A missing feature in the dashboard",
+        "A slow notification center"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What can users now do in the notification center?",
+      "options": [
+        "Delete their account",
+        "Change the application version",
+        "Choose which alerts appear",
+        "Contact the support team directly"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What should a user do if a problem appears after installing the update?",
+      "options": [
+        "Reinstall the previous version",
+        "Wait for the next release",
+        "Buy a new mobile device",
+        "Contact support through the help menu"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,1216 @@
+{
+  "slug": "toeic-tech-app-release-note",
+  "kind": "toeic",
+  "title": "Version 4.2 Release Notes",
+  "source": "self-made",
+  "wordCount": 111,
+  "content": [
+    [
+      {
+        "w": "Star",
+        "l": "star"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Cloud",
+        "l": "cloud"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "our",
+        "l": "we"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "productivity",
+        "l": "productivity"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "application",
+        "l": "application"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "has",
+        "l": "ha"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "new",
+        "l": "new"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "version",
+        "l": "version"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "available",
+        "l": "available"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "today",
+        "l": "today"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Please",
+        "l": "please"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "install",
+        "l": "install"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "update",
+        "l": "update"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "on",
+        "l": "on"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "both",
+        "l": "both"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "desktop",
+        "l": "desktop"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "mobile",
+        "l": "mobile"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "devices",
+        "l": "device"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "l": "to"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "access",
+        "l": "access"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "latest",
+        "l": "late"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "improvements",
+        "l": "improvement"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "This",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "release",
+        "l": "release"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "includes",
+        "l": "include"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "security",
+        "l": "security"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "patch",
+        "l": "patch"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "l": "that"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "fixes",
+        "l": "fix"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "login",
+        "l": "login"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "issue",
+        "l": "issue"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "reported",
+        "l": "report"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "by",
+        "l": "by"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "several",
+        "l": "several"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "users",
+        "l": "user"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "last",
+        "l": "last"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "month",
+        "l": "month"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "We",
+        "l": "i"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "also",
+        "l": "also"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "made",
+        "l": "make"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "your",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "files",
+        "l": "file"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "update",
+        "l": "update"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "between",
+        "l": "between"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "devices",
+        "l": "device"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "faster",
+        "l": "fast"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "so",
+        "l": "so"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "changes",
+        "l": "change"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "now",
+        "l": "now"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "appear",
+        "l": "appear"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "l": "in"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "cloud",
+        "l": "cloud"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "almost",
+        "l": "almost"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "instantly",
+        "l": "instantly"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "The",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "dashboard",
+        "l": "dashboard"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "now",
+        "l": "now"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "has",
+        "l": "ha"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "fresh",
+        "l": "fresh"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "design",
+        "l": "design"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "It",
+        "l": "it"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "shows",
+        "l": "show"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "clearer",
+        "l": "clear"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "charts",
+        "l": "chart"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "new",
+        "l": "new"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "notification",
+        "l": "notification"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "center",
+        "l": "center"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "You",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "can",
+        "l": "can"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "now",
+        "l": "now"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "choose",
+        "l": "choose"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "which",
+        "l": "which"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "alerts",
+        "l": "alert"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "appear",
+        "l": "appear"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "turn",
+        "l": "turn"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "off",
+        "l": "off"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "ones",
+        "l": "one"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "do",
+        "l": "do"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "not",
+        "l": "not"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "need",
+        "l": "need"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "If",
+        "l": "if"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "experience",
+        "l": "experience"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "any",
+        "l": "any"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problem",
+        "l": "problem"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "after",
+        "l": "after"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "update",
+        "l": "update"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "contact",
+        "l": "contact"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "our",
+        "l": "we"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "support",
+        "l": "support"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "team",
+        "l": "team"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "through",
+        "l": "through"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "help",
+        "l": "help"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "menu",
+        "l": "menu"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "inside",
+        "l": "inside"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "app",
+        "l": "app"
+      },
+      {
+        "w": "."
+      }
+    ]
+  ],
+  "glossary": {
+    "star": {
+      "zh": "星",
+      "pos": "n."
+    },
+    "cloud": {
+      "zh": "雲",
+      "pos": "n.",
+      "curated": true
+    },
+    "we": {
+      "zh": "我們",
+      "pos": "pron."
+    },
+    "productivity": {
+      "zh": "生產力",
+      "pos": "n.",
+      "curated": true
+    },
+    "application": {
+      "zh": "應用",
+      "pos": "n.",
+      "curated": true
+    },
+    "ha": {
+      "zh": "嘿",
+      "pos": "interj."
+    },
+    "a": {
+      "zh": "一個，不定冠詞",
+      "pos": "art."
+    },
+    "new": {
+      "zh": "新的",
+      "pos": "a."
+    },
+    "version": {
+      "zh": "一種描述",
+      "pos": "n.",
+      "curated": true
+    },
+    "available": {
+      "zh": "可利用的",
+      "pos": "a."
+    },
+    "today": {
+      "zh": "今天",
+      "pos": "n."
+    },
+    "please": {
+      "zh": "請",
+      "pos": "adv."
+    },
+    "install": {
+      "zh": "安裝",
+      "pos": "vt.",
+      "curated": true
+    },
+    "the": {
+      "zh": "那",
+      "pos": "art."
+    },
+    "update": {
+      "zh": "更新",
+      "pos": "vt.",
+      "curated": true
+    },
+    "on": {
+      "zh": "在...之上",
+      "pos": "prep."
+    },
+    "both": {
+      "zh": "兩者的",
+      "pos": "a."
+    },
+    "desktop": {
+      "zh": "桌面",
+      "pos": "n.",
+      "curated": true
+    },
+    "and": {
+      "zh": "和",
+      "pos": "conj."
+    },
+    "mobile": {
+      "zh": "移動的",
+      "pos": "a.",
+      "curated": true
+    },
+    "device": {
+      "zh": "裝置",
+      "pos": "n.",
+      "curated": true
+    },
+    "to": {
+      "zh": "到",
+      "pos": "prep."
+    },
+    "access": {
+      "zh": "通路",
+      "pos": "n.",
+      "curated": true
+    },
+    "late": {
+      "zh": "遲的",
+      "pos": "a."
+    },
+    "improvement": {
+      "zh": "進步",
+      "pos": "n."
+    },
+    "this": {
+      "zh": "這",
+      "pos": "pron."
+    },
+    "release": {
+      "zh": "釋放",
+      "pos": "n.",
+      "curated": true
+    },
+    "include": {
+      "zh": "包括",
+      "pos": "vt."
+    },
+    "security": {
+      "zh": "安全",
+      "pos": "n.",
+      "curated": true
+    },
+    "patch": {
+      "zh": "片",
+      "pos": "n.",
+      "curated": true
+    },
+    "that": {
+      "zh": "那",
+      "pos": "a."
+    },
+    "fix": {
+      "zh": "使固定",
+      "pos": "vt."
+    },
+    "login": {
+      "zh": "[計] 註冊(程式)"
+    },
+    "issue": {
+      "zh": "發行",
+      "pos": "n.",
+      "curated": true
+    },
+    "report": {
+      "zh": "報告",
+      "pos": "n.",
+      "curated": true
+    },
+    "by": {
+      "zh": "被",
+      "pos": "prep."
+    },
+    "several": {
+      "zh": "幾個的",
+      "pos": "a."
+    },
+    "user": {
+      "zh": "使用者",
+      "pos": "n.",
+      "curated": true
+    },
+    "last": {
+      "zh": "最後的",
+      "pos": "a."
+    },
+    "month": {
+      "zh": "月",
+      "pos": "n."
+    },
+    "i": {
+      "zh": "我",
+      "pos": "pron."
+    },
+    "also": {
+      "zh": "也",
+      "pos": "adv."
+    },
+    "make": {
+      "zh": "製造",
+      "pos": "vt."
+    },
+    "you": {
+      "zh": "你",
+      "pos": "pron."
+    },
+    "file": {
+      "zh": "檔案",
+      "pos": "n."
+    },
+    "between": {
+      "zh": "在...之間",
+      "pos": "prep."
+    },
+    "fast": {
+      "zh": "快速的",
+      "pos": "a."
+    },
+    "so": {
+      "zh": "如此",
+      "pos": "adv."
+    },
+    "change": {
+      "zh": "變化",
+      "pos": "n."
+    },
+    "now": {
+      "zh": "現在",
+      "pos": "adv."
+    },
+    "appear": {
+      "zh": "出現",
+      "pos": "vi."
+    },
+    "in": {
+      "zh": "在...期間",
+      "pos": "prep."
+    },
+    "almost": {
+      "zh": "幾乎",
+      "pos": "adv."
+    },
+    "instantly": {
+      "zh": "立即地",
+      "pos": "adv."
+    },
+    "dashboard": {
+      "zh": "儀表板",
+      "pos": "n.",
+      "curated": true
+    },
+    "fresh": {
+      "zh": "新鮮的",
+      "pos": "a."
+    },
+    "design": {
+      "zh": "設計",
+      "pos": "n."
+    },
+    "it": {
+      "zh": "它",
+      "pos": "pron."
+    },
+    "show": {
+      "zh": "顯示",
+      "pos": "n."
+    },
+    "clear": {
+      "zh": "清楚的",
+      "pos": "a."
+    },
+    "chart": {
+      "zh": "圖表",
+      "pos": "n.",
+      "curated": true
+    },
+    "notification": {
+      "zh": "通知",
+      "pos": "n.",
+      "curated": true
+    },
+    "center": {
+      "zh": "中心",
+      "pos": "n."
+    },
+    "can": {
+      "zh": "裝罐",
+      "pos": "vt."
+    },
+    "choose": {
+      "zh": "選擇",
+      "pos": "vt."
+    },
+    "which": {
+      "zh": "哪一個",
+      "pos": "pron."
+    },
+    "alert": {
+      "zh": "警覺的",
+      "pos": "a.",
+      "curated": true
+    },
+    "turn": {
+      "zh": "轉彎",
+      "pos": "n."
+    },
+    "off": {
+      "zh": "關著的",
+      "pos": "a."
+    },
+    "one": {
+      "zh": "一(個)",
+      "pos": "n."
+    },
+    "do": {
+      "zh": "做",
+      "pos": "v."
+    },
+    "not": {
+      "zh": "不",
+      "pos": "adv."
+    },
+    "need": {
+      "zh": "需要",
+      "pos": "n."
+    },
+    "if": {
+      "zh": "如果",
+      "pos": "conj."
+    },
+    "experience": {
+      "zh": "經歷",
+      "pos": "n.",
+      "curated": true
+    },
+    "any": {
+      "zh": "任何的",
+      "pos": "a."
+    },
+    "problem": {
+      "zh": "問題",
+      "pos": "n.",
+      "curated": true
+    },
+    "after": {
+      "zh": "在...之後",
+      "pos": "prep."
+    },
+    "contact": {
+      "zh": "聯絡",
+      "pos": "n.",
+      "curated": true
+    },
+    "support": {
+      "zh": "支援",
+      "pos": "n.",
+      "curated": true
+    },
+    "team": {
+      "zh": "隊",
+      "pos": "n."
+    },
+    "through": {
+      "zh": "穿越",
+      "pos": "adv."
+    },
+    "help": {
+      "zh": "幫忙",
+      "pos": "n."
+    },
+    "menu": {
+      "zh": "選單",
+      "pos": "n.",
+      "curated": true
+    },
+    "inside": {
+      "zh": "內部",
+      "pos": "n."
+    },
+    "app": {
+      "zh": "[計] 應用"
+    }
+  },
+  "questions": [
+    {
+      "id": "toeic-tech-app-release-note-q1",
+      "type": "main",
+      "stem": "What is this announcement mainly about?",
+      "options": [
+        "A new version of an application with several updates",
+        "A price change for a subscription",
+        "A new mobile device for sale",
+        "A change in the support team"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "toeic-tech-app-release-note-q2",
+      "type": "detail",
+      "stem": "What did the release fix?",
+      "options": [
+        "A payment error",
+        "A login issue",
+        "A missing feature in the dashboard",
+        "A slow notification center"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "toeic-tech-app-release-note-q3",
+      "type": "detail",
+      "stem": "What can users now do in the notification center?",
+      "options": [
+        "Delete their account",
+        "Change the application version",
+        "Choose which alerts appear",
+        "Contact the support team directly"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "toeic-tech-app-release-note-q4",
+      "type": "inference",
+      "stem": "What should a user do if a problem appears after installing the update?",
+      "options": [
+        "Reinstall the previous version",
+        "Wait for the next release",
+        "Buy a new mobile device",
+        "Contact support through the help menu"
+      ],
+      "answer": 3
+    }
+  ],
+  "titleZh": "4.2 版更新說明",
+  "level": "L2",
+  "topic": "tech"
+}

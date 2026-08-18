@@ -1,0 +1,21 @@
+{
+  "slug": "toeic-safety-fire-bulletin",
+  "kind": "toeic",
+  "title": "Fire Safety Bulletin",
+  "titleZh": "消防安全公告",
+  "level": "L1",
+  "topic": "safety",
+  "source": "self-made",
+  "paragraphs": [
+    "All staff must know the location of the nearest fire exit and extinguisher on this floor. A fire alarm will sound if smoke or flame is detected by the sensor in the ceiling.",
+    "As soon as the alarm sounds, stop what you are doing and walk quickly to the nearest exit. Do not use the elevator in an evacuation. Follow the warden for your area to the assembly point outside the building.",
+    "A fire drill will be held every three month so that everyone remain familiar and confident about the procedure. In the drill, the sprinkler system will not be activated, so do not be alarmed by the sound of the siren.",
+    "If you notice a blocked exit or a broken extinguisher, report it to the safety officer right away."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this bulletin?", "options": ["To explain fire safety procedure for staff", "To announce a new office renovation", "To introduce a new safety officer", "To cancel the fire drill"], "answer": 0 },
+    { "type": "detail", "stem": "What should staff do when the alarm sounds?", "options": ["Wait for further instruction at their desk", "Walk quickly to the nearest exit", "Call the safety officer first", "Use the elevator to leave quickly"], "answer": 1 },
+    { "type": "detail", "stem": "How often is the fire drill held?", "options": ["Every month", "Every three month", "Once a year", "Only when requested"], "answer": 1 },
+    { "type": "inference", "stem": "What can be inferred about the sprinkler during a drill?", "options": ["It will spray water as in a real fire", "It will not be activated during the drill", "It will be removed for testing", "It will be replaced by a new model"], "answer": 1 }
+  ]
+}

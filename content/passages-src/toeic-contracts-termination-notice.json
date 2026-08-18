@@ -1,0 +1,52 @@
+{
+  "slug": "toeic-contracts-termination-notice",
+  "kind": "toeic",
+  "title": "Notice of Contract Termination",
+  "titleZh": "合約終止通知",
+  "level": "L3",
+  "topic": "contracts",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear Peter,",
+    "This letter serves as formal notice that the agreement between our two companies will be terminated, effective thirty days from the date of this letter, due to a continued breach of the delivery obligation described in section four.",
+    "We have given written notice on two previous occasions requesting a remedy, but the issue was not resolved within the period allowed. Under the applicable clause, either party may end the agreement if a breach remains uncorrected after proper notice.",
+    "Any outstanding payment must be settled before the termination date. Should a dispute arise regarding this decision, both parties agree to pursue arbitration before taking the matter to court, as stated in the governing law section.",
+    "We regret that a resolution could not be reached and hope to explore other opportunities in the future.",
+    "Sincerely, Grace Lin, Legal Department"
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this letter?",
+      "options": [
+        "To offer a renewal of the agreement",
+        "To give formal notice of contract termination",
+        "To request an increase in payment",
+        "To propose a new business partnership"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "Why is the agreement being terminated?",
+      "options": [
+        "A continued breach of the delivery obligation",
+        "A disagreement over the governing law",
+        "A change in company ownership",
+        "An expired license"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "inference",
+      "stem": "What should happen first if a dispute arises regarding this decision?",
+      "options": [
+        "The matter should go directly to court",
+        "Both parties should pursue arbitration before going to court",
+        "The agreement should be automatically renewed",
+        "The remedy period should be extended"
+      ],
+      "answer": 1
+    }
+  ]
+}

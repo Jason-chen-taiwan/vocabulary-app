@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth/session'
-import { ContentRepository } from '@/lib/content/repository'
+import { ContentRepository, NOTEBOOK_SLUG } from '@/lib/content/repository'
 import { GamificationBar } from '@/components/gamification-bar'
 import Link from 'next/link'
 import { CardLink } from '@/components/ui/card'
@@ -9,8 +9,15 @@ import { StatPill } from '@/components/ui/stat-pill'
 export const dynamic = 'force-dynamic'
 
 export default async function BooksPage() {
-  if (!(await getCurrentUser())) redirect('/login')
-  const books = await new ContentRepository().listWordBooks()
+  const user = await getCurrentUser()
+  if (!user) redirect('/login')
+  const repo = new ContentRepository()
+  const notebookBook = await repo.ensureNotebookBook()
+  const [books, notebookWords] = await Promise.all([
+    repo.listWordBooks(),
+    repo.listCollectedWordsByBook(notebookBook.id, user.id),
+  ])
+  const notebookCount = notebookWords.length
   return (
     <>
       <GamificationBar />
@@ -25,6 +32,14 @@ export default async function BooksPage() {
             <span className="text-sm font-semibold">跨所有單字書複習 →</span>
           </Link>
         )}
+        <CardLink href={`/books/${NOTEBOOK_SLUG}`} className="mb-3 p-5">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-lg font-extrabold text-neutral-900">我的生字本 📓</h2>
+              <p className="mt-1 text-sm text-neutral-600">閱讀時收藏的單字（{notebookCount} 字）</p>
+            </div>
+          </div>
+        </CardLink>
         {books.length === 0 ? (
           <p className="text-neutral-600">目前還沒有單字書。</p>
         ) : (
@@ -43,6 +58,7 @@ export default async function BooksPage() {
             ))}
           </ul>
         )}
+        <p className="mt-8 text-center"><Link href="/" className="text-sm font-bold text-primary-600 hover:underline">← 回首頁</Link></p>
       </main>
     </>
   )

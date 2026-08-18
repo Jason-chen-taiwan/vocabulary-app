@@ -17,7 +17,10 @@
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
     "seed": "node --experimental-strip-types scripts/seed-content.mjs",
-    "check-content": "node --experimental-strip-types scripts/check-content.mjs"
+    "seed:passages": "node --experimental-strip-types scripts/seed-passages.mjs",
+    "check-content": "node --experimental-strip-types scripts/check-content.mjs",
+    "fetch:dict": "node scripts/fetch-dict.mjs",
+    "build:passages": "node --experimental-strip-types scripts/build-passage.mjs"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.2",
@@ -40,6 +43,7 @@
     "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "opencc-js": "^1.4.1",
     "prisma": "6.19.3",
     "tailwindcss": "^4",
     "typescript": "^5",

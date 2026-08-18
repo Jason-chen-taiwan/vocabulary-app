@@ -1,0 +1,1202 @@
+{
+  "slug": "toeic-tech-system-outage",
+  "kind": "toeic",
+  "title": "Scheduled System Maintenance Notice",
+  "source": "self-made",
+  "wordCount": 113,
+  "content": [
+    [
+      {
+        "w": "To",
+        "l": "to"
+      },
+      {
+        "w": ": "
+      },
+      {
+        "w": "All",
+        "l": "all"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Employees",
+        "l": "employee"
+      }
+    ],
+    [
+      {
+        "w": "From",
+        "l": "from"
+      },
+      {
+        "w": ": "
+      },
+      {
+        "w": "Information",
+        "l": "information"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Technology",
+        "l": "technology"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Helpdesk",
+        "l": "helpdesk"
+      }
+    ],
+    [
+      {
+        "w": "Subject",
+        "l": "subject"
+      },
+      {
+        "w": ": "
+      },
+      {
+        "w": "Planned",
+        "l": "plan"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "system",
+        "l": "system"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "maintenance",
+        "l": "maintenance"
+      }
+    ],
+    [
+      {
+        "w": "Our",
+        "l": "we"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "team",
+        "l": "team"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "l": "will"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "perform",
+        "l": "perform"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "scheduled",
+        "l": "schedule"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "maintenance",
+        "l": "maintenance"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "on",
+        "l": "on"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "internal",
+        "l": "internal"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "network",
+        "l": "network"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Saturday",
+        "l": "saturday"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "from",
+        "l": "from"
+      },
+      {
+        "w": " 10 "
+      },
+      {
+        "w": "pm",
+        "l": "pm"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "l": "to"
+      },
+      {
+        "w": " 2 "
+      },
+      {
+        "w": "am",
+        "l": "be"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Within",
+        "l": "within"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "window",
+        "l": "window"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "expect",
+        "l": "expect"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "some",
+        "l": "an"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "downtime",
+        "l": "downtime"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "file",
+        "l": "file"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "server",
+        "l": "server"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "may",
+        "l": "may"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "face",
+        "l": "face"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "short",
+        "l": "short"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "outage",
+        "l": "outage"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "This",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "maintenance",
+        "l": "maintenance"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "follows",
+        "l": "follow"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "minor",
+        "l": "minor"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "incident",
+        "l": "incident"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "last",
+        "l": "last"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "week",
+        "l": "week"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "when",
+        "l": "when"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "several",
+        "l": "several"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "employees",
+        "l": "employee"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "could",
+        "l": "can"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "not",
+        "l": "not"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "connect",
+        "l": "connect"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "l": "to"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "our",
+        "l": "we"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "network",
+        "l": "network"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "while",
+        "l": "while"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "working",
+        "l": "work"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "remote",
+        "l": "remote"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Our",
+        "l": "we"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "engineers",
+        "l": "engineer"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "have",
+        "l": "have"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "already",
+        "l": "already"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "found",
+        "l": "find"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "cause",
+        "l": "cause"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "l": "will"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "restore",
+        "l": "restore"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "full",
+        "l": "full"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "access",
+        "l": "access"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "before",
+        "l": "before"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "maintenance",
+        "l": "maintenance"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "window",
+        "l": "window"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "ends",
+        "l": "end"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "If",
+        "l": "if"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "still",
+        "l": "still"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "cannot",
+        "l": "cannot"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "log",
+        "l": "log"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "l": "in"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "after",
+        "l": "after"
+      },
+      {
+        "w": " 2 "
+      },
+      {
+        "w": "am",
+        "l": "be"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "please",
+        "l": "please"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "try",
+        "l": "try"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "resetting",
+        "l": "reset"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "your",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "credential",
+        "l": "credential"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "through",
+        "l": "through"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "support",
+        "l": "support"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "portal",
+        "l": "portal"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "If",
+        "l": "if"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problem",
+        "l": "problem"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "continues",
+        "l": "continue"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "open",
+        "l": "open"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "helpdesk",
+        "l": "helpdesk"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "ticket",
+        "l": "ticket"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "an",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "engineer",
+        "l": "engineer"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "l": "will"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "help",
+        "l": "help"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "fix",
+        "l": "fix"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "issue",
+        "l": "issue"
+      },
+      {
+        "w": "."
+      }
+    ]
+  ],
+  "glossary": {
+    "to": {
+      "zh": "到",
+      "pos": "prep."
+    },
+    "all": {
+      "zh": "所有的",
+      "pos": "a."
+    },
+    "employee": {
+      "zh": "職員",
+      "pos": "n."
+    },
+    "from": {
+      "zh": "從",
+      "pos": "prep."
+    },
+    "information": {
+      "zh": "訊息",
+      "pos": "n."
+    },
+    "technology": {
+      "zh": "技術",
+      "pos": "n."
+    },
+    "helpdesk": {
+      "zh": "幫助臺",
+      "pos": "n.",
+      "curated": true
+    },
+    "subject": {
+      "zh": "科目",
+      "pos": "n."
+    },
+    "plan": {
+      "zh": "計劃",
+      "pos": "n.",
+      "curated": true
+    },
+    "system": {
+      "zh": "系統",
+      "pos": "n.",
+      "curated": true
+    },
+    "maintenance": {
+      "zh": "維護",
+      "pos": "n.",
+      "curated": true
+    },
+    "we": {
+      "zh": "我們",
+      "pos": "pron."
+    },
+    "team": {
+      "zh": "隊",
+      "pos": "n."
+    },
+    "will": {
+      "zh": "意志",
+      "pos": "n."
+    },
+    "perform": {
+      "zh": "進行",
+      "pos": "vt.",
+      "curated": true
+    },
+    "schedule": {
+      "zh": "時間表",
+      "pos": "n.",
+      "curated": true
+    },
+    "on": {
+      "zh": "在...之上",
+      "pos": "prep."
+    },
+    "the": {
+      "zh": "那",
+      "pos": "art."
+    },
+    "internal": {
+      "zh": "內在的",
+      "pos": "a."
+    },
+    "network": {
+      "zh": "網路",
+      "pos": "n.",
+      "curated": true
+    },
+    "this": {
+      "zh": "這",
+      "pos": "pron."
+    },
+    "saturday": {
+      "zh": "星期六",
+      "pos": "n."
+    },
+    "pm": {
+      "zh": "出納員"
+    },
+    "be": {
+      "zh": "是",
+      "pos": "v."
+    },
+    "within": {
+      "zh": "內部",
+      "pos": "n."
+    },
+    "window": {
+      "zh": "窗戶",
+      "pos": "n."
+    },
+    "expect": {
+      "zh": "預期",
+      "pos": "vt."
+    },
+    "an": {
+      "zh": "一",
+      "pos": "art."
+    },
+    "downtime": {
+      "zh": "停工期",
+      "pos": "n.",
+      "curated": true
+    },
+    "and": {
+      "zh": "和",
+      "pos": "conj."
+    },
+    "file": {
+      "zh": "檔案",
+      "pos": "n."
+    },
+    "server": {
+      "zh": "服伺者",
+      "pos": "n.",
+      "curated": true
+    },
+    "may": {
+      "zh": "五月",
+      "pos": "n."
+    },
+    "face": {
+      "zh": "臉",
+      "pos": "n."
+    },
+    "a": {
+      "zh": "一個，不定冠詞",
+      "pos": "art."
+    },
+    "short": {
+      "zh": "短的",
+      "pos": "a."
+    },
+    "outage": {
+      "zh": "(水",
+      "pos": "n.",
+      "curated": true
+    },
+    "follow": {
+      "zh": "跟隨",
+      "pos": "vt."
+    },
+    "minor": {
+      "zh": "未成年人",
+      "pos": "n."
+    },
+    "incident": {
+      "zh": "事件",
+      "pos": "n.",
+      "curated": true
+    },
+    "last": {
+      "zh": "最後的",
+      "pos": "a."
+    },
+    "week": {
+      "zh": "星期",
+      "pos": "n."
+    },
+    "when": {
+      "zh": "當…時，何時",
+      "pos": "conj."
+    },
+    "several": {
+      "zh": "幾個的",
+      "pos": "a."
+    },
+    "can": {
+      "zh": "裝罐",
+      "pos": "vt."
+    },
+    "not": {
+      "zh": "不",
+      "pos": "adv."
+    },
+    "connect": {
+      "zh": "連線",
+      "pos": "v."
+    },
+    "while": {
+      "zh": "一會兒",
+      "pos": "n."
+    },
+    "work": {
+      "zh": "工作",
+      "pos": "n."
+    },
+    "remote": {
+      "zh": "遙遠的",
+      "pos": "a.",
+      "curated": true
+    },
+    "engineer": {
+      "zh": "工程師",
+      "pos": "n."
+    },
+    "have": {
+      "zh": "有",
+      "pos": "vt."
+    },
+    "already": {
+      "zh": "已經",
+      "pos": "adv."
+    },
+    "find": {
+      "zh": "發現",
+      "pos": "vt."
+    },
+    "cause": {
+      "zh": "原因",
+      "pos": "n."
+    },
+    "restore": {
+      "zh": "回覆",
+      "pos": "vt.",
+      "curated": true
+    },
+    "full": {
+      "zh": "全部",
+      "pos": "n."
+    },
+    "access": {
+      "zh": "通路",
+      "pos": "n.",
+      "curated": true
+    },
+    "before": {
+      "zh": "在...之前",
+      "pos": "prep."
+    },
+    "end": {
+      "zh": "結束",
+      "pos": "n."
+    },
+    "if": {
+      "zh": "如果",
+      "pos": "conj."
+    },
+    "you": {
+      "zh": "你",
+      "pos": "pron."
+    },
+    "still": {
+      "zh": "蒸餾室",
+      "pos": "n."
+    },
+    "cannot": {
+      "zh": "無法",
+      "pos": "aux."
+    },
+    "log": {
+      "zh": "記錄",
+      "pos": "n.",
+      "curated": true
+    },
+    "in": {
+      "zh": "在...期間",
+      "pos": "prep."
+    },
+    "after": {
+      "zh": "在...之後",
+      "pos": "prep."
+    },
+    "please": {
+      "zh": "請",
+      "pos": "adv."
+    },
+    "try": {
+      "zh": "嘗試",
+      "pos": "n."
+    },
+    "reset": {
+      "zh": "重新設定",
+      "pos": "n."
+    },
+    "credential": {
+      "zh": "國書",
+      "pos": "n.",
+      "curated": true
+    },
+    "through": {
+      "zh": "穿越",
+      "pos": "adv."
+    },
+    "support": {
+      "zh": "支援",
+      "pos": "n.",
+      "curated": true
+    },
+    "portal": {
+      "zh": "入口",
+      "pos": "n.",
+      "curated": true
+    },
+    "problem": {
+      "zh": "問題",
+      "pos": "n.",
+      "curated": true
+    },
+    "continue": {
+      "zh": "繼續",
+      "pos": "vi."
+    },
+    "open": {
+      "zh": "公開",
+      "pos": "n."
+    },
+    "ticket": {
+      "zh": "票",
+      "pos": "n.",
+      "curated": true
+    },
+    "help": {
+      "zh": "幫忙",
+      "pos": "n."
+    },
+    "fix": {
+      "zh": "使固定",
+      "pos": "vt."
+    },
+    "issue": {
+      "zh": "發行",
+      "pos": "n.",
+      "curated": true
+    }
+  },
+  "questions": [
+    {
+      "id": "toeic-tech-system-outage-q1",
+      "type": "main",
+      "stem": "What is the main purpose of this notice?",
+      "options": [
+        "To inform employees about scheduled system maintenance",
+        "To announce a permanent shutdown of the network",
+        "To request approval for a new server",
+        "To report a security breach"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "toeic-tech-system-outage-q2",
+      "type": "detail",
+      "stem": "What caused the team to schedule this maintenance?",
+      "options": [
+        "A request from the helpdesk staff",
+        "A minor incident with network connections last week",
+        "A complaint from a customer",
+        "A planned office relocation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "toeic-tech-system-outage-q3",
+      "type": "detail",
+      "stem": "What should an employee do if login still fails after 2 am?",
+      "options": [
+        "Wait until Monday",
+        "Call the information technology director",
+        "Reset the credential through the support portal",
+        "Restart the internal network"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "toeic-tech-system-outage-q4",
+      "type": "inference",
+      "stem": "What can be inferred about the engineers mentioned in the notice?",
+      "options": [
+        "They are unaware of the outage",
+        "They will not respond to new tickets",
+        "They plan to remove the internal network entirely",
+        "They already identified the cause of the incident that happened last week"
+      ],
+      "answer": 3
+    }
+  ],
+  "titleZh": "系統維護排程通知",
+  "level": "L3",
+  "topic": "tech"
+}

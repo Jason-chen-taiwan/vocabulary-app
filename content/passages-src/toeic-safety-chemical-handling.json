@@ -1,0 +1,21 @@
+{
+  "slug": "toeic-safety-chemical-handling",
+  "kind": "toeic",
+  "title": "Reminder on Protective Equipment and Chemical Handling",
+  "titleZh": "防護裝備與化學品處理提醒",
+  "level": "L3",
+  "topic": "safety",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear team, please remember that goggles, gloves, and a respirator are required whenever you handle any chemical in the storage room. This protective equipment must be worn correctly, not simply carried in your pocket.",
+    "Last week, a small spillage occurred because a container was not sealed properly. Fortunately no one suffered any injury, but the incident shows why care is needed. Any leakage or spill must be reported immediately, and the area should be isolated until it is cleaned by a trained inspector.",
+    "Disposal of chemical waste must follow the procedure in the safety handbook. Never pour a toxic substance down a regular drain. Ventilation in the storage room should stay on at all time to reduce fume buildup.",
+    "If you feel any dizziness or notice a strange smell, leave the area and contact the safety officer without delay. Your health and the health of your colleague depend on following these precaution."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this email?", "options": ["To remind staff about protective equipment and chemical handling", "To announce a new chemical product", "To report a resignation in the safety team", "To schedule a fire drill"], "answer": 0 },
+    { "type": "detail", "stem": "What caused the spillage mentioned in the email?", "options": ["A broken ventilation fan", "A container that was not sealed properly", "A malfunctioning sensor", "An overloaded electrical circuit"], "answer": 1 },
+    { "type": "detail", "stem": "Where should chemical waste never be poured?", "options": ["Into a sealed container", "Down a regular drain", "Into the disposal bin", "Into the storage room"], "answer": 1 },
+    { "type": "inference", "stem": "What should staff do if they notice a strange smell?", "options": ["Continue working and note it later", "Open a window and wait", "Leave the area and contact the safety officer", "Report it only during the next drill"], "answer": 2 }
+  ]
+}

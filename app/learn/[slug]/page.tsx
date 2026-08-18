@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth/session'
-import { ContentRepository } from '@/lib/content/repository'
+import { ContentRepository, NOTEBOOK_SLUG } from '@/lib/content/repository'
 import { LearningRepository } from '@/lib/learning/repository'
 import { buildReviewItems, SESSION_LIMITS } from '@/lib/learning/review-items'
 import { ReviewSession, type ReviewItem } from '@/components/review-session'
@@ -22,8 +22,10 @@ export default async function LearnPage({ params }: { params: Promise<{ slug: st
   if (!mixed && !book) notFound()
   const bookName = mixed ? '全部混合' : book!.name
 
+  // 生字本：字全靠「收藏當下建卡」進到期佇列，不從新字池抽（新字池已排除 notebook，此處雙重保險）。
+  const limits = slug === NOTEBOOK_SLUG ? { ...SESSION_LIMITS, newLimit: 0 } : SESSION_LIMITS
   const reviewItems: ReviewItem[] = await buildReviewItems(
-    { userId: user.id, book: book ? { id: book.id } : null, now: new Date(), ...SESSION_LIMITS },
+    { userId: user.id, book: book ? { id: book.id } : null, now: new Date(), ...limits },
     { learning: new LearningRepository(), content },
   )
 

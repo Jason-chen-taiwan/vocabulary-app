@@ -3,8 +3,8 @@ import { ContentRepository } from '@/lib/content/repository'
 
 function makeDb() {
   return {
-    wordBook: { findMany: vi.fn(), findUnique: vi.fn() },
-    word: { findMany: vi.fn(), findUnique: vi.fn() },
+    wordBook: { findMany: vi.fn(), findUnique: vi.fn(), create: vi.fn() },
+    word: { findMany: vi.fn(), findUnique: vi.fn(), create: vi.fn() },
   }
 }
 
@@ -17,6 +17,7 @@ describe('ContentRepository', () => {
     const repo = new ContentRepository(db as any)
     const result = await repo.listWordBooks()
     expect(db.wordBook.findMany).toHaveBeenCalledWith({
+      where: { sourceType: { not: 'notebook' } },
       orderBy: { order: 'asc' },
       include: { _count: { select: { words: true } } },
     })
@@ -116,5 +117,72 @@ describe('ContentRepository', () => {
     const repo = new ContentRepository(db as any)
     expect(await repo.getWordCore('w1')).toEqual({ headword: 'invoice', definitionZh: '發票' })
     expect(db.word.findUnique).toHaveBeenCalledWith({ where: { id: 'w1' }, select: { headword: true, definitionZh: true } })
+  })
+})
+
+describe('notebook', () => {
+  it('ensureNotebookBook：已存在回 id，不存在建立', async () => {
+    const db = makeDb()
+    db.wordBook.findUnique.mockResolvedValueOnce({ id: 'b1' })
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const repo = new ContentRepository(db as any)
+    expect(await repo.ensureNotebookBook()).toEqual({ id: 'b1' })
+
+    db.wordBook.findUnique.mockResolvedValueOnce(null)
+    db.wordBook.create.mockResolvedValueOnce({ id: 'b2' })
+    expect(await repo.ensureNotebookBook()).toEqual({ id: 'b2' })
+    expect(db.wordBook.create).toHaveBeenCalledWith({
+      data: { slug: 'my-notebook', name: '我的生字本', sourceType: 'notebook', order: 99 },
+      select: { id: true },
+    })
+  })
+
+  it('upsertNotebookWord：同字冪等，不覆寫既有釋義', async () => {
+    const db = makeDb()
+    db.word.findUnique.mockResolvedValueOnce({ id: 'w1' })
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const repo = new ContentRepository(db as any)
+    expect(await repo.upsertNotebookWord('b1', { headword: 'zeal', definitionZh: '熱忱', partOfSpeech: 'n.' })).toEqual({ id: 'w1' })
+    expect(db.word.create).not.toHaveBeenCalled()
+  })
+
+  it('listWordBooks 排除 notebook 書', async () => {
+    const db = makeDb()
+    db.wordBook.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listWordBooks()
+    expect(db.wordBook.findMany.mock.calls[0][0].where).toEqual({ sourceType: { not: 'notebook' } })
+  })
+
+  it('listCollectedWordsByBook 只取該使用者有卡的字', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listCollectedWordsByBook('b1', 'u1')
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBookId: 'b1', userCards: { some: { userId: 'u1' } } })
+  })
+
+  it('listAllDefinitions 排除 notebook 書的釋義（不進 MC 干擾項池）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listAllDefinitions()
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBook: { sourceType: { not: 'notebook' } } })
+  })
+
+  it('listAllHeadwords 排除 notebook 書（sitemap 不收生字本）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).listAllHeadwords()
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ wordBook: { sourceType: { not: 'notebook' } } })
+  })
+
+  it('getPublicWordByHeadword 排除 notebook 書（不進公開單字頁）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await new ContentRepository(db as any).getPublicWordByHeadword('invoice')
+    expect(db.word.findMany.mock.calls[0][0].where).toEqual({ headword: 'invoice', wordBook: { sourceType: { not: 'notebook' } } })
   })
 })

@@ -1,0 +1,20 @@
+{
+  "slug": "toeic-hr-job-posting",
+  "kind": "toeic",
+  "title": "Open Position: Sales Assistant",
+  "titleZh": "職缺公告：業務助理",
+  "level": "L1",
+  "topic": "hr",
+  "source": "self-made",
+  "paragraphs": [
+    "Bright Leaf Media has a new opening in the sales department. We seek a candidate who has strong communication skill and at least two year of experience in a related field. A resume and a short cover letter are required for every application.",
+    "The successful applicant will join a friendly team and receive a competitive salary plus benefit such as health insurance and paid leave. Coaching is offered in the first month to help new staff onboard smoothly and feel welcome.",
+    "A university qualification in business or a related field is preferred but not required. Teamwork and communication matter more than formal qualification alone. A selected candidate will be invited for an interview next week, and a reference check will follow before any formal offer."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this notice?", "options": ["To announce a new sales opening", "To describe a training program", "To report a resignation", "To advertise a product launch"], "answer": 0 },
+    { "type": "detail", "stem": "What must every candidate submit?", "options": ["A degree certificate only", "A resume and a cover letter", "A reference letter only", "A performance rating"], "answer": 1 },
+    { "type": "detail", "stem": "What benefit is mentioned for new staff?", "options": ["A company car", "Free lunch every day", "Health insurance and paid leave", "A stock option"], "answer": 2 },
+    { "type": "inference", "stem": "Based on the notice, what most likely happens right after the interview?", "options": ["The candidate begins onboarding immediately", "A reference check is conducted before an offer is made", "The position is cancelled", "The salary is negotiated in public"], "answer": 1 }
+  ]
+}

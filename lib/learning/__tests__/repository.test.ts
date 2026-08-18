@@ -72,9 +72,19 @@ describe('LearningRepository', () => {
     const repo = new LearningRepository(db as any)
     expect(await repo.listNewWordIds('u1', 'b1', 10)).toEqual(['w2'])
     expect(db.word.findMany).toHaveBeenCalledWith({
-      where: { wordBookId: 'b1', userCards: { none: { userId: 'u1' } } },
+      where: { wordBookId: 'b1', userCards: { none: { userId: 'u1' } }, wordBook: { sourceType: { not: 'notebook' } } },
       orderBy: { order: 'asc' }, take: 10, select: { id: true },
     })
+  })
+
+  it('listNewWordIds 排除生字本書的字（他人收藏不得漏入新字佇列）', async () => {
+    const db = makeDb()
+    db.word.findMany.mockResolvedValue([])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const repo = new LearningRepository(db as any)
+    await repo.listNewWordIds('u1', undefined, 5)
+    const where = db.word.findMany.mock.calls[0][0].where
+    expect(where.wordBook).toEqual({ sourceType: { not: 'notebook' } })
   })
 
   it('mixed practice (no wordBookId) omits the book filter in all three queries', async () => {
@@ -96,7 +106,7 @@ describe('LearningRepository', () => {
 
     await repo.listNewWordIds('u1', undefined, 10)
     expect(db.word.findMany).toHaveBeenLastCalledWith({
-      where: { userCards: { none: { userId: 'u1' } } },
+      where: { userCards: { none: { userId: 'u1' } }, wordBook: { sourceType: { not: 'notebook' } } },
       orderBy: { order: 'asc' }, take: 10, select: { id: true },
     })
   })

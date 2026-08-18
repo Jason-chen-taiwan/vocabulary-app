@@ -67,6 +67,7 @@ export default async function Home() {
           開始學單字
         </Link>
 
+        <Link href="/read" className="text-sm font-bold text-primary-600 hover:underline">沉浸閱讀 📖</Link>
         <Link href="/leaderboard" className="text-sm font-bold text-primary-600 hover:underline">查看排行榜 🏆</Link>
         <Link href="/shop" className="text-sm font-bold text-primary-600 hover:underline">前往商店 🛍️</Link>
         <Link href="/stats" className="text-sm font-bold text-primary-600 hover:underline">學習數據與分享 📊</Link>

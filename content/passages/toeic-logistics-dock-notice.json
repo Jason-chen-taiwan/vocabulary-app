@@ -1,0 +1,1271 @@
+{
+  "slug": "toeic-logistics-dock-notice",
+  "kind": "toeic",
+  "title": "New Loading Dock Procedure",
+  "source": "self-made",
+  "wordCount": 120,
+  "content": [
+    [
+      {
+        "w": "Notice",
+        "l": "notice"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "l": "to"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "all",
+        "l": "all"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "warehouse",
+        "l": "warehouse"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "staff",
+        "l": "staff"
+      },
+      {
+        "w": ": "
+      },
+      {
+        "w": "starting",
+        "l": "start"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Monday",
+        "l": "monday"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "every",
+        "l": "every"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "pallet",
+        "l": "pallet"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "must",
+        "l": "must"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "l": "be"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "loaded",
+        "l": "load"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "through",
+        "l": "through"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Dock",
+        "l": "dock"
+      },
+      {
+        "w": " 3 "
+      },
+      {
+        "w": "only",
+        "l": "only"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Dock",
+        "l": "dock"
+      },
+      {
+        "w": " 1 "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Dock",
+        "l": "dock"
+      },
+      {
+        "w": " 2 "
+      },
+      {
+        "w": "will",
+        "l": "will"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "l": "be"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "closed",
+        "l": "close"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "l": "for"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "repair",
+        "l": "repair"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Please",
+        "l": "please"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "use",
+        "l": "use"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "forklift",
+        "l": "forklift"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "carefully",
+        "l": "carefully"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "check",
+        "l": "check"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "l": "that"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "each",
+        "l": "each"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rack",
+        "l": "rack"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "l": "i"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "stable",
+        "l": "stable"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "before",
+        "l": "before"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "place",
+        "l": "place"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "any",
+        "l": "any"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "additional",
+        "l": "additional"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "load",
+        "l": "load"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "Every",
+        "l": "every"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "carton",
+        "l": "carton"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "must",
+        "l": "must"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "l": "be"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "scanned",
+        "l": "scan"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "using",
+        "l": "use"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "l": "a"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "barcode",
+        "l": "barcode"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "reader",
+        "l": "reader"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "before",
+        "l": "before"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "it",
+        "l": "it"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "leaves",
+        "l": "leaf"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "warehouse",
+        "l": "warehouse"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "This",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "step",
+        "l": "step"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "supports",
+        "l": "support"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "inventory",
+        "l": "inventory"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "tracking",
+        "l": "track"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "l": "and"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "reduces",
+        "l": "reduce"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "shortage",
+        "l": "shortage"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "l": "in"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "busy",
+        "l": "busy"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "season",
+        "l": "season"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "If",
+        "l": "if"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "find",
+        "l": "find"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "any",
+        "l": "any"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "damage",
+        "l": "damage"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "or",
+        "l": "or"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "defect",
+        "l": "defect"
+      },
+      {
+        "w": ", "
+      },
+      {
+        "w": "report",
+        "l": "report"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "it",
+        "l": "it"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "l": "to"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "supervisor",
+        "l": "supervisor"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "before",
+        "l": "before"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "loading",
+        "l": "load"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "continues",
+        "l": "continue"
+      },
+      {
+        "w": "."
+      }
+    ],
+    [
+      {
+        "w": "Storage",
+        "l": "storage"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "space",
+        "l": "space"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "near",
+        "l": "near"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "l": "the"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "entrance",
+        "l": "entrance"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "l": "i"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "reserved",
+        "l": "reserve"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "l": "for"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "urgent",
+        "l": "urgent"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "order",
+        "l": "order"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "l": "that"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "require",
+        "l": "require"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "same",
+        "l": "same"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "day",
+        "l": "day"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "dispatch",
+        "l": "dispatch"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Please",
+        "l": "please"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "do",
+        "l": "do"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "not",
+        "l": "not"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "block",
+        "l": "block"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "area",
+        "l": "area"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "using",
+        "l": "use"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "empty",
+        "l": "empty"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "pallet",
+        "l": "pallet"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "or",
+        "l": "or"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "unused",
+        "l": "unused"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "equipment",
+        "l": "equipment"
+      },
+      {
+        "w": ". "
+      },
+      {
+        "w": "Thank",
+        "l": "thank"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "you",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "l": "for"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "your",
+        "l": "you"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "cooperation",
+        "l": "cooperation"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "while",
+        "l": "while"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "l": "this"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "change",
+        "l": "change"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "l": "i"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "l": "in"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "effect",
+        "l": "effect"
+      },
+      {
+        "w": "."
+      }
+    ]
+  ],
+  "glossary": {
+    "notice": {
+      "zh": "注意",
+      "pos": "n.",
+      "curated": true
+    },
+    "to": {
+      "zh": "到",
+      "pos": "prep."
+    },
+    "all": {
+      "zh": "所有的",
+      "pos": "a."
+    },
+    "warehouse": {
+      "zh": "倉庫",
+      "pos": "n.",
+      "curated": true
+    },
+    "staff": {
+      "zh": "全體人員",
+      "pos": "n.",
+      "curated": true
+    },
+    "start": {
+      "zh": "驚起",
+      "pos": "n."
+    },
+    "monday": {
+      "zh": "星期一",
+      "pos": "n."
+    },
+    "every": {
+      "zh": "每一",
+      "pos": "a."
+    },
+    "pallet": {
+      "zh": "草鋪",
+      "pos": "n.",
+      "curated": true
+    },
+    "must": {
+      "zh": "必須",
+      "pos": "n."
+    },
+    "be": {
+      "zh": "是",
+      "pos": "v."
+    },
+    "load": {
+      "zh": "負荷",
+      "pos": "n."
+    },
+    "through": {
+      "zh": "穿越",
+      "pos": "adv."
+    },
+    "dock": {
+      "zh": "碼頭",
+      "pos": "n.",
+      "curated": true
+    },
+    "only": {
+      "zh": "唯一的",
+      "pos": "a."
+    },
+    "and": {
+      "zh": "和",
+      "pos": "conj."
+    },
+    "will": {
+      "zh": "意志",
+      "pos": "n."
+    },
+    "close": {
+      "zh": "結束",
+      "pos": "n.",
+      "curated": true
+    },
+    "for": {
+      "zh": "為",
+      "pos": "prep."
+    },
+    "repair": {
+      "zh": "修理",
+      "pos": "n.",
+      "curated": true
+    },
+    "please": {
+      "zh": "請",
+      "pos": "adv."
+    },
+    "use": {
+      "zh": "使用",
+      "pos": "n."
+    },
+    "the": {
+      "zh": "那",
+      "pos": "art."
+    },
+    "forklift": {
+      "zh": "鏟車",
+      "pos": "n.",
+      "curated": true
+    },
+    "carefully": {
+      "zh": "小心地",
+      "pos": "adv."
+    },
+    "check": {
+      "zh": "檢查",
+      "pos": "n.",
+      "curated": true
+    },
+    "that": {
+      "zh": "那",
+      "pos": "a."
+    },
+    "each": {
+      "zh": "每個",
+      "pos": "a."
+    },
+    "rack": {
+      "zh": "架",
+      "pos": "n.",
+      "curated": true
+    },
+    "i": {
+      "zh": "我",
+      "pos": "pron."
+    },
+    "stable": {
+      "zh": "馬房",
+      "pos": "n."
+    },
+    "before": {
+      "zh": "在...之前",
+      "pos": "prep."
+    },
+    "you": {
+      "zh": "你",
+      "pos": "pron."
+    },
+    "place": {
+      "zh": "地方",
+      "pos": "n."
+    },
+    "any": {
+      "zh": "任何的",
+      "pos": "a."
+    },
+    "additional": {
+      "zh": "附加的",
+      "pos": "a."
+    },
+    "carton": {
+      "zh": "硬紙盒",
+      "pos": "n."
+    },
+    "scan": {
+      "zh": "審視",
+      "pos": "n.",
+      "curated": true
+    },
+    "a": {
+      "zh": "一個，不定冠詞",
+      "pos": "art."
+    },
+    "barcode": {
+      "zh": "條形碼",
+      "curated": true
+    },
+    "reader": {
+      "zh": "讀者",
+      "pos": "n."
+    },
+    "it": {
+      "zh": "它",
+      "pos": "pron."
+    },
+    "leaf": {
+      "zh": "葉",
+      "pos": "n."
+    },
+    "this": {
+      "zh": "這",
+      "pos": "pron."
+    },
+    "step": {
+      "zh": "步驟",
+      "pos": "n."
+    },
+    "support": {
+      "zh": "支援",
+      "pos": "n.",
+      "curated": true
+    },
+    "inventory": {
+      "zh": "詳細目錄",
+      "pos": "n.",
+      "curated": true
+    },
+    "track": {
+      "zh": "軌跡",
+      "pos": "n.",
+      "curated": true
+    },
+    "reduce": {
+      "zh": "減少",
+      "pos": "vt."
+    },
+    "shortage": {
+      "zh": "不足",
+      "pos": "n.",
+      "curated": true
+    },
+    "in": {
+      "zh": "在...期間",
+      "pos": "prep."
+    },
+    "busy": {
+      "zh": "忙碌的",
+      "pos": "a."
+    },
+    "season": {
+      "zh": "季節",
+      "pos": "n."
+    },
+    "if": {
+      "zh": "如果",
+      "pos": "conj."
+    },
+    "find": {
+      "zh": "發現",
+      "pos": "vt."
+    },
+    "damage": {
+      "zh": "損害",
+      "pos": "n.",
+      "curated": true
+    },
+    "or": {
+      "zh": "或",
+      "pos": "conj."
+    },
+    "defect": {
+      "zh": "缺點",
+      "pos": "n.",
+      "curated": true
+    },
+    "report": {
+      "zh": "報告",
+      "pos": "n.",
+      "curated": true
+    },
+    "supervisor": {
+      "zh": "管理者",
+      "pos": "n.",
+      "curated": true
+    },
+    "continue": {
+      "zh": "繼續",
+      "pos": "vi."
+    },
+    "storage": {
+      "zh": "儲存器",
+      "pos": "n.",
+      "curated": true
+    },
+    "space": {
+      "zh": "位置",
+      "pos": "n."
+    },
+    "near": {
+      "zh": "近的",
+      "pos": "a."
+    },
+    "entrance": {
+      "zh": "入口",
+      "pos": "n."
+    },
+    "reserve": {
+      "zh": "儲備品",
+      "pos": "n.",
+      "curated": true
+    },
+    "urgent": {
+      "zh": "緊急的",
+      "pos": "a.",
+      "curated": true
+    },
+    "order": {
+      "zh": "次序",
+      "pos": "n.",
+      "curated": true
+    },
+    "require": {
+      "zh": "需要",
+      "pos": "vt."
+    },
+    "same": {
+      "zh": "相同的",
+      "pos": "a."
+    },
+    "day": {
+      "zh": "天",
+      "pos": "n."
+    },
+    "dispatch": {
+      "zh": "派遣",
+      "pos": "vt.",
+      "curated": true
+    },
+    "do": {
+      "zh": "做",
+      "pos": "v."
+    },
+    "not": {
+      "zh": "不",
+      "pos": "adv."
+    },
+    "block": {
+      "zh": "街區",
+      "pos": "n."
+    },
+    "area": {
+      "zh": "區域",
+      "pos": "n."
+    },
+    "empty": {
+      "zh": "空的",
+      "pos": "a."
+    },
+    "unused": {
+      "zh": "不用的",
+      "pos": "a."
+    },
+    "equipment": {
+      "zh": "裝備",
+      "pos": "n.",
+      "curated": true
+    },
+    "thank": {
+      "zh": "謝意",
+      "pos": "n."
+    },
+    "cooperation": {
+      "zh": "合作",
+      "pos": "n."
+    },
+    "while": {
+      "zh": "一會兒",
+      "pos": "n."
+    },
+    "change": {
+      "zh": "變化",
+      "pos": "n."
+    },
+    "effect": {
+      "zh": "結果",
+      "pos": "n."
+    }
+  },
+  "questions": [
+    {
+      "id": "toeic-logistics-dock-notice-q1",
+      "type": "main",
+      "stem": "What is the main purpose of this notice?",
+      "options": [
+        "To announce a new loading dock procedure",
+        "To advertise a job opening",
+        "To report a customs delay",
+        "To request a quotation from a supplier"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "toeic-logistics-dock-notice-q2",
+      "type": "detail",
+      "stem": "Which dock will remain open for loading?",
+      "options": [
+        "Dock 1",
+        "Dock 2",
+        "Dock 3",
+        "All docks"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "toeic-logistics-dock-notice-q3",
+      "type": "detail",
+      "stem": "What should staff do before placing additional load on a rack?",
+      "options": [
+        "Scan the barcode twice",
+        "Check that the rack is stable",
+        "Contact the customs office",
+        "Reduce the storage space"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "toeic-logistics-dock-notice-q4",
+      "type": "inference",
+      "stem": "What can be inferred about the area near the entrance?",
+      "options": [
+        "It is closed permanently",
+        "It is reserved for urgent order needing quick dispatch",
+        "It is used for staff parking",
+        "It will be converted into Dock 4"
+      ],
+      "answer": 1
+    }
+  ],
+  "titleZh": "新的裝卸貨區作業程序",
+  "level": "L1",
+  "topic": "logistics"
+}

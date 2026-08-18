@@ -29,6 +29,12 @@ export interface SessionReward {
   newBadges: string[]
 }
 
+// 讀完文章的小額 XP 獎勵。
+export interface PassageReward {
+  xpGained: number
+  leveledUpTo: number | null
+}
+
 export interface BadgeDef {
   key: string
   name: string

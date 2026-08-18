@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-office-email-reply",
+  "kind": "toeic",
+  "title": "Reply: Quarterly Report Draft",
+  "titleZh": "回覆：季報草稿",
+  "level": "L3",
+  "topic": "office",
+  "source": "self-made",
+  "paragraphs": [
+    "From: Anna Baker To: David Miller Subject: Reply: Quarterly Report Draft",
+    "Thank you for the draft report you sent yesterday. I will proofread the document today and revise the introduction section before I forward it to the finance department for review.",
+    "Please attach the spreadsheet showing the sales numbers so I can confirm the totals match the template we used last quarter. I still need to acknowledge a few comments from the sales team before I approve the final version.",
+    "Once the report is approved, I will reply to everyone on the list and let them know it is ready to print.",
+    "Best regards, Anna"
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this email?", "options": ["To request a new spreadsheet template", "To respond about revising and approving a report draft", "To schedule a meeting with the finance department", "To ask for a printer repair"], "answer": 1 },
+    { "type": "detail", "stem": "What does Anna ask David to attach?", "options": ["A signed contract", "A copy of the template", "A spreadsheet with sales numbers", "A photo for the newsletter"], "answer": 2 },
+    { "type": "detail", "stem": "What will Anna do before she forwards the report?", "options": ["Approve the final version immediately", "Proofread and revise the introduction", "Print the report for the whole team", "Send it directly to the marketing team"], "answer": 1 },
+    { "type": "inference", "stem": "What can be inferred about the report process?", "options": ["The report needs approval before Anna sends the final reply", "The finance department has already approved the report", "David will not receive any reply from Anna", "The template has never been used before"], "answer": 0 }
+  ]
+}

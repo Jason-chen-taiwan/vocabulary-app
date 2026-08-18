@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth/session'
-import { ContentRepository } from '@/lib/content/repository'
+import { ContentRepository, NOTEBOOK_SLUG } from '@/lib/content/repository'
 import { LearningRepository } from '@/lib/learning/repository'
 import { shortDef } from '@/lib/learning/question'
 import { GamificationBar } from '@/components/gamification-bar'
@@ -17,9 +17,10 @@ export default async function BookDetailPage({ params }: { params: Promise<{ slu
   const [user, book] = await Promise.all([getCurrentUser(), repo.getWordBookBySlug(slug)])
   if (!user) redirect('/login')
   if (!book) notFound()
+  const isNotebook = book.slug === NOTEBOOK_SLUG
   // words + mastered ids are independent → fetch in parallel
   const [words, masteredIds] = await Promise.all([
-    repo.listWordsByBook(book.id),
+    isNotebook ? repo.listCollectedWordsByBook(book.id, user.id) : repo.listWordsByBook(book.id),
     new LearningRepository().listMasteredWordIds(user.id, book.id),
   ])
   const masteredSet = new Set(masteredIds)
@@ -39,29 +40,38 @@ export default async function BookDetailPage({ params }: { params: Promise<{ slu
           <ProgressBar value={masteredHere} max={words.length} />
         </Card>
 
-        <Link
-          href={`/learn/${slug}`}
-          className="mb-5 inline-flex min-h-11 w-full items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white shadow-[0_6px_14px_rgba(255,106,61,.35)] transition hover:bg-primary-600"
-        >
-          開始複習
-        </Link>
+        {words.length > 0 && (
+          <Link
+            href={`/learn/${slug}`}
+            className="mb-5 inline-flex min-h-11 w-full items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white shadow-[0_6px_14px_rgba(255,106,61,.35)] transition hover:bg-primary-600"
+          >
+            開始複習
+          </Link>
+        )}
 
-        <ul className="space-y-2">
-          {words.map((w) => (
-            <li key={w.id}>
-              <Link
-                href={`/words/${w.id}`}
-                className="flex items-center justify-between gap-3 rounded-control bg-surface px-4 py-3 shadow-[0_6px_16px_rgba(255,106,61,.08)] transition hover:-translate-y-0.5"
-              >
-                <span className="flex items-center gap-2 font-bold text-neutral-900">
-                  {masteredSet.has(w.id) && <span title="已精熟" className="text-success">✓</span>}
-                  {w.headword}
-                </span>
-                <span className="ml-4 truncate text-sm text-neutral-600">{shortDef(w.definitionZh)}</span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {isNotebook && words.length === 0 ? (
+          <p className="text-neutral-600">
+            閱讀文章時點字加入生字本，收藏的字會出現在這裡 →{' '}
+            <Link href="/read" className="font-semibold text-primary-600 hover:underline">開始閱讀</Link>
+          </p>
+        ) : (
+          <ul className="space-y-2">
+            {words.map((w) => (
+              <li key={w.id}>
+                <Link
+                  href={`/words/${w.id}`}
+                  className="flex items-center justify-between gap-3 rounded-control bg-surface px-4 py-3 shadow-[0_6px_16px_rgba(255,106,61,.08)] transition hover:-translate-y-0.5"
+                >
+                  <span className="flex items-center gap-2 font-bold text-neutral-900">
+                    {masteredSet.has(w.id) && <span title="已精熟" className="text-success">✓</span>}
+                    {w.headword}
+                  </span>
+                  <span className="ml-4 truncate text-sm text-neutral-600">{shortDef(w.definitionZh)}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </main>
     </>
   )

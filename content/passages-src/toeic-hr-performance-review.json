@@ -1,0 +1,21 @@
+{
+  "slug": "toeic-hr-performance-review",
+  "kind": "toeic",
+  "title": "Upcoming Performance Appraisal",
+  "titleZh": "即將展開的績效考核",
+  "level": "L3",
+  "topic": "hr",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear team, the annual performance appraisal will begin next week. Each supervisor will meet every staff member individually to discuss performance over the past year and set new goal for development.",
+    "Please prepare a short self evaluation before the meeting. Include a key achievement, any challenge you faced, and an area where you would like more coaching or support from a mentor. Honest feedback helps the department plan promotion and training more effectively.",
+    "Rating will be based on skill, attendance, and teamwork, not on a single project alone. Anyone who receives a strong rating may be considered for promotion or a bonus at the end of the fiscal year.",
+    "If you have any concern about the process, please contact human resources before Friday. A copy of the employee handbook explaining the appraisal procedure is available on the shared drive. Thank you for your continued contribution to the company."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is this email mainly about?", "options": ["A plan to relocate the office", "The start of the annual performance appraisal", "A change in salary policy", "A revised employee handbook"], "answer": 1 },
+    { "type": "detail", "stem": "What should staff prepare before the appraisal meeting?", "options": ["A short self evaluation", "A resignation letter", "A new project proposal", "A training certificate"], "answer": 0 },
+    { "type": "detail", "stem": "What three factor is rating based on?", "options": ["Salary, bonus, and pension", "Skill, attendance, and teamwork", "Age, gender, and department", "Resume, cover letter, and reference"], "answer": 1 },
+    { "type": "inference", "stem": "What can be inferred about staff who receive a strong rating?", "options": ["They will be dismissed at year end", "They may be considered for promotion or a bonus", "They must repeat the appraisal", "They lose their paid leave"], "answer": 1 }
+  ]
+}

@@ -1,10 +1,10 @@
 import { GamificationRepository } from './repository'
 import { todayYmd, daysBetween, weekStartYmd } from './date'
 import {
-  xpForReview, levelForXp, updateStreak, evaluateBadges,
+  xpForReview, levelForXp, updateStreak, evaluateBadges, xpForPassage,
   COIN_DAILY_GOAL, COIN_MASTERY, FREEZE_PER_MILESTONE_DAYS, FREEZE_CAP,
 } from './rules'
-import type { GamificationStateData, ReviewReward, SessionReward } from './types'
+import type { GamificationStateData, ReviewReward, SessionReward, PassageReward } from './types'
 
 const DEFAULT_STATE: GamificationStateData = {
   xp: 0, level: 1, coinBalance: 0, streak: 0, longestStreak: 0,
@@ -93,6 +93,22 @@ export class GamificationService {
     const newBadges = earned.filter((k) => !already.includes(k))
     if (newBadges.length) await this.repo.unlockBadges(userId, newBadges)
     return { perfect, newBadges }
+  }
+
+  // 讀完文章的小額 XP：只動 xp / weeklyXp / level，不發幣、不動 streak 與每日複習數
+  async applyPassageFinish(input: { userId: string; correctCount: number; now: Date }): Promise<PassageReward> {
+    const { userId, correctCount, now } = input
+    const ctx = await this.repo.getContext(userId)
+    const exists = ctx.state !== null
+    const prev = ctx.state ?? DEFAULT_STATE
+    const xpGained = xpForPassage(correctCount)
+    const xp = prev.xp + xpGained
+    const weekStart = weekStartYmd(now, ctx.timezone)
+    const weeklyXp = (prev.weekStartDate === weekStart ? prev.weeklyXp : 0) + xpGained
+    const level = levelForXp(xp)
+    const leveledUpTo = level > prev.level ? level : null
+    await this.repo.saveState(userId, { ...prev, xp, level, weeklyXp, weekStartDate: weekStart }, exists)
+    return { xpGained, leveledUpTo }
   }
 }
 

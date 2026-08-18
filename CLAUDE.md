@@ -27,7 +27,7 @@
 
 服務層模組（對外只暴露介面，內部可自由改）：
 
-`auth` · `content` · `scheduler` · `learning` · `gamification` · `shop` · `leaderboard` · `stats` · `sync` · `events` · `pwa-shell`
+`auth` · `content` · `scheduler` · `learning` · `gamification` · `shop` · `leaderboard` · `stats` · `sync` · `events` · `pwa-shell` · `reading`
 
 模組間以介面與領域事件溝通，**不得**直接 import 另一模組的內部實作。
 

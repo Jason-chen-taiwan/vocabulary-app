@@ -1,0 +1,49 @@
+{
+  "slug": "toeic-finance-quarterly-earnings",
+  "kind": "toeic",
+  "title": "Regional Sales Post Strong Quarterly Growth",
+  "titleZh": "區域銷售帶動第一季營收成長強勁",
+  "level": "L2",
+  "topic": "finance",
+  "source": "self-made",
+  "paragraphs": [
+    "Sunrise Trading reported strong results for the first fiscal quarter. Total revenue rose twelve percent compared to the same period last year, and net profit followed a similar path. Analysts credit the growth to steady demand across three regions and lower material cost.",
+    "The finance team noted that gross margin also improved, rising from 31 percent to 34 percent. Executives said the forecast for the next quarter remains positive, though they warned that rising interest rates could raise the cost of new loans.",
+    "The board plans to review the dividend policy at the next meeting. Shareholders will receive an updated statement once the review is complete."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is this article mainly about?",
+      "options": [
+        "A plan by Sunrise Trading to launch a new product",
+        "The revenue and profit growth of Sunrise Trading in the first quarter",
+        "A decrease in the cost of raw materials",
+        "A change in leadership at Sunrise Trading"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "By how much did the gross margin increase?",
+      "options": [
+        "From 31 percent to 34 percent",
+        "From 12 percent to 34 percent",
+        "It decreased by three percent",
+        "It stayed the same"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about interest rates?",
+      "options": [
+        "They fell sharply during the quarter",
+        "They caused the drop in gross margin",
+        "They may raise the cost of future loans for the company",
+        "They have no effect on the company"
+      ],
+      "answer": 2
+    }
+  ]
+}

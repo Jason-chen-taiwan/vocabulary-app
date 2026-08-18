@@ -52,3 +52,5 @@ next-env.d.ts
 
 # stray path-escaping artifact (windows fullwidth-colon filename bug)
 *task-*-report.md
+
+vendor/

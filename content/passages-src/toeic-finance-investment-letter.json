@@ -1,0 +1,51 @@
+{
+  "slug": "toeic-finance-investment-letter",
+  "kind": "toeic",
+  "title": "A Letter About Your Investment Portfolio",
+  "titleZh": "關於您投資組合的信函",
+  "level": "L2",
+  "topic": "finance",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear Anna,",
+    "Thank you for your continued trust in our investment service. Over the past year, your portfolio delivered a return of 6.8 percent, slightly above the average yield for similar accounts. Most of the gain came from stock holdings, while the bond portion added steady but modest income.",
+    "Given current market conditions, we recommend keeping the same balance between stock and bond for now. Interest rates remain a key risk, since a sudden increase could lower bond prices. We will continue to monitor your fund and send an updated statement each quarter.",
+    "If you would like to discuss your dividend income or adjust your risk level, please contact our office. We are happy to arrange a call at a convenient time.",
+    "Best regards, David Chen, Investment Advisor"
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this letter?",
+      "options": [
+        "To report on the performance of an investment portfolio and offer advice",
+        "To announce a new investment product launch",
+        "To request additional funds from a client",
+        "To apologize for a delay in a fund transfer"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What was the return delivered by the portfolio over the past year?",
+      "options": [
+        "3.5 percent",
+        "6.8 percent",
+        "12 percent",
+        "34 percent"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "inference",
+      "stem": "What is suggested about a sudden increase in interest rates?",
+      "options": [
+        "It would likely raise bond prices",
+        "It would have no effect on the portfolio",
+        "It could lower bond prices",
+        "It would increase the dividend amount"
+      ],
+      "answer": 2
+    }
+  ]
+}
