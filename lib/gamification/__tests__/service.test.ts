@@ -161,6 +161,7 @@ describe('applySessionFinish', () => {
 describe('applyPassageFinish', () => {
   it('XP = 15 + 5×答對數，累入 xp 與 weeklyXp，可升級', () => {
     const repo = repoWith({ ...base, xp: 95, level: 1, weeklyXp: 10, weekStartDate: weekStartYmd(now, 'Asia/Taipei') })
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const svc = new GamificationService(repo as any)
     return svc.applyPassageFinish({ userId: 'u1', correctCount: 3, now }).then((r) => {
       expect(r.xpGained).toBe(30)
@@ -175,6 +176,7 @@ describe('applyPassageFinish', () => {
 
   it('首次（無 state）也可運作', async () => {
     const repo = repoWith(null)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const svc = new GamificationService(repo as any)
     const r = await svc.applyPassageFinish({ userId: 'u1', correctCount: 0, now })
     expect(r.xpGained).toBe(15)

@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { TtsButton } from '@/components/tts-button'
 import type { WordWithExamples } from '@/lib/content/types'
@@ -33,7 +33,11 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
   const [outcome, setOutcome] = useState<SubmitResponse | null>(null)
   const [readSeconds, setReadSeconds] = useState<number | null>(null)
   const [busy, setBusy] = useState(false)
-  const startMs = useRef(Date.now())
+  // 計時起點在 mount 後設定（render 中呼叫 Date.now() 違反 React 純渲染規則）
+  const startMs = useRef<number | null>(null)
+  useEffect(() => {
+    if (startMs.current === null) startMs.current = Date.now()
+  }, [])
 
   const entry = selected ? dictionary.lookup(selected, passage) : null // 查詞一律走 DictionaryService 隔離點
   const curated = entry?.wordId ? curatedById.get(entry.wordId) ?? null : null
@@ -52,7 +56,7 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
   }
 
   function startQuiz() {
-    setReadSeconds(readSecondsBetween(startMs.current, Date.now()))
+    setReadSeconds(startMs.current === null ? null : readSecondsBetween(startMs.current, Date.now()))
     setPhase('quiz')
   }
 
