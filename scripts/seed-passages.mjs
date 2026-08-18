@@ -26,10 +26,15 @@ for (const [i, file] of files.entries()) {
     delete entry.curated
     const word = await prisma.word.findFirst({
       where: { headword: lemma, wordBook: { sourceType: 'builtin' } },
-      select: { id: true },
+      select: { id: true, definitionZh: true, partOfSpeech: true },
     })
-    if (word) entry.wordId = word.id
-    else console.warn(`warn: curated lemma "${lemma}" 在 DB 查無 builtin Word，以純 gloss 呈現`)
+    if (word) {
+      entry.wordId = word.id
+      // ECDICT 首義常選錯詞義（如 net→網）；curated 字以精修定義覆蓋 glossary，fallback 資料才正確
+      entry.zh = word.definitionZh
+      if (word.partOfSpeech) entry.pos = word.partOfSpeech
+      else delete entry.pos
+    } else console.warn(`warn: curated lemma "${lemma}" 在 DB 查無 builtin Word，以純 gloss 呈現`)
   }
 
   const data = {
