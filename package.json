@@ -1,53 +1,31 @@
 {
-  "name": "vocabulary-app",
+  "name": "ielts-vocabulary-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
-    "start": "next start",
+    "build": "next build",
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "cf:build": "node scripts/cf-build.mjs",
-    "cf:preview": "node scripts/cf-build.mjs && wrangler dev",
-    "cf:deploy": "node scripts/cf-build.mjs && wrangler deploy",
-    "postinstall": "prisma generate",
-    "db:generate": "prisma generate",
-    "db:migrate": "prisma migrate dev",
-    "db:push": "prisma db push",
-    "seed": "node --experimental-strip-types scripts/seed-content.mjs",
-    "seed:passages": "node --experimental-strip-types scripts/seed-passages.mjs",
-    "check-content": "node --experimental-strip-types scripts/check-content.mjs",
-    "fetch:dict": "node scripts/fetch-dict.mjs",
-    "build:passages": "node --experimental-strip-types scripts/build-passage.mjs"
+    "check-content": "node --experimental-strip-types scripts/check-content.mjs"
   },
   "dependencies": {
-    "@auth/prisma-adapter": "^2.11.2",
-    "@neondatabase/serverless": "^1.1.0",
-    "@prisma/adapter-neon": "6.19.3",
-    "@prisma/client": "6.19.3",
-    "next": "16.2.9",
-    "next-auth": "^5.0.0-beta.31",
+    "next": "^16.3.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "ts-fsrs": "^5.4.1"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "^1.20.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitest/coverage-v8": "^4.1.9",
-    "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
-    "opencc-js": "^1.4.1",
-    "prisma": "6.19.3",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vitest": "^4.1.9",
-    "wrangler": "^4.105.0"
+    "vitest": "^4.1.9"
   }
 }

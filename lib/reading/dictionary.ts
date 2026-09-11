@@ -1,4 +1,4 @@
-import type { PassageData } from './types.ts'
+import type { PassageData } from './types'
 
 export interface DictEntry { lemma: string; zh: string; pos?: string; wordId?: string }
 

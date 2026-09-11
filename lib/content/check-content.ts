@@ -1,15 +1,25 @@
 export interface CheckWord { headword: string; definitionZh: string; examples: { sentence: string }[] }
-export interface CheckBook { slug: string; words: CheckWord[] }
+export interface CheckBook { slug: string; level?: string | null; words: CheckWord[] }
 
 const MAX_SENTENCE = 90
 
+/**
+ * 重複字檢查以「同一考試內」為範圍：同一個字出現在雅思與多益是正常的
+ * （學術字本來就跨考試），兩者的卡片 id 也不同（`<bookSlug>:<headword>`），
+ * 排程互不干擾。同一考試內重複才是真的資料錯誤。
+ */
+function examOf(book: CheckBook): string {
+  return book.level ?? book.slug.split('-')[0]
+}
+
 export function checkContent(books: CheckBook[]): string[] {
   const problems: string[] = []
-  const seen = new Map<string, string>() // headword(lower) -> slug
+  const seen = new Map<string, string>() // `${exam}:${headword}` -> slug
   for (const book of books) {
     const defs = new Map<string, string>() // definitionZh -> headword
+    const exam = examOf(book)
     for (const w of book.words) {
-      const key = w.headword.toLowerCase()
+      const key = `${exam}:${w.headword.toLowerCase()}`
       const prev = seen.get(key)
       if (prev) problems.push(`duplicate headword "${w.headword}" in ${book.slug} (also in ${prev})`)
       else seen.set(key, book.slug)

@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { checkContent } from '../lib/content/check-content.ts'
 
-const files = readdirSync('content').filter((f) => f.startsWith('toeic-') && f.endsWith('.json'))
+const files = readdirSync('content').filter((f) => (f.startsWith('toeic-') || f.startsWith('ielts-')) && f.endsWith('.json'))
 const books = files.map((f) => JSON.parse(readFileSync(`content/${f}`, 'utf8')))
 const problems = checkContent(books)
 if (problems.length) {

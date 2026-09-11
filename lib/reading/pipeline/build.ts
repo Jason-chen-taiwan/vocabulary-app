@@ -1,6 +1,6 @@
-import type { GlossEntry, PassageFile } from '../types.ts'
-import { parsePassageFile } from '../passage-schema.ts'
-import { tokenize } from './tokenize.ts'
+import type { GlossEntry, PassageFile } from '../types'
+import { parsePassageFile } from '../passage-schema'
+import { tokenize } from './tokenize'
 
 export interface PassageSrcQuestion { type: string; stem: string; options: string[]; answer: number }
 export interface PassageSrc {

@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-6",
+  "name": "學術詞表 Sublist 6",
+  "description": "Coxhead 學術詞表（AWL）第六級：60 個中頻學術字族，常見於雅思閱讀論述與寫作的說理、比較與數據描述。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "abstract",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "抽象的、非具體的；（論文的）摘要",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Young children often struggle with abstract concepts such as justice.",
+          "translationZh": "幼童常難以理解正義這類抽象概念。"
+        }
+      ]
+    },
+    {
+      "headword": "accurate",
+      "partOfSpeech": "adj.",
+      "definitionZh": "準確的、精確的；與事實相符的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Satellite data provide a more accurate picture of deforestation.",
+          "translationZh": "衛星資料提供了更準確的森林砍伐樣貌。"
+        }
+      ]
+    },
+    {
+      "headword": "acknowledge",
+      "partOfSpeech": "v.",
+      "definitionZh": "承認（事實或錯誤）；對……表示感謝或致意",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The authors acknowledge that their sample size was relatively small.",
+          "translationZh": "作者們承認他們的樣本數相對偏小。"
+        }
+      ]
+    },
+    {
+      "headword": "aggregate",
+      "partOfSpeech": "n./v./adj.",
+      "definitionZh": "總計、總量；使聚集、合計的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "In aggregate, household energy use fell by nearly ten per cent.",
+          "translationZh": "總計來看，家戶能源使用量下降了將近百分之十。"
+        }
+      ]
+    },
+    {
+      "headword": "allocate",
+      "partOfSpeech": "v.",
+      "definitionZh": "分配、撥出（資源、時間或經費）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The university allocates additional funding to laboratories each year.",
+          "translationZh": "這所大學每年撥出額外經費給各實驗室。"
+        }
+      ]
+    },
+    {
+      "headword": "assign",
+      "partOfSpeech": "v.",
+      "definitionZh": "指派、分派（任務或人員）；歸因於",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Participants were randomly assigned to one of three groups.",
+          "translationZh": "參與者被隨機分派到三組之一。"
+        }
+      ]
+    },
+    {
+      "headword": "attach",
+      "partOfSpeech": "v.",
+      "definitionZh": "附上、繫上；賦予（重要性）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Employers attach great importance to communication skills.",
+          "translationZh": "雇主非常重視溝通能力。"
+        }
+      ]
+    },
+    {
+      "headword": "author",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "作者、著者；撰寫（著作）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The author argues that urban planning must prioritise green space.",
+          "translationZh": "作者主張都市規劃必須優先考量綠地。"
+        }
+      ]
+    },
+    {
+      "headword": "bond",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "連結、關係、債券；使結合、黏合",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Shared activities help to strengthen the bond between students.",
+          "translationZh": "共同的活動有助於強化學生之間的連結。"
+        }
+      ]
+    },
+    {
+      "headword": "brief",
+      "partOfSpeech": "adj./n./v.",
+      "definitionZh": "簡短的、短暫的；簡報、向……簡要說明",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The lecturer gave a brief overview of the research method.",
+          "translationZh": "講師對該研究方法做了簡短的概述。"
+        }
+      ]
+    },
+    {
+      "headword": "capable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "有能力的、能夠勝任的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Modern sensors are capable of detecting very small changes in temperature.",
+          "translationZh": "現代感測器能夠偵測極為微小的溫度變化。"
+        }
+      ]
+    },
+    {
+      "headword": "cite",
+      "partOfSpeech": "v.",
+      "definitionZh": "引用、引述；舉出（例證或理由）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Students must cite every source used in their essays.",
+          "translationZh": "學生必須引註論文中使用的每一項來源。"
+        }
+      ]
+    },
+    {
+      "headword": "cooperate",
+      "partOfSpeech": "v.",
+      "definitionZh": "合作、協力；配合",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Neighbouring countries must cooperate to reduce air pollution.",
+          "translationZh": "鄰近國家必須合作以減少空氣污染。"
+        }
+      ]
+    },
+    {
+      "headword": "discriminate",
+      "partOfSpeech": "v.",
+      "definitionZh": "歧視、差別對待；辨別、區分",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The law forbids employers to discriminate against older applicants.",
+          "translationZh": "法律禁止雇主歧視年長的應徵者。"
+        }
+      ]
+    },
+    {
+      "headword": "display",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "展示、表現出；陳列、顯示器",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The graph displays a steady rise in global temperatures.",
+          "translationZh": "此圖表顯示全球氣溫穩定上升。"
+        }
+      ]
+    },
+    {
+      "headword": "diverse",
+      "partOfSpeech": "adj.",
+      "definitionZh": "多樣的、各式各樣的；不同種類的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The city attracts students from diverse cultural backgrounds.",
+          "translationZh": "這座城市吸引了來自多元文化背景的學生。"
+        }
+      ]
+    },
+    {
+      "headword": "domain",
+      "partOfSpeech": "n.",
+      "definitionZh": "領域、範疇；管轄範圍",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Artificial intelligence is no longer confined to the domain of computer science.",
+          "translationZh": "人工智慧已不再侷限於資訊科學的領域。"
+        }
+      ]
+    },
+    {
+      "headword": "edit",
+      "partOfSpeech": "v.",
+      "definitionZh": "編輯、校訂；剪輯",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "She spent a week editing the final draft of her thesis.",
+          "translationZh": "她花了一週時間編修論文的最終稿。"
+        }
+      ]
+    },
+    {
+      "headword": "enhance",
+      "partOfSpeech": "v.",
+      "definitionZh": "提升、增強（品質、價值或程度）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Regular feedback can greatly enhance student performance.",
+          "translationZh": "定期的回饋能大幅提升學生的表現。"
+        }
+      ]
+    },
+    {
+      "headword": "estate",
+      "partOfSpeech": "n.",
+      "definitionZh": "地產、莊園；遺產、財產",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Rising real estate prices have pushed young families out of the city.",
+          "translationZh": "不動產價格上漲已把年輕家庭擠出市區。"
+        }
+      ]
+    },
+    {
+      "headword": "exceed",
+      "partOfSpeech": "v.",
+      "definitionZh": "超過、超出（數量或限度）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Demand for public housing continues to exceed supply.",
+          "translationZh": "公共住宅的需求持續超過供給。"
+        }
+      ]
+    },
+    {
+      "headword": "expert",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "專家；熟練的、專業的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Experts warn that coastal cities face increasing flood risks.",
+          "translationZh": "專家警告沿海城市面臨日益升高的洪水風險。"
+        }
+      ]
+    },
+    {
+      "headword": "explicit",
+      "partOfSpeech": "adj.",
+      "definitionZh": "明確的、清楚表達的；不含糊的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The guidelines give explicit instructions on how to reference sources.",
+          "translationZh": "這份指引對於如何標註來源給了明確的說明。"
+        }
+      ]
+    },
+    {
+      "headword": "federal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "聯邦的；聯邦政府的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Federal funding supports research at most public universities.",
+          "translationZh": "聯邦經費資助多數公立大學的研究。"
+        }
+      ]
+    },
+    {
+      "headword": "fee",
+      "partOfSpeech": "n.",
+      "definitionZh": "費用、規費；（專業服務的）酬金",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Higher tuition fees may discourage students from low-income families.",
+          "translationZh": "較高的學費可能使低收入家庭的學生卻步。"
+        }
+      ]
+    },
+    {
+      "headword": "flexible",
+      "partOfSpeech": "adj.",
+      "definitionZh": "有彈性的、可變通的；易彎曲的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Flexible working hours have improved employee satisfaction.",
+          "translationZh": "彈性工時已提升員工的滿意度。"
+        }
+      ]
+    },
+    {
+      "headword": "furthermore",
+      "partOfSpeech": "adv.",
+      "definitionZh": "此外、而且（用於補充論點）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Furthermore, recycling programmes reduce the volume of waste sent to landfill.",
+          "translationZh": "此外，回收計畫減少了送往掩埋場的廢棄物量。"
+        }
+      ]
+    },
+    {
+      "headword": "gender",
+      "partOfSpeech": "n.",
+      "definitionZh": "性別；社會文化上的性別角色",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The study found no significant gender differences in test scores.",
+          "translationZh": "該研究在測驗分數上未發現顯著的性別差異。"
+        }
+      ]
+    },
+    {
+      "headword": "ignorant",
+      "partOfSpeech": "adj.",
+      "definitionZh": "無知的、不知情的；缺乏知識的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Many consumers remain ignorant of how their food is produced.",
+          "translationZh": "許多消費者仍不了解他們的食物是如何生產的。"
+        }
+      ]
+    },
+    {
+      "headword": "incentive",
+      "partOfSpeech": "n.",
+      "definitionZh": "誘因、獎勵；促使行動的動機",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Tax incentives encourage companies to invest in clean energy.",
+          "translationZh": "稅務誘因鼓勵企業投資潔淨能源。"
+        }
+      ]
+    },
+    {
+      "headword": "incidence",
+      "partOfSpeech": "n.",
+      "definitionZh": "發生率、發生的頻率",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The incidence of respiratory illness rose sharply in polluted areas.",
+          "translationZh": "在污染地區，呼吸道疾病的發生率急遽上升。"
+        }
+      ]
+    },
+    {
+      "headword": "incorporate",
+      "partOfSpeech": "v.",
+      "definitionZh": "納入、併入；使成為整體的一部分",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The new curriculum incorporates digital literacy into every subject.",
+          "translationZh": "新課綱將數位素養納入每一個科目之中。"
+        }
+      ]
+    },
+    {
+      "headword": "index",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "指數、索引；為……編索引",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The air quality index has become a daily concern for city residents.",
+          "translationZh": "空氣品質指數已成為城市居民每日關注的事。"
+        }
+      ]
+    },
+    {
+      "headword": "inhibit",
+      "partOfSpeech": "v.",
+      "definitionZh": "抑制、阻礙；使拘束",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Fear of failure can inhibit creative thinking in the classroom.",
+          "translationZh": "害怕失敗可能抑制課堂上的創意思考。"
+        }
+      ]
+    },
+    {
+      "headword": "initiate",
+      "partOfSpeech": "v.",
+      "definitionZh": "開始、發起；使初步接觸（某領域）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The council initiated a scheme to plant trees along major roads.",
+          "translationZh": "市議會發起了一項沿主要道路種樹的計畫。"
+        }
+      ]
+    },
+    {
+      "headword": "input",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "投入、輸入（的資源或資料）；輸入資料",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The final design benefited from the input of local residents.",
+          "translationZh": "最終的設計受益於當地居民的意見投入。"
+        }
+      ]
+    },
+    {
+      "headword": "instruct",
+      "partOfSpeech": "v.",
+      "definitionZh": "指示、命令；教導、訓練",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Participants were instructed to complete the questionnaire alone.",
+          "translationZh": "參與者被指示要獨自完成問卷。"
+        }
+      ]
+    },
+    {
+      "headword": "intelligent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "聰明的、有智力的；智慧型的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Crows are remarkably intelligent birds that can solve simple puzzles.",
+          "translationZh": "烏鴉是極為聰明的鳥類，能解開簡單的謎題。"
+        }
+      ]
+    },
+    {
+      "headword": "interval",
+      "partOfSpeech": "n.",
+      "definitionZh": "間隔、間隙（時間或空間上的距離）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Measurements were taken at regular intervals over six months.",
+          "translationZh": "在六個月期間以固定間隔進行測量。"
+        }
+      ]
+    },
+    {
+      "headword": "lecture",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "授課、演講；訓誡、講授",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Recorded lectures allow students to review difficult material at home.",
+          "translationZh": "錄製的課程讓學生能在家複習困難的教材。"
+        }
+      ]
+    },
+    {
+      "headword": "migrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "遷移、移居；（動物）遷徙",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Many workers migrate to cities in search of better opportunities.",
+          "translationZh": "許多勞工遷往城市尋求更好的機會。"
+        }
+      ]
+    },
+    {
+      "headword": "minimum",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "最小量、最低限度；最低的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Applicants must meet the minimum language requirement for entry.",
+          "translationZh": "申請者必須達到入學的最低語言門檻。"
+        }
+      ]
+    },
+    {
+      "headword": "ministry",
+      "partOfSpeech": "n.",
+      "definitionZh": "（政府的）部、部會；部長職務",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The Ministry of Education published new guidelines on class sizes.",
+          "translationZh": "教育部公布了關於班級人數的新指引。"
+        }
+      ]
+    },
+    {
+      "headword": "motive",
+      "partOfSpeech": "n.",
+      "definitionZh": "動機、原因；促使行為的理由",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Profit is not the only motive behind corporate donations.",
+          "translationZh": "利潤並非企業捐款背後唯一的動機。"
+        }
+      ]
+    },
+    {
+      "headword": "neutral",
+      "partOfSpeech": "adj.",
+      "definitionZh": "中立的、不偏袒的；中性的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Academic writing should remain neutral rather than emotional.",
+          "translationZh": "學術寫作應保持中立，而非帶有情緒。"
+        }
+      ]
+    },
+    {
+      "headword": "nevertheless",
+      "partOfSpeech": "adv.",
+      "definitionZh": "儘管如此、然而（用於轉折）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The evidence is limited; nevertheless, the conclusion seems reasonable.",
+          "translationZh": "證據有限；儘管如此，這個結論似乎仍屬合理。"
+        }
+      ]
+    },
+    {
+      "headword": "overseas",
+      "partOfSpeech": "adj./adv.",
+      "definitionZh": "海外的、國外的；在海外、往國外",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The number of overseas students has doubled in a decade.",
+          "translationZh": "海外學生的人數在十年間增加了一倍。"
+        }
+      ]
+    },
+    {
+      "headword": "precede",
+      "partOfSpeech": "v.",
+      "definitionZh": "在……之前發生、先於；居前",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "A period of rapid industrial growth preceded the environmental crisis.",
+          "translationZh": "在這場環境危機之前，先有一段工業快速成長的時期。"
+        }
+      ]
+    },
+    {
+      "headword": "presume",
+      "partOfSpeech": "v.",
+      "definitionZh": "推測、假定（在缺乏證據時認為如此）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Researchers presume that the missing data were lost during transfer.",
+          "translationZh": "研究人員推測遺失的資料是在傳輸過程中弄丟的。"
+        }
+      ]
+    },
+    {
+      "headword": "rational",
+      "partOfSpeech": "adj.",
+      "definitionZh": "理性的、合乎邏輯的；基於理智的",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Consumers do not always make rational decisions about money.",
+          "translationZh": "消費者在金錢上並非總是做出理性的決定。"
+        }
+      ]
+    },
+    {
+      "headword": "recover",
+      "partOfSpeech": "v.",
+      "definitionZh": "恢復、康復；尋回、收回（損失）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Coral reefs may take decades to recover from severe bleaching.",
+          "translationZh": "珊瑚礁可能需要數十年才能從嚴重白化中恢復。"
+        }
+      ]
+    },
+    {
+      "headword": "reveal",
+      "partOfSpeech": "v.",
+      "definitionZh": "顯示、揭露；使顯露出來",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The survey revealed a growing gap between rich and poor households.",
+          "translationZh": "這項調查揭露了貧富家庭之間日益擴大的差距。"
+        }
+      ]
+    },
+    {
+      "headword": "scope",
+      "partOfSpeech": "n.",
+      "definitionZh": "範圍、範疇；發揮的餘地與空間",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "A detailed discussion of genetics lies beyond the scope of this essay.",
+          "translationZh": "關於遺傳學的詳細討論已超出本文的範圍。"
+        }
+      ]
+    },
+    {
+      "headword": "subsidy",
+      "partOfSpeech": "n.",
+      "definitionZh": "補助金、津貼（政府給予的財務支援）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Government subsidies have made solar panels affordable for households.",
+          "translationZh": "政府補助讓一般家庭也負擔得起太陽能板。"
+        }
+      ]
+    },
+    {
+      "headword": "tape",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "帶子、錄音帶；用膠帶黏貼、錄音",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "All interviews were taped and later transcribed for analysis.",
+          "translationZh": "所有訪談都經過錄音，之後謄寫下來以供分析。"
+        }
+      ]
+    },
+    {
+      "headword": "trace",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "追溯、追查；痕跡、微量",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Scientists traced the outbreak to a single contaminated water source.",
+          "translationZh": "科學家將這次疫情追溯到單一受污染的水源。"
+        }
+      ]
+    },
+    {
+      "headword": "transform",
+      "partOfSpeech": "v.",
+      "definitionZh": "轉變、徹底改變（形態或性質）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The internet has transformed the way people access information.",
+          "translationZh": "網際網路已徹底改變人們取得資訊的方式。"
+        }
+      ]
+    },
+    {
+      "headword": "transport",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "運輸、交通工具；運送、搬運",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Investment in public transport can significantly reduce traffic congestion.",
+          "translationZh": "投資大眾運輸能顯著減少交通壅塞。"
+        }
+      ]
+    },
+    {
+      "headword": "underlie",
+      "partOfSpeech": "v.",
+      "definitionZh": "構成……的基礎、潛藏於……之下",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "Economic inequality underlies many of the country's social problems.",
+          "translationZh": "經濟不平等是該國許多社會問題的根本原因。"
+        }
+      ]
+    },
+    {
+      "headword": "utilise",
+      "partOfSpeech": "v.",
+      "definitionZh": "利用、運用（使發揮效用）",
+      "examTags": ["IELTS", "AWL6"],
+      "examples": [
+        {
+          "sentence": "The factory utilises waste heat to generate electricity.",
+          "translationZh": "這間工廠利用廢熱來發電。"
+        }
+      ]
+    }
+  ]
+}

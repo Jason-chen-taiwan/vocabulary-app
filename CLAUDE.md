@@ -1,89 +1,82 @@
 # CLAUDE.md
 
-字彙學習 PWA — 給 Claude 的專案準則與慣例。
+雅思／多益單字學習 PWA — 給 Claude 的專案準則與慣例。
 
-完整設計見 `docs/superpowers/specs/2026-06-27-vocabulary-app-design.md`。本檔只放「如何寫這個專案的程式」的準則，不重複設計細節。
+**這是一個純靜態、單人使用的個人工具。** 沒有帳號、沒有後端、沒有資料庫。
+整個 app build 成靜態檔案部署到 Cloudflare Pages，學習進度存在使用者自己的瀏覽器。
 
 ---
 
 ## 第一準則：模組化、可擴充、可維護
 
-**能模組化就模組化，以未來可擴充性與可維護性為第一考量。** 這是凌駕一切的準則，任何取捨以它為依歸。
+**能模組化就模組化，以未來可擴充性與可維護性為第一考量。**
 
 落實規則：
 
-1. **內容與引擎解耦**：核心引擎（排程、複習、遊戲化）不得知道在背什麼考試。新增單字書/考試/卡片來源，只是「再餵一份資料」，核心程式不動。
-2. **依介面而非實作**：跨模組溝通透過介面與型別。排程器以 `SchedulerService` 介面對外（FSRS 只是其中一種實作），上層不得直接依賴 `ts-fsrs`。
-3. **遊戲化事件驅動**：學習核心只 `publish` 領域事件（`ReviewCompleted`、`SessionFinished` 等）。遊戲化各機制各自 `subscribe`，互不耦合。新增成就/機制 = 新增訂閱者，不得修改學習邏輯。
-4. **規則用設定資料、不寫死**：徽章、成就、商店品項、等級曲線等以設定資料描述，不散落在程式分支裡。
-5. **資料存取收斂**：一律透過 Prisma + repository 模式。業務邏輯不得散落原生 SQL 或直接拼裝查詢。
-6. **小而專注**：每個檔案/模組單一職責，能回答「做什麼、怎麼用、依賴誰」。檔案變大 = 責任過多的訊號，應拆分。
-7. **乾淨擴充點**：AI 匯入（下一輪）將以新增 `CardSource` 實作 + 生成管線接入。現在寫的程式不得做出會阻擋此擴充的假設。
-8. **虛擬經濟收斂**：硬幣餘額是後端權威的單一真相（`GamificationState.coinBalance`）。前端從不自己算或存餘額；所有「賺幣／花幣」一律經服務層（gamification／shop）改這一個欄位，業務他處不得直接動 `coinBalance`。購買時前端只送「買哪件（itemKey）」，其餘由後端判定——從 catalog 查價格、讀當前餘額、不足即拒（餘額不動）、足夠才扣幣＋授予；不信任前端送的價格或擁有狀態。
+1. **內容與引擎解耦**：核心引擎（排程、複習）不得知道在背什麼考試。新增單字書/考試，只是「在 `content/` 再放一份 JSON 並登記到 `lib/content/static.ts`」，核心程式不動。
+2. **依介面而非實作**：排程器以 `SchedulerService` 介面對外（FSRS 只是其中一種實作），上層不得直接依賴 `ts-fsrs`。
+3. **規則用設定資料、不寫死**：等級曲線、每日題數等以設定資料描述（`lib/progress/config.ts`），不散落在程式分支裡。
+4. **小而專注**：每個檔案單一職責。檔案變大 = 責任過多的訊號，應拆分。
+5. **進度存取收斂**：所有 localStorage 讀寫一律經過 `lib/progress/store.ts`，業務他處不得自己碰 `localStorage`。
 
 ---
 
-## 模組邊界
+## 架構
 
-服務層模組（對外只暴露介面，內部可自由改）：
+```
+content/*.json          單字資料（唯一的內容來源）
+content/passages/*.json 閱讀短文（建置產物，自帶內文/glossary/題目與答案）
+lib/content/static.ts   載入單字 JSON、建索引、產生穩定 wordId
+lib/reading/static.ts   載入短文 JSON；解析 curated → wordId 並覆蓋釋義
+lib/learning/           純邏輯：出題、判定、FSRS 排程（無 I/O）
+lib/progress/store.ts   進度讀寫（localStorage）＋ 佇列組成
+lib/progress/reading.ts 閱讀判題、短文成績、生字本
+app/*                   頁面；需要進度的一律是 client component
+```
 
-`auth` · `content` · `scheduler` · `learning` · `gamification` · `shop` · `leaderboard` · `stats` · `sync` · `events` · `pwa-shell` · `reading`
+**閱讀短文的 `curated` 解析**：`content/passages/*.json` 的 glossary 有 `curated: true` 的字，
+釋義來自 ECDICT 首義、常選錯詞義（例：net → 網）。`lib/reading/static.ts` 在載入時
+把這些字對到精修字庫並**以精修定義覆蓋**。原本這步在 seed 進 DB 時做，靜態版沒有 seed，
+所以移到載入時；`lib/reading/__tests__/static.test.ts` 守住這個行為，不要拿掉。
 
-模組間以介面與領域事件溝通，**不得**直接 import 另一模組的內部實作。
-
----
+**單字 id 是 `<bookSlug>:<headword>`**，內容衍生而非陣列索引——進度存在本機，id 必須跨 build 穩定，否則使用者的複習紀錄會全部對不上。修改 JSON 時可以改釋義、例句，但**改 headword 或 slug 等同於讓那張卡的進度歸零**。
 
 ## 技術棧
 
-- Next.js（App Router）+ React + TypeScript
+- Next.js（App Router，`output: 'export'`）+ React + TypeScript
 - Tailwind CSS
-- Auth.js（**純 Google OAuth**，不做 Email/密碼）
-- **Neon Postgres** + Prisma（repository 模式，**Neon serverless driver/HTTP**，非 TCP 連線池）
-- `ts-fsrs`（藏在 `scheduler` 模組後）
+- `ts-fsrs`（藏在 `lib/learning/scheduler.ts` 後）
 - TTS：瀏覽器 Web Speech API（不呼叫付費 TTS）
-- 部署：**Cloudflare**（Workers/Pages + OpenNext）
-- PWA：Manifest + Service Worker + IndexedDB（離線複習 + 同步佇列）
+- 部署：Cloudflare Pages（純靜態，`npm run build` → `out/`）
+- PWA：Manifest + Service Worker（離線可用）
 - 測試：Vitest
 
 ## 成本鐵則
 
-- 只用「免費或固定低月費、**無超量自動爆帳單**」的服務；外部依賴超量必須是限流/暫停，不可自動扣款。
-- **不在 runtime 呼叫 AI**：TOEIC 詞表與例句一次性離線生成後存靜態資料，零 API 邊際成本。
-- edge 環境：DB 走 Neon serverless driver（HTTP），repository 層統一處理，不可用傳統 TCP 連線池。
+- 零 runtime 成本：沒有伺服器、沒有資料庫、沒有 API 呼叫。
+- **不在 runtime 呼叫 AI**：詞表與例句一次性離線生成後存靜態 JSON。
 
 ---
 
-## 資安鐵則
+## 資安與正確性
 
-- **前端只負責呈現（UI/UX）**；資料、登入/授權、計分、答案判定等主責一律在後端。
-- **凡影響共享狀態或排名/獎勵的數值，一律由後端權威判定，不得信任前端輸入**。例：答對與否由 server 依該字重新比對使用者作答得出，不可採用前端送來的 `correct`。
-- 身分/權限以 server session（Auth.js `auth()`）為準，不可由前端宣稱。
-- 不得引入資安違規操作（不外洩密鑰、不繞過授權、不在 URL 帶敏感資料）。
-- 已知限制要誠實記錄（例：題庫內容對前端可見，server 判定答案可擋粗暴偽造，但無法完全防腳本化刷分；要徹底防需 server 發題 + 不外洩答案 + 限流，列為後續）。
-
----
-
-## 內容格式慣例（content/*.json）
-
-- **`definitionZh` 一律「短對譯，補充說明」格式**：開頭必須是 2–6 字的中文對譯詞，接全形逗號「，」，再接簡短補充說明。例：「條款，合約中規範特定事項的條文」。
-- 「；」只用於分隔**不同詞義**，每個義項也要以短對譯開頭。不可用「；」分隔對譯與說明。
-- 機器驗證規則：每個「；」義項去掉全形括號內容後，第一個「，」或「、」之前的片段 ≤6 字。
-- 同一本書內定義文字不得重複；說明避免直接出現該英文字拼字。
-- 新增/生成任何單字內容（含未來 AI 匯入）都必須遵守此格式。
+- 這是單人工具，**沒有共享狀態、沒有排名，因此不存在「防作弊」問題**；對錯在前端判定即可（使用者作弊只是騙自己）。
+- 進度只存在本機 localStorage。**這是唯一一份資料**，所以統計頁必須一直保留匯出／匯入備份功能。
+- 讀取 localStorage 一律要能承受「不存在／格式壞掉／配額滿」三種情況，壞了就當作空進度，不可讓頁面整個爆掉。
+- 需要進度的元件用 `lib/progress/use-progress.ts`（`useSyncExternalStore`），不要在 `useEffect` 裡 `setState`——會觸發 lint 錯誤也會多一次 render。
 
 ---
 
 ## 開發紀律
 
-- **TDD**：先寫測試再寫實作。FSRS 排程、遊戲化規則、事件訂閱、離線同步衝突都必須有測試。
-- **契約測試**：模組介面以介面為界測試，確保實作可替換。
+- **TDD**：先寫測試再寫實作。FSRS 排程、進度存取、連續天數計算都必須有測試。
 - 跟隨既有檔案的命名、註解密度與慣用寫法。
 - 不做與當前目標無關的重構。
-
----
+- 改完 `content/` 一定要跑 `npm run check-content`（檢查重複字、缺例句、句子過長）。
+- 重複字檢查以「同一考試內」為範圍：同一個字同時出現在雅思與多益是正常的。
 
 ## 範圍提醒
 
-- 本輪做齊：帳號同步、TOEIC 單字書、FSRS、四種遊戲化、統計、離線 PWA。
-- 本輪**不做**：AI 匯入生卡、付費金流（但資料模型/權限欄位預留）。
-- 遊戲化採正向設計：不抄 Duolingo 的 hearts 扣命與通知轟炸；不把核心功能鎖付費牆。
+- 本輪做齊：雅思 AWL 570 字、多益既有 1998 字、FSRS 排程、統計、離線 PWA、進度備份、
+  沉浸閱讀（37 篇短文 + Part 7 題目 + 點字查詢 + 生字本）。
+- 本輪**不做**：帳號、跨裝置同步、排行榜、商店/虛擬經濟、AI 匯入生卡。

@@ -7,33 +7,40 @@ import type { WordWithExamples } from '@/lib/content/types'
 import type { PassagePayload } from '@/lib/reading/types'
 import { GlossaryDictionary } from '@/lib/reading/dictionary'
 import { readSecondsBetween, wpm } from '@/lib/reading/reader-logic'
+import { answerKey } from '@/lib/reading/static'
+import { loadProgress, saveProgress } from '@/lib/progress/store'
+import {
+  gradePassage, recordPassageResult, collectWord, isCollected, listNotebook,
+} from '@/lib/progress/reading'
 
 const dictionary = new GlossaryDictionary()
 
-interface SubmitResponse {
-  ok: boolean
+interface Outcome {
   results: { correct: boolean; answer: number }[]
   correctCount: number
   totalCount: number
   firstCompletion: boolean
-  reward: { xpGained: number; leveledUpTo: number | null } | null
 }
 
-export function PassageReader({ passage, curatedWords, collectedLemmas, priorResult }: {
+export function PassageReader({ passage, curatedWords }: {
   passage: PassagePayload
   curatedWords: WordWithExamples[]
-  collectedLemmas: string[]
-  priorResult: { correctCount: number; totalCount: number } | null
 }) {
   const curatedById = useMemo(() => new Map(curatedWords.map((w) => [w.id, w])), [curatedWords])
-  const [collected, setCollected] = useState(() => new Set(collectedLemmas))
+  // 生字本與上次成績都存在 localStorage；lazy initializer 只在 client 第一次 render 時讀。
+  const [collected, setCollected] = useState<Set<string>>(
+    () => new Set(typeof window === 'undefined' ? [] : listNotebook(loadProgress()).map((w) => w.lemma)),
+  )
+  const [priorResult] = useState<{ correctCount: number; totalCount: number } | null>(() => {
+    if (typeof window === 'undefined') return null
+    const r = loadProgress().passages?.[passage.slug]
+    return r ? { correctCount: r.correctCount, totalCount: r.totalCount } : null
+  })
   const [selected, setSelected] = useState<string | null>(null) // lemma
   const [phase, setPhase] = useState<'reading' | 'quiz' | 'result'>('reading')
   const [answers, setAnswers] = useState<(number | null)[]>(() => passage.questions.map(() => null))
-  const [outcome, setOutcome] = useState<SubmitResponse | null>(null)
+  const [outcome, setOutcome] = useState<Outcome | null>(null)
   const [readSeconds, setReadSeconds] = useState<number | null>(null)
-  const [busy, setBusy] = useState(false)
-  const [errorMsg, setErrorMsg] = useState<string | null>(null)
   // 計時起點在 mount 後設定（render 中呼叫 Date.now() 違反 React 純渲染規則）
   const startMs = useRef<number | null>(null)
   useEffect(() => {
@@ -43,21 +50,14 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
   const entry = selected ? dictionary.lookup(selected, passage) : null // 查詞一律走 DictionaryService 隔離點
   const curated = entry?.wordId ? curatedById.get(entry.wordId) ?? null : null
 
-  async function collect(lemma: string) {
-    if (busy || collected.has(lemma)) return
-    setBusy(true)
-    setErrorMsg(null)
-    try {
-      const res = await fetch('/api/vocab/collect', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ passageSlug: passage.slug, lemma }),
-      })
-      const data = await res.json()
-      if (data.ok) setCollected((prev) => new Set(prev).add(lemma))
-      else setErrorMsg('連線失敗，請再試一次')
-    } catch {
-      setErrorMsg('連線失敗，請再試一次')
-    } finally { setBusy(false) }
+  function collect(lemma: string) {
+    if (collected.has(lemma)) return
+    const e = dictionary.lookup(lemma, passage)
+    if (!e) return
+    const p = loadProgress()
+    if (isCollected(p, lemma)) { setCollected((prev) => new Set(prev).add(lemma)); return }
+    saveProgress(collectWord(p, { lemma, zh: e.zh, pos: e.pos, passageSlug: passage.slug }))
+    setCollected((prev) => new Set(prev).add(lemma))
   }
 
   function startQuiz() {
@@ -65,21 +65,17 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
     setPhase('quiz')
   }
 
-  async function submit() {
-    if (busy || answers.some((a) => a === null)) return
-    setBusy(true)
-    setErrorMsg(null)
-    try {
-      const res = await fetch('/api/passage/submit', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ slug: passage.slug, answers, readSeconds: readSeconds ?? undefined }),
-      })
-      const data: SubmitResponse = await res.json()
-      if (data.ok) { setOutcome(data); setPhase('result') }
-      else setErrorMsg('連線失敗，請再試一次')
-    } catch {
-      setErrorMsg('連線失敗，請再試一次')
-    } finally { setBusy(false) }
+  function submit() {
+    if (answers.some((a) => a === null)) return
+    const graded = gradePassage(answers, answerKey(passage.slug))
+    const { progress, firstCompletion } = recordPassageResult(loadProgress(), passage.slug, {
+      correctCount: graded.correctCount,
+      totalCount: graded.totalCount,
+      readSeconds,
+    })
+    saveProgress(progress)
+    setOutcome({ ...graded, firstCompletion })
+    setPhase('result')
   }
 
   const speed = wpm(passage.wordCount, readSeconds)
@@ -141,11 +137,10 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
           ))}
           <button
             type="button"
-            disabled={busy || answers.some((a) => a === null)}
+            disabled={answers.some((a) => a === null)}
             onClick={submit}
             className="inline-flex min-h-11 w-full items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white shadow-[0_6px_14px_rgba(255,106,61,.35)] transition hover:bg-primary-600 disabled:opacity-40"
           >送出答案</button>
-          {errorMsg && <p className="mt-2 text-center text-sm font-bold text-error">{errorMsg}</p>}
         </div>
       )}
 
@@ -156,13 +151,8 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
               {outcome.totalCount > 0 ? `答對 ${outcome.correctCount}/${outcome.totalCount}` : '閱讀完成！'}
             </p>
             {speed !== null && <p className="mt-1 text-sm text-neutral-600">閱讀速度 {speed} WPM（{readSeconds} 秒）</p>}
-            {outcome.reward && (
-              <p className="mt-2 font-bold text-primary-600">
-                +{outcome.reward.xpGained} XP{outcome.reward.leveledUpTo ? `，升到 Lv.${outcome.reward.leveledUpTo}！` : ''}
-              </p>
-            )}
             {!outcome.firstCompletion && outcome.totalCount > 0 && (
-              <p className="mt-2 text-sm text-neutral-600">重讀不重複給獎，成績已更新</p>
+              <p className="mt-2 text-sm text-neutral-600">成績已更新</p>
             )}
           </div>
           {passage.questions.map((q, qi) => (
@@ -197,12 +187,11 @@ export function PassageReader({ passage, curatedWords, collectedLemmas, priorRes
             )}
             <button
               type="button"
-              disabled={busy || collected.has(selected)}
+              disabled={collected.has(selected)}
               onClick={() => collect(selected)}
               className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white shadow-[0_6px_14px_rgba(255,106,61,.35)] transition hover:bg-primary-600 disabled:opacity-60"
             >{collected.has(selected) ? '已在生字本 ✓' : '加入生字本 ➕'}</button>
-            {errorMsg && <p className="mt-2 text-center text-sm font-bold text-error">{errorMsg}</p>}
-          </div>
+            </div>
         </div>
       )}
     </div>

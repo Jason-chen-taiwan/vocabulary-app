@@ -1,0 +1,458 @@
+{
+  "slug": "ielts-awl-10",
+  "name": "學術詞表 Sublist 10",
+  "description": "Coxhead 學術詞表（AWL）第十級：出現頻率最低但難度最高的 30 個字族，多見於嚴謹的學術論述與高分寫作。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "adjacent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "鄰接的、毗鄰的；緊靠在旁邊的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The new laboratory was built on land adjacent to the main campus.",
+          "translationZh": "新的實驗室蓋在緊鄰主校區的土地上。"
+        }
+      ]
+    },
+    {
+      "headword": "albeit",
+      "partOfSpeech": "conj.",
+      "definitionZh": "儘管、雖然（用於引出讓步，語氣較正式）",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The policy has reduced pollution, albeit at a considerable economic cost.",
+          "translationZh": "這項政策確實減少了污染，儘管付出了相當高的經濟代價。"
+        }
+      ]
+    },
+    {
+      "headword": "assemble",
+      "partOfSpeech": "v.",
+      "definitionZh": "集合、聚集；組裝、拼裝（零件）",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The research team assembled a large body of evidence before publishing its findings.",
+          "translationZh": "研究團隊在發表結果之前蒐集了大量的證據。"
+        }
+      ]
+    },
+    {
+      "headword": "collapse",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "倒塌、崩潰；瓦解、失敗",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Overfishing led to the collapse of several coastal fish populations.",
+          "translationZh": "過度捕撈導致數種沿海魚類族群的崩潰。"
+        }
+      ]
+    },
+    {
+      "headword": "colleague",
+      "partOfSpeech": "n.",
+      "definitionZh": "同事、同僚；共事的專業人士",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "She discussed the experimental design with colleagues from three other universities.",
+          "translationZh": "她與來自另外三所大學的同事討論了實驗設計。"
+        }
+      ]
+    },
+    {
+      "headword": "compile",
+      "partOfSpeech": "v.",
+      "definitionZh": "編纂、彙整；蒐集資料整理成冊",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The agency compiled data from more than fifty monitoring stations.",
+          "translationZh": "該機構彙整了超過五十個監測站的資料。"
+        }
+      ]
+    },
+    {
+      "headword": "conceive",
+      "partOfSpeech": "v.",
+      "definitionZh": "構想、想出；設想、理解",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "It is difficult to conceive of a society that functions entirely without written records.",
+          "translationZh": "很難設想一個完全沒有文字紀錄仍能運作的社會。"
+        }
+      ]
+    },
+    {
+      "headword": "convince",
+      "partOfSpeech": "v.",
+      "definitionZh": "說服、使信服；令人相信某事為真",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The evidence was not strong enough to convince the committee to change its policy.",
+          "translationZh": "這些證據不足以說服委員會改變其政策。"
+        }
+      ]
+    },
+    {
+      "headword": "depress",
+      "partOfSpeech": "v.",
+      "definitionZh": "使沮喪；使（價格、活動等）下降、壓低",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Rising interest rates tend to depress consumer spending.",
+          "translationZh": "利率上升往往會壓低消費者的支出。"
+        }
+      ]
+    },
+    {
+      "headword": "encounter",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "遭遇、碰上（困難等）；相遇、接觸",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "International students often encounter difficulties adapting to a new academic culture.",
+          "translationZh": "國際學生在適應新的學術文化時經常遭遇困難。"
+        }
+      ]
+    },
+    {
+      "headword": "enormous",
+      "partOfSpeech": "adj.",
+      "definitionZh": "巨大的、龐大的；程度或數量極大的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Renewable energy has enormous potential in regions with abundant sunlight.",
+          "translationZh": "在日照充足的地區，再生能源具有巨大的潛力。"
+        }
+      ]
+    },
+    {
+      "headword": "forthcoming",
+      "partOfSpeech": "adj.",
+      "definitionZh": "即將到來的；（資源）可隨時取得的；願意提供訊息的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The results will be presented at the forthcoming conference in Geneva.",
+          "translationZh": "研究結果將在即將於日內瓦舉行的會議上發表。"
+        }
+      ]
+    },
+    {
+      "headword": "incline",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "使傾向於、傾斜；斜坡、坡度",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Most economists are inclined to believe that the recovery will be gradual.",
+          "translationZh": "多數經濟學家傾向於認為這次復甦會是漸進的。"
+        }
+      ]
+    },
+    {
+      "headword": "integrity",
+      "partOfSpeech": "n.",
+      "definitionZh": "正直、誠信；完整性、未受損的狀態",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Academic integrity requires that all sources be properly acknowledged.",
+          "translationZh": "學術誠信要求所有資料來源都必須被妥善註明。"
+        }
+      ]
+    },
+    {
+      "headword": "intrinsic",
+      "partOfSpeech": "adj.",
+      "definitionZh": "本質的、固有的；事物本身所具備的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Children learn best when they feel intrinsic motivation rather than external pressure.",
+          "translationZh": "孩子在感受到內在動機而非外在壓力時學得最好。"
+        }
+      ]
+    },
+    {
+      "headword": "invoke",
+      "partOfSpeech": "v.",
+      "definitionZh": "援引、訴諸（法律、原則等）；喚起、引發",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The government invoked emergency powers to limit water consumption during the drought.",
+          "translationZh": "政府在乾旱期間援引緊急權力以限制用水。"
+        }
+      ]
+    },
+    {
+      "headword": "levy",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "徵收（稅捐、費用）；徵稅、稅款",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Several countries have levied a tax on single-use plastic bags.",
+          "translationZh": "數個國家已針對一次性塑膠袋徵收稅金。"
+        }
+      ]
+    },
+    {
+      "headword": "likewise",
+      "partOfSpeech": "adv.",
+      "definitionZh": "同樣地、也；照樣地",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Urban air quality improved after the reform; rural areas benefited likewise.",
+          "translationZh": "改革之後城市空氣品質改善了，鄉村地區同樣受惠。"
+        }
+      ]
+    },
+    {
+      "headword": "nonetheless",
+      "partOfSpeech": "adv.",
+      "definitionZh": "儘管如此、然而；雖然如此仍然",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The sample was small; nonetheless, the findings are worth further investigation.",
+          "translationZh": "樣本數偏少；儘管如此，這些發現仍值得進一步研究。"
+        }
+      ]
+    },
+    {
+      "headword": "notwithstanding",
+      "partOfSpeech": "prep./adv.",
+      "definitionZh": "雖然、儘管；不受某事影響地",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Notwithstanding these limits, the study offers valuable insights.",
+          "translationZh": "儘管有這些限制，這項研究仍提供了寶貴的見解。"
+        }
+      ]
+    },
+    {
+      "headword": "odd",
+      "partOfSpeech": "adj.",
+      "definitionZh": "奇怪的、不尋常的；奇數的；零星的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "It seems odd that the two surveys produced such different results.",
+          "translationZh": "這兩份調查得出如此不同的結果，似乎有些奇怪。"
+        }
+      ]
+    },
+    {
+      "headword": "ongoing",
+      "partOfSpeech": "adj.",
+      "definitionZh": "持續進行中的；尚未結束的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The ongoing debate about online privacy shows no sign of ending.",
+          "translationZh": "關於網路隱私的持續辯論絲毫沒有結束的跡象。"
+        }
+      ]
+    },
+    {
+      "headword": "panel",
+      "partOfSpeech": "n.",
+      "definitionZh": "小組、專家評審團；嵌板、面板",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "A panel of independent experts reviewed the environmental impact report.",
+          "translationZh": "一個由獨立專家組成的小組審查了這份環境影響報告。"
+        }
+      ]
+    },
+    {
+      "headword": "persist",
+      "partOfSpeech": "v.",
+      "definitionZh": "堅持、固執；持續存在、延續",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Inequality in access to education persists despite decades of reform.",
+          "translationZh": "儘管歷經數十年的改革，教育機會的不平等依然存在。"
+        }
+      ]
+    },
+    {
+      "headword": "pose",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "造成（問題、威脅）；提出（問題）；擺姿勢、姿態",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "Rising sea levels pose a serious threat to low-lying island nations.",
+          "translationZh": "海平面上升對低窪的島國造成嚴重威脅。"
+        }
+      ]
+    },
+    {
+      "headword": "reluctance",
+      "partOfSpeech": "n.",
+      "definitionZh": "不情願、勉強；猶豫而不願為之的態度",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "There is widespread reluctance among older workers to retrain in digital skills.",
+          "translationZh": "年長勞工普遍不情願重新學習數位技能。"
+        }
+      ]
+    },
+    {
+      "headword": "so-called",
+      "partOfSpeech": "adj.",
+      "definitionZh": "所謂的（常帶質疑語氣，暗示名不副實）",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The so-called smart city projects have yet to deliver their promised benefits.",
+          "translationZh": "這些所謂的智慧城市計畫尚未帶來所承諾的效益。"
+        }
+      ]
+    },
+    {
+      "headword": "straightforward",
+      "partOfSpeech": "adj.",
+      "definitionZh": "簡單明瞭的、不複雜的；坦率直接的",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The procedure is straightforward enough for first-year students to follow.",
+          "translationZh": "這個步驟夠簡單明瞭，一年級學生也能照著操作。"
+        }
+      ]
+    },
+    {
+      "headword": "undergo",
+      "partOfSpeech": "v.",
+      "definitionZh": "經歷、接受（變化、檢驗、治療等）",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The city has undergone rapid transformation over the past two decades.",
+          "translationZh": "這座城市在過去二十年間經歷了快速的轉變。"
+        }
+      ]
+    },
+    {
+      "headword": "whereby",
+      "partOfSpeech": "adv.",
+      "definitionZh": "藉此、憑此；用以說明方式或途徑的關係副詞",
+      "examTags": [
+        "IELTS",
+        "AWL10"
+      ],
+      "examples": [
+        {
+          "sentence": "The university introduced a scheme whereby students can study abroad for one semester.",
+          "translationZh": "該大學推出一項方案，學生藉此可以出國研修一個學期。"
+        }
+      ]
+    }
+  ]
+}

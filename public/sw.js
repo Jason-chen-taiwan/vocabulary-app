@@ -1,44 +1,16 @@
 import { shouldCache } from './sw-strategy.js'
 
-const CACHE = 'vocab-v2'
-const OFFLINE_URL = '/offline'
+const CACHE = 'vocab-v1'
 
 self.addEventListener('install', (e) => {
-  // /offline 是 client component，離線 hydrate 需要它的 _next/static chunks；
-  // install 時一併快取，讓沒在線上訪問過 /offline 的裝置也能離線用
-  e.waitUntil(
-    (async () => {
-      const cache = await caches.open(CACHE)
-      const res = await fetch(OFFLINE_URL).catch(() => null)
-      if (res && res.ok) {
-        await cache.put(OFFLINE_URL, res.clone())
-        const html = await res.text()
-        const assetUrls = [...new Set(html.match(/\/_next\/static\/[^"'\\\s)>]+/g) || [])]
-        await Promise.all(assetUrls.map((u) => cache.add(u).catch(() => {})))
-      }
-      self.skipWaiting()
-    })()
-  )
+  e.waitUntil(self.skipWaiting())
 })
 
 self.addEventListener('activate', (e) => {
-  e.waitUntil(
-    caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
-      .then(() => self.clients.claim())
-  )
+  e.waitUntil(self.clients.claim())
 })
 
 self.addEventListener('fetch', (event) => {
-  // 離線導航 fallback：任何頁面導航失敗都給快取的 /offline 殼
-  if (event.request.mode === 'navigate') {
-    event.respondWith(
-      fetch(event.request).catch(() =>
-        caches.open(CACHE).then((c) => c.match(OFFLINE_URL)).then((r) => r ?? Response.error())
-      )
-    )
-    return
-  }
   const url = new URL(event.request.url)
   if (event.request.method !== 'GET' || !shouldCache(url.pathname)) return
   event.respondWith(

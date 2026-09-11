@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-5",
+  "name": "學術詞表 Sublist 5",
+  "description": "Coxhead 學術詞表（AWL）第五級：涵蓋研究、社會與科技論述常見的 60 個字族，適合雅思閱讀與寫作進階累積。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "academy",
+      "partOfSpeech": "n.",
+      "definitionZh": "學院、專科學校；學術界、研究院",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The academy offers specialised training for future science teachers.",
+          "translationZh": "這所學院為未來的科學教師提供專門訓練。"
+        }
+      ]
+    },
+    {
+      "headword": "adjust",
+      "partOfSpeech": "v.",
+      "definitionZh": "調整、調節；適應（新環境或狀況）",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "International students often need a full term to adjust to a new academic culture.",
+          "translationZh": "國際學生通常需要一整個學期才能適應新的學術文化。"
+        }
+      ]
+    },
+    {
+      "headword": "alter",
+      "partOfSpeech": "v.",
+      "definitionZh": "改變、更動；使有所不同",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Rising sea temperatures may permanently alter coastal ecosystems.",
+          "translationZh": "海水溫度上升可能永久改變沿海生態系統。"
+        }
+      ]
+    },
+    {
+      "headword": "amend",
+      "partOfSpeech": "v.",
+      "definitionZh": "修正、修訂（法律、文件或內容）",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Parliament voted to amend the law on industrial emissions.",
+          "translationZh": "國會投票通過修訂有關工業排放的法律。"
+        }
+      ]
+    },
+    {
+      "headword": "aware",
+      "partOfSpeech": "adj.",
+      "definitionZh": "察覺的、意識到的；有所認知的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Many consumers are not fully aware of the environmental cost of fast fashion.",
+          "translationZh": "許多消費者並未充分意識到快時尚對環境造成的代價。"
+        }
+      ]
+    },
+    {
+      "headword": "capacity",
+      "partOfSpeech": "n.",
+      "definitionZh": "容量、容納量；能力、負荷量",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The city's public transport system is already operating at full capacity.",
+          "translationZh": "這座城市的大眾運輸系統已經處於滿載運作的狀態。"
+        }
+      ]
+    },
+    {
+      "headword": "challenge",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "挑戰、難題；質疑、向……挑戰",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Recent findings challenge the assumption that economic growth always reduces poverty.",
+          "translationZh": "近期的研究結果質疑了經濟成長必然減少貧窮的這項假設。"
+        }
+      ]
+    },
+    {
+      "headword": "clause",
+      "partOfSpeech": "n.",
+      "definitionZh": "條款（合約或法律中的段落）；子句",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The contract contains a clause that protects the rights of part-time workers.",
+          "translationZh": "這份合約包含一項保障兼職工作者權益的條款。"
+        }
+      ]
+    },
+    {
+      "headword": "compound",
+      "partOfSpeech": "n./v./adj.",
+      "definitionZh": "化合物、複合體；使加劇、混合；複合的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Poor urban planning compounds the effects of extreme weather.",
+          "translationZh": "不良的都市規劃加劇了極端天氣所造成的影響。"
+        }
+      ]
+    },
+    {
+      "headword": "conflict",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "衝突、矛盾；抵觸、不一致",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The two studies reach conclusions that directly conflict with each other.",
+          "translationZh": "這兩項研究得出的結論彼此直接相互矛盾。"
+        }
+      ]
+    },
+    {
+      "headword": "consult",
+      "partOfSpeech": "v.",
+      "definitionZh": "諮詢、請教；查閱（資料）",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Planners should consult local residents before approving the development.",
+          "translationZh": "規劃人員在核准開發案之前應先諮詢當地居民。"
+        }
+      ]
+    },
+    {
+      "headword": "contact",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "接觸、聯繫；與……聯絡",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Regular contact with native speakers accelerates language acquisition.",
+          "translationZh": "與母語人士的定期接觸能加速語言習得。"
+        }
+      ]
+    },
+    {
+      "headword": "decline",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "下降、衰退；婉拒",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The chart shows a steady decline in newspaper readership since 2000.",
+          "translationZh": "圖表顯示自二〇〇〇年以來報紙閱讀人數持續下降。"
+        }
+      ]
+    },
+    {
+      "headword": "discrete",
+      "partOfSpeech": "adj.",
+      "definitionZh": "分離的、個別的；不連續的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The training programme is divided into four discrete stages.",
+          "translationZh": "這項訓練課程分為四個各自獨立的階段。"
+        }
+      ]
+    },
+    {
+      "headword": "draft",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "草稿、草案；起草、擬定",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Students are encouraged to revise the first draft of their essay carefully.",
+          "translationZh": "學生應仔細修改論文的第一版草稿。"
+        }
+      ]
+    },
+    {
+      "headword": "enable",
+      "partOfSpeech": "v.",
+      "definitionZh": "使能夠、使成為可能",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Online platforms enable learners in remote areas to access university courses.",
+          "translationZh": "線上平台讓偏遠地區的學習者得以取得大學課程。"
+        }
+      ]
+    },
+    {
+      "headword": "energy",
+      "partOfSpeech": "n.",
+      "definitionZh": "能源、能量；精力、活力",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Renewable energy now accounts for a growing share of national electricity supply.",
+          "translationZh": "再生能源如今在全國電力供應中所占的比例日益提高。"
+        }
+      ]
+    },
+    {
+      "headword": "enforce",
+      "partOfSpeech": "v.",
+      "definitionZh": "執行、強制實施（法律或規定）",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Without adequate funding, authorities cannot enforce pollution regulations effectively.",
+          "translationZh": "若缺乏足夠經費，主管機關便無法有效執行污染防治規定。"
+        }
+      ]
+    },
+    {
+      "headword": "entity",
+      "partOfSpeech": "n.",
+      "definitionZh": "實體、獨立存在的個體",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Each university is treated as a separate legal entity.",
+          "translationZh": "每所大學都被視為獨立的法律實體。"
+        }
+      ]
+    },
+    {
+      "headword": "equivalent",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "相等的、等同的；相等物、對應物",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The savings are equivalent to the annual emissions of a small town.",
+          "translationZh": "節省下來的量相當於一座小鎮一年的排放量。"
+        }
+      ]
+    },
+    {
+      "headword": "evolve",
+      "partOfSpeech": "v.",
+      "definitionZh": "演化、逐步發展",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Teaching methods have evolved considerably over the past two decades.",
+          "translationZh": "教學方法在過去二十年間有了長足的演變。"
+        }
+      ]
+    },
+    {
+      "headword": "expand",
+      "partOfSpeech": "v.",
+      "definitionZh": "擴大、擴張；詳細闡述",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The university plans to expand its research facilities next year.",
+          "translationZh": "該大學計畫在明年擴建其研究設施。"
+        }
+      ]
+    },
+    {
+      "headword": "expose",
+      "partOfSpeech": "v.",
+      "definitionZh": "使暴露於、使接觸；揭露、揭發",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Children exposed to air pollution are more likely to develop respiratory problems.",
+          "translationZh": "暴露於空氣污染中的兒童較容易罹患呼吸道疾病。"
+        }
+      ]
+    },
+    {
+      "headword": "external",
+      "partOfSpeech": "adj.",
+      "definitionZh": "外部的、外來的；對外的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The department relies on external funding for most of its projects.",
+          "translationZh": "該系所大部分的計畫都仰賴外部經費。"
+        }
+      ]
+    },
+    {
+      "headword": "facilitate",
+      "partOfSpeech": "v.",
+      "definitionZh": "促進、使更容易進行",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Small class sizes facilitate more meaningful discussion between students.",
+          "translationZh": "小班制有助於促進學生之間更有意義的討論。"
+        }
+      ]
+    },
+    {
+      "headword": "fundamental",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "基本的、根本的；基本原則",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Access to clean water is a fundamental requirement for public health.",
+          "translationZh": "取得乾淨的水是公共衛生的根本要件。"
+        }
+      ]
+    },
+    {
+      "headword": "generate",
+      "partOfSpeech": "v.",
+      "definitionZh": "產生、生成；引發",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Wind farms generate enough electricity to power thousands of homes.",
+          "translationZh": "風力發電場所產生的電力足以供應數千戶家庭使用。"
+        }
+      ]
+    },
+    {
+      "headword": "generation",
+      "partOfSpeech": "n.",
+      "definitionZh": "世代、一代人；（能源等的）產生",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The younger generation is far more concerned about climate change.",
+          "translationZh": "年輕世代對氣候變遷的關切程度高出許多。"
+        }
+      ]
+    },
+    {
+      "headword": "image",
+      "partOfSpeech": "n.",
+      "definitionZh": "影像、圖像；形象、印象",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Satellite images reveal the scale of deforestation in the region.",
+          "translationZh": "衛星影像揭露了該地區森林砍伐的規模。"
+        }
+      ]
+    },
+    {
+      "headword": "liberal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "開明的、自由主義的；（教育）博雅的；慷慨的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "A liberal education encourages students to think across disciplines.",
+          "translationZh": "博雅教育鼓勵學生跨學科思考。"
+        }
+      ]
+    },
+    {
+      "headword": "licence",
+      "partOfSpeech": "n.",
+      "definitionZh": "執照、許可證；許可",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Companies must obtain a licence before discharging waste into the river.",
+          "translationZh": "企業必須先取得許可證才能將廢水排入河中。"
+        }
+      ]
+    },
+    {
+      "headword": "logic",
+      "partOfSpeech": "n.",
+      "definitionZh": "邏輯、推理；道理",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The logic behind the government's argument is difficult to follow.",
+          "translationZh": "政府論點背後的邏輯令人難以理解。"
+        }
+      ]
+    },
+    {
+      "headword": "margin",
+      "partOfSpeech": "n.",
+      "definitionZh": "邊緣、頁邊；差額、幅度；利潤",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The proposal was approved by a narrow margin of just three votes.",
+          "translationZh": "這項提案僅以三票之差的些微差距獲得通過。"
+        }
+      ]
+    },
+    {
+      "headword": "medical",
+      "partOfSpeech": "adj.",
+      "definitionZh": "醫學的、醫療的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Advances in medical technology have greatly extended life expectancy.",
+          "translationZh": "醫療技術的進步大幅延長了人類的平均壽命。"
+        }
+      ]
+    },
+    {
+      "headword": "mental",
+      "partOfSpeech": "adj.",
+      "definitionZh": "心理的、精神的；智力的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Universities are investing more in mental health support for students.",
+          "translationZh": "各大學正投入更多資源於學生的心理健康支持。"
+        }
+      ]
+    },
+    {
+      "headword": "modify",
+      "partOfSpeech": "v.",
+      "definitionZh": "修改、調整；使有所改變",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Engineers modified the design to reduce energy consumption.",
+          "translationZh": "工程師修改了設計以降低能源消耗。"
+        }
+      ]
+    },
+    {
+      "headword": "monitor",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "監測、監控；監視器、顯示器",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Scientists monitor air quality in the city throughout the year.",
+          "translationZh": "科學家全年監測這座城市的空氣品質。"
+        }
+      ]
+    },
+    {
+      "headword": "network",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "網絡、網路、人脈；建立人脈",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "A reliable rail network is essential for regional economic development.",
+          "translationZh": "可靠的鐵路網絡是區域經濟發展的必要條件。"
+        }
+      ]
+    },
+    {
+      "headword": "notion",
+      "partOfSpeech": "n.",
+      "definitionZh": "概念、觀念、看法",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The notion that talent is entirely inherited has been widely criticised.",
+          "translationZh": "認為才能完全來自遺傳的這種觀念已廣受批評。"
+        }
+      ]
+    },
+    {
+      "headword": "objective",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "目標、目的；客觀的、不帶偏見的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Researchers must remain objective when interpreting their results.",
+          "translationZh": "研究人員在詮釋研究結果時必須保持客觀。"
+        }
+      ]
+    },
+    {
+      "headword": "orient",
+      "partOfSpeech": "v.",
+      "definitionZh": "使定向、使適應；確定方位",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The course is oriented towards students planning careers in public policy.",
+          "translationZh": "這門課程的取向是針對打算投入公共政策領域的學生。"
+        }
+      ]
+    },
+    {
+      "headword": "perspective",
+      "partOfSpeech": "n.",
+      "definitionZh": "觀點、看法；透視、全局眼光",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The article examines urban poverty from a historical perspective.",
+          "translationZh": "這篇文章從歷史的觀點檢視都市貧窮問題。"
+        }
+      ]
+    },
+    {
+      "headword": "precise",
+      "partOfSpeech": "adj.",
+      "definitionZh": "精確的、確切的；一絲不苟的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "It is difficult to give a precise estimate of the population decline.",
+          "translationZh": "要對人口下降的幅度給出精確估計並不容易。"
+        }
+      ]
+    },
+    {
+      "headword": "prime",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "首要的、主要的；最佳的；全盛時期",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Deforestation remains the prime cause of habitat loss in the tropics.",
+          "translationZh": "森林砍伐仍是熱帶地區棲地喪失的首要原因。"
+        }
+      ]
+    },
+    {
+      "headword": "psychology",
+      "partOfSpeech": "n.",
+      "definitionZh": "心理學；心理、心態",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Her research applies psychology to the design of learning environments.",
+          "translationZh": "她的研究將心理學應用於學習環境的設計。"
+        }
+      ]
+    },
+    {
+      "headword": "pursue",
+      "partOfSpeech": "v.",
+      "definitionZh": "追求、從事；追趕",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Many graduates choose to pursue further study abroad.",
+          "translationZh": "許多畢業生選擇到國外繼續深造。"
+        }
+      ]
+    },
+    {
+      "headword": "ratio",
+      "partOfSpeech": "n.",
+      "definitionZh": "比例、比率",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The school has an unusually low ratio of students to teachers.",
+          "translationZh": "這所學校的學生與教師比例異常地低。"
+        }
+      ]
+    },
+    {
+      "headword": "reject",
+      "partOfSpeech": "v.",
+      "definitionZh": "拒絕、否決；駁回",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The committee rejected the proposal on environmental grounds.",
+          "translationZh": "委員會基於環境考量否決了這項提案。"
+        }
+      ]
+    },
+    {
+      "headword": "revenue",
+      "partOfSpeech": "n.",
+      "definitionZh": "收入、營收；（政府的）稅收",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Tourism generates substantial revenue for coastal communities.",
+          "translationZh": "觀光業為沿海社區帶來可觀的收入。"
+        }
+      ]
+    },
+    {
+      "headword": "stable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "穩定的、安定的；不易變動的",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Unemployment has remained stable for the past three quarters.",
+          "translationZh": "失業率在過去三季維持穩定。"
+        }
+      ]
+    },
+    {
+      "headword": "style",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "風格、樣式；文體；設計、塑造",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Academic writing requires a formal style and clear structure.",
+          "translationZh": "學術寫作需要正式的文體與清晰的結構。"
+        }
+      ]
+    },
+    {
+      "headword": "substitute",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "替代品、代用品；以……替代",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Online lectures are no substitute for face-to-face discussion.",
+          "translationZh": "線上課程無法取代面對面的討論。"
+        }
+      ]
+    },
+    {
+      "headword": "sustain",
+      "partOfSpeech": "v.",
+      "definitionZh": "維持、持續；支撐；蒙受（損害）",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Few economies can sustain such rapid growth for more than a decade.",
+          "translationZh": "很少有經濟體能將如此快速的成長維持超過十年。"
+        }
+      ]
+    },
+    {
+      "headword": "symbol",
+      "partOfSpeech": "n.",
+      "definitionZh": "符號、記號；象徵",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "For many residents, the old bridge is a symbol of the city's history.",
+          "translationZh": "對許多居民而言，這座老橋是城市歷史的象徵。"
+        }
+      ]
+    },
+    {
+      "headword": "target",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "目標、指標；以……為目標",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The country failed to meet its target for reducing carbon emissions.",
+          "translationZh": "該國未能達成其減少碳排放的目標。"
+        }
+      ]
+    },
+    {
+      "headword": "transit",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "運輸、通行；過境；通過",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Investment in public transit has reduced traffic congestion downtown.",
+          "translationZh": "對大眾運輸的投資已減緩了市中心的交通壅塞。"
+        }
+      ]
+    },
+    {
+      "headword": "trend",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "趨勢、走向；傾向於",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The graph illustrates a clear upward trend in global temperatures.",
+          "translationZh": "此圖表顯示全球氣溫呈現明顯的上升趨勢。"
+        }
+      ]
+    },
+    {
+      "headword": "version",
+      "partOfSpeech": "n.",
+      "definitionZh": "版本；說法、描述",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The latest version of the report includes data from three new countries.",
+          "translationZh": "這份報告的最新版本納入了三個新國家的數據。"
+        }
+      ]
+    },
+    {
+      "headword": "welfare",
+      "partOfSpeech": "n.",
+      "definitionZh": "福利、福祉；社會救助",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "The policy aims to improve the welfare of low-income families.",
+          "translationZh": "這項政策旨在改善低收入家庭的福祉。"
+        }
+      ]
+    },
+    {
+      "headword": "whereas",
+      "partOfSpeech": "conj.",
+      "definitionZh": "然而、反之（用以對比兩件事）",
+      "examTags": ["IELTS", "AWL5"],
+      "examples": [
+        {
+          "sentence": "Urban households recycle regularly, whereas rural ones often lack collection services.",
+          "translationZh": "都市家庭會定期回收，反之鄉村家庭往往缺乏回收服務。"
+        }
+      ]
+    }
+  ]
+}
