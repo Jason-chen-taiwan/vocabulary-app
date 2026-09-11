@@ -1,49 +1,48 @@
-import { redirect } from 'next/navigation'
-import { getCurrentUser } from '@/lib/auth/session'
-import { ContentRepository } from '@/lib/content/repository'
-import { GamificationBar } from '@/components/gamification-bar'
 import Link from 'next/link'
-import { CardLink } from '@/components/ui/card'
-import { StatPill } from '@/components/ui/stat-pill'
+import { listWordBooks } from '@/lib/content/static'
+import { Card } from '@/components/ui/card'
 
-export const dynamic = 'force-dynamic'
+export default function BooksPage() {
+  const books = listWordBooks()
+  const ielts = books.filter((b) => b.level === 'IELTS')
+  const others = books.filter((b) => b.level !== 'IELTS')
 
-export default async function BooksPage() {
-  if (!(await getCurrentUser())) redirect('/login')
-  const books = await new ContentRepository().listWordBooks()
+  return (
+    <main className="mx-auto w-full max-w-2xl px-4 py-8">
+      <Link href="/" className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 首頁</Link>
+      <h1 className="mt-2 text-2xl font-extrabold text-neutral-900">單字書</h1>
+
+      <Link
+        href="/learn/all"
+        className="mt-4 flex items-center justify-center rounded-control bg-primary-500 px-5 py-3 font-extrabold text-white transition hover:bg-primary-600"
+      >
+        全部混合練習
+      </Link>
+
+      <Section title="雅思 IELTS" books={ielts} />
+      <Section title="多益 TOEIC" books={others} />
+    </main>
+  )
+}
+
+function Section({ title, books }: { title: string; books: ReturnType<typeof listWordBooks> }) {
+  if (books.length === 0) return null
   return (
     <>
-      <GamificationBar />
-      <main className="mx-auto w-full max-w-2xl px-4 py-8">
-        <h1 className="mb-6 text-2xl font-extrabold text-neutral-900">單字書</h1>
-        {books.length > 0 && (
-          <Link
-            href="/learn/all"
-            className="mb-4 flex items-center justify-between gap-3 rounded-control border-2 border-primary-200 bg-primary-50 p-5 font-extrabold text-primary-700 transition hover:bg-primary-100"
-          >
-            <span>🔀 全部混合練習</span>
-            <span className="text-sm font-semibold">跨所有單字書複習 →</span>
+      <h2 className="mt-8 mb-3 text-sm font-extrabold uppercase tracking-wide text-neutral-600">{title}</h2>
+      <div className="grid gap-3">
+        {books.map((b) => (
+          <Link key={b.slug} href={`/books/${b.slug}`}>
+            <Card className="p-5 transition hover:border-primary-300">
+              <div className="flex items-baseline justify-between gap-3">
+                <span className="font-extrabold text-neutral-900">{b.name}</span>
+                <span className="shrink-0 text-xs font-semibold text-neutral-600">{b.wordCount} 字</span>
+              </div>
+              {b.description && <p className="mt-1 text-sm text-neutral-600">{b.description}</p>}
+            </Card>
           </Link>
-        )}
-        {books.length === 0 ? (
-          <p className="text-neutral-600">目前還沒有單字書。</p>
-        ) : (
-          <ul className="space-y-3">
-            {books.map((b) => (
-              <li key={b.id}>
-                <CardLink href={`/books/${b.slug}`} className="p-5">
-                  <div className="flex items-center justify-between gap-3">
-                    <div className="font-extrabold text-neutral-900">{b.name}</div>
-                    <StatPill icon="📚" value={`${b.wordCount} 字`} />
-                  </div>
-                  {b.description && <div className="mt-1 text-sm text-neutral-600">{b.description}</div>}
-                  {b.level && <div className="mt-1 text-xs font-semibold text-primary-600">{b.level}</div>}
-                </CardLink>
-              </li>
-            ))}
-          </ul>
-        )}
-      </main>
+        ))}
+      </div>
     </>
   )
 }

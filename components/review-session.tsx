@@ -1,7 +1,6 @@
 'use client'
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import { TtsButton } from '@/components/tts-button'
 import { OptionButton } from '@/components/ui/option-button'
 import { ProgressBar } from '@/components/ui/progress-bar'
@@ -11,49 +10,50 @@ import { LetterBoxes } from '@/components/letter-boxes'
 import { Mascot, moodForSessionEnd } from '@/components/ui/mascot'
 import { Confetti } from '@/components/ui/confetti'
 import { checkAnswer, sample, seededRng, shortDef, type Question } from '@/lib/learning/question'
-import { submitAnswerAction, finishSessionAction } from '@/app/learn/[slug]/actions'
-import type { Equipped } from '@/lib/shop/repository'
+import { loadProgress, saveProgress, recordReview, todayStats } from '@/lib/progress/store'
+import { TIMEZONE } from '@/lib/progress/config'
 
 export interface ReviewItem {
   question: Question
   isSpotCheck: boolean
 }
 
-export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookName: string; bookSlug: string; items: ReviewItem[]; equipped?: Equipped }) {
-  const router = useRouter()
+export function ReviewSession({
+  bookName, bookSlug, items, onRestart,
+}: {
+  bookName: string
+  bookSlug: string
+  items: ReviewItem[]
+  /** 由頁面提供：重新依最新進度組佇列（取代原本的 router.refresh()）。 */
+  onRestart: () => void
+}) {
   // mixed-practice slug has no book page; send "back" to the book list instead.
   const backHref = bookSlug === 'all' ? '/books' : `/books/${bookSlug}`
   const [index, setIndex] = useState(0)
-  const [input, setInput] = useState('')
   const [picked, setPicked] = useState<string | null>(null)
   const [result, setResult] = useState<null | { correct: boolean }>(null)
-  const [busy, setBusy] = useState(false)
   const [done, setDone] = useState(false)
-  const [rewards, setRewards] = useState({ xp: 0, coins: 0, level: null as number | null, badges: [] as string[] })
   const [correctCount, setCorrectCount] = useState(0)
-  const [sessionPerfect, setSessionPerfect] = useState(false)
-  // 完成當下這輪的題數快照——因為 finishSession 後 router.refresh() 會把 items 換成「重抓後」的佇列
+  const [streak, setStreak] = useState<number | null>(null)
+  const [todayCount, setTodayCount] = useState(0)
+  // 完成當下這輪的題數快照
   const [finishedTotal, setFinishedTotal] = useState(0)
 
   const item = items[index]
-  // 以 wordId 為種子做確定性洗牌：SSR 與 client 產生相同順序，避免 hydration 不匹配。
-  // （safe when item is undefined, e.g. after a refresh shrinks the queue）
+  // 以 wordId 為種子做確定性洗牌，避免每次 render 選項跳動。
   const options = useMemo(() => {
     const opts = item?.question.options
     return opts ? sample(opts, opts.length, seededRng(item.question.wordId)) : null
   }, [item])
 
-  // 「再來一輪」：重置作答狀態並重抓伺服器資料（可能是新一批到期卡，或已無待複習）
   function restart() {
     setIndex(0)
-    setInput('')
     setPicked(null)
     setResult(null)
     setDone(false)
-    setRewards({ xp: 0, coins: 0, level: null, badges: [] })
     setCorrectCount(0)
-    setSessionPerfect(false)
-    router.refresh()
+    setStreak(null)
+    onRestart()
   }
 
   // 結束慶祝畫面
@@ -61,15 +61,15 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
     return (
       <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
         <Confetti className="mx-auto" />
-        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: finishedTotal })} size={132} className="mx-auto" equipped={equipped} />
+        <Mascot mood={moodForSessionEnd({ correct: correctCount, total: finishedTotal })} size={132} className="mx-auto" />
         <h1 className="text-2xl font-extrabold text-neutral-900">完成！</h1>
-        <p className="text-sm text-neutral-600">本次複習了 {finishedTotal} 個單字</p>
+        <p className="text-sm text-neutral-600">本次複習了 {finishedTotal} 個單字，答對 {correctCount} 題</p>
         <div className="mt-2 grid w-full max-w-xs gap-2">
-          <CelebrateCard tone="reward">+{rewards.xp} XP</CelebrateCard>
-          {rewards.coins > 0 && <CelebrateCard tone="coin">+{rewards.coins} 🪙</CelebrateCard>}
-          {rewards.level !== null && <CelebrateCard tone="level">升級到 Lv.{rewards.level}！</CelebrateCard>}
-          {sessionPerfect && <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>}
-          {rewards.badges.length > 0 && <CelebrateCard tone="mastery">🏆 {rewards.badges.join('、')}</CelebrateCard>}
+          {streak !== null && <CelebrateCard tone="reward">🔥 連續學習 {streak} 天</CelebrateCard>}
+          <CelebrateCard tone="coin">今日累計 {todayCount} 題</CelebrateCard>
+          {finishedTotal > 0 && correctCount === finishedTotal && (
+            <CelebrateCard tone="mastery">完美一回，全部答對！</CelebrateCard>
+          )}
         </div>
         <div className="mt-6 flex justify-center gap-4">
           <Link href={backHref} className="text-sm font-semibold text-neutral-600 hover:text-neutral-900">← 回單字書</Link>
@@ -79,7 +79,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
     )
   }
 
-  // 佇列已空（例如重抓後今天已無待複習，或索引越界）——溫和收尾，避免存取 undefined
+  // 佇列已空——溫和收尾，避免存取 undefined
   if (!item) {
     return (
       <main className="mx-auto flex min-h-screen w-full max-w-xl flex-col items-center justify-center gap-3 px-4 py-12 text-center">
@@ -97,53 +97,33 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
     return q.type === 'mc' ? answer === q.answer : checkAnswer(answer, q.answer)
   }
 
-  async function commit(userAnswer: string) {
-    if (busy) return
-    setBusy(true)
-    const localCorrect = evaluate(userAnswer)
-    setResult({ correct: localCorrect })
-    if (localCorrect) setCorrectCount((n) => n + 1)
-    try {
-      const res = await submitAnswerAction(q.wordId, q.type, userAnswer)
-      const r = res.reward
-      if (r) {
-        setRewards((prev) => ({
-          xp: prev.xp + r.xpGained,
-          coins: prev.coins + r.coinsGained,
-          level: r.leveledUpTo ?? prev.level,
-          badges: [...prev.badges, ...r.newBadges],
-        }))
-      }
-    } catch { /* 讓使用者繼續 */ }
-    setBusy(false)
+  // 單人版：對錯在本機判定後直接寫進 localStorage（沒有伺服器可以權威判定，也沒有排名可作弊）。
+  function commit(userAnswer: string) {
+    if (result) return
+    const correct = evaluate(userAnswer)
+    setResult({ correct })
+    if (correct) setCorrectCount((n) => n + 1)
+
+    const now = new Date()
+    const next = recordReview(loadProgress(), q.wordId, correct, now, TIMEZONE)
+    saveProgress(next)
+    setStreak(next.streak)
+    setTodayCount(todayStats(next, now, TIMEZONE).reviews)
   }
 
-  function onPick(opt: string) { if (result) return; setPicked(opt); void commit(opt) }
+  function onPick(opt: string) { if (result) return; setPicked(opt); commit(opt) }
 
-  // 「不會，看答案」：以空作答提交 → 後端判錯並記錄複習，接著 feedback 顯示正解、出現下一題按鈕。
-  function reveal() { if (result || busy) return; void commit('') }
+  // 「不會，看答案」：以空作答提交 → 記為答錯並重新排程。
+  function reveal() { if (result) return; commit('') }
 
-
-  async function next() {
-    if (busy) return
+  function next() {
     if (index + 1 >= items.length) {
-      setBusy(true)
       setFinishedTotal(items.length)
-      try {
-        const res = await finishSessionAction(items.length, correctCount)
-        if (res.reward) {
-          setSessionPerfect(res.reward.perfect)
-          if (res.reward.newBadges.length) {
-            setRewards((prev) => ({ ...prev, badges: [...prev.badges, ...res.reward!.newBadges] }))
-          }
-        }
-      } catch { /* ignore */ }
       setDone(true)
-      router.refresh()
       return
     }
     setIndex(index + 1)
-    setInput(''); setPicked(null); setResult(null)
+    setPicked(null); setResult(null)
   }
 
   return (
@@ -196,13 +176,12 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
           )}
           {q.type !== 'mc' && (
             <div className="flex flex-col items-center gap-5">
-              <LetterBoxes key={q.wordId} answer={q.answer} disabled={!!result} revealed={!!result} onComplete={(v) => { if (!result) { setInput(v); void commit(v) } }} />
+              <LetterBoxes key={q.wordId} answer={q.answer} disabled={!!result} revealed={!!result} onComplete={(v) => { if (!result) commit(v) }} />
               {!result && (
                 <button
                   type="button"
                   onClick={reveal}
-                  disabled={busy}
-                  className="inline-flex items-center gap-1.5 rounded-pill border-2 border-neutral-200 bg-surface px-4 py-2 text-sm font-semibold text-neutral-500 transition hover:border-neutral-300 hover:bg-neutral-100 hover:text-neutral-700 disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+                  className="inline-flex items-center gap-1.5 rounded-pill border-2 border-neutral-200 bg-surface px-4 py-2 text-sm font-semibold text-neutral-500 transition hover:border-neutral-300 hover:bg-neutral-100 hover:text-neutral-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
                 >
                   <span aria-hidden>💡</span>
                   不會，看答案
@@ -218,7 +197,6 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
             <p className={`font-bold ${result.correct ? 'text-success' : 'text-error'}`}>
               {result.correct ? '答對了！' : '答錯了'}
             </p>
-            {/* mc has no boxes → show the answer text; typing/cloze already show it in the boxes, just offer TTS */}
             <p className="mt-1 flex items-center justify-center gap-2 text-lg font-semibold text-neutral-900">
               {q.type === 'mc' ? shortDef(q.answer) : <TtsButton text={q.answer} />}
             </p>
@@ -227,7 +205,7 @@ export function ReviewSession({ bookName, bookSlug, items, equipped }: { bookNam
       </div>
 
       {result && (
-        <Button variant="primary" fullWidth disabled={busy} onClick={next} className="mt-6">
+        <Button variant="primary" fullWidth onClick={next} className="mt-6">
           {index + 1 >= items.length ? '完成' : '下一個'}
         </Button>
       )}

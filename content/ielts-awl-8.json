@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-8",
+  "name": "學術詞表 Sublist 8",
+  "description": "Coxhead 學術詞表（AWL）第八級：學術文章中出現頻率次高的 60 個字族，適合打好基礎後衝刺雅思高分的進階詞彙。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "abandon",
+      "partOfSpeech": "v.",
+      "definitionZh": "放棄、拋棄；中途停止進行",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The committee abandoned the project after the funding was withdrawn.",
+          "translationZh": "在資金撤回之後，委員會放棄了這個計畫。"
+        }
+      ]
+    },
+    {
+      "headword": "accompany",
+      "partOfSpeech": "v.",
+      "definitionZh": "陪同、伴隨；與某事物同時發生",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Rapid industrial growth was accompanied by a sharp rise in air pollution.",
+          "translationZh": "快速的工業成長伴隨著空氣污染的急遽上升。"
+        }
+      ]
+    },
+    {
+      "headword": "accumulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "累積、堆積；逐漸增加數量",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Plastic waste continues to accumulate in the world's oceans.",
+          "translationZh": "塑膠廢棄物持續在全球海洋中累積。"
+        }
+      ]
+    },
+    {
+      "headword": "ambiguous",
+      "partOfSpeech": "adj.",
+      "definitionZh": "模稜兩可的、含糊的；可作多種解釋的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The survey results were ambiguous and could support either interpretation.",
+          "translationZh": "這份調查結果模稜兩可，可以支持任一種詮釋。"
+        }
+      ]
+    },
+    {
+      "headword": "append",
+      "partOfSpeech": "v.",
+      "definitionZh": "附加、增補；在末尾加上",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The author appended a list of sources to the end of the report.",
+          "translationZh": "作者在報告末尾附上了一份資料來源清單。"
+        }
+      ]
+    },
+    {
+      "headword": "appreciate",
+      "partOfSpeech": "v.",
+      "definitionZh": "理解、體會（重要性）；欣賞、感激；增值",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Few students appreciate how much time academic writing actually requires.",
+          "translationZh": "很少有學生能體會學術寫作實際上需要多少時間。"
+        }
+      ]
+    },
+    {
+      "headword": "arbitrary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "任意的、武斷的；缺乏客觀依據的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Critics argued that the age limit was entirely arbitrary.",
+          "translationZh": "批評者主張這項年齡限制完全是武斷的。"
+        }
+      ]
+    },
+    {
+      "headword": "automate",
+      "partOfSpeech": "v.",
+      "definitionZh": "使自動化；以機器或程式取代人力操作",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Many factories have automated tasks that were once done by hand.",
+          "translationZh": "許多工廠已將過去由人工完成的工作自動化。"
+        }
+      ]
+    },
+    {
+      "headword": "bias",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "偏見、偏誤；使產生偏頗",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Researchers must be careful to avoid bias when selecting participants.",
+          "translationZh": "研究人員在挑選受試者時必須小心避免偏誤。"
+        }
+      ]
+    },
+    {
+      "headword": "chart",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "圖表；以圖表呈現、記錄變化",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The chart shows changes in household energy consumption over two decades.",
+          "translationZh": "這張圖表顯示了二十年間家庭能源消耗的變化。"
+        }
+      ]
+    },
+    {
+      "headword": "clarify",
+      "partOfSpeech": "v.",
+      "definitionZh": "澄清、闡明；使更容易理解",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The lecturer clarified the difference between correlation and causation.",
+          "translationZh": "講師闡明了相關性與因果關係之間的差異。"
+        }
+      ]
+    },
+    {
+      "headword": "commodity",
+      "partOfSpeech": "n.",
+      "definitionZh": "商品、大宗物資；可買賣的有價之物",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "In some regions, clean water has become a scarce commodity.",
+          "translationZh": "在某些地區，乾淨的水已成為稀缺的商品。"
+        }
+      ]
+    },
+    {
+      "headword": "complement",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "補足物；補足、與某物相輔相成",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Online courses complement rather than replace classroom teaching.",
+          "translationZh": "線上課程是與課堂教學相輔相成，而非取代它。"
+        }
+      ]
+    },
+    {
+      "headword": "conform",
+      "partOfSpeech": "v.",
+      "definitionZh": "遵守、符合；順從既有規範或標準",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "All new buildings must conform to strict safety regulations.",
+          "translationZh": "所有新建築都必須符合嚴格的安全法規。"
+        }
+      ]
+    },
+    {
+      "headword": "contemporary",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "當代的、現代的；同時代的（人）",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Contemporary society places enormous value on digital literacy.",
+          "translationZh": "當代社會極為重視數位素養。"
+        }
+      ]
+    },
+    {
+      "headword": "contradict",
+      "partOfSpeech": "v.",
+      "definitionZh": "反駁、否定；與某事相互矛盾",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The latest findings contradict the conclusions of earlier studies.",
+          "translationZh": "最新的發現與早期研究的結論相互矛盾。"
+        }
+      ]
+    },
+    {
+      "headword": "crucial",
+      "partOfSpeech": "adj.",
+      "definitionZh": "關鍵的、至關重要的；決定成敗的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Early intervention is crucial to a child's language development.",
+          "translationZh": "及早介入對兒童的語言發展至關重要。"
+        }
+      ]
+    },
+    {
+      "headword": "currency",
+      "partOfSpeech": "n.",
+      "definitionZh": "貨幣、通貨；流通與普遍接受的程度",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "A weaker currency often makes a country's exports more competitive.",
+          "translationZh": "較弱的貨幣往往使一國的出口更具競爭力。"
+        }
+      ]
+    },
+    {
+      "headword": "denote",
+      "partOfSpeech": "v.",
+      "definitionZh": "表示、指稱；作為某事物的符號或標誌",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "In the diagram, the dotted line denotes the projected growth rate.",
+          "translationZh": "在這張圖中，虛線表示預估的成長率。"
+        }
+      ]
+    },
+    {
+      "headword": "detect",
+      "partOfSpeech": "v.",
+      "definitionZh": "察覺、偵測；發現不易看出的事物",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The new sensors can detect even minor changes in water quality.",
+          "translationZh": "這些新型感測器能偵測到水質中極細微的變化。"
+        }
+      ]
+    },
+    {
+      "headword": "deviate",
+      "partOfSpeech": "v.",
+      "definitionZh": "偏離、背離；與常規或預期路線不同",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The experiment's results deviated significantly from the predicted values.",
+          "translationZh": "這項實驗的結果明顯偏離了預測值。"
+        }
+      ]
+    },
+    {
+      "headword": "displace",
+      "partOfSpeech": "v.",
+      "definitionZh": "取代；迫使遷離原本的位置或居所",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Rising sea levels have displaced thousands of coastal residents.",
+          "translationZh": "海平面上升已迫使數以千計的沿海居民遷離家園。"
+        }
+      ]
+    },
+    {
+      "headword": "drama",
+      "partOfSpeech": "n.",
+      "definitionZh": "戲劇、劇作；充滿張力的事件",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Studying drama can improve students' confidence in public speaking.",
+          "translationZh": "學習戲劇可以提升學生公開演說的自信。"
+        }
+      ]
+    },
+    {
+      "headword": "eventual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "最終的、最後發生的；經過一段過程後出現的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The eventual outcome of the reform will not be clear for years.",
+          "translationZh": "這項改革最終的結果要多年後才會明朗。"
+        }
+      ]
+    },
+    {
+      "headword": "exhibit",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "展示、表現出（特徵）；展覽品",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Children raised in bilingual homes often exhibit greater cognitive flexibility.",
+          "translationZh": "在雙語家庭中成長的孩子往往表現出更高的認知彈性。"
+        }
+      ]
+    },
+    {
+      "headword": "exploit",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "開發利用（資源）；剝削；英勇事蹟",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Some companies exploit cheap labour in developing countries.",
+          "translationZh": "有些企業剝削開發中國家的廉價勞動力。"
+        }
+      ]
+    },
+    {
+      "headword": "fluctuate",
+      "partOfSpeech": "v.",
+      "definitionZh": "波動、起伏；數量或程度上下變動",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Oil prices fluctuated sharply throughout the decade.",
+          "translationZh": "油價在這十年間劇烈波動。"
+        }
+      ]
+    },
+    {
+      "headword": "guideline",
+      "partOfSpeech": "n.",
+      "definitionZh": "指導方針、準則；行事的建議性規範",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The university has issued new guidelines on the use of research data.",
+          "translationZh": "該大學已針對研究資料的使用發布新的指導方針。"
+        }
+      ]
+    },
+    {
+      "headword": "highlight",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "強調、凸顯；最精彩之處",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The report highlights the growing gap between rich and poor households.",
+          "translationZh": "這份報告凸顯了貧富家庭之間日益擴大的差距。"
+        }
+      ]
+    },
+    {
+      "headword": "implicit",
+      "partOfSpeech": "adj.",
+      "definitionZh": "隱含的、不言而喻的；未明言卻可推知的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "There is an implicit assumption that technology always improves learning.",
+          "translationZh": "其中隱含一個假設：科技必然能改善學習。"
+        }
+      ]
+    },
+    {
+      "headword": "induce",
+      "partOfSpeech": "v.",
+      "definitionZh": "引起、誘發；勸使某人去做某事",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Financial incentives may induce people to recycle more consistently.",
+          "translationZh": "財務誘因或許能促使民眾更持續地進行回收。"
+        }
+      ]
+    },
+    {
+      "headword": "inevitable",
+      "partOfSpeech": "adj.",
+      "definitionZh": "不可避免的、必然發生的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Some disruption is inevitable when a new system is introduced.",
+          "translationZh": "導入新系統時，某種程度的干擾是不可避免的。"
+        }
+      ]
+    },
+    {
+      "headword": "infrastructure",
+      "partOfSpeech": "n.",
+      "definitionZh": "基礎建設；支撐社會運作的公共設施與系統",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Investment in transport infrastructure can stimulate regional economies.",
+          "translationZh": "對交通基礎建設的投資能刺激區域經濟。"
+        }
+      ]
+    },
+    {
+      "headword": "inspect",
+      "partOfSpeech": "v.",
+      "definitionZh": "檢查、視察；仔細查驗是否合乎標準",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Officials regularly inspect factories for breaches of safety rules.",
+          "translationZh": "官員會定期檢查工廠是否違反安全規定。"
+        }
+      ]
+    },
+    {
+      "headword": "intense",
+      "partOfSpeech": "adj.",
+      "definitionZh": "強烈的、劇烈的；程度極高的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Students face intense pressure during the final examination period.",
+          "translationZh": "學生在期末考期間面臨強烈的壓力。"
+        }
+      ]
+    },
+    {
+      "headword": "manipulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "操控、操縱；巧妙處理或不當影響",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Social media can be used to manipulate public opinion.",
+          "translationZh": "社群媒體可能被用來操縱輿論。"
+        }
+      ]
+    },
+    {
+      "headword": "minimise",
+      "partOfSpeech": "v.",
+      "definitionZh": "使減到最小；盡量降低（風險、影響）",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Careful planning can minimise the environmental impact of construction.",
+          "translationZh": "審慎的規劃可以將工程對環境的衝擊降到最低。"
+        }
+      ]
+    },
+    {
+      "headword": "nuclear",
+      "partOfSpeech": "adj.",
+      "definitionZh": "核子的、原子核的；與核能相關的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Nuclear power remains a controversial solution to energy shortages.",
+          "translationZh": "核能仍是解決能源短缺的一項具爭議的方案。"
+        }
+      ]
+    },
+    {
+      "headword": "offset",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "抵銷、彌補；抵銷的數額",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Planting trees can partly offset a company's carbon emissions.",
+          "translationZh": "植樹能部分抵銷一家公司的碳排放。"
+        }
+      ]
+    },
+    {
+      "headword": "paragraph",
+      "partOfSpeech": "n.",
+      "definitionZh": "段落；文章中自成單位的一段文字",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Each paragraph should begin with a clear topic sentence.",
+          "translationZh": "每個段落都應以清楚的主題句開頭。"
+        }
+      ]
+    },
+    {
+      "headword": "plus",
+      "partOfSpeech": "prep./n./adj.",
+      "definitionZh": "加上；優點、有利之處；正的、附加的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Small class sizes are a definite plus for language learners.",
+          "translationZh": "小班教學對語言學習者而言是明顯的優點。"
+        }
+      ]
+    },
+    {
+      "headword": "practitioner",
+      "partOfSpeech": "n.",
+      "definitionZh": "從業人員、執業者；實際從事某專業的人",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Medical practitioners are required to complete regular training.",
+          "translationZh": "醫療從業人員必須完成定期訓練。"
+        }
+      ]
+    },
+    {
+      "headword": "predominant",
+      "partOfSpeech": "adj.",
+      "definitionZh": "主要的、占優勢的；數量或影響力最大的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Agriculture was once the predominant source of employment in the region.",
+          "translationZh": "農業曾是該地區最主要的就業來源。"
+        }
+      ]
+    },
+    {
+      "headword": "prospect",
+      "partOfSpeech": "n.",
+      "definitionZh": "前景、可能性；展望（常用複數指前途）",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Graduates with technical skills enjoy better employment prospects.",
+          "translationZh": "具備技術能力的畢業生享有較佳的就業前景。"
+        }
+      ]
+    },
+    {
+      "headword": "radical",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "激進的、徹底的；激進分子",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Tackling climate change may require radical changes in lifestyle.",
+          "translationZh": "因應氣候變遷可能需要生活方式上的徹底改變。"
+        }
+      ]
+    },
+    {
+      "headword": "random",
+      "partOfSpeech": "adj.",
+      "definitionZh": "隨機的、任意的；不依特定模式或順序的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Participants were assigned to the two groups at random.",
+          "translationZh": "受試者被隨機分配到這兩個組別。"
+        }
+      ]
+    },
+    {
+      "headword": "reinforce",
+      "partOfSpeech": "v.",
+      "definitionZh": "強化、加強；使更堅固或更具說服力",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "These findings reinforce the argument for smaller class sizes.",
+          "translationZh": "這些發現強化了支持小班教學的論點。"
+        }
+      ]
+    },
+    {
+      "headword": "restore",
+      "partOfSpeech": "v.",
+      "definitionZh": "恢復、修復；使回到原本的狀態",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Conservationists are working to restore the wetland to its natural state.",
+          "translationZh": "保育人士正努力將這片濕地恢復到自然的狀態。"
+        }
+      ]
+    },
+    {
+      "headword": "revise",
+      "partOfSpeech": "v.",
+      "definitionZh": "修改、修訂；複習（課業）",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The authors revised their estimates after collecting further data.",
+          "translationZh": "作者在蒐集更多資料後修訂了他們的估計值。"
+        }
+      ]
+    },
+    {
+      "headword": "schedule",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "時間表、行程；安排時程",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The construction work was completed ahead of schedule.",
+          "translationZh": "這項工程比預定時程提早完工。"
+        }
+      ]
+    },
+    {
+      "headword": "tense",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "緊張的、繃緊的；（文法）時態",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Relations between the two countries remain tense.",
+          "translationZh": "兩國之間的關係依然緊張。"
+        }
+      ]
+    },
+    {
+      "headword": "terminate",
+      "partOfSpeech": "v.",
+      "definitionZh": "終止、結束；使停止運作或生效",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The university terminated the programme due to low enrolment.",
+          "translationZh": "由於註冊人數過低，該大學終止了這項課程。"
+        }
+      ]
+    },
+    {
+      "headword": "theme",
+      "partOfSpeech": "n.",
+      "definitionZh": "主題、主旨；貫穿全文的中心思想",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Sustainability is a recurring theme throughout the author's work.",
+          "translationZh": "永續是貫穿作者作品的一個反覆出現的主題。"
+        }
+      ]
+    },
+    {
+      "headword": "thereby",
+      "partOfSpeech": "adv.",
+      "definitionZh": "藉此、因而；透過前述方式導致某結果",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Cycling to work reduces traffic, thereby improving air quality.",
+          "translationZh": "騎自行車通勤可減少車流，因而改善空氣品質。"
+        }
+      ]
+    },
+    {
+      "headword": "uniform",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "一致的、劃一的；制服",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "The standards are not uniform across different regions.",
+          "translationZh": "各地區的標準並不一致。"
+        }
+      ]
+    },
+    {
+      "headword": "vehicle",
+      "partOfSpeech": "n.",
+      "definitionZh": "車輛、運輸工具；傳達思想或目的的媒介",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Electric vehicles are gradually replacing petrol-powered cars.",
+          "translationZh": "電動車正逐漸取代汽油動力的汽車。"
+        }
+      ]
+    },
+    {
+      "headword": "via",
+      "partOfSpeech": "prep.",
+      "definitionZh": "經由、透過；藉助某種途徑或媒介",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Course materials are distributed via the university's online platform.",
+          "translationZh": "課程教材透過該校的線上平台發放。"
+        }
+      ]
+    },
+    {
+      "headword": "virtual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "虛擬的、由電腦模擬的；實際上幾乎等同的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Virtual classrooms allow students in remote areas to attend lectures.",
+          "translationZh": "虛擬教室讓偏遠地區的學生也能參與課堂。"
+        }
+      ]
+    },
+    {
+      "headword": "visual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "視覺的；與看見或影像有關的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "Visual aids help learners remember new information more easily.",
+          "translationZh": "視覺輔助工具能幫助學習者更輕鬆地記住新資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "widespread",
+      "partOfSpeech": "adj.",
+      "definitionZh": "普遍的、廣泛的；分布或發生範圍很大的",
+      "examTags": ["IELTS", "AWL8"],
+      "examples": [
+        {
+          "sentence": "There is widespread concern about the effects of screen time on children.",
+          "translationZh": "社會上普遍關切螢幕使用時間對兒童的影響。"
+        }
+      ]
+    }
+  ]
+}

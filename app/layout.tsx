@@ -20,16 +20,16 @@ const notoTC = Noto_Sans_TC({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://0stack.org"),
-  title: "VocabApp 字彙學習",
-  description: "免費 TOEIC 單字學習 PWA：FSRS 科學排程、遊戲化成就、離線複習，跨裝置同步。",
+  title: "雅思單字",
+  description: "雅思／多益單字練習：FSRS 科學排程、離線可用，進度存在本機。",
   manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, statusBarStyle: "default", title: "VocabApp" },
   icons: { apple: "/icons/icon-192.png" },
   openGraph: {
     type: "website",
-    siteName: "VocabApp",
-    title: "VocabApp 字彙學習",
-    description: "免費 TOEIC 單字學習 PWA：FSRS 科學排程、遊戲化成就、離線複習。",
+    siteName: "雅思單字",
+    title: "雅思單字",
+    description: "雅思／多益單字練習：FSRS 科學排程、離線可用。",
     images: ["/og.png"],
   },
   twitter: { card: "summary_large_image" },

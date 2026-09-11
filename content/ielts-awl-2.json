@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-2",
+  "name": "學術詞表 Sublist 2",
+  "description": "Coxhead 學術詞表（AWL）第二級：學術文本中次高頻的 60 個字族，涵蓋研究方法、社會制度與商業概念。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "achieve",
+      "partOfSpeech": "v.",
+      "definitionZh": "達成、實現；取得（成就）",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "She achieved her goal of studying at a top university.",
+          "translationZh": "她達成了在頂尖大學就讀的目標。"
+        }
+      ]
+    },
+    {
+      "headword": "acquire",
+      "partOfSpeech": "v.",
+      "definitionZh": "獲得、取得；習得（技能、知識）",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Children acquire their first language remarkably quickly.",
+          "translationZh": "兒童習得母語的速度快得驚人。"
+        }
+      ]
+    },
+    {
+      "headword": "administrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "管理、掌管；執行行政事務",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The fund is administered by an independent committee.",
+          "translationZh": "該基金由一個獨立委員會管理。"
+        }
+      ]
+    },
+    {
+      "headword": "affect",
+      "partOfSpeech": "v.",
+      "definitionZh": "影響、對……起作用；感動",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Rising sea levels will affect millions of coastal residents.",
+          "translationZh": "海平面上升將影響數百萬沿海居民。"
+        }
+      ]
+    },
+    {
+      "headword": "appropriate",
+      "partOfSpeech": "adj.",
+      "definitionZh": "適當的、合適的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "It is not appropriate to use informal language in an essay.",
+          "translationZh": "在論說文中使用非正式用語並不恰當。"
+        }
+      ]
+    },
+    {
+      "headword": "aspect",
+      "partOfSpeech": "n.",
+      "definitionZh": "方面、層面；觀點",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The report examines every aspect of the housing crisis.",
+          "translationZh": "這份報告檢視了住房危機的各個層面。"
+        }
+      ]
+    },
+    {
+      "headword": "assist",
+      "partOfSpeech": "v.",
+      "definitionZh": "協助、幫助",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Volunteers assisted the residents during the evacuation.",
+          "translationZh": "志工在疏散期間協助居民。"
+        }
+      ]
+    },
+    {
+      "headword": "category",
+      "partOfSpeech": "n.",
+      "definitionZh": "類別、範疇",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The responses fall into three broad categories.",
+          "translationZh": "這些回覆可歸為三大類別。"
+        }
+      ]
+    },
+    {
+      "headword": "chapter",
+      "partOfSpeech": "n.",
+      "definitionZh": "章、章節；（人生或歷史的）階段",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The opening chapter outlines the theoretical framework.",
+          "translationZh": "開頭這一章概述了理論架構。"
+        }
+      ]
+    },
+    {
+      "headword": "commission",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "委員會；佣金；委任、委託製作",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The government commissioned an independent review of the policy.",
+          "translationZh": "政府委託對該政策進行獨立審查。"
+        }
+      ]
+    },
+    {
+      "headword": "community",
+      "partOfSpeech": "n.",
+      "definitionZh": "社區、社群；共同體",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The project aims to strengthen ties within the local community.",
+          "translationZh": "這項計畫旨在強化當地社區內部的連結。"
+        }
+      ]
+    },
+    {
+      "headword": "complex",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "複雜的；綜合建築群、情結",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Poverty is a complex problem with no single solution.",
+          "translationZh": "貧窮是個複雜的問題，沒有單一的解決辦法。"
+        }
+      ]
+    },
+    {
+      "headword": "compute",
+      "partOfSpeech": "v.",
+      "definitionZh": "計算、運算",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The software computes the average score automatically.",
+          "translationZh": "這套軟體會自動計算平均分數。"
+        }
+      ]
+    },
+    {
+      "headword": "conclude",
+      "partOfSpeech": "v.",
+      "definitionZh": "推斷出、下結論；結束",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The authors conclude that further research is needed.",
+          "translationZh": "作者群的結論是仍需進一步的研究。"
+        }
+      ]
+    },
+    {
+      "headword": "conduct",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "進行、實施；行為舉止",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The team conducted a survey of two thousand households.",
+          "translationZh": "該團隊對兩千戶家庭進行了一項調查。"
+        }
+      ]
+    },
+    {
+      "headword": "consequent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "隨之而來的、因此產生的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Deforestation and the consequent loss of habitat threaten many species.",
+          "translationZh": "森林砍伐及隨之而來的棲地喪失威脅著許多物種。"
+        }
+      ]
+    },
+    {
+      "headword": "construct",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "建造、建構；概念構想",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Engineers constructed a temporary bridge within a week.",
+          "translationZh": "工程師在一週內建造了一座臨時橋樑。"
+        }
+      ]
+    },
+    {
+      "headword": "consume",
+      "partOfSpeech": "v.",
+      "definitionZh": "消耗、消費；吃喝",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Older appliances consume far more electricity than modern ones.",
+          "translationZh": "老舊家電消耗的電力遠比現代機種多。"
+        }
+      ]
+    },
+    {
+      "headword": "credit",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "信用、賒帳；學分；讚揚、歸功於",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Students must earn 120 credits to graduate.",
+          "translationZh": "學生必須修滿一百二十個學分才能畢業。"
+        }
+      ]
+    },
+    {
+      "headword": "culture",
+      "partOfSpeech": "n.",
+      "definitionZh": "文化；（機構的）風氣",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Living abroad taught her to appreciate a different culture.",
+          "translationZh": "旅居國外讓她學會欣賞另一種文化。"
+        }
+      ]
+    },
+    {
+      "headword": "design",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "設計、構思；設計圖、規劃",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The study design allowed researchers to rule out other causes.",
+          "translationZh": "這樣的研究設計讓研究者得以排除其他原因。"
+        }
+      ]
+    },
+    {
+      "headword": "distinct",
+      "partOfSpeech": "adj.",
+      "definitionZh": "截然不同的；清楚明顯的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The island has two distinct seasons: wet and dry.",
+          "translationZh": "這座島嶼有兩個截然不同的季節：雨季與乾季。"
+        }
+      ]
+    },
+    {
+      "headword": "element",
+      "partOfSpeech": "n.",
+      "definitionZh": "要素、成分；元素",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Trust is an essential element of any successful partnership.",
+          "translationZh": "信任是任何成功合作關係的必要要素。"
+        }
+      ]
+    },
+    {
+      "headword": "equate",
+      "partOfSpeech": "v.",
+      "definitionZh": "把……等同看待；使相等",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "We should not equate wealth with happiness.",
+          "translationZh": "我們不該把財富與幸福等同看待。"
+        }
+      ]
+    },
+    {
+      "headword": "evaluate",
+      "partOfSpeech": "v.",
+      "definitionZh": "評估、評價；衡量價值",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Teachers evaluate students' progress at the end of each term.",
+          "translationZh": "教師在每學期末評估學生的學習進展。"
+        }
+      ]
+    },
+    {
+      "headword": "feature",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "特色、特徵；以……為特色",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The most striking feature of the design is its curved roof.",
+          "translationZh": "這項設計最引人注目的特色是它的弧形屋頂。"
+        }
+      ]
+    },
+    {
+      "headword": "final",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "最後的、最終的；期末考、決賽",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The committee's decision is final and cannot be appealed.",
+          "translationZh": "委員會的決定是最終的，不得上訴。"
+        }
+      ]
+    },
+    {
+      "headword": "focus",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "專注、聚焦；焦點、重點",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The lecture focused on the causes of urban migration.",
+          "translationZh": "這場講座聚焦於城市移居的成因。"
+        }
+      ]
+    },
+    {
+      "headword": "impact",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "影響、衝擊；撞擊",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Tourism has had a profound impact on the island's economy.",
+          "translationZh": "觀光業對這座島嶼的經濟產生了深遠的影響。"
+        }
+      ]
+    },
+    {
+      "headword": "injure",
+      "partOfSpeech": "v.",
+      "definitionZh": "使受傷、傷害",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Several passengers were injured in the accident.",
+          "translationZh": "數名乘客在這起事故中受傷。"
+        }
+      ]
+    },
+    {
+      "headword": "institute",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "機構、學會；設立、開始實行",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "He works at a research institute specialising in marine biology.",
+          "translationZh": "他在一所專攻海洋生物學的研究機構工作。"
+        }
+      ]
+    },
+    {
+      "headword": "invest",
+      "partOfSpeech": "v.",
+      "definitionZh": "投資；投入（時間、心力）",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The city has invested heavily in public transport.",
+          "translationZh": "該市已在大眾運輸上投入大量資金。"
+        }
+      ]
+    },
+    {
+      "headword": "item",
+      "partOfSpeech": "n.",
+      "definitionZh": "項目、品項；一則（新聞）",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Each item on the questionnaire was scored from one to five.",
+          "translationZh": "問卷上的每個題項都以一到五分計分。"
+        }
+      ]
+    },
+    {
+      "headword": "journal",
+      "partOfSpeech": "n.",
+      "definitionZh": "期刊、學術刊物；日誌",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Their findings were published in a leading scientific journal.",
+          "translationZh": "他們的研究發現發表在一份頂尖的科學期刊上。"
+        }
+      ]
+    },
+    {
+      "headword": "maintain",
+      "partOfSpeech": "v.",
+      "definitionZh": "維持、保養；堅稱",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "It is difficult to maintain motivation over a long course.",
+          "translationZh": "在漫長的課程中要維持動力並不容易。"
+        }
+      ]
+    },
+    {
+      "headword": "normal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "正常的、一般的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Rainfall this year was well above normal levels.",
+          "translationZh": "今年的降雨量遠高於正常水準。"
+        }
+      ]
+    },
+    {
+      "headword": "obtain",
+      "partOfSpeech": "v.",
+      "definitionZh": "獲得、取得",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Researchers obtained permission before interviewing the participants.",
+          "translationZh": "研究人員在訪談參與者之前取得了許可。"
+        }
+      ]
+    },
+    {
+      "headword": "participate",
+      "partOfSpeech": "v.",
+      "definitionZh": "參與、參加",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Over five hundred students participated in the experiment.",
+          "translationZh": "超過五百名學生參與了這項實驗。"
+        }
+      ]
+    },
+    {
+      "headword": "perceive",
+      "partOfSpeech": "v.",
+      "definitionZh": "察覺、感知；視為、認為",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Risk is often perceived differently by experts and the public.",
+          "translationZh": "專家與大眾對風險的感知往往有所不同。"
+        }
+      ]
+    },
+    {
+      "headword": "positive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "正面的、積極的；確定的；陽性的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The trial produced positive results in most patients.",
+          "translationZh": "這項試驗在多數患者身上產生了正面的結果。"
+        }
+      ]
+    },
+    {
+      "headword": "potential",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "潛在的、可能的；潛力",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Renewable energy has enormous potential in this region.",
+          "translationZh": "再生能源在這個地區有巨大的潛力。"
+        }
+      ]
+    },
+    {
+      "headword": "previous",
+      "partOfSpeech": "adj.",
+      "definitionZh": "先前的、之前的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "These results contradict those of previous studies.",
+          "translationZh": "這些結果與先前研究的結果相互矛盾。"
+        }
+      ]
+    },
+    {
+      "headword": "primary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "主要的、首要的；初級的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The primary aim of the scheme is to reduce waste.",
+          "translationZh": "這項方案的首要目標是減少廢棄物。"
+        }
+      ]
+    },
+    {
+      "headword": "purchase",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "購買；購買的物品",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Consumers increasingly purchase goods online.",
+          "translationZh": "消費者越來越常在線上購買商品。"
+        }
+      ]
+    },
+    {
+      "headword": "range",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "範圍、幅度；一系列；範圍涵蓋",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Temperatures range from five to thirty degrees Celsius.",
+          "translationZh": "氣溫範圍從攝氏五度到三十度不等。"
+        }
+      ]
+    },
+    {
+      "headword": "region",
+      "partOfSpeech": "n.",
+      "definitionZh": "地區、區域",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The northern region receives far less rainfall.",
+          "translationZh": "北部地區的降雨量少得多。"
+        }
+      ]
+    },
+    {
+      "headword": "regulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "管制、規範；調節",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The industry is regulated by a government agency.",
+          "translationZh": "該產業受一個政府機構管制。"
+        }
+      ]
+    },
+    {
+      "headword": "relevant",
+      "partOfSpeech": "adj.",
+      "definitionZh": "相關的、切題的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Please include only information relevant to the question.",
+          "translationZh": "請只納入與題目相關的資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "reside",
+      "partOfSpeech": "v.",
+      "definitionZh": "居住；（性質）存在於",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Most of the population resides in coastal cities.",
+          "translationZh": "大部分人口居住在沿海城市。"
+        }
+      ]
+    },
+    {
+      "headword": "resource",
+      "partOfSpeech": "n.",
+      "definitionZh": "資源；財力、物力",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Water is becoming an increasingly scarce resource.",
+          "translationZh": "水正逐漸成為日益稀缺的資源。"
+        }
+      ]
+    },
+    {
+      "headword": "restrict",
+      "partOfSpeech": "v.",
+      "definitionZh": "限制、約束",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Access to the archive is restricted to registered researchers.",
+          "translationZh": "檔案庫的使用權限僅限於已登記的研究人員。"
+        }
+      ]
+    },
+    {
+      "headword": "secure",
+      "partOfSpeech": "adj./v.",
+      "definitionZh": "安全的、牢固的；獲得、確保",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The team secured funding for another three years.",
+          "translationZh": "該團隊取得了再三年的研究經費。"
+        }
+      ]
+    },
+    {
+      "headword": "seek",
+      "partOfSpeech": "v.",
+      "definitionZh": "尋求、尋找；試圖",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Many graduates seek employment overseas.",
+          "translationZh": "許多畢業生尋求海外的工作機會。"
+        }
+      ]
+    },
+    {
+      "headword": "select",
+      "partOfSpeech": "v./adj.",
+      "definitionZh": "挑選、選擇；精選的",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Participants were randomly selected from the register.",
+          "translationZh": "參與者是從名冊中隨機挑選出來的。"
+        }
+      ]
+    },
+    {
+      "headword": "site",
+      "partOfSpeech": "n.",
+      "definitionZh": "地點、場址；網站",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Archaeologists have excavated the site for over a decade.",
+          "translationZh": "考古學家已在該遺址挖掘超過十年。"
+        }
+      ]
+    },
+    {
+      "headword": "strategy",
+      "partOfSpeech": "n.",
+      "definitionZh": "策略、戰略",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The company adopted a new marketing strategy last year.",
+          "translationZh": "該公司去年採用了新的行銷策略。"
+        }
+      ]
+    },
+    {
+      "headword": "survey",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "調查、問卷；勘測；概覽",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "A recent survey found that most workers prefer flexible hours.",
+          "translationZh": "近期一項調查發現，多數員工偏好彈性工時。"
+        }
+      ]
+    },
+    {
+      "headword": "text",
+      "partOfSpeech": "n.",
+      "definitionZh": "文本、正文；文字內容",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "Students are asked to analyse the text in detail.",
+          "translationZh": "學生被要求詳細分析這篇文本。"
+        }
+      ]
+    },
+    {
+      "headword": "tradition",
+      "partOfSpeech": "n.",
+      "definitionZh": "傳統、慣例",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "The festival is a tradition dating back six hundred years.",
+          "translationZh": "這個節慶是可追溯至六百年前的傳統。"
+        }
+      ]
+    },
+    {
+      "headword": "transfer",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "轉移、調動；轉乘；轉帳",
+      "examTags": ["IELTS", "AWL2"],
+      "examples": [
+        {
+          "sentence": "She transferred to another university in her second year.",
+          "translationZh": "她在二年級時轉學到另一所大學。"
+        }
+      ]
+    }
+  ]
+}

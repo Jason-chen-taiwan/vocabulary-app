@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-4",
+  "name": "學術詞表 Sublist 4",
+  "description": "Coxhead 學術詞表（AWL）第四級：學術論述中常見的 60 個字族，涵蓋研究方法、制度與論證用語，是雅思閱讀與寫作進階必備詞彙。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "access",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "使用權、接觸的機會；進入、取得（資料或資源）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Millions of children still have no access to clean drinking water.",
+          "translationZh": "數以百萬計的兒童仍然無法取得乾淨的飲用水。"
+        }
+      ]
+    },
+    {
+      "headword": "adequate",
+      "partOfSpeech": "adj.",
+      "definitionZh": "足夠的、適當的；達到所需水準的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Without adequate funding, the research project cannot continue.",
+          "translationZh": "若沒有足夠的經費，這項研究計畫便無法繼續。"
+        }
+      ]
+    },
+    {
+      "headword": "annual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "每年的、一年一度的；年度的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The chart shows the annual rainfall recorded over three decades.",
+          "translationZh": "此圖表顯示三十年間所記錄的年降雨量。"
+        }
+      ]
+    },
+    {
+      "headword": "apparent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "明顯的、顯而易見的；表面上的、看似如此的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "It soon became apparent that the original hypothesis was flawed.",
+          "translationZh": "很快就可以看出，原本的假設有缺陷。"
+        }
+      ]
+    },
+    {
+      "headword": "approximate",
+      "partOfSpeech": "adj./v.",
+      "definitionZh": "大約的、近似的；接近、約略等於",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The survey gives only an approximate figure for household energy use.",
+          "translationZh": "這份調查只提供家庭能源使用量的約略數字。"
+        }
+      ]
+    },
+    {
+      "headword": "attitude",
+      "partOfSpeech": "n.",
+      "definitionZh": "態度、看法；對人事物的心理傾向",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Public attitudes towards recycling have changed dramatically.",
+          "translationZh": "大眾對回收的態度已有劇烈改變。"
+        }
+      ]
+    },
+    {
+      "headword": "attribute",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "特質、屬性；把（結果）歸因於某原因",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Scientists attribute the rise in sea levels to melting polar ice.",
+          "translationZh": "科學家將海平面上升歸因於極地冰層融化。"
+        }
+      ]
+    },
+    {
+      "headword": "civil",
+      "partOfSpeech": "adj.",
+      "definitionZh": "公民的、民間的；民事的（相對於軍事或刑事）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The movement fought for the civil rights of minority groups.",
+          "translationZh": "這場運動為少數族群的公民權利而奮鬥。"
+        }
+      ]
+    },
+    {
+      "headword": "code",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "規範、守則；代碼、密碼；編碼、把資料分類標記",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "All researchers must follow a strict code of ethics.",
+          "translationZh": "所有研究人員都必須遵守嚴格的倫理守則。"
+        }
+      ]
+    },
+    {
+      "headword": "commit",
+      "partOfSpeech": "v.",
+      "definitionZh": "承諾、投入（資源或心力）；犯下（罪行或錯誤）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The government has committed substantial funds to renewable energy.",
+          "translationZh": "政府已投入大量資金於再生能源。"
+        }
+      ]
+    },
+    {
+      "headword": "communicate",
+      "partOfSpeech": "v.",
+      "definitionZh": "溝通、傳達（訊息或想法）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Scientists must learn to communicate complex ideas to the public.",
+          "translationZh": "科學家必須學會把複雜的概念傳達給大眾。"
+        }
+      ]
+    },
+    {
+      "headword": "concentrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "專注、集中（注意力）；使集中於某處",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The study concentrates on the effects of noise on student learning.",
+          "translationZh": "這項研究聚焦於噪音對學生學習的影響。"
+        }
+      ]
+    },
+    {
+      "headword": "confer",
+      "partOfSpeech": "v.",
+      "definitionZh": "商議、協商；授予（頭銜、學位或權利）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The committee conferred for several hours before reaching a decision.",
+          "translationZh": "委員會經過數小時的商議才做出決定。"
+        }
+      ]
+    },
+    {
+      "headword": "contrast",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "對比、差異；相互比較以凸顯不同之處",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The essay contrasts rural and urban approaches to waste management.",
+          "translationZh": "這篇文章對比了鄉村與都市在廢棄物管理上的做法。"
+        }
+      ]
+    },
+    {
+      "headword": "cycle",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "循環、週期；週而復始地運行",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The diagram illustrates each stage of the water cycle.",
+          "translationZh": "此圖說明水循環的每一個階段。"
+        }
+      ]
+    },
+    {
+      "headword": "debate",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "辯論、爭論；針對議題公開討論",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "There is ongoing debate about whether university education should be free.",
+          "translationZh": "關於大學教育是否應該免費，目前仍有持續的爭論。"
+        }
+      ]
+    },
+    {
+      "headword": "despite",
+      "partOfSpeech": "prep.",
+      "definitionZh": "儘管、雖然（後接名詞或動名詞）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Despite repeated warnings, deforestation has continued to accelerate.",
+          "translationZh": "儘管一再提出警告，森林砍伐仍持續加速。"
+        }
+      ]
+    },
+    {
+      "headword": "dimension",
+      "partOfSpeech": "n.",
+      "definitionZh": "面向、層面；尺寸、維度",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Poverty has a social dimension that economic data alone cannot capture.",
+          "translationZh": "貧窮有一個單靠經濟數據無法呈現的社會層面。"
+        }
+      ]
+    },
+    {
+      "headword": "domestic",
+      "partOfSpeech": "adj.",
+      "definitionZh": "國內的、本國的；家庭的、家用的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Domestic consumers account for a quarter of total electricity use.",
+          "translationZh": "家庭用戶占總用電量的四分之一。"
+        }
+      ]
+    },
+    {
+      "headword": "emerge",
+      "partOfSpeech": "v.",
+      "definitionZh": "出現、浮現；（事實）顯露出來",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "A clear pattern emerged after the results were analysed.",
+          "translationZh": "在結果經過分析後，一個清楚的模式浮現出來。"
+        }
+      ]
+    },
+    {
+      "headword": "error",
+      "partOfSpeech": "n.",
+      "definitionZh": "錯誤、誤差；判斷或計算上的失誤",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The researchers repeated the experiment to reduce measurement error.",
+          "translationZh": "研究人員重複實驗以降低測量誤差。"
+        }
+      ]
+    },
+    {
+      "headword": "ethnic",
+      "partOfSpeech": "adj.",
+      "definitionZh": "族群的、種族的；與特定文化群體相關的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The city is home to more than thirty ethnic communities.",
+          "translationZh": "這座城市容納了超過三十個族群社群。"
+        }
+      ]
+    },
+    {
+      "headword": "goal",
+      "partOfSpeech": "n.",
+      "definitionZh": "目標、目的；希望達成的結果",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The main goal of the programme is to raise literacy rates.",
+          "translationZh": "這項計畫的主要目標是提升識字率。"
+        }
+      ]
+    },
+    {
+      "headword": "grant",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "補助金、獎助款；給予、准許（請求或權利）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "She received a research grant to study urban air pollution.",
+          "translationZh": "她獲得一筆研究補助金來研究都市空氣汙染。"
+        }
+      ]
+    },
+    {
+      "headword": "hence",
+      "partOfSpeech": "adv.",
+      "definitionZh": "因此、所以；由此可知",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The sample was very small; hence the findings must be treated with caution.",
+          "translationZh": "樣本數非常小，因此這些發現必須謹慎看待。"
+        }
+      ]
+    },
+    {
+      "headword": "hypothesis",
+      "partOfSpeech": "n.",
+      "definitionZh": "假設、假說；有待驗證的推測",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The experiment was designed to test this hypothesis.",
+          "translationZh": "這項實驗是為了檢驗這個假說而設計的。"
+        }
+      ]
+    },
+    {
+      "headword": "implement",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "實施、執行（政策或計畫）；工具、器具",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The city implemented a new recycling scheme last year.",
+          "translationZh": "該市去年實施了一項新的回收方案。"
+        }
+      ]
+    },
+    {
+      "headword": "implicate",
+      "partOfSpeech": "v.",
+      "definitionZh": "牽連、暗示某人涉入；顯示與某事有關聯",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Several studies have implicated air pollution in rising asthma rates.",
+          "translationZh": "多項研究指出空氣汙染與氣喘發生率上升有關。"
+        }
+      ]
+    },
+    {
+      "headword": "impose",
+      "partOfSpeech": "v.",
+      "definitionZh": "強制施行、課徵（規定、稅金或限制）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Several countries have imposed strict limits on plastic packaging.",
+          "translationZh": "有幾個國家對塑膠包裝施加了嚴格的限制。"
+        }
+      ]
+    },
+    {
+      "headword": "integrate",
+      "partOfSpeech": "v.",
+      "definitionZh": "整合、結合成一體；使融入（群體或系統）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Many schools now integrate technology into every subject.",
+          "translationZh": "許多學校現在把科技整合進每一門學科。"
+        }
+      ]
+    },
+    {
+      "headword": "internal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "內部的、內在的；機構或系統之內的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The company launched an internal review of its safety procedures.",
+          "translationZh": "該公司針對其安全程序展開內部檢討。"
+        }
+      ]
+    },
+    {
+      "headword": "investigate",
+      "partOfSpeech": "v.",
+      "definitionZh": "調查、研究；深入探究原因或事實",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The team investigated how sleep affects academic performance.",
+          "translationZh": "這個團隊研究了睡眠如何影響學業表現。"
+        }
+      ]
+    },
+    {
+      "headword": "job",
+      "partOfSpeech": "n.",
+      "definitionZh": "工作、職務；一項待完成的任務",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Automation may eliminate thousands of jobs in manufacturing.",
+          "translationZh": "自動化可能會消滅製造業中數以千計的工作。"
+        }
+      ]
+    },
+    {
+      "headword": "label",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "標籤、標示；為……貼標籤、加以歸類",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Food labels should clearly state the sugar content of each product.",
+          "translationZh": "食品標籤應清楚標示每項產品的含糖量。"
+        }
+      ]
+    },
+    {
+      "headword": "mechanism",
+      "partOfSpeech": "n.",
+      "definitionZh": "機制、運作方式；機械裝置",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Researchers are still uncertain about the mechanism behind the disease.",
+          "translationZh": "研究人員對這種疾病背後的機制仍不確定。"
+        }
+      ]
+    },
+    {
+      "headword": "obvious",
+      "partOfSpeech": "adj.",
+      "definitionZh": "明顯的、一目了然的；不需解釋即可理解的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "There is no obvious solution to the problem of traffic congestion.",
+          "translationZh": "交通壅塞的問題並沒有明顯的解決辦法。"
+        }
+      ]
+    },
+    {
+      "headword": "occupy",
+      "partOfSpeech": "v.",
+      "definitionZh": "占據（空間或時間）；居住於；擔任（職位）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Farmland occupies nearly half of the country's total land area.",
+          "translationZh": "農地占據了該國總土地面積的將近一半。"
+        }
+      ]
+    },
+    {
+      "headword": "option",
+      "partOfSpeech": "n.",
+      "definitionZh": "選項、選擇；可供挑選的做法",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Working from home is now a realistic option for many employees.",
+          "translationZh": "在家工作如今對許多員工而言是切實可行的選項。"
+        }
+      ]
+    },
+    {
+      "headword": "output",
+      "partOfSpeech": "n.",
+      "definitionZh": "產量、產出；系統或裝置輸出的結果",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Industrial output fell sharply during the economic downturn.",
+          "translationZh": "在經濟衰退期間，工業產出大幅下滑。"
+        }
+      ]
+    },
+    {
+      "headword": "overall",
+      "partOfSpeech": "adj./adv.",
+      "definitionZh": "整體的、總的；就整體而言",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Overall, the number of international students has risen steadily.",
+          "translationZh": "整體而言，國際學生的人數穩定增加。"
+        }
+      ]
+    },
+    {
+      "headword": "parallel",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "平行的、同時並行的；相似之處、類似的情況",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "There are clear parallels between the two historical periods.",
+          "translationZh": "這兩個歷史時期之間有明顯的相似之處。"
+        }
+      ]
+    },
+    {
+      "headword": "parameter",
+      "partOfSpeech": "n.",
+      "definitionZh": "參數；界限、範圍條件",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The model produces different results when key parameters are changed.",
+          "translationZh": "當關鍵參數改變時，這個模型會產生不同的結果。"
+        }
+      ]
+    },
+    {
+      "headword": "phase",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "階段、時期；分階段進行",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The first phase of the project focuses on collecting field data.",
+          "translationZh": "這項計畫的第一階段著重於蒐集實地資料。"
+        }
+      ]
+    },
+    {
+      "headword": "predict",
+      "partOfSpeech": "v.",
+      "definitionZh": "預測、預言；根據現有資訊推斷未來",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Economists predict that housing prices will continue to rise.",
+          "translationZh": "經濟學家預測房價將持續上漲。"
+        }
+      ]
+    },
+    {
+      "headword": "principal",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "主要的、首要的；校長、負責人",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The principal cause of the decline was habitat destruction.",
+          "translationZh": "此一衰退的主要原因是棲地遭到破壞。"
+        }
+      ]
+    },
+    {
+      "headword": "prior",
+      "partOfSpeech": "adj.",
+      "definitionZh": "先前的、在前的；優先的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Participants were asked about their prior experience with online learning.",
+          "translationZh": "受試者被詢問他們先前使用線上學習的經驗。"
+        }
+      ]
+    },
+    {
+      "headword": "professional",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "專業的、職業的；專業人士",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Teachers need regular professional development to keep their skills current.",
+          "translationZh": "教師需要定期的專業發展，以維持技能與時俱進。"
+        }
+      ]
+    },
+    {
+      "headword": "project",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "計畫、專案；推估、預計（未來數值）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The population is projected to double within forty years.",
+          "translationZh": "人口預計將在四十年內倍增。"
+        }
+      ]
+    },
+    {
+      "headword": "promote",
+      "partOfSpeech": "v.",
+      "definitionZh": "促進、推廣；晉升（職位）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The campaign aims to promote healthy eating among young people.",
+          "translationZh": "這項活動旨在推廣年輕人的健康飲食。"
+        }
+      ]
+    },
+    {
+      "headword": "regime",
+      "partOfSpeech": "n.",
+      "definitionZh": "政權、政體；一套制度化的管理方式",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The new regime introduced sweeping reforms to the education system.",
+          "translationZh": "新政權對教育制度推行了全面的改革。"
+        }
+      ]
+    },
+    {
+      "headword": "resolve",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "解決（問題或爭端）；下定決心；決心",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The two nations resolved their dispute through negotiation.",
+          "translationZh": "這兩個國家透過談判解決了他們的爭端。"
+        }
+      ]
+    },
+    {
+      "headword": "retain",
+      "partOfSpeech": "v.",
+      "definitionZh": "保留、保有；記住不忘",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Students retain information better when they test themselves regularly.",
+          "translationZh": "學生若定期自我測驗，就能更牢固地記住資訊。"
+        }
+      ]
+    },
+    {
+      "headword": "series",
+      "partOfSpeech": "n.",
+      "definitionZh": "一系列、一連串；系列節目或叢書",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The university held a series of lectures on climate policy.",
+          "translationZh": "該大學舉辦了一系列關於氣候政策的演講。"
+        }
+      ]
+    },
+    {
+      "headword": "statistic",
+      "partOfSpeech": "n.",
+      "definitionZh": "統計數字、統計資料（複數形指統計學）",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Official statistics show a steady fall in youth unemployment.",
+          "translationZh": "官方統計數字顯示青年失業率穩定下降。"
+        }
+      ]
+    },
+    {
+      "headword": "status",
+      "partOfSpeech": "n.",
+      "definitionZh": "地位、身分；狀態、情況",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Socioeconomic status strongly influences a child's access to education.",
+          "translationZh": "社經地位強烈影響兒童接受教育的機會。"
+        }
+      ]
+    },
+    {
+      "headword": "stress",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "壓力、緊張；強調、著重",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The author stresses the importance of long-term environmental planning.",
+          "translationZh": "作者強調長期環境規劃的重要性。"
+        }
+      ]
+    },
+    {
+      "headword": "subsequent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "隨後的、接下來的；發生在某事之後的",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Subsequent studies confirmed the findings of the original experiment.",
+          "translationZh": "後續的研究證實了原始實驗的發現。"
+        }
+      ]
+    },
+    {
+      "headword": "sum",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "總和、金額；加總、概括說明",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "A large sum of money was invested in public transport.",
+          "translationZh": "一筆龐大的金額被投資於大眾運輸。"
+        }
+      ]
+    },
+    {
+      "headword": "summary",
+      "partOfSpeech": "n.",
+      "definitionZh": "摘要、總結；扼要說明重點的文字",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "Each chapter ends with a brief summary of the key arguments.",
+          "translationZh": "每一章都以關鍵論點的簡短摘要作結。"
+        }
+      ]
+    },
+    {
+      "headword": "undertake",
+      "partOfSpeech": "v.",
+      "definitionZh": "著手進行、承擔（任務或研究）；承諾做某事",
+      "examTags": ["IELTS", "AWL4"],
+      "examples": [
+        {
+          "sentence": "The institute undertook a five-year study of coastal erosion.",
+          "translationZh": "該研究所進行了一項為期五年的海岸侵蝕研究。"
+        }
+      ]
+    }
+  ]
+}

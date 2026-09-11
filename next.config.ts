@@ -1,15 +1,9 @@
 import type { NextConfig } from "next";
-import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
-
-if (process.env.NODE_ENV !== "production") {
-  initOpenNextCloudflareForDev();
-}
 
 const nextConfig: NextConfig = {
-  // OpenNext must externalize + patch the Prisma client for the workerd
-  // runtime; without this the client does fs scans (e.g. fs.readdir) that
-  // Cloudflare Workers don't implement. See opennext.js.org/cloudflare/howtos/db
-  serverExternalPackages: ["@prisma/client", ".prisma/client"],
+  // 全靜態輸出：build 出純 HTML/JS/CSS，直接丟 Cloudflare Pages，無 server、無 DB。
+  output: "export",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

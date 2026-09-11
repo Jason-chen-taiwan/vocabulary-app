@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-7",
+  "name": "學術詞表 Sublist 7",
+  "description": "Coxhead 學術詞表（AWL）第七級：學術寫作中用於論證、推論與制度描述的 60 個字族，適合進階雅思考生鞏固用字精準度。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "adapt",
+      "partOfSpeech": "v.",
+      "definitionZh": "適應；改編、調整以符合新情況",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Species that fail to adapt to rising temperatures may disappear within decades.",
+          "translationZh": "無法適應氣溫上升的物種可能在數十年內消失。"
+        }
+      ]
+    },
+    {
+      "headword": "adult",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "成年人；成年的、成熟的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Many adults return to education later in life to improve their career prospects.",
+          "translationZh": "許多成年人在人生後期重返校園，以改善職涯前景。"
+        }
+      ]
+    },
+    {
+      "headword": "advocate",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "提倡、主張；倡議者、擁護者",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Some economists advocate higher taxes on fossil fuels to curb emissions.",
+          "translationZh": "有些經濟學家主張對化石燃料課徵更高的稅以抑制排放。"
+        }
+      ]
+    },
+    {
+      "headword": "aid",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "援助、幫助；輔助工具",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "International aid played a crucial role in rebuilding the region's schools.",
+          "translationZh": "國際援助在重建該地區的學校上扮演關鍵角色。"
+        }
+      ]
+    },
+    {
+      "headword": "channel",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "管道、途徑；頻道；引導（資源或精力）至某處",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The university channels most of its funding into scientific research.",
+          "translationZh": "該大學把大部分經費投入科學研究。"
+        }
+      ]
+    },
+    {
+      "headword": "chemical",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "化學的；化學物質",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Agricultural chemicals have contaminated groundwater in several provinces.",
+          "translationZh": "農業化學藥劑已汙染數個省份的地下水。"
+        }
+      ]
+    },
+    {
+      "headword": "classic",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "典型的、經典的；經典作品",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "This study is a classic example of how small samples can mislead researchers.",
+          "translationZh": "這份研究是小樣本如何誤導研究人員的典型例子。"
+        }
+      ]
+    },
+    {
+      "headword": "comprehensive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "全面的、詳盡的、涵蓋範圍廣的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The report offers a comprehensive review of urban transport policies.",
+          "translationZh": "這份報告對都市運輸政策做了全面的檢視。"
+        }
+      ]
+    },
+    {
+      "headword": "comprise",
+      "partOfSpeech": "v.",
+      "definitionZh": "由……組成；構成、包含",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The sample comprises two hundred students from six different countries.",
+          "translationZh": "這份樣本由來自六個不同國家的兩百名學生組成。"
+        }
+      ]
+    },
+    {
+      "headword": "confirm",
+      "partOfSpeech": "v.",
+      "definitionZh": "證實、確認；使更確定",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Later experiments confirmed the results of the original trial.",
+          "translationZh": "後續的實驗證實了最初試驗的結果。"
+        }
+      ]
+    },
+    {
+      "headword": "contrary",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "相反的；相反的事物或情況",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Contrary to popular belief, longer working hours rarely raise productivity.",
+          "translationZh": "與一般看法相反，更長的工時很少能提高生產力。"
+        }
+      ]
+    },
+    {
+      "headword": "convert",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "轉換、改變（形式或用途）；改變信仰者",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Solar panels convert sunlight into electricity with increasing efficiency.",
+          "translationZh": "太陽能板以日益提升的效率把陽光轉換為電力。"
+        }
+      ]
+    },
+    {
+      "headword": "couple",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "一對、兩個；夫妻或情侶；使結合、連接",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Rising rents, coupled with stagnant wages, have pushed young couples out of the city.",
+          "translationZh": "房租上漲加上薪資停滯，迫使年輕伴侶遷出城市。"
+        }
+      ]
+    },
+    {
+      "headword": "decade",
+      "partOfSpeech": "n.",
+      "definitionZh": "十年、十年期",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Over the past decade, online learning has expanded dramatically.",
+          "translationZh": "在過去十年間，線上學習急遽擴張。"
+        }
+      ]
+    },
+    {
+      "headword": "definite",
+      "partOfSpeech": "adj.",
+      "definitionZh": "明確的、確定的、肯定的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The data show a definite link between air pollution and respiratory illness.",
+          "translationZh": "數據顯示空氣汙染與呼吸道疾病之間有明確的關聯。"
+        }
+      ]
+    },
+    {
+      "headword": "deny",
+      "partOfSpeech": "v.",
+      "definitionZh": "否認；拒絕給予",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The company denied that its factories had polluted the river.",
+          "translationZh": "該公司否認其工廠汙染了河川。"
+        }
+      ]
+    },
+    {
+      "headword": "differentiate",
+      "partOfSpeech": "v.",
+      "definitionZh": "區別、辨別；使有差異",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Young children find it hard to differentiate between advertising and entertainment.",
+          "translationZh": "幼童很難區別廣告與娛樂內容。"
+        }
+      ]
+    },
+    {
+      "headword": "dispose",
+      "partOfSpeech": "v.",
+      "definitionZh": "處理、丟棄（常與介系詞連用）；使傾向於",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Households must dispose of electronic waste at designated collection points.",
+          "translationZh": "家戶必須把電子廢棄物丟棄在指定的回收點。"
+        }
+      ]
+    },
+    {
+      "headword": "dynamic",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "動態的、充滿活力的；動力、互動關係",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Social media has changed the dynamic between politicians and voters.",
+          "translationZh": "社群媒體改變了政治人物與選民之間的互動關係。"
+        }
+      ]
+    },
+    {
+      "headword": "eliminate",
+      "partOfSpeech": "v.",
+      "definitionZh": "消除、排除、淘汰",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "No policy can completely eliminate the risk of flooding in coastal cities.",
+          "translationZh": "沒有任何政策能完全消除沿海城市的洪水風險。"
+        }
+      ]
+    },
+    {
+      "headword": "empirical",
+      "partOfSpeech": "adj.",
+      "definitionZh": "實證的、以觀察與實驗為依據的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The theory is elegant but lacks empirical support.",
+          "translationZh": "這個理論雖然精巧，卻缺乏實證支持。"
+        }
+      ]
+    },
+    {
+      "headword": "equip",
+      "partOfSpeech": "v.",
+      "definitionZh": "裝備、配備；使具備（能力或知識）",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Schools should equip students with the skills needed in a digital economy.",
+          "translationZh": "學校應使學生具備數位經濟所需的技能。"
+        }
+      ]
+    },
+    {
+      "headword": "extract",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "抽取、提煉、擷取；摘錄、萃取物",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Mining companies extract rare metals that are essential to modern electronics.",
+          "translationZh": "礦業公司開採現代電子產品不可或缺的稀有金屬。"
+        }
+      ]
+    },
+    {
+      "headword": "file",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "檔案、卷宗；歸檔、提出（申請或訴訟）",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Residents filed a formal complaint about the noise from the construction site.",
+          "translationZh": "居民就工地噪音提出了正式申訴。"
+        }
+      ]
+    },
+    {
+      "headword": "finite",
+      "partOfSpeech": "adj.",
+      "definitionZh": "有限的、有盡頭的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Fossil fuels are a finite resource that will eventually run out.",
+          "translationZh": "化石燃料是有限的資源，終將耗盡。"
+        }
+      ]
+    },
+    {
+      "headword": "foundation",
+      "partOfSpeech": "n.",
+      "definitionZh": "基礎、根基；基金會；創立",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Early reading skills provide the foundation for later academic success.",
+          "translationZh": "早期的閱讀能力為日後的學業成就奠定基礎。"
+        }
+      ]
+    },
+    {
+      "headword": "globe",
+      "partOfSpeech": "n.",
+      "definitionZh": "地球、全球；球體、地球儀",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Extreme weather events are now reported across the globe.",
+          "translationZh": "極端天氣事件如今在全球各地都有報導。"
+        }
+      ]
+    },
+    {
+      "headword": "grade",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "等級、成績、年級；評分、分級",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Teachers grade essays according to a shared set of criteria.",
+          "translationZh": "教師依照一套共同的標準為作文評分。"
+        }
+      ]
+    },
+    {
+      "headword": "guarantee",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "保證、擔保；保證書、保障",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "A university degree no longer guarantees a well-paid job.",
+          "translationZh": "大學學歷已不再保證能找到高薪工作。"
+        }
+      ]
+    },
+    {
+      "headword": "hierarchy",
+      "partOfSpeech": "n.",
+      "definitionZh": "階層、層級制度；權力高低的排序",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Flatter organisations tend to outperform those with a rigid hierarchy.",
+          "translationZh": "結構較扁平的組織往往表現優於階層僵化的組織。"
+        }
+      ]
+    },
+    {
+      "headword": "identical",
+      "partOfSpeech": "adj.",
+      "definitionZh": "完全相同的、一模一樣的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The two groups received identical training but produced very different results.",
+          "translationZh": "這兩組接受了完全相同的訓練，卻產生非常不同的結果。"
+        }
+      ]
+    },
+    {
+      "headword": "ideology",
+      "partOfSpeech": "n.",
+      "definitionZh": "意識形態、思想體系",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Education policy is often shaped more by ideology than by evidence.",
+          "translationZh": "教育政策往往受意識形態的影響大於受證據的影響。"
+        }
+      ]
+    },
+    {
+      "headword": "infer",
+      "partOfSpeech": "v.",
+      "definitionZh": "推論、推斷；由證據得出結論",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "From these figures we can infer that demand will continue to fall.",
+          "translationZh": "從這些數字我們可以推論需求將持續下滑。"
+        }
+      ]
+    },
+    {
+      "headword": "innovate",
+      "partOfSpeech": "v.",
+      "definitionZh": "創新、革新、引入新方法",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Firms that fail to innovate quickly lose their share of the market.",
+          "translationZh": "未能創新的公司會迅速失去市場占有率。"
+        }
+      ]
+    },
+    {
+      "headword": "insert",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "插入、嵌入；插入物、插頁",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The author inserted a new paragraph to clarify the argument.",
+          "translationZh": "作者插入了一個新段落以澄清論點。"
+        }
+      ]
+    },
+    {
+      "headword": "intervene",
+      "partOfSpeech": "v.",
+      "definitionZh": "介入、干預；插手調停",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Governments may need to intervene when housing markets become unstable.",
+          "translationZh": "當房市變得不穩定時，政府可能需要介入。"
+        }
+      ]
+    },
+    {
+      "headword": "isolate",
+      "partOfSpeech": "v.",
+      "definitionZh": "隔離、孤立；分離出（單一因素）",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "It is difficult to isolate the effect of diet from that of exercise.",
+          "translationZh": "很難把飲食的影響與運動的影響分離出來。"
+        }
+      ]
+    },
+    {
+      "headword": "media",
+      "partOfSpeech": "n.",
+      "definitionZh": "媒體、大眾傳播工具；傳播媒介",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The media play a powerful role in shaping public opinion.",
+          "translationZh": "媒體在形塑輿論上扮演強大的角色。"
+        }
+      ]
+    },
+    {
+      "headword": "mode",
+      "partOfSpeech": "n.",
+      "definitionZh": "方式、模式；（機器的）運作狀態",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Cycling remains the cheapest mode of transport in dense cities.",
+          "translationZh": "在人口稠密的城市裡，騎自行車仍是最便宜的交通方式。"
+        }
+      ]
+    },
+    {
+      "headword": "paradigm",
+      "partOfSpeech": "n.",
+      "definitionZh": "典範、範式；思考或研究的既定模式",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Remote work represents a paradigm shift in how offices are organised.",
+          "translationZh": "遠距工作代表辦公室組織方式的典範轉移。"
+        }
+      ]
+    },
+    {
+      "headword": "phenomenon",
+      "partOfSpeech": "n.",
+      "definitionZh": "現象；不尋常的事物",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Urban migration is a global phenomenon with complex causes.",
+          "translationZh": "城市移居是一個成因複雜的全球現象。"
+        }
+      ]
+    },
+    {
+      "headword": "priority",
+      "partOfSpeech": "n.",
+      "definitionZh": "優先事項、優先權；優先順序",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Reducing class sizes should be a priority for the education ministry.",
+          "translationZh": "縮減班級人數應是教育部的優先事項。"
+        }
+      ]
+    },
+    {
+      "headword": "prohibit",
+      "partOfSpeech": "v.",
+      "definitionZh": "禁止；（以規定）阻止",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Several countries now prohibit the sale of single-use plastic bags.",
+          "translationZh": "目前已有數個國家禁止販售一次性塑膠袋。"
+        }
+      ]
+    },
+    {
+      "headword": "publication",
+      "partOfSpeech": "n.",
+      "definitionZh": "出版、發表；出版品、刊物",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The publication of the findings sparked a heated academic debate.",
+          "translationZh": "這些研究結果的發表引發了激烈的學術辯論。"
+        }
+      ]
+    },
+    {
+      "headword": "quote",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "引用、引述；引文、報價",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Students must quote their sources accurately to avoid plagiarism.",
+          "translationZh": "學生必須準確引用資料來源，以避免抄襲。"
+        }
+      ]
+    },
+    {
+      "headword": "release",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "釋放、排放；發布、上市",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Factories release large quantities of greenhouse gases every year.",
+          "translationZh": "工廠每年排放大量的溫室氣體。"
+        }
+      ]
+    },
+    {
+      "headword": "reverse",
+      "partOfSpeech": "v./adj./n.",
+      "definitionZh": "扭轉、逆轉；相反的；相反的情況",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Reforestation can partly reverse the damage caused by logging.",
+          "translationZh": "造林可以部分扭轉伐木所造成的損害。"
+        }
+      ]
+    },
+    {
+      "headword": "simulate",
+      "partOfSpeech": "v.",
+      "definitionZh": "模擬、仿真；假裝",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The software simulates climate conditions over the next fifty years.",
+          "translationZh": "這套軟體模擬未來五十年的氣候狀況。"
+        }
+      ]
+    },
+    {
+      "headword": "sole",
+      "partOfSpeech": "adj.",
+      "definitionZh": "唯一的、單獨的；獨有的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Tourism is the sole source of income for many island communities.",
+          "translationZh": "觀光是許多島嶼社區唯一的收入來源。"
+        }
+      ]
+    },
+    {
+      "headword": "somewhat",
+      "partOfSpeech": "adv.",
+      "definitionZh": "有點、稍微、有幾分",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The results are somewhat surprising given the size of the sample.",
+          "translationZh": "考量到樣本規模，這些結果有點出人意料。"
+        }
+      ]
+    },
+    {
+      "headword": "submit",
+      "partOfSpeech": "v.",
+      "definitionZh": "提交、遞交；屈服、服從",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Applicants must submit their research proposals before the deadline.",
+          "translationZh": "申請人必須在截止日期前提交研究計畫書。"
+        }
+      ]
+    },
+    {
+      "headword": "successor",
+      "partOfSpeech": "n.",
+      "definitionZh": "繼任者、接班人；後繼的事物",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Her successor inherited a department with serious funding problems.",
+          "translationZh": "她的繼任者接手了一個有嚴重經費問題的系所。"
+        }
+      ]
+    },
+    {
+      "headword": "survive",
+      "partOfSpeech": "v.",
+      "definitionZh": "存活、倖存；比……活得久",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Few small bookshops have survived the growth of online retail.",
+          "translationZh": "在網路零售成長之下，很少有小書店存活下來。"
+        }
+      ]
+    },
+    {
+      "headword": "thesis",
+      "partOfSpeech": "n.",
+      "definitionZh": "論文；論點、主張",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Her thesis argues that language shapes the way we perceive time.",
+          "translationZh": "她的論文主張語言形塑了我們感知時間的方式。"
+        }
+      ]
+    },
+    {
+      "headword": "topic",
+      "partOfSpeech": "n.",
+      "definitionZh": "主題、話題、題目",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Climate change remains the most widely discussed topic in the journal.",
+          "translationZh": "氣候變遷仍是該期刊中最廣泛討論的主題。"
+        }
+      ]
+    },
+    {
+      "headword": "transmit",
+      "partOfSpeech": "v.",
+      "definitionZh": "傳送、傳輸；傳染、傳遞",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Satellites transmit data to research stations in real time.",
+          "translationZh": "衛星即時把資料傳送到研究站。"
+        }
+      ]
+    },
+    {
+      "headword": "ultimate",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "最終的、根本的；極致、終極的事物",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The ultimate aim of the programme is to reduce youth unemployment.",
+          "translationZh": "這項計畫的最終目標是降低青年失業率。"
+        }
+      ]
+    },
+    {
+      "headword": "unique",
+      "partOfSpeech": "adj.",
+      "definitionZh": "獨特的、獨一無二的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Each region faces a unique set of environmental challenges.",
+          "translationZh": "每個地區都面臨一組獨特的環境挑戰。"
+        }
+      ]
+    },
+    {
+      "headword": "visible",
+      "partOfSpeech": "adj.",
+      "definitionZh": "看得見的、可見的；明顯的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "The effects of the policy became visible only after several years.",
+          "translationZh": "這項政策的效果在數年後才變得明顯。"
+        }
+      ]
+    },
+    {
+      "headword": "voluntary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "自願的、志願的；無償的",
+      "examTags": ["IELTS", "AWL7"],
+      "examples": [
+        {
+          "sentence": "Voluntary work gives students valuable experience outside the classroom.",
+          "translationZh": "志願服務讓學生獲得課堂之外的寶貴經驗。"
+        }
+      ]
+    }
+  ]
+}

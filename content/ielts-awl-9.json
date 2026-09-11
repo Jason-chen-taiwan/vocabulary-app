@@ -1,0 +1,728 @@
+{
+  "slug": "ielts-awl-9",
+  "name": "學術詞表 Sublist 9",
+  "description": "Coxhead 學術詞表（AWL）第九級：學術文章中出現頻率次高的 60 個字族，適合累積雅思進階讀寫的精準用字。",
+  "level": "IELTS",
+  "words": [
+    {
+      "headword": "accommodate",
+      "partOfSpeech": "v.",
+      "definitionZh": "容納、提供空間；順應、配合（需求）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The new lecture hall was designed to accommodate up to five hundred students.",
+          "translationZh": "這間新講堂的設計可容納多達五百名學生。"
+        }
+      ]
+    },
+    {
+      "headword": "analogy",
+      "partOfSpeech": "n.",
+      "definitionZh": "類比、比擬；兩者之間的相似之處",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The author draws an analogy between the human brain and a computer network.",
+          "translationZh": "作者將人腦與電腦網路做了類比。"
+        }
+      ]
+    },
+    {
+      "headword": "anticipate",
+      "partOfSpeech": "v.",
+      "definitionZh": "預期、預料；預先因應",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Few economists anticipated how quickly the housing market would recover.",
+          "translationZh": "很少有經濟學家預料到房市會這麼快復甦。"
+        }
+      ]
+    },
+    {
+      "headword": "assure",
+      "partOfSpeech": "v.",
+      "definitionZh": "向某人保證、使安心；確保",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The committee assured participants that all personal data would remain confidential.",
+          "translationZh": "委員會向參與者保證，所有個人資料都會保密。"
+        }
+      ]
+    },
+    {
+      "headword": "attain",
+      "partOfSpeech": "v.",
+      "definitionZh": "達到、獲得（目標或水準）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Only a minority of students attain the highest band in the writing test.",
+          "translationZh": "只有少數學生能在寫作測驗中達到最高級分。"
+        }
+      ]
+    },
+    {
+      "headword": "behalf",
+      "partOfSpeech": "n.",
+      "definitionZh": "代表、利益（常用於「代表某人」的片語）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "She accepted the research award on behalf of the entire laboratory.",
+          "translationZh": "她代表整個實驗室領取這項研究獎。"
+        }
+      ]
+    },
+    {
+      "headword": "bulk",
+      "partOfSpeech": "n.",
+      "definitionZh": "大部分、大量；龐大的體積",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The bulk of the funding was allocated to renewable energy projects.",
+          "translationZh": "大部分的資金被分配給再生能源專案。"
+        }
+      ]
+    },
+    {
+      "headword": "cease",
+      "partOfSpeech": "v.",
+      "definitionZh": "停止、終止",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The factory ceased production after the new emissions rules took effect.",
+          "translationZh": "在新的排放法規生效後，該工廠停止了生產。"
+        }
+      ]
+    },
+    {
+      "headword": "coherent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "條理分明的、連貫的；前後一致的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "A high-scoring essay presents a coherent argument from start to finish.",
+          "translationZh": "高分作文會從頭到尾呈現一個條理分明的論點。"
+        }
+      ]
+    },
+    {
+      "headword": "coincide",
+      "partOfSpeech": "v.",
+      "definitionZh": "同時發生；（意見或看法）一致、吻合",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The decline in bird populations coincided with the expansion of intensive farming.",
+          "translationZh": "鳥類數量的下降與集約農業的擴張同時發生。"
+        }
+      ]
+    },
+    {
+      "headword": "commence",
+      "partOfSpeech": "v.",
+      "definitionZh": "開始、著手（較正式的用法）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Construction of the new campus library will commence next spring.",
+          "translationZh": "新校園圖書館的工程將於明年春天開工。"
+        }
+      ]
+    },
+    {
+      "headword": "compatible",
+      "partOfSpeech": "adj.",
+      "definitionZh": "相容的、可並存的；合得來的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Economic growth is not always compatible with environmental protection.",
+          "translationZh": "經濟成長並非總是能與環境保護並存。"
+        }
+      ]
+    },
+    {
+      "headword": "concurrent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "同時發生的、並行的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The conference ran three concurrent sessions on climate policy.",
+          "translationZh": "這場研討會同時進行三場氣候政策的分場會議。"
+        }
+      ]
+    },
+    {
+      "headword": "confine",
+      "partOfSpeech": "v.",
+      "definitionZh": "限制於某範圍；關住、拘禁",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The study confined its analysis to households in urban areas.",
+          "translationZh": "這項研究將分析限定在都市地區的家庭。"
+        }
+      ]
+    },
+    {
+      "headword": "controversy",
+      "partOfSpeech": "n.",
+      "definitionZh": "爭議、論戰",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The proposal to charge tuition fees sparked considerable controversy.",
+          "translationZh": "收取學費的提案引發了相當大的爭議。"
+        }
+      ]
+    },
+    {
+      "headword": "converse",
+      "partOfSpeech": "n./adj./v.",
+      "definitionZh": "相反的情況；相反的；交談",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Wealthy nations pollute more, but the converse is true of vulnerability to climate damage.",
+          "translationZh": "富裕國家污染較多，但在面對氣候損害的脆弱程度上情況正好相反。"
+        }
+      ]
+    },
+    {
+      "headword": "device",
+      "partOfSpeech": "n.",
+      "definitionZh": "裝置、儀器；手法、策略",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Wearable devices allow doctors to monitor patients remotely.",
+          "translationZh": "穿戴式裝置讓醫生能夠遠端監測病患。"
+        }
+      ]
+    },
+    {
+      "headword": "devote",
+      "partOfSpeech": "v.",
+      "definitionZh": "投入、奉獻（時間、心力或資源）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "She devoted ten years to researching endangered marine species.",
+          "translationZh": "她投入十年時間研究瀕危的海洋物種。"
+        }
+      ]
+    },
+    {
+      "headword": "diminish",
+      "partOfSpeech": "v.",
+      "definitionZh": "減少、降低；使變小、貶低",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Rural populations have diminished steadily over the past three decades.",
+          "translationZh": "過去三十年間，鄉村人口持續減少。"
+        }
+      ]
+    },
+    {
+      "headword": "distort",
+      "partOfSpeech": "v.",
+      "definitionZh": "扭曲、曲解；使變形",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Selective use of statistics can seriously distort public understanding of an issue.",
+          "translationZh": "選擇性地使用統計數據可能嚴重扭曲大眾對議題的理解。"
+        }
+      ]
+    },
+    {
+      "headword": "duration",
+      "partOfSpeech": "n.",
+      "definitionZh": "持續時間、期間",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Participants kept a sleep diary for the duration of the experiment.",
+          "translationZh": "參與者在整個實驗期間都要記錄睡眠日誌。"
+        }
+      ]
+    },
+    {
+      "headword": "erode",
+      "partOfSpeech": "v.",
+      "definitionZh": "侵蝕、沖刷；逐漸削弱",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Rising sea levels are steadily eroding the coastline.",
+          "translationZh": "海平面上升正持續侵蝕著海岸線。"
+        }
+      ]
+    },
+    {
+      "headword": "ethic",
+      "partOfSpeech": "n.",
+      "definitionZh": "倫理、道德準則；（複數）道德規範",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The university requires all researchers to follow a strict code of ethics.",
+          "translationZh": "這所大學要求所有研究人員遵守嚴格的倫理守則。"
+        }
+      ]
+    },
+    {
+      "headword": "format",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "格式、形式；設定格式、編排",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The exam has kept the same format for more than a decade.",
+          "translationZh": "這項考試的形式已經維持了十多年不變。"
+        }
+      ]
+    },
+    {
+      "headword": "found",
+      "partOfSpeech": "v.",
+      "definitionZh": "創立、建立；以某事物為基礎",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The institute was founded in 1948 to promote scientific cooperation.",
+          "translationZh": "該研究所創立於一九四八年，旨在促進科學合作。"
+        }
+      ]
+    },
+    {
+      "headword": "inherent",
+      "partOfSpeech": "adj.",
+      "definitionZh": "固有的、與生俱來的；本質上存在的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "There are inherent risks in relying on a single source of energy.",
+          "translationZh": "只依賴單一能源來源有其固有的風險。"
+        }
+      ]
+    },
+    {
+      "headword": "insight",
+      "partOfSpeech": "n.",
+      "definitionZh": "洞察、深入的理解；見解",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Interviews with migrants offered valuable insights into their daily struggles.",
+          "translationZh": "對移民的訪談讓人深入了解他們日常生活的掙扎。"
+        }
+      ]
+    },
+    {
+      "headword": "integral",
+      "partOfSpeech": "adj.",
+      "definitionZh": "不可或缺的、構成整體所必需的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Fieldwork is an integral part of the geography curriculum.",
+          "translationZh": "野外實察是地理課程中不可或缺的一環。"
+        }
+      ]
+    },
+    {
+      "headword": "intermediate",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "中級的、中間的；居中的階段或事物",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Learners at an intermediate level often struggle with academic vocabulary.",
+          "translationZh": "中級程度的學習者常常在學術詞彙上遇到困難。"
+        }
+      ]
+    },
+    {
+      "headword": "manual",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "手動的、用手做的；使用手冊",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Automation has replaced much of the manual labour in the industry.",
+          "translationZh": "自動化已取代了該產業中大部分的人力勞動。"
+        }
+      ]
+    },
+    {
+      "headword": "mature",
+      "partOfSpeech": "adj./v.",
+      "definitionZh": "成熟的；成熟、發展完全",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Mature students often bring valuable work experience to the classroom.",
+          "translationZh": "成年學生往往能把寶貴的工作經驗帶進課堂。"
+        }
+      ]
+    },
+    {
+      "headword": "mediate",
+      "partOfSpeech": "v.",
+      "definitionZh": "調解、居中斡旋；作為中介影響結果",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The United Nations attempted to mediate between the two governments.",
+          "translationZh": "聯合國試圖在兩國政府之間進行調解。"
+        }
+      ]
+    },
+    {
+      "headword": "medium",
+      "partOfSpeech": "n./adj.",
+      "definitionZh": "媒介、傳播工具；中等的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "English has become the main medium of instruction in many universities.",
+          "translationZh": "英語已成為許多大學的主要教學語言。"
+        }
+      ]
+    },
+    {
+      "headword": "military",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "軍事的、軍隊的；軍方",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Many technologies we use daily were originally developed for military purposes.",
+          "translationZh": "許多我們日常使用的科技最初是為了軍事用途而開發的。"
+        }
+      ]
+    },
+    {
+      "headword": "minimal",
+      "partOfSpeech": "adj.",
+      "definitionZh": "最小的、極少的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The new policy had minimal impact on household spending.",
+          "translationZh": "這項新政策對家庭支出的影響極小。"
+        }
+      ]
+    },
+    {
+      "headword": "mutual",
+      "partOfSpeech": "adj.",
+      "definitionZh": "相互的、彼此的；共同的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Successful collaboration depends on mutual trust between the two teams.",
+          "translationZh": "成功的合作取決於兩個團隊之間的相互信任。"
+        }
+      ]
+    },
+    {
+      "headword": "norm",
+      "partOfSpeech": "n.",
+      "definitionZh": "常態、標準；社會規範",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Remote working has become the norm in many technology companies.",
+          "translationZh": "遠距工作在許多科技公司已成為常態。"
+        }
+      ]
+    },
+    {
+      "headword": "overlap",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "重疊、部分相同；重疊之處",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "There is considerable overlap between the two research fields.",
+          "translationZh": "這兩個研究領域之間有相當大的重疊。"
+        }
+      ]
+    },
+    {
+      "headword": "passive",
+      "partOfSpeech": "adj.",
+      "definitionZh": "被動的、消極的；不主動的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Lectures encourage passive learning unless students are asked to participate.",
+          "translationZh": "除非要求學生參與，否則講課容易造成被動學習。"
+        }
+      ]
+    },
+    {
+      "headword": "portion",
+      "partOfSpeech": "n.",
+      "definitionZh": "部分、一份；份量",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "A large portion of the city's waste is still sent to landfill.",
+          "translationZh": "該市有很大一部分的垃圾仍被送往掩埋場。"
+        }
+      ]
+    },
+    {
+      "headword": "preliminary",
+      "partOfSpeech": "adj./n.",
+      "definitionZh": "初步的、預備的；初步階段",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Preliminary results suggest that the treatment reduces recovery time.",
+          "translationZh": "初步結果顯示這種療法能縮短恢復時間。"
+        }
+      ]
+    },
+    {
+      "headword": "protocol",
+      "partOfSpeech": "n.",
+      "definitionZh": "規約、作業程序；外交禮儀",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "All laboratories must follow the same safety protocol.",
+          "translationZh": "所有實驗室都必須遵守相同的安全作業程序。"
+        }
+      ]
+    },
+    {
+      "headword": "qualitative",
+      "partOfSpeech": "adj.",
+      "definitionZh": "質性的、質化的（與數量相對）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The study combined qualitative interviews with large-scale survey data.",
+          "translationZh": "這項研究結合了質性訪談與大規模的問卷數據。"
+        }
+      ]
+    },
+    {
+      "headword": "refine",
+      "partOfSpeech": "v.",
+      "definitionZh": "改良、精進；提煉、精製",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The team refined its model after reviewing the first round of data.",
+          "translationZh": "團隊在檢視第一輪數據後改良了他們的模型。"
+        }
+      ]
+    },
+    {
+      "headword": "relax",
+      "partOfSpeech": "v.",
+      "definitionZh": "放鬆、休息；放寬（規定或限制）",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The government relaxed visa requirements to attract international students.",
+          "translationZh": "政府放寬了簽證規定以吸引國際學生。"
+        }
+      ]
+    },
+    {
+      "headword": "restrain",
+      "partOfSpeech": "v.",
+      "definitionZh": "抑制、遏止；約束、限制",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Higher interest rates are intended to restrain consumer spending.",
+          "translationZh": "提高利率的用意在於抑制消費者支出。"
+        }
+      ]
+    },
+    {
+      "headword": "revolution",
+      "partOfSpeech": "n.",
+      "definitionZh": "革命、劇烈變革；旋轉一圈",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The digital revolution has transformed the way information is shared.",
+          "translationZh": "數位革命已徹底改變了資訊分享的方式。"
+        }
+      ]
+    },
+    {
+      "headword": "rigid",
+      "partOfSpeech": "adj.",
+      "definitionZh": "僵化的、不知變通的；堅硬不易彎曲的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "A rigid timetable leaves teachers little room to respond to students' needs.",
+          "translationZh": "僵化的課表讓教師幾乎沒有空間回應學生的需求。"
+        }
+      ]
+    },
+    {
+      "headword": "route",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "路線、途徑；安排路線、轉送",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Vocational training offers an alternative route into the profession.",
+          "translationZh": "職業訓練提供了進入這個行業的另一條途徑。"
+        }
+      ]
+    },
+    {
+      "headword": "scenario",
+      "partOfSpeech": "n.",
+      "definitionZh": "情境、設想的狀況；可能的發展",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "In the worst-case scenario, global temperatures could rise by four degrees.",
+          "translationZh": "在最壞的情況下，全球氣溫可能上升四度。"
+        }
+      ]
+    },
+    {
+      "headword": "sphere",
+      "partOfSpeech": "n.",
+      "definitionZh": "領域、範疇；球體",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Women have gained greater influence in the political sphere.",
+          "translationZh": "女性在政治領域已獲得更大的影響力。"
+        }
+      ]
+    },
+    {
+      "headword": "subordinate",
+      "partOfSpeech": "adj./n./v.",
+      "definitionZh": "次要的、從屬的；部屬；使居次要地位",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "In this model, economic goals are subordinate to environmental ones.",
+          "translationZh": "在這個模式中，經濟目標次於環境目標。"
+        }
+      ]
+    },
+    {
+      "headword": "supplement",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "補充物、增補；補充、增添",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Many students supplement their income with part-time work.",
+          "translationZh": "許多學生靠打工來補貼收入。"
+        }
+      ]
+    },
+    {
+      "headword": "suspend",
+      "partOfSpeech": "v.",
+      "definitionZh": "暫停、中止；懸掛",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The trial was suspended until further safety data became available.",
+          "translationZh": "這項試驗被暫停，直到取得更多安全數據為止。"
+        }
+      ]
+    },
+    {
+      "headword": "team",
+      "partOfSpeech": "n./v.",
+      "definitionZh": "團隊、隊伍；合作、組隊",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "A team of engineers spent two years testing the prototype.",
+          "translationZh": "一組工程師花了兩年時間測試這個原型。"
+        }
+      ]
+    },
+    {
+      "headword": "temporary",
+      "partOfSpeech": "adj.",
+      "definitionZh": "暫時的、短期的",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The shelter provides temporary housing for families affected by flooding.",
+          "translationZh": "這處收容所為受洪水影響的家庭提供暫時住所。"
+        }
+      ]
+    },
+    {
+      "headword": "trigger",
+      "partOfSpeech": "v./n.",
+      "definitionZh": "引發、觸發；起因、扳機",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "Deforestation can trigger severe soil erosion within a few years.",
+          "translationZh": "濫伐森林可能在幾年內引發嚴重的土壤流失。"
+        }
+      ]
+    },
+    {
+      "headword": "unify",
+      "partOfSpeech": "v.",
+      "definitionZh": "統一、使成為一體",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The reform aims to unify assessment standards across all state schools.",
+          "translationZh": "這項改革旨在統一所有公立學校的評量標準。"
+        }
+      ]
+    },
+    {
+      "headword": "violate",
+      "partOfSpeech": "v.",
+      "definitionZh": "違反、違背（法律或規定）；侵犯",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The company was fined for violating environmental regulations.",
+          "translationZh": "該公司因違反環保法規而遭到罰款。"
+        }
+      ]
+    },
+    {
+      "headword": "vision",
+      "partOfSpeech": "n.",
+      "definitionZh": "視力、視覺；願景、遠見",
+      "examTags": ["IELTS", "AWL9"],
+      "examples": [
+        {
+          "sentence": "The mayor outlined her vision for a car-free city centre.",
+          "translationZh": "市長闡述了她對無車市中心的願景。"
+        }
+      ]
+    }
+  ]
+}
