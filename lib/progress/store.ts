@@ -3,6 +3,7 @@ import { grade, MASTERY_THRESHOLD } from '@/lib/learning/grading'
 import { pickQuestionType, type QuestionType } from '@/lib/learning/question'
 import { todayYmd, daysBetween } from '@/lib/gamification/date'
 import type { CardState } from '@/lib/learning/types'
+import type { NotebookEntry, PassageResultEntry } from './reading'
 
 // 單人版進度：全部存在瀏覽器。沒有帳號、沒有後端、沒有同步。
 // 排程沿用既有的 FSRS scheduler（lib/learning/scheduler），這裡只負責「存哪裡」。
@@ -38,12 +39,17 @@ export interface Progress {
   longestStreak: number
   lastStudyDate: string | null
   dailyGoal: number
+  /** 閱讀短文成績（slug → 最近一次結果）。舊版備份沒有這欄，讀取時補空物件。 */
+  passages: Record<string, PassageResultEntry>
+  /** 閱讀時收集的生字本，最新的排前面。 */
+  notebook: NotebookEntry[]
 }
 
 export function emptyProgress(): Progress {
   return {
     cards: {}, mastered: [], days: {},
     streak: 0, longestStreak: 0, lastStudyDate: null, dailyGoal: 20,
+    passages: {}, notebook: [],
   }
 }
 

@@ -1,0 +1,62 @@
+{
+  "slug": "toeic-marketing-newsletter-survey",
+  "kind": "toeic",
+  "title": "Tell Us What You Think: Loyalty Program Survey",
+  "titleZh": "忠誠會員電子報調查",
+  "level": "L2",
+  "topic": "marketing",
+  "source": "self-made",
+  "paragraphs": [
+    "Dear Subscriber,",
+    "Thank you for being a loyal reader of our newsletter. As part of our loyalty program, we would like to invite you to complete a short survey about your experience as a customer.",
+    "Your answers will give our research team valuable insight about what you enjoy most, and help measure overall satisfaction. Past surveys have shaped several changes, including an improved website and a faster checkout process.",
+    "As thanks for your time, everyone who completes the survey will be entered in a drawing for a 50 dollar gift card. Selected responses may also be shared as a testimonial on our website if we receive permission.",
+    "If you prefer not to receive future messages, you may unsubscribe at any time using the link below. Otherwise, we look forward to reading your feedback and continuing to share useful analytics for our readers."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this message?",
+      "options": [
+        "To invite the reader to complete a survey about their experience",
+        "To announce a price increase for the loyalty program",
+        "To apologize for a delayed newsletter",
+        "To advertise a new gift card product"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What will everyone who completes the survey be entered into?",
+      "options": [
+        "A free trial of the loyalty program",
+        "A drawing for a gift card",
+        "A contest to design the new website",
+        "A meeting with the marketing team"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "How can a reader stop receiving future messages?",
+      "options": [
+        "Reply to the email with a complaint",
+        "Call the marketing team",
+        "Use the unsubscribe link",
+        "Wait for the survey to end"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about past surveys?",
+      "options": [
+        "They had no effect on the company",
+        "They were only sent to new customers",
+        "They replaced the loyalty program",
+        "They led to real changes such as a redesigned website"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -49,6 +49,7 @@ export function HomeClient() {
         開始今日複習
       </Link>
 
+      <Link href="/read" className="text-sm font-bold text-primary-600 hover:underline">沉浸閱讀 📖</Link>
       <Link href="/books" className="text-sm font-bold text-primary-600 hover:underline">選擇單字書 📚</Link>
       <Link href="/stats" className="text-sm font-bold text-primary-600 hover:underline">學習數據與備份 📊</Link>
     </main>

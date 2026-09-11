@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-meetings-notice-agenda",
+  "kind": "toeic",
+  "title": "Notice of Monthly Board Meeting",
+  "titleZh": "每月董事會會議通知",
+  "level": "L1",
+  "topic": "meetings",
+  "source": "self-made",
+  "paragraphs": [
+    "Notice of Monthly Board Meeting",
+    "The board meeting will convene on Wednesday at 3:00 in the afternoon in Conference Room A. All board members should arrive ten minutes early so the chairperson can begin on time.",
+    "A quorum of at least six members is required before any motion can be discussed. If we do not reach a quorum, the meeting will be postponed to the following week.",
+    "The main item this month is a vote on the new budget resolution. The chairperson will read the minute of the previous meeting first, then open the floor for comment.",
+    "The meeting is expected to adjourn by 5:00 in the afternoon. Please bring your notes and any question you would like to raise."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is this notice mainly about?", "options": ["A change in office cubicle assignment", "Information about the monthly board meeting", "A new training webinar schedule", "A hotel booking confirmation"], "answer": 1 },
+    { "type": "detail", "stem": "How many members are required for a quorum?", "options": ["At least six members", "Ten members", "Three members", "All members without exception"], "answer": 0 },
+    { "type": "detail", "stem": "What will the chairperson do before the vote?", "options": ["Adjourn the meeting early", "Postpone the meeting to next week", "Read the minute of the previous meeting", "Introduce a new attendee"], "answer": 2 },
+    { "type": "inference", "stem": "What will happen if the meeting does not reach a quorum?", "options": ["The vote will still take place", "The meeting will be postponed to the following week", "The chairperson will resign", "The budget resolution will be cancelled"], "answer": 1 }
+  ]
+}

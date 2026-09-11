@@ -1,0 +1,21 @@
+{
+  "slug": "toeic-safety-wet-floor-memo",
+  "kind": "toeic",
+  "title": "Caution on Wet Floor and Elevated Work",
+  "titleZh": "濕滑地板與高處作業注意事項",
+  "level": "L2",
+  "topic": "safety",
+  "source": "self-made",
+  "paragraphs": [
+    "Due to recent rain, the floor near the main entrance has become slippery. Yellow caution signage has been placed in the area, and cleaning staff will mop the floor twice a day until the weather improves.",
+    "Any employee who needs to work on a ladder or scaffold above two meter must wear a harness and confirm that the railing is secure before starting. Do not leave a ladder unattended in a hallway, since it may create an obstruction for other staff.",
+    "The maintenance team will inspect all scaffold and ladder equipment this week. If you notice any damage, corrosion, or loose fixture, do not use the equipment and report it right away.",
+    "We appreciate your attention to these precaution while we complete this seasonal maintenance."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is this memo mainly about?", "options": ["Caution regarding wet floor and elevated work", "A new employee benefit", "A change in shift schedule", "An update to the fire alarm system"], "answer": 0 },
+    { "type": "detail", "stem": "What must an employee wear when working on a ladder above two meter?", "options": ["Goggles only", "A harness", "A respirator", "A vest only"], "answer": 1 },
+    { "type": "detail", "stem": "Why should a ladder not be left unattended in a hallway?", "options": ["It could be stolen", "It may create an obstruction for other staff", "It requires daily inspection", "It blocks the sprinkler system"], "answer": 1 },
+    { "type": "inference", "stem": "What will most likely happen if damage is found on scaffold equipment?", "options": ["It will be used carefully", "It will be reported and taken out of use", "It will be repainted immediately", "It will be moved outdoors"], "answer": 1 }
+  ]
+}

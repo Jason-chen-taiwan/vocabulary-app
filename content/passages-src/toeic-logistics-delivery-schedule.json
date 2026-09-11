@@ -1,0 +1,20 @@
+{
+  "slug": "toeic-logistics-delivery-schedule",
+  "kind": "toeic",
+  "title": "Updated Delivery Schedule",
+  "titleZh": "配送時程更新通知",
+  "level": "L3",
+  "topic": "logistics",
+  "source": "self-made",
+  "paragraphs": [
+    "To all regional manager, from the distribution team, subject: updated delivery schedule. Due to a delay at the port, several truck route will change starting next Tuesday. The carrier that normally handles the northern route will instead cover the southern area until customs clearance is complete for the delayed container.",
+    "Estimated arrival time for most order will move back by one day. Customer near the coast may experience the longest delay because their freight must pass through an extra inspection. We ask every store to update the expected departure time on the tracking system so customer service can answer question accurately.",
+    "If any order require expedite service, please contact the dispatch office directly. Extra fee may apply for overnight or express delivery in this period. We apologize for any inconvenience and appreciate your patience while we resolve the port delay."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the memo mainly about?", "options": ["A change in delivery schedule due to a port delay", "A new hiring policy in the warehouse", "A discount offer for regular customer", "A change in employee benefit"], "answer": 0 },
+    { "type": "detail", "stem": "Why will the carrier for the northern route change temporarily?", "options": ["The truck broke down", "It will cover the southern area until customs clearance is complete", "The northern warehouse is closed", "The driver is on leave"], "answer": 1 },
+    { "type": "detail", "stem": "What should every store do according to the memo?", "options": ["Update the expected departure time on the tracking system", "Increase the price of freight", "Close the store early", "Contact the customs office weekly"], "answer": 0 },
+    { "type": "inference", "stem": "What can be inferred about customer near the coast?", "options": ["They will receive their order early", "They may face the longest delay because of extra inspection", "They do not use the tracking system", "Their freight is exempt from customs"], "answer": 1 }
+  ]
+}

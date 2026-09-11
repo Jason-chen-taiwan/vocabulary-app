@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-meetings-memo-webinar",
+  "kind": "toeic",
+  "title": "Memo: Online Training Webinar",
+  "titleZh": "線上訓練研討會備忘錄",
+  "level": "L3",
+  "topic": "meetings",
+  "source": "self-made",
+  "paragraphs": [
+    "Memo: Online Training Webinar",
+    "Next Tuesday, the sales team will join a training webinar hosted by an outside presenter. The session will cover new product update and customer question handling.",
+    "Please mute your microphone as you join the call, and unmute only after the presenter asks for a comment or opinion. A printed handout showing the main slide will be sent by email before the session begins.",
+    "This webinar is part of a longer workshop series planned for this quarter. Attendance is required for every sales staff member, so please confirm your seat through the training office by Friday.",
+    "If you cannot join the live session, a recording will be shared afterward. Contact the training office for any question."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this memo?", "options": ["To cancel the sales team meeting", "To inform staff about an upcoming training webinar", "To announce a new product launch", "To request feedback on the previous workshop"], "answer": 1 },
+    { "type": "detail", "stem": "When should staff unmute their microphone?", "options": ["As soon as they join the session", "Only when the presenter asks for a comment", "During the whole session", "Only after the session ends"], "answer": 1 },
+    { "type": "detail", "stem": "What will be sent by email before the session begins?", "options": ["A recording of a past workshop", "A new seating chart", "A printed handout with the main slide", "A visa application form"], "answer": 2 },
+    { "type": "inference", "stem": "What can be inferred about staff who cannot join the live session?", "options": ["They can watch a recording afterward", "They will not receive the handout", "They are excused from the workshop series", "They must reschedule the whole meeting"], "answer": 0 }
+  ]
+}

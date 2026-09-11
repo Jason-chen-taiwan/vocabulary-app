@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-travel-itinerary",
+  "kind": "toeic",
+  "title": "Business Trip Itinerary for Laura Green",
+  "titleZh": "商務差旅行程表",
+  "level": "L1",
+  "topic": "travel",
+  "source": "self-made",
+  "paragraphs": [
+    "Business Trip Itinerary for Laura Green",
+    "Monday, September 14: Flight 205 departs at 7:30 in the morning. Boarding begins at gate 12, about 40 minutes before departure. Please arrive at the airport at least two hours early.",
+    "Arrival at the destination is at 10:45 in the morning. A taxi will take you to the hotel near the convention center. Checkin time is usually 2:00 in the afternoon, but the front desk will keep your luggage if you arrive early.",
+    "At 1:00 in the afternoon, attend the sales conference at the convention center. The full schedule and room number are listed in the printed itinerary you received last week.",
+    "Friday, September 18: Checkout from the hotel by 11:00 in the morning, then taxi to the airport for the return flight."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is this document mainly about?", "options": ["A hotel advertisement for business travelers", "A schedule for a business trip", "A notice about a flight cancellation", "A menu for a company dinner"], "answer": 1 },
+    { "type": "detail", "stem": "When does boarding begin for Flight 205?", "options": ["At 7:30 in the morning", "About 40 minutes before departure", "At 10:45 in the morning", "At 1:00 in the afternoon"], "answer": 1 },
+    { "type": "detail", "stem": "What time is checkout from the hotel?", "options": ["2:00 in the afternoon", "1:00 in the afternoon", "11:00 in the morning", "7:30 in the morning"], "answer": 2 },
+    { "type": "inference", "stem": "Why might Laura Green arrive at the hotel early?", "options": ["Because the front desk will keep her luggage before checkin time", "Because the conference starts before checkin", "Because her flight departs earlier than planned", "Because the taxi service closes early"], "answer": 0 }
+  ]
+}

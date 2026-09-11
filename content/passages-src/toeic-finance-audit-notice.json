@@ -1,0 +1,61 @@
+{
+  "slug": "toeic-finance-audit-notice",
+  "kind": "toeic",
+  "title": "Notice of Annual Internal Audit",
+  "titleZh": "年度內部稽核通知",
+  "level": "L3",
+  "topic": "finance",
+  "source": "self-made",
+  "paragraphs": [
+    "NOTICE TO ALL DEPARTMENT HEADS",
+    "The internal audit team will begin the annual review of the accounting ledger and cash statement starting Monday, September 8. Each department must reconcile open entries before the audit begins and ensure that every transaction from the past fiscal period is properly recorded.",
+    "Departments showing a large variance between actual and forecast spending should prepare a short explanation. The audit also covers compliance under the tax rules issued this year, so please gather any receipt or invoice that supports recent expense claims.",
+    "Auditors will visit each floor between September 8 and September 12. Staff are asked to remain available in this period for questions."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this notice?",
+      "options": [
+        "To announce the annual internal audit schedule",
+        "To request a budget increase for the accounting department",
+        "To introduce new tax rules for next year",
+        "To reschedule a meeting with auditors"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What should departments prepare if there is a large difference between actual and forecast spending?",
+      "options": [
+        "A new fiscal budget",
+        "A short explanation",
+        "A revised tax statement",
+        "A cash reconciliation report"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What must each department do before the audit begins?",
+      "options": [
+        "Reconcile open entries",
+        "Submit a revised tax forecast",
+        "Hire additional accounting staff",
+        "Close the department for the day"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about staff during the audit period?",
+      "options": [
+        "They should avoid the office entirely",
+        "They will receive a bonus for cooperation",
+        "They may be asked questions by auditors",
+        "They must submit a resignation letter"
+      ],
+      "answer": 2
+    }
+  ]
+}

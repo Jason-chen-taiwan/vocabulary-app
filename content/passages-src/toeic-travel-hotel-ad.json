@@ -1,0 +1,22 @@
+{
+  "slug": "toeic-travel-hotel-ad",
+  "kind": "toeic",
+  "title": "Sunrise Hotel and Resort",
+  "titleZh": "旭日渡假飯店廣告",
+  "level": "L2",
+  "topic": "travel",
+  "source": "self-made",
+  "paragraphs": [
+    "Sunrise Hotel and Resort",
+    "Sunrise Hotel and Resort offers comfortable accommodation for business and leisure travelers. Every room and suite includes a work desk and a private lounge chair by the window.",
+    "Our concierge desk is open around the clock for local tour and restaurant booking. Housekeeping visits every room twice a day to keep it clean and fresh.",
+    "Guests can dine at our hotel restaurant, which offers a wide menu of local and international cuisine. After dinner, relax at the resort pool or the quiet reading lounge on the top floor.",
+    "Book directly on our website this month and receive a free breakfast amenity for every reservation. Rooms fill quickly in the holiday season, so early booking is recommended."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main purpose of this advertisement?", "options": ["To warn guests about a room shortage", "To promote the hotel accommodation and services", "To announce a change in restaurant menu", "To explain the housekeeping schedule"], "answer": 1 },
+    { "type": "detail", "stem": "How often does housekeeping visit each room?", "options": ["Once a week", "Only during the holiday season", "Once before checkout", "Twice a day"], "answer": 3 },
+    { "type": "detail", "stem": "What can guests receive when they book directly this month?", "options": ["A free breakfast amenity", "A discount at the resort pool", "A free upgrade to a suite", "A free local tour"], "answer": 0 },
+    { "type": "inference", "stem": "Why does the advertisement recommend early booking?", "options": ["Because the hotel restaurant is closing soon", "Because rooms fill quickly during the holiday season", "Because the concierge desk has limited hours", "Because the resort pool needs reservation"], "answer": 1 }
+  ]
+}

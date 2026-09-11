@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { listWordBooks } from '@/lib/content/static'
 import { Card } from '@/components/ui/card'
+import { NotebookCard } from './notebook-card'
 
 export default function BooksPage() {
   const books = listWordBooks()
@@ -18,6 +19,8 @@ export default function BooksPage() {
       >
         全部混合練習
       </Link>
+
+      <NotebookCard />
 
       <Section title="雅思 IELTS" books={ielts} />
       <Section title="多益 TOEIC" books={others} />

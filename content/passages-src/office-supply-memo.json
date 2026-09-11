@@ -1,0 +1,52 @@
+{
+  "slug": "office-supply-memo",
+  "kind": "toeic",
+  "title": "Office Supply Order Reminder",
+  "titleZh": "辦公用品訂購提醒",
+  "level": "L1",
+  "topic": "office",
+  "source": "self-made",
+  "paragraphs": [
+    "To: All Staff",
+    "From: Rita Huang, Office Manager",
+    "Subject: Monthly supply order",
+    "Please send your stationery requests to me by Friday, March 14. Our supplier delivers only once a month, so late requests will wait until April. Common items such as staplers, folders, and toner are kept in the storage room next to the copier; check there first before you order.",
+    "If an item you need is not on the standard list, attach a short note explaining why it is necessary. Orders above NT$2,000 require approval from your department head.",
+    "Thank you for your cooperation."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this memo?",
+      "options": [
+        "To ask staff to submit supply requests by a deadline",
+        "To announce a new office manager",
+        "To report a problem with the copier",
+        "To introduce a new supplier"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What should employees do before ordering common items?",
+      "options": [
+        "Ask their department head",
+        "Check the storage room next to the copier",
+        "Call the supplier directly",
+        "Wait until April"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "inference",
+      "stem": "What will most likely happen to a request sent on March 20?",
+      "options": [
+        "It will be delivered the next day",
+        "It will be rejected permanently",
+        "It will be included in the April order",
+        "It will require a note from Rita Huang"
+      ],
+      "answer": 2
+    }
+  ]
+}

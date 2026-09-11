@@ -1,0 +1,63 @@
+{
+  "slug": "toeic-service-refund-policy",
+  "kind": "toeic",
+  "title": "Response to a Product Complaint",
+  "titleZh": "退款與換貨回覆信",
+  "level": "L1",
+  "topic": "service",
+  "source": "self-made",
+  "paragraphs": [
+    "To: David Chen",
+    "From: Anna Liu, Customer Support",
+    "Subject: Your recent complaint",
+    "We apologize for the trouble you experienced in your recent order. Our staff read your complaint carefully and understand why you feel dissatisfied. The item you received had a broken screen, and we agree this is not acceptable.",
+    "As a solution, we will send a free replacement within five business days. If the new item still has the same issue, we will replace it again or return your full payment. We will also add a 10 dollar credit to your account as a small gesture of goodwill.",
+    "Thank you for your patience. Please reply to this email if you have any questions."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this email?",
+      "options": [
+        "To apologize for a defective item and offer a replacement",
+        "To announce a new customer support policy",
+        "To request payment for a broken screen",
+        "To introduce a new staff member"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What problem did David report?",
+      "options": [
+        "The order arrived late",
+        "The item had a broken screen",
+        "The payment was charged twice",
+        "The staff did not reply"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "detail",
+      "stem": "What will the company do in addition to sending a replacement?",
+      "options": [
+        "Cancel the original order",
+        "Ask David to pay for return shipping",
+        "Add a 10 dollar credit to his account",
+        "Send a new staff member to visit"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "inference",
+      "stem": "What will most likely happen if the replacement has the same issue?",
+      "options": [
+        "David will be charged for the item",
+        "The order will be canceled without explanation",
+        "Anna will personally deliver a new item",
+        "The company will replace it again or return the full payment"
+      ],
+      "answer": 3
+    }
+  ]
+}

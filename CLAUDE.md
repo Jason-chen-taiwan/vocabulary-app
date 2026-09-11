@@ -25,11 +25,19 @@
 
 ```
 content/*.json          單字資料（唯一的內容來源）
-lib/content/static.ts   載入 JSON、建索引、產生穩定 wordId
+content/passages/*.json 閱讀短文（建置產物，自帶內文/glossary/題目與答案）
+lib/content/static.ts   載入單字 JSON、建索引、產生穩定 wordId
+lib/reading/static.ts   載入短文 JSON；解析 curated → wordId 並覆蓋釋義
 lib/learning/           純邏輯：出題、判定、FSRS 排程（無 I/O）
 lib/progress/store.ts   進度讀寫（localStorage）＋ 佇列組成
+lib/progress/reading.ts 閱讀判題、短文成績、生字本
 app/*                   頁面；需要進度的一律是 client component
 ```
+
+**閱讀短文的 `curated` 解析**：`content/passages/*.json` 的 glossary 有 `curated: true` 的字，
+釋義來自 ECDICT 首義、常選錯詞義（例：net → 網）。`lib/reading/static.ts` 在載入時
+把這些字對到精修字庫並**以精修定義覆蓋**。原本這步在 seed 進 DB 時做，靜態版沒有 seed，
+所以移到載入時；`lib/reading/__tests__/static.test.ts` 守住這個行為，不要拿掉。
 
 **單字 id 是 `<bookSlug>:<headword>`**，內容衍生而非陣列索引——進度存在本機，id 必須跨 build 穩定，否則使用者的複習紀錄會全部對不上。修改 JSON 時可以改釋義、例句，但**改 headword 或 slug 等同於讓那張卡的進度歸零**。
 
@@ -69,5 +77,6 @@ app/*                   頁面；需要進度的一律是 client component
 
 ## 範圍提醒
 
-- 本輪做齊：雅思 AWL 570 字、多益既有 1998 字、FSRS 排程、統計、離線 PWA、進度備份。
+- 本輪做齊：雅思 AWL 570 字、多益既有 1998 字、FSRS 排程、統計、離線 PWA、進度備份、
+  沉浸閱讀（37 篇短文 + Part 7 題目 + 點字查詢 + 生字本）。
 - 本輪**不做**：帳號、跨裝置同步、排行榜、商店/虛擬經濟、AI 匯入生卡。

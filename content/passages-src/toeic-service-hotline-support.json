@@ -1,0 +1,61 @@
+{
+  "slug": "toeic-service-hotline-support",
+  "kind": "toeic",
+  "title": "Faster Help Is Here: New Customer Hotline",
+  "titleZh": "全新客服專線",
+  "level": "L2",
+  "topic": "service",
+  "source": "self-made",
+  "paragraphs": [
+    "Star Electronics is proud to announce a new hotline for customer support. Callers can now reach a trained operator in under two minutes within business hours.",
+    "In the past, many callers waited in a long queue and lost patience before reaching help. Our new system routes each call to the right operator faster, so you get prompt and courteous assistance every time.",
+    "If no operator is available, you can request a callback instead of staying on hold. Just leave your number, and a staff member will call you back within thirty minutes.",
+    "This service is free for all members. Join our membership program today to receive priority access to the hotline and other benefits."
+  ],
+  "questions": [
+    {
+      "type": "main",
+      "stem": "What is the main purpose of this announcement?",
+      "options": [
+        "To introduce a new hotline service with faster support",
+        "To increase the price of customer support",
+        "To hire new operators for the company",
+        "To close the old customer service department"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "detail",
+      "stem": "What can a caller do if no operator is available?",
+      "options": [
+        "Wait in the queue until one is free",
+        "Send an email instead",
+        "Request a callback",
+        "Visit the store in person"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "detail",
+      "stem": "How long will a staff member take to call back?",
+      "options": [
+        "Two minutes",
+        "Thirty minutes",
+        "One business day",
+        "Two business days"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "inference",
+      "stem": "What can be inferred about members of the program?",
+      "options": [
+        "They cannot request a callback",
+        "They must pay extra for the hotline",
+        "They are limited to one call per month",
+        "They receive priority access to the hotline"
+      ],
+      "answer": 3
+    }
+  ]
+}

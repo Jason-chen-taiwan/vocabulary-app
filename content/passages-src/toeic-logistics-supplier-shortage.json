@@ -1,0 +1,21 @@
+{
+  "slug": "toeic-logistics-supplier-shortage",
+  "kind": "toeic",
+  "title": "Component Shortage from Overseas Supplier",
+  "titleZh": "海外供應商零件短缺通知",
+  "level": "L2",
+  "topic": "logistics",
+  "source": "self-made",
+  "paragraphs": [
+    "Our main supplier has reported a shortage of a key component due to a delay in production. As a result, the next restock cycle will be smaller than usual, and some item may be out of stock for up to two week.",
+    "Purchasing has already requested a new quotation from a backup supplier to secure additional supply. Quality control will inspect the first sample shipment closely, since any defect could further delay the reorder process.",
+    "Store manager are asked to review current inventory and reorder critical item earlier than the normal schedule. Please avoid placing large order for non essential product until the shortage is resolved.",
+    "We will send an update once the supply situation improves. Thank you for your patience and cooperation."
+  ],
+  "questions": [
+    { "type": "main", "stem": "What is the main topic of this memo?", "options": ["A shortage of a component from a supplier", "A new product launch", "A change in store hour", "A customer complaint about defect"], "answer": 0 },
+    { "type": "detail", "stem": "What has purchasing already done?", "options": ["Closed the store", "Requested a new quotation from a backup supplier", "Increased staff salary", "Cancelled all pending order"], "answer": 1 },
+    { "type": "detail", "stem": "What is quality control expected to do?", "options": ["Ignore small defect", "Increase production speed", "Inspect the first sample batch closely", "Contact the customer directly"], "answer": 2 },
+    { "type": "inference", "stem": "What can store manager most likely expect in the near future?", "options": ["Immediate full stock recovery", "A need to reorder critical item earlier than usual", "A reduction in customer demand", "A new supplier contract cancellation"], "answer": 1 }
+  ]
+}
