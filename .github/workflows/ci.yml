@@ -24,7 +24,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       # .npmrc 已設 legacy-peer-deps（繞過 npm 11 解析 vitest peer deps 的 bug）
@@ -35,9 +35,6 @@ jobs:
 
       - name: Test
         run: npm test
-
-      - name: Content check
-        run: npm run check-content
 
       - name: Build
         run: npm run build

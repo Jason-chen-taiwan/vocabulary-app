@@ -14,8 +14,8 @@
 ```bash
 npm install
 npm run dev            # http://localhost:3000
-npm test               # 單元測試
-npm run check-content  # 檢查單字資料（重複、缺例句、句子過長）
+npm test               # 單元測試（含單字資料檢查：重複、缺例句、句子過長）
+npm run check-content  # 單獨跑資料檢查（需 Node 22+）
 ```
 
 ## 部署到 Cloudflare Pages
@@ -43,6 +43,6 @@ Cloudflare Pages 設定：
 
 1. 在 `content/` 放一份 JSON，格式參考 `content/ielts-awl-1.json`
 2. 在 `lib/content/static.ts` import 並加進 `RAW_BOOKS`
-3. `npm run check-content` 確認資料沒問題
+3. `npm test` 確認資料沒問題（會檢查重複字、缺例句、句子過長）
 
 單字 id 由 `<bookSlug>:<headword>` 組成，所以改 headword 或 slug 會讓該字的複習進度歸零。

@@ -72,7 +72,8 @@ app/*                   頁面；需要進度的一律是 client component
 - **TDD**：先寫測試再寫實作。FSRS 排程、進度存取、連續天數計算都必須有測試。
 - 跟隨既有檔案的命名、註解密度與慣用寫法。
 - 不做與當前目標無關的重構。
-- 改完 `content/` 一定要跑 `npm run check-content`（檢查重複字、缺例句、句子過長）。
+- 改完 `content/` 一定要跑 `npm test`——`lib/content/__tests__/content-files.test.ts`
+  會直接讀 `content/*.json` 做檢查（重複字、缺例句、句子過長、總字數）。
 - 重複字檢查以「同一考試內」為範圍：同一個字同時出現在雅思與多益是正常的。
 
 ## 範圍提醒
