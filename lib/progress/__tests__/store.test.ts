@@ -115,7 +115,7 @@ describe('buildQueue', () => {
   const ids = ['b:1', 'b:2', 'b:3', 'b:4', 'b:5']
 
   it('serves unseen words when there is no history', () => {
-    const q = buildQueue(emptyProgress(), ids, new Date(), { newLimit: 3, dueLimit: 10 })
+    const q = buildQueue(emptyProgress(), ids, new Date(), { newLimit: 3, dueLimit: 10, spotCheckLimit: 0 })
     expect(q).toHaveLength(3)
     expect(q.every((i) => i.isNew)).toBe(true)
   })
@@ -123,7 +123,7 @@ describe('buildQueue', () => {
   it('does not serve a card that is not yet due', () => {
     const now = new Date('2026-01-01T10:00:00Z')
     const p = recordReview(emptyProgress(), 'b:1', true, now, TZ)
-    const q = buildQueue(p, ['b:1'], now, { newLimit: 10, dueLimit: 10 })
+    const q = buildQueue(p, ['b:1'], now, { newLimit: 10, dueLimit: 10, spotCheckLimit: 0 })
     expect(q).toHaveLength(0)
   })
 
@@ -131,14 +131,58 @@ describe('buildQueue', () => {
     const now = new Date('2026-01-01T10:00:00Z')
     const p = recordReview(emptyProgress(), 'b:1', true, now, TZ)
     const later = new Date(new Date(p.cards['b:1'].due).getTime() + 1000)
-    const q = buildQueue(p, ['b:1'], later, { newLimit: 10, dueLimit: 10 })
+    const q = buildQueue(p, ['b:1'], later, { newLimit: 10, dueLimit: 10, spotCheckLimit: 0 })
     expect(q).toHaveLength(1)
     expect(q[0].isNew).toBe(false)
   })
 
   it('respects the new-word limit', () => {
-    const q = buildQueue(emptyProgress(), ids, new Date(), { newLimit: 2, dueLimit: 10 })
+    const q = buildQueue(emptyProgress(), ids, new Date(), { newLimit: 2, dueLimit: 10, spotCheckLimit: 0 })
     expect(q.filter((i) => i.isNew)).toHaveLength(2)
+  })
+
+  it('mixes in a spot check of mastered words', () => {
+    let p = emptyProgress()
+    const now = new Date('2026-01-01T10:00:00Z')
+    // 精熟一個字（連續答對 5 次）
+    for (let i = 0; i < 5; i++) p = recordReview(p, 'b:1', true, now, TZ)
+    expect(p.mastered).toContain('b:1')
+    // 精熟的字已排到很後面，不會出現在 due；但抽考應該把它撈回來
+    const q = buildQueue(p, ['b:1', 'b:2'], now, { newLimit: 0, dueLimit: 10, spotCheckLimit: 3 })
+    const spot = q.filter((i) => i.isSpotCheck)
+    expect(spot).toHaveLength(1)
+    expect(spot[0].wordId).toBe('b:1')
+    // 抽考一律用選擇題（只是喚起記憶，不為難）
+    expect(spot[0].questionType).toBe('mc')
+  })
+
+  it('respects the spot-check limit', () => {
+    let p = emptyProgress()
+    const now = new Date('2026-01-01T10:00:00Z')
+    for (const id of ['b:1', 'b:2', 'b:3', 'b:4', 'b:5']) {
+      for (let i = 0; i < 5; i++) p = recordReview(p, id, true, now, TZ)
+    }
+    const q = buildQueue(p, ids, now, { newLimit: 0, dueLimit: 10, spotCheckLimit: 2 })
+    expect(q.filter((i) => i.isSpotCheck)).toHaveLength(2)
+  })
+
+  it('does not spot-check a word that is already due in this queue', () => {
+    let p = emptyProgress()
+    const now = new Date('2026-01-01T10:00:00Z')
+    for (let i = 0; i < 5; i++) p = recordReview(p, 'b:1', true, now, TZ)
+    // 時間快轉到這張卡到期 → 它會進 due，就不該又被當成抽考重複出現
+    const later = new Date(new Date(p.cards['b:1'].due).getTime() + 1000)
+    const q = buildQueue(p, ['b:1'], later, { newLimit: 0, dueLimit: 10, spotCheckLimit: 3 })
+    expect(q.filter((i) => i.wordId === 'b:1')).toHaveLength(1)
+    expect(q[0].isSpotCheck).toBe(false)
+  })
+
+  it('only spot-checks words from the books being studied', () => {
+    let p = emptyProgress()
+    const now = new Date('2026-01-01T10:00:00Z')
+    for (let i = 0; i < 5; i++) p = recordReview(p, 'other-book:x', true, now, TZ)
+    const q = buildQueue(p, ['b:1'], now, { newLimit: 1, dueLimit: 10, spotCheckLimit: 3 })
+    expect(q.filter((i) => i.isSpotCheck)).toHaveLength(0)
   })
 
   it('escalates question type as the streak grows', () => {
@@ -147,12 +191,12 @@ describe('buildQueue', () => {
     // 一次答對 → streak 1 → 仍是選擇題
     p = recordReview(p, 'b:1', true, now, TZ)
     let due = new Date(new Date(p.cards['b:1'].due).getTime() + 1000)
-    expect(buildQueue(p, ['b:1'], due, { newLimit: 0, dueLimit: 10 })[0].questionType).toBe('mc')
+    expect(buildQueue(p, ['b:1'], due, { newLimit: 0, dueLimit: 10, spotCheckLimit: 0 })[0].questionType).toBe('mc')
     // 再答對兩次 → streak 3 → 填空
     p = recordReview(p, 'b:1', true, due, TZ)
     p = recordReview(p, 'b:1', true, due, TZ)
     due = new Date(new Date(p.cards['b:1'].due).getTime() + 1000)
-    expect(buildQueue(p, ['b:1'], due, { newLimit: 0, dueLimit: 10 })[0].questionType).toBe('cloze')
+    expect(buildQueue(p, ['b:1'], due, { newLimit: 0, dueLimit: 10, spotCheckLimit: 0 })[0].questionType).toBe('cloze')
   })
 })
 

@@ -1,6 +1,6 @@
 import { scheduler } from '@/lib/learning/scheduler'
 import { grade, MASTERY_THRESHOLD } from '@/lib/learning/grading'
-import { pickQuestionType, type QuestionType } from '@/lib/learning/question'
+import { pickQuestionType, sample, type QuestionType } from '@/lib/learning/question'
 import { todayYmd, daysBetween } from '@/lib/gamification/date'
 import type { CardState } from '@/lib/learning/types'
 import type { NotebookEntry, PassageResultEntry } from './reading'
@@ -168,17 +168,20 @@ export interface QueueItem {
   wordId: string
   questionType: QuestionType
   isNew: boolean
+  /** 記憶抽考：已精熟的字隨機抽問，確認沒有悄悄忘掉。 */
+  isSpotCheck: boolean
 }
 
 /**
- * 組出這次要複習的題目佇列：先到期的舊卡，再補沒學過的新卡。
+ * 組出這次要複習的題目佇列：到期的舊卡 → 沒學過的新卡 → 已精熟的記憶抽考。
  * 取代原本 buildSession 的三個 DB 查詢——這裡資料都在記憶體，直接篩。
  */
 export function buildQueue(
   p: Progress,
   wordIds: string[],
   now: Date,
-  limits: { newLimit: number; dueLimit: number },
+  limits: { newLimit: number; dueLimit: number; spotCheckLimit: number },
+  rng?: () => number,
 ): QueueItem[] {
   const due: QueueItem[] = []
   const fresh: QueueItem[] = []
@@ -187,14 +190,26 @@ export function buildQueue(
     const card = p.cards[id]
     if (!card) {
       // 新字一律從選擇題開始。
-      if (fresh.length < limits.newLimit) fresh.push({ wordId: id, questionType: 'mc', isNew: true })
+      if (fresh.length < limits.newLimit) fresh.push({ wordId: id, questionType: 'mc', isNew: true, isSpotCheck: false })
       continue
     }
     if (new Date(card.due).getTime() <= now.getTime() && due.length < limits.dueLimit) {
-      due.push({ wordId: id, questionType: pickQuestionType(card.streak), isNew: false })
+      due.push({ wordId: id, questionType: pickQuestionType(card.streak), isNew: false, isSpotCheck: false })
     }
   }
-  return [...due, ...fresh]
+
+  // 記憶抽考：從「這次範圍內、已精熟、且不在本輪 due」的字隨機抽幾個，
+  // 一律用選擇題（目的是喚起記憶，不是為難）。
+  const inScope = new Set(wordIds)
+  const alreadyQueued = new Set(due.map((d) => d.wordId))
+  const masteredPool = p.mastered.filter((id) => inScope.has(id) && !alreadyQueued.has(id))
+  const spot = sample(masteredPool, limits.spotCheckLimit, rng)
+
+  return [
+    ...due,
+    ...fresh,
+    ...spot.map((id) => ({ wordId: id, questionType: 'mc' as QuestionType, isNew: false, isSpotCheck: true })),
+  ]
 }
 
 export function masteredCount(p: Progress, wordIds: string[]): number {

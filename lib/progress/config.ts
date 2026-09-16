@@ -4,3 +4,5 @@ export const TIMEZONE = 'Asia/Taipei'
 
 export const NEW_LIMIT = 20
 export const DUE_LIMIT = 100
+/** 每輪從已精熟的字隨機抽考幾個，確認沒有悄悄忘掉。 */
+export const SPOT_CHECK_LIMIT = 3

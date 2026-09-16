@@ -6,7 +6,7 @@ import { Mascot } from '@/components/ui/mascot'
 import { buildQuestion, sample } from '@/lib/learning/question'
 import { getWordById, listWordsByBook, listAllWords, listDefinitions } from '@/lib/content/static'
 import { loadProgress, buildQueue } from '@/lib/progress/store'
-import { NEW_LIMIT, DUE_LIMIT } from '@/lib/progress/config'
+import { NEW_LIMIT, DUE_LIMIT, SPOT_CHECK_LIMIT } from '@/lib/progress/config'
 
 /**
  * 佇列必須在瀏覽器端組——進度存在 localStorage，SSR/build 時讀不到。
@@ -23,6 +23,7 @@ export function LearnClient({ slug, bookName }: { slug: string; bookName: string
     const queue = buildQueue(loadProgress(), words.map((w) => w.id), new Date(), {
       newLimit: NEW_LIMIT,
       dueLimit: DUE_LIMIT,
+      spotCheckLimit: SPOT_CHECK_LIMIT,
     })
 
     const needsMc = queue.some((q) => q.questionType === 'mc')
@@ -37,7 +38,7 @@ export function LearnClient({ slug, bookName }: { slug: string; bookName: string
         : []
       next.push({
         question: buildQuestion(word, q.questionType, distractors),
-        isSpotCheck: false,
+        isSpotCheck: q.isSpotCheck,
       })
     }
     return next
