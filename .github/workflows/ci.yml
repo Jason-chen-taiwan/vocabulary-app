@@ -1,0 +1,43 @@
+name: CI
+
+# 部署由 Cloudflare Pages 直接接 GitHub 處理（build: npm run build，輸出 out/），
+# 這裡只跑測試與建置檢查，不碰部署。
+#
+# 舊的 deploy.yml（OpenNext + Prisma + wrangler deploy 到 Workers）已移除：
+# 靜態化之後沒有 Worker、沒有資料庫，那份流程每次都會失敗。
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch: {}
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # .npmrc 已設 legacy-peer-deps（繞過 npm 11 解析 vitest peer deps 的 bug）
+      - run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Test
+        run: npm test
+
+      - name: Content check
+        run: npm run check-content
+
+      - name: Build
+        run: npm run build
